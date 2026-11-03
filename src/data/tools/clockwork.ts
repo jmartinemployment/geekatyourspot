@@ -16,7 +16,7 @@ export const clockworkContent: ToolPageContent = {
   "heroSummary":
     "Automate your spreadsheet data with Clockwork to streamline cash flow forecasting and financial modeling.",
   "keywords":
-    "Clockwork, automated spreadsheet data, cash flow forecasting, accounting integrations, ledger write-back, what-if scenarios, Mira AI, data privacy, approval chains, routing, automation logic, financial forecasting tools",
+    "Clockwork, AI spreadsheet data, cash flow forecasting, accounting integrations, ledger write-back, what-if scenarios, Mira AI, data privacy, approval chains, routing, automation logic, financial forecasting tools",
   "datePublished": "2026-10-11T17:23:52.0000000Z",
   "dateModified": "2026-10-11T17:23:52.0000000Z",
   "relatedArticleId":
@@ -24,7 +24,7 @@ export const clockworkContent: ToolPageContent = {
   "sections": [
     { "title": "Overview", "description": "Every month, small business owners and fractional CFOs find themselves buried in a \"spreadsheet sandbox,\" manually coding formulas, building three-statement structures, and cleaning ledger data." },
     { "title": "The Cost of Manual Spreadsheet Management", "description": "In the world of small business finance, manual spreadsheet management is a significant drain on resources." },
-    { "title": "How Clockwork Transforms Automated Spreadsheet Data", "description": "Clockwork revolutionizes the way small businesses handle financial forecasting by automating what once required hours of manual work." },
+    { "title": "How Clockwork Transforms AI Spreadsheet Data", "description": "Clockwork revolutionizes the way small businesses handle financial forecasting by automating what once required hours of manual work." },
     { "title": "How Clockwork Operates: Step by Step", "description": "Clockwork operates by automating the financial forecasting process, transforming how small businesses manage their cash flow. At its core, Clockwork pulls data directly from your existing financial systems like QuickBooks or Xero." },
     { "title": "Clockwork's Architecture and Integrations", "description": "Clockwork's architecture is designed to seamlessly integrate with existing financial systems, ensuring that data flows smoothly and accurately." },
     { "title": "Streamlined Go-Live Process with Clockwork", "description": "Going live with Clockwork is designed to be swift and seamless, minimizing disruption to your existing operations." },

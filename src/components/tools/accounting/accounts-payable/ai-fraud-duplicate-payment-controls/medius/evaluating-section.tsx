@@ -3,7 +3,7 @@ export default function EvaluatingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        When considering Medius for Automated Fraud &amp; Duplicate Payment Controls, small businesses in
+        When considering Medius for AI Fraud &amp; Duplicate Payment Controls, small businesses in
         Miami-Dade, Broward, and West Palm Beach counties should focus on how the platform aligns with their
         specific needs. Medius offers a comprehensive solution that integrates seamlessly with existing
         systems, making it a strong contender for businesses seeking to enhance their&nbsp;
@@ -26,7 +26,7 @@ export default function EvaluatingSection() {
         When evaluating Medius, businesses should also consider the platform&#39;s integration capabilities.
         Medius is designed to work with existing&nbsp;ERP&nbsp;systems,
         reducing the need for extensive overhauls or disruptions to current workflows. This integration
-        ensures that businesses can implement Automated Fraud &amp; Duplicate Payment Controls without
+        ensures that businesses can implement AI Fraud &amp; Duplicate Payment Controls without
         significant downtime or additional infrastructure costs.</p>
       <p className="text-base text-white shadow-text pt-3">
         Furthermore, Medius offers a robust set of features tailored to enhance fraud detection and payment
@@ -47,8 +47,8 @@ export default function EvaluatingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-medius-for-automated-fraud-duplicate-payment-controls">
-                Evaluating Medius for Automated Fraud &amp; Duplicate Payment Controls
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-medius-for-ai-fraud-duplicate-payment-controls">
+                Evaluating Medius for AI Fraud &amp; Duplicate Payment Controls
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
@@ -60,8 +60,8 @@ export default function EvaluatingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-medius-for-automated-fraud-duplicate-payment-controls-lg">
-                Evaluating Medius for Automated Fraud &amp; Duplicate Payment Controls
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-medius-for-ai-fraud-duplicate-payment-controls-lg">
+                Evaluating Medius for AI Fraud &amp; Duplicate Payment Controls
               </h2>
               {body}
             </div>

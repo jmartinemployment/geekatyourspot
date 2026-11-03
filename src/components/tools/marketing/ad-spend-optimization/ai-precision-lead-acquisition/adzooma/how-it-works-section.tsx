@@ -26,7 +26,7 @@ export default function HowItWorksSection() {
       <p className="text-base text-white shadow-text pt-3">
         The platform&rsquo;s automation layer goes beyond alerts. You can set up custom rules, like pausing ads that
         fall below a set performance threshold or sending an alert if daily spend spikes. Alerts can be delivered by
-        email or Slack, and monitoring can run as often as every 15 minutes, depending on your plan (<a id={`tools-marketing-precision-lead-acquisition-adzooma-how-it-works-source-adzooma-com${idSuffix}`} href="https://adzooma.com/product/automated-ppc-alerts/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Adzooma</a>,
+        email or Slack, and monitoring can run as often as every 15 minutes, depending on your plan (<a id={`tools-marketing-ai-precision-lead-acquisition-adzooma-how-it-works-source-adzooma-com${idSuffix}`} href="https://adzooma.com/product/automated-ppc-alerts/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Adzooma</a>,
         as of Oct 23, 2026). Automated rules help you eliminate tedious manual checks and keep control over what gets
         changed and when. Adzooma&rsquo;s batch actions let you queue up multiple fixes and apply them all at once,
         reducing the time spent on repetitive tasks.</p>

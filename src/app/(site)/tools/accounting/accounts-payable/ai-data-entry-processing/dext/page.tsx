@@ -13,7 +13,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Dext";
-const PAGE_TITLE = "Dext for Intelligent Data Entry & Processing";
+const PAGE_TITLE = "Dext for AI Data Entry & Processing";
 const DESCRIPTION =
     "Dext automates data capture, extraction, and categorization from receipts, bills, and invoices, structuring records with over 99% accuracy.";
 const CANONICAL = "/tools/accounting/accounts-payable/ai-data-entry-processing/dext";

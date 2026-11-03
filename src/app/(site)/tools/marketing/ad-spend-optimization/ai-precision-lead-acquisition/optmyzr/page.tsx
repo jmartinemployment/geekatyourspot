@@ -18,7 +18,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Optmyzr";
-const PAGE_TITLE = "Optmyzr for Precision Lead Acquisition";
+const PAGE_TITLE = "Optmyzr for AI Precision Lead Acquisition";
 const DESCRIPTION =
     "Ad Spend Optimization with Optmyzr links your ad budget to sales, automates waste checks, and helps small businesses in South Florida cut wasted spend fast.";
 const CANONICAL = "/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/optmyzr";
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Optmyzr, precision lead acquisition, ad spend optimization, local advertising, lead generation, South Florida small business",
+            "keywords": "Optmyzr, AI precision lead acquisition, ad spend optimization, local advertising, lead generation, South Florida small business",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-30T11:33:57.5597280Z",
@@ -104,7 +104,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Optmyzr", "precision lead acquisition", "ad spend optimization", "local advertising", "lead generation", "South Florida small business"],
+        keywords: ["Optmyzr", "AI precision lead acquisition", "ad spend optimization", "local advertising", "lead generation", "South Florida small business"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

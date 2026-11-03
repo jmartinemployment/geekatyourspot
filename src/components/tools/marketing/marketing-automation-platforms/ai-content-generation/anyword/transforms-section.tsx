@@ -4,7 +4,7 @@ export default function TransformsSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Anyword tackles the pain points of Intelligent Content Generation by automating the hardest parts of
+        Anyword tackles the pain points of AI Content Generation by automating the hardest parts of
         the process. For a small business, this means no more staring at a blank screen or guessing which
         message will work. Anyword generates high-quality content for blogs, emails, ads, and social posts in
         seconds, not hours. The platform draws on data from millions of marketing campaigns to predict which
@@ -64,7 +64,7 @@ export default function TransformsSection() {
         See how leading marketing teams use Anyword to generate, test, and publish content that actually
         performs.</blockquote>
       <p className="text-base text-white shadow-text pt-3">
-        With Anyword, Intelligent Content Generation is not just faster, it is smarter. Every feature is
+        With Anyword, AI Content Generation is not just faster, it is smarter. Every feature is
         designed to remove a manual step or a source of error. You stop paying for ads that don’t convert, you
         stop losing leads because your content is stale, and you stop burning hours on work that can be
         automated. For small businesses in South Florida, this is the difference between falling behind and
@@ -80,8 +80,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-anyword-removes-the-headaches-from-intelligent-content-generation" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How Anyword Removes the Headaches from Intelligent Content Generation
+              <h2 id="how-anyword-removes-the-headaches-from-ai-content-generation" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How Anyword Removes the Headaches from AI Content Generation
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
@@ -93,8 +93,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-anyword-removes-the-headaches-from-intelligent-content-generation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How Anyword Removes the Headaches from Intelligent Content Generation
+              <h2 id="how-anyword-removes-the-headaches-from-ai-content-generation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How Anyword Removes the Headaches from AI Content Generation
               </h2>
               {body}
             </div>

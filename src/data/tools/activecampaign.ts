@@ -12,7 +12,7 @@ export const activecampaignContent: ToolPageContent = {
   "department": "marketing",
   "useCase": "marketing-automation-platforms/ai-personalized-email-campaigns",
   "description":
-    "Personalized Email Campaigns with ActiveCampaign increase response rates and save hours weekly for Miami-area small businesses. Start automating today.",
+    "AI Personalized Email Campaigns with ActiveCampaign increase response rates and save hours weekly for Miami-area small businesses. Start automating today.",
   "heroSummary":
     "ActiveCampaign brings AI-powered automation to personalized email campaigns, helping South Florida small businesses engage leads and customers more effectively while saving time.",
   "keywords":
@@ -24,7 +24,7 @@ export const activecampaignContent: ToolPageContent = {
   "sections": [
     {"title": "Overview", "description": "Why do so many small businesses in South Florida struggle to make their emails stand out, despite their best intentions and all the tools at hand?"},
     {"title": "What it costs to keep doing this by hand", "description": "Manual personalized email campaigns drain time, cause missed leads, and frustrate small teams."},
-    {"title": "How ActiveCampaign removes the manual work from Personalized Email Campaigns", "description": "ActiveCampaign eliminates the need for manual segmentation, follow-up, and list management by connecting sales, marketing, and customer data in one place."},
+    {"title": "How ActiveCampaign removes the manual work from AI Personalized Email Campaigns", "description": "ActiveCampaign eliminates the need for manual segmentation, follow-up, and list management by connecting sales, marketing, and customer data in one place."},
     {"title": "Step-by-step mechanics of ActiveCampaign’s automation engine", "description": "ActiveCampaign automates personalized follow-up by pulling together CRM, e-commerce, and engagement data to trigger the right message at the right time."},
     {"title": "ActiveCampaign’s system architecture and integrations for real-time personalization", "description": "ActiveCampaign is built as a unified platform that brings together CRM, marketing automation, and reporting tools, with a focus on connecting all customer data in one place."},
     {"title": "What going live with ActiveCampaign actually looks like for a small business and what shaves weeks off the timeline", "description": "Launching ActiveCampaign in a small business environment means connecting your sales, marketing, and customer data so that personalized email campaigns run with less manual effort and fewer missed leads."},

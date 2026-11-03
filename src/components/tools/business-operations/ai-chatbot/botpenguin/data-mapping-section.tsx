@@ -3,7 +3,7 @@ export default function DataMappingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Deploying BotPenguin as your cross-platform chatbot means making a few key decisions about how your
+        Deploying BotPenguin as your AI chatbot means making a few key decisions about how your
         customer data flows between channels, the chatbot, and
         your&nbsp;CRM&nbsp;or sales database. These choices are not
         just technical, they shape how quickly your team can follow up, what context you have on each lead,

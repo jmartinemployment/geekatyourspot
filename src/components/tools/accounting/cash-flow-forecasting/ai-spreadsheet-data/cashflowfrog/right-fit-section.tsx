@@ -5,7 +5,7 @@ export default function RightFitSection() {
       <p className="text-base text-white shadow-text pt-3">
         Cashflowfrog is particularly suited for small to medium-sized businesses in Miami-Dade, Broward, and West
         Palm Beach counties looking to enhance their&nbsp;cash flow
-        forecasting&nbsp;with automated spreadsheet data. It is ideal for business owners who need
+        forecasting&nbsp;with AI spreadsheet data. It is ideal for business owners who need
         detailed insights into their cash flow, allowing them to make informed decisions quickly. Companies that
         operate in dynamic environments where financial conditions can change rapidly will find Cashflowfrog&#39;s
         real-time updates and scenario modeling invaluable.</p>
@@ -46,7 +46,7 @@ export default function RightFitSection() {
         <li>What is the single biggest risk to your business if your cash flow forecast is inaccurate next month?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
-        Cashflowfrog’s case is granularity, and our post <Link id={`tools-accounting-cash-flow-forecasting-automated-spreadsheet-data-cashflowfrog-xlink-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/how-automated-spreadsheet-data-transforms-cash-flow-forecasting" className="text-[#C83803] hover:underline">Automated Spreadsheets for Cash Flow</Link> shows what that buys: a forecast broken down by class, location and project that tells you which part of the business is strongest and which is lagging, plus the chart-of-accounts mapping that has to be consistent before any of that segmentation means anything. The post is equally clear that a business with a simple structure and low transaction volume may spend more learning a tool than it saves, which is the same line this page draws. The data review and the KPI setting in our <Link id={`tools-accounting-cash-flow-forecasting-automated-spreadsheet-data-cashflowfrog-xlink-pillar${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data" className="text-[#C83803] hover:underline">AI Spreadsheet Data</Link> guide are how we decide which side of that line you fall on.</p>
+        Cashflowfrog’s case is granularity, and our post <Link id={`tools-accounting-cash-flow-forecasting-ai-spreadsheet-data-cashflowfrog-xlink-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/how-automated-spreadsheet-data-transforms-cash-flow-forecasting" className="text-[#C83803] hover:underline">Automated Spreadsheets for Cash Flow</Link> shows what that buys: a forecast broken down by class, location and project that tells you which part of the business is strongest and which is lagging, plus the chart-of-accounts mapping that has to be consistent before any of that segmentation means anything. The post is equally clear that a business with a simple structure and low transaction volume may spend more learning a tool than it saves, which is the same line this page draws. The data review and the KPI setting in our <Link id={`tools-accounting-cash-flow-forecasting-ai-spreadsheet-data-cashflowfrog-xlink-pillar${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data" className="text-[#C83803] hover:underline">AI Spreadsheet Data</Link> guide are how we decide which side of that line you fall on.</p>
     </>
   );
 

@@ -21,7 +21,7 @@ export default function RightFitSection() {
         per week, needs deep analytics, or requires granular workflow management and multi-level approvals,
         you will quickly run into its limits. Rytr is not a campaign management
         or&nbsp;CRM&nbsp;tool. It does not handle ad spend, reporting,
-        or multi-step automation beyond intelligent content generation. For a larger team with specialized
+        or multi-step automation beyond AI content generation. For a larger team with specialized
         roles, or for an agency managing multiple brands at scale, platforms like Jasper or Writesonic may be
         a better fit. These tools offer more integrations, deeper customization, and support for enterprise
         workflows, but at a much higher price and with a steeper learning curve.</p>
@@ -53,7 +53,7 @@ export default function RightFitSection() {
         product updates done in a single sitting, with no agency invoice waiting at the end of the week.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<a href="#consultationAppointment2xl" id={`tools-marketing-intelligent-content-generation-rytr-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
+        when&nbsp;<a href="#consultationAppointment2xl" id={`tools-marketing-ai-content-generation-rytr-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Walk me through your current process from a raw marketing idea to a published asset, who writes it, who reviews it, and how many different systems or documents do they switch between?</li>
@@ -72,7 +72,7 @@ export default function RightFitSection() {
         <li>What are you currently spending on external copywriters, content agencies, or specialized software tools that this implementation could potentially consolidate or replace?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
-        Our post <Link id={`tools-marketing-content-creation-workflow-intelligent-content-generation-rytr-xlink-blog${idSuffix}`} href="/blog/marketing/marketing-automation-platforms/intelligent-content-generation-for-miami-how-to-save-time-and-scale-without-extra-hires" className="text-[#C83803] hover:underline">Content Generation Without New Hires</Link> examines Rytr’s claim of over 50 hours and $1,000 saved each month, tied to its 25,000-word limit and templates for Google Business Profile, Instagram, product listings and follow-ups in Spanish and Haitian Creole, and it is explicit about what Rytr does not do: automate strategy or campaign planning. It also suggests Rytr as the pilot tool for micro-content, one process measured before anything scales. The objectives phase in our <Link id={`tools-marketing-content-creation-workflow-intelligent-content-generation-rytr-xlink-pillar${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-generation" className="text-[#C83803] hover:underline">AI Content Generation</Link> guide, where you decide whether two posts a month or a daily calendar is the goal, is what tells a solo owner whether Rytr’s scope is enough.</p>
+        Our post <Link id={`tools-marketing-marketing-automation-platforms-ai-content-generation-rytr-xlink-blog${idSuffix}`} href="/blog/marketing/marketing-automation-platforms/intelligent-content-generation-for-miami-how-to-save-time-and-scale-without-extra-hires" className="text-[#C83803] hover:underline">Content Generation Without New Hires</Link> examines Rytr’s claim of over 50 hours and $1,000 saved each month, tied to its 25,000-word limit and templates for Google Business Profile, Instagram, product listings and follow-ups in Spanish and Haitian Creole, and it is explicit about what Rytr does not do: automate strategy or campaign planning. It also suggests Rytr as the pilot tool for micro-content, one process measured before anything scales. The objectives phase in our <Link id={`tools-marketing-marketing-automation-platforms-ai-content-generation-rytr-xlink-pillar${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-generation" className="text-[#C83803] hover:underline">AI Content Generation</Link> guide, where you decide whether two posts a month or a daily calendar is the goal, is what tells a solo owner whether Rytr’s scope is enough.</p>
     </>
   );
 

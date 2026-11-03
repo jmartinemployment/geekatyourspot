@@ -6,7 +6,7 @@ export default function ImplementingSection() {
       <p className="text-base text-white shadow-text pt-3">
         Implementing Chaserhq in a small business environment doesn&#39;t have to be a lengthy or complicated
         process. With pre-built connectors and a templated setup, Chaserhq streamlines the transition from manual to
-        automated accounts receivable management. This efficiency is crucial for businesses in Miami-Dade, Broward,
+        AI accounts receivable management. This efficiency is crucial for businesses in Miami-Dade, Broward,
         and West Palm Beach counties, where time and resources are often limited.</p>
       <p className="text-base text-white shadow-text pt-3">
         The implementation process begins with a thorough assessment of the existing systems. Chaserhq integrates

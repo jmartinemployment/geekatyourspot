@@ -18,7 +18,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Upflow";
-const PAGE_TITLE = "Upflow for Intelligent Accounts Receivable";
+const PAGE_TITLE = "Upflow for AI Accounts Receivable";
 const DESCRIPTION =
     "Automate accounts receivable with Upflow for better cash flow in Miami-Dade, Broward, and West Palm Beach.";
 const CANONICAL = "/tools/accounting/cash-flow-forecasting/ai-accounts-receivable/upflow";
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Upflow, automated accounts receivable, cash flow forecasting, payment collection software, Stripe Billing integration, Billing Cohort Cash Forecast, Promises-to-Pay, dispute management, payment portal, native integrations, automated customer emails, live forecasting data",
+            "keywords": "Upflow, AI accounts receivable, cash flow forecasting, payment collection software, Stripe Billing integration, Billing Cohort Cash Forecast, Promises-to-Pay, dispute management, payment portal, native integrations, automated customer emails, live forecasting data",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -69,7 +69,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Upflow", "automated accounts receivable", "cash flow forecasting", "payment collection software", "Stripe Billing integration", "Billing Cohort Cash Forecast"],
+        keywords: ["Upflow", "AI accounts receivable", "cash flow forecasting", "payment collection software", "Stripe Billing integration", "Billing Cohort Cash Forecast"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

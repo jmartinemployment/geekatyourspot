@@ -67,7 +67,7 @@ export default function TransformsSection() {
         The end result for the team in Miami-Dade is clear: less time spent on manual planning, drafting, and
         approvals, and more time growing the business. The stress of content chaos disappears. The brand shows
         up consistently, with posts that land at the right time, on the right channel, and in the right voice.
-        Intelligent Content Planning with Hootsuite means your marketing runs on data and automation, not on
+        AI Content Planning with Hootsuite means your marketing runs on data and automation, not on
         luck or last-minute guesses.</p>
     </>
   );
@@ -79,8 +79,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-hootsuite-removes-the-manual-grind-from-intelligent-content-planning" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How Hootsuite Removes the Manual Grind from Intelligent Content Planning
+              <h2 id="how-hootsuite-removes-the-manual-grind-from-ai-content-planning" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How Hootsuite Removes the Manual Grind from AI Content Planning
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
@@ -92,8 +92,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-hootsuite-removes-the-manual-grind-from-intelligent-content-planning-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How Hootsuite Removes the Manual Grind from Intelligent Content Planning
+              <h2 id="how-hootsuite-removes-the-manual-grind-from-ai-content-planning-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How Hootsuite Removes the Manual Grind from AI Content Planning
               </h2>
               {body}
             </div>

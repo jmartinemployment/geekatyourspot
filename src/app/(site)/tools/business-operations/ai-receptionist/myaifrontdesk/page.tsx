@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "My AI Front Desk";
-const PAGE_TITLE = "My AI Front Desk as an Intelligent Receptionist";
+const PAGE_TITLE = "My AI Front Desk as an AI Receptionist";
 const DESCRIPTION =
-    "Intelligent Receptionist My AI Front Desk helps small businesses in Miami-Dade, Broward, and Palm Beach capture every lead and book more appointments.";
+    "AI Receptionist My AI Front Desk helps small businesses in Miami-Dade, Broward, and Palm Beach capture every lead and book more appointments.";
 const CANONICAL = "/tools/business-operations/ai-receptionist/myaifrontdesk";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "My AI Front Desk, intelligent receptionist, AI receptionist, lead capture, missed calls, call answering, South Florida small business",
+            "keywords": "My AI Front Desk, AI receptionist, lead capture, missed calls, call answering, South Florida small business",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -63,7 +63,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["My AI Front Desk", "intelligent receptionist", "AI receptionist", "lead capture", "missed calls", "call answering", "South Florida small business"],
+        keywords: ["My AI Front Desk", "AI receptionist", "lead capture", "missed calls", "call answering", "South Florida small business"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
@@ -97,7 +97,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page() {
     const heroSummary =
-        "My AI Front Desk is an Intelligent Receptionist designed for South Florida small businesses, ensuring every call is answered, leads are captured, and appointments are booked without missing a beat.";
+        "My AI Front Desk is an AI Receptionist designed for South Florida small businesses, ensuring every call is answered, leads are captured, and appointments are booked without missing a beat.";
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />

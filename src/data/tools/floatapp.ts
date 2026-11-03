@@ -14,9 +14,9 @@ export const floatappContent: ToolPageContent = {
   "description":
     "Floatapp automates cash flow forecasting for South Florida businesses, ensuring accurate, real-time financial insights.",
   "heroSummary":
-    "Transform your cash flow management with Floatapp's automated spreadsheet data, tailored for small businesses in South Florida.",
+    "Transform your cash flow management with Floatapp's AI spreadsheet data, tailored for small businesses in South Florida.",
   "keywords":
-    "Floatapp, automated spreadsheet data, cash flow forecasting, Xero integration, bank integrations, data sync, budgets and actuals, Excel budget import, Cash-Only design, forecasting timelines, what-if scenarios, multi-entity consolidation",
+    "Floatapp, AI spreadsheet data, cash flow forecasting, Xero integration, bank integrations, data sync, budgets and actuals, Excel budget import, Cash-Only design, forecasting timelines, what-if scenarios, multi-entity consolidation",
   "datePublished": "2026-10-11T17:23:52.0000000Z",
   "dateModified": "2026-10-11T17:23:52.0000000Z",
   "relatedArticleId":
@@ -24,7 +24,7 @@ export const floatappContent: ToolPageContent = {
   "sections": [
     { "title": "Overview", "description": "In the heart of Miami's bustling business district, a small retail store owner, Maria, sits at her desk, staring at a spreadsheet filled with daunting numbers." },
     { "title": "The Cost of Manual Spreadsheet Data Management", "description": "Maria's situation is not unique. Many small business owners in West Palm Beach, Broward, and Miami-Dade counties face the same challenges with manual spreadsheet management." },
-    { "title": "How Floatapp Transforms Automated Spreadsheet Data Management", "description": "Floatapp revolutionizes the way small businesses manage their cash flow by automating processes that were once manual and error-prone." },
+    { "title": "How Floatapp Transforms AI Spreadsheet Data Management", "description": "Floatapp revolutionizes the way small businesses manage their cash flow by automating processes that were once manual and error-prone." },
     { "title": "How Floatapp Works: The Mechanics of Real-Time Cash Flow Forecasting", "description": "Floatapp operates by integrating directly with your existing accounting platforms, such as Xero and QuickBooks Online. It imports data every 24 hours, ensuring your cash flow forecasts are always based on the latest information." },
     { "title": "The Architecture of Floatapp: Integrations and Data Management", "description": "Floatapp's architecture is designed to seamlessly integrate with leading accounting platforms like Xero and QuickBooks Online." },
     { "title": "Streamlining Implementation: Going Live with Floatapp", "description": "Implementing Floatapp into an existing business environment involves a streamlined process that minimizes disruption and accelerates the time to value." },

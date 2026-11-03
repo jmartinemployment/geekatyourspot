@@ -9,7 +9,7 @@ export default function ChallengesSection() {
         transactions, more hands in the books, and more places for errors to hide. Every month, the close drags
         out, and the numbers are never quite right. This is not just a nuisance, it is a real drag on growth.</p>
       <p className="text-base text-white shadow-text pt-3">
-        The cost of manual Intelligent Resource Planning shows up everywhere. First, there is the time: hours
+        The cost of manual Resource Planning shows up everywhere. First, there is the time: hours
         lost to copying figures between files, reformatting data, fixing broken formulas, and chasing approvals
         through email. A single error in a spreadsheet can throw off cash flow projections for weeks, leading to
         missed payments or payroll surprises. Without live numbers, decisions are made on guesswork, not facts.
@@ -17,7 +17,7 @@ export default function ChallengesSection() {
         because nobody else trusts the numbers. The risk is not just financial, it is operational. If the one
         person who knows how the old system works is out sick, the whole back office can grind to a halt.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Manual Intelligent Resource Planning breaks down in predictable ways as a business grows. Reporting
+        Manual Resource Planning breaks down in predictable ways as a business grows. Reporting
         becomes a patchwork: to get a full picture, someone has to export data from one system, paste it into
         another, and hope the columns line up. Each step opens the door to mistakes. Approvals slow down because
         the right person is not always copied on the right thread. Sensitive information like payroll or bank
@@ -49,7 +49,7 @@ export default function ChallengesSection() {
         growth opportunities, and sleepless nights. The fear of moving to a
         &quot;big&quot;&nbsp;ERP&nbsp;keeps many stuck in this cycle,
         worried about the cost and disruption of change. But the longer the status quo holds, the more it costs,
-        in time, in money, and in peace of mind. Intelligent Resource Planning done by hand is not just
+        in time, in money, and in peace of mind. AI Resource Planning done by hand is not just
         inefficient; it is a roadblock to growth.</p>
     </>
   );

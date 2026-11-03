@@ -18,7 +18,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Dryrun";
-const PAGE_TITLE = "Dryrun for Intelligent Spreadsheet Data";
+const PAGE_TITLE = "Dryrun for AI Spreadsheet Data";
 const DESCRIPTION =
     "Automate cash flow forecasting with Dryrun for accurate, real-time insights in South Florida.";
 const CANONICAL = "/tools/accounting/cash-flow-forecasting/ai-spreadsheet-data/dryrun";
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Dryrun, automated spreadsheet data, cash flow forecasting, accounting integrations, complex corporate structures, multi-currency, what-if scenarios, CRM sync, forecasting horizons, overdue invoices, multi-user collaboration, presentation-ready reports",
+            "keywords": "Dryrun, AI spreadsheet data, cash flow forecasting, accounting integrations, complex corporate structures, multi-currency, what-if scenarios, CRM sync, forecasting horizons, overdue invoices, multi-user collaboration, presentation-ready reports",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -64,7 +64,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Dryrun", "automated spreadsheet data", "cash flow forecasting", "accounting integrations", "complex corporate structures", "multi-currency"],
+        keywords: ["Dryrun", "AI spreadsheet data", "cash flow forecasting", "accounting integrations", "complex corporate structures", "multi-currency"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

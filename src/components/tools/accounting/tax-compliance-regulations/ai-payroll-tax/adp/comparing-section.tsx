@@ -7,7 +7,7 @@ export default function ComparingSection() {
         Small businesses in South Florida weighing ADP for payroll tax and worker classification face a crowded
         field. The most common alternatives are entry-level accounting apps, manual spreadsheets, and other
         payroll providers
-        like&nbsp;<Link id={`tools-accounting-payroll-tax-worker-misclassification-adp-comparing-gusto${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/ai-payroll-tax/gusto" className="text-[#0B162A] hover:underline">Gusto</Link>&nbsp;or&nbsp;<Link id={`tools-accounting-payroll-tax-worker-misclassification-adp-comparing-deel${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/ai-payroll-tax/deel" className="text-[#0B162A] hover:underline">Deel</Link>.
+        like&nbsp;<Link id={`tools-accounting-ai-payroll-tax-adp-comparing-gusto${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/ai-payroll-tax/gusto" className="text-[#0B162A] hover:underline">Gusto</Link>&nbsp;or&nbsp;<Link id={`tools-accounting-ai-payroll-tax-adp-comparing-deel${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/ai-payroll-tax/deel" className="text-[#0B162A] hover:underline">Deel</Link>.
         Each path claims to solve the same problem: keeping you compliant and out of trouble with regulators.
         But the differences show up fast when you have to run payroll for both W-2 employees and 1099
         contractors, track overtime, and manage multi-state filings without a dedicated HR team.</p>

@@ -12,8 +12,8 @@ export default function ComparingSection() {
         the parts of personalized email campaigns that drive engagement and conversions, without adding complexity
         that stalls a small team.</p>
       <p className="text-base text-white shadow-text pt-3">
-        In the local market, buyers often weigh Brevo against platforms like <Link id={`tools-marketing-personalized-email-campaigns-brevo-comparing-mailchimp${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailchimp" className="text-[#0B162A] hover:underline">Mailchimp</Link>,
-        Klaviyo, and <Link id={`tools-marketing-personalized-email-campaigns-brevo-comparing-activecampaign${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/activecampaign" className="text-[#0B162A] hover:underline">ActiveCampaign</Link>.
+        In the local market, buyers often weigh Brevo against platforms like <Link id={`tools-marketing-ai-personalized-email-campaigns-brevo-comparing-mailchimp${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailchimp" className="text-[#0B162A] hover:underline">Mailchimp</Link>,
+        Klaviyo, and <Link id={`tools-marketing-ai-personalized-email-campaigns-brevo-comparing-activecampaign${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/activecampaign" className="text-[#0B162A] hover:underline">ActiveCampaign</Link>.
         Each has its own strengths, but the tradeoffs are clear when you look at what matters for a small team.
         Mailchimp is well known for its ease of use and broad template library, but it quickly gets expensive as
         your list grows and limits automation on lower tiers. Klaviyo leads on ecommerce-specific features and deep
@@ -22,12 +22,12 @@ export default function ComparingSection() {
         management often require more technical skill and time than a small business can spare.</p>
       <p className="text-base text-white shadow-text pt-3">
         Brevo’s approach is different. The free plan includes up to 9,000 emails per month (capped at 300 per day)
-        and supports unlimited automation workflows for up to 2,000 contacts (<a id={`tools-marketing-personalized-email-campaigns-brevo-comparing-source-brevo-com${idSuffix}`} href="https://www.brevo.com/all-wp-components/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Brevo</a>,
+        and supports unlimited automation workflows for up to 2,000 contacts (<a id={`tools-marketing-ai-personalized-email-campaigns-brevo-comparing-source-brevo-com${idSuffix}`} href="https://www.brevo.com/all-wp-components/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Brevo</a>,
         as of Oct 26, 2026). This makes it possible for even a lean team to set up triggered campaigns, segment by
         behavior or demographics, and schedule delivery for when recipients are most likely to open, without paying
         a premium or hiring a specialist. Paid plans start at $9 per month, which lifts the daily cap and adds more
         sending volume, and the standard tier at $18 adds advanced features like A/B testing and send-time
-        optimization (<a id={`tools-marketing-personalized-email-campaigns-brevo-comparing-source-brevo-com-2${idSuffix}`} href="https://www.brevo.com/blog/b2b-marketing-automation/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Brevo</a>,
+        optimization (<a id={`tools-marketing-ai-personalized-email-campaigns-brevo-comparing-source-brevo-com-2${idSuffix}`} href="https://www.brevo.com/blog/b2b-marketing-automation/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Brevo</a>,
         as of Oct 26, 2026). This pricing structure means a small business can start with real automation and scale
         up only when needed, not before.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -39,7 +39,7 @@ export default function ComparingSection() {
         reflect real customer behavior and preferences, which is what drives higher open and <GlossaryLink slug="click-through-rate" className="text-[#0B162A] hover:underline">click
         rates</GlossaryLink>. AMS, for example, saw a 15% increase in open rates after switching to Brevo’s
         send-at-best-time function, a result that speaks to the impact of matching delivery to the recipient’s
-        habits rather than a fixed schedule (<a id={`tools-marketing-personalized-email-campaigns-brevo-comparing-source-brevo-com-3${idSuffix}`} href="https://www.brevo.com/blog/best-voip-services/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Brevo</a>,
+        habits rather than a fixed schedule (<a id={`tools-marketing-ai-personalized-email-campaigns-brevo-comparing-source-brevo-com-3${idSuffix}`} href="https://www.brevo.com/blog/best-voip-services/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Brevo</a>,
         as of Oct 26, 2026).</p>
       <p className="text-base text-white shadow-text pt-3">
         Brevo also addresses deliverability, which many small businesses overlook until it becomes a problem. Unlike
@@ -49,7 +49,7 @@ export default function ComparingSection() {
         reputation as you grow. For teams sending transactional or time-sensitive messages, like booking
         confirmations, reminders, or follow-ups, this reliability is critical. Kenya Airways, a high-volume sender,
         relies on Brevo’s transactional email API to deliver between 300,000 and 400,000 emails per month, a scale
-        that would expose any flaws in deliverability or automation (<a id={`tools-marketing-personalized-email-campaigns-brevo-comparing-source-brevo-com-4${idSuffix}`} href="https://www.brevo.com/success-stories/kenya-airways-success-story/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Brevo</a>,
+        that would expose any flaws in deliverability or automation (<a id={`tools-marketing-ai-personalized-email-campaigns-brevo-comparing-source-brevo-com-4${idSuffix}`} href="https://www.brevo.com/success-stories/kenya-airways-success-story/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Brevo</a>,
         as of Oct 26, 2026).</p>
       <p className="text-base text-white shadow-text pt-3">
         Brevo’s integrations and data handling are also tailored for teams that want to connect their marketing with

@@ -7,7 +7,7 @@ export default function RightFitSection() {
         Wask is best for small businesses in Miami-Dade, Broward, and Palm Beach that manage their own Google and Meta
         ad accounts and want automation without losing oversight. If your team spends more than five hours a week on
         campaign reviews, or your ad budget tops $5,000 a month, Wask&rsquo;s automation can return hours to your week
-        and cut wasted spend before it grows (<a id={`tools-marketing-precision-lead-acquisition-wask-right-fit-source-ad-automation${idSuffix}`} href="https://www.wask.co/digital-advertising/ad-automation" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Wask</a>,
+        and cut wasted spend before it grows (<a id={`tools-marketing-ai-precision-lead-acquisition-wask-right-fit-source-ad-automation${idSuffix}`} href="https://www.wask.co/digital-advertising/ad-automation" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Wask</a>,
         as of Oct 29, 2026). The tool is designed for teams that need to see exactly what budget is doing, catch issues
         early, and make changes fast, without hiring more staff or signing agency retainers.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -48,7 +48,7 @@ export default function RightFitSection() {
         return more time and budget than it costs. Where Wask fits, it delivers. Where it does not, the right move is to
         keep your options open and revisit automation when your complexity or spend justifies it.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Answer these questions when <a id={`tools-marketing-precision-lead-acquisition-wask-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        Answer these questions when <a id={`tools-marketing-ai-precision-lead-acquisition-wask-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>What do you sell, and what action should an ad produce, a phone call, appointment, quote request, store visit, or online purchase?</li>

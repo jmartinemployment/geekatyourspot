@@ -25,7 +25,7 @@ export default function ComparingSection() {
         maintain integrations over time. Tidio’s approach is different. Its drag-and-drop Flows builder lets
         non-technical users create sophisticated lead capture and support automations without touching code.
         You can use more than 40 templates to get started, then customize for your business as you go. For
-        most small businesses, that means you can launch a working, cross-platform chatbot in hours, not
+        most small businesses, that means you can launch a working, AI chatbot in hours, not
         weeks.</p>
       <p className="text-base text-white shadow-text pt-3">
         Where some competitors focus only on ticket deflection or basic Q&amp;A, Tidio’s Lyro AI agent is

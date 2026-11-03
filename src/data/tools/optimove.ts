@@ -6,7 +6,7 @@ export const optimoveContent: ToolPageContent = {
   "department": "marketing",
   "description": "Optimize ad spend with AI-driven insights from Optimove for better marketing ROI and efficiency.",
   "heroSummary": "Optimove leverages AI to optimize ad spend, targeting the right audience and maximizing ROI.",
-  "keywords": "Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
+  "keywords": "Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, AI data quality assessments",
   "datePublished": "2026-08-20T18:34:37.7765563Z",
   "dateModified": "2026-08-20T18:34:37.7765563Z",
   "relatedArticleId": "https://geekatyourspot.com/use-cases/marketing/ad-spend-optimization",
@@ -21,7 +21,7 @@ export const optimoveContent: ToolPageContent = {
       "@type": "WebPage",
       "@id": "https://geekatyourspot.com/tools/marketing/optimove"
     },
-    "keywords": "Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
+    "keywords": "Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, AI data quality assessments",
     "subjectOf": {
       "@type": "Article",
       "@id": "https://geekatyourspot.com/use-cases/marketing/ad-spend-optimization"

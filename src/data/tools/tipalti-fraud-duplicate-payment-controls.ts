@@ -16,15 +16,15 @@ export const tipaltiFraudDuplicatePaymentControlsContent: ToolPageContent = {
   "heroSummary":
     "Tipalti streamlines payment processes, reducing fraud and duplicate payments with advanced automation.",
   "keywords":
-    "Tipalti, automated fraud and duplicate payment controls, accounts payable automation, duplicate bill detection, fraud detection, supplier portal, global payments, ERP integration, compliance, AI implementation",
+    "Tipalti, AI fraud and duplicate payment controls, accounts payable automation, duplicate bill detection, fraud detection, supplier portal, global payments, ERP integration, compliance, AI implementation",
   "datePublished": "2026-10-09T12:48:41.4190450Z",
   "dateModified": "2026-10-09T12:48:41.4190450Z",
   "relatedArticleId":
     "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls",
   "sections": [
     { "title": "Overview", "description": "A towering pile of invoices in a small Miami-Dade office, each one a potential error, duplicate payment or fraudulent transaction; AI-driven controls flag anomalies and duplicates early so only legitimate transactions proceed." },
-    { "title": "The Cost of Manual Payment Processes in Automated Fraud & Duplicate Payment Controls", "description": "Vendor details keyed by hand from email, the same supplier invoice processed independently by each branch, and payment-detail changes that go uninvestigated; Tipalti secures the whole supplier-to-payment chain." },
-    { "title": "How Tipalti Transforms Automated Fraud & Duplicate Payment Controls", "description": "AI-driven detection flags duplicate invoices and anomalies early, a self-service supplier portal takes vendor data off the finance team, and ERP integration keeps records current." },
+    { "title": "The Cost of Manual Payment Processes in AI Fraud & Duplicate Payment Controls", "description": "Vendor details keyed by hand from email, the same supplier invoice processed independently by each branch, and payment-detail changes that go uninvestigated; Tipalti secures the whole supplier-to-payment chain." },
+    { "title": "How Tipalti Transforms AI Fraud & Duplicate Payment Controls", "description": "AI-driven detection flags duplicate invoices and anomalies early, a self-service supplier portal takes vendor data off the finance team, and ERP integration keeps records current." },
     { "title": "Tipalti's Architecture and Mechanics", "description": "The Tipalti AI Assistant, the Duplicate Bill Detection Agent, a self-service supplier portal and a Unified Global Infrastructure for cross-border payments in one platform." },
     { "title": "Implementing Tipalti in Your Business Environment", "description": "Data mapping, approval chains and routing logic, ERP and accounting integrations, training and a phased rollout, configured by Geek @ Your Spot LLC." },
     { "title": "Judging Tipalti: Fit and Pricing Considerations", "description": "Weigh total cost of ownership against savings from fewer errors, the Duplicate Bill Detection Agent, scalability and multi-currency compliance versus lower-cost platforms with less integration." },

@@ -47,14 +47,14 @@ export default function RightFitSection() {
         the better. If it does, you will see it in the hours you save, the consistency of your messaging, and
         the results of your next campaign. If it does not, you will know before you spend a dollar.</p>
       <p className="text-base text-white shadow-text pt-3">
-        The landscape for Intelligent Content Generation is crowded, but few platforms are built with the
+        The landscape for AI Content Generation is crowded, but few platforms are built with the
         realities of a small South Florida business in mind. Anyword is one of them. The teams that get the
         most from it are those who know what they need to say, want to say it more often, and cannot afford to
         waste time or budget on guesswork. For those teams, Anyword is not just another tool, it is the
         difference between falling behind and pulling ahead, one post at a time.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<a href="#consultationAppointment2xl" id={`tools-marketing-intelligent-content-generation-anyword-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
+        when&nbsp;<a href="#consultationAppointment2xl" id={`tools-marketing-ai-content-generation-anyword-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Walk me through your current process from a raw marketing idea to a published asset, who writes it, who reviews it, and how many different systems or documents do they switch between?</li>
@@ -73,7 +73,7 @@ export default function RightFitSection() {
         <li>What are you currently spending on external copywriters, content agencies, or specialized software tools that this implementation could potentially consolidate or replace?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
-        Our post <Link id={`tools-marketing-content-creation-workflow-intelligent-content-generation-anyword-xlink-blog${idSuffix}`} href="/blog/marketing/marketing-automation-platforms/intelligent-content-generation-for-miami-how-to-save-time-and-scale-without-extra-hires" className="text-[#C83803] hover:underline">Content Generation Without New Hires</Link> tests Anyword’s core claim, that it can predict which ad or email version will perform before you spend a dollar on clicks, using audience data, automated A/B tests and live engagement feedback, and it states the limit the vendor’s own case rests on: it optimizes what you already do and cannot make a weak offer or irrelevant campaign profitable. The post also notes that Anyword depends on current data, so old or scattered inputs only amplify the gaps. The objectives and data quality phases in our <Link id={`tools-marketing-content-creation-workflow-intelligent-content-generation-anyword-xlink-pillar${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-generation" className="text-[#C83803] hover:underline">AI Content Generation</Link> guide are where those audience segments get defined before scoring means anything.</p>
+        Our post <Link id={`tools-marketing-marketing-automation-platforms-ai-content-generation-anyword-xlink-blog${idSuffix}`} href="/blog/marketing/marketing-automation-platforms/intelligent-content-generation-for-miami-how-to-save-time-and-scale-without-extra-hires" className="text-[#C83803] hover:underline">Content Generation Without New Hires</Link> tests Anyword’s core claim, that it can predict which ad or email version will perform before you spend a dollar on clicks, using audience data, automated A/B tests and live engagement feedback, and it states the limit the vendor’s own case rests on: it optimizes what you already do and cannot make a weak offer or irrelevant campaign profitable. The post also notes that Anyword depends on current data, so old or scattered inputs only amplify the gaps. The objectives and data quality phases in our <Link id={`tools-marketing-marketing-automation-platforms-ai-content-generation-anyword-xlink-pillar${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-generation" className="text-[#C83803] hover:underline">AI Content Generation</Link> guide are where those audience segments get defined before scoring means anything.</p>
     </>
   );
 

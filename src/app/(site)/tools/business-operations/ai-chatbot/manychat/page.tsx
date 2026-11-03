@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Manychat";
-const PAGE_TITLE = "Manychat as a Cross-Platform Chatbot";
+const PAGE_TITLE = "Manychat as an AI Chatbot";
 const DESCRIPTION =
-    "Cross-Platform Chatbot Manychat helps small businesses unify chats and automate lead capture across Instagram, WhatsApp and Messenger in South Florida.";
+    "AI Chatbot Manychat helps small businesses unify chats and automate lead capture across Instagram, WhatsApp and Messenger in South Florida.";
 const CANONICAL = "/tools/business-operations/ai-chatbot/manychat";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Manychat, cross-platform chatbot, AI chatbot, lead capture, unified inbox, omnichannel messaging, South Florida small business",
+            "keywords": "Manychat, AI chatbot, lead capture, unified inbox, omnichannel messaging, South Florida small business",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -61,7 +61,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Manychat", "cross-platform chatbot", "AI chatbot", "lead capture", "unified inbox", "omnichannel messaging", "South Florida small business"],
+        keywords: ["Manychat", "AI chatbot", "lead capture", "unified inbox", "omnichannel messaging", "South Florida small business"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

@@ -4,7 +4,7 @@ export default function ConfiguringSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Upflow&#39;s configuration is a critical step in optimizing your automated accounts receivable management.
+        Upflow&#39;s configuration is a critical step in optimizing your AI accounts receivable management.
         By setting up approval chains, routing logic, and automation, businesses can streamline their invoicing and
         collections processes. This section explores how Geek @ Your Spot LLC customizes Upflow to fit the unique needs
         of small businesses in Miami-Dade, Broward, and West Palm Beach counties.</p>
@@ -24,7 +24,7 @@ export default function ConfiguringSection() {
       <p className="text-base text-white shadow-text pt-3">
         Automation logic in Upflow handles repetitive tasks, freeing up valuable time for finance teams. By
         automating follow-up emails, payment reminders, and escalation processes, Upflow minimizes the manual
-        workload associated with automated accounts receivable. Geek @ Your Spot LLC sets up these automations to run on
+        workload associated with AI accounts receivable. Geek @ Your Spot LLC sets up these automations to run on
         a schedule that aligns with the business&#39;s cash flow needs, ensuring timely collections without
         overburdening the team.</p>
       <p className="text-base text-white shadow-text pt-3">

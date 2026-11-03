@@ -40,7 +40,7 @@ export default function ArchitectureSection() {
         captured and stitched, it is sent back to Meta, Google, and TikTok through their server-side APIs. This keeps
         the ad platforms&rsquo; algorithms fed with timely, accurate signals, so they can optimize targeting and bidding
         toward real business outcomes. Conversion data is sent within 24-48 hours of the event, ensuring that feedback
-        is fast enough to make a difference in ongoing campaigns (<a id={`tools-marketing-precision-lead-acquisition-cometly-architecture-source-cometly-com${idSuffix}`} href="https://www.cometly.com/post/centralized-ad-performance-dashboard" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Cometly</a>,
+        is fast enough to make a difference in ongoing campaigns (<a id={`tools-marketing-ai-precision-lead-acquisition-cometly-architecture-source-cometly-com${idSuffix}`} href="https://www.cometly.com/post/centralized-ad-performance-dashboard" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Cometly</a>,
         as of Oct 29, 2026).</p>
       <p className="text-base text-white shadow-text pt-3">
         The dashboard layer brings all this data together. You get a unified view of cost per lead, cost per call, cost

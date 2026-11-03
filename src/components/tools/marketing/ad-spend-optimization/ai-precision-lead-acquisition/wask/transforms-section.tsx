@@ -48,7 +48,7 @@ export default function TransformsSection() {
       <p className="text-base text-white shadow-text pt-3">
         For businesses that want to see proof, Wask&rsquo;s own customer data shows the impact of faster decisions. One
         SaaS company cut its cost per acquisition by 16% in 90 days, not by changing strategy, but by making
-        optimization decisions five times faster than weekly manual reviews allowed (<a id={`tools-marketing-precision-lead-acquisition-wask-transforms-source-ad-automation${idSuffix}`} href="https://www.wask.co/digital-advertising/ad-automation" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Wask</a>,
+        optimization decisions five times faster than weekly manual reviews allowed (<a id={`tools-marketing-ai-precision-lead-acquisition-wask-transforms-source-ad-automation${idSuffix}`} href="https://www.wask.co/digital-advertising/ad-automation" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Wask</a>,
         as of Oct 29, 2026). The lesson is simple: automation delivers results by removing delay.</p>
       <blockquote cite="https://www.wask.co/digital-advertising/facebook-ads-audit" className="mt-3 border-l-4 border-white/60 pl-4 italic text-base text-white shadow-text">
         This comprehensive review typically saves businesses 15-35% on ad spend while improving ROAS by 50-150% through

@@ -2,7 +2,7 @@ export default function EvaluatingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Choosing Scalenut as your Intelligent Content Generation platform comes down to two main questions:
+        Choosing Scalenut as your AI Content Generation platform comes down to two main questions:
         does it fit the way your team works, and does its pricing model make sense for your budget and growth
         plans? The answer to both depends on how your business creates and uses content, and how much value
         you place on speed, consistency, and control.</p>

@@ -10,8 +10,8 @@ export default function ComparingSection() {
         dedicated technical staff. Its approach to personalized email campaigns is more robust than entry-level
         tools, yet it avoids the complexity and overhead of enterprise platforms.</p>
       <p className="text-base text-white shadow-text pt-3">
-        For a small business in South Florida, the main alternatives to Moosend are platforms like <Link id={`tools-marketing-personalized-email-campaigns-moosend-comparing-mailchimp${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailchimp" className="text-[#0B162A] hover:underline">Mailchimp</Link>, <Link id={`tools-marketing-personalized-email-campaigns-moosend-comparing-activecampaign${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/activecampaign" className="text-[#0B162A] hover:underline">ActiveCampaign</Link>, <Link id={`tools-marketing-personalized-email-campaigns-moosend-comparing-getresponse${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/getresponse" className="text-[#0B162A] hover:underline">GetResponse</Link>,
-        and <Link id={`tools-marketing-personalized-email-campaigns-moosend-comparing-mailerlite${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailerlite" className="text-[#0B162A] hover:underline">MailerLite</Link>.
+        For a small business in South Florida, the main alternatives to Moosend are platforms like <Link id={`tools-marketing-ai-personalized-email-campaigns-moosend-comparing-mailchimp${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailchimp" className="text-[#0B162A] hover:underline">Mailchimp</Link>, <Link id={`tools-marketing-ai-personalized-email-campaigns-moosend-comparing-activecampaign${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/activecampaign" className="text-[#0B162A] hover:underline">ActiveCampaign</Link>, <Link id={`tools-marketing-ai-personalized-email-campaigns-moosend-comparing-getresponse${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/getresponse" className="text-[#0B162A] hover:underline">GetResponse</Link>,
+        and <Link id={`tools-marketing-ai-personalized-email-campaigns-moosend-comparing-mailerlite${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailerlite" className="text-[#0B162A] hover:underline">MailerLite</Link>.
         Each of these tools offers some combination of automation, segmentation, and AI, but the depth and
         accessibility of these features vary. Mailchimp is often chosen for its broad integrations and ease of use,
         but its automation features are simpler and its pricing rises quickly as your list grows. ActiveCampaign
@@ -36,7 +36,7 @@ export default function ComparingSection() {
       <p className="text-base text-white shadow-text pt-3">
         Moosend’s pricing is also a deciding factor for many small businesses. Paid plans start at $9 per month for
         unlimited emails, which is significantly lower than many competitors when sending high volumes or managing a
-        growing list (<a id={`tools-marketing-personalized-email-campaigns-moosend-comparing-source-moosend-com${idSuffix}`} href="https://moosend.com/blog/best-time-to-send-an-email/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Moosend</a>,
+        growing list (<a id={`tools-marketing-ai-personalized-email-campaigns-moosend-comparing-source-moosend-com${idSuffix}`} href="https://moosend.com/blog/best-time-to-send-an-email/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Moosend</a>,
         as of Oct 25, 2026). For a business that needs to control costs while scaling its marketing, this
         predictability matters. Some platforms charge by the number of emails sent or contacts stored, which can
         make budgeting difficult as your campaigns become more sophisticated. Moosend’s model is straightforward and
@@ -45,10 +45,10 @@ export default function ComparingSection() {
         In real-world use, Moosend’s approach has proven effective for clients who need to grow and engage their
         lists without manual overhead. For instance, the case of Anastasia Blogger, who consistently achieved a 25%
         open rate after moving to Moosend, shows that advanced segmentation and deliverability features can make a
-        measurable difference (<a id={`tools-marketing-personalized-email-campaigns-moosend-comparing-source-moosend-com-2${idSuffix}`} href="https://moosend.com/anastasia-case-study/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Moosend</a>,
+        measurable difference (<a id={`tools-marketing-ai-personalized-email-campaigns-moosend-comparing-source-moosend-com-2${idSuffix}`} href="https://moosend.com/anastasia-case-study/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Moosend</a>,
         as of Oct 25, 2026). Similarly, SimplyDigital collected 15,000 emails in four months using Moosend’s landing
         pages and automation, demonstrating the platform’s ability to power both acquisition and ongoing engagement
-        (<a id={`tools-marketing-personalized-email-campaigns-moosend-comparing-source-moosend-com-3${idSuffix}`} href="https://moosend.com/simplydigital-case-study/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Moosend</a>,
+        (<a id={`tools-marketing-ai-personalized-email-campaigns-moosend-comparing-source-moosend-com-3${idSuffix}`} href="https://moosend.com/simplydigital-case-study/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Moosend</a>,
         as of Oct 25, 2026). These outcomes are not just about the tool’s features, but about how it enables small
         teams to run campaigns that would otherwise require more staff or outside help.</p>
       <p className="text-base text-white shadow-text pt-3">

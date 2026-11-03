@@ -19,7 +19,7 @@ export default function EvaluatingSection() {
         the value is in how much manual work the platform replaces. The case studies on Optmyzr&rsquo;s own pages show
         agencies saving over 240 hours per client annually and cutting <GlossaryLink slug="customer-acquisition-cost" className="text-[#0B162A] hover:underline">customer
         acquisition cost</GlossaryLink> by more than a third, outcomes that matter more than a few dollars&rsquo;
-        difference in monthly fees (<a id={`tools-marketing-precision-lead-acquisition-optmyzr-evaluating-source-ai-info-page${idSuffix}`} href="https://www.optmyzr.com/ai-info-page/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Optmyzr</a>,
+        difference in monthly fees (<a id={`tools-marketing-ai-precision-lead-acquisition-optmyzr-evaluating-source-ai-info-page${idSuffix}`} href="https://www.optmyzr.com/ai-info-page/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Optmyzr</a>,
         as of Oct 24, 2026). If your current ad management drains hours every week on reporting, pausing bad keywords, or
         chasing down broken landing pages, the platform pays for itself by returning that time to strategy and growth.</p>
       <p className="text-base text-white shadow-text pt-3">

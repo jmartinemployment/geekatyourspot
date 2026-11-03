@@ -12,7 +12,7 @@ export default function OverviewSection() {
         misses it. The brand voice wobbles. The cycle starts again the next week with the same blank-page
         dread.</p>
       <p className="text-base text-white shadow-text pt-3">
-        This is the reality for most small businesses without&nbsp;<Link id={`tools-marketing-intelligent-content-planning-hootsuite-overview-intelligent-content-planning${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-planning" className="text-[#C83803] hover:underline">Intelligent Content Planning</Link>. Planning is
+        This is the reality for most small businesses without&nbsp;<Link id={`tools-marketing-ai-content-planning-hootsuite-overview-ai-content-planning${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-planning" className="text-[#C83803] hover:underline">AI Content Planning</Link>. Planning is
         reactive. The team burns hours debating topics and rewriting captions that do not convert. They gamble
         on hunches because they lack the data or tools that bigger players use. The outcome is predictable:
         most posts never reach the right people, miss local trends, and fail to drive leads or sales. What
@@ -20,7 +20,7 @@ export default function OverviewSection() {
         drafts slip through or go live off-message. The operational overhead is high, and the results are
         nearly invisible.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Intelligent Content Planning changes this. It uses AI and automation to turn raw ideas, customer
+        AI Content Planning changes this. It uses AI and automation to turn raw ideas, customer
         questions, and proven assets into a clear content blueprint. The tedious work, drafting, repurposing,
         scheduling, and routing for approval, moves from manual grind to automated flow. With the right
         system, a team can generate a month’s worth of on-brand, platform-specific posts in minutes, bulk
@@ -29,7 +29,7 @@ export default function OverviewSection() {
         noise. For small teams in West Palm Beach, Broward, and Miami-Dade, this means more leads, fewer
         errors, and hours back every week to focus on what matters.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Geek @ Your Spot LLC’s approach to Intelligent Content Planning is built for small businesses across South
+        Geek @ Your Spot LLC’s approach to AI Content Planning is built for small businesses across South
         Florida. It covers the full workflow: automated content generation,
         AI&nbsp;<GlossaryLink slug="content-repurposing">content repurposing</GlossaryLink>, bulk scheduling,
         approval workflows, and personalized email campaigns. Each step is designed to fit your team’s size,

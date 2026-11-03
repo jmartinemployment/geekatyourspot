@@ -18,7 +18,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Justworks";
-const PAGE_TITLE = "Justworks for Payroll Tax & Worker Misclassification";
+const PAGE_TITLE = "Justworks for AI Payroll Tax";
 const DESCRIPTION =
     "Justworks automates payroll tax and worker classification for South Florida small businesses, helping prevent costly compliance errors and penalties.";
 const CANONICAL = "/tools/accounting/tax-compliance-regulations/ai-payroll-tax/justworks";

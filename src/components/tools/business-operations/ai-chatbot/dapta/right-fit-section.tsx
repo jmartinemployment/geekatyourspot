@@ -50,7 +50,7 @@ export default function RightFitSection() {
         leads you no longer lose.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<a href="#consultationAppointment2xl" id={`tools-marketing-cross-platform-chatbot-dapta-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
+        when&nbsp;<a href="#consultationAppointment2xl" id={`tools-marketing-ai-chatbot-dapta-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How many new inquiries do you receive in a typical week, and where do they come from?</li>
@@ -68,7 +68,7 @@ export default function RightFitSection() {
         <li>What is your budget and preferred way to pay?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
-        Our post <Link id={`tools-marketing-lead-capture-pipeline-cross-platform-chatbot-dapta-xlink-blog${idSuffix}`} href="/blog/business-operations/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline" className="text-[#C83803] hover:underline">Cross-Platform Chatbot Lead Capture</Link> sets out what Dapta’s published material supports for a bilingual South Florida business: one agent qualifying callers in English or Spanish on urgency, county and service type, booking onto your calendar while interest is high, and syncing every record to your CRM in real time so nothing is re-keyed. The post also puts Dapta alongside My AI Front Desk, BotPenguin, Manychat and Tidio and shows where a lighter single-channel tool would do, so you can tell whether multi-channel voice and chat is what your leak actually needs. That question, and the data clean-up that comes before it, is the four-phase assessment in our <Link id={`tools-marketing-lead-capture-pipeline-cross-platform-chatbot-dapta-xlink-pillar${idSuffix}`} href="/use-cases/business-operations/ai-chatbot" className="text-[#C83803] hover:underline">AI Chatbot</Link> guide.</p>
+        Our post <Link id={`tools-marketing-marketing-automation-platforms-ai-chatbot-dapta-xlink-blog${idSuffix}`} href="/blog/business-operations/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline" className="text-[#C83803] hover:underline">AI Chatbot Lead Capture</Link> sets out what Dapta’s published material supports for a bilingual South Florida business: one agent qualifying callers in English or Spanish on urgency, county and service type, booking onto your calendar while interest is high, and syncing every record to your CRM in real time so nothing is re-keyed. The post also puts Dapta alongside My AI Front Desk, BotPenguin, Manychat and Tidio and shows where a lighter single-channel tool would do, so you can tell whether multi-channel voice and chat is what your leak actually needs. That question, and the data clean-up that comes before it, is the four-phase assessment in our <Link id={`tools-marketing-marketing-automation-platforms-ai-chatbot-dapta-xlink-pillar${idSuffix}`} href="/use-cases/business-operations/ai-chatbot" className="text-[#C83803] hover:underline">AI Chatbot</Link> guide.</p>
     </>
   );
 

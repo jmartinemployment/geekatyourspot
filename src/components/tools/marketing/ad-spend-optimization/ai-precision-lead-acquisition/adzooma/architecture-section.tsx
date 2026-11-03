@@ -24,7 +24,7 @@ export default function ArchitectureSection() {
         Automation is a key part of the architecture. Adzooma supports custom rules and automated alerts that monitor
         for specific performance thresholds, budget pacing issues, or <GlossaryLink slug="ad-fatigue" className="text-[#0B162A] hover:underline">ad
         fatigue</GlossaryLink>. These rules can be configured to run on the schedule that fits your business, up to
-        every 15 minutes on higher-tier plans (<a id={`tools-marketing-precision-lead-acquisition-adzooma-architecture-source-adzooma-com${idSuffix}`} href="https://adzooma.com/product/automated-ppc-alerts/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Adzooma</a>,
+        every 15 minutes on higher-tier plans (<a id={`tools-marketing-ai-precision-lead-acquisition-adzooma-architecture-source-adzooma-com${idSuffix}`} href="https://adzooma.com/product/automated-ppc-alerts/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Adzooma</a>,
         as of Oct 23, 2026). Alerts are delivered by email or Slack, and you can choose the timezone for notification
         delivery, making it easy to align monitoring with your business hours and reporting cycles.</p>
       <p className="text-base text-white shadow-text pt-3">

@@ -39,7 +39,7 @@ export default function RightFitSection() {
         only does a single job. Its value comes from building an ongoing content system that remembers your
         business and adapts as you grow. If you only need a handful of posts or want to try AI for a single
         project, a simpler tool may be enough. But for small businesses ready to invest in a repeatable,
-        scalable workflow for Intelligent Content Generation, Koala stands out by making your business’s real
+        scalable workflow for AI Content Generation, Koala stands out by making your business’s real
         voice and services the core of every output.</p>
       <p className="text-base text-white shadow-text pt-3">
         For teams in South Florida, the next step is to get specific about what you need to automate. List
@@ -62,7 +62,7 @@ export default function RightFitSection() {
         resources.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<a href="#consultationAppointment2xl" id={`tools-marketing-intelligent-content-generation-koala-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
+        when&nbsp;<a href="#consultationAppointment2xl" id={`tools-marketing-ai-content-generation-koala-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Walk me through your current process from a raw marketing idea to a published asset, who writes it, who reviews it, and how many different systems or documents do they switch between?</li>
@@ -81,7 +81,7 @@ export default function RightFitSection() {
         <li>What are you currently spending on external copywriters, content agencies, or specialized software tools that this implementation could potentially consolidate or replace?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
-        Our post <Link id={`tools-marketing-content-creation-workflow-intelligent-content-generation-koala-xlink-blog${idSuffix}`} href="/blog/marketing/marketing-automation-platforms/intelligent-content-generation-for-miami-how-to-save-time-and-scale-without-extra-hires" className="text-[#C83803] hover:underline">Content Generation Without New Hires</Link> explains why Koala sits at the foundation of a working stack: it stores a structured business profile, real services, credentials and approved voice, so every tool pulls from the same facts instead of memory, which is what stops a brand sounding like three different companies. It also names the condition, since a profile built on outdated service descriptions only scales the errors, and it records that no tool guarantees a campaign outperforms a human expert when the input is generic. The data quality review in our <Link id={`tools-marketing-content-creation-workflow-intelligent-content-generation-koala-xlink-pillar${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-generation" className="text-[#C83803] hover:underline">AI Content Generation</Link> guide is where that profile is assembled before Koala is configured.</p>
+        Our post <Link id={`tools-marketing-marketing-automation-platforms-ai-content-generation-koala-xlink-blog${idSuffix}`} href="/blog/marketing/marketing-automation-platforms/intelligent-content-generation-for-miami-how-to-save-time-and-scale-without-extra-hires" className="text-[#C83803] hover:underline">Content Generation Without New Hires</Link> explains why Koala sits at the foundation of a working stack: it stores a structured business profile, real services, credentials and approved voice, so every tool pulls from the same facts instead of memory, which is what stops a brand sounding like three different companies. It also names the condition, since a profile built on outdated service descriptions only scales the errors, and it records that no tool guarantees a campaign outperforms a human expert when the input is generic. The data quality review in our <Link id={`tools-marketing-marketing-automation-platforms-ai-content-generation-koala-xlink-pillar${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-generation" className="text-[#C83803] hover:underline">AI Content Generation</Link> guide is where that profile is assembled before Koala is configured.</p>
     </>
   );
 

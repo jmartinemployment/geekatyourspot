@@ -13,7 +13,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Melio";
-const PAGE_TITLE = "Melio for Intelligent Payment Execution";
+const PAGE_TITLE = "Melio for AI Payment Execution";
 const DESCRIPTION =
     "Automate payment execution with Melio to save time, reduce errors, and improve financial efficiency.";
 const CANONICAL = "/tools/accounting/accounts-payable/ai-payment-execution/melio";
@@ -25,7 +25,7 @@ const jsonLd: WithContext<TechArticle> = {
     "headline": PAGE_TITLE,
     "description": DESCRIPTION,
     "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-    "keywords": "Melio, automated payment execution, accounts payable automation, scheduled payments, recurring payments, pay by card, QuickBooks integration, Xero integration, cash flow management, AI implementation",
+    "keywords": "Melio, AI payment execution, accounts payable automation, scheduled payments, recurring payments, pay by card, QuickBooks integration, Xero integration, cash flow management, AI implementation",
     "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
     "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
     "about": {
@@ -40,7 +40,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Melio", "automated payment execution", "accounts payable automation", "scheduled payments", "recurring payments", "pay by card"],
+        keywords: ["Melio", "AI payment execution", "accounts payable automation", "scheduled payments", "recurring payments", "pay by card"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

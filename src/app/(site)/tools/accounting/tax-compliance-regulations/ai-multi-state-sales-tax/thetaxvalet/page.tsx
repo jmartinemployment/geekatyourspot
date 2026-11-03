@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "TaxValet";
-const PAGE_TITLE = "TaxValet for Multi-State Sales Tax Nexus";
+const PAGE_TITLE = "TaxValet for AI Multi-State Sales Tax";
 const DESCRIPTION =
-    "Multi-State Sales Tax Nexus is made simple for Miami-Dade, Broward, and West Palm Beach small businesses with TaxValet's expert compliance platform.";
+    "AI Multi-State Sales Tax is made simple for Miami-Dade, Broward, and West Palm Beach small businesses with TaxValet's expert compliance platform.";
 const CANONICAL = "/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/thetaxvalet";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -93,7 +93,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page() {
     const heroSummary =
-        "TaxValet helps South Florida small businesses manage Multi-State Sales Tax Nexus, reducing compliance risk and operational friction as you expand sales channels.";
+        "TaxValet helps South Florida small businesses manage AI Multi-State Sales Tax, reducing compliance risk and operational friction as you expand sales channels.";
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />

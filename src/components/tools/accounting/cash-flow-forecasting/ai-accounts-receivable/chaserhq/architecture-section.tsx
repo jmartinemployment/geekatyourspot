@@ -8,7 +8,7 @@ export default function ArchitectureSection() {
         businesses in Miami-Dade, Broward, and West Palm Beach counties.</p>
       <p className="text-base text-white shadow-text pt-3">
         The platform&#39;s architecture is built around a centralized dashboard that provides users with
-        comprehensive insights into their automated accounts receivable status. This dashboard aggregates data from
+        comprehensive insights into their AI accounts receivable status. This dashboard aggregates data from
         various sources, offering a unified view of all receivables. It includes features such as real-time updates,
         relationship dashboards, and payment portals, which together create a cohesive system for managing cash
         flow.</p>
@@ -25,7 +25,7 @@ export default function ArchitectureSection() {
         allowing businesses to plan with greater confidence.</p>
       <p className="text-base text-white shadow-text pt-3">
         Overall, Chaserhq&#39;s architecture and integration capabilities make it a powerful tool for small
-        businesses looking to automate their automated accounts receivable process. Its ability to connect with
+        businesses looking to automate their AI accounts receivable process. Its ability to connect with
         existing systems and provide real-time insights helps businesses streamline operations, reduce
         administrative burdens, and focus on strategic growth initiatives.</p>
     </>

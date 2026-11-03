@@ -46,7 +46,7 @@ export default function RightFitSection() {
         platform beyond what it does well.</p>
       <p className="text-base text-white shadow-text pt-3">
         Geek @ Your Spot LLC works with businesses across Miami-Dade, Broward, and West Palm Beach to make sure the
-        Intelligent Receptionist setup matches the real-world needs of each client. If Voksha is a fit, the
+        AI Receptionist setup matches the real-world needs of each client. If Voksha is a fit, the
         deployment is fast and focused. If it is not, the right answer is to choose a tool that fits your
         business, not to force a mismatch. The cost of getting the decision wrong is not just wasted money, it
         is more missed calls, more lost leads, and more stress for a team that is already stretched thin. The
@@ -54,7 +54,7 @@ export default function RightFitSection() {
         your customers never know you were busy in the first place.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<a href="#consultationAppointment2xl" id={`tools-marketing-intelligent-receptionist-voksha-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
+        when&nbsp;<a href="#consultationAppointment2xl" id={`tools-marketing-ai-receptionist-voksha-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How many phone calls do you currently miss or send to voicemail each week, both during business hours and after hours?</li>
@@ -73,7 +73,7 @@ export default function RightFitSection() {
         <li>How critical is total data ownership to your business? Do you prefer a turnkey cloud subscription, or do you want a proprietary system that your business fully owns and controls?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
-        Our post <Link id={`tools-marketing-lead-capture-pipeline-intelligent-receptionist-voksha-xlink-blog${idSuffix}`} href="/blog/business-operations/intelligent-receptionist-how-miami-small-businesses-can-stop-losing-leads-after-hours" className="text-[#C83803] hover:underline">Intelligent After-Hours Receptionist</Link> lays Voksha’s published pricing next to the live-answering services it replaces: a $14 starter plan for 15 calls, a $99 Premium tier for 150, and $1 per call beyond that with no after-hours premium, against human-staffed services that start at $99 to $350 a month and then bill by the minute. It also quotes Voksha’s own research on what a missed call is worth, about $12.15 each or $26,000 a year at six a day, and says plainly that those are estimates. Whether your call volume and job value make the per-call model pay is the arithmetic the four-phase assessment in our <Link id={`tools-marketing-lead-capture-pipeline-intelligent-receptionist-voksha-xlink-pillar${idSuffix}`} href="/use-cases/business-operations/ai-receptionist" className="text-[#C83803] hover:underline">AI Receptionist</Link> guide runs before any pilot.</p>
+        Our post <Link id={`tools-marketing-marketing-automation-platforms-ai-receptionist-voksha-xlink-blog${idSuffix}`} href="/blog/business-operations/intelligent-receptionist-how-miami-small-businesses-can-stop-losing-leads-after-hours" className="text-[#C83803] hover:underline">Intelligent After-Hours Receptionist</Link> lays Voksha’s published pricing next to the live-answering services it replaces: a $14 starter plan for 15 calls, a $99 Premium tier for 150, and $1 per call beyond that with no after-hours premium, against human-staffed services that start at $99 to $350 a month and then bill by the minute. It also quotes Voksha’s own research on what a missed call is worth, about $12.15 each or $26,000 a year at six a day, and says plainly that those are estimates. Whether your call volume and job value make the per-call model pay is the arithmetic the four-phase assessment in our <Link id={`tools-marketing-marketing-automation-platforms-ai-receptionist-voksha-xlink-pillar${idSuffix}`} href="/use-cases/business-operations/ai-receptionist" className="text-[#C83803] hover:underline">AI Receptionist</Link> guide runs before any pilot.</p>
     </>
   );
 

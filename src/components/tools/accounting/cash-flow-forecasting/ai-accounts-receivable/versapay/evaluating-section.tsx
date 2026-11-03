@@ -2,7 +2,7 @@ export default function EvaluatingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        When considering Versapay for automated accounts receivable, small businesses must evaluate its fit based on
+        When considering Versapay for AI accounts receivable, small businesses must evaluate its fit based on
         specific operational needs and the pricing model. Versapay is designed to suit businesses that require a
         unified platform for invoicing, payment processing, and cash application. Its collaborative features make it
         particularly beneficial for teams that need to coordinate accounts receivable tasks across multiple

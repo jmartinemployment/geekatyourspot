@@ -3,7 +3,7 @@ export default function EvaluatingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        When considering Upflow for automated accounts receivable automation, small businesses must evaluate its fit
+        When considering Upflow for AI accounts receivable automation, small businesses must evaluate its fit
         and pricing model. This section provides insights into how Upflow aligns with business needs and what to
         consider when assessing its cost.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -27,7 +27,7 @@ export default function EvaluatingSection() {
         When evaluating Upflow, businesses should also consider the level of support and customization offered by
         Geek @ Your Spot LLC. As a local consultancy, Geek @ Your Spot LLC provides hands-on assistance in configuring and
         deploying Upflow, ensuring that it meets the specific needs of each client. This personalized service can be
-        a significant advantage for businesses looking to optimize their automated accounts receivable processes.</p>
+        a significant advantage for businesses looking to optimize their AI accounts receivable processes.</p>
       <p className="text-base text-white shadow-text pt-3">
         Ultimately, the decision to implement Upflow should be based on a thorough assessment of its fit with the
         business&#39;s operational needs and financial goals. By considering both the tangible benefits and the

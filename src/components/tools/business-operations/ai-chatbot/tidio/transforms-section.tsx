@@ -35,7 +35,7 @@ export default function TransformsSection() {
         automatically, so your marketing list grows without manual entry. When an agent is busy or offline,
         Tidio’s bots keep the conversation going, ensuring no opportunity is missed.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Tidio also integrates with the tools you already use. From HubSpot and&nbsp;<Link id={`tools-marketing-cross-platform-chatbot-tidio-transforms-active-campaign${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/activecampaign" className="text-[#0B162A] hover:underline">ActiveCampaign</Link>&nbsp;to Shopify and
+        Tidio also integrates with the tools you already use. From HubSpot and&nbsp;<Link id={`tools-marketing-ai-chatbot-tidio-transforms-active-campaign${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/activecampaign" className="text-[#0B162A] hover:underline">ActiveCampaign</Link>&nbsp;to Shopify and
         Google Ads, it sends captured leads and conversation data directly into
         your&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>&nbsp;or marketing platform. This means less time
         spent on manual data entry and more time spent on qualified prospects. For e-commerce, Tidio’s Shopify
@@ -76,8 +76,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-tidio-removes-from-your-week-the-cross-platform-chatbot-advantage" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                What Tidio Removes from Your Week: The Cross-Platform Chatbot Advantage
+              <h2 id="what-tidio-removes-from-your-week-the-ai-chatbot-advantage" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                What Tidio Removes from Your Week: The AI Chatbot Advantage
               </h2>
             </div>
             <div className="col-span-12">{body()}</div>
@@ -89,8 +89,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-tidio-removes-from-your-week-the-cross-platform-chatbot-advantage-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                What Tidio Removes from Your Week: The Cross-Platform Chatbot Advantage
+              <h2 id="what-tidio-removes-from-your-week-the-ai-chatbot-advantage-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                What Tidio Removes from Your Week: The AI Chatbot Advantage
               </h2>
               {body("-lg")}
             </div>

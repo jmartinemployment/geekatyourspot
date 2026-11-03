@@ -72,7 +72,7 @@ export default function ArchitectureSection() {
         small team to get the benefits of enterprise-grade automation, security, and reporting, without the pain
         of a
         full&nbsp;ERP&nbsp;rollout.
-        For Intelligent Resource Planning, this architecture is what makes real-time insight, secure control,
+        For AI Resource Planning, this architecture is what makes real-time insight, secure control,
         and effortless scaling possible.</p>
     </>
   );

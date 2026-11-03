@@ -18,7 +18,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Deel";
-const PAGE_TITLE = "Deel for Payroll Tax & Worker Misclassification";
+const PAGE_TITLE = "Deel for AI Payroll Tax";
 const DESCRIPTION =
     "Deel automates payroll tax compliance and worker classification for South Florida small businesses, reducing audit risk and administrative complexity.";
 const CANONICAL = "/tools/accounting/tax-compliance-regulations/ai-payroll-tax/deel";

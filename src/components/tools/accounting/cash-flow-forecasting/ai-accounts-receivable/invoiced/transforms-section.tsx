@@ -3,7 +3,7 @@ export default function TransformsSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Invoiced transforms the automated accounts receivable process by automating tasks that traditionally require
+        Invoiced transforms the AI accounts receivable process by automating tasks that traditionally require
         significant manual effort. With Invoiced, the entire invoice-to-cash cycle becomes a seamless operation,
         reducing the need for staff to engage in repetitive tasks and allowing them to focus on more strategic
         initiatives.</p>
@@ -47,8 +47,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-invoiced-transforms-automated-accounts-receivable">
-                How Invoiced Transforms Automated Accounts Receivable
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-invoiced-transforms-ai-accounts-receivable">
+                How Invoiced Transforms AI Accounts Receivable
               </h2>
             </div>
             <div className="col-span-12">{body()}</div>
@@ -60,8 +60,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-invoiced-transforms-automated-accounts-receivable-lg">
-                How Invoiced Transforms Automated Accounts Receivable
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-invoiced-transforms-ai-accounts-receivable-lg">
+                How Invoiced Transforms AI Accounts Receivable
               </h2>
               {body("-lg")}
             </div>

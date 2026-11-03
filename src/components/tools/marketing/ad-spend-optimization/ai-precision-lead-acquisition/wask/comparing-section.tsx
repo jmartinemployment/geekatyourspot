@@ -17,7 +17,7 @@ export default function ComparingSection() {
         layer. It does not just report on what happened last week, it acts the moment a rule or threshold is met,
         24/7.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Traditional agencies charge $1,000 or more per month, often plus a cut of your ad spend (<a id={`tools-marketing-precision-lead-acquisition-wask-comparing-source-google-ads-agency${idSuffix}`} href="https://www.wask.co/google-ads-agency" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Wask</a>,
+        Traditional agencies charge $1,000 or more per month, often plus a cut of your ad spend (<a id={`tools-marketing-ai-precision-lead-acquisition-wask-comparing-source-google-ads-agency${idSuffix}`} href="https://www.wask.co/google-ads-agency" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Wask</a>,
         as of Oct 29, 2026). Wask&rsquo;s automated platform is priced to be accessible for small businesses, with no
         percentage-based incentives to drive up your budget. The platform&rsquo;s automation covers bid management,
         budget reallocation, keyword and audience optimization, and creative fatigue detection, all without waiting for

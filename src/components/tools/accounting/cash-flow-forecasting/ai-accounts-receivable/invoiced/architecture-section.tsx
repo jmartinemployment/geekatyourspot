@@ -26,7 +26,7 @@ export default function ArchitectureSection() {
         cash flow accurately and make proactive financial planning decisions.</p>
       <p className="text-base text-white shadow-text pt-3">
         Invoiced&#39;s architecture is built to support scalability and ease of use. Workflow changes, collection
-        rules, and configuration updates can be made directly by the automated accounts receivable team without the
+        rules, and configuration updates can be made directly by the AI accounts receivable team without the
         need for IT intervention. This empowers businesses to adapt quickly to changing needs and maintain efficient
         operations.</p>
     </>

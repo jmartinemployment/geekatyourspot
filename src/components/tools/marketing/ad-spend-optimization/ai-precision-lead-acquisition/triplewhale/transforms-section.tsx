@@ -22,7 +22,7 @@ export default function TransformsSection() {
         which ad variations are pulling their weight and which are draining your budget. That lets you cut losing
         creative fast and scale up what works, without wasting money on guesswork or waiting for a quarterly review. The
         time saved here is not theoretical, case studies show real teams cutting 5 hours of weekly analysis down to 10
-        minutes, and others saving 10 hours a week on reporting alone (<a id={`tools-marketing-precision-lead-acquisition-triplewhale-transforms-source-dixxon-flannel${idSuffix}`} href="https://www.triplewhale.com/case-studies/dixxon-flannel-company" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Triplewhale</a>,
+        minutes, and others saving 10 hours a week on reporting alone (<a id={`tools-marketing-ai-precision-lead-acquisition-triplewhale-transforms-source-dixxon-flannel${idSuffix}`} href="https://www.triplewhale.com/case-studies/dixxon-flannel-company" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Triplewhale</a>,
         as of Oct 29, 2026).</p>
       <p className="text-base text-white shadow-text pt-3">
         Triplewhale&rsquo;s approach to attribution goes beyond the basic first-click or last-click models. It offers a

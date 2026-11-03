@@ -17,7 +17,7 @@ export default function ChallengesSection() {
         This lack of automation creates a cycle of reactive management. You see a spike in spend, dig into the numbers,
         and try to adjust bids or pause keywords after the fact. But by then, the budget is gone. If a competitor raises
         their bids and pushes your ads off the first page, you may not realize until your leads dry up. If a landing
-        page breaks or throws a 404 error, you could waste days of spend driving visitors to a dead end (<a id={`tools-marketing-precision-lead-acquisition-optmyzr-challenges-source-landing-pages${idSuffix}`} href="https://www.optmyzr.com/blog/are-your-adwords-ads-losing-money-on-bad-landing-pages/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Optmyzr</a>,
+        page breaks or throws a 404 error, you could waste days of spend driving visitors to a dead end (<a id={`tools-marketing-ai-precision-lead-acquisition-optmyzr-challenges-source-landing-pages${idSuffix}`} href="https://www.optmyzr.com/blog/are-your-adwords-ads-losing-money-on-bad-landing-pages/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Optmyzr</a>,
         as of Oct 24, 2026). Every missed alert is money and opportunity lost.</p>
       <p className="text-base text-white shadow-text pt-3">
         Manual processes also make it hard to spot patterns or optimize for real sales outcomes. Most teams end up

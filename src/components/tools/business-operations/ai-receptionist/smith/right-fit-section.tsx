@@ -52,7 +52,7 @@ export default function RightFitSection() {
         never misses another opportunity.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<a href="#consultationAppointment2xl" id={`tools-marketing-intelligent-receptionist-smith-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
+        when&nbsp;<a href="#consultationAppointment2xl" id={`tools-marketing-ai-receptionist-smith-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How many phone calls do you currently miss or send to voicemail each week, both during business hours and after hours?</li>
@@ -71,7 +71,7 @@ export default function RightFitSection() {
         <li>How critical is total data ownership to your business? Do you prefer a turnkey cloud subscription, or do you want a proprietary system that your business fully owns and controls?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
-        Our post <Link id={`tools-marketing-lead-capture-pipeline-intelligent-receptionist-smith-xlink-blog${idSuffix}`} href="/blog/business-operations/intelligent-receptionist-how-miami-small-businesses-can-stop-losing-leads-after-hours" className="text-[#C83803] hover:underline">Intelligent After-Hours Receptionist</Link> weighs Smith.ai’s own tracked results against the pure AI tools it sits beside: answer rates in agency partnerships rising from as low as 20% to virtually 100%, up to 122% more captured calls once automation and live overflow were in place, and the detail that more than half of those leads needed a live agent to book, not just a message taken. The post is equally clear that the 5 to 10 percent of calls needing a human is where pure AI stumbles. The four-phase assessment in our <Link id={`tools-marketing-lead-capture-pipeline-intelligent-receptionist-smith-xlink-pillar${idSuffix}`} href="/use-cases/business-operations/ai-receptionist" className="text-[#C83803] hover:underline">AI Receptionist</Link> guide turns that into your own numbers: which calls must reach a person, and what each missed one costs you.</p>
+        Our post <Link id={`tools-marketing-marketing-automation-platforms-ai-receptionist-smith-xlink-blog${idSuffix}`} href="/blog/business-operations/intelligent-receptionist-how-miami-small-businesses-can-stop-losing-leads-after-hours" className="text-[#C83803] hover:underline">Intelligent After-Hours Receptionist</Link> weighs Smith.ai’s own tracked results against the pure AI tools it sits beside: answer rates in agency partnerships rising from as low as 20% to virtually 100%, up to 122% more captured calls once automation and live overflow were in place, and the detail that more than half of those leads needed a live agent to book, not just a message taken. The post is equally clear that the 5 to 10 percent of calls needing a human is where pure AI stumbles. The four-phase assessment in our <Link id={`tools-marketing-marketing-automation-platforms-ai-receptionist-smith-xlink-pillar${idSuffix}`} href="/use-cases/business-operations/ai-receptionist" className="text-[#C83803] hover:underline">AI Receptionist</Link> guide turns that into your own numbers: which calls must reach a person, and what each missed one costs you.</p>
     </>
   );
 

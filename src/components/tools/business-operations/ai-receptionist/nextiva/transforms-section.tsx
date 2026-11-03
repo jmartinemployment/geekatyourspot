@@ -57,7 +57,7 @@ export default function TransformsSection() {
         An AI receptionist answers calls 24/7, captures leads, and routes callers.</blockquote>
       <p className="text-base text-white shadow-text pt-3">
         For small businesses, the difference is tangible: less time wasted, fewer errors, and more sales closed.
-        Nextiva’s Intelligent Receptionist does not just answer the phone, it removes the chaos, closes the
+        Nextiva’s AI Receptionist does not just answer the phone, it removes the chaos, closes the
         gaps, and gives the team back control of their week.</p>
     </>
   );

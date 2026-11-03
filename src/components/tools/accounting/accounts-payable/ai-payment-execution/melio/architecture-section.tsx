@@ -3,7 +3,7 @@ export default function ArchitectureSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Melio stands out with its robust architecture designed to streamline Automated Payment Execution. At
+        Melio stands out with its robust architecture designed to streamline AI Payment Execution. At
         its core, Melio integrates seamlessly with existing accounting software like QuickBooks, Xero, and
         NetSuite. This integration ensures that all financial data flows smoothly between systems, reducing
         the need for manual data entry and minimizing errors. The two-way sync feature is particularly

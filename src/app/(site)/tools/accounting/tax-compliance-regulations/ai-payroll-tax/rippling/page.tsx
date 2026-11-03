@@ -18,7 +18,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Rippling";
-const PAGE_TITLE = "Rippling for Payroll Tax & Worker Misclassification";
+const PAGE_TITLE = "Rippling for AI Payroll Tax";
 const DESCRIPTION =
     "Rippling helps South Florida small businesses automate payroll tax compliance and worker classification, reducing audit risks and saving time.";
 const CANONICAL = "/tools/accounting/tax-compliance-regulations/ai-payroll-tax/rippling";

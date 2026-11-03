@@ -3,7 +3,7 @@ export default function DataMappingSection() {
     <>
       <p className="text-base text-white shadow-text pt-3">
         The decisions your team makes about data structure and mapping at the start of a Voksha deployment have
-        a direct impact on how well the Intelligent Receptionist fits your business. This is not just about
+        a direct impact on how well the AI Receptionist fits your business. This is not just about
         which fields to capture or which calendar to connect. It is about making sure every call produces
         information your team can use, without noise, duplication, or dropped details. Geek @ Your Spot LLC works
         through these choices with you, so the system does not just answer calls, it delivers the right data

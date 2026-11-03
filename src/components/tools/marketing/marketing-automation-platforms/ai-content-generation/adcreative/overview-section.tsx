@@ -9,7 +9,7 @@ export default function OverviewSection() {
         after careful targeting and daily monitoring? The core problem is simple: when you spend under $500 a month,
         every dollar is exposed to waste from generic <GlossaryLink slug="ad-copy">ad copy</GlossaryLink>, untested
         messages, and platform defaults that treat your business like a rounding error (<a id={`tools-marketing-budget-ad-copy-message-validation-adcreative-overview-source-adcreative-ai${idSuffix}`} href="https://www.adcreative.ai/use-case/e-commerce" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">AdCreative</a>,
-        as of Oct 23, 2026). <Link id={`tools-marketing-budget-ad-copy-message-validation-adcreative-overview-budget-ad-copy-message-validation${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-generation" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link> fixes this by making sure every line and image you pay to show is
+        as of Oct 23, 2026). <Link id={`tools-marketing-budget-ad-copy-message-validation-adcreative-overview-budget-ad-copy-message-validation${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-generation" className="text-[#C83803] hover:underline">AI Content Generation</Link> fixes this by making sure every line and image you pay to show is
         built to convert, not just fill space. With the right approach, you keep your spend tight, cut junk clicks,
         and see more qualified leads for the same money.</p>
       <p className="text-base text-white shadow-text pt-3">

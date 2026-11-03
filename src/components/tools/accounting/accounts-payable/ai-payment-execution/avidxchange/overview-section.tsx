@@ -20,7 +20,7 @@ export default function OverviewSection() {
         in West Palm Beach and beyond, where the need for a more efficient solution has never been more
         pressing.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Enter automated payment execution, a technology-driven solution that transforms how businesses manage
+        Enter AI payment execution, a technology-driven solution that transforms how businesses manage
         their <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>. By integrating systems
         like AvidXchange, companies can automate their entire payment workflow, eliminating manual errors and
         freeing up valuable time. Payments are processed securely and efficiently, with suppliers receiving

@@ -13,13 +13,13 @@ export default function OverviewSection() {
         go unopened, and website visits barely move. The result is a cycle of wasted effort, rising stress,
         and content that never seems to pay off.</p>
       <p className="text-base text-white shadow-text pt-3">
-        This is what happens when&nbsp;<Link id={`tools-marketing-intelligent-content-planning-semrush-overview-intelligent-content-planning${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-planning" className="text-[#C83803] hover:underline">intelligent content planning</Link>&nbsp;runs on guesswork. Without the right data, even
+        This is what happens when&nbsp;<Link id={`tools-marketing-ai-content-planning-semrush-overview-ai-content-planning${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-planning" className="text-[#C83803] hover:underline">AI content planning</Link>&nbsp;runs on guesswork. Without the right data, even
         the best ideas miss their mark. Local teams get stuck on a treadmill, publishing for the sake of
         publishing, not because they know it will drive results. The pain is real: traffic drops with no
         warning, social engagement dries up, and the competition pulls ahead. Ninety percent of this content
         gets zero traffic and fails to convert. The team burns out, and the business stays invisible online.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Intelligent Content Planning changes the picture. Instead of hunches and manual rework, AI-driven
+        AI Content Planning changes the picture. Instead of hunches and manual rework, AI-driven
         tools now map out what your local audience is searching for, which topics have a real shot at ranking,
         and how to turn one strong piece into a dozen tailored assets, blog posts, emails, social updates, all
         from a single workflow. With automated content generation, repurposing, bulk scheduling, and approval

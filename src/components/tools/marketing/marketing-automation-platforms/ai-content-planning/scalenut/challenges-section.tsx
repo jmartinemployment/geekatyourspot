@@ -3,7 +3,7 @@ export default function ChallengesSection() {
     <>
       <p className="text-base text-white shadow-text pt-3">
         A small marketing team in South Florida faces the same wall every week: too much to plan, too little
-        time, and no way to get ahead. Without a structured system for Intelligent Content Planning, every new
+        time, and no way to get ahead. Without a structured system for AI Content Planning, every new
         campaign starts with a blank screen. Teams burn hours debating topics, patching together keyword
         lists, and arguing over which blog or post to write next. The result is usually a calendar filled with
         best guesses, not data-backed priorities. Even when content gets published, most of it disappears into

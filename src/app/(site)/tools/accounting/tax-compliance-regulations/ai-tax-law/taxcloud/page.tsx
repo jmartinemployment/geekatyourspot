@@ -18,7 +18,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "TaxCloud";
-const PAGE_TITLE = "TaxCloud for Automating Complex & Changing Laws";
+const PAGE_TITLE = "TaxCloud for AI Tax Law";
 const DESCRIPTION =
     "Automate tax compliance for South Florida businesses with TaxCloud, managing complex laws effortlessly.";
 const CANONICAL = "/tools/accounting/tax-compliance-regulations/ai-tax-law/taxcloud";

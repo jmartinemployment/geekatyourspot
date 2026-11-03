@@ -9,7 +9,7 @@ export default function ChallengesSection() {
         every Friday afternoon, every payroll run, every time the owner tries to plan for next quarter instead
         of catching up on last quarter’s filings.</p>
       <p className="text-base text-white shadow-text pt-3">
-        The real pain of Multi-State Sales Tax Nexus is not the tax itself, but the avalanche of administrative
+        The real pain of AI Multi-State Sales Tax is not the tax itself, but the avalanche of administrative
         work it creates. Each state has its own deadlines, forms, and rules for what is taxable and what is not.
         Shipping is taxable in some states, not in others. Digital goods, warranties, and bundled products can
         flip between categories depending on the jurisdiction. The team must track all of this in real time, or

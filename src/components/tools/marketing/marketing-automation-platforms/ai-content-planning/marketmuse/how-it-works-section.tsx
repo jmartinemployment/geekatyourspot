@@ -21,7 +21,7 @@ export default function HowItWorksSection() {
         topics that your South Florida rivals have overlooked, giving you a map of the ground you can take
         without fighting uphill battles for high-competition phrases.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Intelligent content planning moves from theory to execution with MarketMuse’s Content Briefs. These
+        AI Content Planning moves from theory to execution with MarketMuse’s Content Briefs. These
         are not just outlines. Each Brief spells out the objective, user intent, must-answer questions, title
         options, recommended subheadings, and the specific subtopics to cover. The Briefs are built from the
         platform’s analysis, so every assignment is structured to fill a real gap, not just to publish for the
@@ -45,7 +45,7 @@ export default function HowItWorksSection() {
         where to focus effort for the largest return. The same Miami-Dade team that started the week lost in a
         sea of disconnected ideas now works from a live blueprint, with each member knowing their role and
         every published piece tracked for real impact. MarketMuse is not just a research tool or a writing
-        assistant, it is the operational backbone for Intelligent Content Planning that ties strategy to daily
+        assistant, it is the operational backbone for AI Content Planning that ties strategy to daily
         execution.</p>
     </>
   );

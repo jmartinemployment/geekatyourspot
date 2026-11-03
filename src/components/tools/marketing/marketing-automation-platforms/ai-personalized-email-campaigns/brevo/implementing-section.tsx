@@ -50,7 +50,7 @@ export default function ImplementingSection() {
       <p className="text-base text-white shadow-text pt-3">
         The main delays come from unclear goals, scattered data, or trying to build complex logic before you have
         proof that it is needed. Brevo is designed to let you move fast, its free plan supports up to 9,000 emails
-        per month and unlimited automations for up to 2,000 contacts, with no expiry or sudden cutoff (<a id={`tools-marketing-personalized-email-campaigns-brevo-implementing-source-brevo-com${idSuffix}`} href="https://www.brevo.com/all-wp-components/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Brevo</a>,
+        per month and unlimited automations for up to 2,000 contacts, with no expiry or sudden cutoff (<a id={`tools-marketing-ai-personalized-email-campaigns-brevo-implementing-source-brevo-com${idSuffix}`} href="https://www.brevo.com/all-wp-components/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Brevo</a>,
         as of Oct 26, 2026). For teams that need more volume or advanced features like A/B testing and send time
         optimization, paid plans are available and can be upgraded without downtime.</p>
       <p className="text-base text-white shadow-text pt-3">

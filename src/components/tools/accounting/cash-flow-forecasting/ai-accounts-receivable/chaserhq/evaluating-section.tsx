@@ -5,7 +5,7 @@ export default function EvaluatingSection() {
         When evaluating Chaserhq for your business, it&#39;s essential to consider both its fit within your existing
         operations and its pricing model. Chaserhq is designed to integrate seamlessly with existing financial
         systems, making it a suitable choice for businesses already using platforms like Xero. This compatibility
-        ensures that Chaserhq can enhance your automated accounts receivable processes without requiring a complete
+        ensures that Chaserhq can enhance your AI accounts receivable processes without requiring a complete
         overhaul of your current systems.</p>
       <p className="text-base text-white shadow-text pt-3">
         The pricing model for Chaserhq is straightforward and transparent, with options for both monthly and annual

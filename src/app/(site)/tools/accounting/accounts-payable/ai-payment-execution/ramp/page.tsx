@@ -13,7 +13,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Ramp";
-const PAGE_TITLE = "Ramp for Intelligent Payment Execution";
+const PAGE_TITLE = "Ramp for AI Payment Execution";
 const DESCRIPTION =
     "Automate payment execution with Ramp, reducing errors and enhancing efficiency for small businesses.";
 const CANONICAL = "/tools/accounting/accounts-payable/ai-payment-execution/ramp";
@@ -25,7 +25,7 @@ const jsonLd: WithContext<TechArticle> = {
     "headline": PAGE_TITLE,
     "description": DESCRIPTION,
     "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-    "keywords": "Ramp, Ramp Bill Pay, automated payment execution, accounts payable automation, batch payments, invoice coding, PO matching, ERP integration, vendor portal, spend management, AI implementation",
+    "keywords": "Ramp, Ramp Bill Pay, AI payment execution, accounts payable automation, batch payments, invoice coding, PO matching, ERP integration, vendor portal, spend management, AI implementation",
     "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
     "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
     "about": {
@@ -40,7 +40,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Ramp", "Ramp Bill Pay", "automated payment execution", "accounts payable automation", "batch payments", "spend management"],
+        keywords: ["Ramp", "Ramp Bill Pay", "AI payment execution", "accounts payable automation", "batch payments", "spend management"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

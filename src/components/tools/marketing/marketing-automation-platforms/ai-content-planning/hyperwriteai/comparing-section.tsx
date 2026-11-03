@@ -3,7 +3,7 @@ export default function ComparingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Small businesses weighing HyperWrite for Intelligent Content Planning are not starting from scratch.
+        Small businesses weighing HyperWrite for AI Content Planning are not starting from scratch.
         They already know the grind of manual work, and they have likely sampled other AI tools or content
         platforms. Most are deciding between keeping their current mix of apps, adding another point solution,
         or moving to a more integrated system like HyperWrite. Each path has its own trade-offs, and the

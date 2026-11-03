@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Quaderno";
-const PAGE_TITLE = "Quaderno for Multi-State Sales Tax Nexus";
+const PAGE_TITLE = "Quaderno for AI Multi-State Sales Tax";
 const DESCRIPTION =
-    "Multi-State Sales Tax Nexus compliance is easy with Quaderno, the tool for small businesses in Miami-Dade, Broward, and West Palm Beach counties.";
+    "AI Multi-State Sales Tax compliance is easy with Quaderno, the tool for small businesses in Miami-Dade, Broward, and West Palm Beach counties.";
 const CANONICAL = "/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/quaderno";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 

@@ -48,7 +48,7 @@ export default function DataMappingSection() {
         less time reconciling numbers and more time acting on insights. Fathom’s approach lets you start with
         your existing structure and refine it over time, rather than forcing a complete overhaul before you see
         value. For South Florida small businesses, this means faster time to insight, fewer surprises at
-        month-end, and a intelligent resource planning system that actually matches how you run the business.</p>
+        month-end, and an AI resource planning system that actually matches how you run the business.</p>
     </>
   );
 

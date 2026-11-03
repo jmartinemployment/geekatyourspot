@@ -8,14 +8,14 @@ export default function EvaluatingSection() {
         campaigns, reach more people with fewer manual steps, and keep costs predictable as they grow.</p>
       <p className="text-base text-white shadow-text pt-3">
         Start with the basics: Brevo’s free plan covers up to 9,000 emails per month, capped at 300 per day, and
-        supports unlimited automations for up to 2,000 contacts (<a id={`tools-marketing-personalized-email-campaigns-brevo-evaluating-source-brevo-com${idSuffix}`} href="https://www.brevo.com/all-wp-components/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Brevo</a>,
+        supports unlimited automations for up to 2,000 contacts (<a id={`tools-marketing-ai-personalized-email-campaigns-brevo-evaluating-source-brevo-com${idSuffix}`} href="https://www.brevo.com/all-wp-components/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Brevo</a>,
         as of Oct 26, 2026). For a small business in Miami-Dade, Broward or Palm Beach counties, this is usually
         enough to run segmented campaigns, automate standard follow-ups, and test what works without spending
         anything upfront. The daily cap means you need to plan for steady outreach rather than big one-off blasts,
         but it also reduces the risk of being flagged for spam or burning your list with too many emails at once.</p>
       <p className="text-base text-white shadow-text pt-3">
         If you outgrow the free tier, Brevo’s paid plans start at $9 per month and lift daily sending limits,
-        letting you scale up as your audience grows (<a id={`tools-marketing-personalized-email-campaigns-brevo-evaluating-source-brevo-com-2${idSuffix}`} href="https://www.brevo.com/blog/b2b-marketing-automation/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Brevo</a>,
+        letting you scale up as your audience grows (<a id={`tools-marketing-ai-personalized-email-campaigns-brevo-evaluating-source-brevo-com-2${idSuffix}`} href="https://www.brevo.com/blog/b2b-marketing-automation/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Brevo</a>,
         as of Oct 26, 2026). The Standard Plan adds features like A/B testing and send time optimization, which are
         critical if you want to improve open rates and engagement. For teams that want to run more sophisticated
         tests or manage larger lists, this unlocks the tools needed to keep improving results. Brevo’s pricing is

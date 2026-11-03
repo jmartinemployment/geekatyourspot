@@ -4,12 +4,12 @@ export default function NumbersSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Personalized Email Campaigns consistently outperform generic email blasts, but the evidence has clear
+        AI Personalized Email Campaigns consistently outperform generic email blasts, but the evidence has clear
         boundaries. Brevo’s own data states that automation, sending emails at the time each subscriber is most
-        likely to open, can lift open rates by up to 30 percent over standard campaigns (<a id={`blog-marketing-personalized-email-campaigns-numbers-source-brevo-com${idSuffix}`} href="https://www.brevo.com/integrations/airtable/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Brevo</a>,
+        likely to open, can lift open rates by up to 30 percent over standard campaigns (<a id={`blog-marketing-ai-personalized-email-campaigns-numbers-source-brevo-com${idSuffix}`} href="https://www.brevo.com/integrations/airtable/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Brevo</a>,
         as of Oct 25, 2026). This is not a theoretical increase: Brevo’s benchmark for automated emails is a 30.63
         percent open rate, compared to 20.73 percent for traditional mass sends, based on large-scale reporting from
-        their 2026 data (<a id={`blog-marketing-personalized-email-campaigns-numbers-source-brevo-com-2${idSuffix}`} href="https://www.brevo.com/blog/email-marketing-benchmarks/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Brevo</a>,
+        their 2026 data (<a id={`blog-marketing-ai-personalized-email-campaigns-numbers-source-brevo-com-2${idSuffix}`} href="https://www.brevo.com/blog/email-marketing-benchmarks/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Brevo</a>,
         as of Oct 25, 2026). The difference is not just in opens. When you segment your list and use behavioral
         triggers, you reach prospects when they are ready to engage, which has a direct impact on replies and sales.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -50,7 +50,7 @@ export default function NumbersSection() {
         What the evidence does not prove is that every personalized campaign will deliver the same results
         regardless of context, list quality, or the business’s own data hygiene. The figures above are from the
         platforms’ own large-scale reporting and case studies, but not every business will see a 30 percent lift out
-        of the box (<a id={`blog-marketing-personalized-email-campaigns-numbers-source-brevo-com-3${idSuffix}`} href="https://www.brevo.com/integrations/airtable/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Brevo</a>,
+        of the box (<a id={`blog-marketing-ai-personalized-email-campaigns-numbers-source-brevo-com-3${idSuffix}`} href="https://www.brevo.com/integrations/airtable/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Brevo</a>,
         as of Oct 25, 2026). Open rates and sales gains depend on list cleanliness, relevance of the content, and
         how well the automation matches real customer journeys. None of the providers claim you can skip proper
         segmentation, ignore compliance, or run old lists through new automation and expect the same gains.</p>
@@ -77,8 +77,8 @@ export default function NumbersSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-the-evidence-shows-about-personalized-email-campaigns-in-measured-outcomes-and-what-it-does-not-prove" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                What the evidence shows about Personalized Email Campaigns in measured outcomes, and what it does not prove
+              <h2 id="what-the-evidence-shows-about-ai-personalized-email-campaigns-in-measured-outcomes-and-what-it-does-not-prove" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                What the evidence shows about AI Personalized Email Campaigns in measured outcomes, and what it does not prove
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
@@ -90,8 +90,8 @@ export default function NumbersSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="what-the-evidence-shows-about-personalized-email-campaigns-in-measured-outcomes-and-what-it-does-not-prove-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                What the evidence shows about Personalized Email Campaigns in measured outcomes, and what it does not prove
+              <h2 id="what-the-evidence-shows-about-ai-personalized-email-campaigns-in-measured-outcomes-and-what-it-does-not-prove-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                What the evidence shows about AI Personalized Email Campaigns in measured outcomes, and what it does not prove
               </h2>
               {body("-lg")}
             </div>

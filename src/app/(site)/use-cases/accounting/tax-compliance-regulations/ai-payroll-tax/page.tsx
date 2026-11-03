@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
 import SharedHeroSection from "@/components/shared/shared-hero-section";
-import LedeSection from "@/components/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance/lede-section";
-import ChallengesSection from "@/components/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance/challenges-section";
-import StatusQuoSection from "@/components/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance/status-quo-section";
-import MechanicsSection from "@/components/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance/mechanics-section";
-import KeyFactorsSection from "@/components/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance/key-factors-section";
-import DecisionsSection from "@/components/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance/decisions-section";
-import SequenceSection from "@/components/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance/sequence-section";
-import DataIntegrationSection from "@/components/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance/data-integration-section";
-import RolesSection from "@/components/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance/roles-section";
-import RightFitSection from "@/components/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance/right-fit-section";
-import PreparingSection from "@/components/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance/preparing-section";
-import PAASection from "@/components/use-cases/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-ai-implementation-for-local-compliance/paa-section";
+import LedeSection from "@/components/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax-ai-implementation-for-local-compliance/lede-section";
+import ChallengesSection from "@/components/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax-ai-implementation-for-local-compliance/challenges-section";
+import StatusQuoSection from "@/components/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax-ai-implementation-for-local-compliance/status-quo-section";
+import MechanicsSection from "@/components/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax-ai-implementation-for-local-compliance/mechanics-section";
+import KeyFactorsSection from "@/components/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax-ai-implementation-for-local-compliance/key-factors-section";
+import DecisionsSection from "@/components/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax-ai-implementation-for-local-compliance/decisions-section";
+import SequenceSection from "@/components/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax-ai-implementation-for-local-compliance/sequence-section";
+import DataIntegrationSection from "@/components/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax-ai-implementation-for-local-compliance/data-integration-section";
+import RolesSection from "@/components/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax-ai-implementation-for-local-compliance/roles-section";
+import RightFitSection from "@/components/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax-ai-implementation-for-local-compliance/right-fit-section";
+import PreparingSection from "@/components/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax-ai-implementation-for-local-compliance/preparing-section";
+import PAASection from "@/components/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax-ai-implementation-for-local-compliance/paa-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
@@ -19,7 +19,7 @@ import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "AI Payroll Tax";
 const DESCRIPTION =
-    "AI solutions for Payroll Tax & Worker Misclassification help small businesses in Miami-Dade, Broward, and West Palm Beach automate compliance and reduce errors.";
+    "AI solutions for AI Payroll Tax help small businesses in Miami-Dade, Broward, and West Palm Beach automate compliance and reduce errors.";
 const CANONICAL = "/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -35,7 +35,7 @@ const jsonLd: Graph = {
             "datePublished": "2026-10-13T13:30:45.9859490Z",
             "dateModified": "2026-10-13T13:30:45.9859490Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Payroll Tax & Worker Misclassification, AI payroll compliance, small business automation, Miami-Dade tax compliance, Broward small business payroll, West Palm Beach payroll automation, Gusto integration, Rippling compliance tools, Deel worker classification, Justworks payroll AI",
+            "keywords": "AI Payroll Tax, AI payroll compliance, small business automation, Miami-Dade tax compliance, Broward small business payroll, West Palm Beach payroll automation, Gusto integration, Rippling compliance tools, Deel worker classification, Justworks payroll AI",
             "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations" },
             "mentions": [
                 { "@type": "Thing", "name": "ADP", "url": "https://www.adp.com/" },
@@ -61,7 +61,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: TITLE,
         description: DESCRIPTION,
-        keywords: ["Payroll Tax & Worker Misclassification", "AI payroll compliance", "small business automation", "Miami-Dade tax compliance", "Broward small business payroll", "West Palm Beach payroll automation", "Gusto integration", "Rippling compliance tools", "Deel worker classification", "Justworks payroll AI"],
+        keywords: ["AI Payroll Tax", "AI payroll compliance", "small business automation", "Miami-Dade tax compliance", "Broward small business payroll", "West Palm Beach payroll automation", "Gusto integration", "Rippling compliance tools", "Deel worker classification", "Justworks payroll AI"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

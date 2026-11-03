@@ -4,7 +4,7 @@ export default function ImplementingSection() {
     <>
       <p className="text-base text-white shadow-text pt-3">
         Deploying Approvalmax in a business environment involves several key steps that ensure a smooth
-        transition from manual to automated approval workflows. Geek @ Your Spot LLC, a consultancy specializing
+        transition from manual to AI invoice approval workflows. Geek @ Your Spot LLC, a consultancy specializing
         in&nbsp;
         AI&nbsp;implementation
         for small businesses, plays a crucial role in this process, guiding clients through the setup and

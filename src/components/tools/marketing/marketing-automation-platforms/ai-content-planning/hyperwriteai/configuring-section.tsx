@@ -5,7 +5,7 @@ export default function ConfiguringSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Configuring HyperWrite for Intelligent Content Planning is a practical exercise in tuning automation
+        Configuring HyperWrite for AI Content Planning is a practical exercise in tuning automation
         to fit the realities of a small business marketing team. Unlike platforms that demand heavy upfront
         customization or force you into rigid templates, HyperWrite is built around a set of configurable
         rules and logic that control how content is generated, repurposed, and approved. Everything starts
@@ -74,9 +74,9 @@ export default function ConfiguringSection() {
         teams that need more than configuration, such as connecting HyperWrite output to
         a&nbsp;CRM&nbsp;or&nbsp;<GlossaryLink slug="marketing-automation" className="text-[#0B162A] hover:underline">marketing
         automation</GlossaryLink>&nbsp;platform, we design the workflow so handoffs are smooth, even if it
-        means using&nbsp;<Link id={`tools-marketing-intelligent-content-planning-hyperwriteai-configuring-zapier${idSuffix}`} href="/tools/marketing/zapier" className="text-[#0B162A] hover:underline">Zapier</Link>&nbsp;or similar connectors to bridge the gap.</p>
+        means using&nbsp;<Link id={`tools-marketing-ai-content-planning-hyperwriteai-configuring-zapier${idSuffix}`} href="/tools/marketing/zapier" className="text-[#0B162A] hover:underline">Zapier</Link>&nbsp;or similar connectors to bridge the gap.</p>
       <p className="text-base text-white shadow-text pt-3">
-        The result is a intelligent content planning and production system that feels built for your team, not
+        The result is an AI content planning and production system that feels built for your team, not
         bolted on. HyperWrite’s rules and automation logic handle the grunt work, the Personas feature keeps
         your voice consistent, and the extension mechanism ensures the AI is present wherever your team
         actually works. Geek @ Your Spot LLC ensures every part of the setup matches your real-world needs, so you

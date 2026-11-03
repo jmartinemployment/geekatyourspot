@@ -21,11 +21,11 @@ export default function OverviewSection() {
         not earn local clicks or citations. Without deep, structured pillar content, your business struggles
         to rank in search, and AI-driven answer engines barely notice you exist. This is the hidden cost: your
         team works harder but never gets the digital visibility needed to grow. The manual approach is not
-        just slow and draining, it is structurally outmatched by the scale and speed of&nbsp;<Link id={`tools-marketing-intelligent-content-generation-writesonic-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-generation" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>.</p>
+        just slow and draining, it is structurally outmatched by the scale and speed of&nbsp;<Link id={`tools-marketing-ai-content-generation-writesonic-overview-ai-content-generation${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-generation" className="text-[#C83803] hover:underline">AI Content Generation</Link>.</p>
       <p className="text-base text-white shadow-text pt-3">
         For small businesses in South Florida, this is the trap: you need constant, high-quality content to
         win local clients, but the old way of doing it by hand or hiring out is too slow, too expensive, and
-        too thin to compete. Intelligent Content Generation breaks this cycle by automating the research,
+        too thin to compete. AI Content Generation breaks this cycle by automating the research,
         writing, repurposing, and scheduling of content, so you stay visible, credible, and ahead of the local
         pack without adding headcount or blowing your budget. The next sections show what actually changes
         when you switch from manual to AI-assisted workflows, and how each step in the process is finally

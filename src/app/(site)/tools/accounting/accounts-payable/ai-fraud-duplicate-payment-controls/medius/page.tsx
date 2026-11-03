@@ -14,7 +14,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Medius";
-const PAGE_TITLE = "Medius for Intelligent Fraud & Duplicate Payment Controls";
+const PAGE_TITLE = "Medius for AI Fraud & Duplicate Payment Controls";
 const DESCRIPTION =
     "Medius automates fraud & duplicate payment controls, enhancing financial security with AI-driven solutions.";
 const CANONICAL = "/tools/accounting/accounts-payable/ai-fraud-duplicate-payment-controls/medius";
@@ -28,7 +28,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Medius, automated fraud and duplicate payment controls, accounts payable automation, fraud detection, duplicate invoice detection, anomaly detection, risk scoring, statement reconciliation, three-way matching, supplier change monitoring, ERP integration, AI implementation",
+            "keywords": "Medius, AI fraud and duplicate payment controls, accounts payable automation, fraud detection, duplicate invoice detection, anomaly detection, risk scoring, statement reconciliation, three-way matching, supplier change monitoring, ERP integration, AI implementation",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -59,7 +59,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Medius", "automated fraud and duplicate payment controls", "accounts payable automation", "fraud detection", "duplicate invoice detection", "statement reconciliation"],
+        keywords: ["Medius", "AI fraud and duplicate payment controls", "accounts payable automation", "fraud detection", "duplicate invoice detection", "statement reconciliation"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

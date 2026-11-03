@@ -13,7 +13,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Bill";
-const PAGE_TITLE = "Bill for Intelligent Approval Workflows";
+const PAGE_TITLE = "Bill for AI Invoice Approval Workflows";
 const DESCRIPTION =
     "Streamline invoice approvals with Bill's automated workflows, enhancing efficiency and accuracy for your business.";
 const CANONICAL = "/tools/accounting/accounts-payable/ai-invoice-approval-workflows/bill";
@@ -25,7 +25,7 @@ const jsonLd: WithContext<TechArticle> = {
     "headline": PAGE_TITLE,
     "description": DESCRIPTION,
     "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-    "keywords": "Bill, automated approval workflows, accounts payable automation, invoice approval, AI invoice coding, 2- and 3-way matching, QuickBooks Online, Xero, mobile approvals, AI implementation",
+    "keywords": "Bill, AI invoice approval workflows, accounts payable automation, invoice approval, AI invoice coding, 2- and 3-way matching, QuickBooks Online, Xero, mobile approvals, AI implementation",
     "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
     "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
     "about": {
@@ -40,7 +40,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Bill", "automated approval workflows", "accounts payable automation", "invoice approval", "AI invoice coding", "2- and 3-way matching"],
+        keywords: ["Bill", "AI invoice approval workflows", "accounts payable automation", "invoice approval", "AI invoice coding", "2- and 3-way matching"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

@@ -109,7 +109,7 @@ export default async function Page() {
                   </li>
                   <li>
                     <Link href="/blog/accounting/accounts-payable/how-automated-payment-execution-transforms-your-bottom-line" className="text-[#C83803] font-bold hover:underline">
-                      Automated Payment Execution Benefits
+                      AI Payment Execution Benefits
                     </Link>
                   </li>
                   <li>

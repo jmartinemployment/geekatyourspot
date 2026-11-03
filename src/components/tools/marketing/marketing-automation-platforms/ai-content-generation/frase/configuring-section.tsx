@@ -60,7 +60,7 @@ export default function ConfiguringSection() {
       <p className="text-base text-white shadow-text pt-3">
         For small businesses in West Palm Beach, Broward, and Miami-Dade, the end result is a content workflow
         that feels like it was built for your team, not forced on you by a generic tool. Frase’s configuration
-        options, combined with Geek @ Your Spot LLC’s local implementation, turn Intelligent Content Generation
+        options, combined with Geek @ Your Spot LLC’s local implementation, turn AI Content Generation
         from a buzzword into a working system. You get the benefits of automation, speed, consistency, and
         reduced overhead, without giving up the control and brand quality that matter in a crowded local
         market.</p>

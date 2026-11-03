@@ -55,12 +55,12 @@ export default function RightFitSection() {
         If you are on the fence, consider what it would mean to have cash flow forecasts that update themselves,
         alerts before cash gets tight, and a clear view of every entity and currency in one dashboard. For small
         businesses in South Florida, that is the difference between reacting to problems and planning ahead.
-        Cashflowfrog is not the only tool in the market, but for teams that want Intelligent Resource Planning
+        Cashflowfrog is not the only tool in the market, but for teams that want AI Resource Planning
         without the burden of a full&nbsp;ERP, it is one of the few that
         can deliver live value from the first week.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<a href="#consultationAppointment2xl" id={`tools-accounting-intelligent-resource-planning-cashflowfrog-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
+        when&nbsp;<a href="#consultationAppointment2xl" id={`tools-accounting-ai-resource-planning-cashflowfrog-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How many hours a week are you or your main bookkeeper spending manually pulling data from banking portals just to build a baseline cash flow forecast?</li>
@@ -77,7 +77,7 @@ export default function RightFitSection() {
         <li>Who on your current team has the bandwidth to own the data migration and training phase, without letting daily operations slip?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
-        Two things in the published material set Cashflowfrog apart, and our post <Link id={`tools-accounting-cash-flow-forecasting-intelligent-resource-planning-cashflowfrog-xlink-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/intelligent-resource-planning-for-small-businesses-how-to-fix-cash-flow-headaches-in-south-florida" className="text-[#C83803] hover:underline">AI Resource Planning for Cash Flow</Link> covers both: visual cash projections that need no setup and refresh on every sync with your accounting system, and a grading of each customer by payment speed that flags the relationships likely to open a cash gap. The post also sets the condition, since Cashflowfrog’s projections depend on regular syncs with QuickBooks and on books that are reconciled and coded consistently. The data quality assessment and the thirty-day benchmark in our <Link id={`tools-accounting-cash-flow-forecasting-intelligent-resource-planning-cashflowfrog-xlink-pillar${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-resource-planning" className="text-[#C83803] hover:underline">AI Resource Planning</Link> guide check that before the free trial becomes a subscription.</p>
+        Two things in the published material set Cashflowfrog apart, and our post <Link id={`tools-accounting-cash-flow-forecasting-ai-resource-planning-cashflowfrog-xlink-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/intelligent-resource-planning-for-small-businesses-how-to-fix-cash-flow-headaches-in-south-florida" className="text-[#C83803] hover:underline">AI Resource Planning for Cash Flow</Link> covers both: visual cash projections that need no setup and refresh on every sync with your accounting system, and a grading of each customer by payment speed that flags the relationships likely to open a cash gap. The post also sets the condition, since Cashflowfrog’s projections depend on regular syncs with QuickBooks and on books that are reconciled and coded consistently. The data quality assessment and the thirty-day benchmark in our <Link id={`tools-accounting-cash-flow-forecasting-ai-resource-planning-cashflowfrog-xlink-pillar${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-resource-planning" className="text-[#C83803] hover:underline">AI Resource Planning</Link> guide check that before the free trial becomes a subscription.</p>
     </>
   );
 

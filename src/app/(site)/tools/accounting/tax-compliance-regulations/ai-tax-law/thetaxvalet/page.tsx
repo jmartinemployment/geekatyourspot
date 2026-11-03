@@ -18,7 +18,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "TaxValet";
-const PAGE_TITLE = "TaxValet for Automating Complex & Changing Laws";
+const PAGE_TITLE = "TaxValet for AI Tax Law";
 const DESCRIPTION =
     "Streamline tax compliance for Miami-area small businesses with TaxValet's expert-managed services.";
 const CANONICAL = "/tools/accounting/tax-compliance-regulations/ai-tax-law/thetaxvalet";

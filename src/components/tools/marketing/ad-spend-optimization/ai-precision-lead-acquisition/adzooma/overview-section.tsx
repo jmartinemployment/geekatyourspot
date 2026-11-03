@@ -10,7 +10,7 @@ export default function OverviewSection() {
         what is working, where your money is going, or which channel deserves more budget. This is dashboard fatigue in
         action: too many screens, too little clarity, and no quick way to fix what is not working.</p>
       <p className="text-base text-white shadow-text pt-3">
-        <Link id={`tools-marketing-precision-lead-acquisition-adzooma-overview-precision-lead-acquisition${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition" className="text-[#C83803] hover:underline">Ad
+        <Link id={`tools-marketing-ai-precision-lead-acquisition-adzooma-overview-ai-precision-lead-acquisition${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition" className="text-[#C83803] hover:underline">Ad
         Spend Optimization</Link> changes this. With the right platform, you get a single view of every campaign, so you
         can see instantly where your budget is wasted, which ads are underperforming, and what actions will actually
         move the needle. Automated tools like Adzooma do more than show you numbers; they surface real optimization

@@ -19,7 +19,7 @@ export default function ComparingSection() {
         prospects receive generic, untimely follow-up. Even when a team manages to personalize messages, it rarely
         happens at scale, so most leads never see anything tailored to them.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Entry-level email tools such as <Link id={`tools-marketing-personalized-email-campaigns-getresponse-comparing-mailchimp${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailchimp" className="text-[#0B162A] hover:underline">Mailchimp</Link> or <Link id={`tools-marketing-personalized-email-campaigns-getresponse-comparing-mailerlite${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailerlite" className="text-[#0B162A] hover:underline">MailerLite</Link> provide
+        Entry-level email tools such as <Link id={`tools-marketing-ai-personalized-email-campaigns-getresponse-comparing-mailchimp${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailchimp" className="text-[#0B162A] hover:underline">Mailchimp</Link> or <Link id={`tools-marketing-ai-personalized-email-campaigns-getresponse-comparing-mailerlite${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailerlite" className="text-[#0B162A] hover:underline">MailerLite</Link> provide
         basic newsletter sending, some templates, and simple automation, but they often require manual import of
         contacts, lack robust segmentation, or limit automation to scheduled blasts. These tools can work for a
         business just starting out, but as soon as you want to segment by behavior, send different journeys based on
@@ -36,7 +36,7 @@ export default function ComparingSection() {
         filtering lists or building one-off campaigns for every scenario.</p>
       <p className="text-base text-white shadow-text pt-3">
         When compared to more advanced <GlossaryLink slug="marketing-automation-platform" className="text-[#0B162A] hover:underline">marketing
-        automation platforms</GlossaryLink> like <Link id={`tools-marketing-personalized-email-campaigns-getresponse-comparing-activecampaign${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/activecampaign" className="text-[#0B162A] hover:underline">ActiveCampaign</Link> or
+        automation platforms</GlossaryLink> like <Link id={`tools-marketing-ai-personalized-email-campaigns-getresponse-comparing-activecampaign${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/activecampaign" className="text-[#0B162A] hover:underline">ActiveCampaign</Link> or
         Klaviyo, GetResponse’s main strength for small businesses is its balance of power and ease of use. It does
         not require a dedicated marketing ops person to set up: the drag-and-drop editor, customizable templates,
         and AI-powered email writer allow non-technical users to build campaigns that look polished and feel
@@ -59,7 +59,7 @@ export default function ComparingSection() {
       <p className="text-base text-white shadow-text pt-3">
         Deliverability is another area where GetResponse compares favorably. The platform reports a 99%
         deliverability rate, meaning your messages are far more likely to reach the inbox rather than get lost in
-        spam (<a id={`tools-marketing-personalized-email-campaigns-getresponse-comparing-source-getresponse-com${idSuffix}`} href="https://www.getresponse.com/customers/red-hot-marketing-case-study" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">GetResponse</a>,
+        spam (<a id={`tools-marketing-ai-personalized-email-campaigns-getresponse-comparing-source-getresponse-com${idSuffix}`} href="https://www.getresponse.com/customers/red-hot-marketing-case-study" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">GetResponse</a>,
         as of Oct 25, 2026). This is not a given with lower-cost or less established providers, and it directly
         impacts the effectiveness of every campaign you run.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -90,7 +90,7 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-getresponse-compares-to-other-approaches-for-personalized-email-campaigns" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-getresponse-compares-to-other-approaches-for-ai-personalized-email-campaigns" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How GetResponse compares to other approaches for personalized email campaigns
               </h2>
             </div>
@@ -103,7 +103,7 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-getresponse-compares-to-other-approaches-for-personalized-email-campaigns-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-getresponse-compares-to-other-approaches-for-ai-personalized-email-campaigns-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How GetResponse compares to other approaches for personalized email campaigns
               </h2>
               {body("-lg")}

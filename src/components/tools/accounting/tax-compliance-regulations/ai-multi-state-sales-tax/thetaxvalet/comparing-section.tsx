@@ -13,7 +13,7 @@ export default function ComparingSection() {
         channels.</p>
       <p className="text-base text-white shadow-text pt-3">
         DIY and basic software tools
-        like&nbsp;<Link id={`tools-accounting-multi-state-sales-tax-nexus-thetaxvalet-comparing-taxjar${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/taxjar" className="text-[#0B162A] hover:underline">TaxJar</Link>&nbsp;or
+        like&nbsp;<Link id={`tools-accounting-ai-multi-state-sales-tax-thetaxvalet-comparing-taxjar${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/taxjar" className="text-[#0B162A] hover:underline">TaxJar</Link>&nbsp;or
         QuickBooks Online offer entry-level automation for calculating tax on checkout and filing standard
         returns. For a business selling only through one or two channels and operating in a handful of states,
         these tools can work, up to a point. The problem is visibility. Software only tracks the transactions it

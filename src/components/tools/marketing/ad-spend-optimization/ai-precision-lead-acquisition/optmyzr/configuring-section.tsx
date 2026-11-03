@@ -11,7 +11,7 @@ export default function ConfiguringSection() {
         The main engine is Optmyzr&rsquo;s Rule Engine. Here, you write the logic that automates the repetitive and
         time-sensitive jobs your team cannot watch around the clock. For example, you might set a rule to pause any
         keyword in Google Ads that spends more than three times your target CPA without a conversion over the last 90
-        days (<a id={`tools-marketing-precision-lead-acquisition-optmyzr-configuring-source-automation-layering${idSuffix}`} href="https://www.optmyzr.com/automation-layering-masterclass/manage-small-google-ads-accounts/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Optmyzr</a>,
+        days (<a id={`tools-marketing-ai-precision-lead-acquisition-optmyzr-configuring-source-automation-layering${idSuffix}`} href="https://www.optmyzr.com/automation-layering-masterclass/manage-small-google-ads-accounts/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Optmyzr</a>,
         as of Oct 24, 2026). You can do the same for Meta, LinkedIn, Microsoft Ads, and Amazon Ads, each platform gets
         its own set of rules, tailored to its structure and your goals. You can even schedule these rules to run at
         daily, weekly, or custom intervals, so you are not caught off guard by a budget spike or a drop in performance
@@ -36,7 +36,7 @@ export default function ConfiguringSection() {
         threshold, sent by email, Slack, Microsoft Teams, or even exported to Google Sheets. This means you know about a
         problem the moment it appears, not after the money is gone. For example, if a campaign&rsquo;s spend suddenly
         spikes or a landing page starts throwing 404 errors, Optmyzr can pause the affected ads and alert you instantly
-        (<a id={`tools-marketing-precision-lead-acquisition-optmyzr-configuring-source-landing-pages${idSuffix}`} href="https://www.optmyzr.com/blog/are-your-adwords-ads-losing-money-on-bad-landing-pages/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Optmyzr</a>,
+        (<a id={`tools-marketing-ai-precision-lead-acquisition-optmyzr-configuring-source-landing-pages${idSuffix}`} href="https://www.optmyzr.com/blog/are-your-adwords-ads-losing-money-on-bad-landing-pages/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Optmyzr</a>,
         as of Oct 24, 2026). This is a safety net that most small teams cannot build for themselves inside native ad
         platforms.</p>
       <p className="text-base text-white shadow-text pt-3">

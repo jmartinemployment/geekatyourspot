@@ -18,7 +18,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Bir";
-const PAGE_TITLE = "Bir for Precision Lead Acquisition";
+const PAGE_TITLE = "Bir for AI Precision Lead Acquisition";
 const DESCRIPTION =
     "Ad Spend Optimization with Bir cuts wasted budget by automating ad controls and reallocating spend in real time. Start optimizing your campaigns today.";
 const CANONICAL = "/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/bir";
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Bir, precision lead acquisition, ad spend optimization, local advertising, lead generation, South Florida small business",
+            "keywords": "Bir, AI precision lead acquisition, ad spend optimization, local advertising, lead generation, South Florida small business",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-30T11:33:57.5597280Z",
@@ -66,7 +66,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Bir", "precision lead acquisition", "ad spend optimization", "local advertising", "lead generation", "South Florida small business"],
+        keywords: ["Bir", "AI precision lead acquisition", "ad spend optimization", "local advertising", "lead generation", "South Florida small business"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

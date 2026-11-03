@@ -4,7 +4,7 @@ export default function EvaluatingSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        When considering automated approval workflows, Ramp is a powerful contender for small businesses. It
+        When considering AI invoice approval workflows, Ramp is a powerful contender for small businesses. It
         offers a range of features that streamline the&nbsp;
         accounts payable&nbsp;process, reducing time
         spent on manual tasks and minimizing errors. Understanding how Ramp fits into your operations involves

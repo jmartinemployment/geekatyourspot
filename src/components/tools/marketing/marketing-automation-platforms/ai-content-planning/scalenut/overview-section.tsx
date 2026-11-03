@@ -20,7 +20,7 @@ export default function OverviewSection() {
         recommendations entirely, because your content is not structured, fast or relevant enough for these
         models to find or trust.</p>
       <p className="text-base text-white shadow-text pt-3">
-        <Link id={`tools-marketing-intelligent-content-planning-scalenut-overview-intelligent-content-planning${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-planning" className="text-[#C83803] hover:underline">Intelligent Content Planning</Link>&nbsp;breaks this cycle. Instead of building strategy on hunches, it applies
+        <Link id={`tools-marketing-ai-content-planning-scalenut-overview-ai-content-planning${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-planning" className="text-[#C83803] hover:underline">AI Content Planning</Link>&nbsp;breaks this cycle. Instead of building strategy on hunches, it applies
         predictive automation to map out exactly what your audience and AI engines are looking for, before a
         single word gets written. Content is planned, generated, repurposed and scheduled in bulk, freeing
         your team from the manual bottlenecks that drain time and budget. Structured workflows make sure every
@@ -29,7 +29,7 @@ export default function OverviewSection() {
       <p className="text-base text-white shadow-text pt-3">
         For small businesses in Miami-Dade, Broward and West Palm Beach, this is not a nice-to-have. It is the
         difference between being the local authority AI recommends, or being invisible, no matter how many
-        hours you put in. Intelligent Content Planning is how teams with limited headcount can finally scale
+        hours you put in. AI Content Planning is how teams with limited headcount can finally scale
         their output, cut content costs, and get seen where it matters most.</p>
     </>
   );

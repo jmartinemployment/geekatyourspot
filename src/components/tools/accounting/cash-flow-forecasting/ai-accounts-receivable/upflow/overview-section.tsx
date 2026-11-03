@@ -17,10 +17,10 @@ export default function OverviewSection() {
         cash flow predictability, allowing businesses to plan and invest with confidence.</p>
       <p className="text-base text-white shadow-text pt-3">
         For small businesses in South Florida, adopting a solution like Upflow can mean the difference between
-        financial uncertainty and stability. By leveraging automated accounts receivable, these businesses can
+        financial uncertainty and stability. By leveraging AI accounts receivable, these businesses can
         reduce manual workloads, minimize errors, and enhance customer satisfaction through timely and consistent
         communication. The result is not just time saved, but a more reliable and robust financial operation that
-        positions them for growth. Automated Accounts Receivable isn&#39;t just a tool; it&#39;s a strategic
+        positions them for growth. AI Accounts Receivable isn&#39;t just a tool; it&#39;s a strategic
         advantage.</p>
     </>
   );

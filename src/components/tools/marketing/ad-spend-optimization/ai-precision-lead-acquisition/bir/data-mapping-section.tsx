@@ -26,7 +26,7 @@ export default function DataMappingSection() {
         KPIs are needed, such as a blended ROAS across platforms or a custom event for lead quality.</p>
       <p className="text-base text-white shadow-text pt-3">
         Data freshness and update frequency also matter. Bir&rsquo;s rules can check performance as often as every 15
-        minutes, but that is only useful if the underlying data is up to date (<a id={`tools-marketing-precision-lead-acquisition-bir-data-mapping-source-nothink${idSuffix}`} href="https://bir.ch/case-studies/nothink" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Bir</a>,
+        minutes, but that is only useful if the underlying data is up to date (<a id={`tools-marketing-ai-precision-lead-acquisition-bir-data-mapping-source-nothink${idSuffix}`} href="https://bir.ch/case-studies/nothink" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Bir</a>,
         as of Oct 25, 2026). Geek @ Your Spot tests each integration to confirm that data feeds are live and that any
         sync delays are flagged. For businesses relying on <GlossaryLink slug="offline-conversions">offline conversion</GlossaryLink>
         imports or delayed attribution, rules can be set to run only after the data is refreshed, preventing premature
@@ -34,7 +34,7 @@ export default function DataMappingSection() {
       <p className="text-base text-white shadow-text pt-3">
         Custom timeframes and performance windows are another key mapping decision. Bir allows you to define the exact
         periods that rules should evaluate, such as last 3 days, 7 days, or hourly slices, so automation is based on
-        trends, not noise (<a id={`tools-marketing-precision-lead-acquisition-bir-data-mapping-source-webtopia${idSuffix}`} href="https://bir.ch/case-studies/webtopia" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Bir</a>,
+        trends, not noise (<a id={`tools-marketing-ai-precision-lead-acquisition-bir-data-mapping-source-webtopia${idSuffix}`} href="https://bir.ch/case-studies/webtopia" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Bir</a>,
         as of Oct 25, 2026). Geek @ Your Spot works with you to set these windows to match your sales cycle and campaign
         goals. For example, if your business sees weekend surges or late-night spikes, the rules can be tuned to catch
         these patterns and adjust spend automatically, rather than reacting to outliers or short-term dips.</p>

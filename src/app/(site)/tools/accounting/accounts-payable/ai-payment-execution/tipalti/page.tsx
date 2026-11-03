@@ -14,7 +14,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Tipalti";
-const PAGE_TITLE = "Tipalti for Intelligent Payment Execution";
+const PAGE_TITLE = "Tipalti for AI Payment Execution";
 const DESCRIPTION =
     "Automate payments with Tipalti to boost efficiency, reduce errors, and drive business growth.";
 const CANONICAL = "/tools/accounting/accounts-payable/ai-payment-execution/tipalti";
@@ -28,7 +28,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Tipalti, automated payment execution, accounts payable automation, global payables, multi-entity payables, multi-currency payments, supplier portal, tax compliance, QuickBooks Online integration, AI implementation",
+            "keywords": "Tipalti, AI payment execution, accounts payable automation, global payables, multi-entity payables, multi-currency payments, supplier portal, tax compliance, QuickBooks Online integration, AI implementation",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -53,7 +53,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Tipalti", "automated payment execution", "accounts payable automation", "global payables", "multi-currency payments", "supplier portal"],
+        keywords: ["Tipalti", "AI payment execution", "accounts payable automation", "global payables", "multi-currency payments", "supplier portal"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
@@ -87,7 +87,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page() {
     const heroSummary =
-        "Tipalti offers Automated Payment Execution to streamline financial operations and enhance accuracy.";
+        "Tipalti offers AI Payment Execution to streamline financial operations and enhance accuracy.";
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />

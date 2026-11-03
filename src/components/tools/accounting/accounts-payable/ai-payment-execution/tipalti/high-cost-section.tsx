@@ -42,8 +42,8 @@ export default function HighCostSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-high-cost-of-manual-automated-payment-execution">
-                The High Cost of Manual Automated Payment Execution
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-high-cost-of-manual-payment-execution">
+                The High Cost of Manual Payment Execution
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
@@ -55,8 +55,8 @@ export default function HighCostSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-high-cost-of-manual-automated-payment-execution-lg">
-                The High Cost of Manual Automated Payment Execution
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-high-cost-of-manual-payment-execution-lg">
+                The High Cost of Manual Payment Execution
               </h2>
               {body}
             </div>

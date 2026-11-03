@@ -17,7 +17,7 @@ export default function CostOfManualSection() {
         unified system to flag anomalies early. The cost of these manual processes is not just financial; it
         can damage supplier relationships and erode trust.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Tipalti addresses these challenges head-on with its Automated Fraud &amp; Duplicate Payment Controls.
+        Tipalti addresses these challenges head-on with its AI Fraud &amp; Duplicate Payment Controls.
         By securing the entire supplier-to-payment chain, Tipalti ensures that growth does not translate to
         more duplicate bills or risky vendor changes. The platform’s capabilities extend beyond just invoice
         entry, offering a comprehensive approach to managing and mitigating risks throughout the payment
@@ -35,7 +35,7 @@ export default function CostOfManualSection() {
         reduces the administrative burden, allowing staff to focus on strategic initiatives rather than mundane
         tasks.</p>
       <p className="text-base text-white shadow-text pt-3">
-        In essence, the cost of manual processes in Automated Fraud &amp; Duplicate Payment Controls is high,
+        In essence, the cost of manual processes in AI Fraud &amp; Duplicate Payment Controls is high,
         both in terms of financial loss and operational inefficiency. Tipalti breaks this cycle by offering a
         robust solution that secures the entire payment process, from start to finish. Businesses can finally
         move away from reactive measures and embrace a proactive approach that safeguards their financial
@@ -49,8 +49,8 @@ export default function CostOfManualSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-cost-of-manual-payment-processes-in-automated-fraud-duplicate-payment-controls">
-                The Cost of Manual Payment Processes in Automated Fraud &amp; Duplicate Payment Controls
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-cost-of-manual-payment-processes-in-ai-fraud-duplicate-payment-controls">
+                The Cost of Manual Payment Processes in AI Fraud &amp; Duplicate Payment Controls
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
@@ -62,8 +62,8 @@ export default function CostOfManualSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-cost-of-manual-payment-processes-in-automated-fraud-duplicate-payment-controls-lg">
-                The Cost of Manual Payment Processes in Automated Fraud &amp; Duplicate Payment Controls
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-cost-of-manual-payment-processes-in-ai-fraud-duplicate-payment-controls-lg">
+                The Cost of Manual Payment Processes in AI Fraud &amp; Duplicate Payment Controls
               </h2>
               {body}
             </div>

@@ -27,7 +27,7 @@ export default function ImplementingSection() {
         Finally, continuous monitoring and optimization ensure that Bill operates at peak efficiency. Regular
         check-ins and system audits help identify any areas for improvement, allowing you to adapt and optimize your
         processes as your business grows. This proactive approach not only maximizes the benefits of Bill but also
-        ensures that your automated accounts receivable process remains efficient and effective.</p>
+        ensures that your AI accounts receivable process remains efficient and effective.</p>
     </>
   );
 

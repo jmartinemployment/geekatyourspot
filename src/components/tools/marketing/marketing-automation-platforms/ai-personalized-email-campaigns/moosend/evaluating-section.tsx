@@ -6,7 +6,7 @@ export default function EvaluatingSection() {
         segmentation, automation, and pricing model match your business’s needs and scale. Moosend is designed for
         small teams that want to automate personalized follow-up without hiring extra staff or managing complex
         software. Its pricing starts at $9 per month for unlimited emails, which is published on Moosend’s own site,
-        and it offers a 30-day free trial to test its features before you commit (<a id={`tools-marketing-personalized-email-campaigns-moosend-evaluating-source-moosend-com${idSuffix}`} href="https://moosend.com/blog/best-time-to-send-an-email/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Moosend</a>,
+        and it offers a 30-day free trial to test its features before you commit (<a id={`tools-marketing-ai-personalized-email-campaigns-moosend-evaluating-source-moosend-com${idSuffix}`} href="https://moosend.com/blog/best-time-to-send-an-email/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Moosend</a>,
         as of Oct 25, 2026).</p>
       <p className="text-base text-white shadow-text pt-3">
         The first fit question is whether Moosend’s approach to automation and segmentation matches your workflow.

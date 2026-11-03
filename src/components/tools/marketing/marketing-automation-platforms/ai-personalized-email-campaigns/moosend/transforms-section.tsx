@@ -56,14 +56,14 @@ export default function TransformsSection() {
         through the cracks.</p>
       <p className="text-base text-white shadow-text pt-3">
         The platform’s pricing starts at $9 per month for unlimited emails, which makes it accessible for small
-        businesses looking to scale without adding headcount (<a id={`tools-marketing-personalized-email-campaigns-moosend-transforms-source-moosend-com${idSuffix}`} href="https://moosend.com/blog/best-time-to-send-an-email/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Moosend</a>,
+        businesses looking to scale without adding headcount (<a id={`tools-marketing-ai-personalized-email-campaigns-moosend-transforms-source-moosend-com${idSuffix}`} href="https://moosend.com/blog/best-time-to-send-an-email/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Moosend</a>,
         as of Oct 25, 2026). There are no hidden costs for sending more messages, so you can grow your list and your
         campaigns without worrying about extra charges.</p>
       <p className="text-base text-white shadow-text pt-3">
         Case studies show the impact: Anastasia, a real user, consistently achieves a 25% open rate after switching
-        to Moosend, solving the problem of declining engagement as her list grew (<a id={`tools-marketing-personalized-email-campaigns-moosend-transforms-source-moosend-com-2${idSuffix}`} href="https://moosend.com/anastasia-case-study/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Moosend</a>,
+        to Moosend, solving the problem of declining engagement as her list grew (<a id={`tools-marketing-ai-personalized-email-campaigns-moosend-transforms-source-moosend-com-2${idSuffix}`} href="https://moosend.com/anastasia-case-study/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Moosend</a>,
         as of Oct 25, 2026). SimplyDigital collected 15,000 emails in four months using Moosend’s <GlossaryLink slug="landing-page" className="text-[#0B162A] hover:underline">landing
-        pages</GlossaryLink> and segmentation tools, all without aggressive sales tactics or manual effort (<a id={`tools-marketing-personalized-email-campaigns-moosend-transforms-source-moosend-com-3${idSuffix}`} href="https://moosend.com/simplydigital-case-study/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Moosend</a>,
+        pages</GlossaryLink> and segmentation tools, all without aggressive sales tactics or manual effort (<a id={`tools-marketing-ai-personalized-email-campaigns-moosend-transforms-source-moosend-com-3${idSuffix}`} href="https://moosend.com/simplydigital-case-study/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Moosend</a>,
         as of Oct 25, 2026). These are concrete examples of hours saved and results delivered.</p>
       <blockquote cite="https://moosend.com/segmentation/" className="mt-3 border-l-4 border-white/60 pl-4 italic text-base text-white shadow-text">
         Segment your customers based on their behavior, craft unique messages, and build campaigns that convert.</blockquote>
@@ -82,8 +82,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-moosend-actually-does-for-personalized-email-campaigns" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                What Moosend actually does for Personalized Email Campaigns
+              <h2 id="what-moosend-actually-does-for-ai-personalized-email-campaigns" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                What Moosend actually does for AI Personalized Email Campaigns
               </h2>
             </div>
             <div className="col-span-12">{body()}</div>
@@ -95,8 +95,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-moosend-actually-does-for-personalized-email-campaigns-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                What Moosend actually does for Personalized Email Campaigns
+              <h2 id="what-moosend-actually-does-for-ai-personalized-email-campaigns-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                What Moosend actually does for AI Personalized Email Campaigns
               </h2>
               {body("-lg")}
             </div>

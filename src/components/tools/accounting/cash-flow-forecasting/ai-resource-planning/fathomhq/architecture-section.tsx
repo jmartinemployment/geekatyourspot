@@ -53,7 +53,7 @@ export default function ArchitectureSection() {
         Fathom’s architecture is built to reduce friction. It does not force small businesses to change how they
         work; instead, it brings order and visibility to the systems they already have. For South Florida teams
         with a mix of cloud and desktop tools, or those who still rely on spreadsheets for some processes, this
-        is a practical path to Intelligent Resource Planning. Fathom brings all the data into one place, makes
+        is a practical path to AI Resource Planning. Fathom brings all the data into one place, makes
         it live and actionable, and scales as the business grows, without the pain of a
         full&nbsp;ERP&nbsp;overhaul.</p>
     </>

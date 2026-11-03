@@ -12,7 +12,7 @@ export const getresponseContent: ToolPageContent = {
   "department": "marketing",
   "useCase": "marketing-automation-platforms/ai-personalized-email-campaigns",
   "description":
-    "Personalized Email Campaigns with GetResponse boost open rates for small businesses in South Florida. Automate now and win back your time.",
+    "AI Personalized Email Campaigns with GetResponse boost open rates for small businesses in South Florida. Automate now and win back your time.",
   "heroSummary":
     "GetResponse helps small businesses in South Florida automate personalized email campaigns, replacing repetitive manual tasks with targeted messaging that drives more sales and engagement.",
   "keywords":
@@ -24,7 +24,7 @@ export const getresponseContent: ToolPageContent = {
   "sections": [
     {"title": "Overview", "description": "Why are we still sending the same generic email to every lead, even when we know it is not working?"},
     {"title": "What it costs to keep doing this by hand", "description": "Manual email campaigns drain small teams in South Florida of both time and sales."},
-    {"title": "What GetResponse Personalized Email Campaigns actually remove from your week", "description": "GetResponse takes the manual work out of Personalized Email Campaigns by automating every step that slows small teams down."},
+    {"title": "What GetResponse AI Personalized Email Campaigns actually remove from your week", "description": "GetResponse takes the manual work out of AI Personalized Email Campaigns by automating every step that slows small teams down."},
     {"title": "GetResponse automates every step from lead capture to tailored follow-up", "description": "GetResponse automates the full process of personalized email campaigns by connecting lead sources, segmenting contacts, and delivering timely, relevant messages without manual intervention."},
     {"title": "GetResponse’s architecture connects your lead sources, segments data in real time, and holds everything in one place", "description": "GetResponse is built as a single platform that brings together lead capture, segmentation, automation, and campaign management under one account."},
     {"title": "Launching GetResponse in a small business", "description": "Going live with GetResponse in a small business starts with connecting your existing lead sources, mapping out the required automations, and configuring data flows so nothing falls through the cracks."},

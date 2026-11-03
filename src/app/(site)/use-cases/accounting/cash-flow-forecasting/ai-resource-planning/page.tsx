@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
 import SharedHeroSection from "@/components/shared/shared-hero-section";
-import LedeSection from "@/components/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business/lede-section";
-import ChallengesSection from "@/components/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business/challenges-section";
-import StatusQuoSection from "@/components/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business/status-quo-section";
-import MechanicsSection from "@/components/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business/mechanics-section";
-import KeyFactorsSection from "@/components/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business/key-factors-section";
-import DecisionsSection from "@/components/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business/decisions-section";
-import SequenceSection from "@/components/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business/sequence-section";
-import DataIntegrationSection from "@/components/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business/data-integration-section";
-import RolesSection from "@/components/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business/roles-section";
-import RightFitSection from "@/components/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business/right-fit-section";
-import PreparingSection from "@/components/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business/preparing-section";
-import PAASection from "@/components/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business/paa-section";
+import LedeSection from "@/components/use-cases/accounting/cash-flow-forecasting/ai-resource-planning-ai-driven-cash-flow-forecasting-for-small-business/lede-section";
+import ChallengesSection from "@/components/use-cases/accounting/cash-flow-forecasting/ai-resource-planning-ai-driven-cash-flow-forecasting-for-small-business/challenges-section";
+import StatusQuoSection from "@/components/use-cases/accounting/cash-flow-forecasting/ai-resource-planning-ai-driven-cash-flow-forecasting-for-small-business/status-quo-section";
+import MechanicsSection from "@/components/use-cases/accounting/cash-flow-forecasting/ai-resource-planning-ai-driven-cash-flow-forecasting-for-small-business/mechanics-section";
+import KeyFactorsSection from "@/components/use-cases/accounting/cash-flow-forecasting/ai-resource-planning-ai-driven-cash-flow-forecasting-for-small-business/key-factors-section";
+import DecisionsSection from "@/components/use-cases/accounting/cash-flow-forecasting/ai-resource-planning-ai-driven-cash-flow-forecasting-for-small-business/decisions-section";
+import SequenceSection from "@/components/use-cases/accounting/cash-flow-forecasting/ai-resource-planning-ai-driven-cash-flow-forecasting-for-small-business/sequence-section";
+import DataIntegrationSection from "@/components/use-cases/accounting/cash-flow-forecasting/ai-resource-planning-ai-driven-cash-flow-forecasting-for-small-business/data-integration-section";
+import RolesSection from "@/components/use-cases/accounting/cash-flow-forecasting/ai-resource-planning-ai-driven-cash-flow-forecasting-for-small-business/roles-section";
+import RightFitSection from "@/components/use-cases/accounting/cash-flow-forecasting/ai-resource-planning-ai-driven-cash-flow-forecasting-for-small-business/right-fit-section";
+import PreparingSection from "@/components/use-cases/accounting/cash-flow-forecasting/ai-resource-planning-ai-driven-cash-flow-forecasting-for-small-business/preparing-section";
+import PAASection from "@/components/use-cases/accounting/cash-flow-forecasting/ai-resource-planning-ai-driven-cash-flow-forecasting-for-small-business/paa-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
@@ -19,7 +19,7 @@ import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "AI Resource Planning";
 const DESCRIPTION =
-    "Intelligent Resource Planning helps small businesses automate cash flow forecasting, accounts receivable, and ERP tasks for better control and fewer errors.";
+    "AI Resource Planning helps small businesses automate cash flow forecasting, accounts receivable, and ERP tasks for better control and fewer errors.";
 const CANONICAL = "/use-cases/accounting/cash-flow-forecasting/ai-resource-planning";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -35,7 +35,7 @@ const jsonLd: Graph = {
             "datePublished": "2026-10-14T13:36:09.9025920Z",
             "dateModified": "2026-10-14T13:36:09.9025920Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Intelligent Resource Planning, Cash Flow Forecasting, Automated Accounts Receivable, Automated Spreadsheet Data, Automated Enterprise Resource Planning, AI implementation West Palm Beach, AI for small business Miami, Fathom, Jirav, Cashflowfrog",
+            "keywords": "AI Resource Planning, Cash Flow Forecasting, AI Accounts Receivable, AI Spreadsheet Data, Automated Enterprise Resource Planning, AI implementation West Palm Beach, AI for small business Miami, Fathom, Jirav, Cashflowfrog",
             "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting" },
             "mentions": [
                 { "@type": "Thing", "name": "Cashflowfrog", "url": "https://cashflowfrog.com/" },
@@ -62,7 +62,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: TITLE,
         description: DESCRIPTION,
-        keywords: ["Intelligent Resource Planning", "Cash Flow Forecasting", "Automated Accounts Receivable", "Automated Spreadsheet Data", "Automated Enterprise Resource Planning", "AI implementation West Palm Beach", "AI for small business Miami", "Fathom", "Jirav", "Cashflowfrog"],
+        keywords: ["AI Resource Planning", "Cash Flow Forecasting", "AI Accounts Receivable", "AI Spreadsheet Data", "Automated Enterprise Resource Planning", "AI implementation West Palm Beach", "AI for small business Miami", "Fathom", "Jirav", "Cashflowfrog"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

@@ -13,7 +13,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Bill";
-const PAGE_TITLE = "Bill for Intelligent Data Entry & Processing";
+const PAGE_TITLE = "Bill for AI Data Entry & Processing";
 const DESCRIPTION =
     "Bill automates invoice processing, approvals, and expense management, with AI-powered invoice coding and configurable approval workflows.";
 const CANONICAL = "/tools/accounting/accounts-payable/ai-data-entry-processing/bill";

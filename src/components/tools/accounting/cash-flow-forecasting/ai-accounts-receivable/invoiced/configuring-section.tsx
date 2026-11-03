@@ -33,7 +33,7 @@ export default function ConfiguringSection() {
         The consultancy&#39;s expertise in data mapping and system integration means that businesses can leverage
         Invoiced&#39;s full potential without the usual teething problems associated with new software. By handling
         the technical setup and providing ongoing support, Geek @ Your Spot LLC ensures that your transition to
-        automated accounts receivable is smooth and effective. This partnership allows businesses to focus on
+        AI accounts receivable is smooth and effective. This partnership allows businesses to focus on
         growth, knowing that their financial processes are in expert hands.</p>
     </>
   );

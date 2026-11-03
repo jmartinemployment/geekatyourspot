@@ -10,7 +10,7 @@ export default function ChallengesSection() {
         never even heard ring. Each one represents a job that went elsewhere, a client who will not call back,
         or a referral that dies before it starts. These are not just numbers. They are real dollars that never
         hit the books, projects that vanish without a trace because the front desk was stretched too thin or the
-        &quot;Intelligent Receptionist&quot; system in place could not handle the reality of a busy day.</p>
+        &quot;AI Receptionist&quot; system in place could not handle the reality of a busy day.</p>
       <p className="text-base text-white shadow-text pt-3">
         Manual intake is slow and error-prone, especially when staff are pulled in many directions. Calls come
         in after hours or while someone is on another line. The office manager tries to catch up, but every
@@ -20,7 +20,7 @@ export default function ChallengesSection() {
         opportunity cost of not capturing every lead, not qualifying prospects correctly, and not following up
         fast enough to win the job.</p>
       <p className="text-base text-white shadow-text pt-3">
-        The limitations of pure automation show up fast. Many Intelligent Receptionist solutions sound
+        The limitations of pure automation show up fast. Many AI Receptionist solutions sound
         promising, 24/7 coverage, instant responses, no need for extra staff, but they break down when a caller
         needs more than a scripted answer. A distressed customer, a high-value prospect with complex needs, or
         an urgent situation that does not fit the template will quickly expose the gaps. When a bot gives a

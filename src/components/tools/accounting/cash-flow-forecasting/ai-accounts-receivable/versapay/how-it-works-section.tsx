@@ -4,7 +4,7 @@ export default function HowItWorksSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Versapay automates the automated accounts receivable process by integrating with your existing enterprise
+        Versapay automates the AI accounts receivable process by integrating with your existing enterprise
         resource planning (<GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>)
         system. This integration allows it to automatically match payments to invoices, eliminating manual data
         entry and reducing reconciliation delays. By capturing remittance and payment data from various sources,

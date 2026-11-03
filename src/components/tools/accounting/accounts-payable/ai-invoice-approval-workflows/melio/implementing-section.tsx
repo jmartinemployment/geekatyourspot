@@ -5,7 +5,7 @@ export default function ImplementingSection() {
     <>
       <p className="text-base text-white shadow-text pt-3">
         Deploying Melio in a business environment involves several key steps that ensure a smooth transition
-        to automated approval workflows. Geek @ Your Spot LLC, an&nbsp;
+        to AI invoice approval workflows. Geek @ Your Spot LLC, an&nbsp;
         <GlossaryLink slug="ai" className="text-[#0B162A] hover:underline">AI</GlossaryLink>&nbsp;implementation
         consultancy, plays a critical role in this process by tailoring Melio to fit the unique needs of each
         client. This involves configuring approval chains, setting up data mapping, and ensuring integration
@@ -33,7 +33,7 @@ export default function ImplementingSection() {
         Geek @ Your Spot LLC also provides training and support to ensure that businesses can fully leverage
         Melio&#39;s capabilities. This includes educating staff on how to use the platform effectively and
         setting up automated tasks that streamline operations. By providing comprehensive support, Geek @ Your Spot LLC ensures that businesses can quickly adapt to the new system and start reaping the benefits of
-        automated approval workflows.</p>
+        AI invoice approval workflows.</p>
       <p className="text-base text-white shadow-text pt-3">
         Finally, Melio&#39;s platform is designed to scale with the business. As companies grow, the platform
         can handle increased volumes of invoices without requiring additional headcount. This scalability is a

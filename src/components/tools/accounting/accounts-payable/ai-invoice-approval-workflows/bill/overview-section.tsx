@@ -22,7 +22,7 @@ export default function OverviewSection() {
         <a id={`tools-accounting-approval-workflows-bill-overview-approval-process${idSuffix}`}
           href="https://www.bill.com/blog/accounts-payable-approval-process"
           target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">
-          automated approval workflows
+          AI invoice approval workflows
         </a>&nbsp;come into play, offering a seamless solution to streamline and modernize these outdated
         processes.</p>
       <p className="text-base text-white shadow-text pt-3">

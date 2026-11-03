@@ -5,7 +5,7 @@ export default function OverviewSection() {
     <>
       <p className="text-base text-white shadow-text pt-3">
         Why do small businesses in South Florida keep spending on ads that never seem to pay off? The answer is that
-        most teams can&rsquo;t see which campaigns actually drive revenue and which just drain the budget. <Link id={`tools-marketing-precision-lead-acquisition-cometly-overview-precision-lead-acquisition${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition" className="text-[#C83803] hover:underline">Ad
+        most teams can&rsquo;t see which campaigns actually drive revenue and which just drain the budget. <Link id={`tools-marketing-ai-precision-lead-acquisition-cometly-overview-ai-precision-lead-acquisition${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition" className="text-[#C83803] hover:underline">Ad
         Spend Optimization</Link> breaks down the walls between your ad platforms and your actual sales data, so you stop
         guessing and start making every dollar count. The right approach connects the dots from click to customer,
         giving you the real numbers you need for smarter, faster decisions.</p>

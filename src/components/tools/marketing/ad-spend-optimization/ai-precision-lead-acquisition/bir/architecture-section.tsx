@@ -19,13 +19,13 @@ export default function ArchitectureSection() {
       <p className="text-base text-white shadow-text pt-3">
         Bir evaluates these metrics on the schedule you set. For most teams, that means checks every 15 minutes, but you
         can run them as often or as rarely as you want, and even set custom schedules for weekends, holidays, or peak
-        activity periods (<a id={`tools-marketing-precision-lead-acquisition-bir-architecture-source-nothink${idSuffix}`} href="https://bir.ch/case-studies/nothink" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Bir</a>,
+        activity periods (<a id={`tools-marketing-ai-precision-lead-acquisition-bir-architecture-source-nothink${idSuffix}`} href="https://bir.ch/case-studies/nothink" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Bir</a>,
         as of Oct 25, 2026). This means you can tailor the automation to your business&rsquo;s real operating hours and
         customer behavior, rather than relying on generic platform schedules.</p>
       <p className="text-base text-white shadow-text pt-3">
         One of the most important architectural choices in Bir is its support for nested conditions and multi-level
         logic. A rule can reference not just one metric, but a combination, such as &ldquo;if ROAS is above 3, CPA is
-        below $20, and daily spend is on pace, then increase budget by 20 percent (<a id={`tools-marketing-precision-lead-acquisition-bir-architecture-source-cocosolis${idSuffix}`} href="https://bir.ch/case-studies/cocosolis" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Bir</a>,
+        below $20, and daily spend is on pace, then increase budget by 20 percent (<a id={`tools-marketing-ai-precision-lead-acquisition-bir-architecture-source-cocosolis${idSuffix}`} href="https://bir.ch/case-studies/cocosolis" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Bir</a>,
         as of Oct 25, 2026).&rdquo; You can also set rules to look at performance over different timeframes, such as the
         last three days, seven days, or even hourly periods. This depth of logic makes Bir more precise and less prone
         to making abrupt, destabilizing changes.</p>

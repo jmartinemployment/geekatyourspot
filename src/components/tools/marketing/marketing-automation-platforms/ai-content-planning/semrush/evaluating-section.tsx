@@ -9,7 +9,7 @@ export default function EvaluatingSection() {
         and the outcomes you need.</p>
       <p className="text-base text-white shadow-text pt-3">
         Start with fit. Semrush’s modular structure means you only pay for the features you need. The SEO
-        Toolkit covers the essentials: keyword research, intelligent content planning, rank tracking, and
+        Toolkit covers the essentials: keyword research, AI content planning, rank tracking, and
         reporting. For most small businesses, this is enough to replace manual spreadsheets and endless
         brainstorming sessions. If you need more, like AI visibility tracking, local SEO, or bulk scheduling,
         you can add specialized toolkits or apps from the App Center. Each add-on solves a specific problem,

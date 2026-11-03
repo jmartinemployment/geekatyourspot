@@ -46,7 +46,7 @@ export default function ChallengesSection() {
         Most small businesses in South Florida do not have the luxury of a dedicated content strategist or a
         compliance officer. Every hour spent on manual planning, rewriting, or damage control is an hour not
         spent growing the business. The operational overhead is high, the results are nearly invisible, and
-        the stress never lets up. Intelligent Content Planning is supposed to solve this, but without the
+        the stress never lets up. AI Content Planning is supposed to solve this, but without the
         right platform, the cycle of chaos continues.</p>
     </>
   );

@@ -13,22 +13,22 @@ export const billPaymentExecutionContent: ToolPageContent = {
   "department": "accounting",
   "useCase": "accounts-payable/ai-payment-execution",
   "description":
-    "Streamline your payment process with Automated Payment Execution by Bill, reducing errors and saving time.",
+    "Streamline your payment process with AI Payment Execution by Bill, reducing errors and saving time.",
   "heroSummary":
-    "Bill offers Automated Payment Execution to streamline payment workflows and enhance accuracy for small businesses.",
+    "Bill offers AI Payment Execution to streamline payment workflows and enhance accuracy for small businesses.",
   "keywords":
-    "Bill, automated payment execution, accounts payable automation, payment approvals, ACH payments, virtual card, international wire, two-way sync, Xero integration, QuickBooks integration, AI implementation",
+    "Bill, AI payment execution, accounts payable automation, payment approvals, ACH payments, virtual card, international wire, two-way sync, Xero integration, QuickBooks integration, AI implementation",
   "datePublished": "2026-10-08T20:12:34.5551770Z",
   "dateModified": "2026-10-08T20:12:34.5551770Z",
   "relatedArticleId":
     "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-payment-execution",
   "sections": [
-    { "title": "Overview", "description": "Evenings spent on paper invoices and spreadsheets leave room for costly mistakes. Automated Payment Execution schedules and executes payments without constant oversight." },
-    { "title": "The Hidden Costs of Manual Automated Payment Execution", "description": "Approved invoices are re-keyed into bank portals, ACH, check-only and international vendors each need separate steps, and the bookkeeper learns about payments late." },
-    { "title": "How Bill Transforms Automated Payment Execution", "description": "Approval, vendor payment and accounting updates become one process, with AI-assisted invoice entry and ACH, check, virtual card and international wire in a single platform." },
-    { "title": "How Bill's Architecture Powers Automated Payment Execution", "description": "Cloud-based, with two-way sync to Xero and QuickBooks, AI coding of multi-line bills that cuts processing time by up to 20%, structured approval workflows and predictive fraud monitoring." },
+    { "title": "Overview", "description": "Evenings spent on paper invoices and spreadsheets leave room for costly mistakes. AI Payment Execution schedules and executes payments without constant oversight." },
+    { "title": "The Hidden Costs of Manual Payment Execution", "description": "Approved invoices are re-keyed into bank portals, ACH, check-only and international vendors each need separate steps, and the bookkeeper learns about payments late." },
+    { "title": "How Bill Transforms AI Payment Execution", "description": "Approval, vendor payment and accounting updates become one process, with AI-assisted invoice entry and ACH, check, virtual card and international wire in a single platform." },
+    { "title": "How Bill's Architecture Powers AI Payment Execution", "description": "Cloud-based, with two-way sync to Xero and QuickBooks, AI coding of multi-line bills that cuts processing time by up to 20%, structured approval workflows and predictive fraud monitoring." },
     { "title": "Implementing Bill in Your Business Environment", "description": "Pre-built QuickBooks and Xero connectors shorten go-live; data mapping, approval chains, reminders and optional API extensions are configured with Geek @ Your Spot LLC." },
-    { "title": "Evaluating Bill for Automated Payment Execution", "description": "Pricing grows with the business. Syncs with Xero and NetSuite; compare against Tipalti and AvidXchange where international payments and compliance matter." },
+    { "title": "Evaluating Bill for AI Payment Execution", "description": "Pricing grows with the business. Syncs with Xero and NetSuite; compare against Tipalti and AvidXchange where international payments and compliance matter." },
     { "title": "Who Benefits Most from Bill and Next Steps", "description": "Small to mid-sized businesses with high transaction volumes or complex approvals benefit most. Very small or low-volume operations may find the full suite more than they need." }
   ]
 };

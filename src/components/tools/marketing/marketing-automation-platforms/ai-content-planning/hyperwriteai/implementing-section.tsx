@@ -4,7 +4,7 @@ export default function ImplementingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Getting HyperWrite up and running for Intelligent Content Planning is not a generic software rollout.
+        Getting HyperWrite up and running for AI Content Planning is not a generic software rollout.
         It is a focused, stepwise implementation that starts with the business’s real bottlenecks, manual
         drafting, broken content handoffs, and endless email loops. What shortens go-live is HyperWrite’s
         foundation as a browser-native, context-aware assistant with prebuilt connectors and a templated setup

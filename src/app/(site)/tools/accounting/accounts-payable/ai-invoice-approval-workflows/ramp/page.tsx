@@ -13,7 +13,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Ramp";
-const PAGE_TITLE = "Ramp for Intelligent Approval Workflows";
+const PAGE_TITLE = "Ramp for AI Invoice Approval Workflows";
 const DESCRIPTION =
     "Automate invoice approvals with Ramp to save time, reduce errors, and boost efficiency.";
 const CANONICAL = "/tools/accounting/accounts-payable/ai-invoice-approval-workflows/ramp";
@@ -25,7 +25,7 @@ const jsonLd: WithContext<TechArticle> = {
     "headline": PAGE_TITLE,
     "description": DESCRIPTION,
     "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-    "keywords": "Ramp, automated approval workflows, accounts payable automation, invoice approval, OCR invoice capture, PO matching, Ramp Bill Pay, Accounting Agent, ERP integration, AI implementation",
+    "keywords": "Ramp, AI invoice approval workflows, accounts payable automation, invoice approval, OCR invoice capture, PO matching, Ramp Bill Pay, Accounting Agent, ERP integration, AI implementation",
     "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
     "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
     "about": {
@@ -40,7 +40,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Ramp", "automated approval workflows", "accounts payable automation", "invoice approval", "OCR invoice capture", "PO matching"],
+        keywords: ["Ramp", "AI invoice approval workflows", "accounts payable automation", "invoice approval", "OCR invoice capture", "PO matching"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

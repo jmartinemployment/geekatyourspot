@@ -5,7 +5,7 @@ export default function ChallengesSection() {
         A founder in Miami-Dade, Broward or West Palm Beach may start the week with a win, new orders, new sales
         channels, or a promising wholesale partnership, only to spend Friday buried under a pile of state
         notices and spreadsheets. The moment a small business crosses $100,000 in sales or 200 transactions in a
-        state, it triggers the Multi-State Sales Tax Nexus threshold. That means new obligations: register,
+        state, it triggers the AI Multi-State Sales Tax threshold. That means new obligations: register,
         collect, and remit sales tax in states where they have never set foot. This is not just a rule change;
         it is a workload shift that most small teams cannot absorb without breaking something else.</p>
       <p className="text-base text-white shadow-text pt-3">

@@ -31,7 +31,7 @@ export default function StreamlinesApSection() {
           AvidXchange
         </a></p>
       <p className="text-base text-white shadow-text pt-3">
-        In addition to automation, AvidXchange provides custom and automated approval workflows, which are
+        In addition to automation, AvidXchange provides custom and AI invoice approval workflows, which are
         essential for maintaining control and efficiency. These workflows are designed to match current
         approval processes, reducing inefficiencies and ensuring that all invoices are processed in a timely
         manner. With 24/7 visibility into real-time data, businesses can make informed decisions quickly,

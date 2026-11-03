@@ -20,7 +20,7 @@ export default function OverviewSection() {
         inefficiencies are magnified, making it even harder to keep pace with demands. This is where Automated&nbsp;<Link id={`tools-accounting-payment-execution-tipalti-overview-payment-execution${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-payment-execution" className="text-[#C83803] hover:underline">Payment Execution</Link>&nbsp;comes in, offering a streamlined solution that transforms how financial operations
         are managed.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Automated Payment Execution revolutionizes the way businesses handle their finances by automating
+        AI Payment Execution revolutionizes the way businesses handle their finances by automating
         repetitive tasks and enhancing accuracy. By leveraging <GlossaryLink slug="ai">AI</GlossaryLink>
         &nbsp;and automation, small businesses can eliminate the bottlenecks of manual data entry and approval
         processes. This shift not only saves time but also reduces errors and compliance risks. Automated

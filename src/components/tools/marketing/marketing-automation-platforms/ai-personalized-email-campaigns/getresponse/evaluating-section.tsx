@@ -18,7 +18,7 @@ export default function EvaluatingSection() {
         without coding or outside help.</p>
       <p className="text-base text-white shadow-text pt-3">
         Scalability is the next test. GetResponse’s Free plan supports up to 500 contacts, 2,500 newsletters per
-        month, and one landing page, enough for a small business getting started (<a id={`tools-marketing-personalized-email-campaigns-getresponse-evaluating-source-getresponse-com${idSuffix}`} href="https://www.getresponse.com/referral-program/refer-a-friend.html" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">GetResponse</a>,
+        month, and one landing page, enough for a small business getting started (<a id={`tools-marketing-ai-personalized-email-campaigns-getresponse-evaluating-source-getresponse-com${idSuffix}`} href="https://www.getresponse.com/referral-program/refer-a-friend.html" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">GetResponse</a>,
         as of Oct 25, 2026). Paid plans remove these limits, add unlimited landing pages and automation workflows,
         and unlock advanced segmentation and reporting. If your business expects to grow its list or run multiple
         campaigns at once, you need to pick a plan that will not hit a ceiling too soon. Geek @ Your Spot helps you
@@ -30,14 +30,14 @@ export default function EvaluatingSection() {
         priced at $15.58 per month, and the Basic plan starts at $19 per month, both billed monthly. Paid plans add
         features like unlimited newsletters, more automation workflows, custom domains, and advanced segmentation.
         For larger or more complex needs, the Enterprise plan offers flexible billing (monthly, 12, or 24 months)
-        and a 30-day pilot program to test the full suite of tools before committing (<a id={`tools-marketing-personalized-email-campaigns-getresponse-evaluating-source-getresponse-com-2${idSuffix}`} href="https://www.getresponse.com/features/email-marketing" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">GetResponse</a>,
+        and a 30-day pilot program to test the full suite of tools before committing (<a id={`tools-marketing-ai-personalized-email-campaigns-getresponse-evaluating-source-getresponse-com-2${idSuffix}`} href="https://www.getresponse.com/features/email-marketing" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">GetResponse</a>,
         as of Oct 25, 2026). All pricing is published on GetResponse’s own site, so there are no hidden fees or
         surprise charges.</p>
       <p className="text-base text-white shadow-text pt-3">
         What you get for the price matters more than the dollar amount. GetResponse includes unlimited emails,
         landing pages, and automation on paid tiers, so you are not charged extra for sending more campaigns or
         growing your list beyond the free plan’s limits. The main constraint is the number of contacts, when your
-        list grows past 500, you need to upgrade (<a id={`tools-marketing-personalized-email-campaigns-getresponse-evaluating-source-getresponse-com-3${idSuffix}`} href="https://www.getresponse.com/features/list-building/form-builder" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">GetResponse</a>,
+        list grows past 500, you need to upgrade (<a id={`tools-marketing-ai-personalized-email-campaigns-getresponse-evaluating-source-getresponse-com-3${idSuffix}`} href="https://www.getresponse.com/features/list-building/form-builder" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">GetResponse</a>,
         as of Oct 25, 2026). If your business depends on frequent campaigns, multiple lead sources, or complex
         segmentation, GetResponse’s all-in-one model is more cost-effective than piecing together separate tools for
         each function.</p>
@@ -54,7 +54,7 @@ export default function EvaluatingSection() {
         run seasonal campaigns, these integrations are supported out of the box.</p>
       <p className="text-base text-white shadow-text pt-3">
         The platform’s limits are clear. The Free plan caps contacts at 500 and landing page visits at 1,000 per
-        month (<a id={`tools-marketing-personalized-email-campaigns-getresponse-evaluating-source-getresponse-com-4${idSuffix}`} href="https://www.getresponse.com/pricing/free" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">GetResponse</a>,
+        month (<a id={`tools-marketing-ai-personalized-email-campaigns-getresponse-evaluating-source-getresponse-com-4${idSuffix}`} href="https://www.getresponse.com/pricing/free" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">GetResponse</a>,
         as of Oct 25, 2026). If you need more, you upgrade. There is no open scripting or custom <GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink> for
         deep modifications; you work within the platform’s configuration and supported integrations. For most small
         businesses, this is a strength, it keeps the system stable and the learning curve manageable. If you need
@@ -81,7 +81,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-to-judge-getresponse-on-fit-and-pricing-for-small-business-personalized-email-campaigns" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-to-judge-getresponse-on-fit-and-pricing-for-small-business-ai-personalized-email-campaigns" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to judge GetResponse on fit and pricing for small business personalized email campaigns
               </h2>
             </div>
@@ -94,7 +94,7 @@ export default function EvaluatingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-to-judge-getresponse-on-fit-and-pricing-for-small-business-personalized-email-campaigns-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="how-to-judge-getresponse-on-fit-and-pricing-for-small-business-ai-personalized-email-campaigns-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to judge GetResponse on fit and pricing for small business personalized email campaigns
               </h2>
               {body("-lg")}

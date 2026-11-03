@@ -4,7 +4,7 @@ export default function DataMappingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Moving a business onto QuickBooks for intelligent resource planning is not just a matter of copying data
+        Moving a business onto QuickBooks for AI resource planning is not just a matter of copying data
         from one system to another. The value comes from how that data is structured, mapped, and connected
         inside the platform. This is where many small businesses either set themselves up for smooth reporting
         and automation, or lock in the same pain they had with spreadsheets. Getting these decisions right
@@ -60,7 +60,7 @@ export default function DataMappingSection() {
         products, or users will require updates. But starting with a clean, well-mapped foundation in QuickBooks
         gives the business a system that scales, supporting new locations, higher transaction volume, and more
         complex reporting without losing control or clarity. For small businesses in South Florida, this is what
-        turns QuickBooks from another accounting tool into the backbone of intelligent resource planning.</p>
+        turns QuickBooks from another accounting tool into the backbone of AI resource planning.</p>
     </>
   );
 

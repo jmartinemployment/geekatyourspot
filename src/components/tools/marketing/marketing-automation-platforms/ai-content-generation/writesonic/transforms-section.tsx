@@ -62,7 +62,7 @@ export default function TransformsSection() {
         post now reviews a queue of ready-to-publish content, all tuned to their brand and audience. Instead
         of scrambling to fill a calendar, they focus on serving clients and growing the business. The website
         moves up in search, social profiles stay active, and leads start to flow again. The grind of
-        Intelligent Content Generation becomes a solved problem, not a daily headache.</p>
+        AI Content Generation becomes a solved problem, not a daily headache.</p>
       <blockquote cite="https://writesonic.com/compare/writesonic-vs-profound" className="mt-3 border-l-4 border-white/60 pl-4 italic text-base text-white shadow-text">
         Only Writesonic ranks every gap by impact and ships the content, outreach, and technical fixes that
         close them.</blockquote>
@@ -76,8 +76,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-writesonic-removes-the-weekly-grind-from-intelligent-content-generation" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How Writesonic Removes the Weekly Grind from Intelligent Content Generation
+              <h2 id="how-writesonic-removes-the-weekly-grind-from-ai-content-generation" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How Writesonic Removes the Weekly Grind from AI Content Generation
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
@@ -89,8 +89,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-writesonic-removes-the-weekly-grind-from-intelligent-content-generation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How Writesonic Removes the Weekly Grind from Intelligent Content Generation
+              <h2 id="how-writesonic-removes-the-weekly-grind-from-ai-content-generation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How Writesonic Removes the Weekly Grind from AI Content Generation
               </h2>
               {body}
             </div>

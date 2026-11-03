@@ -14,9 +14,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Bill";
-const PAGE_TITLE = "Bill for Intelligent Payment Execution";
+const PAGE_TITLE = "Bill for AI Payment Execution";
 const DESCRIPTION =
-    "Streamline your payment process with Automated Payment Execution by Bill, reducing errors and saving time.";
+    "Streamline your payment process with AI Payment Execution by Bill, reducing errors and saving time.";
 const CANONICAL = "/tools/accounting/accounts-payable/ai-payment-execution/bill";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -28,7 +28,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Bill, automated payment execution, accounts payable automation, payment approvals, ACH payments, virtual card, international wire, two-way sync, Xero integration, QuickBooks integration, AI implementation",
+            "keywords": "Bill, AI payment execution, accounts payable automation, payment approvals, ACH payments, virtual card, international wire, two-way sync, Xero integration, QuickBooks integration, AI implementation",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -57,7 +57,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Bill", "automated payment execution", "accounts payable automation", "payment approvals", "ACH payments", "virtual card"],
+        keywords: ["Bill", "AI payment execution", "accounts payable automation", "payment approvals", "ACH payments", "virtual card"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
@@ -91,7 +91,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page() {
     const heroSummary =
-        "Bill offers Automated Payment Execution to streamline payment workflows and enhance accuracy for small businesses.";
+        "Bill offers AI Payment Execution to streamline payment workflows and enhance accuracy for small businesses.";
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />

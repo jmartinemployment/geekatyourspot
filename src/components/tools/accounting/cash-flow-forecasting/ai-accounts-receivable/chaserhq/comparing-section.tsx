@@ -4,7 +4,7 @@ export default function ComparingSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        In the landscape of automated accounts receivable solutions, Chaserhq stands out by offering a comprehensive
+        In the landscape of AI accounts receivable solutions, Chaserhq stands out by offering a comprehensive
         suite of features that streamline the invoicing and payment process. However, businesses often compare it
         with other tools like&nbsp;<Link id={`tools-accounting-accounts-receivable-chaserhq-comparing-versapay${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/ai-accounts-receivable/versapay" className="text-[#0B162A] hover:underline">Versapay</Link>&nbsp;and&nbsp;<Link id={`tools-accounting-accounts-receivable-chaserhq-comparing-invoiced${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/ai-accounts-receivable/invoiced" className="text-[#0B162A] hover:underline">Invoiced</Link>, which also promise to enhance cash flow management.
         Understanding how Chaserhq differentiates itself is crucial for businesses evaluating these solutions.</p>
@@ -39,8 +39,8 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="comparing-chaserhq-with-other-automated-accounts-receivable-solutions">
-                Comparing Chaserhq with Other Automated Accounts Receivable Solutions
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="comparing-chaserhq-with-other-ai-accounts-receivable-solutions">
+                Comparing Chaserhq with Other AI Accounts Receivable Solutions
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
@@ -52,8 +52,8 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="comparing-chaserhq-with-other-automated-accounts-receivable-solutions-lg">
-                Comparing Chaserhq with Other Automated Accounts Receivable Solutions
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="comparing-chaserhq-with-other-ai-accounts-receivable-solutions-lg">
+                Comparing Chaserhq with Other AI Accounts Receivable Solutions
               </h2>
               {body("-lg")}
             </div>

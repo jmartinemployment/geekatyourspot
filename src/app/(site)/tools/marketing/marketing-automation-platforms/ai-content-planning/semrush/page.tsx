@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Semrush";
-const PAGE_TITLE = "Semrush for Intelligent Content Planning";
+const PAGE_TITLE = "Semrush for AI Content Planning";
 const DESCRIPTION =
-    "Intelligent Content Planning is simple with Semrush, giving Miami-Dade, Broward, and West Palm Beach small businesses a smarter, data-driven content workflow.";
+    "AI Content Planning is simple with Semrush, giving Miami-Dade, Broward, and West Palm Beach small businesses a smarter, data-driven content workflow.";
 const CANONICAL = "/tools/marketing/marketing-automation-platforms/ai-content-planning/semrush";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Semrush, intelligent content planning, AI content planning, content calendar, content creation workflow, South Florida small business",
+            "keywords": "Semrush, AI content planning, content calendar, marketing automation platforms, South Florida small business",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -63,7 +63,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Semrush", "intelligent content planning", "AI content planning", "content calendar", "content creation workflow", "South Florida small business"],
+        keywords: ["Semrush", "AI content planning", "content calendar", "marketing automation platforms", "South Florida small business"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

@@ -7,7 +7,7 @@ export default function OverviewSection() {
       <p className="text-base text-white shadow-text pt-3">
         Why am I paying for ads without knowing which ones actually bring in customers, or if I&rsquo;m just wasting
         money? Most small businesses in South Florida face this every month. Platform dashboards like Google and Meta
-        split credit, double-count sales, and show numbers that never match your real bank deposits. <Link id={`tools-marketing-precision-lead-acquisition-triplewhale-overview-precision-lead-acquisition${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition" className="text-[#C83803] hover:underline">Ad
+        split credit, double-count sales, and show numbers that never match your real bank deposits. <Link id={`tools-marketing-ai-precision-lead-acquisition-triplewhale-overview-ai-precision-lead-acquisition${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition" className="text-[#C83803] hover:underline">Ad
         Spend Optimization</Link> should tell you exactly which ads drive sales, so you stop guessing and start investing
         with confidence. Instead, unclear tracking and conflicting reports push you to keep spending on campaigns that
         look good on paper but do nothing for your bottom line.</p>

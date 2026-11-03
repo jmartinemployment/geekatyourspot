@@ -18,7 +18,7 @@ export default function TransformsSection() {
         Cometly&rsquo;s server-side tracking fills the gaps left by browser pixels. It captures conversions that ad
         blockers and privacy settings would miss, including phone calls, form completions, and offline sales. This means
         you see 15&ndash;30% more conversions than browser-only tracking, so your data reflects reality, not just what
-        the platforms can see (<a id={`tools-marketing-precision-lead-acquisition-cometly-transforms-source-cometly-com${idSuffix}`} href="https://www.cometly.com/post/conversion-data-not-matching-reality" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Cometly</a>,
+        the platforms can see (<a id={`tools-marketing-ai-precision-lead-acquisition-cometly-transforms-source-cometly-com${idSuffix}`} href="https://www.cometly.com/post/conversion-data-not-matching-reality" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Cometly</a>,
         as of Oct 29, 2026). The algorithms behind your ad platforms also get better data, because Cometly sends
         verified, enriched conversion events straight to Meta and Google through their APIs. This helps the platforms
         optimize for real customers, not just clicks or form fills.</p>

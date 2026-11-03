@@ -54,7 +54,7 @@ export default function HowItWorksSection() {
         or a new interface. Instead, it layers automation, security, and forecasting onto the familiar tools
         your team already uses. For a small business ready to move past spreadsheets but not ready for a
         full&nbsp;ERP, this
-        is how you get real Intelligent Resource Planning, step by step, with each process working together to
+        is how you get real AI Resource Planning, step by step, with each process working together to
         save time, reduce risk, and keep the business in control.</p>
     </>
   );

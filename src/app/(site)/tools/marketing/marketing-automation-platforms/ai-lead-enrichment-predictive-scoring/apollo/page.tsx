@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Apollo";
-const PAGE_TITLE = "Apollo for Lead Enrichment and Predictive Scoring";
+const PAGE_TITLE = "Apollo for AI Lead Enrichment and Predictive Scoring";
 const DESCRIPTION =
-    "Lead Enrichment and Predictive Scoring with Apollo help Miami-Dade, Broward, and West Palm Beach small businesses capture and qualify sales-ready leads.";
+    "AI Lead Enrichment and Predictive Scoring with Apollo help Miami-Dade, Broward, and West Palm Beach small businesses capture and qualify sales-ready leads.";
 const CANONICAL = "/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/apollo";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 

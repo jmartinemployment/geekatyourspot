@@ -13,7 +13,7 @@ export default function ArchitectureSection() {
       <p className="text-base text-white shadow-text pt-3">
         At the core of GetResponse is its contact database. Every lead, whether from a website form, Facebook Lead
         Ad, or landing page, enters into this system. The platform supports up to 500 contacts on its free plan,
-        with higher limits on paid plans (<a id={`tools-marketing-personalized-email-campaigns-getresponse-architecture-source-getresponse-com${idSuffix}`} href="https://www.getresponse.com/features/list-building/form-builder" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">GetResponse</a>,
+        with higher limits on paid plans (<a id={`tools-marketing-ai-personalized-email-campaigns-getresponse-architecture-source-getresponse-com${idSuffix}`} href="https://www.getresponse.com/features/list-building/form-builder" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">GetResponse</a>,
         as of Oct 25, 2026). Each contact record holds not just basic information like name and email, but also
         tags, engagement scores, custom fields, and a history of every interaction. This makes it easy to track who
         your contacts are, what they care about, and how they are engaging with your business.</p>
@@ -58,14 +58,14 @@ export default function ArchitectureSection() {
       <p className="text-base text-white shadow-text pt-3">
         Security and <GlossaryLink slug="email-deliverability" className="text-[#0B162A] hover:underline">deliverability</GlossaryLink> are
         handled at the platform level. GetResponse maintains a 99% deliverability rate, so your emails reach inboxes
-        reliably (<a id={`tools-marketing-personalized-email-campaigns-getresponse-architecture-source-getresponse-com-2${idSuffix}`} href="https://www.getresponse.com/customers/red-hot-marketing-case-study" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">GetResponse</a>,
+        reliably (<a id={`tools-marketing-ai-personalized-email-campaigns-getresponse-architecture-source-getresponse-com-2${idSuffix}`} href="https://www.getresponse.com/customers/red-hot-marketing-case-study" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">GetResponse</a>,
         as of Oct 25, 2026). The system also manages compliance with email marketing best practices, such as <GlossaryLink slug="opt-in" className="text-[#0B162A] hover:underline">opt-in</GlossaryLink> tracking
         and <GlossaryLink slug="opt-out" className="text-[#0B162A] hover:underline">unsubscribe</GlossaryLink> management,
         so you do not need to handle these details manually. For each message, the platform tracks delivery,
         bounces, and engagement, helping you maintain list quality and avoid spam issues.</p>
       <p className="text-base text-white shadow-text pt-3">
         The free plan gives small businesses a way to start with up to 500 contacts, 2,500 newsletters per month,
-        and one landing page, all managed in the same account (<a id={`tools-marketing-personalized-email-campaigns-getresponse-architecture-source-getresponse-com-3${idSuffix}`} href="https://www.getresponse.com/referral-program/refer-a-friend.html" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">GetResponse</a>,
+        and one landing page, all managed in the same account (<a id={`tools-marketing-ai-personalized-email-campaigns-getresponse-architecture-source-getresponse-com-3${idSuffix}`} href="https://www.getresponse.com/referral-program/refer-a-friend.html" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">GetResponse</a>,
         as of Oct 25, 2026). As your needs grow, you can upgrade to access more contacts, unlimited workflows, and
         advanced features like dynamic segmentation and A/B testing. Every plan includes lead capture, email
         creation, and automation, so you can build a complete marketing system without piecing together different

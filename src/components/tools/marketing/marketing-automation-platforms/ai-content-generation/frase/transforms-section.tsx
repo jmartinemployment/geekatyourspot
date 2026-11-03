@@ -2,7 +2,7 @@ export default function TransformsSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Frase changes the way small businesses handle Intelligent Content Generation by taking the most
+        Frase changes the way small businesses handle AI Content Generation by taking the most
         time-consuming and error-prone steps off your plate. Instead of staring at a blank screen or jumping
         between tools, your team starts with a research-backed brief built from what real customers are
         searching for in your market. Frase pulls in the actual questions people are asking, on Google,
@@ -70,8 +70,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-frase-removes-the-weekly-grind-from-intelligent-content-generation" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How Frase Removes the Weekly Grind from Intelligent Content Generation
+              <h2 id="how-frase-removes-the-weekly-grind-from-ai-content-generation" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How Frase Removes the Weekly Grind from AI Content Generation
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
@@ -83,8 +83,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-frase-removes-the-weekly-grind-from-intelligent-content-generation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How Frase Removes the Weekly Grind from Intelligent Content Generation
+              <h2 id="how-frase-removes-the-weekly-grind-from-ai-content-generation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How Frase Removes the Weekly Grind from AI Content Generation
               </h2>
               {body}
             </div>

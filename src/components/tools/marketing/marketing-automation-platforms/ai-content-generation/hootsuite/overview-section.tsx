@@ -21,7 +21,7 @@ export default function OverviewSection() {
         businesses never find out which posts actually bring in new clients. This is the pain point: a real
         competitive disadvantage that comes from simply not having enough hands, hours, or creative bandwidth.</p>
       <p className="text-base text-white shadow-text pt-3">
-        <Link id={`tools-marketing-intelligent-content-generation-hootsuite-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-generation" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;changes this equation. Instead of wasting nights wrestling with
+        <Link id={`tools-marketing-ai-content-generation-hootsuite-overview-ai-content-generation${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-generation" className="text-[#C83803] hover:underline">AI Content Generation</Link>&nbsp;changes this equation. Instead of wasting nights wrestling with
         writer’s block or pouring money into agencies, a small team can use AI-powered tools to research,
         draft, and schedule weeks of platform-specific content in minutes. AI systems now handle the heavy
         lifting: they generate new posts, repurpose top-performing content for each channel, and personalize
@@ -33,7 +33,7 @@ export default function OverviewSection() {
         Geek @ Your Spot LLC’s AI Marketing Content Workflow is built for these exact challenges. The method is
         simple and proven: automate the blank-page moments, make repurposing routine, and let the system run
         the tedious parts of content creation for you. For local businesses who need to build trust and
-        visibility without the overhead of a full marketing department, Intelligent Content Generation is not
+        visibility without the overhead of a full marketing department, AI Content Generation is not
         just a tool, it is how you compete and win, every week, without adding headcount or burning out your
         team.</p>
     </>

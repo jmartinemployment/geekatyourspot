@@ -12,7 +12,7 @@ export const adpContent: ToolPageContent = {
   "department": "accounting",
   "useCase": "tax-compliance-regulations/ai-payroll-tax",
   "description":
-    "Payroll Tax & Worker Misclassification present real risks for small businesses in Miami-Dade, Broward, and West Palm Beach. ADP helps ensure compliance.",
+    "AI Payroll Tax present real risks for small businesses in Miami-Dade, Broward, and West Palm Beach. ADP helps ensure compliance.",
   "heroSummary":
     "ADP offers automated solutions for small businesses struggling with payroll tax and worker misclassification, ensuring compliance and minimizing costly errors.",
   "keywords":
@@ -24,7 +24,7 @@ export const adpContent: ToolPageContent = {
   "sections": [
     {"title": "Overview", "description": "A small HVAC company in Miami-Dade starts its busy season with a full slate of projects and a growing crew."},
     {"title": "What It Costs to Keep Doing Payroll Tax and Worker Classification by Hand", "description": "Payroll tax and worker misclassification are not just paperwork headaches for small businesses in South Florida, they are direct threats to survival."},
-    {"title": "How ADP Removes the Burden of Payroll Tax & Worker Misclassification", "description": "ADP is built to take the weight of payroll tax and worker classification off small business owners’ shoulders."},
+    {"title": "How ADP Removes the Burden of AI Payroll Tax", "description": "ADP is built to take the weight of payroll tax and worker classification off small business owners’ shoulders."},
     {"title": "Step-by-Step: How ADP Handles Payroll Tax and Worker Classification", "description": "ADP automates the core work of payroll tax calculation, worker status tracking, and compliance monitoring so small businesses do not have to."},
     {"title": "What Powers ADP: The Architecture, Integrations, and Data Controls Under the Hood", "description": "ADP’s platform is not just a payroll engine, it is a connected compliance backbone built to handle the complexity of modern small business operations."},
     {"title": "Launching ADP in a Live Small Business Environment: What Actually Gets You to Day One Faster", "description": "Getting ADP up and running in a small business is less about flipping a switch and more about a sequence of concrete steps that cut out risk and wasted effort."},

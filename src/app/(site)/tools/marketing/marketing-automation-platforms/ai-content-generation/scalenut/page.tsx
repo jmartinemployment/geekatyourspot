@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Scalenut";
-const PAGE_TITLE = "Scalenut for Intelligent Content Generation";
+const PAGE_TITLE = "Scalenut for AI Content Generation";
 const DESCRIPTION =
-    "Intelligent Content Generation with Scalenut helps small South Florida businesses create expert content efficiently, boosting online visibility and local trust.";
+    "AI Content Generation with Scalenut helps small South Florida businesses create expert content efficiently, boosting online visibility and local trust.";
 const CANONICAL = "/tools/marketing/marketing-automation-platforms/ai-content-generation/scalenut";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Scalenut, intelligent content generation, AI content generation, AI writing tools, content creation workflow, South Florida small business",
+            "keywords": "Scalenut, AI content generation, AI writing tools, marketing automation platforms, South Florida small business",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -72,7 +72,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Scalenut", "intelligent content generation", "AI content generation", "AI writing tools", "content creation workflow", "South Florida small business"],
+        keywords: ["Scalenut", "AI content generation", "AI writing tools", "marketing automation platforms", "South Florida small business"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

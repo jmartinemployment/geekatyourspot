@@ -3,7 +3,7 @@ export default function TransformsSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Medius revolutionizes the way businesses handle Automated Fraud &amp; Duplicate Payment Controls by
+        Medius revolutionizes the way businesses handle AI Fraud &amp; Duplicate Payment Controls by
         removing the tedious and error-prone tasks from the&nbsp;
         accounts payable&nbsp;team&#39;s workload.
         Its&nbsp;AI-powered system automates the detection of
@@ -52,8 +52,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-medius-transforms-automated-fraud-duplicate-payment-controls">
-                How Medius Transforms Automated Fraud &amp; Duplicate Payment Controls
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-medius-transforms-ai-fraud-duplicate-payment-controls">
+                How Medius Transforms AI Fraud &amp; Duplicate Payment Controls
               </h2>
             </div>
             <div className="col-span-12">{body()}</div>
@@ -65,8 +65,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-medius-transforms-automated-fraud-duplicate-payment-controls-lg">
-                How Medius Transforms Automated Fraud &amp; Duplicate Payment Controls
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-medius-transforms-ai-fraud-duplicate-payment-controls-lg">
+                How Medius Transforms AI Fraud &amp; Duplicate Payment Controls
               </h2>
               {body("-lg")}
             </div>

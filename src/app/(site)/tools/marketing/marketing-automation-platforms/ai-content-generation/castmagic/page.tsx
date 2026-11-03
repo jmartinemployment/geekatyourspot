@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Castmagic";
-const PAGE_TITLE = "Castmagic for Intelligent Content Generation";
+const PAGE_TITLE = "Castmagic for AI Content Generation";
 const DESCRIPTION =
-    "Intelligent Content Generation with Castmagic helps South Florida small businesses turn recordings into valuable, ready-to-use marketing content efficiently.";
+    "AI Content Generation with Castmagic helps South Florida small businesses turn recordings into valuable, ready-to-use marketing content efficiently.";
 const CANONICAL = "/tools/marketing/marketing-automation-platforms/ai-content-generation/castmagic";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Castmagic, intelligent content generation, AI content generation, AI writing tools, content creation workflow, South Florida small business",
+            "keywords": "Castmagic, AI content generation, AI writing tools, marketing automation platforms, South Florida small business",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -79,7 +79,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Castmagic", "intelligent content generation", "AI content generation", "AI writing tools", "content creation workflow", "South Florida small business"],
+        keywords: ["Castmagic", "AI content generation", "AI writing tools", "marketing automation platforms", "South Florida small business"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

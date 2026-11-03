@@ -50,7 +50,7 @@ export default function ImplementingSection() {
         <li>Connect your marketing platforms (HubSpot, Marketo, Facebook, etc.) to Anyword.</li>
         <li>Import past campaign data for AI training.</li>
         <li>Define brand voice, tone, and style guidelines in the platform.</li>
-        <li>Set up automated approval workflows for content review and publishing.</li>
+        <li>Set up AI invoice approval workflows for content review and publishing.</li>
         <li>Launch a pilot campaign using built-in templates and predictive scoring.</li>
         <li>Review results in the performance dashboard and adjust as needed.</li>
         <li>Scale up to multi-channel publishing as workflows are proven.</li>

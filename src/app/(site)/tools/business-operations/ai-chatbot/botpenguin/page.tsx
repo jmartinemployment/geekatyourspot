@@ -18,7 +18,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "BotPenguin";
-const PAGE_TITLE = "BotPenguin as a Cross-Platform Chatbot";
+const PAGE_TITLE = "BotPenguin as an AI Chatbot";
 const DESCRIPTION =
     "BotPenguin unifies chats from WhatsApp, Instagram, Facebook, SMS, and the web for small businesses in Miami-Dade, Broward, and West Palm Beach.";
 const CANONICAL = "/tools/business-operations/ai-chatbot/botpenguin";
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "BotPenguin, cross-platform chatbot, AI chatbot, lead capture, unified inbox, omnichannel messaging, South Florida small business",
+            "keywords": "BotPenguin, AI chatbot, lead capture, unified inbox, omnichannel messaging, South Florida small business",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -68,7 +68,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["BotPenguin", "cross-platform chatbot", "AI chatbot", "lead capture", "unified inbox", "omnichannel messaging", "South Florida small business"],
+        keywords: ["BotPenguin", "AI chatbot", "lead capture", "unified inbox", "omnichannel messaging", "South Florida small business"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

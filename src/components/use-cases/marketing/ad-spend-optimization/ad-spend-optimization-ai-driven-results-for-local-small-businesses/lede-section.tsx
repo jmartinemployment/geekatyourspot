@@ -31,7 +31,7 @@ export default function LedeSection() {
         You will see what needs to change, how to get there, and how to stop guessing where your ad budget is going.
         For owners who want clarity, control, and real results, this is how you finally get it.</p>
       <p className="text-base text-white shadow-text pt-3">
-        For a shorter overview, read <Link id={`use-cases-marketing-precision-lead-acquisition-lede-blog${idSuffix}`} href="/blog/marketing/ad-spend-optimization/how-local-miami-small-businesses-can-stop-wasting-ad-budget-and-start-seeing-real-returns" className="text-[#C83803] hover:underline">How
+        For a shorter overview, read <Link id={`use-cases-marketing-ai-precision-lead-acquisition-lede-blog${idSuffix}`} href="/blog/marketing/ad-spend-optimization/how-local-miami-small-businesses-can-stop-wasting-ad-budget-and-start-seeing-real-returns" className="text-[#C83803] hover:underline">How
         Local Miami Small Businesses Can Stop Wasting Ad Budget and Start Seeing Real Returns</Link> on our blog.</p>
     </>
   );

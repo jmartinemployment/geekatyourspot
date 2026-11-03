@@ -3,7 +3,7 @@ export default function DataMappingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Launching LobbyStack as your Intelligent Receptionist means making a set of early decisions about how
+        Launching LobbyStack as your AI Receptionist means making a set of early decisions about how
         your business data, call flows, and rules will map onto the system. These choices matter, not just for
         initial setup, but for how easy it will be to adapt, troubleshoot, or expand your lead capture pipeline
         in the months ahead. LobbyStack’s open-source model gives you more control than a

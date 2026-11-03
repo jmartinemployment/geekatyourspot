@@ -4,7 +4,7 @@ export default function ComparingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Small businesses in South Florida looking for an Intelligent Receptionist are not short on options. Many
+        Small businesses in South Florida looking for an AI Receptionist are not short on options. Many
         start by comparing Nextiva to traditional phone systems, basic call-forwarding services, and a growing
         list of AI-enabled platforms that promise to automate front-desk work. The choice is not just about
         features. It’s about what gets removed from the daily grind, how reliably leads are captured, and what

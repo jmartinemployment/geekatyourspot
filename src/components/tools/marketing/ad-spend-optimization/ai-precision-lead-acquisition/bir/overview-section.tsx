@@ -12,7 +12,7 @@ export default function OverviewSection() {
         acquisition costs</GlossaryLink> can drain your budget before you even notice. Manual checks and platform alerts
         come late or not at all, leaving you exposed to runaway costs and missed opportunities.</p>
       <p className="text-base text-white shadow-text pt-3">
-        <Link id={`tools-marketing-precision-lead-acquisition-bir-overview-precision-lead-acquisition${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition" className="text-[#C83803] hover:underline">Ad
+        <Link id={`tools-marketing-ai-precision-lead-acquisition-bir-overview-ai-precision-lead-acquisition${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition" className="text-[#C83803] hover:underline">Ad
         Spend Optimization</Link> solves this by giving you continuous visibility, control and fast decision-making
         across every campaign. Instead of waiting until Monday to catch a problem that started over the weekend, you can
         set rules that pause underperforming ads, reallocate budget in real time, and scale up what works, all without

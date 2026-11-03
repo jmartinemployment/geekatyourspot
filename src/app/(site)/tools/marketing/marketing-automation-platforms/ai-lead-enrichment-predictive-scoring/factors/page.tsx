@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Factors";
-const PAGE_TITLE = "Factors for Lead Enrichment and Predictive Scoring";
+const PAGE_TITLE = "Factors for AI Lead Enrichment and Predictive Scoring";
 const DESCRIPTION =
-    "Lead Enrichment and Predictive Scoring from Factors helps small businesses in South Florida capture and qualify their best leads for a stronger sales pipeline.";
+    "AI Lead Enrichment and Predictive Scoring from Factors helps small businesses in South Florida capture and qualify their best leads for a stronger sales pipeline.";
 const CANONICAL = "/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/factors";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -94,7 +94,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page() {
     const heroSummary =
-        "Factors uses AI-driven Lead Enrichment and Predictive Scoring to reveal which website visitors are most likely to buy, optimizing your lead capture pipeline.";
+        "Factors uses AI-driven AI Lead Enrichment and Predictive Scoring to reveal which website visitors are most likely to buy, optimizing your lead capture pipeline.";
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />

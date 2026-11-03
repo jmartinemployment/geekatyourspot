@@ -4,7 +4,7 @@ export default function HowItWorksSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        HyperWrite is built to turn the slow, manual grind of intelligent content planning and writing into a
+        HyperWrite is built to turn the slow, manual grind of AI content planning and writing into a
         fast, guided workflow. The process starts when a user opens a browser tab, Gmail, Google Docs,
         LinkedIn, or a&nbsp;<GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink>. Instead of switching between tools,
         HyperWrite sits inside the browser and follows along as you work. Its TypeAhead feature reads what you
@@ -26,7 +26,7 @@ export default function HowItWorksSection() {
         complex writing, like blog posts or proposals, HyperWrite can generate outlines, first drafts, and
         even suggest headlines or titles, all within the same tab.</p>
       <p className="text-base text-white shadow-text pt-3">
-        The intelligent content planning side is driven by the AI Content Planner. Here, you enter your
+        The AI content planning side is driven by the AI Content Planner. Here, you enter your
         industry, audience, and marketing goals. HyperWrite analyzes trends, competitor activity, and what
         your audience cares about. It then generates a full content calendar with topics, suggested formats,
         and timing for each channel, blogs, social posts, emails, and more. This removes the guesswork and
@@ -57,7 +57,7 @@ export default function HowItWorksSection() {
         <li>Open your browser and start a draft in your tool of choice, Gmail, Docs, LinkedIn, or&nbsp;CRM.</li>
         <li>Type your message or content idea. HyperWrite reads the context and suggests full-sentence completions in real time.</li>
         <li>Accept, edit, or ignore the suggestions as you go. The tool adapts to your choices and learns your style over time.</li>
-        <li>For intelligent content planning, enter your business goals and audience details. HyperWrite generates a tailored content calendar.</li>
+        <li>For AI content planning, enter your business goals and audience details. HyperWrite generates a tailored content calendar.</li>
         <li>Drafts are routed for approval or repurposed for other channels, blog to email, email to social post, without leaving the workflow.</li>
         <li>Schedule content for release across all channels, track what’s live, and update your plan based on results.</li>
       </ol>

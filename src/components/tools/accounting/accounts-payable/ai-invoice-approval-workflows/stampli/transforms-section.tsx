@@ -4,7 +4,7 @@ export default function TransformsSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Stampli revolutionizes Automated Approval Workflows by eliminating many of the manual tasks that
+        Stampli revolutionizes AI Invoice Approval Workflows by eliminating many of the manual tasks that
         consume time and resources. One of its key features is the automation of invoice routing based on
         predefined rules. This means invoices are automatically directed to the appropriate approvers,
         ensuring that each document is reviewed by the right person without unnecessary delays. The result is
@@ -32,7 +32,7 @@ export default function TransformsSection() {
         allows for easy access to all invoice-related information, making it simpler for teams to manage
         approvals and resolve any issues that arise.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Overall, Stampli&#39;s Automated Approval Workflows transform the AP function from a bottleneck into a
+        Overall, Stampli&#39;s AI Invoice Approval Workflows transform the AP function from a bottleneck into a
         streamlined operation. By reducing manual intervention and enhancing control, businesses can focus on
         strategic growth rather than administrative tasks. This not only boosts productivity but also improves
         compliance and financial accuracy, making Stampli an invaluable tool for small businesses looking to
@@ -47,8 +47,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-stampli-transforms-automated-approval-workflows">
-                How Stampli Transforms Automated Approval Workflows
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-stampli-transforms-ai-invoice-approval-workflows">
+                How Stampli Transforms AI Invoice Approval Workflows
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
@@ -60,8 +60,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-stampli-transforms-automated-approval-workflows-lg">
-                How Stampli Transforms Automated Approval Workflows
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-stampli-transforms-ai-invoice-approval-workflows-lg">
+                How Stampli Transforms AI Invoice Approval Workflows
               </h2>
               {body}
             </div>

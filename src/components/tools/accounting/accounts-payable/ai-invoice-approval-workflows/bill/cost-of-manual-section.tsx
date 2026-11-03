@@ -3,7 +3,7 @@ export default function CostOfManualSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        For small businesses, managing automated approval workflows often feels like a never-ending cycle of
+        For small businesses, managing AI invoice approval workflows often feels like a never-ending cycle of
         inefficiency. Vendor invoices arrive through various channels (email, mail, or vendor portals) and pile
         up in an owner&#39;s inbox. The approval process is informal and lacks structure, often leading to
         delays and errors. A bookkeeper might manually enter or forward an invoice, only to receive a verbal
@@ -36,7 +36,7 @@ export default function CostOfManualSection() {
       <p className="text-base text-white shadow-text pt-3">
         Without a centralized workflow, AP often discovers problems too late, such as missing approvals when
         a payment is due or when a vendor calls. This lack of active monitoring results in slow approvals and
-        late payments. Bill&#39;s automated approval workflows ensure that every invoice has an owner, a
+        late payments. Bill&#39;s AI invoice approval workflows ensure that every invoice has an owner, a
         stage, a due date, and an automated next step. Features like reminders, escalation to alternate
         approvers, and dashboards for invoices nearing due date help maintain control and efficiency.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -64,8 +64,8 @@ export default function CostOfManualSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-cost-of-manual-automated-approval-workflows">
-                The Cost of Manual Automated Approval Workflows
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-cost-of-manual-approval-workflows">
+                The Cost of Manual Approval Workflows
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
@@ -77,8 +77,8 @@ export default function CostOfManualSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-cost-of-manual-automated-approval-workflows-lg">
-                The Cost of Manual Automated Approval Workflows
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-cost-of-manual-approval-workflows-lg">
+                The Cost of Manual Approval Workflows
               </h2>
               {body("-lg")}
             </div>

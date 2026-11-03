@@ -34,7 +34,7 @@ export default function EvaluatingSection() {
         handling multi-state tax filings. For small businesses, this makes budgeting straightforward: you know
         what each new hire or contractor will cost, and you don’t get surprised by extra charges for features
         you need to stay compliant. The model is designed to scale with your team, so you only pay for what you
-        use. You can see how&nbsp;<a id={`tools-accounting-payroll-tax-worker-misclassification-rippling-evaluating-affiliate${idSuffix}`} href={RIPPLING_AFFILIATE_URL} target="_blank" rel="sponsored noopener noreferrer" className="text-[#0B162A] hover:underline">Rippling</a>&nbsp;describes its own payroll offer before you decide.
+        use. You can see how&nbsp;<a id={`tools-accounting-ai-payroll-tax-rippling-evaluating-affiliate${idSuffix}`} href={RIPPLING_AFFILIATE_URL} target="_blank" rel="sponsored noopener noreferrer" className="text-[#0B162A] hover:underline">Rippling</a>&nbsp;describes its own payroll offer before you decide.
         Geek @ Your Spot LLC earns a commission if you sign up through this link.</p>
       <p className="text-base text-white shadow-text pt-3">
         When comparing Rippling to other payroll and compliance tools, the key difference is in how much manual

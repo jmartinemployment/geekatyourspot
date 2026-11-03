@@ -13,7 +13,7 @@ export default function ComparingSection() {
         and attribution mapping. Its AI-powered engine learns from real customer data and continually reallocates spend
         toward the ads, channels, and keywords that bring in qualified leads. This is not just a technical detail, it is
         what keeps a $15 daily budget from being drained by broad, low-intent search terms or stale banner ads that no
-        longer perform (<a id={`tools-marketing-precision-lead-acquisition-localiq-comparing-source-localiq-com${idSuffix}`} href="https://localiq.com/news/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">LocaliQ</a>,
+        longer perform (<a id={`tools-marketing-ai-precision-lead-acquisition-localiq-comparing-source-localiq-com${idSuffix}`} href="https://localiq.com/news/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">LocaliQ</a>,
         as of Oct 23, 2026).</p>
       <p className="text-base text-white shadow-text pt-3">
         Many tools in this space offer some form of automated bidding or creative testing, but LocaliQ addresses the

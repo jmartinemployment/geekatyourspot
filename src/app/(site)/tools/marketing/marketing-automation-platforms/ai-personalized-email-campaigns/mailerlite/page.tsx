@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "MailerLite";
-const PAGE_TITLE = "MailerLite for Personalized Email Campaigns";
+const PAGE_TITLE = "MailerLite for AI Personalized Email Campaigns";
 const DESCRIPTION =
-    "Personalized Email Campaigns with MailerLite boost open rates and sales for Miami small businesses. Start engaging your customers more effectively today.";
+    "AI Personalized Email Campaigns with MailerLite boost open rates and sales for Miami small businesses. Start engaging your customers more effectively today.";
 const CANONICAL = "/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailerlite";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "MailerLite, personalized email campaigns, AI email marketing automation, email segmentation, open rates, South Florida small business",
+            "keywords": "MailerLite, AI personalized email campaigns, AI email marketing automation, email segmentation, open rates, South Florida small business",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-26T12:35:17.8414750Z",
@@ -72,7 +72,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["MailerLite", "personalized email campaigns", "AI email marketing automation", "email segmentation", "open rates", "South Florida small business"],
+        keywords: ["MailerLite", "AI personalized email campaigns", "AI email marketing automation", "email segmentation", "open rates", "South Florida small business"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

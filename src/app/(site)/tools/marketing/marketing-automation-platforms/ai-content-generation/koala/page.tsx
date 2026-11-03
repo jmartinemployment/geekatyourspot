@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Koala";
-const PAGE_TITLE = "Koala for Intelligent Content Generation";
+const PAGE_TITLE = "Koala for AI Content Generation";
 const DESCRIPTION =
-    "Intelligent Content Generation with Koala helps South Florida small businesses automate authentic content, boosting local online visibility and engagement.";
+    "AI Content Generation with Koala helps South Florida small businesses automate authentic content, boosting local online visibility and engagement.";
 const CANONICAL = "/tools/marketing/marketing-automation-platforms/ai-content-generation/koala";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Koala, intelligent content generation, AI content generation, AI writing tools, content creation workflow, South Florida small business",
+            "keywords": "Koala, AI content generation, AI writing tools, marketing automation platforms, South Florida small business",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -74,7 +74,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Koala", "intelligent content generation", "AI content generation", "AI writing tools", "content creation workflow", "South Florida small business"],
+        keywords: ["Koala", "AI content generation", "AI writing tools", "marketing automation platforms", "South Florida small business"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

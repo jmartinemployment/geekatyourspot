@@ -18,7 +18,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Zamp";
-const PAGE_TITLE = "Zamp for Automating Complex & Changing Laws";
+const PAGE_TITLE = "Zamp for AI Tax Law";
 const DESCRIPTION =
     "Zamp helps Miami-area small businesses manage complex tax laws with automated compliance solutions.";
 const CANONICAL = "/tools/accounting/tax-compliance-regulations/ai-tax-law/zamp";

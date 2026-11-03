@@ -22,14 +22,14 @@ export default function OverviewSection() {
         with deeper pockets take over your share of the local market.</p>
       <p className="text-base text-white shadow-text pt-3">
         This is the real cost of trying to handle content manually: wasted hours, missed sales, and a pipeline
-        that dries up because there aren’t enough hands to keep it moving.&nbsp;<Link id={`tools-marketing-intelligent-content-generation-copy-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-generation" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;is
+        that dries up because there aren’t enough hands to keep it moving.&nbsp;<Link id={`tools-marketing-ai-content-generation-copy-overview-ai-content-generation${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-generation" className="text-[#C83803] hover:underline">AI Content Generation</Link>&nbsp;is
         the way out. With a repeatable, AI-powered workflow, a small team can turn ideas, customer questions,
         and source material into publishable marketing assets in minutes, then repurpose them across every
         channel, from SEO articles to personalized email campaigns. This system doesn’t just save time and
         money; it gives you a consistent digital presence that attracts and converts local leads, all without
         hiring extra staff or burning out the team you have.</p>
       <p className="text-base text-white shadow-text pt-3">
-        For small businesses in South Florida, Intelligent Content Generation levels the playing field. It
+        For small businesses in South Florida, AI Content Generation levels the playing field. It
         strips away the headaches of writing from scratch and the sticker shock of agency retainers. Instead,
         you get a workflow that fits your scale, builds trust in your market, and keeps your sales pipeline
         moving, without ever having to stare down another blank page.</p>

@@ -5,7 +5,7 @@ export default function ArchitectureSection() {
       <p className="text-base text-white shadow-text pt-3">
         Stampli revolutionizes the traditional&nbsp;
         accounts payable&nbsp;process
-        with its robust architecture designed for Automated Approval Workflows. At its core, Stampli
+        with its robust architecture designed for AI Invoice Approval Workflows. At its core, Stampli
         integrates seamlessly with existing&nbsp;
         ERP&nbsp;systems,
         eliminating the need for extensive manual data entry. This integration ensures that purchase orders

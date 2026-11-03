@@ -15,7 +15,7 @@ const jsonLd: WithContext<TechArticle> = {
     "headline": "Adobe Mix Modeler for Ad Spend Optimization",
     "description": "Automate ad spend optimization with Adobe Mix Modeler for better ROI and precision targeting.",
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://geekatyourspot.com/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adobe-mix-modeler" },
-    "keywords": "Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
+    "keywords": "Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, AI data quality assessments",
     "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
     "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
     "about": {
@@ -31,7 +31,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: "Adobe Mix Modeler for Ad Spend Optimization",
         description: "Automate ad spend optimization with Adobe Mix Modeler for better ROI and precision targeting.",
-        keywords: ["Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments"],
+        keywords: ["Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, AI data quality assessments"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

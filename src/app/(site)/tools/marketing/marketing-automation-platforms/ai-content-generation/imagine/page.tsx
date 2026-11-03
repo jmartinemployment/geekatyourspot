@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "ImagineArt";
-const PAGE_TITLE = "ImagineArt for Intelligent Content Generation";
+const PAGE_TITLE = "ImagineArt for AI Content Generation";
 const DESCRIPTION =
-    "Intelligent Content Generation with Imagine empowers small businesses in Miami-Dade, Broward, and West Palm Beach to create branded content quickly and easily.";
+    "AI Content Generation with Imagine empowers small businesses in Miami-Dade, Broward, and West Palm Beach to create branded content quickly and easily.";
 const CANONICAL = "/tools/marketing/marketing-automation-platforms/ai-content-generation/imagine";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "ImagineArt, intelligent content generation, AI content generation, AI writing tools, content creation workflow, South Florida small business",
+            "keywords": "ImagineArt, AI content generation, AI writing tools, marketing automation platforms, South Florida small business",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -82,7 +82,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["ImagineArt", "intelligent content generation", "AI content generation", "AI writing tools", "content creation workflow", "South Florida small business"],
+        keywords: ["ImagineArt", "AI content generation", "AI writing tools", "marketing automation platforms", "South Florida small business"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

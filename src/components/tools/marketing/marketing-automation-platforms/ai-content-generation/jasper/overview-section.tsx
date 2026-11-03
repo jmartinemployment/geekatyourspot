@@ -22,14 +22,14 @@ export default function OverviewSection() {
         Manual content creation does not just waste time; it breaks your messaging. Updates written in a rush
         read like they came from different people. Emails, landing pages, and posts contradict each other or
         miss the mark entirely. Without a system to keep everything consistent, your brand looks scattered and
-        forgettable. For many, this is where&nbsp;<Link id={`tools-marketing-intelligent-content-generation-jasper-overview-intelligent-content-generation${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-generation" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link>&nbsp;changes the game. Instead of
+        forgettable. For many, this is where&nbsp;<Link id={`tools-marketing-ai-content-generation-jasper-overview-ai-content-generation${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-generation" className="text-[#C83803] hover:underline">AI Content Generation</Link>&nbsp;changes the game. Instead of
         fighting through every draft yourself or paying agency rates, AI-driven workflows let you research,
         generate, repurpose, and schedule content with a fraction of the effort. You get unified messaging
         across every channel, plus built-in approvals and personalizations that keep quality high and your
         voice intact.</p>
       <p className="text-base text-white shadow-text pt-3">
         For small businesses in South Florida, this is not a nice-to-have. It is the only way to compete with
-        larger rivals who can afford full-time marketing teams. Intelligent Content Generation takes the
+        larger rivals who can afford full-time marketing teams. AI Content Generation takes the
         manual pain out of content, so your team can stay focused on what matters: serving customers, growing
         sales, and building a brand that local buyers trust.</p>
     </>

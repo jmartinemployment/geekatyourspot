@@ -8,7 +8,7 @@ export default function LedeSection() {
         Why do our email campaigns get ignored no matter how often we send them, and is there a practical way for a
         small business in South Florida to make every email feel tailored without hiring a team? The answer is that
         generic emails miss the mark because they treat every contact the same, and local companies waste hours
-        trying to fix this by hand. <Link id={`blog-marketing-personalized-email-campaigns-lede-personalized-email-campaigns${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns" className="text-[#C83803] hover:underline">Personalized
+        trying to fix this by hand. <Link id={`blog-marketing-ai-personalized-email-campaigns-lede-ai-personalized-email-campaigns${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns" className="text-[#C83803] hover:underline">Personalized
         Email Campaigns</Link> use AI-driven tools to send the right message to the right person at the right time,
         without extra headcount, without manual list work, and with results you can track. Businesses that adopt
         local <GlossaryLink slug="marketing-automation">marketing automation</GlossaryLink> see higher <GlossaryLink slug="open-rate">open

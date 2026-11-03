@@ -18,7 +18,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Bill";
-const PAGE_TITLE = "Bill for Intelligent Accounts Receivable";
+const PAGE_TITLE = "Bill for AI Accounts Receivable";
 const DESCRIPTION =
     "Automate accounts receivable to boost cash flow for small businesses in Miami-Dade, Broward, and West Palm Beach.";
 const CANONICAL = "/tools/accounting/cash-flow-forecasting/ai-accounts-receivable/bill";
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Bill, automated accounts receivable, cash flow forecasting, recurring invoices, ACH payments, Pay By Card, direct debit, invoice status tracking, Cash Flow Auto Forecasting, AR automation, billing synchronization, approval chains",
+            "keywords": "Bill, AI accounts receivable, cash flow forecasting, recurring invoices, ACH payments, Pay By Card, direct debit, invoice status tracking, Cash Flow Auto Forecasting, AR automation, billing synchronization, approval chains",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -66,7 +66,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Bill", "automated accounts receivable", "cash flow forecasting", "recurring invoices", "ACH payments", "Pay By Card"],
+        keywords: ["Bill", "AI accounts receivable", "cash flow forecasting", "recurring invoices", "ACH payments", "Pay By Card"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
@@ -100,7 +100,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page() {
     const heroSummary =
-        "Discover how automated accounts receivable can transform cash flow management for small businesses in Miami-Dade, Broward, and West Palm Beach.";
+        "Discover how AI accounts receivable can transform cash flow management for small businesses in Miami-Dade, Broward, and West Palm Beach.";
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />

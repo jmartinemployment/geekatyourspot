@@ -18,7 +18,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "TaxJar";
-const PAGE_TITLE = "TaxJar for Automating Complex & Changing Laws";
+const PAGE_TITLE = "TaxJar for AI Tax Law";
 const DESCRIPTION =
     "TaxJar automates tax compliance for Miami-Dade, Broward, and West Palm Beach small businesses, simplifying complex laws.";
 const CANONICAL = "/tools/accounting/tax-compliance-regulations/ai-tax-law/taxjar";

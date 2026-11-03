@@ -17,9 +17,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Dapta";
-const PAGE_TITLE = "Dapta as a Cross-Platform Chatbot";
+const PAGE_TITLE = "Dapta as an AI Chatbot";
 const DESCRIPTION =
-    "Cross-Platform Chatbot Dapta keeps Miami-Dade, Broward, and West Palm Beach small businesses connected, capturing every lead from every channel with ease.";
+    "AI Chatbot Dapta keeps Miami-Dade, Broward, and West Palm Beach small businesses connected, capturing every lead from every channel with ease.";
 const CANONICAL = "/tools/business-operations/ai-chatbot/dapta";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -31,7 +31,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Dapta, cross-platform chatbot, AI chatbot, lead capture, unified inbox, omnichannel messaging, South Florida small business",
+            "keywords": "Dapta, AI chatbot, lead capture, unified inbox, omnichannel messaging, South Florida small business",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -48,7 +48,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Dapta", "cross-platform chatbot", "AI chatbot", "lead capture", "unified inbox", "omnichannel messaging", "South Florida small business"],
+        keywords: ["Dapta", "AI chatbot", "lead capture", "unified inbox", "omnichannel messaging", "South Florida small business"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

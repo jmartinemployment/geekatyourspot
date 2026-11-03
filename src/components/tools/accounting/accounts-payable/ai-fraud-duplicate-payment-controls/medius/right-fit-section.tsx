@@ -4,7 +4,7 @@ export default function RightFitSection() {
     <>
       <p className="text-base text-white shadow-text pt-3">
         Medius is particularly well-suited for small to medium-sized businesses in Miami-Dade, Broward, and
-        West Palm Beach counties that require robust Automated Fraud &amp; Duplicate Payment Controls.
+        West Palm Beach counties that require robust AI Fraud &amp; Duplicate Payment Controls.
         Its&nbsp;AI-driven capabilities make it ideal for businesses
         looking to enhance their financial security and streamline&nbsp;
         accounts payable&nbsp;processes.</p>
@@ -32,7 +32,7 @@ export default function RightFitSection() {
           Book your free consultation
         </a>.</p>
       <p className="text-base text-white shadow-text pt-3">
-        The claim that Medius trains its models on over a decade of real accounts payable outcomes is examined in our post <Link id={`tools-accounting-accounts-payable-automated-fraud-duplicate-payment-controls-medius-xlink-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-ai-streamlines-fraud-detection-in-accounts-payable" className="text-[#C83803] hover:underline">AI Accounts Payable Fraud Detection</Link>, which places Medius at the capture stage, reading invoice data with OCR so anomaly detection has accurate fields to work from, and explains why that depth of history matters against duplicates resubmitted with small changes. The post is also direct about the limits: no model prevents every scheme, and incomplete records cause false positives and missed detections. The pilot-first assessment in our <Link id={`tools-accounting-accounts-payable-automated-fraud-duplicate-payment-controls-medius-xlink-pillar${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls" className="text-[#C83803] hover:underline">AI Fraud &amp; Duplicate Payment Controls</Link> guide tests those conditions on your own data before you commit.</p>
+        The claim that Medius trains its models on over a decade of real accounts payable outcomes is examined in our post <Link id={`tools-accounting-accounts-payable-ai-fraud-duplicate-payment-controls-medius-xlink-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-ai-streamlines-fraud-detection-in-accounts-payable" className="text-[#C83803] hover:underline">AI Accounts Payable Fraud Detection</Link>, which places Medius at the capture stage, reading invoice data with OCR so anomaly detection has accurate fields to work from, and explains why that depth of history matters against duplicates resubmitted with small changes. The post is also direct about the limits: no model prevents every scheme, and incomplete records cause false positives and missed detections. The pilot-first assessment in our <Link id={`tools-accounting-accounts-payable-ai-fraud-duplicate-payment-controls-medius-xlink-pillar${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls" className="text-[#C83803] hover:underline">AI Fraud &amp; Duplicate Payment Controls</Link> guide tests those conditions on your own data before you commit.</p>
     </>
   );
 

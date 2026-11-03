@@ -4,7 +4,7 @@ export default function ArchitectureSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Hootsuite’s platform is built to centralize every piece of the intelligent content planning and
+        Hootsuite’s platform is built to centralize every piece of the AI content planning and
         publishing process, connecting people, data, and external systems in one place. At its core, Hootsuite
         is an all-in-one social media management and social intelligence platform. It combines content
         creation, scheduling, engagement, analytics, and advanced social listening in a single dashboard, as
@@ -55,7 +55,7 @@ export default function ArchitectureSection() {
         and control stay in the loop. The result is a connected system where insights trigger action, and
         every part of the workflow is visible, auditable, and secure. For a small business in South Florida,
         this means no more juggling spreadsheets, chat threads, and disconnected tools. Everything needed to
-        plan, execute, and measure Intelligent Content Planning is built into Hootsuite’s foundation.</p>
+        plan, execute, and measure AI Content Planning is built into Hootsuite’s foundation.</p>
     </>
   );
 

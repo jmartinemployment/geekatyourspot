@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Snitcher";
-const PAGE_TITLE = "Snitcher for Lead Enrichment and Predictive Scoring";
+const PAGE_TITLE = "Snitcher for AI Lead Enrichment and Predictive Scoring";
 const DESCRIPTION =
-    "Lead Enrichment and Predictive Scoring with Snitcher helps South Florida small businesses turn website visits into qualified leads and sales opportunities.";
+    "AI Lead Enrichment and Predictive Scoring with Snitcher helps South Florida small businesses turn website visits into qualified leads and sales opportunities.";
 const CANONICAL = "/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/snitcher";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -97,7 +97,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page() {
     const heroSummary =
-        "Snitcher uses Lead Enrichment and Predictive Scoring to help South Florida small businesses identify and prioritize high-value website visitors, turning anonymous traffic into actionable leads.";
+        "Snitcher uses AI Lead Enrichment and Predictive Scoring to help South Florida small businesses identify and prioritize high-value website visitors, turning anonymous traffic into actionable leads.";
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />

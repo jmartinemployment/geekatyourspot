@@ -38,7 +38,7 @@ export default function ChallengesSection() {
         small teams who cannot afford to add headcount or burn out their best people.</p>
       <p className="text-base text-white shadow-text pt-3">
         The stakes are higher for small businesses in South Florida because every wasted hour is a missed sale
-        or a delayed response to a local customer. Without intelligent content planning, the team is stuck in
+        or a delayed response to a local customer. Without AI content planning, the team is stuck in
         a reactive cycle. They publish content that no one sees, spend more time fixing mistakes than making
         progress, and watch as their marketing spend delivers zero measurable return. The cost is not just
         financial, it is the frustration of knowing that with a better process, the same team could double

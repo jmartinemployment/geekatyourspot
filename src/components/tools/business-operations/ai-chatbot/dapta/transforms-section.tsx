@@ -60,8 +60,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-dapta-removes-from-your-week-with-a-cross-platform-chatbot" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                What Dapta Removes from Your Week with a Cross-Platform Chatbot
+              <h2 id="what-dapta-removes-from-your-week-with-an-ai-chatbot" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                What Dapta Removes from Your Week with an AI Chatbot
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
@@ -73,8 +73,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-dapta-removes-from-your-week-with-a-cross-platform-chatbot-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                What Dapta Removes from Your Week with a Cross-Platform Chatbot
+              <h2 id="what-dapta-removes-from-your-week-with-an-ai-chatbot-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                What Dapta Removes from Your Week with an AI Chatbot
               </h2>
               {body}
             </div>

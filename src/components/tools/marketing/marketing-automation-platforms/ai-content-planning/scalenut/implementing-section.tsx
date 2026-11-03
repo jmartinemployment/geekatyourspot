@@ -4,7 +4,7 @@ export default function ImplementingSection() {
       <p className="text-base text-white shadow-text pt-3">
         Getting Scalenut live in a small business environment is less about a long checklist and more about
         removing the usual friction points that stall most content platforms. The difference starts with the
-        way Scalenut is built: it comes with pre-configured modules for intelligent content planning,
+        way Scalenut is built: it comes with pre-configured modules for AI content planning,
         AI-driven execution, and real-time monitoring, so you are not wiring together a dozen point solutions
         or waiting on a developer to build custom integrations. For a South Florida team with no technical
         headcount to spare, this means you can move from contract to first output in days, not weeks.</p>

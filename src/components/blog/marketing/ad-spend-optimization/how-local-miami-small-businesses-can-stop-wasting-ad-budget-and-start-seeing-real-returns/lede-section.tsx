@@ -7,7 +7,7 @@ export default function LedeSection() {
         Broward, and Palm Beach are still flying blind. The problem is not just picking the wrong channels or setting
         budgets too low. The real issue is data: fragmented dashboards, reporting that does not match actual sales, and
         platform tools that show only part of the story. If your ad platform says you made $10,000 in sales, but your
-        bank shows much less, that gap is not a minor reporting glitch, it is budget leaking out every month (<a id={`blog-marketing-precision-lead-acquisition-lede-source-triplewhale-com${idSuffix}`} href="https://www.triplewhale.com/blog/how-to-reduce-cpa" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Triplewhale</a>,
+        bank shows much less, that gap is not a minor reporting glitch, it is budget leaking out every month (<a id={`blog-marketing-ai-precision-lead-acquisition-lede-source-triplewhale-com${idSuffix}`} href="https://www.triplewhale.com/blog/how-to-reduce-cpa" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Triplewhale</a>,
         as of Oct 29, 2026).</p>
       <p className="text-base text-white shadow-text pt-3">
         This disconnect between ad spend and real results happens when your data is scattered and your reporting does

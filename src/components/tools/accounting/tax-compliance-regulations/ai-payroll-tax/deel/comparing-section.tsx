@@ -6,7 +6,7 @@ export default function ComparingSection() {
       <p className="text-base text-white shadow-text pt-3">
         Small businesses in South Florida looking to solve payroll tax and worker misclassification problems
         often start by comparing Deel to two main types of solutions: traditional payroll providers
-        (like&nbsp;<Link id={`tools-accounting-payroll-tax-worker-misclassification-deel-comparing-gusto${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/ai-payroll-tax/gusto" className="text-[#0B162A] hover:underline">Gusto</Link>&nbsp;or&nbsp;<Link id={`tools-accounting-payroll-tax-worker-misclassification-deel-comparing-adp${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/ai-payroll-tax/adp" className="text-[#0B162A] hover:underline">ADP</Link>)
+        (like&nbsp;<Link id={`tools-accounting-ai-payroll-tax-deel-comparing-gusto${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/ai-payroll-tax/gusto" className="text-[#0B162A] hover:underline">Gusto</Link>&nbsp;or&nbsp;<Link id={`tools-accounting-ai-payroll-tax-deel-comparing-adp${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/ai-payroll-tax/adp" className="text-[#0B162A] hover:underline">ADP</Link>)
         and manual or semi-automated approaches using spreadsheets, basic accounting software, or piecemeal
         compliance tools. Each has a different approach to risk, automation, and support for mixed teams of W-2
         employees and 1099 contractors. Deel sits in the middle of this landscape, but it is not just a slightly

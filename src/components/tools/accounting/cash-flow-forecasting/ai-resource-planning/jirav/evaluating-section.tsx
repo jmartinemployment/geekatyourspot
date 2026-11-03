@@ -41,7 +41,7 @@ export default function EvaluatingSection() {
         configures templates and rules that scale with you, so you can focus on growth instead of
         troubleshooting broken spreadsheets.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
-        <li>You need to automate&nbsp;cash flow forecasting&nbsp;and intelligent resource planning, but cannot afford a full&nbsp;ERP&nbsp;deployment.</li>
+        <li>You need to automate&nbsp;cash flow forecasting&nbsp;and AI resource planning, but cannot afford a full&nbsp;ERP&nbsp;deployment.</li>
         <li>Your team is losing hours to manual data entry and spreadsheet reconciliation.</li>
         <li>You want to run what-if scenarios and rolling forecasts without rebuilding your model each time.</li>
         <li>You use QuickBooks, NetSuite, Sage Intacct, ADP, Paychex, Salesforce, or HubSpot and want live data in your forecasts.</li>

@@ -3,7 +3,7 @@ export default function TransformsSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Versapay transforms the automated accounts receivable process by removing the burdens of manual data entry
+        Versapay transforms the AI accounts receivable process by removing the burdens of manual data entry
         and reconciliation. Its&nbsp;AI-powered cash application software
         automatically matches payments to invoices, regardless of how they are remitted. This eliminates the need
         for staff to manually track down payments and reduces reconciliation delays.</p>

@@ -4,7 +4,7 @@ export default function DecisionsSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        When implementing Automated Payment Execution, the decisions made at the start shape the entire
+        When implementing AI Payment Execution, the decisions made at the start shape the entire
         project. Success hinges on clarity in goals and precision in execution. Without setting clear
         objectives, businesses risk misalignment and inefficiencies. From the outset, defining what success
         looks like is crucial. This means setting measurable goals, like reducing invoice processing time by a
@@ -25,7 +25,7 @@ export default function DecisionsSection() {
         </Link>&nbsp;excel in automating these initial stages, streamlining data entry and approval
         workflows.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Next, consider the integration with existing systems. Automated Payment Execution must fit seamlessly
+        Next, consider the integration with existing systems. AI Payment Execution must fit seamlessly
         into your current accounting software and processes. Choosing tools that offer robust integration
         options is vital. For example,&nbsp;
         <Link id={`use-cases-accounting-payment-execution-decisions-avidxchange${idSuffix}`}
@@ -62,8 +62,8 @@ export default function DecisionsSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="decisions-that-determine-success-or-failure-in-automated-payment-execution" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                Decisions That Determine Success or Failure in Automated Payment Execution
+              <h2 id="decisions-that-determine-success-or-failure-in-ai-payment-execution" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                Decisions That Determine Success or Failure in AI Payment Execution
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
@@ -75,8 +75,8 @@ export default function DecisionsSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="decisions-that-determine-success-or-failure-in-automated-payment-execution-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                Decisions That Determine Success or Failure in Automated Payment Execution
+              <h2 id="decisions-that-determine-success-or-failure-in-ai-payment-execution-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                Decisions That Determine Success or Failure in AI Payment Execution
               </h2>
               {body("-lg")}
             </div>

@@ -2,7 +2,7 @@ export default function DataMappingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Deploying Rippling for Payroll Tax &amp; Worker Misclassification is not just a matter of flipping a
+        Deploying Rippling for AI Payroll Tax is not just a matter of flipping a
         switch and importing a list of workers. The system’s power (its ability to automate compliance, flag
         misclassification, and handle multi-state payroll) depends on how your data is structured and mapped from
         the start. Geek @ Your Spot LLC’s job is to make sure every field, rule, and relationship in your business
@@ -77,8 +77,8 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="the-data-structure-and-mapping-work-that-sets-up-rippling-for-south-florida-payroll-tax-worker-misclassification" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                The Data Structure and Mapping Work That Sets Up Rippling for South Florida Payroll Tax &amp; Worker Misclassification
+              <h2 id="the-data-structure-and-mapping-work-that-sets-up-rippling-for-south-florida-ai-payroll-tax" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                The Data Structure and Mapping Work That Sets Up Rippling for South Florida AI Payroll Tax
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
@@ -90,8 +90,8 @@ export default function DataMappingSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="the-data-structure-and-mapping-work-that-sets-up-rippling-for-south-florida-payroll-tax-worker-misclassification-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                The Data Structure and Mapping Work That Sets Up Rippling for South Florida Payroll Tax &amp; Worker Misclassification
+              <h2 id="the-data-structure-and-mapping-work-that-sets-up-rippling-for-south-florida-ai-payroll-tax-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                The Data Structure and Mapping Work That Sets Up Rippling for South Florida AI Payroll Tax
               </h2>
               {body}
             </div>

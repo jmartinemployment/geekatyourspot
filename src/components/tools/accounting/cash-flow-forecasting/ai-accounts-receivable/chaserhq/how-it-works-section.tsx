@@ -2,7 +2,7 @@ export default function HowItWorksSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Chaserhq automates the automated accounts receivable process by integrating directly with your existing
+        Chaserhq automates the AI accounts receivable process by integrating directly with your existing
         systems, providing real-time visibility and control over your cash flow. Its core functionality revolves
         around automating reminders, categorizing invoices, and predicting payment behaviors, which collectively
         enhance cash flow management.</p>

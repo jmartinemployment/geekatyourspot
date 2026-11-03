@@ -4,7 +4,7 @@ export default function ImplementingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Going live with Moosend for Personalized Email Campaigns means connecting your existing data, setting up <GlossaryLink slug="automation-workflow">automated
+        Going live with Moosend for AI Personalized Email Campaigns means connecting your existing data, setting up <GlossaryLink slug="automation-workflow">automated
         workflows</GlossaryLink>, and configuring audience segments, all in a sequence that minimizes disruption.
         The process moves faster when you start with Moosend’s pre-built templates and automation recipes, and when
         you phase the rollout rather than switching everything at once.</p>
@@ -55,7 +55,7 @@ export default function ImplementingSection() {
         the rollout, starting with a core segment or campaign, then expanding as workflows prove themselves, you
         avoid the risks of a big-bang switch and can measure impact at each step.</p>
       <p className="text-base text-white shadow-text pt-3">
-        In summary, Moosend’s go-live process for Personalized Email Campaigns is streamlined by pre-built
+        In summary, Moosend’s go-live process for AI Personalized Email Campaigns is streamlined by pre-built
         automation recipes, a user-friendly workflow builder, and AI-driven content support. The biggest time-savers
         are clean data, clear objectives, and a phased approach that lets you build confidence with each successful
         campaign. Geek @ Your Spot helps ensure each of these is in place, so your team spends less time on setup

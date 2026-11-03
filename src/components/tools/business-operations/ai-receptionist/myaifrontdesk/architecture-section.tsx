@@ -30,7 +30,7 @@ export default function ArchitectureSection() {
         booking.&nbsp;CRM&nbsp;sync
         is built in for HubSpot, Salesforce, Pipedrive, and Zoho, with every conversation, transcript, and
         summary attached to the contact record. For businesses with more complex needs, the platform connects to
-        other systems through&nbsp;<Link id={`tools-marketing-intelligent-receptionist-myaifrontdesk-architecture-zapier${idSuffix}`} href="/tools/marketing/zapier" className="text-[#0B162A] hover:underline">Zapier</Link>, so you can trigger workflows in hundreds of other apps without extra
+        other systems through&nbsp;<Link id={`tools-marketing-ai-receptionist-myaifrontdesk-architecture-zapier${idSuffix}`} href="/tools/marketing/zapier" className="text-[#0B162A] hover:underline">Zapier</Link>, so you can trigger workflows in hundreds of other apps without extra
         coding. Retailers can connect Shopify to surface order status, customer history, and loyalty data on
         every call, allowing the AI to answer order-status questions and route by store or location.</p>
       <p className="text-base text-white shadow-text pt-3">

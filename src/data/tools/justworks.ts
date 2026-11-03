@@ -24,7 +24,7 @@ export const justworksContent: ToolPageContent = {
   "sections": [
     {"title": "Overview", "description": "Every month, a small business owner in Miami-Dade sits down to run payroll, sifting through a stack of timesheets and contracts."},
     {"title": "What It Costs to Keep Doing Payroll Tax and Worker Classification by Hand", "description": "Running payroll and getting worker classification right is not just a paperwork exercise for small businesses in South Florida. It’s a daily risk."},
-    {"title": "What Justworks Actually Does for Payroll Tax & Worker Misclassification", "description": "Justworks is designed to take the risk and heavy lifting of payroll tax and worker classification off your plate."},
+    {"title": "What Justworks Actually Does for AI Payroll Tax", "description": "Justworks is designed to take the risk and heavy lifting of payroll tax and worker classification off your plate."},
     {"title": "How Justworks Runs Payroll Tax and Worker Classification Behind the Scenes", "description": "Justworks automates the messy mechanics of payroll tax and worker classification so small businesses in South Florida can step away from spreadsheets and manual checks."},
     {"title": "What Sits Under the Hood: Justworks’ Architecture, Integrations, and Data Handling", "description": "Justworks is more than a payroll calculator."},
     {"title": "What It Takes to Get Justworks Live in Your Existing Setup and What Actually Speeds It Up", "description": "Getting Justworks up and running in a small business environment is not a drawn-out IT project."},

@@ -25,7 +25,7 @@ export default function ArchitectureSection() {
         letting you target campaigns based on invoice status or payment history. Salesforce and Stripe connections
         let you keep sales and payment data in sync, so your segments always reflect the latest activity.</p>
       <p className="text-base text-white shadow-text pt-3">
-        The platform also connects to hundreds of other apps through <Link id={`tools-marketing-personalized-email-campaigns-mailchimp-architecture-zapier${idSuffix}`} href="/tools/marketing/zapier" className="text-[#0B162A] hover:underline">Zapier</Link>,
+        The platform also connects to hundreds of other apps through <Link id={`tools-marketing-ai-personalized-email-campaigns-mailchimp-architecture-zapier${idSuffix}`} href="/tools/marketing/zapier" className="text-[#0B162A] hover:underline">Zapier</Link>,
         Make, and direct integrations. This means you can automate email sends based on form submissions, calendar
         bookings, or <GlossaryLink slug="crm" className="text-[#0B162A] hover:underline">CRM</GlossaryLink> updates,
         building a workflow that matches your business’s unique processes. For example, a Typeform integration lets
@@ -33,7 +33,7 @@ export default function ArchitectureSection() {
       <p className="text-base text-white shadow-text pt-3">
         Mailchimp’s <GlossaryLink slug="data-model" className="text-[#0B162A] hover:underline">data model</GlossaryLink> is
         designed for flexibility and scale. The free plan supports up to 250 contacts and one audience, with limits
-        on monthly sends and user seats (<a id={`tools-marketing-personalized-email-campaigns-mailchimp-architecture-source-mailchimp-com${idSuffix}`} href="https://mailchimp.com/resources/free-marketing-features-overview/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Mailchimp</a>,
+        on monthly sends and user seats (<a id={`tools-marketing-ai-personalized-email-campaigns-mailchimp-architecture-source-mailchimp-com${idSuffix}`} href="https://mailchimp.com/resources/free-marketing-features-overview/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Mailchimp</a>,
         as of Oct 25, 2026). As you move to paid plans, you get more audiences, higher send limits, and advanced
         features like role-based access, custom-coded templates, and priority support. This tiered structure lets
         small teams start with a low commitment and grow into more complex setups as their needs change.</p>

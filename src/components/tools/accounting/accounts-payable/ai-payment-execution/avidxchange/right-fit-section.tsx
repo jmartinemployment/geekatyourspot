@@ -4,7 +4,7 @@ export default function RightFitSection() {
     <>
       <p className="text-base text-white shadow-text pt-3">
         AvidXchange is particularly well-suited for small businesses that handle a high volume of invoices
-        and payments. Its automated payment execution capabilities help businesses reduce manual tasks,
+        and payments. Its AI payment execution capabilities help businesses reduce manual tasks,
         allowing teams to focus on strategic initiatives rather than administrative duties. However, it may
         not be necessary for businesses with minimal accounts payable volume or those that do not require the
         advanced features AvidXchange offers.</p>
@@ -49,7 +49,7 @@ export default function RightFitSection() {
         <li>If you took a week off, who would know which bills are legitimate, approved, and due?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
-        Our post <Link id={`tools-accounting-accounts-payable-automated-payment-execution-streamlining-accounts-payable-with-ai-avidxchange-xlink-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-payment-execution-transforms-your-bottom-line" className="text-[#C83803] hover:underline">Automated Payment Execution Benefits</Link> places AvidXchange at two points in the payment cycle: routing approved bills to the right decision-maker by amount or vendor, with mobile approval so nobody waits on a desk, and the role-based access and audit trails that settle who owns reconciliation and who signs off on a payment. The post also names it as the partner for a business that wants support through the transition. The assessment in our <Link id={`tools-accounting-accounts-payable-automated-payment-execution-streamlining-accounts-payable-with-ai-avidxchange-xlink-pillar${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-payment-execution" className="text-[#C83803] hover:underline">AI Payment Execution</Link> guide decides first whether your payment volume and error rate make that transition worth it, before any integration work begins.</p>
+        Our post <Link id={`tools-accounting-accounts-payable-ai-payment-execution-avidxchange-xlink-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-payment-execution-transforms-your-bottom-line" className="text-[#C83803] hover:underline">AI Payment Execution Benefits</Link> places AvidXchange at two points in the payment cycle: routing approved bills to the right decision-maker by amount or vendor, with mobile approval so nobody waits on a desk, and the role-based access and audit trails that settle who owns reconciliation and who signs off on a payment. The post also names it as the partner for a business that wants support through the transition. The assessment in our <Link id={`tools-accounting-accounts-payable-ai-payment-execution-avidxchange-xlink-pillar${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-payment-execution" className="text-[#C83803] hover:underline">AI Payment Execution</Link> guide decides first whether your payment volume and error rate make that transition worth it, before any integration work begins.</p>
     </>
   );
 

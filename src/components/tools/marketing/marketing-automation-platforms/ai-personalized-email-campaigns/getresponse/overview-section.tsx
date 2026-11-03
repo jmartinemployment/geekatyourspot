@@ -5,7 +5,7 @@ export default function OverviewSection() {
     <>
       <p className="text-base text-white shadow-text pt-3">
         Why are we still sending the same generic email to every lead, even when we know it is not working? When
-        small businesses try to run <Link id={`tools-marketing-personalized-email-campaigns-getresponse-overview-personalized-email-campaigns${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns" className="text-[#C83803] hover:underline">Personalized
+        small businesses try to run <Link id={`tools-marketing-ai-personalized-email-campaigns-getresponse-overview-ai-personalized-email-campaigns${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns" className="text-[#C83803] hover:underline">Personalized
         Email Campaigns</Link> by hand, each new lead brings more manual work: copying, pasting, tweaking, and
         sending. Leads come from website forms, ads, and social media, but everyone gets the same basic follow-up.
         That means a lot of missed chances. The real cost is time spent on repetitive tasks and sales lost because

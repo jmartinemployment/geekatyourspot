@@ -4,7 +4,7 @@ export default function WhenRightSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Automated Payment Execution is not a one-size-fits-all solution. For small businesses grappling with
+        AI Payment Execution is not a one-size-fits-all solution. For small businesses grappling with
         the challenges of manual accounts payable processes, automation can be a game-changer. However,
         it&#39;s crucial to assess whether your business is ready for this transition. Understanding when to
         implement automated payment systems can save you from unnecessary costs and ensure a smoother
@@ -21,7 +21,7 @@ export default function WhenRightSection() {
         reducing manual interventions.</p>
       <p className="text-base text-white shadow-text pt-3">
         Next, consider the scalability of your operations. As your business grows, so too will your accounts
-        payable workload. Automated Payment Execution systems offer the flexibility to handle increased
+        payable workload. AI Payment Execution systems offer the flexibility to handle increased
         transaction volumes without requiring additional staffing. This scalability ensures that your payment
         processes remain efficient as your business expands.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -29,7 +29,7 @@ export default function WhenRightSection() {
         invoices with minimal errors, the return on investment for an automated system might not justify the
         cost. In such cases, focusing on optimizing current manual processes could be more beneficial.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Once you’ve determined that Automated Payment Execution aligns with your business needs, the next step
+        Once you’ve determined that AI Payment Execution aligns with your business needs, the next step
         is to choose the right tool. Consider solutions like&nbsp;
         <Link id={`use-cases-accounting-payment-execution-when-tipalti${idSuffix}`}
           href="/tools/accounting/accounts-payable/ai-payment-execution/tipalti" className="text-[#C83803] hover:underline">
@@ -49,7 +49,7 @@ export default function WhenRightSection() {
         and ensuring a quick transition to automated processes. A successful rollout involves thorough
         training for your team to maximize the benefits of the new system.</p>
       <p className="text-base text-white shadow-text pt-3">
-        In summary, Automated Payment Execution is a strategic investment for businesses ready to enhance
+        In summary, AI Payment Execution is a strategic investment for businesses ready to enhance
         their accounts payable processes. By understanding when it is the right call and preparing adequately
         for implementation, you can streamline operations, reduce errors, and focus on growth. With the right
         tools and approach, automation can redefine your business efficiency, allowing you to allocate
@@ -72,7 +72,7 @@ export default function WhenRightSection() {
         <li>If you took a week off, who would know which bills are legitimate, approved, and due?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
-        Before you settle on a tool, read where payment execution actually breaks down once a bill is approved. Our post <Link id={`use-cases-accounting-accounts-payable-ai-automatic-bill-pay-xlink-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-payment-execution-transforms-your-bottom-line" className="text-[#C83803] hover:underline">Automated Payment Execution Benefits</Link> goes through three failure points the sections above only touch on: checks, ACH and card payments each running on their own timeline, payment status updated by hand so a bill is paid twice or not at all, and no live view of the cash position when a spending decision has to be made. It then sets out what the vendors report, Tipalti’s payments in over 120 currencies with tax form validation and Bill’s audit trail at high volume, and the case where a phased start beats a full switch.</p>
+        Before you settle on a tool, read where payment execution actually breaks down once a bill is approved. Our post <Link id={`use-cases-accounting-accounts-payable-ai-payment-execution-xlink-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-payment-execution-transforms-your-bottom-line" className="text-[#C83803] hover:underline">AI Payment Execution Benefits</Link> goes through three failure points the sections above only touch on: checks, ACH and card payments each running on their own timeline, payment status updated by hand so a bill is paid twice or not at all, and no live view of the cash position when a spending decision has to be made. It then sets out what the vendors report, Tipalti’s payments in over 120 currencies with tax form validation and Bill’s audit trail at high volume, and the case where a phased start beats a full switch.</p>
     </>
   );
 
@@ -82,8 +82,8 @@ export default function WhenRightSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="determining-when-automated-payment-execution-is-right-for-your-business" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                Determining When Automated Payment Execution Is Right for Your Business
+              <h2 id="determining-when-ai-payment-execution-is-right-for-your-business" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                Determining When AI Payment Execution Is Right for Your Business
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
@@ -95,8 +95,8 @@ export default function WhenRightSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="determining-when-automated-payment-execution-is-right-for-your-business-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                Determining When Automated Payment Execution Is Right for Your Business
+              <h2 id="determining-when-ai-payment-execution-is-right-for-your-business-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                Determining When AI Payment Execution Is Right for Your Business
               </h2>
               {body("-lg")}
             </div>

@@ -7,7 +7,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Dapta";
-const PAGE_TITLE = "Dapta as an Intelligent Receptionist";
+const PAGE_TITLE = "Dapta as an AI Receptionist";
 const DESCRIPTION =
     "Dapta handles inbound calls, web chat, WhatsApp, and social DMs from one AI platform, so small businesses in South Florida never miss a lead regardless of how a customer reaches out.";
 const CANONICAL = "/tools/business-operations/ai-receptionist/dapta";
@@ -22,7 +22,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Dapta, intelligent receptionist, AI receptionist, voice AI, inbound calls, omnichannel AI, South Florida small business",
+            "keywords": "Dapta, AI receptionist, voice AI, inbound calls, omnichannel AI, South Florida small business",
             "author": { "@type": "Organization", "url": SITE_URL, "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": SITE_URL, "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -91,7 +91,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Dapta", "intelligent receptionist", "AI receptionist", "voice AI", "inbound calls", "omnichannel AI", "South Florida small business"],
+        keywords: ["Dapta", "AI receptionist", "voice AI", "inbound calls", "omnichannel AI", "South Florida small business"],
         authors: [{ name: "Jeff Martin" }],
         creator: "Geek @ Your Spot LLC",
         publisher: "Geek @ Your Spot LLC",
@@ -260,7 +260,7 @@ export default async function Page() {
                                         href="/use-cases/business-operations/ai-receptionist"
                                         className="text-[#C83803] hover:underline"
                                     >
-                                        Intelligent Receptionist tools
+                                        AI Receptionist tools
                                     </Link>{" "}
                                     to compare options for your specific situation.
                                 </p>

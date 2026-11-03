@@ -4,7 +4,7 @@ export default function InPracticeSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Rolling out Automated Payment Execution in a real-world setting involves a detailed sequence of steps.
+        Rolling out AI Payment Execution in a real-world setting involves a detailed sequence of steps.
         Each phase requires careful planning and execution to ensure success. Begin with a thorough assessment
         of your current processes. Identify areas that will benefit most from automation, such as invoice
         receipt and data entry. This assessment lays the groundwork for a targeted implementation plan.</p>
@@ -21,7 +21,7 @@ export default function InPracticeSection() {
           Melio
         </Link>, which offer seamless data transfer capabilities, can significantly ease this transition.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Integration with existing systems is the backbone of Automated Payment Execution. The goal is to
+        Integration with existing systems is the backbone of AI Payment Execution. The goal is to
         create a unified workflow that connects seamlessly with your accounting software. This ensures that
         data flows smoothly without the need for manual intervention. Platforms like&nbsp;
         <Link id={`use-cases-accounting-payment-execution-practice-avidxchange${idSuffix}`}
@@ -35,7 +35,7 @@ export default function InPracticeSection() {
         accounting needs.</p>
       <p className="text-base text-white shadow-text pt-3">
         As the system goes live, training becomes essential. Equip your team with the knowledge to use the new
-        tools effectively. This includes understanding how to manage the Automated Payment Execution process
+        tools effectively. This includes understanding how to manage the AI Payment Execution process
         and troubleshoot common issues. Training should be comprehensive, covering everything from basic
         operations to advanced features. This step is crucial for maximizing the benefits of automation and
         ensuring that your team is comfortable with the new processes.</p>
@@ -54,8 +54,8 @@ export default function InPracticeSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="implementing-automated-payment-execution-in-practice" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                Implementing Automated Payment Execution in Practice
+              <h2 id="implementing-ai-payment-execution-in-practice" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                Implementing AI Payment Execution in Practice
               </h2>
             </div>
             <div className="col-span-12">{body()}</div>
@@ -67,8 +67,8 @@ export default function InPracticeSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="implementing-automated-payment-execution-in-practice-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                Implementing Automated Payment Execution in Practice
+              <h2 id="implementing-ai-payment-execution-in-practice-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                Implementing AI Payment Execution in Practice
               </h2>
               {body("-lg")}
             </div>

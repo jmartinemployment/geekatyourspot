@@ -14,7 +14,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Bill";
-const PAGE_TITLE = "Bill for Intelligent Fraud & Duplicate Payment Controls";
+const PAGE_TITLE = "Bill for AI Fraud & Duplicate Payment Controls";
 const DESCRIPTION =
     "Automate fraud detection and prevent duplicate payments with Bill's advanced controls for small businesses.";
 const CANONICAL = "/tools/accounting/accounts-payable/ai-fraud-duplicate-payment-controls/bill";
@@ -28,7 +28,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Bill, automated fraud and duplicate payment controls, accounts payable automation, duplicate invoice detection, invoice matching, purchase order matching, approval workflows, QuickBooks integration, Xero integration, predictive AI fraud prevention, audit trail, AI implementation",
+            "keywords": "Bill, AI fraud and duplicate payment controls, accounts payable automation, duplicate invoice detection, invoice matching, purchase order matching, approval workflows, QuickBooks integration, Xero integration, predictive AI fraud prevention, audit trail, AI implementation",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -59,7 +59,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Bill", "automated fraud and duplicate payment controls", "accounts payable automation", "duplicate invoice detection", "invoice matching", "approval workflows"],
+        keywords: ["Bill", "AI fraud and duplicate payment controls", "accounts payable automation", "duplicate invoice detection", "invoice matching", "approval workflows"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

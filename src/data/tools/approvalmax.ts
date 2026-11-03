@@ -16,7 +16,7 @@ export const approvalmaxContent: ToolPageContent = {
   "heroSummary":
     "ApprovalMax streamlines approval workflows, reducing errors and improving efficiency for small businesses.",
   "keywords":
-    "ApprovalMax, automated approval workflows, accounts payable automation, invoice approval, audit trail, three-way matching, Xero, QuickBooks Online, NetSuite, AI implementation",
+    "ApprovalMax, AI invoice approval workflows, accounts payable automation, invoice approval, audit trail, three-way matching, Xero, QuickBooks Online, NetSuite, AI implementation",
   "datePublished": "2026-10-07T19:50:20.7491120Z",
   "dateModified": "2026-10-07T19:50:20.7491120Z",
   "relatedArticleId":

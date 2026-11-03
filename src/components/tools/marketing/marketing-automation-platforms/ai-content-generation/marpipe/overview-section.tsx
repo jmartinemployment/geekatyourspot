@@ -11,7 +11,7 @@ export default function OverviewSection() {
         as of Oct 24, 2026)? As soon as a business in West Palm Beach, Broward or Miami-Dade pushes for a steady
         sales pipeline, manual processes for creative production and campaign management hit their limit. The real
         barrier is not lack of effort or budget, but the operational ceiling created by manual ad creation and
-        scattered data. <Link id={`tools-marketing-measured-lead-generation-marpipe-overview-measured-lead-generation${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-generation" className="text-[#C83803] hover:underline">Intelligent Content Generation</Link> exposes this hard fact: beyond basic local reach, manual ad workflows cause costs to
+        scattered data. <Link id={`tools-marketing-measured-lead-generation-marpipe-overview-measured-lead-generation${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-generation" className="text-[#C83803] hover:underline">AI Content Generation</Link> exposes this hard fact: beyond basic local reach, manual ad workflows cause costs to
         rise fast, creative to stall out, and sales predictability to disappear.</p>
       <p className="text-base text-white shadow-text pt-3">
         Every dollar you put into ads is at risk when you cannot keep up with the pace of change. Creative

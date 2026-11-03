@@ -4,7 +4,7 @@ export default function ImplementingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Going live with Rippling for Payroll Tax &amp; Worker Misclassification is not a generic software
+        Going live with Rippling for AI Payroll Tax is not a generic software
         rollout. Geek @ Your Spot LLC gets South Florida clients up and running by following a sequence that cuts
         out wasted steps and avoids the pitfalls that slow down other platforms. The goal is to plug Rippling
         into your existing payroll, HR, and accounting stack with as little downtime as possible. That means no

@@ -3,7 +3,7 @@ export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Melio is designed to cater to small businesses seeking efficient Automated Payment Execution. Its
+        Melio is designed to cater to small businesses seeking efficient AI Payment Execution. Its
         features are tailored to simplify payment processes and improve cash flow management. For businesses
         that manage multiple vendors and require a centralized platform for payment execution, Melio offers a
         robust solution.</p>
@@ -44,7 +44,7 @@ export default function RightFitSection() {
         <li>If you took a week off, who would know which bills are legitimate, approved, and due?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
-        Our post <Link id={`tools-accounting-accounts-payable-automated-payment-execution-streamlining-accounts-payable-with-ai-melio-xlink-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-payment-execution-transforms-your-bottom-line" className="text-[#C83803] hover:underline">Automated Payment Execution Benefits</Link> argues for a phased start, automating invoice entry and basic approvals first and judging the results before scaling up, and names Melio as the starting point for a small business new to automation because of how it syncs with QuickBooks. It also sets out the data mapping that has to happen first so invoices, payments and vendors land in the right categories. Whether your vendor count and payment mix make that first phase worthwhile is what the assessment in our <Link id={`tools-accounting-accounts-payable-automated-payment-execution-streamlining-accounts-payable-with-ai-melio-xlink-pillar${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-payment-execution" className="text-[#C83803] hover:underline">AI Payment Execution</Link> guide settles.</p>
+        Our post <Link id={`tools-accounting-accounts-payable-ai-payment-execution-melio-xlink-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-payment-execution-transforms-your-bottom-line" className="text-[#C83803] hover:underline">AI Payment Execution Benefits</Link> argues for a phased start, automating invoice entry and basic approvals first and judging the results before scaling up, and names Melio as the starting point for a small business new to automation because of how it syncs with QuickBooks. It also sets out the data mapping that has to happen first so invoices, payments and vendors land in the right categories. Whether your vendor count and payment mix make that first phase worthwhile is what the assessment in our <Link id={`tools-accounting-accounts-payable-ai-payment-execution-melio-xlink-pillar${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-payment-execution" className="text-[#C83803] hover:underline">AI Payment Execution</Link> guide settles.</p>
     </>
   );
 

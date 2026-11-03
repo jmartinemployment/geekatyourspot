@@ -64,7 +64,7 @@ export default function DataMappingSection() {
         edit which transactions, is part of the initial setup. This keeps sensitive data secure and ensures each
         user works with the information relevant to their job.</p>
       <p className="text-base text-white shadow-text pt-3">
-        In summary, Take the Helm’s value for Intelligent Resource Planning depends on getting the data
+        In summary, Take the Helm’s value for AI Resource Planning depends on getting the data
         structure right from the start. Clean, consistently coded data feeds accurate forecasts, actionable
         dashboards, and reliable scenario planning. Geek @ Your Spot LLC’s implementation support is crucial here,
         they know where small businesses’ data gets messy, and how to map it to Take the Helm’s requirements

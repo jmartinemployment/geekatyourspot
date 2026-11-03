@@ -2,7 +2,7 @@ export default function ChallengesSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        For small businesses, managing automated payment execution can be a daunting task. The increasing
+        For small businesses, managing AI payment execution can be a daunting task. The increasing
         number of suppliers often means accommodating varied payment preferences and handling frequent
         inquiries about payment statuses. This complexity is compounded by the lack of a consistent
         electronic-payment process, leading to a reliance on manual methods that are both time-consuming and
@@ -43,8 +43,8 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-challenges-of-manual-automated-payment-execution">
-                The Challenges of Manual Automated Payment Execution
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-challenges-of-manual-payment-execution">
+                The Challenges of Manual Payment Execution
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
@@ -56,8 +56,8 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-challenges-of-manual-automated-payment-execution-lg">
-                The Challenges of Manual Automated Payment Execution
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-challenges-of-manual-payment-execution-lg">
+                The Challenges of Manual Payment Execution
               </h2>
               {body}
             </div>

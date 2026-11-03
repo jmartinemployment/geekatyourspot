@@ -3,7 +3,7 @@ export default function ImplementingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Getting QuickBooks up and running for intelligent resource planning is not the same as deploying a
+        Getting QuickBooks up and running for AI resource planning is not the same as deploying a
         monolithic&nbsp;ERP. The difference starts with the scope. Most
         small businesses in Miami-Dade, Broward, and West Palm Beach come in with a patchwork of spreadsheets, a
         desktop accounting file, and scattered payroll or inventory apps. QuickBooks is built to take that
@@ -53,7 +53,7 @@ export default function ImplementingSection() {
         availability of people to review it. For a typical small business, the full transition from spreadsheets
         and desktop files to a live, cloud-based QuickBooks environment is measured in weeks, not months. That
         means less time spent in limbo and a faster path to the live numbers and workflow automation that
-        intelligent resource planning demands.</p>
+        AI resource planning demands.</p>
     </>
   );
 

@@ -12,7 +12,7 @@ export default function OverviewSection() {
         what they see every month: ninety percent of their work gets buried on page three, never seen by a
         single customer, never driving a lead.</p>
       <p className="text-base text-white shadow-text pt-3">
-        This cycle repeats because they are running on guesswork. Without&nbsp;<Link id={`tools-marketing-intelligent-content-planning-marketmuse-overview-intelligent-content-planning${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-planning" className="text-[#C83803] hover:underline">Intelligent Content Planning</Link>, their
+        This cycle repeats because they are running on guesswork. Without&nbsp;<Link id={`tools-marketing-ai-content-planning-marketmuse-overview-ai-content-planning${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-planning" className="text-[#C83803] hover:underline">AI Content Planning</Link>, their
         best ideas are drowned out by larger brands with bigger budgets and deeper data. They waste hours
         chasing high-competition keywords, never realizing their site has no chance at those rankings. They
         cannot see which topics they already own or where their rivals left open ground. They do not know
@@ -21,7 +21,7 @@ export default function OverviewSection() {
         of effort holding them back, it is the absence of a system that tells them what to write, when, and
         why.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Intelligent Content Planning flips this script. Instead of hunches and manual audits, it uses AI to
+        AI Content Planning flips this script. Instead of hunches and manual audits, it uses AI to
         map your entire content footprint, analyze what is working and what is wasted, and pinpoint the real
         opportunities your team can win. You get a blueprint that shows which topics build your authority,
         which gaps your competitors missed, and which pieces should be repurposed or retired. The guesswork
@@ -31,7 +31,7 @@ export default function OverviewSection() {
         For small businesses in West Palm, Broward, and Miami-Dade, this is the difference between staying
         invisible and building a presence that customers trust. The right content plan does not just save
         time: it shifts your marketing from a cost center to a driver of leads and sales. That is what
-        Intelligent Content Planning delivers.</p>
+        AI Content Planning delivers.</p>
     </>
   );
 

@@ -3,7 +3,7 @@ export default function ComparingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Versapay stands out in the landscape of automated accounts receivable solutions by offering a comprehensive
+        Versapay stands out in the landscape of AI accounts receivable solutions by offering a comprehensive
         platform that integrates seamlessly with
         existing&nbsp;ERP&nbsp;systems.
         While many solutions provide basic automation, Versapay extends its capabilities with smart automation and

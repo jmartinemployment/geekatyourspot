@@ -26,7 +26,7 @@ const jsonLd: Graph = {
             "author": { "@type": "Organization", "url": SITE_URL, "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": SITE_URL, "name": "Geek @ Your Spot LLC" },
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "AI business operations, AI front desk, AI receptionist, cross-platform chatbot, data quality assessments, AI workflows, AI CRM, South Florida small business, Miami-Dade, Broward, Palm Beach"
+            "keywords": "AI business operations, AI front desk, AI receptionist, AI chatbot, AI data quality assessments, AI workflows, AI CRM, South Florida small business, Miami-Dade, Broward, Palm Beach"
 
         }
     ]
@@ -40,7 +40,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             "AI business operations",
             "AI front desk",
             "AI receptionist",
-            "cross-platform chatbot",
+            "AI chatbot",
             "data quality assessments",
             "AI workflows",
             "AI CRM",

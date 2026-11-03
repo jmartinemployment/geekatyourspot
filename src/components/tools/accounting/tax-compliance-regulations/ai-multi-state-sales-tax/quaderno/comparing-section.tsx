@@ -5,7 +5,7 @@ export default function ComparingSection() {
       <p className="text-base text-white shadow-text pt-3">
         Small businesses in South Florida
         weighing&nbsp;tax
-        compliance&nbsp;tools for Multi-State Sales Tax Nexus find themselves choosing between
+        compliance&nbsp;tools for AI Multi-State Sales Tax find themselves choosing between
         three main approaches: manual tracking with spreadsheets and basic accounting software, single-gateway
         tax solutions tied to a payment platform, and independent compliance engines like Quaderno. Each method
         claims to solve the compliance burden, but the differences in scope, integration, and automation make

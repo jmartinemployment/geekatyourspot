@@ -22,7 +22,7 @@ const jsonLd: Graph = {
       "publisher": { "@type": "Organization", "url": SITE_URL, "name": "Geek @ Your Spot LLC" },
       "mainEntityOfPage": { "@type": "WebPage", "@id": `${SITE_URL}/blog/business-operations` },
       "keywords":
-        "business operations, AI receptionist, cross-platform chatbot, lead capture, data quality assessments, data validation, AI data readiness",
+        "business operations, AI receptionist, AI chatbot, lead capture, data quality assessments, data validation, AI data readiness",
     },
   ],
 };
@@ -34,7 +34,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     keywords: [
       "business operations",
       "AI receptionist",
-      "cross-platform chatbot",
+      "AI chatbot",
       "lead capture",
       "data quality assessments",
       "data validation",
@@ -95,7 +95,7 @@ export default async function Page() {
                 </h2>
                 <p className="pt-3 text-base font-normal text-white shadow-text">
                   The front office is the first thing a lead touches. An AI receptionist answers every call
-                  after hours, and a cross-platform chatbot picks up the web, SMS, and social messages your team
+                  after hours, and an AI chatbot picks up the web, SMS, and social messages your team
                   cannot watch all day. These posts cover how South Florida small businesses put both to work
                   without losing the human handoff that closes the deal.
                 </p>
@@ -107,17 +107,17 @@ export default async function Page() {
                   </li>
                   <li>
                     <Link href="/blog/business-operations/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline" className="text-[#C83803] font-bold hover:underline">
-                      Cross-Platform Chatbot Lead Capture
+                      AI Chatbot Lead Capture
                     </Link>
                   </li>
                 </ul>
                 <p className="pt-3 text-base font-normal text-white shadow-text">
                   See the use cases behind them:{" "}
                   <Link href="/use-cases/business-operations/ai-receptionist" className="text-[#C83803] font-bold hover:underline">
-                    Intelligent Receptionist
+                    AI Receptionist
                   </Link>{" "}and{" "}
                   <Link href="/use-cases/business-operations/ai-chatbot" className="text-[#C83803] font-bold hover:underline">
-                    Cross-Platform Chatbot
+                    AI Chatbot
                   </Link>.
                 </p>
               </div>
@@ -129,7 +129,7 @@ export default async function Page() {
             <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
               <div className="col-span-12">
                 <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl lg:text-[3.5rem] leading-[0.95] font-black font-(--font-sora) shadow-text">
-                  Data Quality Assessments
+                  AI Data Quality Assessments
                 </h2>
                 <p className="pt-3 text-base font-normal text-white shadow-text">
                   Before data is exposed to an LLM, it needs checking for completeness, accuracy, and formatting errors.
@@ -143,7 +143,7 @@ export default async function Page() {
                 <ul className="list-disc list-outside pl-5 space-y-2 text-base font-normal text-white shadow-text pt-4">
                   <li>
                     <Link href="/use-cases/business-operations/ai-data-quality-assessments" className="text-[#C83803] font-bold hover:underline">
-                      Data Quality Assessments: the use case
+                      AI Data Quality Assessments: the use case
                     </Link>
                   </li>
                   <li>

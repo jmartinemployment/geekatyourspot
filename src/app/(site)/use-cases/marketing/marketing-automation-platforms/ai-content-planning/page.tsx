@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
 import SharedHeroSection from "@/components/shared/shared-hero-section";
-import LedeSection from "@/components/use-cases/marketing/marketing-automation-platforms/intelligent-content-planning-for-small-businesses-real-results-with-ai/lede-section";
-import ChallengesSection from "@/components/use-cases/marketing/marketing-automation-platforms/intelligent-content-planning-for-small-businesses-real-results-with-ai/challenges-section";
-import StatusQuoSection from "@/components/use-cases/marketing/marketing-automation-platforms/intelligent-content-planning-for-small-businesses-real-results-with-ai/status-quo-section";
-import MechanicsSection from "@/components/use-cases/marketing/marketing-automation-platforms/intelligent-content-planning-for-small-businesses-real-results-with-ai/mechanics-section";
-import KeyFactorsSection from "@/components/use-cases/marketing/marketing-automation-platforms/intelligent-content-planning-for-small-businesses-real-results-with-ai/key-factors-section";
-import DecisionsSection from "@/components/use-cases/marketing/marketing-automation-platforms/intelligent-content-planning-for-small-businesses-real-results-with-ai/decisions-section";
-import SequenceSection from "@/components/use-cases/marketing/marketing-automation-platforms/intelligent-content-planning-for-small-businesses-real-results-with-ai/sequence-section";
-import DataIntegrationSection from "@/components/use-cases/marketing/marketing-automation-platforms/intelligent-content-planning-for-small-businesses-real-results-with-ai/data-integration-section";
-import RolesSection from "@/components/use-cases/marketing/marketing-automation-platforms/intelligent-content-planning-for-small-businesses-real-results-with-ai/roles-section";
-import RightFitSection from "@/components/use-cases/marketing/marketing-automation-platforms/intelligent-content-planning-for-small-businesses-real-results-with-ai/right-fit-section";
-import PreparingSection from "@/components/use-cases/marketing/marketing-automation-platforms/intelligent-content-planning-for-small-businesses-real-results-with-ai/preparing-section";
-import PAASection from "@/components/use-cases/marketing/marketing-automation-platforms/intelligent-content-planning-for-small-businesses-real-results-with-ai/paa-section";
+import LedeSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-content-planning-for-small-businesses-real-results-with-ai/lede-section";
+import ChallengesSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-content-planning-for-small-businesses-real-results-with-ai/challenges-section";
+import StatusQuoSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-content-planning-for-small-businesses-real-results-with-ai/status-quo-section";
+import MechanicsSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-content-planning-for-small-businesses-real-results-with-ai/mechanics-section";
+import KeyFactorsSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-content-planning-for-small-businesses-real-results-with-ai/key-factors-section";
+import DecisionsSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-content-planning-for-small-businesses-real-results-with-ai/decisions-section";
+import SequenceSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-content-planning-for-small-businesses-real-results-with-ai/sequence-section";
+import DataIntegrationSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-content-planning-for-small-businesses-real-results-with-ai/data-integration-section";
+import RolesSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-content-planning-for-small-businesses-real-results-with-ai/roles-section";
+import RightFitSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-content-planning-for-small-businesses-real-results-with-ai/right-fit-section";
+import PreparingSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-content-planning-for-small-businesses-real-results-with-ai/preparing-section";
+import PAASection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-content-planning-for-small-businesses-real-results-with-ai/paa-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
@@ -19,7 +19,7 @@ import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "AI Content Planning";
 const DESCRIPTION =
-    "Intelligent Content Planning streamlines content creation for small businesses, saving time and reducing errors. See how local AI implementation works.";
+    "AI Content Planning streamlines content creation for small businesses, saving time and reducing errors. See how local AI implementation works.";
 const CANONICAL = "/use-cases/marketing/marketing-automation-platforms/ai-content-planning";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -35,7 +35,7 @@ const jsonLd: Graph = {
             "datePublished": "2026-10-18T13:01:40.3179029Z",
             "dateModified": "2026-10-18T13:01:40.3179029Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Intelligent Content Planning, AI content workflow, automated content generation, content repurposing, bulk scheduling, approval workflows, personalized email campaigns, small business AI, West Palm Beach AI consulting, Miami-Dade content automation",
+            "keywords": "AI Content Planning, AI content workflow, automated content generation, content repurposing, bulk scheduling, approval workflows, AI personalized email campaigns, small business AI, West Palm Beach AI consulting, Miami-Dade content automation",
             "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/marketing-automation-platforms" },
             "mentions": [
                 { "@type": "Thing", "name": "Hootsuite", "url": "https://www.hootsuite.com/" },
@@ -61,7 +61,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: TITLE,
         description: DESCRIPTION,
-        keywords: ["Intelligent Content Planning", "AI content workflow", "automated content generation", "content repurposing", "bulk scheduling", "approval workflows", "personalized email campaigns", "small business AI", "West Palm Beach AI consulting", "Miami-Dade content automation"],
+        keywords: ["AI Content Planning", "AI content workflow", "automated content generation", "content repurposing", "bulk scheduling", "approval workflows", "AI personalized email campaigns", "small business AI", "West Palm Beach AI consulting", "Miami-Dade content automation"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
@@ -95,7 +95,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page() {
     const heroSummary =
-        "Stop wasting hours on manual content tasks. Intelligent Content Planning helps your team create, schedule, and approve content faster, with fewer errors and less stress.";
+        "Stop wasting hours on manual content tasks. AI Content Planning helps your team create, schedule, and approve content faster, with fewer errors and less stress.";
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />

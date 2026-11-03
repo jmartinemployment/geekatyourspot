@@ -2,7 +2,7 @@ export default function PitfallsSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        In small businesses, managing Automated Approval Workflows can quickly become chaotic. Without a
+        In small businesses, managing AI Invoice Approval Workflows can quickly become chaotic. Without a
         structured system, invoices arrive through various channels (email, mail, or vendor portals) and often
         land on the desk of a bookkeeper who manually enters or forwards them. This process is prone to errors
         and lacks a reliable record of authorization. A manager might verbally approve an invoice, leaving no
@@ -54,8 +54,8 @@ export default function PitfallsSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-pitfalls-of-manual-automated-approval-workflows">
-                The Pitfalls of Manual Automated Approval Workflows
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-pitfalls-of-manual-approval-workflows">
+                The Pitfalls of Manual Approval Workflows
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
@@ -67,8 +67,8 @@ export default function PitfallsSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-pitfalls-of-manual-automated-approval-workflows-lg">
-                The Pitfalls of Manual Automated Approval Workflows
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="the-pitfalls-of-manual-approval-workflows-lg">
+                The Pitfalls of Manual Approval Workflows
               </h2>
               {body("-lg")}
             </div>

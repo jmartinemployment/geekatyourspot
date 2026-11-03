@@ -39,7 +39,7 @@ export default function ComparingSection() {
         feedback and scoring ensure that content meets the standards for authority and relevance before it
         ever goes live.</p>
       <p className="text-base text-white shadow-text pt-3">
-        When compared to other intelligent content planning solutions, MarketMuse is the only platform in this
+        When compared to other AI content planning solutions, MarketMuse is the only platform in this
         segment that combines automated inventory, personalized ranking difficulty, and deep competitive gap
         analysis in one place. While some tools offer integrations with CMS or bulk publishing, they do not
         address the strategic layer that determines what actually gets seen. MarketMuse sits at the core of

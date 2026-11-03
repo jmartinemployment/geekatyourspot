@@ -25,7 +25,7 @@ export default function ArchitectureSection() {
         messages.</p>
       <p className="text-base text-white shadow-text pt-3">
         Integration is a core strength. ActiveCampaign connects natively to platforms like Shopify, Salesforce,
-        Typeform, and Facebook Custom Audiences, and offers over 900 integrations in total (<a id={`tools-marketing-personalized-email-campaigns-activecampaign-architecture-source-activecampaign-com${idSuffix}`} href="https://www.activecampaign.com/compare/salesforce" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">ActiveCampaign</a>,
+        Typeform, and Facebook Custom Audiences, and offers over 900 integrations in total (<a id={`tools-marketing-ai-personalized-email-campaigns-activecampaign-architecture-source-activecampaign-com${idSuffix}`} href="https://www.activecampaign.com/compare/salesforce" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">ActiveCampaign</a>,
         as of Oct 26, 2026). These connections allow the system to pull in e-commerce activity, sync leads from
         forms, and even coordinate ad campaigns with email sequences. For example, the Shopify integration enriches
         contact records with order data, enabling post-purchase follow-ups and personalized offers based on real

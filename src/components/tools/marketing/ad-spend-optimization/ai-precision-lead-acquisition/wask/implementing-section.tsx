@@ -17,7 +17,7 @@ export default function ImplementingSection() {
       <p className="text-base text-white shadow-text pt-3">
         Next comes the initial audit and baseline documentation. Wask pulls in 30 days of campaign data and surfaces a
         clear view of your current spend, <GlossaryLink slug="conversion-tracking">conversion tracking</GlossaryLink>,
-        and quality scores (<a id={`tools-marketing-precision-lead-acquisition-wask-implementing-source-google-ads-automation${idSuffix}`} href="https://www.wask.co/google-ads-automation" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Wask</a>,
+        and quality scores (<a id={`tools-marketing-ai-precision-lead-acquisition-wask-implementing-source-google-ads-automation${idSuffix}`} href="https://www.wask.co/google-ads-automation" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Wask</a>,
         as of Oct 29, 2026). This step is critical. The system uses this data to set thresholds for automation rules and
         to spot structural issues that could block optimization. If your conversion tracking is broken or your campaign
         structure is tangled, Wask flags it before any automation is turned on. This up-front check is what keeps later

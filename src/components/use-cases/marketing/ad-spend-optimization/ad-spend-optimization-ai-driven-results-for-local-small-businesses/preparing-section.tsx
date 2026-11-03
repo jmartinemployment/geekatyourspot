@@ -46,7 +46,7 @@ export default function PreparingSection() {
         You should expect a noticeable drop in wasted spend within the first month, and a much clearer understanding of
         which ads are actually driving results. For most small businesses, the immediate impact is less time spent on
         manual checks and fewer surprises in monthly reports. In a hypothetical twelve-person marketing team, this
-        could mean reclaiming 20 hours a month previously lost to spreadsheet exports and dashboard checks (<a id={`use-cases-marketing-precision-lead-acquisition-preparing-source-cometly-com${idSuffix}`} href="https://www.cometly.com/post/boost-conversion-rates-framework" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Cometly</a>,
+        could mean reclaiming 20 hours a month previously lost to spreadsheet exports and dashboard checks (<a id={`use-cases-marketing-ai-precision-lead-acquisition-preparing-source-cometly-com${idSuffix}`} href="https://www.cometly.com/post/boost-conversion-rates-framework" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Cometly</a>,
         as of Oct 29, 2026). Over the next quarter, you should see your high-performing campaigns get more budget
         automatically, while weak performers are scaled down or paused without waiting for human intervention.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -62,7 +62,7 @@ export default function PreparingSection() {
         that fits your business. Once you have that foundation, you are ready to let automation do what it does best,
         saving you time, protecting your budget, and letting your team focus on real growth.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Answer these questions when <a id={`use-cases-marketing-precision-lead-acquisition-preparing-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        Answer these questions when <a id={`use-cases-marketing-ai-precision-lead-acquisition-preparing-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>What do you sell, and what action should an ad produce, a phone call, appointment, quote request, store visit, or online purchase?</li>

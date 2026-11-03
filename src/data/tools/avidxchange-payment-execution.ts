@@ -18,14 +18,14 @@ export const avidxchangePaymentExecutionContent: ToolPageContent = {
   "heroSummary":
     "AvidXchange revolutionizes how businesses handle payments, offering efficient and automated solutions.",
   "keywords":
-    "AvidXchange, automated payment execution, accounts payable automation, supplier payments, virtual card, AvidPay Direct, payment status visibility, QuickBooks integration, NetSuite integration, AI implementation",
+    "AvidXchange, AI payment execution, accounts payable automation, supplier payments, virtual card, AvidPay Direct, payment status visibility, QuickBooks integration, NetSuite integration, AI implementation",
   "datePublished": "2026-10-08T20:12:34.5551770Z",
   "dateModified": "2026-10-08T20:12:34.5551770Z",
   "relatedArticleId":
     "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-payment-execution",
   "sections": [
-    { "title": "Overview", "description": "Printing checks, stuffing envelopes and mailing payments every Friday is slow and error-prone. Automated payment execution pays suppliers through their preferred method and gives the week back." },
-    { "title": "The Challenges of Manual Automated Payment Execution", "description": "No unified electronic payment process means manual checks, vendor preferences tracked in spreadsheets, scattered remittance data and constant \"Where is my money?\" calls." },
+    { "title": "Overview", "description": "Printing checks, stuffing envelopes and mailing payments every Friday is slow and error-prone. AI Payment Execution pays suppliers through their preferred method and gives the week back." },
+    { "title": "The Challenges of Manual Payment Execution", "description": "No unified electronic payment process means manual checks, vendor preferences tracked in spreadsheets, scattered remittance data and constant \"Where is my money?\" calls." },
     { "title": "What AvidXchange Removes from Your Week", "description": "Virtual card, AvidPay Direct and check delivery, real-time payment status through the Supplier Hub, and lower hard costs from paper invoices and mailed checks." },
     { "title": "How AvidXchange Streamlines Payment Processes", "description": "Works inside existing approval workflows such as RAAMP, integrates with QuickBooks and NetSuite by API, and matches POs, receiving reports and invoices before releasing payment." },
     { "title": "Implementing AvidXchange in Your Business Environment", "description": "Pre-built connectors shorten go-live; approval chains, routing and data mapping are configured up front with Geek @ Your Spot LLC." },

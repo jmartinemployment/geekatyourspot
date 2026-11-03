@@ -6,7 +6,7 @@ export default function RightChoiceSection() {
         Stampli is particularly well-suited for small businesses that are burdened by manual&nbsp;
         accounts payable&nbsp;processes. If your team is
         overwhelmed by the volume of invoices or frequently encounters delays due to manual approvals,
-        Stampli&#39;s automated approval workflows can offer a substantial improvement. Its ability to
+        Stampli&#39;s AI invoice approval workflows can offer a substantial improvement. Its ability to
         integrate with existing systems like Sage 300 CRE, as demonstrated in Cork Howard Construction&#39;s
         case, highlights its flexibility and adaptability.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -15,7 +15,7 @@ export default function RightChoiceSection() {
         might not justify the return. It&#39;s crucial to assess your current workflow and identify the pain
         points that automation can address before committing to a new system.</p>
       <p className="text-base text-white shadow-text pt-3">
-        For businesses ready to transition to automated approval workflows, the next step is to evaluate your
+        For businesses ready to transition to AI invoice approval workflows, the next step is to evaluate your
         specific requirements. Consider the volume of invoices, the complexity of your approval processes, and
         the integrations you need. Stampli&#39;s features, such as customizable approval workflows and
         AI-powered invoice processing, are designed to address these challenges and improve your overall
@@ -51,7 +51,7 @@ export default function RightChoiceSection() {
         <li>Which types of invoices are most common: recurring bills, subcontractor invoices, inventory, utilities, rent, credit-card expenses, or project-related expenses?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
-        Stampli’s strength is closing the gap between purchase orders and approvals held in separate systems, and our post <Link id={`tools-accounting-accounts-payable-automated-approval-workflows-stampli-xlink-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-approval-workflows-transform-accounts-payable" className="text-[#C83803] hover:underline">Accounts Payable Approval Automation</Link> shows what that gap costs: approvals that exist only in email threads, no documented authorization when it is time to pay, and controls added only after a loss or an audit problem. The post also gives Stampli the implementation step most small teams skip, validating and cleaning data before it enters the workflow. The four-phase assessment in our <Link id={`tools-accounting-accounts-payable-automated-approval-workflows-stampli-xlink-pillar${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows" className="text-[#C83803] hover:underline">AI Invoice Approval Workflows</Link> guide, from measurable goals to a pilot with your accounts payable team, is how we decide whether Stampli fits your invoice volume.</p>
+        Stampli’s strength is closing the gap between purchase orders and approvals held in separate systems, and our post <Link id={`tools-accounting-accounts-payable-ai-invoice-approval-workflows-stampli-xlink-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-approval-workflows-transform-accounts-payable" className="text-[#C83803] hover:underline">Accounts Payable Approval Automation</Link> shows what that gap costs: approvals that exist only in email threads, no documented authorization when it is time to pay, and controls added only after a loss or an audit problem. The post also gives Stampli the implementation step most small teams skip, validating and cleaning data before it enters the workflow. The four-phase assessment in our <Link id={`tools-accounting-accounts-payable-ai-invoice-approval-workflows-stampli-xlink-pillar${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows" className="text-[#C83803] hover:underline">AI Invoice Approval Workflows</Link> guide, from measurable goals to a pilot with your accounts payable team, is how we decide whether Stampli fits your invoice volume.</p>
     </>
   );
 

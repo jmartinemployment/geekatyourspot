@@ -19,7 +19,7 @@ export default function RightFitSection() {
       <p className="text-base text-white shadow-text pt-3">
         But automation is not the answer to every problem. If your campaigns are small, your spend is under $1,500 a
         month, and you can review every keyword and creative by hand each week, a manual approach keeps you in touch
-        with your numbers and may save you the cost and complexity of an automation platform (<a id={`blog-marketing-precision-lead-acquisition-right-fit-source-wask-co${idSuffix}`} href="https://www.wask.co/google-ads-automation" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Wask</a>,
+        with your numbers and may save you the cost and complexity of an automation platform (<a id={`blog-marketing-ai-precision-lead-acquisition-right-fit-source-wask-co${idSuffix}`} href="https://www.wask.co/google-ads-automation" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Wask</a>,
         as of Oct 29, 2026). Automation cannot create a winning offer, fix a broken sales process, or invent the
         creative that turns interest into sales. LocaliQ&rsquo;s targeting and tracking will not make up for an unclear
         call-to-action or an offer that does not fit your market. Plai&rsquo;s dashboards and automated pixel setup
@@ -40,7 +40,7 @@ export default function RightFitSection() {
         getting back, and where your team is losing the most time or missing the most errors. That is where
         automation, if you add it, will pay back first.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Answer these questions when <a id={`blog-marketing-precision-lead-acquisition-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        Answer these questions when <a id={`blog-marketing-ai-precision-lead-acquisition-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>What do you sell, and what action should an ad produce, a phone call, appointment, quote request, store visit, or online purchase?</li>

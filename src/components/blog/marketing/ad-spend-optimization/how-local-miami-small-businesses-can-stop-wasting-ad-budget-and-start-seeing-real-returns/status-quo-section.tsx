@@ -19,7 +19,7 @@ export default function StatusQuoSection() {
         budget, updating targeting, the risk of mistakes goes up. The operator&rsquo;s own findings show that the most
         common failures are missed spikes in cost-per-click, campaigns left running well past their prime, or budget
         caps forgotten over a weekend. There is no safety net against a sudden cost spike or a broken link in a key ad,
-        because nobody is monitoring performance every 15 minutes (<a id={`blog-marketing-precision-lead-acquisition-status-quo-source-cometly-com${idSuffix}`} href="https://www.cometly.com/post/attribution-for-multiple-ad-accounts" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Cometly</a>,
+        because nobody is monitoring performance every 15 minutes (<a id={`blog-marketing-ai-precision-lead-acquisition-status-quo-source-cometly-com${idSuffix}`} href="https://www.cometly.com/post/attribution-for-multiple-ad-accounts" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Cometly</a>,
         as of Oct 29, 2026). When the office is closed, a single high-cost anomaly can drain a week&rsquo;s worth of
         budget before anyone notices. The absence of real-time checks means you only catch the problem after the money
         is gone.</p>

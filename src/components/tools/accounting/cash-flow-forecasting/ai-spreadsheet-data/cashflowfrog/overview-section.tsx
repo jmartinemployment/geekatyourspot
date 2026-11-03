@@ -17,7 +17,7 @@ export default function OverviewSection() {
         their money is going but also highlights where it should be going. With tools like Cash Flow Frog,
         businesses can transform their financial outlook from reactive guesswork to proactive planning.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Automated spreadsheet data doesn&#39;t just simplify forecasting; it reshapes it. By integrating with
+        AI Spreadsheet Data doesn&#39;t just simplify forecasting; it reshapes it. By integrating with
         existing accounting systems, these tools use real-time data to provide a comprehensive view of cash flow.
         They allow small businesses to see not just the current state of their finances but also to project future
         scenarios with accuracy. This enables business owners to plan strategically, whether it&#39;s deciding on a

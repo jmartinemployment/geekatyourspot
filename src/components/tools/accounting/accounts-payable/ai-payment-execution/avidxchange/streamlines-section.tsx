@@ -30,7 +30,7 @@ export default function StreamlinesSection() {
         required. This capability is crucial for businesses looking to scale operations without increasing
         overhead.</p>
       <p className="text-base text-white shadow-text pt-3">
-        AvidXchange&#39;s automated payment execution not only speeds up the payment process but also
+        AvidXchange&#39;s AI payment execution not only speeds up the payment process but also
         significantly reduces the risk of errors and fraud. By automating the matching of purchase orders,
         receiving reports, and invoices before releasing payments, the platform strengthens financial
         controls. This automation ensures that payments are accurate and secure, providing peace of mind for
@@ -38,7 +38,7 @@ export default function StreamlinesSection() {
       <p className="text-base text-white shadow-text pt-3">
         For small businesses in West Palm Beach and surrounding areas, the adoption of AvidXchange can
         transform how they handle accounts payable. By eliminating manual tasks and providing a robust
-        framework for automated payment execution, AvidXchange allows business owners to reclaim valuable
+        framework for AI payment execution, AvidXchange allows business owners to reclaim valuable
         time and resources. This shift not only improves operational efficiency but also positions businesses
         to better manage cash flow and supplier relationships in a competitive market.</p>
     </>

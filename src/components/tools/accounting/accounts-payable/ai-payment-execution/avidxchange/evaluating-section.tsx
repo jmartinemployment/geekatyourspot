@@ -4,7 +4,7 @@ export default function EvaluatingSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        When considering AvidXchange for Automated Payment Execution, small businesses need to weigh fit,
+        When considering AvidXchange for AI Payment Execution, small businesses need to weigh fit,
         pricing, and alternative approaches. AvidXchange is designed to streamline accounts payable processes
         by automating payment workflows, reducing manual work, and enhancing efficiency. This platform suits
         businesses seeking to eliminate the inefficiencies of manual payment processes, such as printing

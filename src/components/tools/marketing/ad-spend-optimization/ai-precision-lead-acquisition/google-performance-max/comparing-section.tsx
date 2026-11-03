@@ -13,7 +13,7 @@ export default function ComparingSection() {
         but leave most decisions to the business owner. At a spend of $500 or less, the cost of a single mistake is
         high. One day of broad-match clicks or accidental out-of-area impressions can mean a week’s budget gone. The
         automation these platforms offer is designed for larger accounts, not for the unforgiving reality of a
-        $10-a-day spend in a tight local radius (<a id={`tools-marketing-precision-lead-acquisition-google-performance-max-comparing-source-business-google-com${idSuffix}`} href="https://business.google.com/aunz/think/ai-excellence/remaster-retail-strategy-ai/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Google</a>,
+        $10-a-day spend in a tight local radius (<a id={`tools-marketing-ai-precision-lead-acquisition-google-performance-max-comparing-source-business-google-com${idSuffix}`} href="https://business.google.com/aunz/think/ai-excellence/remaster-retail-strategy-ai/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Google</a>,
         as of Oct 24, 2026). Manual oversight becomes a full-time job, and most small teams cannot keep up.</p>
       <p className="text-base text-white shadow-text pt-3">
         Some try to solve this with a low-cost agency or freelancer. The catch is that any ad manager worth hiring
@@ -40,11 +40,11 @@ export default function ComparingSection() {
       <p className="text-base text-white shadow-text pt-3">
         The evidence for this approach is in the outcomes reported by Google Performance Max users. Escentual.com,
         for example, achieved a 16% increase in traffic during a promotion without exceeding their budget or missing
-        their target return on ad spend (<a id={`tools-marketing-precision-lead-acquisition-google-performance-max-comparing-source-business-google-com-2${idSuffix}`} href="https://business.google.com/aunz/accelerate/announcements/campaign-total-budgets/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Google</a>,
+        their target return on ad spend (<a id={`tools-marketing-ai-precision-lead-acquisition-google-performance-max-comparing-source-business-google-com-2${idSuffix}`} href="https://business.google.com/aunz/accelerate/announcements/campaign-total-budgets/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Google</a>,
         as of Oct 24, 2026). Lufthansa reduced the number of destination campaigns by 66% but still saw a 24% lift
-        in return on ad spend and lower cost per click (<a id={`tools-marketing-precision-lead-acquisition-google-performance-max-comparing-source-business-google-com-3${idSuffix}`} href="https://business.google.com/aunz/think/ai-excellence/ai-search-performance-marketing-strategy/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Google</a>,
+        in return on ad spend and lower cost per click (<a id={`tools-marketing-ai-precision-lead-acquisition-google-performance-max-comparing-source-business-google-com-3${idSuffix}`} href="https://business.google.com/aunz/think/ai-excellence/ai-search-performance-marketing-strategy/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Google</a>,
         as of Oct 24, 2026). The Salvation Army campaign achieved an $11 cost per store visit, outperforming
-        industry benchmarks by 138% (<a id={`tools-marketing-precision-lead-acquisition-google-performance-max-comparing-source-business-google-com-4${idSuffix}`} href="https://business.google.com/aunz/think/ai-excellence/salvation-army-ai-retail-campaign/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Google</a>,
+        industry benchmarks by 138% (<a id={`tools-marketing-ai-precision-lead-acquisition-google-performance-max-comparing-source-business-google-com-4${idSuffix}`} href="https://business.google.com/aunz/think/ai-excellence/salvation-army-ai-retail-campaign/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Google</a>,
         as of Oct 24, 2026). Each of these results came from using Google Performance Max to automate budget
         allocation, creative variation, and local targeting, functions that are either manual or missing in most
         alternatives.</p>

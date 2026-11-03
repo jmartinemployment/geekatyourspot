@@ -18,7 +18,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Versapay";
-const PAGE_TITLE = "Versapay for Intelligent Accounts Receivable";
+const PAGE_TITLE = "Versapay for AI Accounts Receivable";
 const DESCRIPTION =
     "Automate accounts receivable with Versapay for better cash flow and efficiency in South Florida.";
 const CANONICAL = "/tools/accounting/cash-flow-forecasting/ai-accounts-receivable/versapay";
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Versapay, automated accounts receivable, cash flow forecasting, automated cash application, Promise-to-Pay forecasts, customer risk segments, dispute resolution, Autopay, ERP integration, approval chains, routing, automation logic",
+            "keywords": "Versapay, AI accounts receivable, cash flow forecasting, automated cash application, Promise-to-Pay forecasts, customer risk segments, dispute resolution, Autopay, ERP integration, approval chains, routing, automation logic",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -61,7 +61,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Versapay", "automated accounts receivable", "cash flow forecasting", "automated cash application", "Promise-to-Pay forecasts", "customer risk segments"],
+        keywords: ["Versapay", "AI accounts receivable", "cash flow forecasting", "automated cash application", "Promise-to-Pay forecasts", "customer risk segments"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

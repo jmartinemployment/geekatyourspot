@@ -3,7 +3,7 @@ export default function EvaluatingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Choosing Nextiva for your Intelligent Receptionist is a decision about fit, how well the platform
+        Choosing Nextiva for your AI Receptionist is a decision about fit, how well the platform
         matches the way your business actually works, how it handles your volume, and how its pricing model
         lines up with your budget. The first thing to weigh is whether you need a tool that truly unifies all
         your customer conversations. Nextiva is not a collection of disconnected apps. It brings together phone,

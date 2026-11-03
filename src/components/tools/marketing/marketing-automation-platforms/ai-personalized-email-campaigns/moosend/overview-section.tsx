@@ -11,7 +11,7 @@ export default function OverviewSection() {
         because tailoring every message is not practical at local business scale. The result: prospects tune out,
         and even loyal customers stop opening what looks like &apos;just another offer&apos;.</p>
       <p className="text-base text-white shadow-text pt-3">
-        AI-driven <Link id={`tools-marketing-personalized-email-campaigns-moosend-overview-personalized-email-campaigns${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns" className="text-[#C83803] hover:underline">Personalized
+        AI-driven <Link id={`tools-marketing-ai-personalized-email-campaigns-moosend-overview-ai-personalized-email-campaigns${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns" className="text-[#C83803] hover:underline">Personalized
         Email Campaigns</Link> solve this by letting you segment your audience automatically, then send each group
         messages that match their interests or stage in the <GlossaryLink slug="customer-journey">customer journey</GlossaryLink>.
         Instead of one-size-fits-all, a <GlossaryLink slug="marketing-automation-platform">marketing automation

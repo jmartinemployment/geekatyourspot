@@ -6,7 +6,7 @@ export default function ArchitectureSection() {
       <p className="text-base text-white shadow-text pt-3">
         Bill is designed to streamline and automate&nbsp;
         accounts payable&nbsp;processes,
-        particularly focusing on automated approval workflows. At its core, Bill uses&nbsp;
+        particularly focusing on AI invoice approval workflows. At its core, Bill uses&nbsp;
         AI-driven
         technology to reduce manual data entry and improve accuracy in invoice processing. This system
         captures invoice details automatically, applying coding based on historical patterns or predefined

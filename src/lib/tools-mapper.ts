@@ -17,7 +17,7 @@ import { billPaymentExecutionContent } from "@/data/tools/bill-payment-execution
 import { boardContent } from "@/data/tools/board";
 import { botpenguinContent } from "@/data/tools/botpenguin";
 import { cashflowfrogContent } from "@/data/tools/cashflowfrog";
-import { cashflowfrogIntelligentResourcePlanningContent } from "@/data/tools/cashflowfrog-intelligent-resource-planning";
+import { cashflowfrogAiResourcePlanningContent } from "@/data/tools/cashflowfrog-ai-resource-planning";
 import { chaserhqContent } from "@/data/tools/chaserhq";
 import { clockworkContent } from "@/data/tools/clockwork";
 import { coupaContent } from "@/data/tools/coupa";
@@ -31,13 +31,13 @@ import { fathomhqContent } from "@/data/tools/fathomhq";
 import { floatappContent } from "@/data/tools/floatapp";
 import { greatExpectationsContent } from "@/data/tools/great-expectations";
 import { takethehelmContent } from "@/data/tools/takethehelm";
-import { takethehelmIntelligentResourcePlanningContent } from "@/data/tools/takethehelm-intelligent-resource-planning";
+import { takethehelmAiResourcePlanningContent } from "@/data/tools/takethehelm-ai-resource-planning";
 import { taxcloudContent } from "@/data/tools/taxcloud";
-import { taxcloudMultiStateSalesTaxNexusContent } from "@/data/tools/taxcloud-multi-state-sales-tax-nexus";
+import { taxcloudAiMultiStateSalesTaxContent } from "@/data/tools/taxcloud-ai-multi-state-sales-tax";
 import { taxjarContent } from "@/data/tools/taxjar";
-import { taxjarMultiStateSalesTaxNexusContent } from "@/data/tools/taxjar-multi-state-sales-tax-nexus";
+import { taxjarAiMultiStateSalesTaxContent } from "@/data/tools/taxjar-ai-multi-state-sales-tax";
 import { thetaxvaletContent } from "@/data/tools/thetaxvalet";
-import { thetaxvaletMultiStateSalesTaxNexusContent } from "@/data/tools/thetaxvalet-multi-state-sales-tax-nexus";
+import { thetaxvaletAiMultiStateSalesTaxContent } from "@/data/tools/thetaxvalet-ai-multi-state-sales-tax";
 import { gustoContent } from "@/data/tools/gusto";
 import { hootsuiteContent } from "@/data/tools/hootsuite";
 import { hyperwriteaiContent } from "@/data/tools/hyperwriteai";
@@ -62,7 +62,7 @@ import { melioApprovalWorkflowsContent } from "@/data/tools/melio-approval-workf
 import { marketmuseContent } from "@/data/tools/marketmuse";
 import { monteCarloContent } from "@/data/tools/monte-carlo";
 import { myaifrontdeskContent } from "@/data/tools/myaifrontdesk";
-import { myaifrontdeskCrossPlatformChatbotContent } from "@/data/tools/myaifrontdesk-cross-platform-chatbot";
+import { myaifrontdeskAiChatbotContent } from "@/data/tools/myaifrontdesk-ai-chatbot";
 import { nextivaContent } from "@/data/tools/nextiva";
 import { optimoveContent } from "@/data/tools/optimove";
 import { smithContent } from "@/data/tools/smith";
@@ -71,7 +71,7 @@ import { tidioContent } from "@/data/tools/tidio";
 import { vokshaContent } from "@/data/tools/voksha";
 import { qualyticsContent } from "@/data/tools/qualytics";
 import { quadernoContent } from "@/data/tools/quaderno";
-import { quadernoMultiStateSalesTaxNexusContent } from "@/data/tools/quaderno-multi-state-sales-tax-nexus";
+import { quadernoAiMultiStateSalesTaxContent } from "@/data/tools/quaderno-ai-multi-state-sales-tax";
 import { quickbooksContent } from "@/data/tools/quickbooks";
 import { rampContent } from "@/data/tools/ramp";
 import { rampApprovalWorkflowsContent } from "@/data/tools/ramp-approval-workflows";
@@ -88,7 +88,7 @@ import { upflowContent } from "@/data/tools/upflow";
 import { versapayContent } from "@/data/tools/versapay";
 import { vertexContent } from "@/data/tools/vertex";
 import { zampContent } from "@/data/tools/zamp";
-import { zampMultiStateSalesTaxNexusContent } from "@/data/tools/zamp-multi-state-sales-tax-nexus";
+import { zampAiMultiStateSalesTaxContent } from "@/data/tools/zamp-ai-multi-state-sales-tax";
 import { anywordContent } from "@/data/tools/anyword";
 import { adcreativeContent } from "@/data/tools/adcreative";
 import { adzoomaContent } from "@/data/tools/adzooma";
@@ -103,12 +103,12 @@ import { plaiContent } from "@/data/tools/plai";
 import { castmagicContent } from "@/data/tools/castmagic";
 import { copyContent } from "@/data/tools/copy";
 import { fraseContent } from "@/data/tools/frase";
-import { hootsuiteIntelligentContentGenerationContent } from "@/data/tools/hootsuite-intelligent-content-generation";
+import { hootsuiteAiContentGenerationContent } from "@/data/tools/hootsuite-ai-content-generation";
 import { imagineContent } from "@/data/tools/imagine";
 import { jasperContent } from "@/data/tools/jasper";
 import { koalaContent } from "@/data/tools/koala";
 import { rytrContent } from "@/data/tools/rytr";
-import { scalenutIntelligentContentGenerationContent } from "@/data/tools/scalenut-intelligent-content-generation";
+import { scalenutAiContentGenerationContent } from "@/data/tools/scalenut-ai-content-generation";
 import { writesonicContent } from "@/data/tools/writesonic";
 import { sixsenseContent } from "@/data/tools/6sense";
 import { contentstudioContent } from "@/data/tools/contentstudio";
@@ -134,7 +134,7 @@ const toolsMap: Record<string, ToolPageContent> = {
   "board": boardContent,
   "botpenguin": botpenguinContent,
   "cashflowfrog": cashflowfrogContent,
-  "cashflowfrog-intelligent-resource-planning": cashflowfrogIntelligentResourcePlanningContent,
+  "cashflowfrog-ai-resource-planning": cashflowfrogAiResourcePlanningContent,
   "chaserhq": chaserhqContent,
   "clockwork": clockworkContent,
   "coupa": coupaContent,
@@ -148,13 +148,13 @@ const toolsMap: Record<string, ToolPageContent> = {
   "floatapp": floatappContent,
   "great-expectations": greatExpectationsContent,
   "takethehelm": takethehelmContent,
-  "takethehelm-intelligent-resource-planning": takethehelmIntelligentResourcePlanningContent,
+  "takethehelm-ai-resource-planning": takethehelmAiResourcePlanningContent,
   "taxcloud": taxcloudContent,
-  "taxcloud-multi-state-sales-tax-nexus": taxcloudMultiStateSalesTaxNexusContent,
+  "taxcloud-ai-multi-state-sales-tax": taxcloudAiMultiStateSalesTaxContent,
   "taxjar": taxjarContent,
-  "taxjar-multi-state-sales-tax-nexus": taxjarMultiStateSalesTaxNexusContent,
+  "taxjar-ai-multi-state-sales-tax": taxjarAiMultiStateSalesTaxContent,
   "thetaxvalet": thetaxvaletContent,
-  "thetaxvalet-multi-state-sales-tax-nexus": thetaxvaletMultiStateSalesTaxNexusContent,
+  "thetaxvalet-ai-multi-state-sales-tax": thetaxvaletAiMultiStateSalesTaxContent,
   "gusto": gustoContent,
   "hootsuite": hootsuiteContent,
   "hyperwriteai": hyperwriteaiContent,
@@ -179,12 +179,12 @@ const toolsMap: Record<string, ToolPageContent> = {
   "marketmuse": marketmuseContent,
   "monte-carlo": monteCarloContent,
   "myaifrontdesk": myaifrontdeskContent,
-  "myaifrontdesk-cross-platform-chatbot": myaifrontdeskCrossPlatformChatbotContent,
+  "myaifrontdesk-ai-chatbot": myaifrontdeskAiChatbotContent,
   "nextiva": nextivaContent,
   "optimove": optimoveContent,
   "qualytics": qualyticsContent,
   "quaderno": quadernoContent,
-  "quaderno-multi-state-sales-tax-nexus": quadernoMultiStateSalesTaxNexusContent,
+  "quaderno-ai-multi-state-sales-tax": quadernoAiMultiStateSalesTaxContent,
   "quickbooks": quickbooksContent,
   "ramp": rampContent,
   "ramp-approval-workflows": rampApprovalWorkflowsContent,
@@ -205,7 +205,7 @@ const toolsMap: Record<string, ToolPageContent> = {
   "vertex": vertexContent,
   "voksha": vokshaContent,
   "zamp": zampContent,
-  "zamp-multi-state-sales-tax-nexus": zampMultiStateSalesTaxNexusContent,
+  "zamp-ai-multi-state-sales-tax": zampAiMultiStateSalesTaxContent,
   "anyword": anywordContent,
   "adcreative": adcreativeContent,
   "adzooma": adzoomaContent,
@@ -220,12 +220,12 @@ const toolsMap: Record<string, ToolPageContent> = {
   "castmagic": castmagicContent,
   "copy": copyContent,
   "frase": fraseContent,
-  "hootsuite-intelligent-content-generation": hootsuiteIntelligentContentGenerationContent,
+  "hootsuite-ai-content-generation": hootsuiteAiContentGenerationContent,
   "imagine": imagineContent,
   "jasper": jasperContent,
   "koala": koalaContent,
   "rytr": rytrContent,
-  "scalenut-intelligent-content-generation": scalenutIntelligentContentGenerationContent,
+  "scalenut-ai-content-generation": scalenutAiContentGenerationContent,
   "writesonic": writesonicContent,
   "6sense": sixsenseContent,
   "contentstudio": contentstudioContent,

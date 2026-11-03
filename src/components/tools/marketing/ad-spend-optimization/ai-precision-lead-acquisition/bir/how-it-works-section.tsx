@@ -7,7 +7,7 @@ export default function HowItWorksSection() {
         Bir automates ad spend optimization by running a continuous cycle of checks and actions across all connected ad
         accounts, using custom rules and real-time data. Every 15 minutes, Bir reviews campaign performance, applies
         logic based on your chosen metrics, and executes changes to budgets, bids, and campaign status without waiting
-        for manual input (<a id={`tools-marketing-precision-lead-acquisition-bir-how-it-works-source-nothink${idSuffix}`} href="https://bir.ch/case-studies/nothink" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Bir</a>,
+        for manual input (<a id={`tools-marketing-ai-precision-lead-acquisition-bir-how-it-works-source-nothink${idSuffix}`} href="https://bir.ch/case-studies/nothink" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Bir</a>,
         as of Oct 25, 2026). This means underperforming ads are paused, budgets are shifted, and strong performers are
         scaled up as soon as the data supports it.</p>
       <p className="text-base text-white shadow-text pt-3">

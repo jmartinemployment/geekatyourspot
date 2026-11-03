@@ -23,9 +23,9 @@ export default function NumbersSection() {
         But the evidence does not prove that every automation or every tool delivers these gains equally, or that the
         gains scale forever. Bir&rsquo;s own case studies show teams saving up to 102 hours per month and scaling
         budgets across 20+ accounts without manual intervention, but they also show that these results depend on
-        careful rule design, consistent review, and quality data to begin with (<a id={`blog-marketing-precision-lead-acquisition-numbers-source-bir-ch-cocosolis${idSuffix}`} href="https://bir.ch/case-studies/cocosolis" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Bir</a>,
+        careful rule design, consistent review, and quality data to begin with (<a id={`blog-marketing-ai-precision-lead-acquisition-numbers-source-bir-ch-cocosolis${idSuffix}`} href="https://bir.ch/case-studies/cocosolis" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Bir</a>,
         as of Oct 25, 2026). Bir&rsquo;s automation can catch a cost spike in 15 minutes, but if your underlying data
-        is still messy or your campaign structure is poor, automation just moves the problem faster (<a id={`blog-marketing-precision-lead-acquisition-numbers-source-bir-ch-nothink${idSuffix}`} href="https://bir.ch/case-studies/nothink" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Bir</a>,
+        is still messy or your campaign structure is poor, automation just moves the problem faster (<a id={`blog-marketing-ai-precision-lead-acquisition-numbers-source-bir-ch-nothink${idSuffix}`} href="https://bir.ch/case-studies/nothink" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Bir</a>,
         as of Oct 25, 2026). Wask and Adzooma both emphasize the need for a structured review workflow and unified
         dashboards, but neither claims that simply turning on automation guarantees better results, success comes from
         combining automated checks with owner-facing reports and clear action steps.</p>

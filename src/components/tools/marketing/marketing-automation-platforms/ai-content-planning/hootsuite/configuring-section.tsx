@@ -3,7 +3,7 @@ export default function ConfiguringSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Configuring Hootsuite for Intelligent Content Planning is about getting the right automation, rules,
+        Configuring Hootsuite for AI Content Planning is about getting the right automation, rules,
         and integrations in place so that your content workflow runs itself, not you. The core of Hootsuite’s
         configuration is its ability to centralize every part of the content process, from brainstorming and
         drafting to scheduling, approval, and publishing. What you configure is not just a set of posting

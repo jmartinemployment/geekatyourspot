@@ -13,9 +13,9 @@ export default function ComparingSection() {
         automation engine lets a small team run sophisticated, personalized email campaigns that adapt to live
         customer behavior, without needing a dedicated IT staff.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Most small businesses weighing email marketing platforms see choices like <Link id={`tools-marketing-personalized-email-campaigns-activecampaign-comparing-mailchimp${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailchimp" className="text-[#0B162A] hover:underline">Mailchimp</Link>,
-        Klaviyo, <Link id={`tools-marketing-personalized-email-campaigns-activecampaign-comparing-getresponse${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/getresponse" className="text-[#0B162A] hover:underline">GetResponse</Link>,
-        or <Link id={`tools-marketing-personalized-email-campaigns-activecampaign-comparing-mailerlite${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailerlite" className="text-[#0B162A] hover:underline">MailerLite</Link>.
+        Most small businesses weighing email marketing platforms see choices like <Link id={`tools-marketing-ai-personalized-email-campaigns-activecampaign-comparing-mailchimp${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailchimp" className="text-[#0B162A] hover:underline">Mailchimp</Link>,
+        Klaviyo, <Link id={`tools-marketing-ai-personalized-email-campaigns-activecampaign-comparing-getresponse${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/getresponse" className="text-[#0B162A] hover:underline">GetResponse</Link>,
+        or <Link id={`tools-marketing-ai-personalized-email-campaigns-activecampaign-comparing-mailerlite${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailerlite" className="text-[#0B162A] hover:underline">MailerLite</Link>.
         These products can handle basic bulk sends and simple triggered emails. But when it comes to true
         personalization, tailoring content and timing to each contact, based on real-time signals from your CRM,
         e-commerce, or website activity, ActiveCampaign is built to go further. Its automation builder connects lead
@@ -31,7 +31,7 @@ export default function ComparingSection() {
         which adds cost and complexity, and usually means more leads get lost between systems.</p>
       <p className="text-base text-white shadow-text pt-3">
         Integrations are another dividing line. ActiveCampaign offers over 900 integrations, including direct
-        connections to Shopify, Facebook Custom Audiences, Salesforce, and Typeform (<a id={`tools-marketing-personalized-email-campaigns-activecampaign-comparing-source-activecampaign-com${idSuffix}`} href="https://www.activecampaign.com/compare/salesforce" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">ActiveCampaign</a>,
+        connections to Shopify, Facebook Custom Audiences, Salesforce, and Typeform (<a id={`tools-marketing-ai-personalized-email-campaigns-activecampaign-comparing-source-activecampaign-com${idSuffix}`} href="https://www.activecampaign.com/compare/salesforce" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">ActiveCampaign</a>,
         as of Oct 26, 2026). This matters for small businesses in Miami-Dade, Broward, and Palm Beach counties who
         already use these platforms and want their marketing automation to plug in without custom development. Some
         alternatives limit you to a handful of integrations or charge extra for advanced connections, which can slow
@@ -64,7 +64,7 @@ export default function ComparingSection() {
         ability to connect with your full customer data. ActiveCampaign’s pricing starts at $50 per month for the
         CRM add-on, which puts it in reach for most small businesses ready to move past basic list sends and into
         real <GlossaryLink slug="personalized-marketing" className="text-[#0B162A] hover:underline">personalized
-        marketing</GlossaryLink> (<a id={`tools-marketing-personalized-email-campaigns-activecampaign-comparing-source-activecampaign-com-2${idSuffix}`} href="https://www.activecampaign.com/compare/campaign-monitor" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">ActiveCampaign</a>,
+        marketing</GlossaryLink> (<a id={`tools-marketing-ai-personalized-email-campaigns-activecampaign-comparing-source-activecampaign-com-2${idSuffix}`} href="https://www.activecampaign.com/compare/campaign-monitor" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">ActiveCampaign</a>,
         as of Oct 26, 2026). For those who only need to send occasional newsletters or simple blasts, a lighter tool
         may be enough. But for any team that wants to automate follow-up, segment by behavior, and see what’s
         working in real time, ActiveCampaign delivers more out of the box, and without the complexity or overhead of

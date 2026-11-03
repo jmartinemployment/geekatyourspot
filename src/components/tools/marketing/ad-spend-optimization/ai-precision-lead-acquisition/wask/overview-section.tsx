@@ -11,7 +11,7 @@ export default function OverviewSection() {
         lost to guesswork and budgets drained by underperforming ads, while the best opportunities pass by unnoticed.
         Most owners react only when results nosedive, by then, the damage is done.</p>
       <p className="text-base text-white shadow-text pt-3">
-        <Link id={`tools-marketing-precision-lead-acquisition-wask-overview-precision-lead-acquisition${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition" className="text-[#C83803] hover:underline">Ad
+        <Link id={`tools-marketing-ai-precision-lead-acquisition-wask-overview-ai-precision-lead-acquisition${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition" className="text-[#C83803] hover:underline">Ad
         Spend Optimization</Link> fixes that. With the right AI-assisted system, you get real-time visibility across
         Google and Meta, see exactly where each dollar goes, and spot wasted spend before it grows. Automatic rules flag
         weak ads and shift budget to what works, without waiting for a monthly report. Instead of chasing numbers, your

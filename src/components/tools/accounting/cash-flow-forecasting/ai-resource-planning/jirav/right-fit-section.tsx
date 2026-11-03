@@ -31,7 +31,7 @@ export default function RightFitSection() {
       <p className="text-base text-white shadow-text pt-3">
         If you are looking for a full&nbsp;ERP&nbsp;that runs every
         operational process, inventory, order management, compliance, and deep industry-specific workflows,
-        Jirav is not that tool. It is focused on financial and intelligent resource planning: forecasting,
+        Jirav is not that tool. It is focused on financial and AI resource planning: forecasting,
         budgeting, workforce planning, and cash flow. You keep your existing systems for operations and let
         Jirav handle the numbers that drive decisions.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -63,7 +63,7 @@ export default function RightFitSection() {
         fit is clear once you see where your week goes, and where you want it back.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<a href="#consultationAppointment2xl" id={`tools-accounting-intelligent-resource-planning-jirav-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
+        when&nbsp;<a href="#consultationAppointment2xl" id={`tools-accounting-ai-resource-planning-jirav-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How many hours a week are you or your main bookkeeper spending manually pulling data from banking portals just to build a baseline cash flow forecast?</li>
@@ -80,7 +80,7 @@ export default function RightFitSection() {
         <li>Who on your current team has the bandwidth to own the data migration and training phase, without letting daily operations slip?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
-        Jirav’s evidence, as our post <Link id={`tools-accounting-cash-flow-forecasting-intelligent-resource-planning-jirav-xlink-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/intelligent-resource-planning-for-small-businesses-how-to-fix-cash-flow-headaches-in-south-florida" className="text-[#C83803] hover:underline">AI Resource Planning for Cash Flow</Link> reports it, comes from published case studies where teams moved to driver-based budgets and rolling forecasts and stopped assembling data by hand for banks and internal reviews. The post explains what that means in practice for a seasonal business: headcount, pipeline and project schedules feed the forecast directly, so a late-paying client or two new hires show up in the cash projection without a rebuilt model. It is also clear that Jirav’s scenarios are only as good as the sales and payroll data it can pull. The data review and the parallel pilot in our <Link id={`tools-accounting-cash-flow-forecasting-intelligent-resource-planning-jirav-xlink-pillar${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-resource-planning" className="text-[#C83803] hover:underline">AI Resource Planning</Link> guide are how that is checked first.</p>
+        Jirav’s evidence, as our post <Link id={`tools-accounting-cash-flow-forecasting-ai-resource-planning-jirav-xlink-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/intelligent-resource-planning-for-small-businesses-how-to-fix-cash-flow-headaches-in-south-florida" className="text-[#C83803] hover:underline">AI Resource Planning for Cash Flow</Link> reports it, comes from published case studies where teams moved to driver-based budgets and rolling forecasts and stopped assembling data by hand for banks and internal reviews. The post explains what that means in practice for a seasonal business: headcount, pipeline and project schedules feed the forecast directly, so a late-paying client or two new hires show up in the cash projection without a rebuilt model. It is also clear that Jirav’s scenarios are only as good as the sales and payroll data it can pull. The data review and the parallel pilot in our <Link id={`tools-accounting-cash-flow-forecasting-ai-resource-planning-jirav-xlink-pillar${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-resource-planning" className="text-[#C83803] hover:underline">AI Resource Planning</Link> guide are how that is checked first.</p>
     </>
   );
 

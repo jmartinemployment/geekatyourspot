@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Performance Max";
-const PAGE_TITLE = "Performance Max for Precision Lead Acquisition";
+const PAGE_TITLE = "Performance Max for AI Precision Lead Acquisition";
 const DESCRIPTION =
-    "Precision Lead Acquisition helps South Florida small businesses cut wasted ad spend by up to $16 daily. Protect your budget, test smarter now.";
+    "AI Precision Lead Acquisition helps South Florida small businesses cut wasted ad spend by up to $16 daily. Protect your budget, test smarter now.";
 const CANONICAL = "/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/google-performance-max";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Performance Max, precision lead acquisition, AI ad copy testing, ad spend optimization, local advertising, South Florida small business",
+            "keywords": "Performance Max, AI precision lead acquisition, AI ad copy testing, ad spend optimization, local advertising, South Florida small business",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-24T16:08:13.8759570Z",
@@ -81,7 +81,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Performance Max", "precision lead acquisition", "AI ad copy testing", "ad spend optimization", "local advertising", "South Florida small business"],
+        keywords: ["Performance Max", "AI precision lead acquisition", "AI ad copy testing", "ad spend optimization", "local advertising", "South Florida small business"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
@@ -115,7 +115,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page() {
     const heroSummary =
-        "Streamline your ad campaigns with intelligent Precision Lead Acquisition designed for local small businesses operating on tight budgets.";
+        "Streamline your ad campaigns with intelligent AI Precision Lead Acquisition designed for local small businesses operating on tight budgets.";
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />

@@ -18,7 +18,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Gusto";
-const PAGE_TITLE = "Gusto for Payroll Tax & Worker Misclassification";
+const PAGE_TITLE = "Gusto for AI Payroll Tax";
 const DESCRIPTION =
     "Gusto automates payroll tax compliance and worker classification for South Florida small businesses, minimizing costly errors and penalties.";
 const CANONICAL = "/tools/accounting/tax-compliance-regulations/ai-payroll-tax/gusto";

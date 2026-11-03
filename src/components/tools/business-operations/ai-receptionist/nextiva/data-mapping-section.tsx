@@ -9,7 +9,7 @@ export default function DataMappingSection() {
         find hours, services, or contact details, it cannot answer customer questions or route calls accurately.
         Here’s what matters most in the early stages.</p>
       <p className="text-base text-white shadow-text pt-3">
-        First, decide what information Nextiva will use to power its Intelligent Receptionist. At minimum, you
+        First, decide what information Nextiva will use to power its AI Receptionist. At minimum, you
         need accurate business hours, service offerings, staff contacts, and up-to-date appointment
         availability. The platform can pull this from your website or Google Business Profile, but it only works
         if that source is current. If your online presence is out of date, the AI will repeat those mistakes to
@@ -53,7 +53,7 @@ export default function DataMappingSection() {
       <p className="text-base text-white shadow-text pt-3">
         Geek @ Your Spot LLC’s role is to walk you through these mapping decisions, making sure nothing gets missed
         and every workflow is covered. They check your data sources, clean up what’s needed, and test the
-        mapping before the system goes live. The result is an Intelligent Receptionist that actually knows your
+        mapping before the system goes live. The result is an AI Receptionist that actually knows your
         business, not just a generic script. When the data is right, Nextiva delivers on its promise: every call
         answered, every lead captured, and no customer left waiting or lost in the shuffle.</p>
     </>

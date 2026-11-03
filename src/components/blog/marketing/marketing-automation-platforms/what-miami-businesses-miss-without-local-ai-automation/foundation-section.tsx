@@ -4,7 +4,7 @@ export default function FoundationSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        A strong implementation of Personalized Email Campaigns is built on decisions about data, ownership, and
+        A strong implementation of AI Personalized Email Campaigns is built on decisions about data, ownership, and
         mapping that cannot be fixed later. The difference between a system that runs itself and one that needs
         constant rescue is set before the first email is ever sent. The choices you make about the data you feed in,
         the logic that maps contacts to journeys, and who owns each step decide whether automation delivers or
@@ -52,8 +52,8 @@ export default function FoundationSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-separates-a-strong-personalized-email-campaigns-implementation-from-one-that-stalls" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                What separates a strong Personalized Email Campaigns implementation from one that stalls
+              <h2 id="what-separates-a-strong-ai-personalized-email-campaigns-implementation-from-one-that-stalls" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                What separates a strong AI Personalized Email Campaigns implementation from one that stalls
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
@@ -65,8 +65,8 @@ export default function FoundationSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-separates-a-strong-personalized-email-campaigns-implementation-from-one-that-stalls-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                What separates a strong Personalized Email Campaigns implementation from one that stalls
+              <h2 id="what-separates-a-strong-ai-personalized-email-campaigns-implementation-from-one-that-stalls-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                What separates a strong AI Personalized Email Campaigns implementation from one that stalls
               </h2>
               {body}
             </div>

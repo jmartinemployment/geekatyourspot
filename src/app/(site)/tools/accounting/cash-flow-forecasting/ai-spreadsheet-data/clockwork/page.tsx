@@ -18,7 +18,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Clockwork";
-const PAGE_TITLE = "Clockwork for Intelligent Spreadsheet Data";
+const PAGE_TITLE = "Clockwork for AI Spreadsheet Data";
 const DESCRIPTION =
     "Automate spreadsheet data with Clockwork for efficient cash flow forecasting in South Florida.";
 const CANONICAL = "/tools/accounting/cash-flow-forecasting/ai-spreadsheet-data/clockwork";
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Clockwork, automated spreadsheet data, cash flow forecasting, accounting integrations, ledger write-back, what-if scenarios, Mira AI, data privacy, approval chains, routing, automation logic, financial forecasting tools",
+            "keywords": "Clockwork, AI spreadsheet data, cash flow forecasting, accounting integrations, ledger write-back, what-if scenarios, Mira AI, data privacy, approval chains, routing, automation logic, financial forecasting tools",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -64,7 +64,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Clockwork", "automated spreadsheet data", "cash flow forecasting", "accounting integrations", "ledger write-back", "what-if scenarios"],
+        keywords: ["Clockwork", "AI spreadsheet data", "cash flow forecasting", "accounting integrations", "ledger write-back", "what-if scenarios"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

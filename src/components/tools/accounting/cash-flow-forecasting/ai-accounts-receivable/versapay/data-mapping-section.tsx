@@ -21,14 +21,14 @@ export default function DataMappingSection() {
         consistent&nbsp;<GlossaryLink slug="data-quality">data quality</GlossaryLink>.</p>
       <p className="text-base text-white shadow-text pt-3">
         Another critical aspect is setting up the data flow for real-time updates. Versapay integrates seamlessly
-        with your existing systems, providing real-time visibility into your automated accounts receivable status.
+        with your existing systems, providing real-time visibility into your AI accounts receivable status.
         This integration requires configuring data pipelines that allow continuous syncing of information, ensuring
         that your financial data is always up-to-date and accurate.</p>
       <p className="text-base text-white shadow-text pt-3">
         Finally, establishing robust data governance practices is essential. This involves defining roles and
         permissions within Versapay to control access to sensitive financial data. By implementing these controls,
         you can protect your data integrity and ensure compliance with industry regulations, providing peace of mind
-        as you transition to an automated accounts receivable system.</p>
+        as you transition to an AI accounts receivable system.</p>
     </>
   );
 

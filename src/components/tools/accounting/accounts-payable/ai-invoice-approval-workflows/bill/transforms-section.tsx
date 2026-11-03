@@ -3,7 +3,7 @@ export default function TransformsSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Bill revolutionizes how small businesses handle automated approval workflows by eliminating the
+        Bill revolutionizes how small businesses handle AI invoice approval workflows by eliminating the
         tedious manual tasks that consume valuable time. One of Bill&#39;s standout features is its ability
         to tailor approval workflows to fit specific business rules. This customization allows for the
         routing of invoices to the right people automatically, tracking every step, sending reminders, and
@@ -45,8 +45,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bill-transforms-automated-approval-workflows">
-                How Bill Transforms Automated Approval Workflows
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bill-transforms-ai-invoice-approval-workflows">
+                How Bill Transforms AI Invoice Approval Workflows
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
@@ -58,8 +58,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bill-transforms-automated-approval-workflows-lg">
-                How Bill Transforms Automated Approval Workflows
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bill-transforms-ai-invoice-approval-workflows-lg">
+                How Bill Transforms AI Invoice Approval Workflows
               </h2>
               {body}
             </div>

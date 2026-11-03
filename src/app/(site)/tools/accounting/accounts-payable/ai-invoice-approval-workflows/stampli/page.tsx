@@ -13,9 +13,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Stampli";
-const PAGE_TITLE = "Stampli for Intelligent Approval Workflows";
+const PAGE_TITLE = "Stampli for AI Invoice Approval Workflows";
 const DESCRIPTION =
-    "Transform your AP process with Stampli's automated approval workflows for faster, error-free operations.";
+    "Transform your AP process with Stampli's AI invoice approval workflows for faster, error-free operations.";
 const CANONICAL = "/tools/accounting/accounts-payable/ai-invoice-approval-workflows/stampli";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -25,7 +25,7 @@ const jsonLd: WithContext<TechArticle> = {
     "headline": PAGE_TITLE,
     "description": DESCRIPTION,
     "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-    "keywords": "Stampli, automated approval workflows, accounts payable automation, invoice approval, predefined approval routing, ERP integration, purchase orders, AI-powered invoice processing, audit trails, AI implementation",
+    "keywords": "Stampli, AI invoice approval workflows, accounts payable automation, invoice approval, predefined approval routing, ERP integration, purchase orders, AI-powered invoice processing, audit trails, AI implementation",
     "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
     "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
     "about": {
@@ -40,7 +40,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Stampli", "automated approval workflows", "accounts payable automation", "invoice approval", "predefined approval routing", "ERP integration"],
+        keywords: ["Stampli", "AI invoice approval workflows", "accounts payable automation", "invoice approval", "predefined approval routing", "ERP integration"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
@@ -74,7 +74,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page() {
     const heroSummary =
-        "Optimize your financial processes with Stampli's automated approval workflows, ensuring faster and error-free approvals.";
+        "Optimize your financial processes with Stampli's AI invoice approval workflows, ensuring faster and error-free approvals.";
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />

@@ -49,7 +49,7 @@ export default function TransformsSection() {
         so you can make decisions daily, not after the fact. There is no need to build separate reports or
         reconcile numbers across systems, My AI Front Desk does it as part of the workflow.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Integration with HubSpot, Salesforce, and&nbsp;<Link id={`tools-marketing-cross-platform-chatbot-myaifrontdesk-transforms-pipedrive${idSuffix}`} href="/tools/marketing/pipedrive" className="text-[#0B162A] hover:underline">Pipedrive</Link>&nbsp;means conversation data flows directly to your
+        Integration with HubSpot, Salesforce, and&nbsp;<Link id={`tools-marketing-ai-chatbot-myaifrontdesk-transforms-pipedrive${idSuffix}`} href="/tools/marketing/pipedrive" className="text-[#0B162A] hover:underline">Pipedrive</Link>&nbsp;means conversation data flows directly to your
         existing&nbsp;CRM, without extra effort from your team. The
         system auto-builds your&nbsp;CRM&nbsp;from every interaction,
         powering dashboards and attribution without manual setup. Most businesses start seeing value within
@@ -73,8 +73,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-my-ai-front-desk-cross-platform-chatbot-removes-from-your-week" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                What My AI Front Desk Cross-Platform Chatbot Removes From Your Week
+              <h2 id="what-my-ai-front-desk-ai-chatbot-removes-from-your-week" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                What My AI Front Desk AI Chatbot Removes From Your Week
               </h2>
             </div>
             <div className="col-span-12">{body()}</div>
@@ -86,8 +86,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-my-ai-front-desk-cross-platform-chatbot-removes-from-your-week-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                What My AI Front Desk Cross-Platform Chatbot Removes From Your Week
+              <h2 id="what-my-ai-front-desk-ai-chatbot-removes-from-your-week-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                What My AI Front Desk AI Chatbot Removes From Your Week
               </h2>
               {body("-lg")}
             </div>

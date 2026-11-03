@@ -12,7 +12,7 @@ export default function OverviewSection() {
         are stretched thin. The manual process of&nbsp;<Link id={`tools-accounting-accounts-receivable-invoiced-overview-accounts-receivable${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable" className="text-[#C83803] hover:underline">accounts receivable</Link>&nbsp;is not just time-consuming; it’s fraught with
         the risk of errors that can lead to significant financial setbacks.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Enter automated accounts receivable systems, a game-changer for those looking to reclaim their evenings and
+        Enter AI accounts receivable systems, a game-changer for those looking to reclaim their evenings and
         enhance their financial health. By integrating&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>-driven
         platforms like Invoiced, businesses can automate the entire invoice-to-cash process. This not only
         accelerates cash collection but also provides real-time insights crucial for making informed business
@@ -22,7 +22,7 @@ export default function OverviewSection() {
       <p className="text-base text-white shadow-text pt-3">
         The impact of automation goes beyond mere efficiency. It transforms how small businesses in the region
         manage their finances, reducing the days sales outstanding (DSO) and allowing them to focus on strategic
-        growth rather than administrative burdens. Automated accounts receivable solutions like Invoiced empower
+        growth rather than administrative burdens. AI Accounts Receivable solutions like Invoiced empower
         businesses to make data-driven decisions, ensuring they stay ahead in a competitive market. This shift not
         only enhances cash flow but also positions them for long-term success by minimizing errors and optimizing
         resources.</p>

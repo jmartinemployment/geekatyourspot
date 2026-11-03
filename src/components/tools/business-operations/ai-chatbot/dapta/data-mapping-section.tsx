@@ -51,7 +51,7 @@ export default function DataMappingSection() {
         Geek @ Your Spot LLC works with clients to define these data structures and mapping rules during
         deployment. The goal is a system where every lead is captured, qualified, and routed without manual
         rework, and where your team always sees the full picture. The upfront decisions you make here set the
-        foundation for a cross-platform chatbot that does not just answer questions, but drives real business
+        foundation for an AI chatbot that does not just answer questions, but drives real business
         results.</p>
     </>
   );

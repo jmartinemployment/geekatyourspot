@@ -2,7 +2,7 @@ export default function TransformsSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Fathom changes what intelligent resource planning looks like for small businesses. Instead of spending
+        Fathom changes what AI resource planning looks like for small businesses. Instead of spending
         hours every week cleaning up spreadsheets, teams get live dashboards that pull data directly from their
         accounting systems, invoicing tools, and bank feeds. The numbers are always current. Owners see their
         cash position, outstanding invoices, and profitability at a glance, no waiting for someone to finish the
@@ -79,8 +79,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-fathom-removes-the-pain-from-intelligent-resource-planning" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How Fathom Removes the Pain from Intelligent Resource Planning
+              <h2 id="how-fathom-removes-the-pain-from-ai-resource-planning" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How Fathom Removes the Pain from AI Resource Planning
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
@@ -92,8 +92,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-fathom-removes-the-pain-from-intelligent-resource-planning-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How Fathom Removes the Pain from Intelligent Resource Planning
+              <h2 id="how-fathom-removes-the-pain-from-ai-resource-planning-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How Fathom Removes the Pain from AI Resource Planning
               </h2>
               {body}
             </div>

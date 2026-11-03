@@ -176,7 +176,7 @@ export const BLOG_MENU: SiteMenuConfiguration = {
           items: [
             { href: "/blog/accounting/how-ai-transforms-accounts-payable-automated-data-entry-processing", label: "AI Data Entry for Accounts Payable" },
             { href: "/blog/accounting/accounts-payable/how-automated-approval-workflows-transform-accounts-payable", label: "Accounts Payable Approval Automation" },
-            { href: "/blog/accounting/accounts-payable/how-automated-payment-execution-transforms-your-bottom-line", label: "Automated Payment Execution Benefits" },
+            { href: "/blog/accounting/accounts-payable/how-automated-payment-execution-transforms-your-bottom-line", label: "AI Payment Execution Benefits" },
             { href: "/blog/accounting/accounts-payable/how-ai-streamlines-fraud-detection-in-accounts-payable", label: "AI Accounts Payable Fraud Detection" },
           ],
         },
@@ -214,7 +214,7 @@ export const BLOG_MENU: SiteMenuConfiguration = {
           href: "/blog/business-operations",
           items: [
             { href: "/blog/business-operations/intelligent-receptionist-how-miami-small-businesses-can-stop-losing-leads-after-hours", label: "Intelligent After-Hours Receptionist" },
-            { href: "/blog/business-operations/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline", label: "Cross-Platform Chatbot Lead Capture" },
+            { href: "/blog/business-operations/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline", label: "AI Chatbot Lead Capture" },
           ],
         },
         {

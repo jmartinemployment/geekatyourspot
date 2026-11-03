@@ -11,7 +11,7 @@ export default function EvaluatingSection() {
         and Meta.</p>
       <p className="text-base text-white shadow-text pt-3">
         Start with your ad spend volume. Wask&rsquo;s own guidance points out that automation delivers the most value
-        once your combined Google and Meta ad spend is above $5,000 per month (<a id={`tools-marketing-precision-lead-acquisition-wask-evaluating-source-ad-automation${idSuffix}`} href="https://www.wask.co/digital-advertising/ad-automation" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Wask</a>,
+        once your combined Google and Meta ad spend is above $5,000 per month (<a id={`tools-marketing-ai-precision-lead-acquisition-wask-evaluating-source-ad-automation${idSuffix}`} href="https://www.wask.co/digital-advertising/ad-automation" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Wask</a>,
         as of Oct 29, 2026). Below that, the time saved may not justify the setup and oversight. If you are running six
         or more campaigns across both platforms, or if your team is spending more than five hours per week just keeping
         campaigns healthy, Wask&rsquo;s automation can eliminate most of that routine work. The platform&rsquo;s real
@@ -19,7 +19,7 @@ export default function EvaluatingSection() {
         quickly becomes a bottleneck.</p>
       <p className="text-base text-white shadow-text pt-3">
         Wask&rsquo;s pricing is published and straightforward. The platform is positioned as a lower-cost alternative to
-        traditional agencies, which often charge $1,000 or more per month plus a percentage of ad spend (<a id={`tools-marketing-precision-lead-acquisition-wask-evaluating-source-google-ads-agency${idSuffix}`} href="https://www.wask.co/google-ads-agency" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Wask</a>,
+        traditional agencies, which often charge $1,000 or more per month plus a percentage of ad spend (<a id={`tools-marketing-ai-precision-lead-acquisition-wask-evaluating-source-google-ads-agency${idSuffix}`} href="https://www.wask.co/google-ads-agency" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Wask</a>,
         as of Oct 29, 2026). With Wask, you pay a fixed monthly fee for access to automated bid management, dynamic
         budget allocation, and 24/7 optimization. There is no long-term contract or percentage-of-spend markup, which
         means your costs are predictable and not tied to how much you choose to invest in ads each month.</p>

@@ -17,7 +17,7 @@ export default function ImplementingSection() {
       </ol>
       <p className="text-base text-white shadow-text pt-3">
         The phased rollout approach ensures that each step is completed thoroughly, minimizing risks and ensuring a
-        smooth transition to automated accounts receivable management. By leveraging Upflow’s pre-built connectors
+        smooth transition to AI accounts receivable management. By leveraging Upflow’s pre-built connectors
         and templated setups, Geek @ Your Spot LLC ensures that businesses can quickly adapt to the new system with
         minimal downtime, allowing them to focus on strategic growth rather than operational hurdles.</p>
     </>

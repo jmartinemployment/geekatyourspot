@@ -5,7 +5,7 @@ export default function ConfiguringSection() {
     <>
       <p className="text-base text-white shadow-text pt-3">
         Setting up My AI Front Desk is not just about plugging in a tool and letting it run. The real work, and
-        the difference between a generic voice bot and a true Intelligent Receptionist, happens in how you
+        the difference between a generic voice bot and a true AI Receptionist, happens in how you
         configure its rules, automations, and integrations to reflect your business, your priorities, and your
         workflow. My AI Front Desk is designed for configuration, not code: you set the logic, the content, and
         the escalation paths that turn it from a script reader into a real extension of your team.</p>
@@ -64,7 +64,7 @@ export default function ConfiguringSection() {
         open&nbsp;<GlossaryLink slug="api" className="text-[#0B162A] hover:underline">API</GlossaryLink>&nbsp;for custom code; everything is set through
         the dashboard, with integration handled by native connectors and Zapier. The real value is in how you
         set the rules, the content, and the handoff points, the work that turns a voice agent into a real
-        Intelligent Receptionist for your team.</p>
+        AI Receptionist for your team.</p>
     </>
   );
 

@@ -14,7 +14,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "AvidXchange";
-const PAGE_TITLE = "AvidXchange for Intelligent Payment Execution";
+const PAGE_TITLE = "AvidXchange for AI Payment Execution";
 const DESCRIPTION =
     "Automate payment execution with AvidXchange for improved efficiency and accuracy in your business.";
 const CANONICAL = "/tools/accounting/accounts-payable/ai-payment-execution/avidxchange";
@@ -28,7 +28,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "AvidXchange, automated payment execution, accounts payable automation, supplier payments, virtual card, AvidPay Direct, payment status visibility, QuickBooks integration, NetSuite integration, AI implementation",
+            "keywords": "AvidXchange, AI payment execution, accounts payable automation, supplier payments, virtual card, AvidPay Direct, payment status visibility, QuickBooks integration, NetSuite integration, AI implementation",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -57,7 +57,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["AvidXchange", "automated payment execution", "accounts payable automation", "supplier payments", "virtual card", "AvidPay Direct"],
+        keywords: ["AvidXchange", "AI payment execution", "accounts payable automation", "supplier payments", "virtual card", "AvidPay Direct"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

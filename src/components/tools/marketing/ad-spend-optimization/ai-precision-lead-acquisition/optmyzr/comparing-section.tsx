@@ -27,7 +27,7 @@ export default function ComparingSection() {
         developers to write scripts for custom rules or monitoring. Optmyzr removes this roadblock by offering a no-code
         interface for building automations, along with pre-built templates for common tasks. For example, you can use
         Enhanced Scripts to monitor landing pages for 404 errors and automatically pause affected ads, or set up rules
-        that adjust bids when competitor impression share changes (<a id={`tools-marketing-precision-lead-acquisition-optmyzr-comparing-source-landing-pages${idSuffix}`} href="https://www.optmyzr.com/blog/are-your-adwords-ads-losing-money-on-bad-landing-pages/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Optmyzr</a>,
+        that adjust bids when competitor impression share changes (<a id={`tools-marketing-ai-precision-lead-acquisition-optmyzr-comparing-source-landing-pages${idSuffix}`} href="https://www.optmyzr.com/blog/are-your-adwords-ads-losing-money-on-bad-landing-pages/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Optmyzr</a>,
         as of Oct 24, 2026). This is not just about saving time; it is about catching problems before they cost you real
         money.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -45,8 +45,8 @@ export default function ComparingSection() {
         mistakes.</p>
       <p className="text-base text-white shadow-text pt-3">
         Real-world results back up these differences. For example, Blue Yarn Media saved over 240 hours per client each
-        year and cut customer acquisition cost by 36% for a B2B client, all without increasing ad spend (<a id={`tools-marketing-precision-lead-acquisition-optmyzr-comparing-source-ai-info-page${idSuffix}`} href="https://www.optmyzr.com/ai-info-page/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Optmyzr</a>,
-        as of Oct 24, 2026). Epurple reduced cost per acquisition by 25% using Optmyzr&rsquo;s automations (<a id={`tools-marketing-precision-lead-acquisition-optmyzr-comparing-source-epurple${idSuffix}`} href="https://www.optmyzr.com/case-studies/epurple/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Optmyzr</a>,
+        year and cut customer acquisition cost by 36% for a B2B client, all without increasing ad spend (<a id={`tools-marketing-ai-precision-lead-acquisition-optmyzr-comparing-source-ai-info-page${idSuffix}`} href="https://www.optmyzr.com/ai-info-page/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Optmyzr</a>,
+        as of Oct 24, 2026). Epurple reduced cost per acquisition by 25% using Optmyzr&rsquo;s automations (<a id={`tools-marketing-ai-precision-lead-acquisition-optmyzr-comparing-source-epurple${idSuffix}`} href="https://www.optmyzr.com/case-studies/epurple/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Optmyzr</a>,
         as of Oct 24, 2026). These are not generic claims, they show how automation that is both flexible and
         transparent can deliver measurable gains for small teams.</p>
       <p className="text-base text-white shadow-text pt-3">

@@ -4,7 +4,7 @@ export default function HowItWorksSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Invoiced automates the automated accounts receivable process from start to finish, streamlining each step to
+        Invoiced automates the AI accounts receivable process from start to finish, streamlining each step to
         save time and reduce errors. The platform begins by generating invoices automatically based on predefined
         schedules or specific triggers. This ensures timely billing and minimizes the administrative burden on your
         finance team. Once invoices are created, they are sent via email, portal, or mail, depending on the

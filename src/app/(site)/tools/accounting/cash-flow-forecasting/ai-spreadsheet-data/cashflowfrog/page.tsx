@@ -18,7 +18,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Cashflowfrog";
-const PAGE_TITLE = "Cashflowfrog for Intelligent Spreadsheet Data";
+const PAGE_TITLE = "Cashflowfrog for AI Spreadsheet Data";
 const DESCRIPTION =
     "Automate cash flow forecasting with Cashflowfrog for Miami businesses, enhancing accuracy and strategic planning.";
 const CANONICAL = "/tools/accounting/cash-flow-forecasting/ai-spreadsheet-data/cashflowfrog";
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Cashflowfrog, automated spreadsheet data, cash flow forecasting, cloud accounting integration, data synchronization, read-only integration, company tags, forecast timelines, shareable reports, AI interface, multi-currency, free trial",
+            "keywords": "Cashflowfrog, AI spreadsheet data, cash flow forecasting, cloud accounting integration, data synchronization, read-only integration, company tags, forecast timelines, shareable reports, AI interface, multi-currency, free trial",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -66,7 +66,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Cashflowfrog", "automated spreadsheet data", "cash flow forecasting", "cloud accounting integration", "data synchronization", "read-only integration"],
+        keywords: ["Cashflowfrog", "AI spreadsheet data", "cash flow forecasting", "cloud accounting integration", "data synchronization", "read-only integration"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
@@ -100,7 +100,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page() {
     const heroSummary =
-        "Transform financial forecasting with Cashflowfrog's automated spreadsheet data, designed for local small businesses.";
+        "Transform financial forecasting with Cashflowfrog's AI spreadsheet data, designed for local small businesses.";
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />

@@ -4,7 +4,7 @@ export default function RightFitSection() {
     <>
       <p className="text-base text-white shadow-text pt-3">
         Ramp is particularly well-suited for small businesses in West Palm Beach, Broward, and Miami-Dade
-        counties looking to streamline their accounts payable processes through Automated Payment Execution.
+        counties looking to streamline their accounts payable processes through AI Payment Execution.
         Its features are designed to alleviate the common pain points of manual invoice processing, such as
         data entry errors, approval delays, and fraud risks.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -29,7 +29,7 @@ export default function RightFitSection() {
         platform&#39;s benefits. This partnership not only aids in the initial setup but also provides ongoing
         support to adapt to changing business needs.</p>
       <p className="text-base text-white shadow-text pt-3">
-        In conclusion, while Ramp offers a powerful solution for Automated Payment Execution, it&#39;s
+        In conclusion, while Ramp offers a powerful solution for AI Payment Execution, it&#39;s
         essential to evaluate whether its capabilities align with your business&#39;s specific requirements.
         By doing so, you can make an informed decision that enhances your operational efficiency and supports
         your business&#39;s growth.</p>
@@ -51,7 +51,7 @@ export default function RightFitSection() {
         <li>If you took a week off, who would know which bills are legitimate, approved, and due?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
-        Ramp is where our post <Link id={`tools-accounting-accounts-payable-automated-payment-execution-streamlining-accounts-payable-with-ai-ramp-xlink-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-payment-execution-transforms-your-bottom-line" className="text-[#C83803] hover:underline">Automated Payment Execution Benefits</Link> closes the loop. After payments go out, it matches each one to its invoice and updates the general ledger, which is the reconciliation step a lean team otherwise does by hand and the place the post locates duplicate and overlooked payments. The post also explains why real-time visibility into the cash position matters to a business deciding what it can spend next. Our <Link id={`tools-accounting-accounts-payable-automated-payment-execution-streamlining-accounts-payable-with-ai-ramp-xlink-pillar${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-payment-execution" className="text-[#C83803] hover:underline">AI Payment Execution</Link> guide gives the four-phase assessment that tells you whether your transaction volume justifies the platform.</p>
+        Ramp is where our post <Link id={`tools-accounting-accounts-payable-ai-payment-execution-ramp-xlink-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-payment-execution-transforms-your-bottom-line" className="text-[#C83803] hover:underline">AI Payment Execution Benefits</Link> closes the loop. After payments go out, it matches each one to its invoice and updates the general ledger, which is the reconciliation step a lean team otherwise does by hand and the place the post locates duplicate and overlooked payments. The post also explains why real-time visibility into the cash position matters to a business deciding what it can spend next. Our <Link id={`tools-accounting-accounts-payable-ai-payment-execution-ramp-xlink-pillar${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-payment-execution" className="text-[#C83803] hover:underline">AI Payment Execution</Link> guide gives the four-phase assessment that tells you whether your transaction volume justifies the platform.</p>
     </>
   );
 

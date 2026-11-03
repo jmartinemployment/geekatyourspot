@@ -8,7 +8,7 @@ export default function ComparingSection() {
         that never match up, and
         heavyweight&nbsp;ERP&nbsp;systems
         that promise control but deliver months of setup and a steep learning curve. In this landscape, Fathom
-        sits in the middle, offering the core benefits of intelligent resource planning, live cash flow
+        sits in the middle, offering the core benefits of AI resource planning, live cash flow
         visibility, entity consolidation, and actionable KPIs, without the cost, complexity, or disruption of a
         full&nbsp;ERP&nbsp;rollout.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -26,7 +26,7 @@ export default function ComparingSection() {
         an&nbsp;ERP, but need
         to move faster and with less friction. It connects directly to the accounting and operational systems
         you already
-        use,&nbsp;<Link id={`tools-accounting-intelligent-resource-planning-fathomhq-comparing-quickbooks${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/ai-resource-planning/quickbooks" className="text-[#0B162A] hover:underline">QuickBooks</Link>,
+        use,&nbsp;<Link id={`tools-accounting-ai-resource-planning-fathomhq-comparing-quickbooks${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/ai-resource-planning/quickbooks" className="text-[#0B162A] hover:underline">QuickBooks</Link>,
         Xero, MYOB, Excel, Google Sheets, pulling in real-time data and making it available for live dashboards,
         scenario planning, and consolidated reporting. There is no need to rebuild your entire chart of accounts
         or migrate every historic transaction. Fathom’s strength is in its ability to map and merge messy,

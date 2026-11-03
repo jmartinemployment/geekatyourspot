@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "TaxJar";
-const PAGE_TITLE = "TaxJar for Multi-State Sales Tax Nexus";
+const PAGE_TITLE = "TaxJar for AI Multi-State Sales Tax";
 const DESCRIPTION =
-    "Multi-State Sales Tax Nexus is simplified for South Florida small businesses with TaxJar, offering automated compliance, tracking, and filing solutions.";
+    "AI Multi-State Sales Tax is simplified for South Florida small businesses with TaxJar, offering automated compliance, tracking, and filing solutions.";
 const CANONICAL = "/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/taxjar";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -93,7 +93,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page() {
     const heroSummary =
-        "TaxJar streamlines Multi-State Sales Tax Nexus compliance for South Florida small businesses, reducing manual work and minimizing audit risks.";
+        "TaxJar streamlines AI Multi-State Sales Tax compliance for South Florida small businesses, reducing manual work and minimizing audit risks.";
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />

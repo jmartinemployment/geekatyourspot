@@ -13,7 +13,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "AvidXchange";
-const PAGE_TITLE = "AvidXchange for Intelligent Data Entry & Processing";
+const PAGE_TITLE = "AvidXchange for AI Data Entry & Processing";
 const DESCRIPTION =
     "AvidXchange automates invoice management and B2B payments, extracting, matching, and routing invoice data while integrating with existing accounting systems.";
 const CANONICAL = "/tools/accounting/accounts-payable/ai-data-entry-processing/avidxchange";

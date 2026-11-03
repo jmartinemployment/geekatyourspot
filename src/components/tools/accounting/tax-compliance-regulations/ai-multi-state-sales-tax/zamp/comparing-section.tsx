@@ -20,7 +20,7 @@ export default function ComparingSection() {
         is a difference in who owns the risk.</p>
       <p className="text-base text-white shadow-text pt-3">
         Other platforms in this space,
-        like&nbsp;<Link id={`tools-accounting-multi-state-sales-tax-nexus-zamp-comparing-taxjar${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/taxjar" className="text-[#0B162A] hover:underline">TaxJar</Link>,&nbsp;Avalara,
+        like&nbsp;<Link id={`tools-accounting-ai-multi-state-sales-tax-zamp-comparing-taxjar${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/taxjar" className="text-[#0B162A] hover:underline">TaxJar</Link>,&nbsp;Avalara,
         and Numeral, require the customer to handle setup, system connections, and ongoing monitoring. They may
         offer ticket-based support or assisted services, but the customer still manages the core compliance
         tasks. Zamp, by contrast, keeps the entire workflow inside one accountable team. That includes automated

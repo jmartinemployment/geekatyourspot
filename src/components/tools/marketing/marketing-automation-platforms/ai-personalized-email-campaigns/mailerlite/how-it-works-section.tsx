@@ -22,7 +22,7 @@ export default function HowItWorksSection() {
         organize subscribers by interests, behaviors, location, purchase history, or any <GlossaryLink slug="custom-field" className="text-[#0B162A] hover:underline">custom
         field</GlossaryLink> you collect. You can build unlimited segments, each defined by a set of rules, such as
         “people who bought product A in the last 30 days” or “contacts who clicked last month’s promo but didn’t buy
-        (<a id={`tools-marketing-personalized-email-campaigns-mailerlite-how-it-works-source-mailerlite-com${idSuffix}`} href="https://www.mailerlite.com/blog/when-will-mailerlite-have-subscriber-tagging" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">MailerLite</a>,
+        (<a id={`tools-marketing-ai-personalized-email-campaigns-mailerlite-how-it-works-source-mailerlite-com${idSuffix}`} href="https://www.mailerlite.com/blog/when-will-mailerlite-have-subscriber-tagging" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">MailerLite</a>,
         as of Oct 25, 2026).” Subscribers move in and out of these segments automatically as their data changes, so
         your targeting is always up to date. For more manual control, you can use groups, these are static lists you
         add people to by hand or through automations, perfect for special offers or one-off campaigns.</p>
@@ -36,7 +36,7 @@ export default function HowItWorksSection() {
       <p className="text-base text-white shadow-text pt-3">
         Templates are a key time-saver. MailerLite includes a library of over 100 designer-built templates for
         newsletters, promotions, <GlossaryLink slug="transactional-email" className="text-[#0B162A] hover:underline">transactional
-        emails</GlossaryLink>, and more (<a id={`tools-marketing-personalized-email-campaigns-mailerlite-how-it-works-source-mailerlite-com-2${idSuffix}`} href="https://www.mailerlite.com/blog/how-to-combine-email-segmentation-with-automation-with-examples" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">MailerLite</a>,
+        emails</GlossaryLink>, and more (<a id={`tools-marketing-ai-personalized-email-campaigns-mailerlite-how-it-works-source-mailerlite-com-2${idSuffix}`} href="https://www.mailerlite.com/blog/how-to-combine-email-segmentation-with-automation-with-examples" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">MailerLite</a>,
         as of Oct 25, 2026). You can customize these with your branding, colors, and layout, then save them to reuse
         for future campaigns. The drag-and-drop editor makes it easy to add sections, images, product boxes, or
         dynamic blocks without any coding. If you’re stuck on what to write, MailerLite’s built-in AI assistant can

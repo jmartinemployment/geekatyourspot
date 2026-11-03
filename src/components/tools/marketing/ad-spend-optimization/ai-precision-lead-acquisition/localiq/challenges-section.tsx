@@ -18,7 +18,7 @@ export default function ChallengesSection() {
         For small businesses, every dollar matters. When you bid on broad, generic keywords like &ldquo;how to fix a
         leaky pipe,&rdquo; you might get lots of clicks, but most are people looking for free advice, not paying
         customers. That $15 <GlossaryLink slug="daily-budget">daily budget</GlossaryLink> can disappear before lunch,
-        eaten up by empty clicks and visitors who never buy (<a id={`tools-marketing-precision-lead-acquisition-localiq-challenges-source-localiq-com${idSuffix}`} href="https://localiq.com/news/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">LocaliQ</a>,
+        eaten up by empty clicks and visitors who never buy (<a id={`tools-marketing-ai-precision-lead-acquisition-localiq-challenges-source-localiq-com${idSuffix}`} href="https://localiq.com/news/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">LocaliQ</a>,
         as of Oct 23, 2026). The real buyers, the ones searching for &ldquo;emergency plumber in Fort
         Lauderdale&rdquo;, are missed because your spend is spread too thin. Manual keyword adjustments and audience
         targeting take time and expertise most small teams do not have.</p>

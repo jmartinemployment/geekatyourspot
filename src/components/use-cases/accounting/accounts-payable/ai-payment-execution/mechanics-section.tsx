@@ -4,7 +4,7 @@ export default function MechanicsSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Automated Payment Execution streamlines the entire accounts payable process from start to finish,
+        AI Payment Execution streamlines the entire accounts payable process from start to finish,
         transforming a traditionally manual workflow into an efficient, error-reducing system. This approach
         integrates several key phases that ensure accuracy and speed in payment processing.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -51,7 +51,7 @@ export default function MechanicsSection() {
         trail. This not only helps in maintaining compliance but also offers valuable insights into spending
         patterns, enabling better financial decision-making.</p>
       <p className="text-base text-white shadow-text pt-3">
-        By implementing Automated Payment Execution, businesses can achieve significant improvements in
+        By implementing AI Payment Execution, businesses can achieve significant improvements in
         efficiency, accuracy, and control over their accounts payable processes. This approach not only
         reduces the time and resources needed to manage AP but also mitigates the risks associated with manual
         processes, paving the way for sustained business growth.</p>
@@ -65,8 +65,8 @@ export default function MechanicsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="the-mechanics-of-automated-payment-execution" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                The Mechanics of Automated Payment Execution
+              <h2 id="the-mechanics-of-ai-payment-execution" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                The Mechanics of AI Payment Execution
               </h2>
             </div>
             <div className="col-span-12">{body()}</div>
@@ -78,8 +78,8 @@ export default function MechanicsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="the-mechanics-of-automated-payment-execution-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                The Mechanics of Automated Payment Execution
+              <h2 id="the-mechanics-of-ai-payment-execution-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                The Mechanics of AI Payment Execution
               </h2>
               {body("-lg")}
             </div>

@@ -24,7 +24,7 @@ export const gustoContent: ToolPageContent = {
   "sections": [
     {"title": "Overview", "description": "On a Monday morning in Miami, the owner of a ten-person HVAC company sits at her desk, buried in a tangle of spreadsheets and half-completed tax forms."},
     {"title": "What it costs to keep doing this by hand", "description": "Every Friday, the owner of that Miami HVAC company is back at her desk, staring down another round of payroll."},
-    {"title": "What Gusto actually does for Payroll Tax & Worker Misclassification", "description": "Gusto removes the guesswork, the manual checks, and the late-night spreadsheet audits from payroll tax and worker classification."},
+    {"title": "What Gusto actually does for AI Payroll Tax", "description": "Gusto removes the guesswork, the manual checks, and the late-night spreadsheet audits from payroll tax and worker classification."},
     {"title": "How Gusto Handles Payroll Tax and Worker Classification Step by Step", "description": "Gusto automates the most error-prone parts of payroll tax and worker classification for small businesses handling both W-2 employees and 1099 contractors."},
     {"title": "Gusto’s Architecture: Integrations, Data Flows, and What the Platform Holds", "description": "Gusto is built as a cloud platform with payroll, HR, and compliance tools all in one place."},
     {"title": "What Shortens the Path to a Clean Go-Live with Gusto", "description": "Going live with Gusto in a South Florida small business environment is not just about switching on a new payroll system."},

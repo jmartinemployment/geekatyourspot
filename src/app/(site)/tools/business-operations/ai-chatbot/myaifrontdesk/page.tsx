@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "My AI Front Desk";
-const PAGE_TITLE = "My AI Front Desk as a Cross-Platform Chatbot";
+const PAGE_TITLE = "My AI Front Desk as an AI Chatbot";
 const DESCRIPTION =
-    "Cross-Platform Chatbot My AI Front Desk unifies chats, texts, and calls for small businesses in Miami-Dade, Broward and West Palm Beach. Capture every lead.";
+    "AI Chatbot My AI Front Desk unifies chats, texts, and calls for small businesses in Miami-Dade, Broward and West Palm Beach. Capture every lead.";
 const CANONICAL = "/tools/business-operations/ai-chatbot/myaifrontdesk";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "My AI Front Desk, cross-platform chatbot, AI chatbot, lead capture, unified inbox, omnichannel messaging, South Florida small business",
+            "keywords": "My AI Front Desk, AI chatbot, lead capture, unified inbox, omnichannel messaging, South Florida small business",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -71,7 +71,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["My AI Front Desk", "cross-platform chatbot", "AI chatbot", "lead capture", "unified inbox", "omnichannel messaging", "South Florida small business"],
+        keywords: ["My AI Front Desk", "AI chatbot", "lead capture", "unified inbox", "omnichannel messaging", "South Florida small business"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

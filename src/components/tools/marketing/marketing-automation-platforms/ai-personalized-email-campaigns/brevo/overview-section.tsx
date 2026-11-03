@@ -6,7 +6,7 @@ export default function OverviewSection() {
       <p className="text-base text-white shadow-text pt-3">
         How do small businesses in Miami-Dade, Broward and Palm Beach counties keep customer communication on track
         when emails, texts and staff all work in silos, and generic blasts get ignored? The truth is, scattered
-        outreach leaves prospects cold and makes timely follow-up nearly impossible. <Link id={`tools-marketing-personalized-email-campaigns-brevo-overview-personalized-email-campaigns${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns" className="text-[#C83803] hover:underline">Personalized
+        outreach leaves prospects cold and makes timely follow-up nearly impossible. <Link id={`tools-marketing-ai-personalized-email-campaigns-brevo-overview-ai-personalized-email-campaigns${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns" className="text-[#C83803] hover:underline">Personalized
         Email Campaigns</Link> work, but hand-crafting every message is not realistic for a small team with limited
         hours. Juggling lists, segmenting contacts and trying to send the right note at the right time eats up
         resources, lets leads fall through the cracks and costs real sales.</p>

@@ -23,7 +23,7 @@ export default function RightFitSection() {
         forecasting&nbsp;is as smooth and effective as possible.</p>
       <p className="text-base text-white shadow-text pt-3">
         In summary, Take the Helm offers a powerful combination of features and ease of use that makes it a strong
-        contender for small businesses looking to automate their automated spreadsheet data management. By
+        contender for small businesses looking to automate their AI spreadsheet data management. By
         leveraging the expertise of Geek @ Your Spot LLC, businesses can ensure that they not only implement the
         tool effectively but also extract maximum value from its capabilities. This partnership can lead to
         significant improvements in efficiency, accuracy, and financial insight.</p>
@@ -42,7 +42,7 @@ export default function RightFitSection() {
         <li>What is the single biggest risk to your business if your cash flow forecast is inaccurate next month?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
-        Take the Helm’s strength is the way it presents a forecast, and our post <Link id={`tools-accounting-cash-flow-forecasting-automated-spreadsheet-data-takethehelm-xlink-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/how-automated-spreadsheet-data-transforms-cash-flow-forecasting" className="text-[#C83803] hover:underline">Automated Spreadsheets for Cash Flow</Link> describes the two features that justify it for a small finance team: a drag-and-drop timeline for moving expected payment dates to see the effect on the runway, and a shared workspace where named people own and update the forecast. The post pairs that with the ownership problem automation does not solve on its own, since a forecast nobody is accountable for goes stale as fast as a spreadsheet. The training sessions and the review timeline in our <Link id={`tools-accounting-cash-flow-forecasting-automated-spreadsheet-data-takethehelm-xlink-pillar${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data" className="text-[#C83803] hover:underline">AI Spreadsheet Data</Link> guide assign that accountability before Take the Helm is connected to QuickBooks, Xero or Sage.</p>
+        Take the Helm’s strength is the way it presents a forecast, and our post <Link id={`tools-accounting-cash-flow-forecasting-ai-spreadsheet-data-takethehelm-xlink-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/how-automated-spreadsheet-data-transforms-cash-flow-forecasting" className="text-[#C83803] hover:underline">Automated Spreadsheets for Cash Flow</Link> describes the two features that justify it for a small finance team: a drag-and-drop timeline for moving expected payment dates to see the effect on the runway, and a shared workspace where named people own and update the forecast. The post pairs that with the ownership problem automation does not solve on its own, since a forecast nobody is accountable for goes stale as fast as a spreadsheet. The training sessions and the review timeline in our <Link id={`tools-accounting-cash-flow-forecasting-ai-spreadsheet-data-takethehelm-xlink-pillar${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data" className="text-[#C83803] hover:underline">AI Spreadsheet Data</Link> guide assign that accountability before Take the Helm is connected to QuickBooks, Xero or Sage.</p>
     </>
   );
 

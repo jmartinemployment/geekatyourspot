@@ -2,7 +2,7 @@ export default function EvaluatingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        When considering Melio for Automated Payment Execution, small businesses must assess its fit for their
+        When considering Melio for AI Payment Execution, small businesses must assess its fit for their
         specific needs and financial constraints. Melio stands out with its straightforward pricing model,
         which is ideal for businesses looking to automate without breaking the bank. While specific pricing
         details aren&#39;t available here, Melio&#39;s approach generally involves transparent costs without
@@ -25,7 +25,7 @@ export default function EvaluatingSection() {
         However, for small to medium-sized enterprises, Melio&#39;s balance of features and ease of use often
         makes it a compelling choice.</p>
       <p className="text-base text-white shadow-text pt-3">
-        In summary, when evaluating Melio for Automated Payment Execution, businesses should consider its
+        In summary, when evaluating Melio for AI Payment Execution, businesses should consider its
         compatibility with existing systems, the simplicity of its pricing model, and its ability to
         streamline payment processes. By focusing on these aspects, businesses can determine if Melio aligns
         with their operational goals and financial plans.</p>

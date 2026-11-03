@@ -35,12 +35,12 @@ export default function TransformsSection() {
       <p className="text-base text-white shadow-text pt-3">
         Bulk processing is built in. If you have a back catalog of recordings, Castmagic can import them in
         one go, whether from a podcast RSS feed, YouTube, Zoom, or your local drive. Each file runs through
-        the same pipeline, with speaker labels, timestamps, and intelligent content generation, so even a
+        the same pipeline, with speaker labels, timestamps, and AI content generation, so even a
         year’s worth of old webinars can be turned into new blog posts or campaign assets in a single
         afternoon. Imports run as background jobs, so you do not have to babysit the process.</p>
       <p className="text-base text-white shadow-text pt-3">
         Castmagic integrates with the tools you already use, Google Drive, Zoom, RSS feeds, YouTube, Vimeo,
-        Reels,&nbsp;<Link id={`tools-marketing-intelligent-content-generation-castmagic-transforms-zapier${idSuffix}`} href="/tools/marketing/zapier" className="text-[#0B162A] hover:underline">Zapier</Link>, and more. This means you do not have to build a new workflow from scratch. Drop a file
+        Reels,&nbsp;<Link id={`tools-marketing-ai-content-generation-castmagic-transforms-zapier${idSuffix}`} href="/tools/marketing/zapier" className="text-[#0B162A] hover:underline">Zapier</Link>, and more. This means you do not have to build a new workflow from scratch. Drop a file
         or a link, and the content is ready for review. You can export transcripts as TXT, SRT, VTT, CSV, or
         formatted Word documents, making it easy to use them for captions, accessibility, or further editing.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -86,8 +86,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-castmagic-removes-from-your-week-with-intelligent-content-generation" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                What Castmagic Removes from Your Week with Intelligent Content Generation
+              <h2 id="what-castmagic-removes-from-your-week-with-ai-content-generation" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                What Castmagic Removes from Your Week with AI Content Generation
               </h2>
             </div>
             <div className="col-span-12">{body()}</div>
@@ -99,8 +99,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-castmagic-removes-from-your-week-with-intelligent-content-generation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                What Castmagic Removes from Your Week with Intelligent Content Generation
+              <h2 id="what-castmagic-removes-from-your-week-with-ai-content-generation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                What Castmagic Removes from Your Week with AI Content Generation
               </h2>
               {body("-lg")}
             </div>

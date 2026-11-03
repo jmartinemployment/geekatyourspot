@@ -3,7 +3,7 @@ export default function ArchitectureSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Tipalti is designed to streamline Automated Payment Execution by automating complex financial
+        Tipalti is designed to streamline AI Payment Execution by automating complex financial
         processes. At its core, Tipalti integrates seamlessly with existing&nbsp;
         ERP&nbsp;and
         accounting systems, ensuring that payment data flows smoothly without manual intervention. This

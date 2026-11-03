@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "TaxCloud";
-const PAGE_TITLE = "TaxCloud for Multi-State Sales Tax Nexus";
+const PAGE_TITLE = "TaxCloud for AI Multi-State Sales Tax";
 const DESCRIPTION =
-    "Multi-State Sales Tax Nexus is a major challenge for South Florida small businesses. TaxCloud automates compliance, registration, and filing across states.";
+    "AI Multi-State Sales Tax is a major challenge for South Florida small businesses. TaxCloud automates compliance, registration, and filing across states.";
 const CANONICAL = "/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/taxcloud";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -99,7 +99,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page() {
     const heroSummary =
-        "TaxCloud simplifies compliance for South Florida small businesses facing Multi-State Sales Tax Nexus, automating registration, collection, and filing requirements across states.";
+        "TaxCloud simplifies compliance for South Florida small businesses facing AI Multi-State Sales Tax, automating registration, collection, and filing requirements across states.";
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />

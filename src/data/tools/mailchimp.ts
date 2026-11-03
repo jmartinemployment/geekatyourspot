@@ -12,7 +12,7 @@ export const mailchimpContent: ToolPageContent = {
   "department": "marketing",
   "useCase": "marketing-automation-platforms/ai-personalized-email-campaigns",
   "description":
-    "Personalized Email Campaigns with Mailchimp help South Florida small businesses increase open rates and sales while reducing manual work. Start today.",
+    "AI Personalized Email Campaigns with Mailchimp help South Florida small businesses increase open rates and sales while reducing manual work. Start today.",
   "heroSummary":
     "Mailchimp enables South Florida small businesses to create automated, personalized email campaigns that drive more opens and sales without manual effort.",
   "keywords":
@@ -24,7 +24,7 @@ export const mailchimpContent: ToolPageContent = {
   "sections": [
     {"title": "Overview", "description": "How do small businesses in Miami-Dade, Broward, and Palm Beach keep their personalized email campaigns relevant and personal without losing hours each week or hiring a full-time marketer?"},
     {"title": "What it costs to keep doing this by hand", "description": "A small business that handles email campaigns manually pays in lost hours, missed sales, and rising frustration."},
-    {"title": "How Mailchimp removes the manual work from Personalized Email Campaigns", "description": "Mailchimp takes the heavy lifting out of Personalized Email Campaigns by automating what used to eat up hours each week."},
+    {"title": "How Mailchimp removes the manual work from AI Personalized Email Campaigns", "description": "Mailchimp takes the heavy lifting out of AI Personalized Email Campaigns by automating what used to eat up hours each week."},
     {"title": "Mailchimp’s core mechanics for automating personalized campaigns", "description": "Mailchimp automates personalized email campaigns by combining audience data, segmentation, and AI-driven content tools in a single platform."},
     {"title": "Mailchimp’s architecture, integrations, and data model for small business marketing", "description": "Mailchimp’s platform is built as an all-in-one marketing hub that centralizes campaign management, audience data, and analytics."},
     {"title": "Going live with Mailchimp", "description": "Launching Mailchimp for personalized email campaigns in a small business environment is a structured, stepwise process that can be shortened by using Mailchimp’s pre-built connectors, guided templates, and phased rollout options."},

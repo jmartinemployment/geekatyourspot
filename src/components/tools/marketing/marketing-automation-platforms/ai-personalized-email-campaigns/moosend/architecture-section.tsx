@@ -14,7 +14,7 @@ export default function ArchitectureSection() {
         At the heart of Moosend is its contact database. Every subscriber record holds not just basic fields like
         email and name, but also custom fields, tags, engagement history, and purchase behavior. This data is used
         by the segmentation engine to create dynamic groups, such as all contacts who have not opened an email in 30
-        days, or everyone who has purchased a certain product category (<a id={`tools-marketing-personalized-email-campaigns-moosend-architecture-source-moosend-com${idSuffix}`} href="https://moosend.com/blog/ai-email-marketing-tools/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Moosend</a>,
+        days, or everyone who has purchased a certain product category (<a id={`tools-marketing-ai-personalized-email-campaigns-moosend-architecture-source-moosend-com${idSuffix}`} href="https://moosend.com/blog/ai-email-marketing-tools/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Moosend</a>,
         as of Oct 25, 2026). The segmentation layer is tightly integrated with Moosend’s automation engine, so any
         change in a contact’s data can trigger a new workflow or move them to a different segment automatically.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -56,7 +56,7 @@ export default function ArchitectureSection() {
       <p className="text-base text-white shadow-text pt-3">
         The platform is built for scalability. Whether you have a few hundred contacts or tens of thousands,
         Moosend’s backend handles segmentation, automation, and sending at the same speed. Paid plans start at $9
-        per month for unlimited emails, so you do not have to worry about escalating costs as your list grows (<a id={`tools-marketing-personalized-email-campaigns-moosend-architecture-source-moosend-com-2${idSuffix}`} href="https://moosend.com/blog/best-time-to-send-an-email/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Moosend</a>,
+        per month for unlimited emails, so you do not have to worry about escalating costs as your list grows (<a id={`tools-marketing-ai-personalized-email-campaigns-moosend-architecture-source-moosend-com-2${idSuffix}`} href="https://moosend.com/blog/best-time-to-send-an-email/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Moosend</a>,
         as of Oct 25, 2026). The architecture is designed to support eCommerce, <GlossaryLink slug="saas" className="text-[#0B162A] hover:underline">SaaS</GlossaryLink>,
         publishers, bloggers, and agencies, any business that needs to deliver personalized email campaigns to
         multiple segments at once.</p>

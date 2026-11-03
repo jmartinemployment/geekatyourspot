@@ -4,7 +4,7 @@ export default function ComparingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Small businesses in South Florida have more options for Intelligent Content Planning than ever.
+        Small businesses in South Florida have more options for AI Content Planning than ever.
         Hootsuite is not the only name on the table, but it stands apart by combining AI-driven insights,
         content automation, and multi-channel publishing in one platform. Most other tools break these jobs
         up: one tool for drafting, another for scheduling, and yet another for listening to trends. That split

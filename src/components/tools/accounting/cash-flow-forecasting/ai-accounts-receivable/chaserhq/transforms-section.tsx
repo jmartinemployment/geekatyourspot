@@ -23,7 +23,7 @@ export default function TransformsSection() {
         allows businesses to plan budgets and resources more effectively, reducing uncertainty and helping them to
         take control of their cash flow.</p>
       <p className="text-base text-white shadow-text pt-3">
-        By automating the automated accounts receivable process, Chaserhq reduces the administrative burden on
+        By automating the AI accounts receivable process, Chaserhq reduces the administrative burden on
         staff, freeing them up to focus on core business activities. This not only improves operational efficiency
         but also enhances the overall financial health of the business. With Chaserhq, small businesses can move
         beyond manual processes and embrace a more streamlined, automated approach to managing receivables.</p>
@@ -46,8 +46,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-chaserhq-transforms-automated-accounts-receivable">
-                How Chaserhq Transforms Automated Accounts Receivable
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-chaserhq-transforms-ai-accounts-receivable">
+                How Chaserhq Transforms AI Accounts Receivable
               </h2>
             </div>
             <div className="col-span-12">{body()}</div>
@@ -59,8 +59,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-chaserhq-transforms-automated-accounts-receivable-lg">
-                How Chaserhq Transforms Automated Accounts Receivable
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-chaserhq-transforms-ai-accounts-receivable-lg">
+                How Chaserhq Transforms AI Accounts Receivable
               </h2>
               {body("-lg")}
             </div>

@@ -5,7 +5,7 @@ export default function ComparingSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        When considering solutions for automated accounts receivable, small businesses in South Florida often weigh
+        When considering solutions for AI accounts receivable, small businesses in South Florida often weigh
         several options. Upflow stands out by focusing
         on&nbsp;<GlossaryLink slug="cash-flow-forecasting" className="text-[#0B162A] hover:underline">cash flow
         forecasting</GlossaryLink>&nbsp;based on real payment behaviors, rather than relying on static due dates.
@@ -35,7 +35,7 @@ export default function ComparingSection() {
         businesses that do not require such depth. Upflow offers a balanced solution, providing advanced features
         without the heavy lift associated with enterprise-level systems.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Ultimately, the choice of an automated accounts receivable solution should reflect the specific needs and
+        Ultimately, the choice of an AI accounts receivable solution should reflect the specific needs and
         scale of the business. For those in Miami-Dade, Broward, and West Palm Beach counties, Upflow provides a
         compelling mix of detailed forecasting, real-time data integration, and user-friendly implementation, making
         it a strong contender in the market.</p>
@@ -48,8 +48,8 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="comparing-upflow-to-other-automated-accounts-receivable-solutions">
-                Comparing Upflow to Other Automated Accounts Receivable Solutions
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="comparing-upflow-to-other-ai-accounts-receivable-solutions">
+                Comparing Upflow to Other AI Accounts Receivable Solutions
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
@@ -61,8 +61,8 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="comparing-upflow-to-other-automated-accounts-receivable-solutions-lg">
-                Comparing Upflow to Other Automated Accounts Receivable Solutions
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="comparing-upflow-to-other-ai-accounts-receivable-solutions-lg">
+                Comparing Upflow to Other AI Accounts Receivable Solutions
               </h2>
               {body("-lg")}
             </div>

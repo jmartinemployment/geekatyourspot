@@ -40,7 +40,7 @@ export default function HowItWorksSection() {
         down. This is not just about surface metrics like impressions or clicks. The platform ranks creative based on
         actual revenue and conversion data, so you can cut losing ads before they drain your budget. Teams like Dixxon
         Flannel Company have used this to cut weekly analysis from hours to minutes and get a 3x ROI on their ad spend
-        (<a id={`tools-marketing-precision-lead-acquisition-triplewhale-how-it-works-source-blake-admire${idSuffix}`} href="https://www.triplewhale.com/expert/blake-admire" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Triplewhale</a>,
+        (<a id={`tools-marketing-ai-precision-lead-acquisition-triplewhale-how-it-works-source-blake-admire${idSuffix}`} href="https://www.triplewhale.com/expert/blake-admire" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Triplewhale</a>,
         as of Oct 29, 2026).</p>
       <p className="text-base text-white shadow-text pt-3">
         Triplewhale also includes a suite of predictive analytics and AI-powered recommendations. The system&rsquo;s

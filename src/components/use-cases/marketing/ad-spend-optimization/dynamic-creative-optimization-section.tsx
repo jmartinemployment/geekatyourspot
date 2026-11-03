@@ -38,7 +38,7 @@ export default function DynamicCreativeOptimizationSection() {
         strategy to enhance customer experience and drive sales.</p>
       <p className="pt-3 text-base font-normal text-white shadow-text">
         Tools like&nbsp;
-        <Link id={`automated-ad-spend-optimization-dco-jasper-ai${idSuffix}`}
+        <Link id={`ad-spend-optimization-dco-jasper-ai${idSuffix}`}
         href="/tools/marketing/marketing-automation-platforms/ai-content-generation/jasper" className="text-[#C83803] hover:underline">
         Jasper
       </Link>&nbsp;allow marketers to generate personalized copy that resonates with different audience segments. By

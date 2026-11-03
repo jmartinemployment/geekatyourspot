@@ -58,7 +58,7 @@ export default function RightFitSection() {
         business grows, without a disruptive migration or a steep learning curve.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<a href="#consultationAppointment2xl" id={`tools-marketing-cross-platform-chatbot-botpenguin-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
+        when&nbsp;<a href="#consultationAppointment2xl" id={`tools-marketing-ai-chatbot-botpenguin-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How many new inquiries do you receive in a typical week, and where do they come from?</li>
@@ -76,7 +76,7 @@ export default function RightFitSection() {
         <li>What is your budget and preferred way to pay?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
-        Our post <Link id={`tools-marketing-lead-capture-pipeline-cross-platform-chatbot-botpenguin-xlink-blog${idSuffix}`} href="/blog/business-operations/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline" className="text-[#C83803] hover:underline">Cross-Platform Chatbot Lead Capture</Link> follows what BotPenguin’s own documentation shows for a social-first business: reply times dropping to seconds once WhatsApp, Telegram, Instagram and website chat land in one inbox, and a single flow that asks a commenter what service they want and pushes the answer into your pipeline. It is just as direct about the two conditions the no-code builder does not remove, someone watching the queue when a hot lead is handed to a human, and someone refining the qualification questions as your business changes. Which channels your customers actually use, and who on your team owns those flows, are settled in the four-phase assessment in our <Link id={`tools-marketing-lead-capture-pipeline-cross-platform-chatbot-botpenguin-xlink-pillar${idSuffix}`} href="/use-cases/business-operations/ai-chatbot" className="text-[#C83803] hover:underline">AI Chatbot</Link> guide before anything is built.</p>
+        Our post <Link id={`tools-marketing-marketing-automation-platforms-ai-chatbot-botpenguin-xlink-blog${idSuffix}`} href="/blog/business-operations/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline" className="text-[#C83803] hover:underline">AI Chatbot Lead Capture</Link> follows what BotPenguin’s own documentation shows for a social-first business: reply times dropping to seconds once WhatsApp, Telegram, Instagram and website chat land in one inbox, and a single flow that asks a commenter what service they want and pushes the answer into your pipeline. It is just as direct about the two conditions the no-code builder does not remove, someone watching the queue when a hot lead is handed to a human, and someone refining the qualification questions as your business changes. Which channels your customers actually use, and who on your team owns those flows, are settled in the four-phase assessment in our <Link id={`tools-marketing-marketing-automation-platforms-ai-chatbot-botpenguin-xlink-pillar${idSuffix}`} href="/use-cases/business-operations/ai-chatbot" className="text-[#C83803] hover:underline">AI Chatbot</Link> guide before anything is built.</p>
     </>
   );
 

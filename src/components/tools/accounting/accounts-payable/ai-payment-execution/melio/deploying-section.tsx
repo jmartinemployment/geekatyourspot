@@ -3,7 +3,7 @@ export default function DeployingSection() {
     <>
       <p className="text-base text-white shadow-text pt-3">
         Deploying Melio in a business environment involves several key steps that ensure a smooth transition
-        to automated payment execution. Geek @ Your Spot LLC, as an AI implementation consultancy, plays a crucial
+        to AI payment execution. Geek @ Your Spot LLC, as an AI implementation consultancy, plays a crucial
         role in this process, helping businesses integrate Melio seamlessly into their existing systems. The
         process begins with a comprehensive assessment of the current payment workflows and identifying areas
         where Melio can add the most value.</p>

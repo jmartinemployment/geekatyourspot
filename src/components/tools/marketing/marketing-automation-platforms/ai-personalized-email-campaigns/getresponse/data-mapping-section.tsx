@@ -44,7 +44,7 @@ export default function DataMappingSection() {
         to unreliable reports, making it hard to spot what is working or where leads are dropping off.</p>
       <p className="text-base text-white shadow-text pt-3">
         Finally, consider the limits set by your plan. The free plan allows up to 500 contacts and 2,500 newsletters
-        per month, so your data structure must be efficient if you are running at this scale (<a id={`tools-marketing-personalized-email-campaigns-getresponse-data-mapping-source-getresponse-com${idSuffix}`} href="https://www.getresponse.com/referral-program/refer-a-friend.html" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">GetResponse</a>,
+        per month, so your data structure must be efficient if you are running at this scale (<a id={`tools-marketing-ai-personalized-email-campaigns-getresponse-data-mapping-source-getresponse-com${idSuffix}`} href="https://www.getresponse.com/referral-program/refer-a-friend.html" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">GetResponse</a>,
         as of Oct 25, 2026). Paid plans lift these limits and add advanced segmentation, A/B testing, and automation
         features, which are crucial for businesses that need to scale or handle complex journeys.</p>
       <p className="text-base text-white shadow-text pt-3">

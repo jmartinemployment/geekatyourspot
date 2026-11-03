@@ -20,11 +20,11 @@ export default function DataValidationCleaningSection() {
       <p className="pt-3 text-base font-normal text-white shadow-text">
         Data validation is critical in ensuring that the information driving ad spend decisions is accurate and consistent.
         Tools like&nbsp;
-        <Link id={`automated-ad-spend-optimization-validation-anomalo${idSuffix}`}
+        <Link id={`ad-spend-optimization-validation-anomalo${idSuffix}`}
         href="/tools/business-operations/ai-data-quality-assessments/anomalo" className="text-[#C83803] hover:underline">
         Anomalo
       </Link>&nbsp;and&nbsp;
-        <Link id={`automated-ad-spend-optimization-validation-great-expectations${idSuffix}`}
+        <Link id={`ad-spend-optimization-validation-great-expectations${idSuffix}`}
         href="/tools/business-operations/ai-data-quality-assessments/great-expectations" className="text-[#C83803] hover:underline">
         Great Expectations
       </Link>&nbsp;offer automated solutions to monitor data quality. These tools can identify anomalies and
@@ -57,7 +57,7 @@ export default function DataValidationCleaningSection() {
       <p className="pt-3 text-base font-normal text-white shadow-text">
         Automated data cleaning is a key component in maintaining data quality, reducing the time spent on manual corrections
         and minimizing human error. Tools such as&nbsp;
-        <Link id={`automated-ad-spend-optimization-cleaning-qualytics${idSuffix}`}
+        <Link id={`ad-spend-optimization-cleaning-qualytics${idSuffix}`}
         href="/tools/business-operations/ai-data-quality-assessments/qualytics" className="text-[#C83803] hover:underline">
         Qualytics
       </Link>&nbsp;streamline this process by automating the identification and rectification of data errors.</p>
@@ -90,8 +90,8 @@ export default function DataValidationCleaningSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="data-quality-assessments-validation" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                Data Quality Assessments
+              <h2 id="ai-data-quality-assessments-validation" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                AI Data Quality Assessments
               </h2>
             </div>
             <div className="col-span-5"></div>
@@ -106,8 +106,8 @@ export default function DataValidationCleaningSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="data-quality-assessments-validation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                Data Quality Assessments
+              <h2 id="ai-data-quality-assessments-validation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                AI Data Quality Assessments
               </h2>
               {body("-lg")}
             </div>

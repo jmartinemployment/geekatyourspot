@@ -21,7 +21,7 @@ export default function ComparingSection() {
         Rules-based budget tools offer more control, letting you set triggers and caps for spend across campaigns. They
         do help catch obvious waste, but they still depend on the same flawed data sources. If your conversion tracking
         is off by 30% because of browser privacy or attribution gaps, all the rules in the world cannot fix the core
-        issue (<a id={`tools-marketing-precision-lead-acquisition-cometly-comparing-source-conversion-data${idSuffix}`} href="https://www.cometly.com/post/conversion-data-not-matching-reality" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Cometly</a>,
+        issue (<a id={`tools-marketing-ai-precision-lead-acquisition-cometly-comparing-source-conversion-data${idSuffix}`} href="https://www.cometly.com/post/conversion-data-not-matching-reality" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Cometly</a>,
         as of Oct 29, 2026). You end up reacting to symptoms, not the cause, and spend hours tweaking rules that never
         get you closer to the truth.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -36,7 +36,7 @@ export default function ComparingSection() {
         integration. Instead of relying on browser pixels, Cometly uses server-level tracking to capture every
         conversion, regardless of device, browser, or privacy setting. It runs both pixel and server-side tracking in
         parallel during setup, so you can see exactly how much your old tracking was missing, often 15% to 30% more
-        conversions show up when you make the switch (<a id={`tools-marketing-precision-lead-acquisition-cometly-comparing-source-attribution${idSuffix}`} href="https://www.cometly.com/post/attribution-for-multiple-ad-accounts" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Cometly</a>,
+        conversions show up when you make the switch (<a id={`tools-marketing-ai-precision-lead-acquisition-cometly-comparing-source-attribution${idSuffix}`} href="https://www.cometly.com/post/attribution-for-multiple-ad-accounts" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Cometly</a>,
         as of Oct 29, 2026). This is not just a technical upgrade; it changes how you allocate every dollar.</p>
       <p className="text-base text-white shadow-text pt-3">
         Another point of difference is how Cometly handles attribution and budget reallocation. Where other tools simply

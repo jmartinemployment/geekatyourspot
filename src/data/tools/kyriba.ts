@@ -40,7 +40,7 @@ export const kyribaContent: ToolPageContent = {
           ]
         },
         {
-          "heading": "Automated Cash Flow Forecasting",
+          "heading": "Cash Flow Forecasting",
           "content": [
             "Kyriba automates the cash flow forecasting process, reducing the manual effort required from financial teams and minimizing the risk of human error. This automation not only saves time but also ensures that forecasts are consistently accurate and reliable. By automating routine tasks, Kyriba allows finance professionals to focus on more strategic activities, such as analyzing trends and developing financial strategies. The platform's automation capabilities also support compliance with regulatory requirements by ensuring that all financial data is accurately recorded and reported. Additionally, automated forecasting facilitates collaboration across departments by providing a single source of truth for financial data, thereby enhancing transparency and accountability within the organization."
           ]

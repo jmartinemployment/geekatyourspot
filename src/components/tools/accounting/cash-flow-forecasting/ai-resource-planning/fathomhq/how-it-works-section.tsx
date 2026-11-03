@@ -55,7 +55,7 @@ export default function HowItWorksSection() {
         saved. For small businesses that have struggled with inconsistent, error-prone reporting, this is a step
         change. It is not just about seeing where the money went last month, it is about knowing what is
         happening now, what will happen next, and what needs to change to hit your goals. That is the real shift
-        Fathom brings to Intelligent Resource Planning.</p>
+        Fathom brings to AI Resource Planning.</p>
     </>
   );
 

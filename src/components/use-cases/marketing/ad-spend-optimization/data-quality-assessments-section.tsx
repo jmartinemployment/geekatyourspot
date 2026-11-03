@@ -9,11 +9,11 @@ export default function DataQualityAssessmentsSection() {
         assessments is crucial to ensure that decisions are based on reliable information.</p>
       <p className="pt-3 text-base font-normal text-white shadow-text">
         Tools like&nbsp;
-        <Link id={`automated-ad-spend-optimization-dq-anomalo${idSuffix}`}
+        <Link id={`ad-spend-optimization-dq-anomalo${idSuffix}`}
         href="/tools/business-operations/ai-data-quality-assessments/anomalo" className="text-[#0B162A] font-bold hover:underline">
         Anomalo
       </Link>&nbsp;and&nbsp;
-        <Link id={`automated-ad-spend-optimization-dq-monte-carlo${idSuffix}`}
+        <Link id={`ad-spend-optimization-dq-monte-carlo${idSuffix}`}
         href="/tools/business-operations/ai-data-quality-assessments/monte-carlo" className="text-[#0B162A] font-bold hover:underline">
         Monte Carlo
       </Link>&nbsp;help automate the detection of data anomalies. These platforms use machine learning algorithms to
@@ -32,7 +32,7 @@ export default function DataQualityAssessmentsSection() {
       <p className="pt-3 text-base font-normal text-white shadow-text">
         Data integrity is essential for any AI-driven marketing strategy. Without it, the insights derived from data analysis
         can be misleading, leading to poor strategic decisions. Tools like&nbsp;
-        <Link id={`automated-ad-spend-optimization-dq-great-expectations${idSuffix}`}
+        <Link id={`ad-spend-optimization-dq-great-expectations${idSuffix}`}
         href="/tools/business-operations/ai-data-quality-assessments/great-expectations" className="text-[#0B162A] font-bold hover:underline">
         Great Expectations
       </Link>&nbsp;provide frameworks for maintaining data quality by validating, documenting, and testing data pipelines
@@ -44,7 +44,7 @@ export default function DataQualityAssessmentsSection() {
       <h4 id={`automated-data-monitoring${idSuffix}`} className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">Automated Data Monitoring</h4>
       <p className="pt-3 text-base font-normal text-white shadow-text">
         Automated data monitoring is a critical component of maintaining high data quality. By using tools like&nbsp;
-        <Link id={`automated-ad-spend-optimization-dq-qualytics${idSuffix}`}
+        <Link id={`ad-spend-optimization-dq-qualytics${idSuffix}`}
         href="/tools/business-operations/ai-data-quality-assessments/qualytics" className="text-[#0B162A] font-bold hover:underline">
         Qualytics
       </Link>, businesses can track data flow and integrity in real-time, ensuring that errors are caught and corrected
@@ -57,7 +57,7 @@ export default function DataQualityAssessmentsSection() {
       <p className="pt-3 text-base font-normal text-white shadow-text">
         Data anomalies can lead to incorrect assumptions and flawed marketing strategies. Identifying and addressing these
         anomalies is essential for maintaining the accuracy of ad spend optimization efforts. Platforms like&nbsp;
-        <Link id={`automated-ad-spend-optimization-dq-adobe-mix-modeler${idSuffix}`}
+        <Link id={`ad-spend-optimization-dq-adobe-mix-modeler${idSuffix}`}
         href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adobe-mix-modeler" className="text-[#0B162A] font-bold hover:underline">
         Adobe Mix Modeler
       </Link>&nbsp;offer advanced capabilities for anomaly detection, allowing marketers to refine their strategies based
@@ -75,8 +75,8 @@ export default function DataQualityAssessmentsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5"></div>
             <div className="col-span-7">
-              <h2 id="data-quality-assessments-integrity" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                Data Quality Assessments:
+              <h2 id="ai-data-quality-assessments-integrity" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                AI Data Quality Assessments:
               </h2>
             </div>
             <div className="col-span-12">
@@ -91,8 +91,8 @@ export default function DataQualityAssessmentsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5"></div>
             <div className="col-span-7">
-              <h2 id="data-quality-assessments-integrity-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                Data Quality Assessments:
+              <h2 id="ai-data-quality-assessments-integrity-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                AI Data Quality Assessments:
               </h2>
               {body("-lg")}
             </div>

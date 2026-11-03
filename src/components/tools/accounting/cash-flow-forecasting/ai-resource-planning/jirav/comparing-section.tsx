@@ -4,7 +4,7 @@ export default function ComparingSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Jirav is not just another name in a crowded field of intelligent resource planning software. It is built
+        Jirav is not just another name in a crowded field of AI resource planning software. It is built
         for small businesses that need to move past the limits of spreadsheets, disconnected accounting apps,
         and manual forecasting, but do not have the time or budget for a
         heavyweight&nbsp;ERP&nbsp;overhaul.
@@ -14,10 +14,10 @@ export default function ComparingSection() {
       <p className="text-base text-white shadow-text pt-3">
         Most small business owners in South Florida start their search with a shortlist that includes all-in-one
         ERPs like NetSuite, accounting-focused tools
-        like&nbsp;<Link id={`tools-accounting-intelligent-resource-planning-jirav-comparing-quickbooks${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/ai-resource-planning/quickbooks" className="text-[#0B162A] hover:underline">QuickBooks</Link>,
+        like&nbsp;<Link id={`tools-accounting-ai-resource-planning-jirav-comparing-quickbooks${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/ai-resource-planning/quickbooks" className="text-[#0B162A] hover:underline">QuickBooks</Link>,
         and spreadsheet replacement apps. Each has its own strengths, but also real tradeoffs when it comes
         to&nbsp;cash flow
-        forecasting&nbsp;and intelligent resource planning.</p>
+        forecasting&nbsp;and AI resource planning.</p>
       <p className="text-base text-white shadow-text pt-3">
         Traditional ERPs promise a single source of truth, but getting there is a long haul. Mapping your
         records into a

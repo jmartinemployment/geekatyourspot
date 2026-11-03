@@ -29,7 +29,7 @@ export default function OverviewSection() {
         can reallocate their efforts to areas that directly impact their bottom line, such as customer service
         or expansion efforts.</p>
       <p className="text-base text-white shadow-text pt-3">
-        For small businesses aiming to stay competitive, embracing automated spreadsheet data is not just an
+        For small businesses aiming to stay competitive, embracing AI spreadsheet data is not just an
         option but a necessity. It transforms the way financial data is handled, providing a clear, real-time
         view of cash flow status. This shift not only enhances accuracy and speed but also empowers business
         owners with the insights needed to make proactive and informed decisions. The days of playing catch-up

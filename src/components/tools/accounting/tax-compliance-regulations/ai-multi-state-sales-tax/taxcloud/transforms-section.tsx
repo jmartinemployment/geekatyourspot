@@ -63,7 +63,7 @@ export default function TransformsSection() {
         ready for any audit. The business can scale online and across state lines without adding headcount or
         risking compliance. Hours lost to compliance come back to the team. The anxiety of unknown obligations
         is replaced by the certainty of automated compliance. This is what it means to remove the pain of
-        Multi-State Sales Tax Nexus, not just with features, but with time and risk taken off the table.</p>
+        AI Multi-State Sales Tax, not just with features, but with time and risk taken off the table.</p>
     </>
   );
 
@@ -74,8 +74,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-taxcloud-removes-the-pain-of-multi-state-sales-tax-nexus-for-small-businesses" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How TaxCloud Removes the Pain of Multi-State Sales Tax Nexus for Small Businesses
+              <h2 id="how-taxcloud-removes-the-pain-of-ai-multi-state-sales-tax-for-small-businesses" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How TaxCloud Removes the Pain of AI Multi-State Sales Tax for Small Businesses
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
@@ -87,8 +87,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-taxcloud-removes-the-pain-of-multi-state-sales-tax-nexus-for-small-businesses-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How TaxCloud Removes the Pain of Multi-State Sales Tax Nexus for Small Businesses
+              <h2 id="how-taxcloud-removes-the-pain-of-ai-multi-state-sales-tax-for-small-businesses-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How TaxCloud Removes the Pain of AI Multi-State Sales Tax for Small Businesses
               </h2>
               {body}
             </div>

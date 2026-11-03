@@ -31,7 +31,7 @@ const jsonLd: Graph = {
             "datePublished": "2026-08-18T11:42:58.9278075Z",
             "dateModified": "2026-10-26T00:00:00.0000000Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Marketing Automation Platforms, MAP for small businesses, AI marketing automation, AI content planning, AI content generation, personalized email campaigns, lead enrichment and predictive scoring, Miami-Dade marketing automation, Broward marketing automation, Palm Beach marketing automation",
+            "keywords": "Marketing Automation Platforms, MAP for small businesses, AI marketing automation, AI content planning, AI content generation, AI personalized email campaigns, AI lead enrichment and predictive scoring, Miami-Dade marketing automation, Broward marketing automation, Palm Beach marketing automation",
             "hasPart": [
                 { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/marketing-automation-platforms/ai-content-planning" },
                 { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/marketing-automation-platforms/ai-content-generation" },
@@ -89,7 +89,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: TITLE,
         description: DESCRIPTION,
-        keywords: ["Marketing Automation Platforms", "MAP for small businesses", "AI marketing automation", "AI content planning", "AI content generation", "personalized email campaigns", "lead enrichment and predictive scoring", "Miami-Dade marketing automation", "Broward marketing automation", "Palm Beach marketing automation"],
+        keywords: ["Marketing Automation Platforms", "MAP for small businesses", "AI marketing automation", "AI content planning", "AI content generation", "AI personalized email campaigns", "AI lead enrichment and predictive scoring", "Miami-Dade marketing automation", "Broward marketing automation", "Palm Beach marketing automation"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

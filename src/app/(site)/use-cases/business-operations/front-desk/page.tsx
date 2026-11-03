@@ -15,7 +15,7 @@ import FAQSection from "@/components/use-cases/business-operations/front-desk/fa
 const SITE_URL = "https://geekatyourspot.com";
 const PAGE_TITLE = "Front Desk";
 const PAGE_DESCRIPTION =
-    "AI front desk systems for South Florida small businesses: AI receptionists and cross-platform chatbots that answer calls and messages, qualify leads, and book appointments in English and Spanish around the clock.";
+    "AI front desk systems for South Florida small businesses: AI receptionists and AI chatbots that answer calls and messages, qualify leads, and book appointments in English and Spanish around the clock.";
 const CANONICAL = "/use-cases/business-operations/front-desk";
 const PAGE_URL = `${SITE_URL}${CANONICAL}`;
 
@@ -29,7 +29,7 @@ const jsonLd: Graph = {
             "author": { "@type": "Organization", "url": SITE_URL, "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": SITE_URL, "name": "Geek @ Your Spot LLC" },
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "AI front desk, AI receptionist, cross-platform chatbot, AI voice agent, lead capture, appointment booking, South Florida small business, Miami-Dade, Broward, Palm Beach",
+            "keywords": "AI front desk, AI receptionist, AI chatbot, AI voice agent, lead capture, appointment booking, South Florida small business, Miami-Dade, Broward, Palm Beach",
             "mentions": [
                 { "@type": "Thing", "name": "Dapta", "url": "https://dapta.ai/" },
                 { "@type": "Thing", "name": "LobbyStack", "url": "https://lobbystack.com/" },
@@ -87,7 +87,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         keywords: [
             "AI front desk",
             "AI receptionist",
-            "cross-platform chatbot",
+            "AI chatbot",
             "AI voice agent",
             "lead capture",
             "appointment booking",

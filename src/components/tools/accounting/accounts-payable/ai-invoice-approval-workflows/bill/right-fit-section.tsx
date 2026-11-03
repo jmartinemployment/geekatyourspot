@@ -27,7 +27,7 @@ export default function RightFitSection() {
         manual errors.</p>
       <p className="text-base text-white shadow-text pt-3">
         Ultimately, the decision to implement Bill should be based on a thorough understanding of your
-        business&#39;s requirements and the potential efficiency gains. By leveraging the expertise of Geek @ Your Spot LLC, you can ensure a smooth transition to automated approval workflows, allowing your business
+        business&#39;s requirements and the potential efficiency gains. By leveraging the expertise of Geek @ Your Spot LLC, you can ensure a smooth transition to AI invoice approval workflows, allowing your business
         to focus on strategic growth initiatives.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when&nbsp;
@@ -50,7 +50,7 @@ export default function RightFitSection() {
         <li>Which types of invoices are most common: recurring bills, subcontractor invoices, inventory, utilities, rent, credit-card expenses, or project-related expenses?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
-        The figures on this page are Bill’s own, and our post <Link id={`tools-accounting-accounts-payable-automated-approval-workflows-bill-xlink-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-approval-workflows-transform-accounts-payable" className="text-[#C83803] hover:underline">Accounts Payable Approval Automation</Link> puts them in context. A 20% cut in manual entry and 99% accuracy on key invoice fields are what the vendor reports, and the post explains the manual habits those numbers depend on replacing, from invoices keyed into spreadsheets to follow-up emails that pile up unanswered and approvals that exist only in an email chain. Whether your monthly volume makes that return real is the question the assessment in our <Link id={`tools-accounting-accounts-payable-automated-approval-workflows-bill-xlink-pillar${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows" className="text-[#C83803] hover:underline">AI Invoice Approval Workflows</Link> guide answers, starting with a measurable goal and a data check before any plan is bought.</p>
+        The figures on this page are Bill’s own, and our post <Link id={`tools-accounting-accounts-payable-ai-invoice-approval-workflows-bill-xlink-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-approval-workflows-transform-accounts-payable" className="text-[#C83803] hover:underline">Accounts Payable Approval Automation</Link> puts them in context. A 20% cut in manual entry and 99% accuracy on key invoice fields are what the vendor reports, and the post explains the manual habits those numbers depend on replacing, from invoices keyed into spreadsheets to follow-up emails that pile up unanswered and approvals that exist only in an email chain. Whether your monthly volume makes that return real is the question the assessment in our <Link id={`tools-accounting-accounts-payable-ai-invoice-approval-workflows-bill-xlink-pillar${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows" className="text-[#C83803] hover:underline">AI Invoice Approval Workflows</Link> guide answers, starting with a measurable goal and a data check before any plan is bought.</p>
     </>
   );
 

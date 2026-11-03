@@ -3,7 +3,7 @@ export default function ComparingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Businesses shopping for an Intelligent Receptionist land in a crowded market. The choices break into
+        Businesses shopping for an AI Receptionist land in a crowded market. The choices break into
         three main camps: fully manual reception, pure AI-only systems, and hybrid models like Smith.ai. Each
         comes with its own promises and tradeoffs, but the real-world results for small businesses in South
         Florida often look very different from the marketing claims.</p>

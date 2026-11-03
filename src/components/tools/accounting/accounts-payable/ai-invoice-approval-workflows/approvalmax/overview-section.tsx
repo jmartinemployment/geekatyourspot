@@ -22,7 +22,7 @@ export default function OverviewSection() {
         enhances supplier relationships.</p>
       <p className="text-base text-white shadow-text pt-3">
         For small enterprises looking to leverage&nbsp;
-        <GlossaryLink slug="ai">AI</GlossaryLink>, adopting automated approval workflows can transform how
+        <GlossaryLink slug="ai">AI</GlossaryLink>, adopting AI invoice approval workflows can transform how
         they manage accounts payable. It allows business owners to focus on what truly matters: growing their
         business. By delegating routine approval tasks to an automated solution, teams can redirect their
         efforts towards strategic initiatives, driving innovation and efficiency. As illustrated by Paddle

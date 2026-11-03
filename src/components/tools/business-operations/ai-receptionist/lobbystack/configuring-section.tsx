@@ -63,7 +63,7 @@ export default function ConfiguringSection() {
         paying for a custom development cycle. For teams with strict data requirements or
         complex&nbsp;<GlossaryLink slug="call-routing" className="text-[#0B162A] hover:underline">call routing</GlossaryLink>&nbsp;needs, the open-source
         extension model means nothing is off limits. You own the logic, the data, and the outcome. That is the
-        difference between a true Intelligent Receptionist and
+        difference between a true AI Receptionist and
         another&nbsp;SaaS&nbsp;answering service.</p>
     </>
   );

@@ -57,7 +57,7 @@ export default function EvaluatingSection() {
         threshold monitoring, and delivers instant, audit-ready reports. The pricing model is published,
         transparent, and scales as you grow. The platform is not built for massive inventory or deep logistics
         needs, but for most growing businesses in Miami-Dade, Broward, and Palm Beach, it is a direct fit for
-        the realities of Multi-State Sales Tax Nexus.</p>
+        the realities of AI Multi-State Sales Tax.</p>
     </>
   );
 

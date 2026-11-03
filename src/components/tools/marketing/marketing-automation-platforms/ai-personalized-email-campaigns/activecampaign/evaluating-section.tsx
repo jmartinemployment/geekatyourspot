@@ -8,7 +8,7 @@ export default function EvaluatingSection() {
         budget, and whether its automation depth is what you need. The platform is built for small to mid-sized
         businesses that want to automate personalized follow-up without hiring more staff or building custom
         software. Its pricing is tiered, with a CRM add-on available starting at $50 per month, so costs scale with
-        the features and volume you need (<a id={`tools-marketing-personalized-email-campaigns-activecampaign-evaluating-source-activecampaign-com${idSuffix}`} href="https://www.activecampaign.com/compare/campaign-monitor" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">ActiveCampaign</a>,
+        the features and volume you need (<a id={`tools-marketing-ai-personalized-email-campaigns-activecampaign-evaluating-source-activecampaign-com${idSuffix}`} href="https://www.activecampaign.com/compare/campaign-monitor" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">ActiveCampaign</a>,
         as of Oct 26, 2026).</p>
       <p className="text-base text-white shadow-text pt-3">
         To know if ActiveCampaign is a good fit, look at your current sales and marketing process. If you are losing
@@ -30,7 +30,7 @@ export default function EvaluatingSection() {
         code and connect to the tools you already use is a key advantage.</p>
       <p className="text-base text-white shadow-text pt-3">
         On pricing, the main decision is which features you need now and which can wait. The CRM add-on, at $50 per
-        month, unlocks advanced sales automation and pipeline management (<a id={`tools-marketing-personalized-email-campaigns-activecampaign-evaluating-source-activecampaign-com-2${idSuffix}`} href="https://www.activecampaign.com/compare/campaign-monitor" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">ActiveCampaign</a>,
+        month, unlocks advanced sales automation and pipeline management (<a id={`tools-marketing-ai-personalized-email-campaigns-activecampaign-evaluating-source-activecampaign-com-2${idSuffix}`} href="https://www.activecampaign.com/compare/campaign-monitor" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">ActiveCampaign</a>,
         as of Oct 26, 2026). If your business is focused only on basic email marketing, you may not need the full
         CRM immediately. However, most businesses that want true personalized email campaigns find the integrated
         CRM and automation worth the investment, because it keeps all your data and follow-up in one place.</p>

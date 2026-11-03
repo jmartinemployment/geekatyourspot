@@ -47,7 +47,7 @@ export default function DataMappingSection() {
         learn from the full customer journey, not just immediate conversions.</p>
       <p className="text-base text-white shadow-text pt-3">
         The last mapping decision is how frequently to sync data. Cometly recommends sending conversion data back to
-        platforms within 24 to 48 hours of the event (<a id={`tools-marketing-precision-lead-acquisition-cometly-data-mapping-source-cometly-com${idSuffix}`} href="https://www.cometly.com/post/centralized-ad-performance-dashboard" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Cometly</a>,
+        platforms within 24 to 48 hours of the event (<a id={`tools-marketing-ai-precision-lead-acquisition-cometly-data-mapping-source-cometly-com${idSuffix}`} href="https://www.cometly.com/post/centralized-ad-performance-dashboard" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Cometly</a>,
         as of Oct 29, 2026). This timing keeps platform algorithms up to date and ensures your budget allocation
         decisions are based on the latest results, not last week&rsquo;s numbers. Setting up automated syncs prevents
         lags and removes the need for manual uploads.</p>

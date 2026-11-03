@@ -3,7 +3,7 @@ export default function DataMappingSection() {
     <>
       <p className="text-base text-white shadow-text pt-3">
         The data structure and mapping choices you make at the start of a Moosend deployment set the ceiling for
-        what your Personalized Email Campaigns can achieve. Getting this right means your automations, segments, and
+        what your AI Personalized Email Campaigns can achieve. Getting this right means your automations, segments, and
         reporting work as planned, without manual fixes later.</p>
       <p className="text-base text-white shadow-text pt-3">
         Moosend’s automation and segmentation depend on having the right fields and tags in your contact records. At

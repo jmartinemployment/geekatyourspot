@@ -27,7 +27,7 @@ export default function ImplementingSection() {
       <p className="text-base text-white shadow-text pt-3">
         A phased rollout is the safest way to go live for most small teams. Mailchimp’s free plan allows you to
         validate your campaigns with up to 250 contacts and 500 sends per month, making it practical to test
-        messaging, timing, and segmentation on a small group before scaling (<a id={`tools-marketing-personalized-email-campaigns-mailchimp-implementing-source-mailchimp-com${idSuffix}`} href="https://mailchimp.com/pricing/marketing/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Mailchimp</a>,
+        messaging, timing, and segmentation on a small group before scaling (<a id={`tools-marketing-ai-personalized-email-campaigns-mailchimp-implementing-source-mailchimp-com${idSuffix}`} href="https://mailchimp.com/pricing/marketing/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Mailchimp</a>,
         as of Oct 25, 2026). If you hit the free plan’s limits, Mailchimp pauses sending but does not lock you out
         of the platform, giving you time to adjust before moving to a paid tier. This avoids the sudden price jumps
         or forced migrations that can derail a rollout with other tools.</p>

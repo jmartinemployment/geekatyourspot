@@ -31,7 +31,7 @@ export default function AutomatesSection() {
         The architecture of Approvalmax is designed to be user-friendly and intuitive, making it accessible
         to businesses of all sizes. With its drag-and-drop interface, users can easily configure approval
         workflows to match their organizational structure. This flexibility allows businesses to adapt the
-        platform to their specific needs, ensuring that the automated approval workflows align with their
+        platform to their specific needs, ensuring that the AI invoice approval workflows align with their
         existing processes and policies.</p>
       <p className="text-base text-white shadow-text pt-3">
         In summary, Approvalmax provides a robust solution for automating approval workflows, offering

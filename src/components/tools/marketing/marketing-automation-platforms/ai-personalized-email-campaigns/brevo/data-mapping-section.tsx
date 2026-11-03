@@ -23,7 +23,7 @@ export default function DataMappingSection() {
         Segmentation is only as strong as your data structure. Brevo’s segmentation engine groups contacts by any
         attribute: demographics, engagement history, purchase behavior, or even a combination of several fields. For
         instance, you might want to target “contacts who booked an appointment in the last 30 days and have not
-        opened the last two emails (<a id={`tools-marketing-personalized-email-campaigns-brevo-data-mapping-source-brevo-com${idSuffix}`} href="https://www.brevo.com/integrations/airtable/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Brevo</a>,
+        opened the last two emails (<a id={`tools-marketing-ai-personalized-email-campaigns-brevo-data-mapping-source-brevo-com${idSuffix}`} href="https://www.brevo.com/integrations/airtable/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Brevo</a>,
         as of Oct 26, 2026).” This is only possible if your data is mapped to capture appointment dates and email
         engagement. The more precise your data, the more relevant your campaigns.</p>
       <p className="text-base text-white shadow-text pt-3">

@@ -3,7 +3,7 @@ export default function ChallengesSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Small businesses in South Florida run into Multi-State Sales Tax Nexus before they are ready.
+        Small businesses in South Florida run into AI Multi-State Sales Tax before they are ready.
         A&nbsp;SaaS&nbsp;founder in Miami-Dade lands a customer in
         Texas, then another in New York, and the numbers look good, until the Friday afternoon scramble to check
         if the business has crossed a sales tax threshold somewhere new. This is not a hypothetical. Crossing

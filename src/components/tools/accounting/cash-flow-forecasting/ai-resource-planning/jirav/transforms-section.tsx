@@ -5,7 +5,7 @@ export default function TransformsSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Jirav takes the manual, error-prone steps out of intelligent resource planning by connecting all your
+        Jirav takes the manual, error-prone steps out of AI resource planning by connecting all your
         key financial and operational data into a single, live platform. Instead of waiting for the month to
         close and then patching together numbers, your team sees real-time updates as soon as sales are booked,
         payroll is run, or bills are paid. This means the business owner and the team can make decisions based
@@ -23,7 +23,7 @@ export default function TransformsSection() {
         data twice. Invoices, payments, and payroll details flow automatically into your forecasts and
         dashboards. This eliminates double data entry, reduces the risk of human error, and frees up staff to
         focus on analysis and action instead of data wrangling. The platform supports over 200 integrations,
-        including QuickBooks, NetSuite, Sage Intacct,&nbsp;<Link id={`tools-accounting-intelligent-resource-planning-jirav-transforms-adp${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/ai-payroll-tax/adp" className="text-[#0B162A] hover:underline">ADP</Link>, Paychex, Salesforce, and HubSpot, so it fits into the
+        including QuickBooks, NetSuite, Sage Intacct,&nbsp;<Link id={`tools-accounting-ai-resource-planning-jirav-transforms-adp${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/ai-payroll-tax/adp" className="text-[#0B162A] hover:underline">ADP</Link>, Paychex, Salesforce, and HubSpot, so it fits into the
         systems most small businesses in South Florida already use.</p>
       <p className="text-base text-white shadow-text pt-3">
         Rolling forecasts are another area where Jirav changes the game. Rather than relying on a fixed annual
@@ -78,7 +78,7 @@ export default function TransformsSection() {
       <p className="text-base text-white shadow-text pt-3">
         Jirav does not just make the work easier; it makes it possible to do more with less. By automating the
         flow of data and removing manual steps, it gives back time, reduces errors, and lets small businesses in
-        South Florida plan and grow with confidence. Intelligent Resource Planning is not just a buzzword here,
+        South Florida plan and grow with confidence. AI Resource Planning is not just a buzzword here,
         it is a practical, daily reality that frees up your team to focus on what matters most.</p>
     </>
   );
@@ -90,8 +90,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-jirav-removes-the-manual-burden-from-intelligent-resource-planning" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How Jirav Removes the Manual Burden from Intelligent Resource Planning
+              <h2 id="how-jirav-removes-the-manual-burden-from-ai-resource-planning" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How Jirav Removes the Manual Burden from AI Resource Planning
               </h2>
             </div>
             <div className="col-span-12">{body()}</div>
@@ -103,8 +103,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-jirav-removes-the-manual-burden-from-intelligent-resource-planning-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How Jirav Removes the Manual Burden from Intelligent Resource Planning
+              <h2 id="how-jirav-removes-the-manual-burden-from-ai-resource-planning-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How Jirav Removes the Manual Burden from AI Resource Planning
               </h2>
               {body("-lg")}
             </div>

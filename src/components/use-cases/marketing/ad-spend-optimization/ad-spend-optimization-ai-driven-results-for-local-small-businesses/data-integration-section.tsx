@@ -26,7 +26,7 @@ export default function DataIntegrationSection() {
         For local businesses, data quality is not just about accuracy, it is about context. LocaliQ solves for the
         spread of leads across multiple channels (calls, forms, chats) by unifying every touchpoint into a central
         dashboard. This is critical if you want to know whether your spend on social ads is driving phone calls, or if
-        that $15-a-day Google campaign is just attracting out-of-town clicks (<a id={`use-cases-marketing-precision-lead-acquisition-data-integration-source-cometly-com${idSuffix}`} href="https://www.cometly.com/post/attribution-for-multiple-ad-accounts" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Cometly</a>,
+        that $15-a-day Google campaign is just attracting out-of-town clicks (<a id={`use-cases-marketing-ai-precision-lead-acquisition-data-integration-source-cometly-com${idSuffix}`} href="https://www.cometly.com/post/attribution-for-multiple-ad-accounts" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Cometly</a>,
         as of Oct 29, 2026). LocaliQ&rsquo;s geofencing and smart-radius targeting keep your spend focused strictly on
         your real service area, while its call and form tracking ensures you know which channel produced each
         inquiry.</p>
@@ -42,7 +42,7 @@ export default function DataIntegrationSection() {
         manual keyword and bid management by deploying automated scripts that not only pause underperforming keywords,
         but also monitor for issues like broken landing pages or competitor bid spikes. This means the system does not
         wait for a human to spot a problem. Bir raises the bar with rules that check your campaigns every 15 minutes,
-        instantly pausing outliers and scaling up winners before you lose a day&rsquo;s worth of budget (<a id={`use-cases-marketing-precision-lead-acquisition-data-integration-source-bir-ch${idSuffix}`} href="https://bir.ch/case-studies/nothink" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Bir</a>,
+        instantly pausing outliers and scaling up winners before you lose a day&rsquo;s worth of budget (<a id={`use-cases-marketing-ai-precision-lead-acquisition-data-integration-source-bir-ch${idSuffix}`} href="https://bir.ch/case-studies/nothink" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Bir</a>,
         as of Oct 25, 2026). Its cross-channel logic can move spend between platforms based on real-time performance,
         not just static rules.</p>
       <p className="text-base text-white shadow-text pt-3">

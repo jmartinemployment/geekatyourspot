@@ -56,7 +56,7 @@ export default function RightFitSection() {
         account structure, identify where you are losing hours or missing spend leaks, and assess whether
         Adzooma&rsquo;s unified approach matches your goals.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Answer these questions when <a id={`tools-marketing-precision-lead-acquisition-adzooma-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        Answer these questions when <a id={`tools-marketing-ai-precision-lead-acquisition-adzooma-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>What do you sell, and what action should an ad produce, a phone call, appointment, quote request, store visit, or online purchase?</li>

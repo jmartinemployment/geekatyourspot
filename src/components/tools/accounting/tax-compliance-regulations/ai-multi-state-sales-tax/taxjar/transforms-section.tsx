@@ -5,7 +5,7 @@ export default function TransformsSection() {
     <>
       <p className="text-base text-white shadow-text pt-3">
         TaxJar is built for the moment when tracking sales tax by hand stops working. It does not just automate
-        a few reports; it takes the full burden of Multi-State Sales Tax Nexus and moves it out of your daily
+        a few reports; it takes the full burden of AI Multi-State Sales Tax and moves it out of your daily
         routine. For a small team, this is the difference between spending Friday afternoon chasing down tax
         rates and spending it closing new sales.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -70,7 +70,7 @@ export default function TransformsSection() {
         calculations, AI-driven categorization, and address-level accuracy mean that errors are caught before
         they cost you money. The system is always up to date with the latest laws, so you do not have to be.
         Every hour you used to spend on compliance is an hour returned to your business. That is what it means
-        to remove Multi-State Sales Tax Nexus from your week.</p>
+        to remove AI Multi-State Sales Tax from your week.</p>
     </>
   );
 
@@ -81,8 +81,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-taxjar-removes-multi-state-sales-tax-nexus-from-your-week" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How TaxJar Removes Multi-State Sales Tax Nexus From Your Week
+              <h2 id="how-taxjar-removes-ai-multi-state-sales-tax-from-your-week" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How TaxJar Removes AI Multi-State Sales Tax From Your Week
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
@@ -94,8 +94,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-taxjar-removes-multi-state-sales-tax-nexus-from-your-week-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How TaxJar Removes Multi-State Sales Tax Nexus From Your Week
+              <h2 id="how-taxjar-removes-ai-multi-state-sales-tax-from-your-week-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How TaxJar Removes AI Multi-State Sales Tax From Your Week
               </h2>
               {body}
             </div>

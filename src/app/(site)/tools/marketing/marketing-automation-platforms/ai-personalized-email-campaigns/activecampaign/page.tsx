@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "ActiveCampaign";
-const PAGE_TITLE = "ActiveCampaign for Personalized Email Campaigns";
+const PAGE_TITLE = "ActiveCampaign for AI Personalized Email Campaigns";
 const DESCRIPTION =
-    "Personalized Email Campaigns with ActiveCampaign increase response rates and save hours weekly for Miami-area small businesses. Start automating today.";
+    "AI Personalized Email Campaigns with ActiveCampaign increase response rates and save hours weekly for Miami-area small businesses. Start automating today.";
 const CANONICAL = "/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/activecampaign";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "ActiveCampaign, personalized email campaigns, AI email marketing automation, email segmentation, open rates, South Florida small business",
+            "keywords": "ActiveCampaign, AI personalized email campaigns, AI email marketing automation, email segmentation, open rates, South Florida small business",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-26T15:29:26.2995230Z",
@@ -66,7 +66,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["ActiveCampaign", "personalized email campaigns", "AI email marketing automation", "email segmentation", "open rates", "South Florida small business"],
+        keywords: ["ActiveCampaign", "AI personalized email campaigns", "AI email marketing automation", "email segmentation", "open rates", "South Florida small business"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

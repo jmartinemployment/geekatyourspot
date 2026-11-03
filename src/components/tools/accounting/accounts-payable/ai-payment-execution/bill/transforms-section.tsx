@@ -3,7 +3,7 @@ export default function TransformsSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Bill revolutionizes Automated Payment Execution by removing the manual tasks that traditionally burden
+        Bill revolutionizes AI Payment Execution by removing the manual tasks that traditionally burden
         small businesses. With Bill, the approval of invoices no longer means additional manual work for your
         team. Instead, it connects approval, vendor payment, and accounting updates into one seamless process.
         This means fewer hours spent on repetitive tasks and more time for strategic initiatives.</p>
@@ -48,8 +48,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bill-transforms-automated-payment-execution">
-                How Bill Transforms Automated Payment Execution
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bill-transforms-ai-payment-execution">
+                How Bill Transforms AI Payment Execution
               </h2>
             </div>
             <div className="col-span-12">{body()}</div>
@@ -61,8 +61,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bill-transforms-automated-payment-execution-lg">
-                How Bill Transforms Automated Payment Execution
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bill-transforms-ai-payment-execution-lg">
+                How Bill Transforms AI Payment Execution
               </h2>
               {body("-lg")}
             </div>

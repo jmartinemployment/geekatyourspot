@@ -23,7 +23,7 @@ export default function ImplementingSection() {
         you into a single format. Instead, you select from ready-made templates for blog posts, landing pages,
         social updates, and email campaigns. These templates come pre-wired with the right structure for both
         SEO and AI search visibility: headings, schema markup, FAQs, and internal links. For teams that need
-        review and sign-off before anything goes live, Writesonic supports automated approval workflows. This
+        review and sign-off before anything goes live, Writesonic supports AI invoice approval workflows. This
         means a manager or owner can review drafts in the platform and approve or request changes before
         publishing. The result is a controlled process that does not slow you down.</p>
       <p className="text-base text-white shadow-text pt-3">

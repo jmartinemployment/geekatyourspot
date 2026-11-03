@@ -59,11 +59,11 @@ export default function TransformsSection() {
         triggers.</p>
       <p className="text-base text-white shadow-text pt-3">
         The results are clear in the time and effort saved. Cocosolis, a beauty brand managing over twenty ad accounts,
-        saved up to 102 hours of manual work each month after switching to Bir (<a id={`tools-marketing-precision-lead-acquisition-bir-transforms-source-cocosolis${idSuffix}`} href="https://bir.ch/case-studies/cocosolis" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Bir</a>,
+        saved up to 102 hours of manual work each month after switching to Bir (<a id={`tools-marketing-ai-precision-lead-acquisition-bir-transforms-source-cocosolis${idSuffix}`} href="https://bir.ch/case-studies/cocosolis" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Bir</a>,
         as of Oct 25, 2026). Webtopia scaled ad spend from $1,000 a day to $30,000 a day by using structured automation
-        to adjust budgets and pause underperformers without manual checks (<a id={`tools-marketing-precision-lead-acquisition-bir-transforms-source-webtopia${idSuffix}`} href="https://bir.ch/case-studies/webtopia" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Bir</a>,
+        to adjust budgets and pause underperformers without manual checks (<a id={`tools-marketing-ai-precision-lead-acquisition-bir-transforms-source-webtopia${idSuffix}`} href="https://bir.ch/case-studies/webtopia" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Bir</a>,
         as of Oct 25, 2026). Loop Earplugs saw campaign scaling speed up by 200 percent, with budgets and bids adjusted
-        in real time to match performance (<a id={`tools-marketing-precision-lead-acquisition-bir-transforms-source-loop-earplugs${idSuffix}`} href="https://bir.ch/case-studies/loop-earplugs" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Bir</a>,
+        in real time to match performance (<a id={`tools-marketing-ai-precision-lead-acquisition-bir-transforms-source-loop-earplugs${idSuffix}`} href="https://bir.ch/case-studies/loop-earplugs" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Bir</a>,
         as of Oct 25, 2026).</p>
       <blockquote cite="https://bir.ch/case-studies/webtopia" className="mt-3 border-l-4 border-white/60 pl-4 italic text-base text-white shadow-text">
         Birch is a safety net that runs in the background ensuring nothing goes wrong with your account at any time of

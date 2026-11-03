@@ -7,7 +7,7 @@ export default function HowItWorksSection() {
         Automating accounts payable transforms an inefficient process into a streamlined workflow that
         enhances accuracy, speed, and control. The journey begins with automated data capture, a technology
         that extracts invoice details using tools like&nbsp;
-        <Link id={`use-cases-accounting-automated-data-entry-processing-how-it-works-dext${idSuffix}`}
+        <Link id={`use-cases-accounting-ai-data-entry-processing-how-it-works-dext${idSuffix}`}
           href="/tools/accounting/accounts-payable/ai-data-entry-processing/dext" className="text-[#0B162A] hover:underline">
           Dext
         </Link>. This tool converts paper invoices into digital formats and extracts essential data points,
@@ -15,7 +15,7 @@ export default function HowItWorksSection() {
         ensuring that information is both accurate and instantly available to the finance team.</p>
       <p className="text-base text-white shadow-text pt-3">
         Once data is captured, it moves to the processing phase. Here, tools like&nbsp;
-        <Link id={`use-cases-accounting-automated-data-entry-processing-how-it-works-stampli${idSuffix}`}
+        <Link id={`use-cases-accounting-ai-data-entry-processing-how-it-works-stampli${idSuffix}`}
           href="/tools/accounting/accounts-payable/ai-invoice-approval-workflows/stampli" className="text-[#0B162A] hover:underline">
           Stampli
         </Link>&nbsp;take over by automating the&nbsp;<Link id={`use-cases-accounting-data-entry-how-it-works-approval-workflows${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows" className="text-[#0B162A] hover:underline">approval workflow</Link>. Stampli routes invoices to the right
@@ -25,7 +25,7 @@ export default function HowItWorksSection() {
         purposes.</p>
       <p className="text-base text-white shadow-text pt-3">
         After approval, the process moves to&nbsp;<Link id={`use-cases-accounting-data-entry-how-it-works-payment-execution${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-payment-execution" className="text-[#0B162A] hover:underline">payment execution</Link>. Solutions like&nbsp;
-        <Link id={`use-cases-accounting-automated-data-entry-processing-how-it-works-avidxchange${idSuffix}`}
+        <Link id={`use-cases-accounting-ai-data-entry-processing-how-it-works-avidxchange${idSuffix}`}
           href="/tools/accounting/accounts-payable/ai-data-entry-processing/avidxchange" className="text-[#0B162A] hover:underline">
           AvidXchange
         </Link>&nbsp;ensure payments are processed securely and efficiently. AvidXchange offers multiple
@@ -34,7 +34,7 @@ export default function HowItWorksSection() {
         adding a layer of security to the process.</p>
       <p className="text-base text-white shadow-text pt-3">
         Finally, the integration with accounting software, facilitated by tools like&nbsp;
-        <Link id={`use-cases-accounting-automated-data-entry-processing-how-it-works-bill${idSuffix}`}
+        <Link id={`use-cases-accounting-ai-data-entry-processing-how-it-works-bill${idSuffix}`}
           href="/tools/accounting/accounts-payable/ai-data-entry-processing/bill" className="text-[#0B162A] hover:underline">
           Bill
         </Link>, ensures that all transaction data is seamlessly updated in the company&#39;s financial

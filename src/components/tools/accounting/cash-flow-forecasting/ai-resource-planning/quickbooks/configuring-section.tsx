@@ -4,7 +4,7 @@ export default function ConfiguringSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Every QuickBooks deployment for Intelligent Resource Planning stands or falls on the rules and
+        Every QuickBooks deployment for AI Resource Planning stands or falls on the rules and
         automation logic put in place at the start. For a small business in Miami-Dade, Broward, or West Palm
         Beach, this is not just a matter of checking boxes in a setup wizard. The difference between a system
         that saves hours and one that adds headaches is in how those rules match the way your team already
@@ -67,7 +67,7 @@ export default function ConfiguringSection() {
         but does not build custom code inside QuickBooks itself. This keeps the environment stable, supportable,
         and within the boundaries of what QuickBooks guarantees will work.</p>
       <p className="text-base text-white shadow-text pt-3">
-        In summary, configuring QuickBooks for Intelligent Resource Planning is about setting up the right
+        In summary, configuring QuickBooks for AI Resource Planning is about setting up the right
         rules, permissions, and automation logic to fit your business. It is not a blank slate for coding, but a
         robust set of tools that, when mapped to your real workflow, remove hours of manual work and close the
         gaps that spreadsheets and generic setups leave open.</p>

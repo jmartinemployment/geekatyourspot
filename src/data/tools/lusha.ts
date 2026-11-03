@@ -12,7 +12,7 @@ export const lushaContent: ToolPageContent = {
   "department": "marketing",
   "useCase": "marketing-automation-platforms/ai-lead-enrichment-predictive-scoring",
   "description":
-    "Lead Enrichment and Predictive Scoring with Lusha help Miami-area small businesses identify, qualify, and connect with the right prospects fast.",
+    "AI Lead Enrichment and Predictive Scoring with Lusha help Miami-area small businesses identify, qualify, and connect with the right prospects fast.",
   "heroSummary":
     "Lusha empowers small teams in South Florida to identify and engage real decision-makers by enriching lead data and scoring prospects for sales-readiness. Quickly connect with verified contacts and skip the dead ends.",
   "keywords":
@@ -24,7 +24,7 @@ export const lushaContent: ToolPageContent = {
   "sections": [
     {"title": "Overview", "description": "Picture a small sales team in Miami-Dade, working the phones from a cramped office, list of prospects on the desk."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "Every small business in South Florida knows the feeling: you have a list of prospects, but most of your day is spent leaving voicemails, getting blocked by receptionists, or waiting for a reply that never comes."},
-    {"title": "How Lusha Removes the Busywork from Lead Enrichment and Predictive Scoring", "description": "Lusha is built for small teams who cannot afford to waste time."},
+    {"title": "How Lusha Removes the Busywork from AI Lead Enrichment and Predictive Scoring", "description": "Lusha is built for small teams who cannot afford to waste time."},
     {"title": "Step-by-Step: How Lusha Actually Delivers Verified Leads and Predictive Scores", "description": "Lusha works by stripping the guesswork and dead time out of lead enrichment and predictive scoring."},
     {"title": "Inside Lusha: The Data Architecture, Integrations, and What It Holds", "description": "Lusha’s architecture is built to connect directly into the heart of your sales stack, making sure that enriched data, predictive scores, and buying signals flow seamlessly from its own databases into your CRM, outreach tools, and marketing platforms."},
     {"title": "What It Takes to Go Live with Lusha in a Real Sales Stack", "description": "Getting Lusha up and running inside a small business sales workflow is not a long, drawn-out project."},

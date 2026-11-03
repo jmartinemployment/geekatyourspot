@@ -23,7 +23,7 @@ export default function RightFitSection() {
       <p className="text-base text-white shadow-text pt-3">
         Ultimately, businesses should weigh the benefits of automation against their current processes and consider
         the long-term impact on efficiency and cash flow. Invoiced provides a robust solution for those looking to
-        streamline their automated accounts receivable operations, but it&#39;s crucial to ensure it aligns with the
+        streamline their AI accounts receivable operations, but it&#39;s crucial to ensure it aligns with the
         company&#39;s overall financial strategy.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when&nbsp;
@@ -40,7 +40,7 @@ export default function RightFitSection() {
         <li>How does forecasting integration optimize collection strategies?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
-        Invoiced’s case rests on follow-up emails that match each client’s payment history, and our post <Link id={`tools-accounting-cash-flow-forecasting-automated-accounts-receivable-invoiced-xlink-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/how-automated-accounts-receivable-can-transform-your-cash-flow" className="text-[#C83803] hover:underline">Automated Receivables and Cash Flow</Link> describes how that humanized cadence keeps reminders professional while collections speed up. The post is also clear that automation leaves disputes, payment discrepancies and client-specific terms for a person to resolve, which is work Invoiced’s sequences hand back to your team rather than remove. For the technology, healthcare and professional services firms Invoiced suits, the data check and the stakeholder training in our <Link id={`tools-accounting-cash-flow-forecasting-automated-accounts-receivable-invoiced-xlink-pillar${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable" className="text-[#C83803] hover:underline">AI Accounts Receivable</Link> guide decide who owns those exceptions before the first sequence is switched on.</p>
+        Invoiced’s case rests on follow-up emails that match each client’s payment history, and our post <Link id={`tools-accounting-cash-flow-forecasting-ai-accounts-receivable-invoiced-xlink-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/how-automated-accounts-receivable-can-transform-your-cash-flow" className="text-[#C83803] hover:underline">Automated Receivables and Cash Flow</Link> describes how that humanized cadence keeps reminders professional while collections speed up. The post is also clear that automation leaves disputes, payment discrepancies and client-specific terms for a person to resolve, which is work Invoiced’s sequences hand back to your team rather than remove. For the technology, healthcare and professional services firms Invoiced suits, the data check and the stakeholder training in our <Link id={`tools-accounting-cash-flow-forecasting-ai-accounts-receivable-invoiced-xlink-pillar${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable" className="text-[#C83803] hover:underline">AI Accounts Receivable</Link> guide decide who owns those exceptions before the first sequence is switched on.</p>
     </>
   );
 

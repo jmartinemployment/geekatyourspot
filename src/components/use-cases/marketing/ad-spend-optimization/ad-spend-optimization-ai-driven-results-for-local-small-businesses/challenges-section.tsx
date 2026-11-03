@@ -19,7 +19,7 @@ export default function ChallengesSection() {
         counted twice because Meta and Google both claim credit for the same lead. This is not an edge case; it is the
         default for most ad accounts that are set up without a dedicated server-side tracking pixel and rigorous
         deduplication. The result is a kind of phantom performance: campaigns look like they are working, but the real
-        sales never materialize. <Link id={`use-cases-marketing-precision-lead-acquisition-challenges-cometly${idSuffix}`} href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/cometly" className="text-[#C83803] hover:underline">Cometly</Link> addresses
+        sales never materialize. <Link id={`use-cases-marketing-ai-precision-lead-acquisition-challenges-cometly${idSuffix}`} href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/cometly" className="text-[#C83803] hover:underline">Cometly</Link> addresses
         this by tying every click back to a real, verified conversion, but most businesses are still flying blind.</p>
       <p className="text-base text-white shadow-text pt-3">
         Budget allocation is the next breakdown. Without a process for regular, structured review, ad spend drifts.
@@ -27,7 +27,7 @@ export default function ChallengesSection() {
         real winners are left capped at low budgets, while lagging campaigns keep spending unchecked. Manual
         adjustments made on a hunch, like doubling down on a campaign because its dashboard looked good that morning,
         often push the account into instability, tripping the platform&rsquo;s learning phase and wiping out weeks of
-        progress. <Link id={`use-cases-marketing-precision-lead-acquisition-challenges-bir${idSuffix}`} href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/bir" className="text-[#C83803] hover:underline">Bir</Link>&rsquo;s
+        progress. <Link id={`use-cases-marketing-ai-precision-lead-acquisition-challenges-bir${idSuffix}`} href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/bir" className="text-[#C83803] hover:underline">Bir</Link>&rsquo;s
         automation scripts were built to step in here, running checks every fifteen minutes, scaling up top performers
         only when conditions are met, and pausing drainers instantly. But in most accounts, these guardrails do not
         exist.</p>
@@ -35,27 +35,27 @@ export default function ChallengesSection() {
         Cross-channel decision-making is broken by default. Most small businesses run Google Ads and Meta campaigns in
         silos, reviewing each in its own tab, with no system for blending the data or making allocation calls based on
         unified results. This leads to double-spending, paying for the same customer on both platforms, or missing the
-        fact that all the conversions are coming from one channel. <Link id={`use-cases-marketing-precision-lead-acquisition-challenges-triplewhale${idSuffix}`} href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/triplewhale" className="text-[#C83803] hover:underline">Triplewhale</Link> addresses
+        fact that all the conversions are coming from one channel. <Link id={`use-cases-marketing-ai-precision-lead-acquisition-challenges-triplewhale${idSuffix}`} href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/triplewhale" className="text-[#C83803] hover:underline">Triplewhale</Link> addresses
         this by deduplicating and blending financial outcomes, but most teams do not have that level of reporting. They
         end up funding the loudest dashboard, not the best-performing channel.</p>
       <p className="text-base text-white shadow-text pt-3">
         Data quality blocks every other fix. If you cannot trust your numbers, you cannot optimize. Most teams never
         validate their tracking setup. They do not know if their pixels are firing, if their <GlossaryLink slug="utm-parameters">UTM
         parameters</GlossaryLink> are consistent, or if their CRM is actually capturing the leads that came from paid
-        ads. Without automated validation, like the routines <Link id={`use-cases-marketing-precision-lead-acquisition-challenges-wask${idSuffix}`} href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/wask" className="text-[#C83803] hover:underline">Wask</Link> and <Link id={`use-cases-marketing-precision-lead-acquisition-challenges-plai${idSuffix}`} href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/plai" className="text-[#C83803] hover:underline">Plai</Link> can
+        ads. Without automated validation, like the routines <Link id={`use-cases-marketing-ai-precision-lead-acquisition-challenges-wask${idSuffix}`} href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/wask" className="text-[#C83803] hover:underline">Wask</Link> and <Link id={`use-cases-marketing-ai-precision-lead-acquisition-challenges-plai${idSuffix}`} href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/plai" className="text-[#C83803] hover:underline">Plai</Link> can
         run, errors go unnoticed for months. Budgets are set based on bad data, and optimization becomes a guessing
         game.</p>
       <p className="text-base text-white shadow-text pt-3">
         Even when the data is right, the workflow to act on it is missing. Owners and teams get lost in dashboard
         fatigue, jumping between platforms, exporting spreadsheets, and trying to piece together what is actually
         working. There is no single place to see what needs action, no alerts to flag waste, and no process to pause or
-        scale campaigns based on real results. <Link id={`use-cases-marketing-precision-lead-acquisition-challenges-adzooma${idSuffix}`} href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adzooma" className="text-[#C83803] hover:underline">Adzooma</Link> was
+        scale campaigns based on real results. <Link id={`use-cases-marketing-ai-precision-lead-acquisition-challenges-adzooma${idSuffix}`} href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adzooma" className="text-[#C83803] hover:underline">Adzooma</Link> was
         designed to unify this, but most small businesses are still stuck in scattered views and manual reporting. The
         outcome is slow reaction times and more waste.</p>
       <p className="text-base text-white shadow-text pt-3">
         Finally, the lack of automation exposes businesses to weekend or holiday risk. High-cost anomalies, like a spike
         in <GlossaryLink slug="cost-per-click">cost-per-click</GlossaryLink>, can drain a week&rsquo;s budget overnight
-        if no one is watching. Without tools like Bir or <Link id={`use-cases-marketing-precision-lead-acquisition-challenges-optmyzr${idSuffix}`} href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/optmyzr" className="text-[#C83803] hover:underline">Optmyzr</Link> running
+        if no one is watching. Without tools like Bir or <Link id={`use-cases-marketing-ai-precision-lead-acquisition-challenges-optmyzr${idSuffix}`} href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/optmyzr" className="text-[#C83803] hover:underline">Optmyzr</Link> running
         recurring checks and pausing overspend, small businesses are left exposed. These failures are not a matter of
         missing one feature, they are the result of not having a system that ties together data accuracy, real-time
         monitoring, structured review, and automated guardrails. Until those are fixed, ad spend optimization is just a

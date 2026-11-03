@@ -20,7 +20,7 @@ export default function OverviewSection() {
         project with months of disruption and training nobody has time for. But sticking with the status quo
         means more hidden errors, more wasted hours, and less control over cash.</p>
       <p className="text-base text-white shadow-text pt-3">
-        <Link id={`tools-accounting-intelligent-resource-planning-quickbooks-overview-intelligent-resource-planning${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-resource-planning" className="text-[#C83803] hover:underline">Intelligent Resource Planning</Link>&nbsp;takes the chaos out of your books. Instead of fighting with spreadsheets
+        <Link id={`tools-accounting-ai-resource-planning-quickbooks-overview-ai-resource-planning${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-resource-planning" className="text-[#C83803] hover:underline">AI Resource Planning</Link>&nbsp;takes the chaos out of your books. Instead of fighting with spreadsheets
         and disconnected apps, you get live numbers, automated data entry, and workflows that route approvals
         without email chains. You see cash flow in real time. Collections get faster, and vendor payments stop
         falling through the cracks. With AI-powered tools, your team works from a single source of truth, no
@@ -29,7 +29,7 @@ export default function OverviewSection() {
         businesses in Miami-Dade, Broward, and West Palm Beach, this means real savings on admin time, fewer
         errors, and the confidence to make decisions with numbers you actually trust.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Geek @ Your Spot LLC specializes in bringing Intelligent Resource Planning to small businesses that have
+        Geek @ Your Spot LLC specializes in bringing AI Resource Planning to small businesses that have
         outgrown entry-level systems but cannot afford to stop everything for a year-long overhaul. You get a
         plan built around your current tools, zero downtime, and a step-by-step path from messy books to
         automated, reliable reporting. If your team is stuck in spreadsheet limbo, it is time to see what

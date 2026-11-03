@@ -19,7 +19,7 @@ export default function OverviewSection() {
         they asked, and what was promised, because your team cannot see the full picture. When every channel
         runs as a separate inbox, context gets lost, responses are delayed, and the result is missed revenue.</p>
       <p className="text-base text-white shadow-text pt-3">
-        A&nbsp;<Link id={`tools-marketing-cross-platform-chatbot-dapta-overview-cross-platform-chatbot${idSuffix}`} href="/use-cases/business-operations/ai-chatbot" className="text-[#C83803] hover:underline">Cross-Platform Chatbot</Link>&nbsp;fixes this by connecting the dots across all your inbound channels. The
+        A&nbsp;<Link id={`tools-marketing-ai-chatbot-dapta-overview-ai-chatbot${idSuffix}`} href="/use-cases/business-operations/ai-chatbot" className="text-[#C83803] hover:underline">AI Chatbot</Link>&nbsp;fixes this by connecting the dots across all your inbound channels. The
         system keeps customer identity, conversation history, and next action together, whether an inquiry
         starts on your website, flips to WhatsApp, or ends on a phone call. No lead falls through the cracks.
         Everyone on your team can pick up the conversation right where it left off, using the same information
@@ -27,7 +27,7 @@ export default function OverviewSection() {
         means faster replies, less manual checking, and a cleaner handoff from first touch to closed deal.</p>
       <p className="text-base text-white shadow-text pt-3">
         If your business is losing leads to missed messages, slow replies, or scattered records, you are not
-        alone. This page lays out how a smart Lead Capture Pipeline with cross-platform chatbot technology
+        alone. This page lays out how a smart Lead Capture Pipeline with AI chatbot technology
         solves the problem, without adding headcount or blowing up your current systems. The result: every
         inquiry gets answered, every rep sees the whole story, and your sales pipeline finally runs like one
         team, not six disconnected inboxes.</p>

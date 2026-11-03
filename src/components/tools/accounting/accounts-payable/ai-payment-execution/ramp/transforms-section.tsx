@@ -3,7 +3,7 @@ export default function TransformsSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Ramp revolutionizes Automated Payment Execution by removing the burdens that typically bog down small
+        Ramp revolutionizes AI Payment Execution by removing the burdens that typically bog down small
         business finance teams. The platform automates the entire accounts payable process, from invoice
         receipt to payment execution, drastically reducing the time and effort required to manage these tasks.
         By eliminating manual data entry and repetitive tasks, Ramp allows your team to focus on strategic
@@ -30,7 +30,7 @@ export default function TransformsSection() {
         Ramp&#39;s batch payment feature lets you process multiple vendor payments in a single transaction,
         cutting down on transaction fees and simplifying reconciliation.</p>
       <p className="text-base text-white shadow-text pt-3">
-        By transforming Automated Payment Execution into a seamless, touchless process, Ramp not only saves
+        By transforming AI Payment Execution into a seamless, touchless process, Ramp not only saves
         time but also enhances the accuracy and reliability of your financial operations. The platform&#39;s
         integration capabilities ensure that all financial data is synced with your existing accounting
         systems, providing a comprehensive view of your financial health. With Ramp, you gain a powerful tool
@@ -46,8 +46,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-ramp-transforms-automated-payment-execution">
-                How Ramp Transforms Automated Payment Execution
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-ramp-transforms-ai-payment-execution">
+                How Ramp Transforms AI Payment Execution
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
@@ -59,8 +59,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-ramp-transforms-automated-payment-execution-lg">
-                How Ramp Transforms Automated Payment Execution
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-ramp-transforms-ai-payment-execution-lg">
+                How Ramp Transforms AI Payment Execution
               </h2>
               {body}
             </div>

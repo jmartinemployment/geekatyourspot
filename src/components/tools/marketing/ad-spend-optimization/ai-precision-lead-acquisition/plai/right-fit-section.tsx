@@ -55,7 +55,7 @@ export default function RightFitSection() {
         small teams in South Florida, the payoff is in hours returned to the business and in marketing dollars that go
         where they matter most.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Answer these questions when <a id={`tools-marketing-precision-lead-acquisition-plai-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        Answer these questions when <a id={`tools-marketing-ai-precision-lead-acquisition-plai-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>What do you sell, and what action should an ad produce, a phone call, appointment, quote request, store visit, or online purchase?</li>

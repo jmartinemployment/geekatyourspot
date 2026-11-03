@@ -14,7 +14,7 @@ export default function RightFitSection() {
         steering results, automated optimization is likely overdue.</p>
       <p className="text-base text-white shadow-text pt-3">
         But automation is not a cure-all. If your ad budget is less than $1,000 a month, the savings from automation
-        may not cover the setup and oversight it requires (<a id={`use-cases-marketing-precision-lead-acquisition-right-fit-source-bir-ch${idSuffix}`} href="https://bir.ch/case-studies/webtopia" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Bir</a>,
+        may not cover the setup and oversight it requires (<a id={`use-cases-marketing-ai-precision-lead-acquisition-right-fit-source-bir-ch${idSuffix}`} href="https://bir.ch/case-studies/webtopia" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Bir</a>,
         as of Oct 25, 2026). Platforms like Wask and Adzooma simplify multi-account management and automate routine
         checks, but they still depend on a base level of spend and activity to generate results worth optimizing. Below
         that threshold, you are better off focusing on nailing your creative and targeting by hand, and only moving to
@@ -30,7 +30,7 @@ export default function RightFitSection() {
         Ad Spend Optimization is best suited for businesses that run campaigns in more than one channel, face the risk
         of wasted spend from broad targeting or overlapping audiences, and have a regular review process (even if it is
         just monthly). For these businesses, platforms like Bir and Optmyzr add value by running automated checks every
-        15 minutes, pausing runaway spend, and reallocating budget to proven winners (<a id={`use-cases-marketing-precision-lead-acquisition-right-fit-source-optmyzr-com${idSuffix}`} href="https://www.optmyzr.com/ppctownhall/pmax-campaign-optimization/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Optmyzr</a>,
+        15 minutes, pausing runaway spend, and reallocating budget to proven winners (<a id={`use-cases-marketing-ai-precision-lead-acquisition-right-fit-source-optmyzr-com${idSuffix}`} href="https://www.optmyzr.com/ppctownhall/pmax-campaign-optimization/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Optmyzr</a>,
         as of Oct 24, 2026). If your business relies on seasonality or runs bursts of campaigns for special offers,
         solutions like LocaliQ and Plai can help focus your spend only on high-intent local searches and automate the
         heavy lifting of tracking and reporting, but only if you can supply accurate campaign goals and tracking

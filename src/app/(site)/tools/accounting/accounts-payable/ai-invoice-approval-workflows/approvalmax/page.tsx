@@ -13,7 +13,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "ApprovalMax";
-const PAGE_TITLE = "ApprovalMax for Intelligent Approval Workflows";
+const PAGE_TITLE = "ApprovalMax for AI Invoice Approval Workflows";
 const DESCRIPTION =
     "Automate approval workflows with ApprovalMax, enhancing efficiency and reducing errors in small business accounting.";
 const CANONICAL = "/tools/accounting/accounts-payable/ai-invoice-approval-workflows/approvalmax";
@@ -25,7 +25,7 @@ const jsonLd: WithContext<TechArticle> = {
     "headline": PAGE_TITLE,
     "description": DESCRIPTION,
     "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-    "keywords": "ApprovalMax, automated approval workflows, accounts payable automation, invoice approval, audit trail, three-way matching, Xero, QuickBooks Online, NetSuite, AI implementation",
+    "keywords": "ApprovalMax, AI invoice approval workflows, accounts payable automation, invoice approval, audit trail, three-way matching, Xero, QuickBooks Online, NetSuite, AI implementation",
     "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
     "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
     "about": {
@@ -40,7 +40,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["ApprovalMax", "automated approval workflows", "accounts payable automation", "invoice approval", "audit trail", "three-way matching"],
+        keywords: ["ApprovalMax", "AI invoice approval workflows", "accounts payable automation", "invoice approval", "audit trail", "three-way matching"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

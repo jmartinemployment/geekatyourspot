@@ -7,7 +7,7 @@ export const anomaloContent: ToolPageContent = {
   "useCase": "ai-data-quality-assessments",
   "description": "Optimize ad spend with Anomalo's automated data quality assurance, ensuring reliable insights for better ROI.",
   "heroSummary": "Ensure your ad spend is optimized with Anomalo's automated data quality solutions.",
-  "keywords": "Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
+  "keywords": "Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, AI data quality assessments",
   "datePublished": "2026-08-20T18:36:21.5810578Z",
   "dateModified": "2026-08-20T18:36:21.5810578Z",
   "relatedArticleId": "https://geekatyourspot.com/use-cases/business-operations/ai-data-quality-assessments",
@@ -22,7 +22,7 @@ export const anomaloContent: ToolPageContent = {
       "@type": "WebPage",
       "@id": "https://geekatyourspot.com/tools/business-operations/ai-data-quality-assessments/anomalo"
     },
-    "keywords": "Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
+    "keywords": "Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, AI data quality assessments",
     "subjectOf": {
       "@type": "Article",
       "@id": "https://geekatyourspot.com/use-cases/business-operations/ai-data-quality-assessments"

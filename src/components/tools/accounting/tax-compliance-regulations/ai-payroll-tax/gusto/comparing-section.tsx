@@ -7,7 +7,7 @@ export default function ComparingSection() {
       <p className="text-base text-white shadow-text pt-3">
         Small businesses in South Florida do not lack options for automating payroll tax and worker
         classification. Gusto sits in a crowded field that
-        includes&nbsp;<Link id={`tools-accounting-payroll-tax-worker-misclassification-gusto-comparing-adp${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/ai-payroll-tax/adp" className="text-[#0B162A] hover:underline">ADP</Link>,&nbsp;<Link id={`tools-accounting-payroll-tax-worker-misclassification-gusto-comparing-deel${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/ai-payroll-tax/deel" className="text-[#0B162A] hover:underline">Deel</Link>,
+        includes&nbsp;<Link id={`tools-accounting-ai-payroll-tax-gusto-comparing-adp${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/ai-payroll-tax/adp" className="text-[#0B162A] hover:underline">ADP</Link>,&nbsp;<Link id={`tools-accounting-ai-payroll-tax-gusto-comparing-deel${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/ai-payroll-tax/deel" className="text-[#0B162A] hover:underline">Deel</Link>,
         and other payroll platforms, each promising to reduce errors, simplify filings, and help owners avoid
         misclassification penalties. But when you look closely at how these systems actually handle the core
         risks (federal, state, and

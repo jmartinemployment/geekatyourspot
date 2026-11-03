@@ -3,7 +3,7 @@ export default function DeployingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Implementing Tipalti for Automated Payment Execution involves several steps that ensure a seamless
+        Implementing Tipalti for AI Payment Execution involves several steps that ensure a seamless
         integration with your existing business systems. Geek @ Your Spot LLC specializes in configuring Tipalti
         to fit the unique needs of small businesses, focusing on minimizing setup time and maximizing
         operational efficiency.</p>

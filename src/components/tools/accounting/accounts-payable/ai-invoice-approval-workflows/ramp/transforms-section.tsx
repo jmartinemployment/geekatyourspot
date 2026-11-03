@@ -2,7 +2,7 @@ export default function TransformsSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Ramp revolutionizes Automated Approval Workflows by removing the burdens of manual processes and
+        Ramp revolutionizes AI Invoice Approval Workflows by removing the burdens of manual processes and
         returning valuable time to your team. With Ramp, optical character recognition (OCR) technology
         extracts data directly from invoices, eliminating the need for manual data entry. This not only speeds
         up the process but also reduces errors, allowing your team to focus on more strategic tasks.</p>
@@ -39,8 +39,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-ramp-transforms-automated-approval-workflows">
-                How Ramp Transforms Automated Approval Workflows
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-ramp-transforms-ai-invoice-approval-workflows">
+                How Ramp Transforms AI Invoice Approval Workflows
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
@@ -52,8 +52,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-ramp-transforms-automated-approval-workflows-lg">
-                How Ramp Transforms Automated Approval Workflows
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-ramp-transforms-ai-invoice-approval-workflows-lg">
+                How Ramp Transforms AI Invoice Approval Workflows
               </h2>
               {body}
             </div>

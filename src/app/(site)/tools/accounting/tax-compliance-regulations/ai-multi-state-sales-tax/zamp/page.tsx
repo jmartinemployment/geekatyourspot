@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Zamp";
-const PAGE_TITLE = "Zamp for Multi-State Sales Tax Nexus";
+const PAGE_TITLE = "Zamp for AI Multi-State Sales Tax";
 const DESCRIPTION =
-    "Multi-State Sales Tax Nexus is simple with Zamp: local South Florida experts help small businesses stay compliant as they expand sales across state lines.";
+    "AI Multi-State Sales Tax is simple with Zamp: local South Florida experts help small businesses stay compliant as they expand sales across state lines.";
 const CANONICAL = "/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/zamp";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -120,7 +120,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page() {
     const heroSummary =
-        "Zamp streamlines Multi-State Sales Tax Nexus compliance for small businesses in Miami-Dade, Broward, and West Palm Beach, offering hands-off filings and proactive risk management.";
+        "Zamp streamlines AI Multi-State Sales Tax compliance for small businesses in Miami-Dade, Broward, and West Palm Beach, offering hands-off filings and proactive risk management.";
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />

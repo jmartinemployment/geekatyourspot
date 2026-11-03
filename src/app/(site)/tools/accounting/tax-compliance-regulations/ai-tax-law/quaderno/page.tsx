@@ -18,7 +18,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Quaderno";
-const PAGE_TITLE = "Quaderno for Automating Complex & Changing Laws";
+const PAGE_TITLE = "Quaderno for AI Tax Law";
 const DESCRIPTION =
     "Quaderno automates tax compliance for South Florida businesses, tackling complex, changing laws efficiently.";
 const CANONICAL = "/tools/accounting/tax-compliance-regulations/ai-tax-law/quaderno";

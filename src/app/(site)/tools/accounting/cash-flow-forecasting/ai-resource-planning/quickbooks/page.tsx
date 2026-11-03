@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "QuickBooks Online Advanced";
-const PAGE_TITLE = "QuickBooks Online Advanced for Intelligent Resource Planning";
+const PAGE_TITLE = "QuickBooks Online Advanced for AI Resource Planning";
 const DESCRIPTION =
-    "Intelligent Resource Planning with QuickBooks streamlines bookkeeping and automates workflows for small businesses in Miami-Dade, Broward, and West Palm Beach.";
+    "AI Resource Planning with QuickBooks streamlines bookkeeping and automates workflows for small businesses in Miami-Dade, Broward, and West Palm Beach.";
 const CANONICAL = "/tools/accounting/cash-flow-forecasting/ai-resource-planning/quickbooks";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "QuickBooks, intelligent resource planning, cash flow forecasting, resource planning, financial forecasting, small business accounting, South Florida small business",
+            "keywords": "QuickBooks, AI resource planning, cash flow forecasting, resource planning, financial forecasting, small business accounting, South Florida small business",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -68,7 +68,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["QuickBooks", "intelligent resource planning", "cash flow forecasting", "resource planning", "financial forecasting", "small business accounting", "South Florida small business"],
+        keywords: ["QuickBooks", "AI resource planning", "cash flow forecasting", "resource planning", "financial forecasting", "small business accounting", "South Florida small business"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
@@ -102,7 +102,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page() {
     const heroSummary =
-        "QuickBooks delivers automated Intelligent Resource Planning, making bookkeeping and approvals seamless for small businesses across Miami-Dade, Broward, and West Palm Beach.";
+        "QuickBooks delivers automated AI Resource Planning, making bookkeeping and approvals seamless for small businesses across Miami-Dade, Broward, and West Palm Beach.";
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />

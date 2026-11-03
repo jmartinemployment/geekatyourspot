@@ -28,7 +28,7 @@ export default function OverviewSection() {
         the monthly scramble. This transformation allows her to focus on growing her business, rather than
         getting lost in the paperwork.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Automated payment execution is not a distant future; it is a present-day solution that offers tangible
+        AI Payment Execution is not a distant future; it is a present-day solution that offers tangible
         benefits. By adopting these technologies, small businesses can not only save time and reduce errors
         but also enhance vendor relationships and improve overall financial health. The transition from manual
         to automated processes is a strategic move that can position businesses for sustained success in a

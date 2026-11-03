@@ -23,7 +23,7 @@ export default function ImplementingSection() {
       <p className="text-base text-white shadow-text pt-3">
         The real time-saver is that TaxCloud does not require you to reformat or re-enter historical data. It
         can import transaction history from CSV files or directly from your system, so you get full compliance
-        coverage from day one. For teams switching from a tool like Avalara or&nbsp;<Link id={`tools-accounting-multi-state-sales-tax-nexus-taxcloud-implementing-taxjar${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/taxjar" className="text-[#C83803] hover:underline">TaxJar</Link>, TaxCloud supports guided
+        coverage from day one. For teams switching from a tool like Avalara or&nbsp;<Link id={`tools-accounting-ai-multi-state-sales-tax-taxcloud-implementing-taxjar${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/taxjar" className="text-[#C83803] hover:underline">TaxJar</Link>, TaxCloud supports guided
         migration, moving your historical sales data into the new platform, aligning it to state-by-state nexus
         rules, and ensuring your filings start clean. This avoids the usual pain of missing records or
         mismatched transactions that can trigger audit flags later.</p>

@@ -22,14 +22,14 @@ export default function OverviewSection() {
         the risk of formula errors, leaves her frustrated and financially exposed. It&#39;s a cycle of uncertainty
         that many small businesses in West Palm Beach, Broward, and Miami-Dade counties know all too well.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Enter automated spreadsheet data, a game-changer for businesses like Maria&#39;s. By automating
+        Enter AI spreadsheet data, a game-changer for businesses like Maria&#39;s. By automating
         the&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow forecasting</GlossaryLink>&nbsp;process, tools
         like Floatapp integrate directly with accounting platforms such as Xero and QuickBooks Online. This seamless
         connection ensures that Maria&#39;s forecasts are built on real-time, accurate data, eliminating the manual
         grind and reducing the risk of errors. With automated updates, she can see her true cash position at a
         glance, enabling more informed decision-making and strategic planning.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Automated spreadsheet data doesn&#39;t just save time; it transforms how small businesses manage their
+        AI Spreadsheet Data doesn&#39;t just save time; it transforms how small businesses manage their
         finances. By providing a live, rolling cash flow forecast that updates automatically, tools like Floatapp
         empower business owners to move beyond reactive financial management. Maria can now predict cash flow
         challenges before they arise, plan for growth with confidence, and ensure her financial decisions are

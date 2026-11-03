@@ -39,7 +39,7 @@ export default function ArchitectureSection() {
         feature is particularly beneficial for businesses that handle a large volume of transactions, as it
         streamlines the payment process and provides clear visibility into cash flow.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Overall, Ramp&#39;s architecture is built to support Automated Payment Execution by integrating AI,
+        Overall, Ramp&#39;s architecture is built to support AI Payment Execution by integrating AI,
         real-time data synchronization, and user-friendly interfaces. This combination ensures that businesses
         can manage their accounts payable processes efficiently, freeing up time and resources to focus on
         strategic initiatives.</p>

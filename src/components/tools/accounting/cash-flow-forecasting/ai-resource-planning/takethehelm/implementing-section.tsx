@@ -9,7 +9,7 @@ export default function ImplementingSection() {
         overhaul. Going live with Take the Helm is not a
         generic&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;rollout. It is a focused, phased process
         that gets&nbsp;<GlossaryLink slug="cash-flow-forecasting">cash flow forecasting</GlossaryLink>&nbsp;and
-        intelligent resource planning working fast, often in days instead of months.</p>
+        AI resource planning working fast, often in days instead of months.</p>
       <p className="text-base text-white shadow-text pt-3">
         The first shortcut is Take the Helm’s set of pre-built connectors. Out of the box, it syncs with
         QuickBooks Online, Xero, and Sage. That means the business’s core financial data, accounts, invoices,

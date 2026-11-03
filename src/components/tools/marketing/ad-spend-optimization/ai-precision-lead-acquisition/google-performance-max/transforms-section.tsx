@@ -76,7 +76,7 @@ export default function TransformsSection() {
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
               <h2 id="what-google-performance-max-actually-does-for-budget-ad-copy-message-validation" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                What Google Performance Max actually does for Precision Lead Acquisition
+                What Google Performance Max actually does for AI Precision Lead Acquisition
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
@@ -89,7 +89,7 @@ export default function TransformsSection() {
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
               <h2 id="what-google-performance-max-actually-does-for-budget-ad-copy-message-validation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                What Google Performance Max actually does for Precision Lead Acquisition
+                What Google Performance Max actually does for AI Precision Lead Acquisition
               </h2>
               {body}
             </div>

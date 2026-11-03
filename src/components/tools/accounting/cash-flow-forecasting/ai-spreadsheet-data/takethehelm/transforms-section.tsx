@@ -44,8 +44,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="automated-spreadsheet-data-what-takethehelm-removes-from-your-week">
-                Automated Spreadsheet Data: What Take the Helm Removes from Your Week
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="ai-spreadsheet-data-what-takethehelm-removes-from-your-week">
+                AI Spreadsheet Data: What Take the Helm Removes from Your Week
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
@@ -57,8 +57,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="automated-spreadsheet-data-what-takethehelm-removes-from-your-week-lg">
-                Automated Spreadsheet Data: What Take the Helm Removes from Your Week
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="ai-spreadsheet-data-what-takethehelm-removes-from-your-week-lg">
+                AI Spreadsheet Data: What Take the Helm Removes from Your Week
               </h2>
               {body}
             </div>

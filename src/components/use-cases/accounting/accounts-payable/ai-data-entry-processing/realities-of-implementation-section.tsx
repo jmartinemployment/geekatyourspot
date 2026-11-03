@@ -4,13 +4,13 @@ export default function RealitiesOfImplementationSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Rolling out an automated data entry and processing system in accounts payable is a multifaceted
+        Rolling out an AI data entry and processing system in accounts payable is a multifaceted
         process that requires careful planning. The first step involves assessing your current workflow to
         identify bottlenecks and areas ripe for automation. Only then can you sequence the rollout in a way
         that complements existing processes rather than disrupts them.</p>
       <p className="text-base text-white shadow-text pt-3">
         Integration with existing systems is another critical aspect. Tools like&nbsp;
-        <Link id={`use-cases-accounting-automated-data-entry-processing-realities-avidxchange${idSuffix}`}
+        <Link id={`use-cases-accounting-ai-data-entry-processing-realities-avidxchange${idSuffix}`}
           href="/tools/accounting/accounts-payable/ai-data-entry-processing/avidxchange" className="text-[#0B162A] hover:underline">
           AvidXchange
         </Link>&nbsp;excel in this area by offering seamless integration with numerous accounting systems,
@@ -19,7 +19,7 @@ export default function RealitiesOfImplementationSection() {
         integrity.</p>
       <p className="text-base text-white shadow-text pt-3">
         Data quality is paramount. Before automating, it&#39;s essential to clean and validate current data.&nbsp;
-        <Link id={`use-cases-accounting-automated-data-entry-processing-realities-stampli${idSuffix}`}
+        <Link id={`use-cases-accounting-ai-data-entry-processing-realities-stampli${idSuffix}`}
           href="/tools/accounting/accounts-payable/ai-invoice-approval-workflows/stampli" className="text-[#0B162A] hover:underline">
           Stampli
         </Link>&nbsp;offers robust data extraction capabilities that can help maintain high data quality by

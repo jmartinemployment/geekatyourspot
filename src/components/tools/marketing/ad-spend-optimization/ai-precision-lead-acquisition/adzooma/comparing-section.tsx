@@ -23,7 +23,7 @@ export default function ComparingSection() {
       <p className="text-base text-white shadow-text pt-3">
         Agency management promises expertise but introduces new problems for small businesses. Agencies often batch work
         across many clients, which means your account may only get reviewed weekly or monthly. Only 10% of advertisers,
-        according to Adzooma&rsquo;s own research, do optimization work in their accounts every week (<a id={`tools-marketing-precision-lead-acquisition-adzooma-comparing-source-adzooma-com${idSuffix}`} href="https://adzooma.com/great-google-ads-manager/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Adzooma</a>,
+        according to Adzooma&rsquo;s own research, do optimization work in their accounts every week (<a id={`tools-marketing-ai-precision-lead-acquisition-adzooma-comparing-source-adzooma-com${idSuffix}`} href="https://adzooma.com/great-google-ads-manager/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Adzooma</a>,
         as of Oct 23, 2026). For a small business, this delay means errors or wasted spend can persist for weeks before
         anyone acts. Adzooma&rsquo;s platform, by contrast, surfaces and ranks optimization opportunities daily, and
         many fixes can be actioned directly in the dashboard, putting control back in the hands of the business owner or

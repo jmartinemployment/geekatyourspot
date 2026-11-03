@@ -39,7 +39,7 @@ export default function ImplementationSection() {
         By partnering with Geek @ Your Spot LLC, businesses can ensure a smooth and efficient implementation of
         AvidXchange. Their expertise in local business environments and deep understanding of
         AvidXchange&#39;s architecture means that small businesses can quickly realize the benefits of
-        automated payment execution. This partnership not only simplifies the implementation process but also
+        AI payment execution. This partnership not only simplifies the implementation process but also
         provides ongoing support to adapt the system as business needs evolve.</p>
     </>
   );

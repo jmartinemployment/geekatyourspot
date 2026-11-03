@@ -5,7 +5,7 @@ export default function ConfiguringSection() {
       <p className="text-base text-white shadow-text pt-3">
         Bill offers a robust configuration environment that allows businesses to tailor approval chains and routing
         to their specific needs. This is crucial for small businesses in South Florida aiming to streamline their
-        automated accounts receivable processes. Approval chains in Bill can be set up to ensure that invoices are
+        AI accounts receivable processes. Approval chains in Bill can be set up to ensure that invoices are
         reviewed by the right people at each stage, minimizing errors and ensuring compliance with internal
         policies. This flexibility allows businesses to define who needs to approve what and when, based on criteria
         such as invoice amount or vendor type.</p>

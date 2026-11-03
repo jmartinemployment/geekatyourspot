@@ -17,14 +17,14 @@ export default function OverviewSection() {
         reminders. These tasks not only eat into potential growth time but also increase the risk of errors and
         missed payments, which can severely impact cash flow.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Enter automated accounts receivable solutions. By automating the invoicing process, businesses can
+        Enter AI accounts receivable solutions. By automating the invoicing process, businesses can
         drastically reduce the time spent on these administrative tasks. Solutions like those offered by BILL allow
         for the automatic generation and sending of invoices, payment tracking, and even automated payment
         reminders. This not only frees up valuable time but also improves the accuracy and reliability of financial
         records. For businesses in South Florida, adopting such technology means not just saving time, but also
         improving cash flow stability and customer relations.</p>
       <p className="text-base text-white shadow-text pt-3">
-        With automated accounts receivable, Maria no longer spends her evenings chasing payments. Instead, she
+        With AI accounts receivable, Maria no longer spends her evenings chasing payments. Instead, she
         relies on a system that sends out invoices, tracks payments, and nudges her clients automatically. This
         transformation allows her to focus on creative work and business expansion, confident that her cash flow is
         under control. For small business owners across the region, embracing automation in accounts receivable is

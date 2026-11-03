@@ -3,7 +3,7 @@ export default function EvaluatingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        When considering Invoiced for your automated accounts receivable automation, it&#39;s essential to evaluate
+        When considering Invoiced for your AI accounts receivable automation, it&#39;s essential to evaluate
         its fit for your business size and needs. Invoiced is designed to cater to a broad range of industries,
         including technology, healthcare, and professional services, making it versatile for various business types.
         Its capabilities are particularly suited for small businesses in the Miami-Dade, Broward, and West Palm

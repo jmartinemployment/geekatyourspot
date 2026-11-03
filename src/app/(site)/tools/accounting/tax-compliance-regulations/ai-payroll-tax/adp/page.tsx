@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "ADP";
-const PAGE_TITLE = "ADP for Payroll Tax & Worker Misclassification";
+const PAGE_TITLE = "ADP for AI Payroll Tax";
 const DESCRIPTION =
-    "Payroll Tax & Worker Misclassification present real risks for small businesses in Miami-Dade, Broward, and West Palm Beach. ADP helps ensure compliance.";
+    "AI Payroll Tax present real risks for small businesses in Miami-Dade, Broward, and West Palm Beach. ADP helps ensure compliance.";
 const CANONICAL = "/tools/accounting/tax-compliance-regulations/ai-payroll-tax/adp";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 

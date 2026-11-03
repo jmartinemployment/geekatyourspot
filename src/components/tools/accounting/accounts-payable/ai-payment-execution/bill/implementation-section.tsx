@@ -41,7 +41,7 @@ export default function ImplementationSection() {
       <p className="text-base text-white shadow-text pt-3">
         In conclusion, deploying Bill in your business environment is a collaborative process that involves
         careful planning and configuration. With the support of Geek @ Your Spot LLC, you can ensure a smooth
-        transition to automated payment execution, allowing your business to benefit from increased
+        transition to AI payment execution, allowing your business to benefit from increased
         efficiency and reduced errors.</p>
     </>
   );

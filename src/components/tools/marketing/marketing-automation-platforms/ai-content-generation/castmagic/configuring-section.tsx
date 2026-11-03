@@ -66,7 +66,7 @@ export default function ConfiguringSection() {
         scheduled. No one on the team has to copy and paste between tools or chase down approvals over email.</p>
       <p className="text-base text-white shadow-text pt-3">
         In summary, Castmagic’s configuration covers prompt templates, automation rules for file ingestion and
-        intelligent content generation, workspace roles and permissions, and approval workflows. All of these
+        AI content generation, workspace roles and permissions, and approval workflows. All of these
         are set up through the platform’s own interface, with no need for custom code or third-party plugins.
         The platform’s strength is in how well it can be tailored to your real processes, if you invest the
         time to map those processes and configure Castmagic to match, you get a system that turns every

@@ -31,7 +31,7 @@ export default function ConfiguringSection() {
         change based on customer data, showing different products, offers, or messages to different segments within
         the same campaign. For example, a single newsletter can highlight accessories to recent buyers and
         introductory offers to new subscribers, all from one template. Brevo’s editor supports conditional logic, so
-        you can set rules like “if last purchase was over $50, show premium offer (<a id={`tools-marketing-personalized-email-campaigns-brevo-configuring-source-brevo-com${idSuffix}`} href="https://www.brevo.com/blog/email-marketing-benchmarks/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Brevo</a>,
+        you can set rules like “if last purchase was over $50, show premium offer (<a id={`tools-marketing-ai-personalized-email-campaigns-brevo-configuring-source-brevo-com${idSuffix}`} href="https://www.brevo.com/blog/email-marketing-benchmarks/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Brevo</a>,
         as of Oct 26, 2026).” Geek @ Your Spot guides you in setting up these content rules so the automation feels
         tailored, not generic.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -39,7 +39,7 @@ export default function ConfiguringSection() {
         every campaign for the same hour, you can enable Brevo’s AI-powered send time feature, which analyzes
         engagement patterns for each contact and delivers messages at the moment they are most likely to open. Case
         data from Brevo shows this can drive open rates up by 15% or more, as seen with AMS’s use of the “Send at
-        Best Time” function (<a id={`tools-marketing-personalized-email-campaigns-brevo-configuring-source-brevo-com-2${idSuffix}`} href="https://www.brevo.com/blog/best-voip-services/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Brevo</a>,
+        Best Time” function (<a id={`tools-marketing-ai-personalized-email-campaigns-brevo-configuring-source-brevo-com-2${idSuffix}`} href="https://www.brevo.com/blog/best-voip-services/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Brevo</a>,
         as of Oct 26, 2026). Geek @ Your Spot configures this feature as part of your onboarding, so you get the
         benefit without needing to run manual tests or guess at timing.</p>
       <p className="text-base text-white shadow-text pt-3">

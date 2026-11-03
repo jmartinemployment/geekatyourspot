@@ -60,7 +60,7 @@ export default function TransformsSection() {
         to see where you stand, the answer is always a click away, not buried in last month’s spreadsheet.</p>
       <p className="text-base text-white shadow-text pt-3">
         For small businesses in Miami-Dade, Broward, and West Palm Beach, QuickBooks is the practical way to
-        modernize Intelligent Resource Planning. You do not need to overhaul your business to get results. You
+        modernize AI Resource Planning. You do not need to overhaul your business to get results. You
         need a system that fits the way you work, removes manual headaches, and gives you the clarity to grow.
         That is what QuickBooks delivers.</p>
     </>
@@ -73,8 +73,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-quickbooks-removes-hours-of-manual-work-from-intelligent-resource-planning" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How QuickBooks removes hours of manual work from Intelligent Resource Planning
+              <h2 id="how-quickbooks-removes-hours-of-manual-work-from-ai-resource-planning" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How QuickBooks removes hours of manual work from AI Resource Planning
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
@@ -86,8 +86,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-quickbooks-removes-hours-of-manual-work-from-intelligent-resource-planning-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How QuickBooks removes hours of manual work from Intelligent Resource Planning
+              <h2 id="how-quickbooks-removes-hours-of-manual-work-from-ai-resource-planning-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How QuickBooks removes hours of manual work from AI Resource Planning
               </h2>
               {body}
             </div>

@@ -14,7 +14,7 @@ export default function PAASection() {
               How do I automatically pay vendor bills on their due dates?
             </h3>
             <p className="text-base text-white shadow-text pt-3">
-              To automatically pay vendor bills on their due dates, you can use an automated payment execution
+              To automatically pay vendor bills on their due dates, you can use an AI payment execution
               system. These systems allow you to schedule payments in advance so that they are processed
               automatically when due. By integrating with your accounting software, these tools can track due
               dates and ensure that payments are made on time, helping you avoid late fees and maintain good
@@ -84,7 +84,7 @@ export default function PAASection() {
             </h3>
             <p className="text-base text-white shadow-text pt-3">
               Yes, payments above a certain amount can require a second approver. This is a common security
-              measure in automated payment execution systems to prevent unauthorized transactions. By setting
+              measure in AI payment execution systems to prevent unauthorized transactions. By setting
               approval thresholds, small businesses can ensure that larger payments receive an extra layer of
               scrutiny, which helps in reducing errors and potential fraud. Geek @ Your Spot LLC can help set up
               these controls within your payment processes.</p>

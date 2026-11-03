@@ -5,7 +5,7 @@ export default function DataMappingSection() {
         Deploying Chaserhq effectively requires careful consideration of data structure and mapping. These decisions
         are foundational to ensuring that the system operates seamlessly within your existing financial environment.
         For businesses in Miami-Dade, Broward, and West Palm Beach counties, getting this setup right is crucial for
-        maximizing the benefits of automated accounts receivable.</p>
+        maximizing the benefits of AI accounts receivable.</p>
       <p className="text-base text-white shadow-text pt-3">
         The first step involves auditing your current data. This includes cleaning up debtor information and
         ensuring that all relevant data is accurate and up-to-date. Accurate data is essential for Chaserhq&#39;s

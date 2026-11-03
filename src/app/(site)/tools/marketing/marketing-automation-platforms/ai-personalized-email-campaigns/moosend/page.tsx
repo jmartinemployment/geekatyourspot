@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Moosend";
-const PAGE_TITLE = "Moosend for Personalized Email Campaigns";
+const PAGE_TITLE = "Moosend for AI Personalized Email Campaigns";
 const DESCRIPTION =
-    "Personalized Email Campaigns with Moosend increase open rates and customer retention for small businesses in South Florida. Start automating your emails now.";
+    "AI Personalized Email Campaigns with Moosend increase open rates and customer retention for small businesses in South Florida. Start automating your emails now.";
 const CANONICAL = "/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/moosend";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Moosend, personalized email campaigns, AI email marketing automation, email segmentation, open rates, South Florida small business",
+            "keywords": "Moosend, AI personalized email campaigns, AI email marketing automation, email segmentation, open rates, South Florida small business",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-26T12:35:17.8414750Z",
@@ -66,7 +66,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Moosend", "personalized email campaigns", "AI email marketing automation", "email segmentation", "open rates", "South Florida small business"],
+        keywords: ["Moosend", "AI personalized email campaigns", "AI email marketing automation", "email segmentation", "open rates", "South Florida small business"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
@@ -100,7 +100,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page() {
     const heroSummary =
-        "Moosend empowers small businesses in Miami-Dade, Broward and Palm Beach with AI-driven Personalized Email Campaigns that drive higher open rates and more sales.";
+        "Moosend empowers small businesses in Miami-Dade, Broward and Palm Beach with AI-driven AI Personalized Email Campaigns that drive higher open rates and more sales.";
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />

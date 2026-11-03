@@ -4,7 +4,7 @@ export default function ComparingSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Most small businesses in South Florida start their search for a cross-platform chatbot with a short
+        Most small businesses in South Florida start their search for an AI chatbot with a short
         list: the big-name tools promising to unify every chat channel, the free live chat widgets, and the
         platforms built for a single messaging app. BotPenguin sits in the middle of that landscape, but what
         sets it apart is not just the list of channels or the price. The difference is in how it handles the
@@ -25,7 +25,7 @@ export default function ComparingSection() {
         comment during a campaign, gets the same fast, consistent handling. This is what stops leads from
         slipping through the cracks.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Compare this to platforms like Chatfuel or&nbsp;<Link id={`tools-marketing-cross-platform-chatbot-botpenguin-comparing-manychat${idSuffix}`} href="/tools/business-operations/ai-chatbot/manychat" className="text-[#0B162A] hover:underline">Manychat</Link>, which focus on Meta channels (Facebook and
+        Compare this to platforms like Chatfuel or&nbsp;<Link id={`tools-marketing-ai-chatbot-botpenguin-comparing-manychat${idSuffix}`} href="/tools/business-operations/ai-chatbot/manychat" className="text-[#0B162A] hover:underline">Manychat</Link>, which focus on Meta channels (Facebook and
         Instagram) but do not cover Telegram or SMS natively. BotPenguin does. It also merges contact profiles
         across channels into a single view, so if a customer messages you on Facebook and then follows up on
         WhatsApp, you see the full conversation history and context in one place. This is a crucial difference

@@ -4,7 +4,7 @@ export default function DataMappingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Getting Hootsuite to deliver real value for Intelligent Content Generation depends on the upfront data
+        Getting Hootsuite to deliver real value for AI Content Generation depends on the upfront data
         structure and mapping decisions. These are not just technical details, they decide how easily your
         team can move from idea to published post, how approvals work, and how results are tracked across
         networks and campaigns.</p>

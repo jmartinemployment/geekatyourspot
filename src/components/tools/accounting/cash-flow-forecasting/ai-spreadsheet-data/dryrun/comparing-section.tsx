@@ -5,7 +5,7 @@ export default function ComparingSection() {
       <p className="text-base text-white shadow-text pt-3">
         When considering solutions
         for&nbsp;cash flow
-        forecasting&nbsp;and managing automated spreadsheet data, businesses often weigh multiple
+        forecasting&nbsp;and managing AI spreadsheet data, businesses often weigh multiple
         options. Dryrun distinguishes itself through its focus on real-time integration and dynamic scenario
         modeling. Unlike traditional spreadsheet methods, which rely heavily on manual data entry and static
         forecasts, Dryrun provides a seamless connection to

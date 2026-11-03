@@ -28,7 +28,7 @@ export default function EvaluatingSection() {
         changes rather than waiting for a human to check in.</p>
       <p className="text-base text-white shadow-text pt-3">
         When considering Bir&rsquo;s pricing model, the key is to look at what you get for the cost: automation that
-        runs every 15 minutes, across all your ad accounts, using your own custom rules and data (<a id={`tools-marketing-precision-lead-acquisition-bir-evaluating-source-nothink${idSuffix}`} href="https://bir.ch/case-studies/nothink" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Bir</a>,
+        runs every 15 minutes, across all your ad accounts, using your own custom rules and data (<a id={`tools-marketing-ai-precision-lead-acquisition-bir-evaluating-source-nothink${idSuffix}`} href="https://bir.ch/case-studies/nothink" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Bir</a>,
         as of Oct 25, 2026). The research does not state a specific price, but Bir&rsquo;s value comes from the time and
         budget it saves by cutting manual work and wasted spend. If your team spends hours each week on reporting,
         budget checks, or pausing underperformers, Bir&rsquo;s automation replaces that with a system that does not

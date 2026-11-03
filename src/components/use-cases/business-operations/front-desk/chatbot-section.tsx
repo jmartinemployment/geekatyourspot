@@ -5,7 +5,7 @@ export default function ChatbotSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="pt-3 text-base font-normal text-white shadow-text">Customers who do not call send a message, and they send it wherever they already are. One asks about pricing in an Instagram DM, another sends a WhatsApp message about your hours, and a third opens the chat on your website late at night. When each channel has its own inbox, the reply depends on who happens to check which app, and the slowest reply usually loses the customer.</p>
-      <p className="pt-3 text-base font-normal text-white shadow-text">A cross-platform chatbot answers all of those channels as one assistant. Every conversation lands on a single timeline, so the chatbot knows who the person is and what they asked before, whichever channel they use next.</p>
+      <p className="pt-3 text-base font-normal text-white shadow-text">An AI chatbot answers all of those channels as one assistant. Every conversation lands on a single timeline, so the chatbot knows who the person is and what they asked before, whichever channel they use next.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>It replies at once on your website chat, WhatsApp, Facebook Messenger, Instagram, and SMS.</li>
         <li>It asks qualifying questions and separates ready buyers from people who are only browsing.</li>
@@ -30,8 +30,8 @@ export default function ChatbotSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="the-cross-platform-chatbot-answers-your-messages" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                The Cross-Platform Chatbot Answers Your Messages
+              <h2 id="the-ai-chatbot-answers-your-messages" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                The AI Chatbot Answers Your Messages
               </h2>
             </div>
             <div className="col-span-12">{body()}</div>
@@ -43,8 +43,8 @@ export default function ChatbotSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="the-cross-platform-chatbot-answers-your-messages-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                The Cross-Platform Chatbot Answers Your Messages
+              <h2 id="the-ai-chatbot-answers-your-messages-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                The AI Chatbot Answers Your Messages
               </h2>
               {body("-lg")}
             </div>

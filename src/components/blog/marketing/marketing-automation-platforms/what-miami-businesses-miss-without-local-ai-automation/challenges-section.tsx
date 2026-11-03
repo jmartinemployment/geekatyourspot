@@ -43,7 +43,7 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="why-doing-personalized-email-campaigns-by-hand-breaks-down-before-it-pays-off" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="why-doing-ai-personalized-email-campaigns-by-hand-breaks-down-before-it-pays-off" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Why doing personalized email campaigns by hand breaks down before it pays off
               </h2>
             </div>
@@ -56,7 +56,7 @@ export default function ChallengesSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="why-doing-personalized-email-campaigns-by-hand-breaks-down-before-it-pays-off-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="why-doing-ai-personalized-email-campaigns-by-hand-breaks-down-before-it-pays-off-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Why doing personalized email campaigns by hand breaks down before it pays off
               </h2>
               {body}

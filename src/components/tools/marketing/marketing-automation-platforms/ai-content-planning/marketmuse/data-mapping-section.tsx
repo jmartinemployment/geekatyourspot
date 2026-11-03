@@ -2,7 +2,7 @@ export default function DataMappingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Deploying MarketMuse for Intelligent Content Planning means making a handful of critical data
+        Deploying MarketMuse for AI Content Planning means making a handful of critical data
         decisions upfront. These choices define how well the platform can map your real content strengths,
         spot gaps, and hand you actionable recommendations. Geek @ Your Spot LLC guides this process, translating
         your local business needs into a structure that MarketMuse’s AI can work with from day one.</p>

@@ -10,7 +10,7 @@ export default function ComparingSection() {
         forecasting tools. Each approach promises to solve the same problems: too much manual work, unreliable
         cash flow projections, and the constant risk of missing something critical in the numbers. But the way
         each tool gets there, and what it asks of the team, is different. Understanding where Cashflowfrog sits
-        in this landscape is key to making the right choice for Intelligent Resource Planning.</p>
+        in this landscape is key to making the right choice for AI Resource Planning.</p>
       <p className="text-base text-white shadow-text pt-3">
         Spreadsheets are the default for many teams. They are flexible and familiar, but as soon as the business
         adds a second bank account, a new revenue stream, or needs to see what happens if a payment comes in
@@ -33,7 +33,7 @@ export default function ComparingSection() {
         automated&nbsp;cash
         flow forecasting&nbsp;with zero manual setup. It connects directly to accounting
         platforms
-        like&nbsp;<Link id={`tools-accounting-intelligent-resource-planning-cashflowfrog-comparing-quickbooks${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/ai-resource-planning/quickbooks" className="text-[#0B162A] hover:underline">QuickBooks</Link>&nbsp;Online,
+        like&nbsp;<Link id={`tools-accounting-ai-resource-planning-cashflowfrog-comparing-quickbooks${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/ai-resource-planning/quickbooks" className="text-[#0B162A] hover:underline">QuickBooks</Link>&nbsp;Online,
         Xero, Zoho Books, Sage Intacct, Odoo, and FreshBooks, as well as bank feeds through Plaid. This means
         the moment the connection is made, Cashflowfrog pulls in real transaction data and generates a rolling
         forecast without a single spreadsheet or data mapping session. For businesses still running on
@@ -49,13 +49,13 @@ export default function ComparingSection() {
         core of the product. For small teams, it means the cash flow forecast is always current, always
         detailed, and always ready for decision-making.</p>
       <p className="text-base text-white shadow-text pt-3">
-        The landscape also includes point solutions for specific pain points, like automated accounts receivable
+        The landscape also includes point solutions for specific pain points, like AI accounts receivable
         tools or spreadsheet replacement platforms. Many of these tools offer value in their own niche, but they
         do not solve the whole problem. They might automate invoice reminders or data entry, but they still
         require someone to assemble the bigger picture by hand. Cashflowfrog brings these elements together: it
         automates accounts receivable insights, replaces static spreadsheets, and integrates with the accounting
         and banking stack without adding complexity. This is why it is listed as a top tool for Automated
-        Accounts Receivable, Automated Spreadsheet Data, and Automated Enterprise Resource Planning on the Geek @ Your Spot LLC site.</p>
+        Accounts Receivable, AI Spreadsheet Data, and Automated Enterprise Resource Planning on the Geek @ Your Spot LLC site.</p>
       <p className="text-base text-white shadow-text pt-3">
         For a small business, the real test is not the feature list, it is what the tool removes from the week.
         Cashflowfrog eliminates double data entry, manual scenario building, and the need to reconcile numbers
@@ -73,8 +73,8 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="where-cashflowfrog-fits-among-automated-resource-planning-tools-and-why-that-matters-for-small-businesses" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                Where Cashflowfrog Fits Among Automated Resource Planning Tools and Why That Matters for Small Businesses
+              <h2 id="where-cashflowfrog-fits-among-ai-resource-planning-tools-and-why-that-matters-for-small-businesses" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                Where Cashflowfrog Fits Among AI Resource Planning Tools and Why That Matters for Small Businesses
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
@@ -86,8 +86,8 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="where-cashflowfrog-fits-among-automated-resource-planning-tools-and-why-that-matters-for-small-businesses-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                Where Cashflowfrog Fits Among Automated Resource Planning Tools and Why That Matters for Small Businesses
+              <h2 id="where-cashflowfrog-fits-among-ai-resource-planning-tools-and-why-that-matters-for-small-businesses-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                Where Cashflowfrog Fits Among AI Resource Planning Tools and Why That Matters for Small Businesses
               </h2>
               {body("-lg")}
             </div>

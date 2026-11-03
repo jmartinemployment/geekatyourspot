@@ -15,7 +15,7 @@ import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "What Miami Businesses Miss Without Local AI Automation";
 const DESCRIPTION =
-    "Personalized Email Campaigns help Miami small businesses increase open rates by up to 50 percent and drive more sales. See how local AI can help you grow.";
+    "AI Personalized Email Campaigns help Miami small businesses increase open rates by up to 50 percent and drive more sales. See how local AI can help you grow.";
 const CANONICAL = "/blog/marketing/marketing-automation-platforms/what-miami-businesses-miss-without-local-ai-automation";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -31,7 +31,7 @@ const jsonLd: Graph = {
             "datePublished": "2026-10-26T12:35:17.8414750Z",
             "dateModified": "2026-10-26T12:35:17.8414750Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Personalized Email Campaigns, Miami small business marketing, AI email automation, local email marketing, Brevo, Mailchimp, ActiveCampaign, data quality for email, marketing automation, business process automation",
+            "keywords": "AI Personalized Email Campaigns, Miami small business marketing, AI email automation, local email marketing, Brevo, Mailchimp, ActiveCampaign, data quality for email, marketing automation, business process automation",
             "wordCount": 4394,
             "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns" },
             "mentions": [
@@ -60,7 +60,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: TITLE,
         description: DESCRIPTION,
-        keywords: ["Personalized Email Campaigns", "Miami small business marketing", "AI email automation", "local email marketing", "Brevo", "Mailchimp", "ActiveCampaign", "data quality for email", "marketing automation", "business process automation"],
+        keywords: ["AI Personalized Email Campaigns", "Miami small business marketing", "AI email automation", "local email marketing", "Brevo", "Mailchimp", "ActiveCampaign", "data quality for email", "marketing automation", "business process automation"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

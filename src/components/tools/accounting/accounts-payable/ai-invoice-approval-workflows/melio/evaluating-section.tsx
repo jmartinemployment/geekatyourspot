@@ -4,7 +4,7 @@ export default function EvaluatingSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Choosing the right tool for Automated Approval Workflows involves understanding Melio&#39;s fit for
+        Choosing the right tool for AI Invoice Approval Workflows involves understanding Melio&#39;s fit for
         your business. Melio is designed specifically for US businesses, offering end-to-end&nbsp;
         accounts payable&nbsp;automation. It simplifies
         the approval process by routing invoices automatically, reducing the need for manual follow-ups. This
@@ -28,7 +28,7 @@ export default function EvaluatingSection() {
         invoice processing and approval workflows means businesses can save hours each week, allowing staff
         to focus on more strategic tasks.</p>
       <p className="text-base text-white shadow-text pt-3">
-        In summary, when evaluating Melio for Automated Approval Workflows, consider its adaptability to your
+        In summary, when evaluating Melio for AI Invoice Approval Workflows, consider its adaptability to your
         existing systems, the potential cost savings, and the time it can save your team. The platform&#39;s
         ability to automate and streamline processes makes it a strong contender for businesses looking to
         enhance their accounts payable operations. While other tools might offer similar features,

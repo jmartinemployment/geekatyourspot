@@ -12,7 +12,7 @@ export default function ArchitectureSection() {
         time.</p>
       <p className="text-base text-white shadow-text pt-3">
         The system is powered by a mix of proprietary AI models and integrations with third-party data
-        sources. For intelligent content planning, HyperWrite’s AI Content Planner ingests data about your
+        sources. For AI content planning, HyperWrite’s AI Content Planner ingests data about your
         industry, competitors, and audience preferences. It analyzes current trends and what is resonating in
         your market, then stores this information to guide topic selection and calendar creation. The result
         is a dynamic, always-updated content plan that reflects what is happening now, not what worked last

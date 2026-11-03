@@ -257,14 +257,14 @@ const LINK_OVERRIDES: Record<string, string | null> = {
   // Export uses the "intelligent-" prefix; the route does not.
   "/use-cases/accounting/intelligent-tax-compliance-regulations":
     "/use-cases/accounting/tax-compliance-regulations",
-  // Intelligent Content Generation replaced the Automated Content Generation pillar on 2026-10-19,
+  // AI Content Generation replaced the Automated Content Generation pillar on 2026-10-19,
   // and the AI Content Repurposing pillar moved to the blog the same day.
   "/use-cases/marketing/automated-content-generation":
     "/use-cases/marketing/marketing-automation-platforms/ai-content-generation",
   "/use-cases/marketing/automated-content-generation-transforming-small-business-marketing":
     "/use-cases/marketing/marketing-automation-platforms/ai-content-generation",
   "/use-cases/marketing/ai-content-repurposing": "/blog/marketing/marketing-automation-platforms/ai-content-repurposing",
-  // These content generation tools have write-ups under the Intelligent Content Generation pillar.
+  // These content generation tools have write-ups under the AI Content Generation pillar.
   "/tools/marketing/jasper-ai": "/tools/marketing/marketing-automation-platforms/ai-content-generation/jasper",
   "/tools/marketing/copy-ai": "/tools/marketing/marketing-automation-platforms/ai-content-generation/copy",
   "/tools/marketing/frase": "/tools/marketing/marketing-automation-platforms/ai-content-generation/frase",
@@ -281,7 +281,7 @@ const LINK_OVERRIDES: Record<string, string | null> = {
   "/tools/accounting/stampli": "/tools/accounting/accounts-payable/ai-invoice-approval-workflows/stampli",
   "/tools/accounting/melio":
     "/tools/accounting/accounts-payable/ai-payment-execution/melio",
-  // The Personalized Email Campaigns pillar and its Mailchimp write-up are hand-coded under the
+  // The AI Personalized Email Campaigns pillar and its Mailchimp write-up are hand-coded under the
   // Content Creation Workflow group; the flat Mailchimp page was deleted on 2026-10-26.
   "/use-cases/marketing/personalized-email-campaigns": "/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns",
   "/tools/marketing/mailchimp": "/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailchimp",

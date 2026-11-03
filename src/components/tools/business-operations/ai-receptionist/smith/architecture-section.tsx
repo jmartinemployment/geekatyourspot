@@ -21,7 +21,7 @@ export default function ArchitectureSection() {
       <p className="text-base text-white shadow-text pt-3">
         Smith.ai’s integration catalog is extensive. The system natively connects with thousands of business
         tools, CRMs like Clio, MyCase, and Lawmatics; project management platforms; scheduling apps; billing
-        systems; and more. Through&nbsp;<Link id={`tools-marketing-intelligent-receptionist-smith-architecture-zapier${idSuffix}`} href="/tools/marketing/zapier" className="text-[#0B162A] hover:underline">Zapier</Link>&nbsp;and Make, Smith.ai extends compatibility to over 7,000 additional
+        systems; and more. Through&nbsp;<Link id={`tools-marketing-ai-receptionist-smith-architecture-zapier${idSuffix}`} href="/tools/marketing/zapier" className="text-[#0B162A] hover:underline">Zapier</Link>&nbsp;and Make, Smith.ai extends compatibility to over 7,000 additional
         apps, covering just about every workflow a small business in South Florida might run. This means call
         data, intake forms, and appointment bookings flow directly into your existing software, keeping records
         up to date without manual entry or copy-paste errors.</p>

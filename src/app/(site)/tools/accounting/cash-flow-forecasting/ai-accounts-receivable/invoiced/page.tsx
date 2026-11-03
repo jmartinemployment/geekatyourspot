@@ -18,7 +18,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Invoiced";
-const PAGE_TITLE = "Invoiced for Intelligent Accounts Receivable";
+const PAGE_TITLE = "Invoiced for AI Accounts Receivable";
 const DESCRIPTION =
     "Automate accounts receivable with Invoiced for better cash flow in South Florida's small businesses.";
 const CANONICAL = "/tools/accounting/cash-flow-forecasting/ai-accounts-receivable/invoiced";
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Invoiced, automated accounts receivable, cash flow forecasting, cash collection forecasting, CashMatch AI, multi-entity forecasting, custom forecasting reports, approval chains, routing, automation logic, ERP integration, go-live process",
+            "keywords": "Invoiced, AI accounts receivable, cash flow forecasting, cash collection forecasting, CashMatch AI, multi-entity forecasting, custom forecasting reports, approval chains, routing, automation logic, ERP integration, go-live process",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -59,7 +59,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Invoiced", "automated accounts receivable", "cash flow forecasting", "cash collection forecasting", "CashMatch AI", "multi-entity forecasting"],
+        keywords: ["Invoiced", "AI accounts receivable", "cash flow forecasting", "cash collection forecasting", "CashMatch AI", "multi-entity forecasting"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
@@ -93,7 +93,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page() {
     const heroSummary =
-        "Discover Invoiced for automated accounts receivable, enhancing cash flow management for small businesses.";
+        "Discover Invoiced for AI accounts receivable, enhancing cash flow management for small businesses.";
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />

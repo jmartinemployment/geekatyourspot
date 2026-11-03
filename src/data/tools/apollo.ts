@@ -12,7 +12,7 @@ export const apolloContent: ToolPageContent = {
   "department": "marketing",
   "useCase": "marketing-automation-platforms/ai-lead-enrichment-predictive-scoring",
   "description":
-    "Lead Enrichment and Predictive Scoring with Apollo help Miami-Dade, Broward, and West Palm Beach small businesses capture and qualify sales-ready leads.",
+    "AI Lead Enrichment and Predictive Scoring with Apollo help Miami-Dade, Broward, and West Palm Beach small businesses capture and qualify sales-ready leads.",
   "heroSummary":
     "Apollo transforms manual lead management for South Florida small businesses by automating lead capture and qualification with enriched data and predictive scoring, ensuring your team focuses on the most promising prospects.",
   "keywords":
@@ -24,7 +24,7 @@ export const apolloContent: ToolPageContent = {
   "sections": [
     {"title": "Overview", "description": "Every week, small business owners in Miami-Dade, Broward and West Palm Beach sit down to review their sales pipeline, only to find the same pattern."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "Manual lead enrichment and predictive scoring is where most small businesses in Miami-Dade, Broward, and West Palm Beach lose their edge."},
-    {"title": "How Apollo Removes the Busywork from Lead Enrichment and Predictive Scoring", "description": "Apollo is built to end the detective work in small business sales."},
+    {"title": "How Apollo Removes the Busywork from AI Lead Enrichment and Predictive Scoring", "description": "Apollo is built to end the detective work in small business sales."},
     {"title": "How Apollo Turns Raw Data Into Qualified Leads", "description": "Apollo works by automating the entire process of finding, enriching, and scoring leads, so small businesses stop wasting time on cold contacts and start focusing on real buyers."},
     {"title": "Apollo’s Data Architecture, Integrations, and What It Holds", "description": "Apollo’s strength comes from its architecture, a system built to hold vast amounts of verified data, connect with your existing tools, and keep everything in sync as you work."},
     {"title": "What Going Live with Apollo Involves: Steps, Shortcuts, and the Real Timeline", "description": "Getting Apollo live in a small business environment is about speed and fit, not just turning on a tool."},

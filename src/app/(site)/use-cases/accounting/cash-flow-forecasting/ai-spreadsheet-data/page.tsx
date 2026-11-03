@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
 import SharedHeroSection from "@/components/shared/shared-hero-section";
-import LedeSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting/lede-section";
-import ChallengesSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting/challenges-section";
-import StatusQuoSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting/status-quo-section";
-import MechanicsSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting/mechanics-section";
-import KeyFactorsSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting/key-factors-section";
-import DecisionsSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting/decisions-section";
-import SequenceSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting/sequence-section";
-import DataIntegrationSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting/data-integration-section";
-import RolesSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting/roles-section";
-import RightFitSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting/right-fit-section";
-import PreparingSection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting/preparing-section";
-import PAASection from "@/components/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting/paa-section";
+import LedeSection from "@/components/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data-transforming-cash-flow-forecasting/lede-section";
+import ChallengesSection from "@/components/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data-transforming-cash-flow-forecasting/challenges-section";
+import StatusQuoSection from "@/components/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data-transforming-cash-flow-forecasting/status-quo-section";
+import MechanicsSection from "@/components/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data-transforming-cash-flow-forecasting/mechanics-section";
+import KeyFactorsSection from "@/components/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data-transforming-cash-flow-forecasting/key-factors-section";
+import DecisionsSection from "@/components/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data-transforming-cash-flow-forecasting/decisions-section";
+import SequenceSection from "@/components/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data-transforming-cash-flow-forecasting/sequence-section";
+import DataIntegrationSection from "@/components/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data-transforming-cash-flow-forecasting/data-integration-section";
+import RolesSection from "@/components/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data-transforming-cash-flow-forecasting/roles-section";
+import RightFitSection from "@/components/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data-transforming-cash-flow-forecasting/right-fit-section";
+import PreparingSection from "@/components/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data-transforming-cash-flow-forecasting/preparing-section";
+import PAASection from "@/components/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data-transforming-cash-flow-forecasting/paa-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
@@ -19,7 +19,7 @@ import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "AI Spreadsheet Data";
 const DESCRIPTION =
-    "Discover how Automated Spreadsheet Data enhances cash flow forecasting, saving time and reducing errors for small businesses.";
+    "Discover how AI Spreadsheet Data enhances cash flow forecasting, saving time and reducing errors for small businesses.";
 const CANONICAL = "/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -35,7 +35,7 @@ const jsonLd: Graph = {
             "datePublished": "2026-10-11T13:17:30.3879718Z",
             "dateModified": "2026-10-11T13:17:30.3879718Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Automated Spreadsheet Data, Cash Flow Forecasting, AI Implementation, Small Business Automation, Spreadsheet Automation, Data Quality, Tech Selection, Pilot Implementation, Local AI Services",
+            "keywords": "AI Spreadsheet Data, Cash Flow Forecasting, AI Implementation, Small Business Automation, Spreadsheet Automation, Data Quality, Tech Selection, Pilot Implementation, Local AI Services",
             "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting" },
             "mentions": [
                 { "@type": "Thing", "name": "Cashflowfrog", "url": "https://cashflowfrog.com/" },
@@ -62,7 +62,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: TITLE,
         description: DESCRIPTION,
-        keywords: ["Automated Spreadsheet Data", "Cash Flow Forecasting", "AI Implementation", "Small Business Automation", "Spreadsheet Automation", "Data Quality"],
+        keywords: ["AI Spreadsheet Data", "Cash Flow Forecasting", "AI Implementation", "Small Business Automation", "Spreadsheet Automation", "Data Quality"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
@@ -96,7 +96,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page() {
     const heroSummary =
-        "Unlock the potential of automated spreadsheet data to streamline cash flow forecasting, saving time and reducing errors for your small business.";
+        "Unlock the potential of AI spreadsheet data to streamline cash flow forecasting, saving time and reducing errors for your small business.";
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />

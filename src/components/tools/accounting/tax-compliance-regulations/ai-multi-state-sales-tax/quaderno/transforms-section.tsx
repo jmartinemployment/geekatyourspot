@@ -5,7 +5,7 @@ export default function TransformsSection() {
     <>
       <p className="text-base text-white shadow-text pt-3">
         Quaderno is built to end the cycle of manual tracking, late nights, and compliance panic that comes with
-        Multi-State Sales Tax Nexus. For a small team in West Palm Beach, Broward, or Miami-Dade, the biggest
+        AI Multi-State Sales Tax. For a small team in West Palm Beach, Broward, or Miami-Dade, the biggest
         change is time: hours spent checking spreadsheets, reconciling sales, and preparing state-by-state
         filings drop away. Quaderno connects directly to your billing and e-commerce platforms, Stripe, PayPal,
         WooCommerce, Shopify, Amazon FBA, and more, so every sale, refund, and subscription event is captured in
@@ -81,8 +81,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-quaderno-removes-the-weekly-burden-of-multi-state-sales-tax-nexus" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How Quaderno Removes the Weekly Burden of Multi-State Sales Tax Nexus
+              <h2 id="how-quaderno-removes-the-weekly-burden-of-ai-multi-state-sales-tax" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How Quaderno Removes the Weekly Burden of AI Multi-State Sales Tax
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
@@ -94,8 +94,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-quaderno-removes-the-weekly-burden-of-multi-state-sales-tax-nexus-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How Quaderno Removes the Weekly Burden of Multi-State Sales Tax Nexus
+              <h2 id="how-quaderno-removes-the-weekly-burden-of-ai-multi-state-sales-tax-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How Quaderno Removes the Weekly Burden of AI Multi-State Sales Tax
               </h2>
               {body}
             </div>

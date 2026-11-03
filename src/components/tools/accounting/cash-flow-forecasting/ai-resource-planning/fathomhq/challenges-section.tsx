@@ -17,7 +17,7 @@ export default function ChallengesSection() {
         mapping data, but never gets the clarity to act. The business stays reactive, putting out fires instead
         of planning ahead.</p>
       <p className="text-base text-white shadow-text pt-3">
-        When intelligent resource planning is manual, every step is a risk. Copying numbers by hand from a sales
+        When AI resource planning is manual, every step is a risk. Copying numbers by hand from a sales
         report to a budget tracker means errors slip in. A formula breaks in a spreadsheet, and no one notices
         until payroll runs short. Multi-entity businesses, those with several locations or product lines, have
         it even worse. Each branch or division keeps its own books. Consolidating them into a single view is a

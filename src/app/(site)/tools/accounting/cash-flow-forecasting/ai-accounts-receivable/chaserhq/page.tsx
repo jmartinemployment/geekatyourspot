@@ -18,7 +18,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Chaserhq";
-const PAGE_TITLE = "Chaserhq for Intelligent Accounts Receivable";
+const PAGE_TITLE = "Chaserhq for AI Accounts Receivable";
 const DESCRIPTION =
     "Chaserhq automates accounts receivable for South Florida businesses, improving cash flow and reducing manual work.";
 const CANONICAL = "/tools/accounting/cash-flow-forecasting/ai-accounts-receivable/chaserhq";
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Chaserhq, automated accounts receivable, cash flow forecasting, automated payment reminders, days sales outstanding (DSO), accounts receivable KPIs, Recommended Chasing Times, invoice grouping, Customer Billing Portal, credit risk, ERP integration, payment date prediction",
+            "keywords": "Chaserhq, AI accounts receivable, cash flow forecasting, automated payment reminders, days sales outstanding (DSO), accounts receivable KPIs, Recommended Chasing Times, invoice grouping, Customer Billing Portal, credit risk, ERP integration, payment date prediction",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -68,7 +68,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Chaserhq", "automated accounts receivable", "cash flow forecasting", "automated payment reminders", "days sales outstanding (DSO)", "accounts receivable KPIs"],
+        keywords: ["Chaserhq", "AI accounts receivable", "cash flow forecasting", "automated payment reminders", "days sales outstanding (DSO)", "accounts receivable KPIs"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

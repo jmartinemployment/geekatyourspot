@@ -55,7 +55,7 @@ export default function RightFitSection() {
         deals with less effort. If not, another tool may be a better fit.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<a href="#consultationAppointment2xl" id={`tools-marketing-cross-platform-chatbot-manychat-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
+        when&nbsp;<a href="#consultationAppointment2xl" id={`tools-marketing-ai-chatbot-manychat-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>How many new inquiries do you receive in a typical week, and where do they come from?</li>
@@ -73,7 +73,7 @@ export default function RightFitSection() {
         <li>What is your budget and preferred way to pay?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
-        Our post <Link id={`tools-marketing-lead-capture-pipeline-cross-platform-chatbot-manychat-xlink-blog${idSuffix}`} href="/blog/business-operations/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline" className="text-[#C83803] hover:underline">Cross-Platform Chatbot Lead Capture</Link> covers the one thing Manychat is built to prove: a comment on an Instagram or Facebook post triggers a direct message while the prospect is still interested, the lead is tagged, and the contact lands in your CRM or spreadsheet without anyone copying it. It is also clear about the limit that matters for a social-first business, that no vendor claims the bot closes the sale, and that a flow nobody reviews weekly goes stale and starts giving out-of-date answers. Whether Instagram, WhatsApp and Messenger are really where your leads start, and who owns the flows, is what the four-phase assessment in our <Link id={`tools-marketing-lead-capture-pipeline-cross-platform-chatbot-manychat-xlink-pillar${idSuffix}`} href="/use-cases/business-operations/ai-chatbot" className="text-[#C83803] hover:underline">AI Chatbot</Link> guide settles first.</p>
+        Our post <Link id={`tools-marketing-marketing-automation-platforms-ai-chatbot-manychat-xlink-blog${idSuffix}`} href="/blog/business-operations/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline" className="text-[#C83803] hover:underline">AI Chatbot Lead Capture</Link> covers the one thing Manychat is built to prove: a comment on an Instagram or Facebook post triggers a direct message while the prospect is still interested, the lead is tagged, and the contact lands in your CRM or spreadsheet without anyone copying it. It is also clear about the limit that matters for a social-first business, that no vendor claims the bot closes the sale, and that a flow nobody reviews weekly goes stale and starts giving out-of-date answers. Whether Instagram, WhatsApp and Messenger are really where your leads start, and who owns the flows, is what the four-phase assessment in our <Link id={`tools-marketing-marketing-automation-platforms-ai-chatbot-manychat-xlink-pillar${idSuffix}`} href="/use-cases/business-operations/ai-chatbot" className="text-[#C83803] hover:underline">AI Chatbot</Link> guide settles first.</p>
     </>
   );
 

@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
 import SharedHeroSection from "@/components/shared/shared-hero-section";
-import LedeSection from "@/components/use-cases/business-operations/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses/lede-section";
-import ChallengesSection from "@/components/use-cases/business-operations/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses/challenges-section";
-import StatusQuoSection from "@/components/use-cases/business-operations/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses/status-quo-section";
-import MechanicsSection from "@/components/use-cases/business-operations/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses/mechanics-section";
-import KeyFactorsSection from "@/components/use-cases/business-operations/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses/key-factors-section";
-import DecisionsSection from "@/components/use-cases/business-operations/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses/decisions-section";
-import SequenceSection from "@/components/use-cases/business-operations/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses/sequence-section";
-import DataIntegrationSection from "@/components/use-cases/business-operations/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses/data-integration-section";
-import RolesSection from "@/components/use-cases/business-operations/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses/roles-section";
-import RightFitSection from "@/components/use-cases/business-operations/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses/right-fit-section";
-import PreparingSection from "@/components/use-cases/business-operations/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses/preparing-section";
-import PAASection from "@/components/use-cases/business-operations/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses/paa-section";
+import LedeSection from "@/components/use-cases/business-operations/ai-receptionist-streamline-lead-capture-for-south-florida-small-businesses/lede-section";
+import ChallengesSection from "@/components/use-cases/business-operations/ai-receptionist-streamline-lead-capture-for-south-florida-small-businesses/challenges-section";
+import StatusQuoSection from "@/components/use-cases/business-operations/ai-receptionist-streamline-lead-capture-for-south-florida-small-businesses/status-quo-section";
+import MechanicsSection from "@/components/use-cases/business-operations/ai-receptionist-streamline-lead-capture-for-south-florida-small-businesses/mechanics-section";
+import KeyFactorsSection from "@/components/use-cases/business-operations/ai-receptionist-streamline-lead-capture-for-south-florida-small-businesses/key-factors-section";
+import DecisionsSection from "@/components/use-cases/business-operations/ai-receptionist-streamline-lead-capture-for-south-florida-small-businesses/decisions-section";
+import SequenceSection from "@/components/use-cases/business-operations/ai-receptionist-streamline-lead-capture-for-south-florida-small-businesses/sequence-section";
+import DataIntegrationSection from "@/components/use-cases/business-operations/ai-receptionist-streamline-lead-capture-for-south-florida-small-businesses/data-integration-section";
+import RolesSection from "@/components/use-cases/business-operations/ai-receptionist-streamline-lead-capture-for-south-florida-small-businesses/roles-section";
+import RightFitSection from "@/components/use-cases/business-operations/ai-receptionist-streamline-lead-capture-for-south-florida-small-businesses/right-fit-section";
+import PreparingSection from "@/components/use-cases/business-operations/ai-receptionist-streamline-lead-capture-for-south-florida-small-businesses/preparing-section";
+import PAASection from "@/components/use-cases/business-operations/ai-receptionist-streamline-lead-capture-for-south-florida-small-businesses/paa-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
@@ -19,7 +19,7 @@ import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "AI Receptionist";
 const DESCRIPTION =
-    "Intelligent Receptionist solutions for South Florida small businesses: automate lead capture, qualify prospects, and reduce missed opportunities with AI.";
+    "AI Receptionist solutions for South Florida small businesses: automate lead capture, qualify prospects, and reduce missed opportunities with AI.";
 const CANONICAL = "/use-cases/business-operations/ai-receptionist";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -35,7 +35,7 @@ const jsonLd: Graph = {
             "datePublished": "2026-10-15T19:43:46.5005360Z",
             "dateModified": "2026-10-15T19:43:46.5005360Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Intelligent Receptionist, Lead Capture Pipeline, AI receptionist, South Florida small business, Miami-Dade AI automation, Broward business automation, West Palm Beach lead capture, Smart chatbots for marketing, Lead scoring AI, Voice assistant automation",
+            "keywords": "AI Receptionist, Lead Capture Pipeline, South Florida small business, Miami-Dade AI automation, Broward business automation, West Palm Beach lead capture, Smart chatbots for marketing, Lead scoring AI, Voice assistant automation",
             "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/ai-sales-force-automation-software" },
             "mentions": [
                 { "@type": "Thing", "name": "LobbyStack", "url": "https://lobbystack.com/" },
@@ -61,7 +61,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: TITLE,
         description: DESCRIPTION,
-        keywords: ["Intelligent Receptionist", "Lead Capture Pipeline", "AI receptionist", "South Florida small business", "Miami-Dade AI automation", "Broward business automation", "West Palm Beach lead capture", "Smart chatbots for marketing", "Lead scoring AI", "Voice assistant automation"],
+        keywords: ["AI Receptionist", "Lead Capture Pipeline", "South Florida small business", "Miami-Dade AI automation", "Broward business automation", "West Palm Beach lead capture", "Smart chatbots for marketing", "Lead scoring AI", "Voice assistant automation"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
@@ -95,7 +95,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page() {
     const heroSummary =
-        "Stop missing leads and free up your team. An Intelligent Receptionist automates first contact, qualifies prospects, and routes inquiries, so you close more deals with less effort.";
+        "Stop missing leads and free up your team. An AI Receptionist automates first contact, qualifies prospects, and routes inquiries, so you close more deals with less effort.";
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />

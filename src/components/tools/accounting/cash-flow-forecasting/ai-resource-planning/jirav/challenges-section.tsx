@@ -45,7 +45,7 @@ export default function ChallengesSection() {
         only increase. More sales mean more invoices, more payroll runs, more data to reconcile. The old way,
         patching together reports after the fact, cannot keep up. The business falls further behind, and the
         cost of missing, late, or wrong information grows. This is the wall that blocks small businesses from
-        scaling up, and it is why Intelligent Resource Planning is not a luxury, but a necessity.</p>
+        scaling up, and it is why AI Resource Planning is not a luxury, but a necessity.</p>
     </>
   );
 

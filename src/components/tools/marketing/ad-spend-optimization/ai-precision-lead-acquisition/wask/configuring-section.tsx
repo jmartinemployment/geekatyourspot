@@ -18,7 +18,7 @@ export default function ConfiguringSection() {
         as &ldquo;pause any ad set that spends 1.5 times our target CPA without a conversion&rdquo; or as nuanced as
         &ldquo;increase budget by 10% if three conversions are achieved at 0.8x CPA, but only once per day.&rdquo;</p>
       <p className="text-base text-white shadow-text pt-3">
-        Wask also provides over 1,000 pre-built templates for common optimization scenarios (<a id={`tools-marketing-precision-lead-acquisition-wask-configuring-source-google-ads-agency${idSuffix}`} href="https://www.wask.co/google-ads-agency" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Wask</a>,
+        Wask also provides over 1,000 pre-built templates for common optimization scenarios (<a id={`tools-marketing-ai-precision-lead-acquisition-wask-configuring-source-google-ads-agency${idSuffix}`} href="https://www.wask.co/google-ads-agency" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Wask</a>,
         as of Oct 29, 2026). You can start with these templates, such as automated bid adjustments, budget pacing, or
         creative fatigue detection, and modify them for your business. Every action Wask takes is surfaced with the
         trigger condition and timestamp, so you always know which rule fired and why. This audit visibility is built in,

@@ -44,8 +44,8 @@ export default function EvaluatingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-stampli-for-automated-approval-workflows">
-                Evaluating Stampli for Automated Approval Workflows
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-stampli-for-ai-invoice-approval-workflows">
+                Evaluating Stampli for AI Invoice Approval Workflows
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
@@ -57,8 +57,8 @@ export default function EvaluatingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-stampli-for-automated-approval-workflows-lg">
-                Evaluating Stampli for Automated Approval Workflows
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-stampli-for-ai-invoice-approval-workflows-lg">
+                Evaluating Stampli for AI Invoice Approval Workflows
               </h2>
               {body("-lg")}
             </div>

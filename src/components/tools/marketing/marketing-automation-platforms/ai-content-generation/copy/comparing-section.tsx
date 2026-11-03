@@ -63,7 +63,7 @@ export default function ComparingSection() {
         run.</p>
       <p className="text-base text-white shadow-text pt-3">
         In short, Copy.ai replaces the patchwork of freelancers, agencies, and point-solution AI tools with a
-        unified, scalable system that actually delivers on the promise of Intelligent Content Generation. For
+        unified, scalable system that actually delivers on the promise of AI Content Generation. For
         small businesses that need to look bigger than their headcount, keep budgets tight, and move fast in a
         crowded local market, it is the only approach that turns content from a weekly headache into a true
         business asset.</p>

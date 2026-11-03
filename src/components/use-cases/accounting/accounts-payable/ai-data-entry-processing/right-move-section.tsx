@@ -7,15 +7,15 @@ export default function RightMoveSection() {
         Automating accounts payable (AP) can be transformative for businesses that struggle with
         time-consuming manual processes, frequent data entry errors, and delayed invoice approvals. If your
         business experiences these pain points, implementing automated solutions like&nbsp;
-        <Link id={`use-cases-accounting-automated-data-entry-processing-right-move-dext${idSuffix}`}
+        <Link id={`use-cases-accounting-ai-data-entry-processing-right-move-dext${idSuffix}`}
           href="/tools/accounting/accounts-payable/ai-data-entry-processing/dext" className="text-[#C83803] hover:underline">
           Dext
         </Link>,&nbsp;
-        <Link id={`use-cases-accounting-automated-data-entry-processing-right-move-bill${idSuffix}`}
+        <Link id={`use-cases-accounting-ai-data-entry-processing-right-move-bill${idSuffix}`}
           href="/tools/accounting/accounts-payable/ai-data-entry-processing/bill" className="text-[#C83803] hover:underline">
           Bill
         </Link>, and&nbsp;
-        <Link id={`use-cases-accounting-automated-data-entry-processing-right-move-avidxchange${idSuffix}`}
+        <Link id={`use-cases-accounting-ai-data-entry-processing-right-move-avidxchange${idSuffix}`}
           href="/tools/accounting/accounts-payable/ai-data-entry-processing/avidxchange" className="text-[#C83803] hover:underline">
           AvidXchange
         </Link>&nbsp;could be the right decision. These tools offer automated data capture and streamlined
@@ -24,7 +24,7 @@ export default function RightMoveSection() {
         Consider this approach if your team is overwhelmed with high volumes of invoices and struggles with
         maintaining accuracy under pressure. Automation can free your team from repetitive tasks, allowing
         them to focus on strategic initiatives that drive business growth. For example,&nbsp;
-        <Link id={`use-cases-accounting-automated-data-entry-processing-right-move-stampli${idSuffix}`}
+        <Link id={`use-cases-accounting-ai-data-entry-processing-right-move-stampli${idSuffix}`}
           href="/tools/accounting/accounts-payable/ai-invoice-approval-workflows/stampli" className="text-[#C83803] hover:underline">
           Stampli
         </Link>&nbsp;excels at integrating with existing accounting systems to automate invoice approval and
@@ -36,7 +36,7 @@ export default function RightMoveSection() {
       <p className="text-base text-white shadow-text pt-3">
         Before making a decision, assess your current process bottlenecks and the potential for improvement.
         Evaluate solutions like&nbsp;
-        <Link id={`use-cases-accounting-automated-data-entry-processing-right-move-melio${idSuffix}`}
+        <Link id={`use-cases-accounting-ai-data-entry-processing-right-move-melio${idSuffix}`}
           href="/tools/accounting/accounts-payable/ai-payment-execution/melio" className="text-[#C83803] hover:underline">
           Melio
         </Link>&nbsp;for their capability to streamline processes without disrupting your existing workflows.
@@ -46,11 +46,11 @@ export default function RightMoveSection() {
         Ultimately, the right choice depends on your specific business needs and goals. Consider consulting
         with an AI implementation expert to tailor a solution that fits your organization. For a detailed
         assessment and to explore how automated solutions can benefit your business,&nbsp;
-        <a href="#consultationAppointment2xl" id={`use-cases-accounting-automated-data-entry-processing-right-move-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
+        <a href="#consultationAppointment2xl" id={`use-cases-accounting-ai-data-entry-processing-right-move-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
           book a free consultation
         </a>&nbsp;to discuss the next steps.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Before you take the accuracy figures above on faith, read what the vendors actually report and where the gains stop. Our post <Link id={`use-cases-accounting-accounts-payable-automated-data-entry-processing-xlink-blog${idSuffix}`} href="/blog/accounting/how-ai-transforms-accounts-payable-automated-data-entry-processing" className="text-[#C83803] hover:underline">AI Data Entry for Accounts Payable</Link> sets out Dext’s over 99% accuracy in structured records and its 31.4 million receipts and invoices processed in a single month, Bill’s claim to halve processing time with AI invoice entry, and AvidXchange’s blend of automated extraction with expert oversight, which the post notes comes with a complex initial setup. It then names the two cases where automation does not pay: low transaction volume, and processes so non-standard that customization raises both the cost and the timeline.</p>
+        Before you take the accuracy figures above on faith, read what the vendors actually report and where the gains stop. Our post <Link id={`use-cases-accounting-accounts-payable-ai-data-entry-processing-xlink-blog${idSuffix}`} href="/blog/accounting/how-ai-transforms-accounts-payable-automated-data-entry-processing" className="text-[#C83803] hover:underline">AI Data Entry for Accounts Payable</Link> sets out Dext’s over 99% accuracy in structured records and its 31.4 million receipts and invoices processed in a single month, Bill’s claim to halve processing time with AI invoice entry, and AvidXchange’s blend of automated extraction with expert oversight, which the post notes comes with a complex initial setup. It then names the two cases where automation does not pay: low transaction volume, and processes so non-standard that customization raises both the cost and the timeline.</p>
     </>
   );
 

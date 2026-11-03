@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Smith.ai";
-const PAGE_TITLE = "Smith.ai as an Intelligent Receptionist";
+const PAGE_TITLE = "Smith.ai as an AI Receptionist";
 const DESCRIPTION =
-    "Intelligent Receptionist Smith.ai helps South Florida small businesses capture every lead by blending automation with real human support for client intake.";
+    "AI Receptionist Smith.ai helps South Florida small businesses capture every lead by blending automation with real human support for client intake.";
 const CANONICAL = "/tools/business-operations/ai-receptionist/smith";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Smith.ai, intelligent receptionist, AI receptionist, lead capture, missed calls, call answering, South Florida small business",
+            "keywords": "Smith.ai, AI receptionist, lead capture, missed calls, call answering, South Florida small business",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -58,7 +58,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Smith.ai", "intelligent receptionist", "AI receptionist", "lead capture", "missed calls", "call answering", "South Florida small business"],
+        keywords: ["Smith.ai", "AI receptionist", "lead capture", "missed calls", "call answering", "South Florida small business"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
@@ -92,7 +92,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page() {
     const heroSummary =
-        "Smith.ai offers an Intelligent Receptionist solution tailored for South Florida small businesses, combining automated lead capture with live human backup for every call.";
+        "Smith.ai offers an AI Receptionist solution tailored for South Florida small businesses, combining automated lead capture with live human backup for every call.";
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />

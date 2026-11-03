@@ -57,7 +57,7 @@ export default function LedeSection() {
         With AI, businesses can achieve more precise targeting and <GlossaryLink slug="personalized-marketing">personalization</GlossaryLink>. Tools like&nbsp;
         <strong>Smartly.io</strong>&nbsp;use consumer data to deliver personalized ad experiences, increasing engagement and <GlossaryLink slug="conversion-funnel">conversion
         rates</GlossaryLink>.</p>
-      <p className="pt-3 text-base font-normal text-white shadow-text">For a shorter overview, read <Link id={`use-cases-marketing-automated-ad-spend-optimization-lede-blog${idSuffix}`} href="/blog/marketing/how-ai-transforms-ad-spend-4-key-strategies" className="text-[#C83803] hover:underline">How AI Transforms Ad Spend in 4 Ways</Link> on our blog.</p>
+      <p className="pt-3 text-base font-normal text-white shadow-text">For a shorter overview, read <Link id={`use-cases-marketing-ad-spend-optimization-lede-blog${idSuffix}`} href="/blog/marketing/how-ai-transforms-ad-spend-4-key-strategies" className="text-[#C83803] hover:underline">How AI Transforms Ad Spend in 4 Ways</Link> on our blog.</p>
     </>
   );
 
@@ -68,7 +68,7 @@ export default function LedeSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5"></div>
             <div className="col-span-7">
-              <h2 id="unlocking-automated-ad-spend-optimization" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="unlocking-ad-spend-optimization" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Unlocking Ad Spend Optimization
               </h2>
             </div>
@@ -84,7 +84,7 @@ export default function LedeSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5"></div>
             <div className="col-span-7">
-              <h2 id="unlocking-automated-ad-spend-optimization-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="unlocking-ad-spend-optimization-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Unlocking Ad Spend Optimization
               </h2>
               {body("-lg")}

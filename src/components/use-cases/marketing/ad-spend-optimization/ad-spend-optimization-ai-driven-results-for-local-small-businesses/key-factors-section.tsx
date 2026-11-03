@@ -24,7 +24,7 @@ export default function KeyFactorsSection() {
       <p className="text-base text-white shadow-text pt-3">
         Routine is what makes optimization stick. Many businesses set up smart rules, then never check if they are
         firing, or lose track of what the rules actually do. Bir stands out here: its automation scripts audit ad
-        accounts every 15 minutes, catching budget spikes or creative fatigue before they spiral (<a id={`use-cases-marketing-precision-lead-acquisition-key-factors-source-bir-ch${idSuffix}`} href="https://bir.ch/case-studies/nothink" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Bir</a>,
+        accounts every 15 minutes, catching budget spikes or creative fatigue before they spiral (<a id={`use-cases-marketing-ai-precision-lead-acquisition-key-factors-source-bir-ch${idSuffix}`} href="https://bir.ch/case-studies/nothink" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Bir</a>,
         as of Oct 25, 2026). Wask brings weekly structure, requiring a regular review of every account, so there is
         always a next step, not just a backlog of alerts. Adzooma keeps the team organized by showing all channels in
         one dashboard, reducing the risk of missing a critical drop in performance on a forgotten account.</p>

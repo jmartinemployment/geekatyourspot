@@ -89,8 +89,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-rippling-removes-payroll-tax-worker-misclassification-from-your-week" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How Rippling Removes Payroll Tax &amp; Worker Misclassification from Your Week
+              <h2 id="how-rippling-removes-ai-payroll-tax-from-your-week" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How Rippling Removes AI Payroll Tax from Your Week
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
@@ -102,8 +102,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-rippling-removes-payroll-tax-worker-misclassification-from-your-week-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How Rippling Removes Payroll Tax &amp; Worker Misclassification from Your Week
+              <h2 id="how-rippling-removes-ai-payroll-tax-from-your-week-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How Rippling Removes AI Payroll Tax from Your Week
               </h2>
               {body}
             </div>

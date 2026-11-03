@@ -69,8 +69,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-smith-ai-actually-does-for-your-intelligent-receptionist-problem" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                What Smith.ai Actually Does for Your Intelligent Receptionist Problem
+              <h2 id="what-smith-ai-actually-does-for-your-ai-receptionist-problem" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                What Smith.ai Actually Does for Your AI Receptionist Problem
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
@@ -82,8 +82,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-smith-ai-actually-does-for-your-intelligent-receptionist-problem-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                What Smith.ai Actually Does for Your Intelligent Receptionist Problem
+              <h2 id="what-smith-ai-actually-does-for-your-ai-receptionist-problem-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                What Smith.ai Actually Does for Your AI Receptionist Problem
               </h2>
               {body}
             </div>

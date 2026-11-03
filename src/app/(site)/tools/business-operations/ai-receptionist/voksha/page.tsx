@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Voksha";
-const PAGE_TITLE = "Voksha as an Intelligent Receptionist";
+const PAGE_TITLE = "Voksha as an AI Receptionist";
 const DESCRIPTION =
-    "Intelligent Receptionist Voksha helps small businesses in Miami-Dade, Broward, and West Palm Beach capture every lead and stop losing customers to missed calls.";
+    "AI Receptionist Voksha helps small businesses in Miami-Dade, Broward, and West Palm Beach capture every lead and stop losing customers to missed calls.";
 const CANONICAL = "/tools/business-operations/ai-receptionist/voksha";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Voksha, intelligent receptionist, AI receptionist, lead capture, missed calls, call answering, South Florida small business",
+            "keywords": "Voksha, AI receptionist, lead capture, missed calls, call answering, South Florida small business",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -64,7 +64,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Voksha", "intelligent receptionist", "AI receptionist", "lead capture", "missed calls", "call answering", "South Florida small business"],
+        keywords: ["Voksha", "AI receptionist", "lead capture", "missed calls", "call answering", "South Florida small business"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
@@ -98,7 +98,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page() {
     const heroSummary =
-        "Voksha offers an Intelligent Receptionist solution designed for small businesses in South Florida, ensuring every call is answered and every lead is captured efficiently.";
+        "Voksha offers an AI Receptionist solution designed for small businesses in South Florida, ensuring every call is answered and every lead is captured efficiently.";
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />

@@ -7,7 +7,7 @@ export default function ChallengesSection() {
         Manual precision lead acquisition on a small budget is a losing game for local businesses. The real cost
         is not just wasted dollars, but wasted time, missed leads, and constant stress. Every day spent manually
         adjusting bids or testing messages by hand is a day where most of your $10 to $16 ad budget disappears
-        before you see a single real lead (<a id={`tools-marketing-precision-lead-acquisition-google-performance-max-challenges-source-business-google-com${idSuffix}`} href="https://business.google.com/aunz/think/ai-excellence/remaster-retail-strategy-ai/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Google</a>,
+        before you see a single real lead (<a id={`tools-marketing-ai-precision-lead-acquisition-google-performance-max-challenges-source-business-google-com${idSuffix}`} href="https://business.google.com/aunz/think/ai-excellence/remaster-retail-strategy-ai/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Google</a>,
         as of Oct 24, 2026).</p>
       <p className="text-base text-white shadow-text pt-3">
         For small businesses in Miami-Dade, Broward, and West Palm Beach, the problem is not just that ad platforms

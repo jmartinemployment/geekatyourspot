@@ -54,7 +54,7 @@ export default function TransformsSection() {
         less stress. Every asset is optimized for both traditional search and AI-powered platforms, so the
         business shows up where customers are looking. Instead of reacting to traffic drops or missed
         opportunities, the team can see what’s coming and act with confidence. Semrush removes the grind from
-        Intelligent Content Planning so small businesses can stay visible, competitive, and focused on growth.</p>
+        AI Content Planning so small businesses can stay visible, competitive, and focused on growth.</p>
     </>
   );
 
@@ -65,8 +65,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-semrush-removes-the-weekly-grind-from-intelligent-content-planning" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How Semrush Removes the Weekly Grind from Intelligent Content Planning
+              <h2 id="how-semrush-removes-the-weekly-grind-from-ai-content-planning" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How Semrush Removes the Weekly Grind from AI Content Planning
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
@@ -78,8 +78,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-semrush-removes-the-weekly-grind-from-intelligent-content-planning-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How Semrush Removes the Weekly Grind from Intelligent Content Planning
+              <h2 id="how-semrush-removes-the-weekly-grind-from-ai-content-planning-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How Semrush Removes the Weekly Grind from AI Content Planning
               </h2>
               {body}
             </div>

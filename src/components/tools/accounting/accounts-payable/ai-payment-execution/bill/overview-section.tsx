@@ -26,7 +26,7 @@ export default function OverviewSection() {
         it&#39;s a strategic move that can lead to significant time savings and improved financial
         management.</p>
       <p className="text-base text-white shadow-text pt-3">
-        For small businesses considering this shift, the benefits of Automated Payment Execution are clear.
+        For small businesses considering this shift, the benefits of AI Payment Execution are clear.
         It eliminates the need for manual data entry, reduces the risk of errors, and provides real-time
         visibility into financial transactions. This transformation allows businesses to operate more
         efficiently and with greater confidence, knowing that their payment processes are both reliable and

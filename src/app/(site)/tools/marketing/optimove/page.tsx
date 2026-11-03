@@ -15,7 +15,7 @@ const jsonLd: WithContext<TechArticle> = {
     "headline": "Optimove for Ad Spend Optimization",
     "description": "Optimize ad spend with AI-driven insights from Optimove for better marketing ROI and efficiency.",
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://geekatyourspot.com/tools/marketing/optimove" },
-    "keywords": "Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
+    "keywords": "Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, AI data quality assessments",
     "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
     "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
     "about": {
@@ -31,7 +31,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: "Optimove for Ad Spend Optimization",
         description: "Optimize ad spend with AI-driven insights from Optimove for better marketing ROI and efficiency.",
-        keywords: ["Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments"],
+        keywords: ["Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, AI data quality assessments"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

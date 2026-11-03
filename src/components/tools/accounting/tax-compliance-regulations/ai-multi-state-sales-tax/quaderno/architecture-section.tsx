@@ -11,7 +11,7 @@ export default function ArchitectureSection() {
         gateways you use.</p>
       <p className="text-base text-white shadow-text pt-3">
         The platform supports direct integrations with Stripe, PayPal, Braintree, GoCardless, Shopify,
-        WooCommerce, Squarespace, Paddle, Amazon FBA, and&nbsp;<Link id={`tools-accounting-multi-state-sales-tax-nexus-quaderno-architecture-zapier${idSuffix}`} href="/tools/marketing/zapier" className="text-[#0B162A] hover:underline">Zapier</Link>. You can also connect custom setups using
+        WooCommerce, Squarespace, Paddle, Amazon FBA, and&nbsp;<Link id={`tools-accounting-ai-multi-state-sales-tax-quaderno-architecture-zapier${idSuffix}`} href="/tools/marketing/zapier" className="text-[#0B162A] hover:underline">Zapier</Link>. You can also connect custom setups using
         Quaderno’s&nbsp;API&nbsp;or
         by importing CSV files. Each integration is built to sync data automatically, sales, refunds, customer
         details, and payment status, so you do not have to manually export or reconcile records. For

@@ -3,7 +3,7 @@ export default function EvaluatingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Small businesses in Miami-Dade, Broward, and Palm Beach counties looking for a cross-platform chatbot
+        Small businesses in Miami-Dade, Broward, and Palm Beach counties looking for an AI chatbot
         need to know if Tidio fits both their operational needs and their budget. Tidio is built for small and
         mid-sized teams that want to automate support, capture leads, and handle sales conversations across
         website chat, social DMs, and email, all from one dashboard. The platform is not aimed at enterprises

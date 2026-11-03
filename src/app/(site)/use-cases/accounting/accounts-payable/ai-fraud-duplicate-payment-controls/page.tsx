@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import SharedHeroSection from "@/components/shared/shared-hero-section";
-import LedeSection from "@/components/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency/lede-section";
-import HiddenCostsSection from "@/components/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency/hidden-costs-section";
-import HowItWorksSection from "@/components/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency/how-it-works-section";
-import DecisionsSection from "@/components/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency/decisions-section";
-import InPracticeSection from "@/components/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency/in-practice-section";
-import RightFitSection from "@/components/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency/right-fit-section";
-import PAASection from "@/components/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency/paa-section";
+import LedeSection from "@/components/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls-boosting-efficiency/lede-section";
+import HiddenCostsSection from "@/components/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls-boosting-efficiency/hidden-costs-section";
+import HowItWorksSection from "@/components/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls-boosting-efficiency/how-it-works-section";
+import DecisionsSection from "@/components/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls-boosting-efficiency/decisions-section";
+import InPracticeSection from "@/components/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls-boosting-efficiency/in-practice-section";
+import RightFitSection from "@/components/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls-boosting-efficiency/right-fit-section";
+import PAASection from "@/components/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls-boosting-efficiency/paa-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
@@ -14,7 +14,7 @@ import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "AI Fraud & Duplicate Payment Controls";
 const DESCRIPTION =
-    "Implement Automated Fraud & Duplicate Payment Controls to enhance efficiency and accuracy in accounts payable for small businesses.";
+    "Implement AI Fraud & Duplicate Payment Controls to enhance efficiency and accuracy in accounts payable for small businesses.";
 const CANONICAL = "/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -30,7 +30,7 @@ const jsonLd: Graph = {
             "datePublished": "2026-10-09T12:45:16.0792588Z",
             "dateModified": "2026-10-09T12:45:16.0792588Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Automated Fraud & Duplicate Payment Controls, accounts payable automation, fraud prevention, duplicate payment controls, AI implementation, small business efficiency, cost savings, time savings, error reduction, local small businesses",
+            "keywords": "AI Fraud & Duplicate Payment Controls, accounts payable automation, fraud prevention, duplicate payment controls, AI implementation, small business efficiency, cost savings, time savings, error reduction, local small businesses",
             "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable" },
             "mentions": [
                 { "@type": "Thing", "name": "Medius", "url": "https://www.medius.com/" },
@@ -55,7 +55,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: TITLE,
         description: DESCRIPTION,
-        keywords: ["automated fraud and duplicate payment controls", "accounts payable automation", "fraud prevention", "duplicate payment controls", "AI implementation", "small business efficiency"],
+        keywords: ["AI fraud and duplicate payment controls", "accounts payable automation", "fraud prevention", "duplicate payment controls", "AI implementation", "small business efficiency"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
@@ -80,7 +80,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page() {
     const heroSummary =
-        "Discover how implementing Automated Fraud & Duplicate Payment Controls can streamline your accounts payable process, saving time and reducing errors.";
+        "Discover how implementing AI Fraud & Duplicate Payment Controls can streamline your accounts payable process, saving time and reducing errors.";
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />

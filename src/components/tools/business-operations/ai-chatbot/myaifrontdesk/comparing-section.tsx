@@ -3,7 +3,7 @@ export default function ComparingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Small businesses in South Florida looking for a cross-platform chatbot to centralize sales
+        Small businesses in South Florida looking for an AI chatbot to centralize sales
         conversations face a crowded field. The choice is not just about picking a chatbot, it is about
         picking the system that will actually solve the problem of fragmented communication, lost leads, and
         manual data entry. My AI Front Desk stands out because it is built from the ground up to unify every

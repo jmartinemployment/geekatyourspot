@@ -20,7 +20,7 @@ export default function OverviewSection() {
         keeps the business from growing. Time and cash, the two most limited resources, drain away with little
         to show for it.</p>
       <p className="text-base text-white shadow-text pt-3">
-        This page shows how a Lead Capture Pipeline using Lead Enrichment and Predictive Scoring flips that
+        This page shows how a Lead Capture Pipeline using AI Lead Enrichment and Predictive Scoring flips that
         equation. By automating the capture of website leads, enriching every contact with verified data, and
         scoring each one against your best customer profile, you stop chasing cold lists and start working
         only the leads most likely to buy. Smart chatbots,

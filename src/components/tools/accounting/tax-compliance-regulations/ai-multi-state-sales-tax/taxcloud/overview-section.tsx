@@ -7,7 +7,7 @@ export default function OverviewSection() {
         A South Florida retailer lands a big new account in New York, pushes a holiday promotion online, and
         watches sales spike. The team celebrates, until the monthly close reveals a problem nobody saw coming.
         Spanning just a few dozen out-of-state orders, their year-to-date total quietly tripped the $100,000
-        threshold in two states. That single milestone means they have a&nbsp;<Link id={`tools-accounting-multi-state-sales-tax-nexus-taxcloud-overview-multi-state-sales-tax-nexus${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax" className="text-[#C83803] hover:underline">Multi-State Sales Tax Nexus</Link>. Suddenly,
+        threshold in two states. That single milestone means they have a&nbsp;<Link id={`tools-accounting-ai-multi-state-sales-tax-taxcloud-overview-ai-multi-state-sales-tax${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax" className="text-[#C83803] hover:underline">AI Multi-State Sales Tax</Link>. Suddenly,
         they must register, collect, and file sales tax in states where they have no office, no staff, and no
         local accountant. What started as a win now threatens to paralyze the entire back office.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -21,7 +21,7 @@ export default function OverviewSection() {
         they even owe tax in each state. Each month brings new risk, wasted hours, and mounting anxiety about
         what might have slipped through the cracks.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Multi-State Sales Tax Nexus is not a theoretical problem. For small businesses selling online or across
+        AI Multi-State Sales Tax is not a theoretical problem. For small businesses selling online or across
         state lines, it is the single biggest compliance risk that can stall growth overnight. Crossing a
         state’s revenue or transaction threshold happens fast, often long before a team has the systems or
         processes to handle it. Without affordable, automated tax software, managing this manually means falling
@@ -33,7 +33,7 @@ export default function OverviewSection() {
         alert you as thresholds approach, and file on time in every state, turning a complex, high-stakes burden
         into a routine workflow. This lets you focus on growth, not on navigating tax traps. Geek @ Your Spot LLC
         helps small businesses in Broward, Miami-Dade, and Palm Beach counties implement these solutions, so
-        Multi-State Sales Tax Nexus stops being a roadblock and starts being just another box checked.</p>
+        AI Multi-State Sales Tax stops being a roadblock and starts being just another box checked.</p>
     </>
   );
 

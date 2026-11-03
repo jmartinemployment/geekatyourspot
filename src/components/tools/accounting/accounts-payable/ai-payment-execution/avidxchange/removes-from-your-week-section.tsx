@@ -2,7 +2,7 @@ export default function RemovesFromYourWeekSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        AvidXchange transforms the way small businesses handle automated payment execution by eliminating the
+        AvidXchange transforms the way small businesses handle AI payment execution by eliminating the
         inefficiencies of manual processes. By automating payment workflows, it frees up valuable time and
         resources, allowing businesses to focus on strategic initiatives rather than mundane tasks.</p>
       <p className="text-base text-white shadow-text pt-3">

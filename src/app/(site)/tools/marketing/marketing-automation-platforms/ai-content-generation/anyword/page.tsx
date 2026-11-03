@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Anyword";
-const PAGE_TITLE = "Anyword for Intelligent Content Generation";
+const PAGE_TITLE = "Anyword for AI Content Generation";
 const DESCRIPTION =
-    "Intelligent Content Generation with Anyword helps Miami-Dade, Broward, and West Palm Beach small businesses create high-impact content faster and for less.";
+    "AI Content Generation with Anyword helps Miami-Dade, Broward, and West Palm Beach small businesses create high-impact content faster and for less.";
 const CANONICAL = "/tools/marketing/marketing-automation-platforms/ai-content-generation/anyword";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Anyword, intelligent content generation, AI content generation, AI writing tools, content creation workflow, South Florida small business",
+            "keywords": "Anyword, AI content generation, AI writing tools, marketing automation platforms, South Florida small business",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -63,7 +63,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Anyword", "intelligent content generation", "AI content generation", "AI writing tools", "content creation workflow", "South Florida small business"],
+        keywords: ["Anyword", "AI content generation", "AI writing tools", "marketing automation platforms", "South Florida small business"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
@@ -97,7 +97,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page() {
     const heroSummary =
-        "Anyword offers AI-powered Intelligent Content Generation, enabling local small businesses to efficiently create, personalize, and schedule impactful digital content.";
+        "Anyword offers AI-powered AI Content Generation, enabling local small businesses to efficiently create, personalize, and schedule impactful digital content.";
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />

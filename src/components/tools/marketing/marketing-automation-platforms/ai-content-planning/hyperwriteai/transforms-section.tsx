@@ -3,7 +3,7 @@ export default function TransformsSection() {
     <>
       <p className="text-base text-white shadow-text pt-3">
         HyperWrite changes the shape of the workweek for small business marketing teams by automating the
-        hardest, slowest parts of Intelligent Content Planning. Instead of burning hours on routine drafting,
+        hardest, slowest parts of AI Content Planning. Instead of burning hours on routine drafting,
         manual rewriting, and endless context switching, teams get those hours back, and see fewer errors,
         more consistent messaging, and a process that actually scales.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -22,7 +22,7 @@ export default function TransformsSection() {
         or losing local buyers to jargon. Every message lands with the right tone and level of detail, no
         matter who is writing it.</p>
       <p className="text-base text-white shadow-text pt-3">
-        For intelligent content planning, HyperWrite&#39;s AI Content Planner analyzes your industry,
+        For AI content planning, HyperWrite&#39;s AI Content Planner analyzes your industry,
         competitors, and target audience to build a comprehensive content strategy. It does not just suggest
         topics; it creates a blueprint that maps out blog posts, social media updates, and email campaigns
         tailored to your goals. This eliminates the guesswork and manual research that used to fill hours of
@@ -72,8 +72,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-hyperwrite-removes-hours-of-work-from-intelligent-content-planning" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How HyperWrite Removes Hours of Work from Intelligent Content Planning
+              <h2 id="how-hyperwrite-removes-hours-of-work-from-ai-content-planning" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How HyperWrite Removes Hours of Work from AI Content Planning
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
@@ -85,8 +85,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-hyperwrite-removes-hours-of-work-from-intelligent-content-planning-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How HyperWrite Removes Hours of Work from Intelligent Content Planning
+              <h2 id="how-hyperwrite-removes-hours-of-work-from-ai-content-planning-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How HyperWrite Removes Hours of Work from AI Content Planning
               </h2>
               {body}
             </div>

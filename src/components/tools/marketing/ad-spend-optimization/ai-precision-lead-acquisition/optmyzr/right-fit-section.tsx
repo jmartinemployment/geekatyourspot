@@ -12,14 +12,14 @@ export default function RightFitSection() {
         threshold, or reallocating budget when a campaign outperforms, but do not want to rely on a generic,
         one-size-fits-all AI. Optmyzr&rsquo;s Rule Engine, Enhanced Scripts, and cross-platform reporting let you
         automate what matters most: catching non-converting keywords before they drain your budget, monitoring for 404
-        errors, and surfacing negative keyword opportunities (<a id={`tools-marketing-precision-lead-acquisition-optmyzr-right-fit-source-landing-pages${idSuffix}`} href="https://www.optmyzr.com/blog/are-your-adwords-ads-losing-money-on-bad-landing-pages/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Optmyzr</a>,
+        errors, and surfacing negative keyword opportunities (<a id={`tools-marketing-ai-precision-lead-acquisition-optmyzr-right-fit-source-landing-pages${idSuffix}`} href="https://www.optmyzr.com/blog/are-your-adwords-ads-losing-money-on-bad-landing-pages/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Optmyzr</a>,
         as of Oct 24, 2026). You get to decide what triggers an action, how aggressive the automation is, and whether
         changes are applied automatically or require your review.</p>
       <p className="text-base text-white shadow-text pt-3">
         For teams that are already stretched thin, the time savings are real. Blue Yarn Media, for example, saved over
-        240 hours per client per year, freeing up weeks of work that used to go into manual checks and reporting (<a id={`tools-marketing-precision-lead-acquisition-optmyzr-right-fit-source-ai-info-page${idSuffix}`} href="https://www.optmyzr.com/ai-info-page/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Optmyzr</a>,
+        240 hours per client per year, freeing up weeks of work that used to go into manual checks and reporting (<a id={`tools-marketing-ai-precision-lead-acquisition-optmyzr-right-fit-source-ai-info-page${idSuffix}`} href="https://www.optmyzr.com/ai-info-page/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Optmyzr</a>,
         as of Oct 24, 2026). Agencies like Epurple have seen 25% reductions in cost per acquisition, not by spending
-        more, but by using smarter automations to cut waste (<a id={`tools-marketing-precision-lead-acquisition-optmyzr-right-fit-source-epurple${idSuffix}`} href="https://www.optmyzr.com/case-studies/epurple/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Optmyzr</a>,
+        more, but by using smarter automations to cut waste (<a id={`tools-marketing-ai-precision-lead-acquisition-optmyzr-right-fit-source-epurple${idSuffix}`} href="https://www.optmyzr.com/case-studies/epurple/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Optmyzr</a>,
         as of Oct 24, 2026). These outcomes show that Optmyzr is not just a reporting tool, it is a way to reclaim time
         and budget that would otherwise be lost to inefficient processes.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -54,7 +54,7 @@ export default function RightFitSection() {
         to identify your biggest pain points and see how Optmyzr, properly set up, can automate them away, so you spend
         less time on firefighting and more on growth.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Answer these questions when <a id={`tools-marketing-precision-lead-acquisition-optmyzr-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
+        Answer these questions when <a id={`tools-marketing-ai-precision-lead-acquisition-optmyzr-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>What do you sell, and what action should an ad produce, a phone call, appointment, quote request, store visit, or online purchase?</li>

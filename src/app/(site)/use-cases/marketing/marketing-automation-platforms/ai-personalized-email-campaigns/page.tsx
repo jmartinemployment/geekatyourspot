@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
 import SharedHeroSection from "@/components/shared/shared-hero-section";
-import LedeSection from "@/components/use-cases/marketing/marketing-automation-platforms/personalized-email-campaigns-practical-ai-implementation-for-small-businesses/lede-section";
-import ChallengesSection from "@/components/use-cases/marketing/marketing-automation-platforms/personalized-email-campaigns-practical-ai-implementation-for-small-businesses/challenges-section";
-import StatusQuoSection from "@/components/use-cases/marketing/marketing-automation-platforms/personalized-email-campaigns-practical-ai-implementation-for-small-businesses/status-quo-section";
-import MechanicsSection from "@/components/use-cases/marketing/marketing-automation-platforms/personalized-email-campaigns-practical-ai-implementation-for-small-businesses/mechanics-section";
-import KeyFactorsSection from "@/components/use-cases/marketing/marketing-automation-platforms/personalized-email-campaigns-practical-ai-implementation-for-small-businesses/key-factors-section";
-import DecisionsSection from "@/components/use-cases/marketing/marketing-automation-platforms/personalized-email-campaigns-practical-ai-implementation-for-small-businesses/decisions-section";
-import SequenceSection from "@/components/use-cases/marketing/marketing-automation-platforms/personalized-email-campaigns-practical-ai-implementation-for-small-businesses/sequence-section";
-import DataIntegrationSection from "@/components/use-cases/marketing/marketing-automation-platforms/personalized-email-campaigns-practical-ai-implementation-for-small-businesses/data-integration-section";
-import RolesSection from "@/components/use-cases/marketing/marketing-automation-platforms/personalized-email-campaigns-practical-ai-implementation-for-small-businesses/roles-section";
-import RightFitSection from "@/components/use-cases/marketing/marketing-automation-platforms/personalized-email-campaigns-practical-ai-implementation-for-small-businesses/right-fit-section";
-import PreparingSection from "@/components/use-cases/marketing/marketing-automation-platforms/personalized-email-campaigns-practical-ai-implementation-for-small-businesses/preparing-section";
-import PaaSection from "@/components/use-cases/marketing/marketing-automation-platforms/personalized-email-campaigns-practical-ai-implementation-for-small-businesses/paa-section";
+import LedeSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns-practical-ai-implementation-for-small-businesses/lede-section";
+import ChallengesSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns-practical-ai-implementation-for-small-businesses/challenges-section";
+import StatusQuoSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns-practical-ai-implementation-for-small-businesses/status-quo-section";
+import MechanicsSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns-practical-ai-implementation-for-small-businesses/mechanics-section";
+import KeyFactorsSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns-practical-ai-implementation-for-small-businesses/key-factors-section";
+import DecisionsSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns-practical-ai-implementation-for-small-businesses/decisions-section";
+import SequenceSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns-practical-ai-implementation-for-small-businesses/sequence-section";
+import DataIntegrationSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns-practical-ai-implementation-for-small-businesses/data-integration-section";
+import RolesSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns-practical-ai-implementation-for-small-businesses/roles-section";
+import RightFitSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns-practical-ai-implementation-for-small-businesses/right-fit-section";
+import PreparingSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns-practical-ai-implementation-for-small-businesses/preparing-section";
+import PaaSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns-practical-ai-implementation-for-small-businesses/paa-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
@@ -19,7 +19,7 @@ import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "AI Personalized Email Campaigns";
 const DESCRIPTION =
-    "Personalized Email Campaigns help small businesses increase engagement and sales by automating relevant messages. Cut manual work. Get your free AI assessment.";
+    "AI Personalized Email Campaigns help small businesses increase engagement and sales by automating relevant messages. Cut manual work. Get your free AI assessment.";
 const CANONICAL = "/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -35,7 +35,7 @@ const jsonLd: Graph = {
             "datePublished": "2026-10-26T12:35:17.8414750Z",
             "dateModified": "2026-10-26T12:35:17.8414750Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Personalized Email Campaigns, AI marketing automation, small business email automation, Miami-Dade AI consulting, Broward marketing automation, Palm Beach personalized emails, Brevo for small businesses, MailerLite automation, ActiveCampaign personalization, Mailchimp local integration",
+            "keywords": "AI Personalized Email Campaigns, AI marketing automation, small business email automation, Miami-Dade AI consulting, Broward marketing automation, Palm Beach personalized emails, Brevo for small businesses, MailerLite automation, ActiveCampaign personalization, Mailchimp local integration",
             "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/marketing-automation-platforms" },
             "mentions": [
                 { "@type": "Thing", "name": "GetResponse", "url": "https://www.getresponse.com/" },
@@ -63,7 +63,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: TITLE,
         description: DESCRIPTION,
-        keywords: ["Personalized Email Campaigns", "AI marketing automation", "small business email automation", "Miami-Dade AI consulting", "Broward marketing automation", "Palm Beach personalized emails", "Brevo for small businesses", "MailerLite automation", "ActiveCampaign personalization", "Mailchimp local integration"],
+        keywords: ["AI Personalized Email Campaigns", "AI marketing automation", "small business email automation", "Miami-Dade AI consulting", "Broward marketing automation", "Palm Beach personalized emails", "Brevo for small businesses", "MailerLite automation", "ActiveCampaign personalization", "Mailchimp local integration"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

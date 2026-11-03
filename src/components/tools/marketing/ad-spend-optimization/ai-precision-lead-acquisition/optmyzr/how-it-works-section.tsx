@@ -27,7 +27,7 @@ export default function HowItWorksSection() {
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Pause keywords that cross a spend threshold without converting, labeling them for future review.</li>
         <li>Adjust bids up or down in real time to defend your ad&rsquo;s position when competitors spike their spend.</li>
-        <li>Monitor destination URLs for 404 errors or out-of-stock products, pausing affected ads instantly (<a id={`tools-marketing-precision-lead-acquisition-optmyzr-how-it-works-source-landing-pages${idSuffix}`} href="https://www.optmyzr.com/blog/are-your-adwords-ads-losing-money-on-bad-landing-pages/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Optmyzr</a>, as of Oct 24, 2026).</li>
+        <li>Monitor destination URLs for 404 errors or out-of-stock products, pausing affected ads instantly (<a id={`tools-marketing-ai-precision-lead-acquisition-optmyzr-how-it-works-source-landing-pages${idSuffix}`} href="https://www.optmyzr.com/blog/are-your-adwords-ads-losing-money-on-bad-landing-pages/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Optmyzr</a>, as of Oct 24, 2026).</li>
         <li>Audit search term reports and add negative keywords to block wasteful queries automatically.</li>
         <li>Scale budgets up or down for seasonal cycles or local demand drops without waiting for a human to notice.</li>
       </ul>

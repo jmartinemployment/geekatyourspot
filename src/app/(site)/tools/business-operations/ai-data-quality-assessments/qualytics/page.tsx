@@ -12,10 +12,10 @@ import { SHARE_IMAGE } from "@/lib/seo/share-image";
 const jsonLd: WithContext<TechArticle> = {
     "@context": "https://schema.org",
     "@type": "TechArticle",
-    "headline": "Qualytics for Data Quality Assessments",
+    "headline": "Qualytics for AI Data Quality Assessments",
     "description": "Optimize ad spend with Qualytics through automated data quality management for reliable marketing outcomes.",
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://geekatyourspot.com/tools/business-operations/ai-data-quality-assessments/qualytics" },
-    "keywords": "Data Quality Assessments, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
+    "keywords": "AI Data Quality Assessments, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation",
     "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
     "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
     "about": {
@@ -29,9 +29,9 @@ const jsonLd: WithContext<TechArticle> = {
 export const generateMetadata = async (): Promise<Metadata> => {
     // Add the return statement to fix the TypeScript error
     return {
-        title: "Qualytics for Data Quality Assessments",
+        title: "Qualytics for AI Data Quality Assessments",
         description: "Optimize ad spend with Qualytics through automated data quality management for reliable marketing outcomes.",
-        keywords: ["Data Quality Assessments, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments"],
+        keywords: ["AI Data Quality Assessments, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
@@ -40,7 +40,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             canonical: '/tools/business-operations/ai-data-quality-assessments/qualytics',
         },
         openGraph: {
-            title: "Qualytics for Data Quality Assessments",
+            title: "Qualytics for AI Data Quality Assessments",
             description: "Optimize ad spend with Qualytics through automated data quality management for reliable marketing outcomes.",
             url: 'https://geekatyourspot.com/tools/business-operations/ai-data-quality-assessments/qualytics',
             siteName: 'Geek @ Your Spot LLC',
@@ -50,7 +50,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: "Qualytics for Data Quality Assessments",
+            title: "Qualytics for AI Data Quality Assessments",
             description: "Optimize ad spend with Qualytics through automated data quality management for reliable marketing outcomes.",
             images: [SHARE_IMAGE],
         },
@@ -76,7 +76,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-    const title = "Qualytics for Data Quality Assessments";
+    const title = "Qualytics for AI Data Quality Assessments";
     const heroSummary = "Optimize ad spend with Qualytics by automating data quality checks for precise and reliable marketing decisions.";
     return (
         <>

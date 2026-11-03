@@ -9,7 +9,7 @@ export default function RightFitSection() {
         team is small, maybe just one or two people handling all your content, email, and social, you are
         exactly who Semrush is built for. The platform&#39;s workflow is simple enough for non-technical users
         but deep enough to give you an edge over larger competitors with bigger budgets. Its strength is in
-        removing the manual grind from intelligent content planning, not just the writing, so you can focus on
+        removing the manual grind from AI content planning, not just the writing, so you can focus on
         growth instead of guesswork.</p>
       <p className="text-base text-white shadow-text pt-3">
         The businesses that see the most value are those who want to tie their content directly to what their
@@ -54,7 +54,7 @@ export default function RightFitSection() {
         environment, does exactly that.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions
-        when&nbsp;<a href="#consultationAppointment2xl" id={`tools-marketing-intelligent-content-planning-semrush-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
+        when&nbsp;<a href="#consultationAppointment2xl" id={`tools-marketing-ai-content-planning-semrush-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Walk me through your current process from the moment someone says &#39;we need a piece of content on X&#39; to the moment it goes live. Where does the process typically stall?</li>
@@ -65,7 +65,7 @@ export default function RightFitSection() {
         <li>How much does your target audience&#39;s behavior shift by neighborhood or culture? For example, do you need to alter your topic strategy between a corporate Brickell audience and a luxury Palm Beach demographic?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
-        Our post <Link id={`tools-marketing-content-creation-workflow-intelligent-content-planning-semrush-xlink-blog${idSuffix}`} href="/blog/marketing/marketing-automation-platforms/intelligent-content-planning-how-south-florida-can-save-hours-and-drive-more-sales" className="text-[#C83803] hover:underline">Content Planning That Saves Hours</Link> goes through what Semrush’s evidence supports, surfacing high-demand, low-competition topics for a local market, drafting from winning formats, and turning one blog post into localized emails, LinkedIn updates and Google Business Profile posts with a click, and it names the pain that justifies it: a team reformatting the same post by hand for every channel. It also records what the evidence does not prove, a revenue figure for planning on its own. The KPI alignment and pilot phases in our <Link id={`tools-marketing-content-creation-workflow-intelligent-content-planning-semrush-xlink-pillar${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-planning" className="text-[#C83803] hover:underline">AI Content Planning</Link> guide decide whether content repurposing with Semrush is the first workflow to automate and how its results get measured.</p>
+        Our post <Link id={`tools-marketing-marketing-automation-platforms-ai-content-planning-semrush-xlink-blog${idSuffix}`} href="/blog/marketing/marketing-automation-platforms/intelligent-content-planning-how-south-florida-can-save-hours-and-drive-more-sales" className="text-[#C83803] hover:underline">Content Planning That Saves Hours</Link> goes through what Semrush’s evidence supports, surfacing high-demand, low-competition topics for a local market, drafting from winning formats, and turning one blog post into localized emails, LinkedIn updates and Google Business Profile posts with a click, and it names the pain that justifies it: a team reformatting the same post by hand for every channel. It also records what the evidence does not prove, a revenue figure for planning on its own. The KPI alignment and pilot phases in our <Link id={`tools-marketing-marketing-automation-platforms-ai-content-planning-semrush-xlink-pillar${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-planning" className="text-[#C83803] hover:underline">AI Content Planning</Link> guide decide whether content repurposing with Semrush is the first workflow to automate and how its results get measured.</p>
     </>
   );
 

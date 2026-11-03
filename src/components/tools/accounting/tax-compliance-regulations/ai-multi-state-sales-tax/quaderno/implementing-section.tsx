@@ -50,7 +50,7 @@ export default function ImplementingSection() {
         The critical path always runs through payment and sales channel integration, initial data sync, mapping
         validation, then incremental rule configuration. Skip the custom build, skip the manual exports, and let
         Quaderno’s connectors do the heavy lifting upfront. That is what shortens go-live for small teams facing
-        Multi-State Sales Tax Nexus.</p>
+        AI Multi-State Sales Tax.</p>
     </>
   );
 

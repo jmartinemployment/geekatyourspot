@@ -7,7 +7,7 @@ export default function OverviewSection() {
       <p className="text-base text-white shadow-text pt-3">
         How much money do small businesses in Miami-Dade, Broward and West Palm Beach lose each month trying to
         manage their own precision lead acquisition on a budget under $500? The answer is: most of it, and fast.
-        Manual trial-and-error eats through $10 to $16 a day before you can spot what works (<a id={`tools-marketing-precision-lead-acquisition-google-performance-max-overview-source-business-google-com${idSuffix}`} href="https://business.google.com/aunz/think/ai-excellence/remaster-retail-strategy-ai/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Google</a>,
+        Manual trial-and-error eats through $10 to $16 a day before you can spot what works (<a id={`tools-marketing-ai-precision-lead-acquisition-google-performance-max-overview-source-business-google-com${idSuffix}`} href="https://business.google.com/aunz/think/ai-excellence/remaster-retail-strategy-ai/" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Google</a>,
         as of Oct 24, 2026). A single <GlossaryLink slug="broad-match">broad-match</GlossaryLink> search or an ad
         shown outside your service area can wipe out a week’s budget on clicks that never become sales. The risk is
         real: one slip and your spend is gone, with nothing to show for it.</p>
@@ -19,7 +19,7 @@ export default function OverviewSection() {
         your ads to people far outside your local area. When you finally get a good lead, it drops off because there
         is no team on hand to reply instantly or sort the serious buyers from the browsers.</p>
       <p className="text-base text-white shadow-text pt-3">
-        <Link id={`tools-marketing-precision-lead-acquisition-google-performance-max-overview-precision-lead-acquisition${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition" className="text-[#C83803] hover:underline">Precision
+        <Link id={`tools-marketing-ai-precision-lead-acquisition-google-performance-max-overview-ai-precision-lead-acquisition${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition" className="text-[#C83803] hover:underline">Precision
         Lead Acquisition</Link> with the right AI-supported workflow changes the equation. Instead
         of burning through budget by guessing which message will land, you get systematic, real-time testing of
         headlines, descriptions and <GlossaryLink slug="call-to-action">calls to action</GlossaryLink>. The system

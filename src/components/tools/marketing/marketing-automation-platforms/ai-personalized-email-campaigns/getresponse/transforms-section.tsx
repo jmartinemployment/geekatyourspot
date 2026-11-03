@@ -4,7 +4,7 @@ export default function TransformsSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        GetResponse takes the manual work out of Personalized Email Campaigns by automating every step that slows
+        GetResponse takes the manual work out of AI Personalized Email Campaigns by automating every step that slows
         small teams down. Instead of copying and pasting emails for each new lead, GetResponse lets you set up <GlossaryLink slug="email-sequence" className="text-[#0B162A] hover:underline">automated
         sequences</GlossaryLink> that deliver the right message at the right time, without extra effort from your
         staff. This means every lead, whether from a website form, Facebook ad, or landing page, enters a campaign
@@ -33,7 +33,7 @@ export default function TransformsSection() {
         removes the need to start from scratch each time, and ensures your emails look polished and on-brand. For
         campaigns that require new landing pages or <GlossaryLink slug="lead-magnet" className="text-[#0B162A] hover:underline">lead
         magnets</GlossaryLink>, GetResponse provides over 200 ready-to-use templates, all optimized for conversion
-        and mobile devices (<a id={`tools-marketing-personalized-email-campaigns-getresponse-transforms-source-getresponse-com${idSuffix}`} href="https://www.getresponse.com/customers/andy-rogers" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">GetResponse</a>,
+        and mobile devices (<a id={`tools-marketing-ai-personalized-email-campaigns-getresponse-transforms-source-getresponse-com${idSuffix}`} href="https://www.getresponse.com/customers/andy-rogers" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">GetResponse</a>,
         as of Oct 25, 2026). You can reuse and adapt these assets for future promotions, reducing the cycle time for
         every new campaign.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -60,7 +60,7 @@ export default function TransformsSection() {
         manual email tasks, teams can focus on what drives growth. Leads are followed up quickly and personally,
         even as the list grows. Campaigns launch faster, with less rework and fewer mistakes. The business sees more
         replies, more appointments, and more sales, all without hiring extra staff or burning out the team.
-        Personalized Email Campaigns become a source of leverage, not a bottleneck.</p>
+        AI Personalized Email Campaigns become a source of leverage, not a bottleneck.</p>
       <blockquote cite="https://www.getresponse.com/features/marketing-automation" className="mt-3 border-l-4 border-white/60 pl-4 italic text-base text-white shadow-text">
         Build personalized automation workflows to engage and guide your customers every step of the way to
         conversion.</blockquote>
@@ -74,8 +74,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-getresponse-personalized-email-campaigns-actually-remove-from-your-week" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                What GetResponse Personalized Email Campaigns actually remove from your week
+              <h2 id="what-getresponse-ai-personalized-email-campaigns-actually-remove-from-your-week" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                What GetResponse AI Personalized Email Campaigns actually remove from your week
               </h2>
             </div>
             <div className="col-span-12">{body()}</div>
@@ -87,8 +87,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-getresponse-personalized-email-campaigns-actually-remove-from-your-week-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                What GetResponse Personalized Email Campaigns actually remove from your week
+              <h2 id="what-getresponse-ai-personalized-email-campaigns-actually-remove-from-your-week-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                What GetResponse AI Personalized Email Campaigns actually remove from your week
               </h2>
               {body("-lg")}
             </div>

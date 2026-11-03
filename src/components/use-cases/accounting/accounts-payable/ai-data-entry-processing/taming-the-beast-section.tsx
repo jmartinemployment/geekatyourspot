@@ -16,12 +16,12 @@ export default function TamingTheBeastSection() {
         Entry &amp; Processing comes in. By automating these repetitive tasks, businesses can drastically cut
         down on errors, speed up processing times, and free their teams to focus on higher-value work.
         Automated solutions like&nbsp;
-        <Link id={`use-cases-accounting-automated-data-entry-processing-taming-dext${idSuffix}`}
+        <Link id={`use-cases-accounting-ai-data-entry-processing-taming-dext${idSuffix}`}
           href="/tools/accounting/accounts-payable/ai-data-entry-processing/dext" className="text-[#C83803] hover:underline">
           Dext
         </Link>,&nbsp;
         Lightyear, and&nbsp;
-        <Link id={`use-cases-accounting-automated-data-entry-processing-taming-bill${idSuffix}`}
+        <Link id={`use-cases-accounting-ai-data-entry-processing-taming-bill${idSuffix}`}
           href="/tools/accounting/accounts-payable/ai-data-entry-processing/bill" className="text-[#C83803] hover:underline">
           Bill
         </Link>&nbsp;transform the way companies handle invoices, turning what was once a cumbersome process
@@ -36,14 +36,14 @@ export default function TamingTheBeastSection() {
         relationships effectively. These issues are compounded by the high risk of human error, which can
         have significant financial implications.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Automated data entry and processing solutions address these challenges head-on. By integrating&nbsp;
+        AI Data Entry and Processing solutions address these challenges head-on. By integrating&nbsp;
         <GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;into accounts payable workflows, companies can achieve
         over 99% accuracy in data capture, as evident with tools like&nbsp;
-        <Link id={`use-cases-accounting-automated-data-entry-processing-taming-avidxchange${idSuffix}`}
+        <Link id={`use-cases-accounting-ai-data-entry-processing-taming-avidxchange${idSuffix}`}
           href="/tools/accounting/accounts-payable/ai-data-entry-processing/avidxchange" className="text-[#C83803] hover:underline">
           AvidXchange
         </Link>&nbsp;and&nbsp;
-        <Link id={`use-cases-accounting-automated-data-entry-processing-taming-stampli${idSuffix}`}
+        <Link id={`use-cases-accounting-ai-data-entry-processing-taming-stampli${idSuffix}`}
           href="/tools/accounting/accounts-payable/ai-invoice-approval-workflows/stampli" className="text-[#C83803] hover:underline">
           Stampli
         </Link>. These platforms automate the extraction, validation, and processing of invoices,

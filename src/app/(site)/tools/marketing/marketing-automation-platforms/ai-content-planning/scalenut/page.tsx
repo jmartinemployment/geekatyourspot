@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Scalenut";
-const PAGE_TITLE = "Scalenut for Intelligent Content Planning";
+const PAGE_TITLE = "Scalenut for AI Content Planning";
 const DESCRIPTION =
-    "Intelligent Content Planning with Scalenut helps small businesses in Miami-Dade, Broward and West Palm Beach get their content found and cited by AI and search.";
+    "AI Content Planning with Scalenut helps small businesses in Miami-Dade, Broward and West Palm Beach get their content found and cited by AI and search.";
 const CANONICAL = "/tools/marketing/marketing-automation-platforms/ai-content-planning/scalenut";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Scalenut, intelligent content planning, AI content planning, content calendar, content creation workflow, South Florida small business",
+            "keywords": "Scalenut, AI content planning, content calendar, marketing automation platforms, South Florida small business",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -59,7 +59,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Scalenut", "intelligent content planning", "AI content planning", "content calendar", "content creation workflow", "South Florida small business"],
+        keywords: ["Scalenut", "AI content planning", "content calendar", "marketing automation platforms", "South Florida small business"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

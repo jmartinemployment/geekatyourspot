@@ -18,14 +18,14 @@ export default function OverviewSection() {
         isn&#39;t just an operational inconvenience; it&#39;s a significant barrier to sustained business growth and
         financial health.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Automated Accounts Receivable solutions, like those offered by Chaser, transform this outdated process. By
+        AI Accounts Receivable solutions, like those offered by Chaser, transform this outdated process. By
         automating invoicing, reminders, and payment tracking, businesses can ensure more timely payments and reduce
         the time spent on collections by up to 50%. Tools like Chaser not only improve cash flow predictability but
         also enhance customer relationships by maintaining consistent and professional communication. This
         automation allows small businesses to focus on growth and service excellence, rather than being bogged down
         by collection tasks.</p>
       <p className="text-base text-white shadow-text pt-3">
-        In the competitive landscape of South Florida, leveraging Automated Accounts Receivable can be a
+        In the competitive landscape of South Florida, leveraging AI Accounts Receivable can be a
         game-changer for small businesses. It provides a clear, real-time view of expected payments, allowing for
         better financial planning and resource allocation. With less time spent on manual tasks and more reliable
         cash flow, businesses can confidently navigate challenges and seize opportunities, ensuring resilience and

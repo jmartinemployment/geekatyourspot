@@ -6,7 +6,7 @@ export default function ChallengesSection() {
         spends Friday afternoon with spreadsheets from Shopify, Amazon, and QuickBooks, trying to untangle which
         sales count toward which state’s threshold. The team is not just looking for a number; they are trying
         to avoid a penalty that could wipe out the profit from a key client. This is not a rare situation. For
-        small businesses selling online or across state lines, Multi-State Sales Tax Nexus is the compliance
+        small businesses selling online or across state lines, AI Multi-State Sales Tax is the compliance
         risk that comes out of nowhere and can stall growth overnight.</p>
       <p className="text-base text-white shadow-text pt-3">
         The first place this goes wrong is in tracking. Small businesses often assume sales tax exposure is only
@@ -51,7 +51,7 @@ export default function ChallengesSection() {
         multiplies the risk and the workload. For a small business without a tax department, this is not
         sustainable.</p>
       <p className="text-base text-white shadow-text pt-3">
-        This is the reality for small businesses trying to manage Multi-State Sales Tax Nexus by hand. The risk
+        This is the reality for small businesses trying to manage AI Multi-State Sales Tax by hand. The risk
         is not just a fine or a late fee; it is the threat of an audit that could reach back years, the hours
         lost to manual tracking, and the opportunity cost of stalled growth. Until the process is automated,
         every sale across state lines is a potential liability waiting to surface.</p>

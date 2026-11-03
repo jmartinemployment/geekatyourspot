@@ -4,7 +4,7 @@ export default function TransformsSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Mailchimp takes the heavy lifting out of Personalized Email Campaigns by automating what used to eat up
+        Mailchimp takes the heavy lifting out of AI Personalized Email Campaigns by automating what used to eat up
         hours each week. Instead of building every message from scratch, you use Mailchimp’s drag-and-drop editor
         and ready-made templates to launch campaigns that look professional and feel personal, no design or coding
         required. For a small team, this means you can get campaigns out the door faster and with fewer errors.</p>
@@ -59,10 +59,10 @@ export default function TransformsSection() {
         win-back campaigns automatically.</p>
       <p className="text-base text-white shadow-text pt-3">
         For teams that worry about outgrowing their tool, Mailchimp’s free plan lets you test and validate campaigns
-        with up to 250 contacts and basic AI features (<a id={`tools-marketing-personalized-email-campaigns-mailchimp-transforms-source-mailchimp-com${idSuffix}`} href="https://mailchimp.com/resources/free-marketing-features-overview/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Mailchimp</a>,
+        with up to 250 contacts and basic AI features (<a id={`tools-marketing-ai-personalized-email-campaigns-mailchimp-transforms-source-mailchimp-com${idSuffix}`} href="https://mailchimp.com/resources/free-marketing-features-overview/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Mailchimp</a>,
         as of Oct 25, 2026). As your business grows, you can add advanced automation, SMS marketing, and more
         without starting over or facing a surprise jump in cost. This flexibility means you keep scaling your
-        Personalized Email Campaigns without changing platforms or retraining your team.</p>
+        AI Personalized Email Campaigns without changing platforms or retraining your team.</p>
       <p className="text-base text-white shadow-text pt-3">
         A real-world example comes from the nonprofit PetRescue, which used Mailchimp to build automated <GlossaryLink slug="lifecycle-marketing" className="text-[#0B162A] hover:underline">lifecycle</GlossaryLink> strategies
         and deliver tailored messages at the right time. By leveraging Mailchimp’s segmentation and dynamic content,
@@ -72,7 +72,7 @@ export default function TransformsSection() {
       <blockquote cite="https://mailchimp.com/solutions/email-marketing-platform/email-automation/" className="mt-3 border-l-4 border-white/60 pl-4 italic text-base text-white shadow-text">
         Send personalized emails triggered by actions like signups or purchases.</blockquote>
       <p className="text-base text-white shadow-text pt-3">
-        Mailchimp’s approach to Personalized Email Campaigns is about removing the manual work that slows small
+        Mailchimp’s approach to AI Personalized Email Campaigns is about removing the manual work that slows small
         teams down. You get automation, AI-driven insights, and real-time data sync, all in one place. The result is
         more relevant emails, higher engagement, and more sales, without adding to your workload or hiring more
         staff.</p>
@@ -86,8 +86,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-mailchimp-removes-the-manual-work-from-personalized-email-campaigns" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How Mailchimp removes the manual work from Personalized Email Campaigns
+              <h2 id="how-mailchimp-removes-the-manual-work-from-ai-personalized-email-campaigns" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How Mailchimp removes the manual work from AI Personalized Email Campaigns
               </h2>
             </div>
             <div className="col-span-12">{body()}</div>
@@ -99,8 +99,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-mailchimp-removes-the-manual-work-from-personalized-email-campaigns-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How Mailchimp removes the manual work from Personalized Email Campaigns
+              <h2 id="how-mailchimp-removes-the-manual-work-from-ai-personalized-email-campaigns-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How Mailchimp removes the manual work from AI Personalized Email Campaigns
               </h2>
               {body("-lg")}
             </div>

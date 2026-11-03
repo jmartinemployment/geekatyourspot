@@ -60,7 +60,7 @@ export default function TransformsSection() {
         With Take the Helm, small businesses in Miami-Dade, Broward, and West Palm Beach counties can finally
         move past the cycle of manual updates and constant surprises. The platform returns hours to the team
         each week, reduces costly errors, and gives decision-makers the real-time insight they need to plan, not
-        just react. Intelligent Resource Planning becomes possible for teams that once thought it was out of
+        just react. AI Resource Planning becomes possible for teams that once thought it was out of
         reach.</p>
     </>
   );
@@ -72,8 +72,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-take-the-helm-removes-manual-work-from-intelligent-resource-planning" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How Take the Helm Removes Manual Work from Intelligent Resource Planning
+              <h2 id="how-take-the-helm-removes-manual-work-from-ai-resource-planning" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How Take the Helm Removes Manual Work from AI Resource Planning
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
@@ -85,8 +85,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-take-the-helm-removes-manual-work-from-intelligent-resource-planning-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How Take the Helm Removes Manual Work from Intelligent Resource Planning
+              <h2 id="how-take-the-helm-removes-manual-work-from-ai-resource-planning-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How Take the Helm Removes Manual Work from AI Resource Planning
               </h2>
               {body}
             </div>

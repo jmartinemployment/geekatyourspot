@@ -17,9 +17,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Tidio";
-const PAGE_TITLE = "Tidio as a Cross-Platform Chatbot";
+const PAGE_TITLE = "Tidio as an AI Chatbot";
 const DESCRIPTION =
-    "Cross-Platform Chatbot Tidio helps small South Florida businesses unify website, SMS, and social messaging into a single, efficient lead management dashboard.";
+    "AI Chatbot Tidio helps small South Florida businesses unify website, SMS, and social messaging into a single, efficient lead management dashboard.";
 const CANONICAL = "/tools/business-operations/ai-chatbot/tidio";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -31,7 +31,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Tidio, cross-platform chatbot, AI chatbot, lead capture, unified inbox, omnichannel messaging, South Florida small business",
+            "keywords": "Tidio, AI chatbot, lead capture, unified inbox, omnichannel messaging, South Florida small business",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -48,7 +48,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Tidio", "cross-platform chatbot", "AI chatbot", "lead capture", "unified inbox", "omnichannel messaging", "South Florida small business"],
+        keywords: ["Tidio", "AI chatbot", "lead capture", "unified inbox", "omnichannel messaging", "South Florida small business"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

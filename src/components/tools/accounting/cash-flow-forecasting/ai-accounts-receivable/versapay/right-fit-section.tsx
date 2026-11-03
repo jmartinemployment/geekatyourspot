@@ -4,7 +4,7 @@ export default function RightFitSection() {
     <>
       <p className="text-base text-white shadow-text pt-3">
         Versapay is ideally suited for small to mid-sized businesses in Miami-Dade, Broward, and West Palm Beach
-        counties that are looking to enhance their automated accounts receivable processes. Its comprehensive
+        counties that are looking to enhance their AI accounts receivable processes. Its comprehensive
         automation features make it an excellent choice for businesses that deal with a high volume of transactions
         and require efficient reconciliation and cash application.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -38,7 +38,7 @@ export default function RightFitSection() {
         <li>How does forecasting integration optimize collection strategies?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
-        Versapay’s case is cash application and a single record of every dispute, payment promise and negotiation note, and our post <Link id={`tools-accounting-cash-flow-forecasting-automated-accounts-receivable-versapay-xlink-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/how-automated-accounts-receivable-can-transform-your-cash-flow" className="text-[#C83803] hover:underline">Automated Receivables and Cash Flow</Link> shows where those two things pay off: a communication log that keeps disputed invoices from going stale, and dashboards that let whoever owns receivables monitor collections in real time. The post also sets the limit, since Versapay’s automation still depends on integration with your accounting system and on a person resolving the exceptions it surfaces. The four-step assessment in our <Link id={`tools-accounting-cash-flow-forecasting-automated-accounts-receivable-versapay-xlink-pillar${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable" className="text-[#C83803] hover:underline">AI Accounts Receivable</Link> guide weighs whether your transaction volume and ERP dependence justify that setup before anything is configured.</p>
+        Versapay’s case is cash application and a single record of every dispute, payment promise and negotiation note, and our post <Link id={`tools-accounting-cash-flow-forecasting-ai-accounts-receivable-versapay-xlink-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/how-automated-accounts-receivable-can-transform-your-cash-flow" className="text-[#C83803] hover:underline">Automated Receivables and Cash Flow</Link> shows where those two things pay off: a communication log that keeps disputed invoices from going stale, and dashboards that let whoever owns receivables monitor collections in real time. The post also sets the limit, since Versapay’s automation still depends on integration with your accounting system and on a person resolving the exceptions it surfaces. The four-step assessment in our <Link id={`tools-accounting-cash-flow-forecasting-ai-accounts-receivable-versapay-xlink-pillar${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable" className="text-[#C83803] hover:underline">AI Accounts Receivable</Link> guide weighs whether your transaction volume and ERP dependence justify that setup before anything is configured.</p>
     </>
   );
 

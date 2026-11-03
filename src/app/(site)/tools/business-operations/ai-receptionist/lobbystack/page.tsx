@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "LobbyStack";
-const PAGE_TITLE = "LobbyStack as an Intelligent Receptionist";
+const PAGE_TITLE = "LobbyStack as an AI Receptionist";
 const DESCRIPTION =
-    "Intelligent Receptionist by LobbyStack helps small businesses in Miami-Dade, Broward and West Palm Beach capture every lead and never miss a call.";
+    "AI Receptionist by LobbyStack helps small businesses in Miami-Dade, Broward and West Palm Beach capture every lead and never miss a call.";
 const CANONICAL = "/tools/business-operations/ai-receptionist/lobbystack";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "LobbyStack, intelligent receptionist, AI receptionist, lead capture, missed calls, call answering, South Florida small business",
+            "keywords": "LobbyStack, AI receptionist, lead capture, missed calls, call answering, South Florida small business",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -65,7 +65,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["LobbyStack", "intelligent receptionist", "AI receptionist", "lead capture", "missed calls", "call answering", "South Florida small business"],
+        keywords: ["LobbyStack", "AI receptionist", "lead capture", "missed calls", "call answering", "South Florida small business"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
@@ -99,7 +99,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page() {
     const heroSummary =
-        "LobbyStack empowers local small businesses to stop missing calls and control their customer interactions with a customizable Intelligent Receptionist.";
+        "LobbyStack empowers local small businesses to stop missing calls and control their customer interactions with a customizable AI Receptionist.";
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />

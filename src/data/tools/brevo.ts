@@ -12,7 +12,7 @@ export const brevoContent: ToolPageContent = {
   "department": "marketing",
   "useCase": "marketing-automation-platforms/ai-personalized-email-campaigns",
   "description":
-    "Personalized Email Campaigns with Brevo help South Florida small businesses boost open rates and sales by automating relevant outreach. Try it today.",
+    "AI Personalized Email Campaigns with Brevo help South Florida small businesses boost open rates and sales by automating relevant outreach. Try it today.",
   "heroSummary":
     "Brevo streamlines personalized email campaigns for Miami-Dade, Broward and Palm Beach small businesses, making targeted outreach easy and effective.",
   "keywords":
@@ -24,7 +24,7 @@ export const brevoContent: ToolPageContent = {
   "sections": [
     {"title": "Overview", "description": "How do small businesses in Miami-Dade, Broward and Palm Beach counties keep customer communication on track when emails, texts and staff all work in silos, and generic blasts get ignored?"},
     {"title": "What it costs to keep doing this by hand", "description": "Manually running email campaigns in a small business costs you lost leads, wasted hours, and missed sales."},
-    {"title": "How Brevo removes manual work from Personalized Email Campaigns", "description": "Brevo automates the hardest parts of personalized email campaigns, so small teams can reach the right people with the right message at the right time, without the manual grind."},
+    {"title": "How Brevo removes manual work from AI Personalized Email Campaigns", "description": "Brevo automates the hardest parts of personalized email campaigns, so small teams can reach the right people with the right message at the right time, without the manual grind."},
     {"title": "How Brevo delivers true automation for personalized campaigns", "description": "Brevo automates personalized email campaigns by combining behavioral segmentation, dynamic content, and AI-assisted send scheduling, so every recipient gets a message tailored to their interests at the moment they are most likely to act."},
     {"title": "What sits underneath Brevo", "description": "Brevo’s architecture is built to centralize customer data, automate messaging across channels, and provide a single source of truth for campaign performance."},
     {"title": "What it takes to get Brevo live in your business and what speeds it up", "description": "Launching Brevo in a small business is fastest when you start with clear goals, use its built-in templates, and connect your existing data sources up front."},

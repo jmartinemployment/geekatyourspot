@@ -16,7 +16,7 @@ export const takethehelmContent: ToolPageContent = {
   "heroSummary":
     "Automate your cash flow forecasting with Take the Helm, transforming spreadsheet data management for South Florida's small businesses.",
   "keywords":
-    "Take the Helm, Helm, automated spreadsheet data, cash flow forecasting, QuickBooks, Xero, Sage, scenario planning, KPI dashboard, drag-and-drop forecasting, Veem payments, accounts payable, South Florida small business",
+    "Take the Helm, Helm, AI spreadsheet data, cash flow forecasting, QuickBooks, Xero, Sage, scenario planning, KPI dashboard, drag-and-drop forecasting, Veem payments, accounts payable, South Florida small business",
   "datePublished": "2026-10-12T12:03:30.6626560Z",
   "dateModified": "2026-10-12T12:03:30.6626560Z",
   "relatedArticleId":
@@ -24,7 +24,7 @@ export const takethehelmContent: ToolPageContent = {
   "sections": [
     { "title": "Overview", "description": "For many small businesses in West Palm Beach, Broward, and Miami-Dade counties, the daily grind of managing cash flow through manual processes is all too familiar." },
     { "title": "The Costs of Manual Data Entry in South Florida Businesses", "description": "For small businesses in South Florida, managing cash flow through manual data entry is a significant challenge." },
-    { "title": "Automated Spreadsheet Data: What Take the Helm Removes from Your Week", "description": "Take the Helm transforms how small businesses handle their financial data by automating tedious processes and providing real-time insights." },
+    { "title": "AI Spreadsheet Data: What Take the Helm Removes from Your Week", "description": "Take the Helm transforms how small businesses handle their financial data by automating tedious processes and providing real-time insights." },
     { "title": "How Take the Helm Works: Step-by-Step Mechanics", "description": "Take the Helm streamlines cash flow forecasting by automating the collection and analysis of financial data." },
     { "title": "Take the Helm's Architecture and Integrations", "description": "Take the Helm is built on a robust architecture designed to handle complex financial data with ease." },
     { "title": "Going Live with Take the Helm: Streamlined Setup and Integration", "description": "Implementing Take the Helm in a small business environment involves a streamlined process designed to minimize disruption and maximize efficiency." },

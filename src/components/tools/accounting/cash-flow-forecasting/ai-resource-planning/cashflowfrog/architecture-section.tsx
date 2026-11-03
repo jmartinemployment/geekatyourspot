@@ -18,7 +18,7 @@ export default function ArchitectureSection() {
         or data reformatting project. Instead, it reads the data where it lives, syncing invoices, bills,
         payments, and balances into a unified dashboard.</p>
       <p className="text-base text-white shadow-text pt-3">
-        The integration layer is not limited to accounting systems. Cashflowfrog supports&nbsp;<Link id={`tools-accounting-intelligent-resource-planning-cashflowfrog-architecture-zapier${idSuffix}`} href="/tools/marketing/zapier" className="text-[#0B162A] hover:underline">Zapier</Link>, which means it
+        The integration layer is not limited to accounting systems. Cashflowfrog supports&nbsp;<Link id={`tools-accounting-ai-resource-planning-cashflowfrog-architecture-zapier${idSuffix}`} href="/tools/marketing/zapier" className="text-[#0B162A] hover:underline">Zapier</Link>, which means it
         can receive data from thousands of other apps, including CRMs, e-commerce platforms, payment processors,
         and spreadsheets. For example, a new deal in HubSpot or a payment in Stripe can trigger a projection in
         Cashflowfrog automatically. This keeps forecasts current as your business activity happens, not just
@@ -45,7 +45,7 @@ export default function ArchitectureSection() {
         daily, weekly, monthly, and quarterly views, rolling forecasts up to three years out, and scenario
         comparisons that run side by side. Forecasts can be broken down by vendor, customer, class, location,
         department, or project, depending on how your accounting system is set up. This level of granularity is
-        essential for intelligent resource planning in businesses where cash flow drivers vary by client,
+        essential for AI resource planning in businesses where cash flow drivers vary by client,
         product line, or business unit.</p>
       <p className="text-base text-white shadow-text pt-3">
         Multi-entity consolidation is native. Cashflowfrog can combine unlimited companies or divisions into a

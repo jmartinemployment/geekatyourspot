@@ -18,7 +18,7 @@ export default function OverviewSection() {
         financial reporting and decision-making. For many small businesses, these issues can mean the difference
         between thriving and merely surviving in a competitive market.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Automated accounts receivable solutions offer a lifeline. By
+        AI Accounts Receivable solutions offer a lifeline. By
         integrating&nbsp;<GlossaryLink slug="ai">AI</GlossaryLink>&nbsp;and automation, businesses can streamline
         their invoicing, payment matching, and reconciliation processes. Versapay, for example, uses cutting-edge
         technology to eliminate the need for manual data entry and reduce reconciliation delays. With features like
@@ -26,7 +26,7 @@ export default function OverviewSection() {
         ensuring payments are matched accurately and promptly. This not only saves time but also enhances financial
         clarity and control.</p>
       <p className="text-base text-white shadow-text pt-3">
-        For small businesses in South Florida, adopting an automated accounts receivable system can lead to
+        For small businesses in South Florida, adopting an AI accounts receivable system can lead to
         significant improvements in efficiency and customer satisfaction. By reducing manual workloads and errors,
         these systems free up resources, allowing business owners to focus on growth and innovation. They transform
         accounts receivable from a burdensome task into a streamlined, efficient process that supports better cash

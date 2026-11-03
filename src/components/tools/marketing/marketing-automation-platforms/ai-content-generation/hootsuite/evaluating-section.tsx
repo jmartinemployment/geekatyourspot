@@ -2,7 +2,7 @@ export default function EvaluatingSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Choosing Hootsuite comes down to whether its approach to Intelligent Content Generation matches your
+        Choosing Hootsuite comes down to whether its approach to AI Content Generation matches your
         team’s real constraints and goals, and whether its pricing model works for your budget. The first
         question is fit: does Hootsuite’s automation, workflow, and analytics actually solve the problems that
         slow your content down, or does it add new complexity? For small businesses in South Florida, the

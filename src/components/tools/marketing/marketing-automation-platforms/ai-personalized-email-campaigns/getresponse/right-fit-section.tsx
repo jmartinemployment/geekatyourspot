@@ -22,10 +22,10 @@ export default function RightFitSection() {
       <p className="text-base text-white shadow-text pt-3">
         GetResponse is also a good fit for teams that want to start simple and grow: the free plan lets you manage
         up to 500 contacts, send 2,500 newsletters per month, and use basic automation, with the option to unlock
-        premium features as your needs expand (<a id={`tools-marketing-personalized-email-campaigns-getresponse-right-fit-source-getresponse-com${idSuffix}`} href="https://www.getresponse.com/referral-program/refer-a-friend.html" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">GetResponse</a>,
+        premium features as your needs expand (<a id={`tools-marketing-ai-personalized-email-campaigns-getresponse-right-fit-source-getresponse-com${idSuffix}`} href="https://www.getresponse.com/referral-program/refer-a-friend.html" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">GetResponse</a>,
         as of Oct 25, 2026). The platform’s drag-and-drop editor, customizable templates, and mobile optimization
         mean you do not need design or coding skills to create professional campaigns. And with a 99% deliverability
-        rate, you can trust that your messages are reaching your audience (<a id={`tools-marketing-personalized-email-campaigns-getresponse-right-fit-source-getresponse-com-2${idSuffix}`} href="https://www.getresponse.com/customers/red-hot-marketing-case-study" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">GetResponse</a>,
+        rate, you can trust that your messages are reaching your audience (<a id={`tools-marketing-ai-personalized-email-campaigns-getresponse-right-fit-source-getresponse-com-2${idSuffix}`} href="https://www.getresponse.com/customers/red-hot-marketing-case-study" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">GetResponse</a>,
         as of Oct 25, 2026).</p>
       <p className="text-base text-white shadow-text pt-3">
         However, GetResponse is not the right choice for every business. If you need a full-featured CRM with sales
@@ -37,7 +37,7 @@ export default function RightFitSection() {
       <p className="text-base text-white shadow-text pt-3">
         Businesses with very large lists or advanced segmentation requirements should check the technical
         constraints: the free plan supports up to 500 contacts and 1,000 unique landing page visits per month, and
-        while paid plans scale up, there are still limits to be aware of (<a id={`tools-marketing-personalized-email-campaigns-getresponse-right-fit-source-getresponse-com-3${idSuffix}`} href="https://www.getresponse.com/pricing/free" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">GetResponse</a>,
+        while paid plans scale up, there are still limits to be aware of (<a id={`tools-marketing-ai-personalized-email-campaigns-getresponse-right-fit-source-getresponse-com-3${idSuffix}`} href="https://www.getresponse.com/pricing/free" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">GetResponse</a>,
         as of Oct 25, 2026). If your marketing relies on sending tens of thousands of emails daily or integrating
         with niche platforms not supported by GetResponse, you may need to look elsewhere or plan for custom
         development.</p>
@@ -73,9 +73,9 @@ export default function RightFitSection() {
         businesses ready to close the gap between lead and sale, GetResponse is a practical, proven solution that
         can be up and running fast.</p>
       <p className="text-base text-white shadow-text pt-3">
-        If you want GetResponse&apos;s case material set against what <Link id={`tools-marketing-personalized-email-campaigns-getresponse-right-fit-brevo${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/brevo" className="text-[#C83803] hover:underline">Brevo</Link>, Mailchimp, MailerLite and ActiveCampaign report, and to see where those lifts in open rates and follow-up stop applying, our post <Link id={`tools-marketing-personalized-email-campaigns-getresponse-right-fit-blog${idSuffix}`} href="/blog/marketing/marketing-automation-platforms/what-miami-businesses-miss-without-local-ai-automation" className="text-[#C83803] hover:underline">What Miami Businesses Miss Without Local AI Automation</Link> lays the evidence out side by side before it gets to the question of which platform fits.</p>
+        If you want GetResponse&apos;s case material set against what <Link id={`tools-marketing-ai-personalized-email-campaigns-getresponse-right-fit-brevo${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/brevo" className="text-[#C83803] hover:underline">Brevo</Link>, Mailchimp, MailerLite and ActiveCampaign report, and to see where those lifts in open rates and follow-up stop applying, our post <Link id={`tools-marketing-ai-personalized-email-campaigns-getresponse-right-fit-blog${idSuffix}`} href="/blog/marketing/marketing-automation-platforms/what-miami-businesses-miss-without-local-ai-automation" className="text-[#C83803] hover:underline">What Miami Businesses Miss Without Local AI Automation</Link> lays the evidence out side by side before it gets to the question of which platform fits.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Answer these questions when <a href="#consultationAppointment2xl" id={`tools-marketing-personalized-email-campaigns-getresponse-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
+        Answer these questions when <a href="#consultationAppointment2xl" id={`tools-marketing-ai-personalized-email-campaigns-getresponse-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>What is the main result you want: more appointments, more completed purchases, repeat business, or
@@ -109,7 +109,7 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="who-should-use-getresponse-for-personalized-email-campaigns-and-who-should-not" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="who-should-use-getresponse-for-ai-personalized-email-campaigns-and-who-should-not" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Who should use GetResponse for personalized email campaigns, and who should not
               </h2>
             </div>
@@ -122,7 +122,7 @@ export default function RightFitSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="who-should-use-getresponse-for-personalized-email-campaigns-and-who-should-not-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              <h2 id="who-should-use-getresponse-for-ai-personalized-email-campaigns-and-who-should-not-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Who should use GetResponse for personalized email campaigns, and who should not
               </h2>
               {body("-lg")}

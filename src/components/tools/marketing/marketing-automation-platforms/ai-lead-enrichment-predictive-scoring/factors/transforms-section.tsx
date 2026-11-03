@@ -72,8 +72,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-factors-removes-from-your-week-lead-enrichment-and-predictive-scoring-that-works" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                What Factors Removes from Your Week: Lead Enrichment and Predictive Scoring That Works
+              <h2 id="what-factors-removes-from-your-week-ai-lead-enrichment-predictive-scoring-that-works" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                What Factors Removes from Your Week: AI Lead Enrichment and Predictive Scoring That Works
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
@@ -85,8 +85,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-factors-removes-from-your-week-lead-enrichment-and-predictive-scoring-that-works-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                What Factors Removes from Your Week: Lead Enrichment and Predictive Scoring That Works
+              <h2 id="what-factors-removes-from-your-week-ai-lead-enrichment-predictive-scoring-that-works-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                What Factors Removes from Your Week: AI Lead Enrichment and Predictive Scoring That Works
               </h2>
               {body}
             </div>

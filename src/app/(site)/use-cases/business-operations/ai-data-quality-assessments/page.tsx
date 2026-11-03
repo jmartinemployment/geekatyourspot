@@ -27,7 +27,7 @@ const jsonLd: Graph = {
             "author": { "@type": "Organization", "url": SITE_URL, "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": SITE_URL, "name": "Geek @ Your Spot LLC" },
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "data quality assessments, data validation, data observability, AI data readiness, data cleaning, AI operations, Monte Carlo data, Anomalo, Great Expectations, Qualytics",
+            "keywords": "AI data quality assessments, data validation, data observability, AI data readiness, data cleaning, AI operations, Monte Carlo data, Anomalo, Great Expectations, Qualytics",
             "mentions": [
                 { "@type": "Thing", "name": "Monte Carlo", "url": "https://montecarlo.ai/" },
                 { "@type": "Thing", "name": "Anomalo", "url": "https://www.anomalo.com/" },
@@ -125,7 +125,7 @@ export default async function Page() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
             />
-            <SharedHeroSection title="Data Quality Assessments" summary={heroSummary} image="" imgAlt="" />
+            <SharedHeroSection title="AI Data Quality Assessments" summary={heroSummary} image="" imgAlt="" />
             <article>
                 <LedeSection />
                 <WithoutItSection />

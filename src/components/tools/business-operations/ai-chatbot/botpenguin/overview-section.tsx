@@ -13,7 +13,7 @@ export default function OverviewSection() {
         conversations that could have been promising leads. In the gaps, prospects drift away, follow-ups
         happen too late, and the real cost shows up as missed sales and wasted staff time.</p>
       <p className="text-base text-white shadow-text pt-3">
-        This isn’t just a workflow headache, it’s a revenue problem. Without a&nbsp;<Link id={`tools-marketing-cross-platform-chatbot-botpenguin-overview-cross-platform-chatbot${idSuffix}`} href="/use-cases/business-operations/ai-chatbot" className="text-[#C83803] hover:underline">Cross-Platform Chatbot</Link>&nbsp;handling
+        This isn’t just a workflow headache, it’s a revenue problem. Without a&nbsp;<Link id={`tools-marketing-ai-chatbot-botpenguin-overview-ai-chatbot${idSuffix}`} href="/use-cases/business-operations/ai-chatbot" className="text-[#C83803] hover:underline">AI Chatbot</Link>&nbsp;handling
         every channel as one, small businesses in South Florida lose context with every switch. Prospective
         buyers don’t care which app they use, they want answers right now, and they expect your team to
         remember what they said on Facebook, Instagram, or your site. When each channel acts as a separate
@@ -21,7 +21,7 @@ export default function OverviewSection() {
         deals forward. Even the best team can’t keep up with the volume and speed customers now expect,
         especially after hours or on weekends.</p>
       <p className="text-base text-white shadow-text pt-3">
-        A Cross-Platform Chatbot stitches these broken threads together. It unifies every inbound message into
+        An AI Chatbot stitches these broken threads together. It unifies every inbound message into
         one lead pipeline, keeps every conversation connected, and holds the full customer story across
         WhatsApp, Instagram, Facebook Messenger, your website, SMS, even phone and voice assistants. Instead
         of chasing scattered chats, your team finds every inquiry, with context and follow-up steps ready, in

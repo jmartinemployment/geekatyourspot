@@ -7,7 +7,7 @@ export default function ArchitectureSection() {
         accounts payable
         &nbsp;(AP) processes by integrating several key functions into a single platform. This integration
         supports small businesses in Miami-Dade, Broward, and West Palm Beach counties in implementing effective
-        Automated Fraud &amp; Duplicate Payment Controls. At its core, Tipalti offers end-to-end automation that
+        AI Fraud &amp; Duplicate Payment Controls. At its core, Tipalti offers end-to-end automation that
         covers everything from supplier onboarding to payment reconciliation, significantly reducing manual
         intervention and the associated risks.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -39,7 +39,7 @@ export default function ArchitectureSection() {
         Additionally, Tipalti&#39;s platform is designed to scale with a business. As invoice volumes increase,
         the system supports more complex approval hierarchies and larger transaction volumes without
         compromising efficiency. This scalability is critical for businesses anticipating growth and looking to
-        maintain robust Automated Fraud &amp; Duplicate Payment Controls as they expand.</p>
+        maintain robust AI Fraud &amp; Duplicate Payment Controls as they expand.</p>
       <p className="text-base text-white shadow-text pt-3">
         In summary, Tipalti&#39;s architecture is a comprehensive solution for automating AP processes and
         enhancing fraud controls. By integrating AI-driven tools, a self-service supplier portal, and a global

@@ -27,7 +27,7 @@ export default function TransformsSection() {
         Timing is handled by Brevo’s <GlossaryLink slug="send-time-optimization" className="text-[#0B162A] hover:underline">send-time
         optimization</GlossaryLink>. Instead of blasting everyone at once, Brevo analyzes when each contact is most
         likely to open and schedules delivery for that window. One customer, AMS, saw a 15% jump in open rates after
-        switching to Brevo’s Send at Best Time feature (<a id={`tools-marketing-personalized-email-campaigns-brevo-transforms-source-brevo-com${idSuffix}`} href="https://www.brevo.com/blog/best-voip-services/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Brevo</a>,
+        switching to Brevo’s Send at Best Time feature (<a id={`tools-marketing-ai-personalized-email-campaigns-brevo-transforms-source-brevo-com${idSuffix}`} href="https://www.brevo.com/blog/best-voip-services/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Brevo</a>,
         as of Oct 26, 2026). For a small business, that means more people actually see and act on your messages, and
         you do not waste effort on emails that get buried.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -52,7 +52,7 @@ export default function TransformsSection() {
         less trial and error.</p>
       <p className="text-base text-white shadow-text pt-3">
         Brevo’s free plan covers up to 9,000 emails a month, with a daily cap of 300, and includes unlimited
-        automations for up to 2,000 contacts (<a id={`tools-marketing-personalized-email-campaigns-brevo-transforms-source-brevo-com-2${idSuffix}`} href="https://www.brevo.com/all-wp-components/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Brevo</a>,
+        automations for up to 2,000 contacts (<a id={`tools-marketing-ai-personalized-email-campaigns-brevo-transforms-source-brevo-com-2${idSuffix}`} href="https://www.brevo.com/all-wp-components/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Brevo</a>,
         as of Oct 26, 2026). This makes it affordable for teams that need to watch every dollar. Paid plans remove
         the daily cap and add advanced features like <GlossaryLink slug="a-b-testing" className="text-[#0B162A] hover:underline">A/B
         testing</GlossaryLink> and send-time optimization, so you can scale as your business grows. You do not pay
@@ -81,8 +81,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-brevo-removes-manual-work-from-personalized-email-campaigns" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How Brevo removes manual work from Personalized Email Campaigns
+              <h2 id="how-brevo-removes-manual-work-from-ai-personalized-email-campaigns" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How Brevo removes manual work from AI Personalized Email Campaigns
               </h2>
             </div>
             <div className="col-span-12">{body()}</div>
@@ -94,8 +94,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-brevo-removes-manual-work-from-personalized-email-campaigns-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How Brevo removes manual work from Personalized Email Campaigns
+              <h2 id="how-brevo-removes-manual-work-from-ai-personalized-email-campaigns-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How Brevo removes manual work from AI Personalized Email Campaigns
               </h2>
               {body("-lg")}
             </div>

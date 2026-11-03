@@ -3,7 +3,7 @@ export default function EvaluatingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Choosing Fathom for intelligent resource planning is not about picking the most features or the lowest
+        Choosing Fathom for AI resource planning is not about picking the most features or the lowest
         sticker price. The right fit comes down to whether the platform matches your business’s size,
         complexity, and appetite for hands-on management. For small businesses in South Florida, the question is
         not just &quot;Can Fathom do it?&quot; but &quot;Does it do it in a way that fits how we actually work,

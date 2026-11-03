@@ -3,7 +3,7 @@ export default function JudgingSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        When considering Tipalti for Automated Fraud &amp; Duplicate Payment Controls, it&#39;s crucial to
+        When considering Tipalti for AI Fraud &amp; Duplicate Payment Controls, it&#39;s crucial to
         assess how well it aligns with your business needs. Tipalti is designed to streamline&nbsp;
         accounts payable&nbsp;processes by automating
         tasks that are typically manual and error-prone. This includes supplier onboarding, invoice processing,

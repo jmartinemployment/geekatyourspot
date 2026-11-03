@@ -13,9 +13,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Melio";
-const PAGE_TITLE = "Melio for Intelligent Approval Workflows";
+const PAGE_TITLE = "Melio for AI Invoice Approval Workflows";
 const DESCRIPTION =
-    "Transform your business with Melio's automated approval workflows, streamlining invoice processing and reducing delays.";
+    "Transform your business with Melio's AI invoice approval workflows, streamlining invoice processing and reducing delays.";
 const CANONICAL = "/tools/accounting/accounts-payable/ai-invoice-approval-workflows/melio";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -25,7 +25,7 @@ const jsonLd: WithContext<TechArticle> = {
     "headline": PAGE_TITLE,
     "description": DESCRIPTION,
     "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-    "keywords": "Melio, automated approval workflows, accounts payable automation, invoice approval, approval rules, mobile approvals, reminders and escalations, QuickBooks Online integration, Xero integration, NetSuite integration, AI implementation",
+    "keywords": "Melio, AI invoice approval workflows, accounts payable automation, invoice approval, approval rules, mobile approvals, reminders and escalations, QuickBooks Online integration, Xero integration, NetSuite integration, AI implementation",
     "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
     "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
     "about": {
@@ -40,7 +40,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Melio", "automated approval workflows", "accounts payable automation", "invoice approval", "approval rules", "mobile approvals"],
+        keywords: ["Melio", "AI invoice approval workflows", "accounts payable automation", "invoice approval", "approval rules", "mobile approvals"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
@@ -74,7 +74,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page() {
     const heroSummary =
-        "Enhance your business operations with Melio's automated approval workflows, optimizing invoice processing and reducing approval delays.";
+        "Enhance your business operations with Melio's AI invoice approval workflows, optimizing invoice processing and reducing approval delays.";
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />

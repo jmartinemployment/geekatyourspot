@@ -18,7 +18,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Cometly";
-const PAGE_TITLE = "Cometly for Precision Lead Acquisition";
+const PAGE_TITLE = "Cometly for AI Precision Lead Acquisition";
 const DESCRIPTION =
     "Ad Spend Optimization with Cometly lets small South Florida businesses see which ads drive sales, not just clicks. Start making every dollar count.";
 const CANONICAL = "/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/cometly";
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Cometly, precision lead acquisition, ad spend optimization, local advertising, lead generation, South Florida small business",
+            "keywords": "Cometly, AI precision lead acquisition, ad spend optimization, local advertising, lead generation, South Florida small business",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-30T11:33:57.5597280Z",
@@ -66,7 +66,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Cometly", "precision lead acquisition", "ad spend optimization", "local advertising", "lead generation", "South Florida small business"],
+        keywords: ["Cometly", "AI precision lead acquisition", "ad spend optimization", "local advertising", "lead generation", "South Florida small business"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Take the Helm";
-const PAGE_TITLE = "Take the Helm for Intelligent Resource Planning";
+const PAGE_TITLE = "Take the Helm for AI Resource Planning";
 const DESCRIPTION =
-    "Intelligent Resource Planning with Take the Helm helps small South Florida businesses automate finances, gain cash flow clarity, and end spreadsheet chaos.";
+    "AI Resource Planning with Take the Helm helps small South Florida businesses automate finances, gain cash flow clarity, and end spreadsheet chaos.";
 const CANONICAL = "/tools/accounting/cash-flow-forecasting/ai-resource-planning/takethehelm";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Take the Helm, intelligent resource planning, cash flow forecasting, resource planning, financial forecasting, small business accounting, South Florida small business",
+            "keywords": "Take the Helm, AI resource planning, cash flow forecasting, resource planning, financial forecasting, small business accounting, South Florida small business",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -59,7 +59,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Take the Helm", "intelligent resource planning", "cash flow forecasting", "resource planning", "financial forecasting", "small business accounting", "South Florida small business"],
+        keywords: ["Take the Helm", "AI resource planning", "cash flow forecasting", "resource planning", "financial forecasting", "small business accounting", "South Florida small business"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

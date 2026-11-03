@@ -9,7 +9,7 @@ export default function OverviewSection() {
         getting burned? The answer is that most small businesses in West Palm Beach, Broward and Miami-Dade face ad
         spend leaks because their reporting is fragmented and their data is scattered. Without clear connections
         between ad clicks and sales, you end up guessing which campaigns work and which are wasting your limited
-        budget. This is the problem <Link id={`tools-marketing-precision-lead-acquisition-localiq-overview-precision-lead-acquisition${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition" className="text-[#C83803] hover:underline">Ad
+        budget. This is the problem <Link id={`tools-marketing-ai-precision-lead-acquisition-localiq-overview-ai-precision-lead-acquisition${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition" className="text-[#C83803] hover:underline">Ad
         Spend Optimization</Link> is built to solve: it gives you visibility into what actually drives results, lets
         you adjust budgets in real time, and reveals the hidden costs and missed opportunities that manual setups and
         weak data links create.</p>

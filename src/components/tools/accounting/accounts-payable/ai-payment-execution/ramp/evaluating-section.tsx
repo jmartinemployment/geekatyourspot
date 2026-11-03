@@ -4,7 +4,7 @@ export default function EvaluatingSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        When considering Ramp for Automated Payment Execution, small businesses should focus on three main
+        When considering Ramp for AI Payment Execution, small businesses should focus on three main
         areas: fit for their specific needs, the pricing model, and how it compares to other available
         solutions. Ramp offers a robust platform designed to automate and streamline accounts payable
         processes, but it&#39;s essential to determine if its features align with your business
@@ -46,8 +46,8 @@ export default function EvaluatingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-ramp-for-automated-payment-execution">
-                Evaluating Ramp for Automated Payment Execution
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-ramp-for-ai-payment-execution">
+                Evaluating Ramp for AI Payment Execution
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
@@ -59,8 +59,8 @@ export default function EvaluatingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-ramp-for-automated-payment-execution-lg">
-                Evaluating Ramp for Automated Payment Execution
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-ramp-for-ai-payment-execution-lg">
+                Evaluating Ramp for AI Payment Execution
               </h2>
               {body("-lg")}
             </div>

@@ -4,7 +4,7 @@ export default function RemovesFromRoutineSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Tipalti transforms the way businesses handle Automated Payment Execution by eliminating many of the
+        Tipalti transforms the way businesses handle AI Payment Execution by eliminating many of the
         manual tasks that bog down finance teams. One of the most significant benefits is the reduction in
         time spent on data entry and the correction of supplier information. Tipalti&#39;s system automates
         the collection and verification of supplier details, ensuring that all information is accurate and
@@ -36,7 +36,7 @@ export default function RemovesFromRoutineSection() {
           Tipalti
         </a></p>
       <p className="text-base text-white shadow-text pt-3">
-        In essence, Tipalti removes the burdensome manual tasks associated with Automated Payment Execution,
+        In essence, Tipalti removes the burdensome manual tasks associated with AI Payment Execution,
         allowing businesses to operate more efficiently and focus on growth. By automating these processes,
         companies can reduce errors, save time, and ensure compliance with financial regulations, ultimately
         leading to a more streamlined and effective financial operation.</p>
@@ -50,8 +50,8 @@ export default function RemovesFromRoutineSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="what-tipalti-removes-from-your-automated-payment-execution-routine">
-                What Tipalti Removes from Your Automated Payment Execution Routine
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="what-tipalti-removes-from-your-ai-payment-execution-routine">
+                What Tipalti Removes from Your AI Payment Execution Routine
               </h2>
             </div>
             <div className="col-span-12">{body()}</div>
@@ -63,8 +63,8 @@ export default function RemovesFromRoutineSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="what-tipalti-removes-from-your-automated-payment-execution-routine-lg">
-                What Tipalti Removes from Your Automated Payment Execution Routine
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="what-tipalti-removes-from-your-ai-payment-execution-routine-lg">
+                What Tipalti Removes from Your AI Payment Execution Routine
               </h2>
               {body("-lg")}
             </div>

@@ -2,7 +2,7 @@ export default function TransformsSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Bill revolutionizes the automated accounts receivable process by automating tasks that traditionally consume
+        Bill revolutionizes the AI accounts receivable process by automating tasks that traditionally consume
         significant time and resources. By implementing Bill, businesses can automate invoicing, reminders, and
         payment collection, freeing up valuable time for owners and staff to focus on growth and customer service.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -44,8 +44,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bill-transforms-automated-accounts-receivable">
-                How Bill Transforms Automated Accounts Receivable
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bill-transforms-ai-accounts-receivable">
+                How Bill Transforms AI Accounts Receivable
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
@@ -57,8 +57,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bill-transforms-automated-accounts-receivable-lg">
-                How Bill Transforms Automated Accounts Receivable
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bill-transforms-ai-accounts-receivable-lg">
+                How Bill Transforms AI Accounts Receivable
               </h2>
               {body}
             </div>

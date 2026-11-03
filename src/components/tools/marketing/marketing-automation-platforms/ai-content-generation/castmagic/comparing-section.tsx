@@ -10,7 +10,7 @@ export default function ComparingSection() {
         platforms. Each solves one part of the workflow but leaves real gaps for a small team trying to
         publish consistently without hiring more staff.</p>
       <p className="text-base text-white shadow-text pt-3">
-        General AI writing tools like&nbsp;<Link id={`tools-marketing-intelligent-content-generation-castmagic-comparing-jasper${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-content-generation/jasper" className="text-[#0B162A] hover:underline">Jasper</Link>&nbsp;and&nbsp;<Link id={`tools-marketing-intelligent-content-generation-castmagic-comparing-copy${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-content-generation/copy" className="text-[#0B162A] hover:underline">Copy.ai</Link>&nbsp;focus on drafting from prompts, but they expect the
+        General AI writing tools like&nbsp;<Link id={`tools-marketing-ai-content-generation-castmagic-comparing-jasper${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-content-generation/jasper" className="text-[#0B162A] hover:underline">Jasper</Link>&nbsp;and&nbsp;<Link id={`tools-marketing-ai-content-generation-castmagic-comparing-copy${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-content-generation/copy" className="text-[#0B162A] hover:underline">Copy.ai</Link>&nbsp;focus on drafting from prompts, but they expect the
         user to feed in structured outlines or bullet points. This means every blog post or email campaign
         starts with a blank screen and needs someone to decide what to say and how to say it. For a local
         business owner, that means time spent writing instead of serving clients. These tools rarely handle

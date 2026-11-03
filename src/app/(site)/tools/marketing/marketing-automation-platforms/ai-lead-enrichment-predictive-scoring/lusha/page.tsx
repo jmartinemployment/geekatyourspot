@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Lusha";
-const PAGE_TITLE = "Lusha for Lead Enrichment and Predictive Scoring";
+const PAGE_TITLE = "Lusha for AI Lead Enrichment and Predictive Scoring";
 const DESCRIPTION =
-    "Lead Enrichment and Predictive Scoring with Lusha help Miami-area small businesses identify, qualify, and connect with the right prospects fast.";
+    "AI Lead Enrichment and Predictive Scoring with Lusha help Miami-area small businesses identify, qualify, and connect with the right prospects fast.";
 const CANONICAL = "/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/lusha";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 

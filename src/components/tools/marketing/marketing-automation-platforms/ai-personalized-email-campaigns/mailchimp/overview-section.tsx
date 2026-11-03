@@ -5,14 +5,14 @@ export default function OverviewSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        How do small businesses in Miami-Dade, Broward, and Palm Beach keep their <Link id={`tools-marketing-personalized-email-campaigns-mailchimp-overview-personalized-email-campaigns${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns" className="text-[#C83803] hover:underline">personalized
+        How do small businesses in Miami-Dade, Broward, and Palm Beach keep their <Link id={`tools-marketing-ai-personalized-email-campaigns-mailchimp-overview-ai-personalized-email-campaigns${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns" className="text-[#C83803] hover:underline">personalized
         email campaigns</Link> relevant and personal without losing hours each week or hiring a full-time marketer?
         Most teams find that personalizing every message by hand is not just tedious, it quickly becomes impossible
         as their list grows. Even the best intentions fall flat when every campaign starts to look the same, and the
         people you want to reach start tuning out. The result is wasted effort: emails get ignored, customers drift,
         and the sales you counted on never materialize.</p>
       <p className="text-base text-white shadow-text pt-3">
-        An AI-assisted approach to Personalized Email Campaigns solves this by taking the manual grind out of the
+        An AI-assisted approach to AI Personalized Email Campaigns solves this by taking the manual grind out of the
         process. With the right tool, like Mailchimp, you can segment your audience, automate timing, and tailor
         subject lines and content for every group, without writing every message from scratch. These platforms are
         built for non-experts: drag-and-drop editors, guided flows, and free plans let you test what works before

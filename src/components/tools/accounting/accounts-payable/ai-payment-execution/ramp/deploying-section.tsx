@@ -3,7 +3,7 @@ export default function DeployingSection() {
     <>
       <p className="text-base text-white shadow-text pt-3">
         Implementing Ramp into an existing business environment involves several key steps that ensure a
-        smooth transition and maximize the benefits of Automated Payment Execution. Geek @ Your Spot LLC, as a
+        smooth transition and maximize the benefits of AI Payment Execution. Geek @ Your Spot LLC, as a
         consultancy specializing in AI implementation, plays a crucial role in this process, offering
         expertise and support tailored to small businesses.</p>
       <p className="text-base text-white shadow-text pt-3">

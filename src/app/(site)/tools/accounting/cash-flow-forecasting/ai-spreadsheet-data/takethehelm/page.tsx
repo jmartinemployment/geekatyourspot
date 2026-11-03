@@ -17,7 +17,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Take the Helm";
-const PAGE_TITLE = "Take the Helm for Intelligent Spreadsheet Data";
+const PAGE_TITLE = "Take the Helm for AI Spreadsheet Data";
 const DESCRIPTION =
     "Take the Helm automates spreadsheet data for accurate cash flow forecasting in South Florida's small businesses.";
 const CANONICAL = "/tools/accounting/cash-flow-forecasting/ai-spreadsheet-data/takethehelm";
@@ -31,7 +31,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Take the Helm, Helm, automated spreadsheet data, cash flow forecasting, QuickBooks, Xero, Sage, scenario planning, KPI dashboard, drag-and-drop forecasting, Veem payments, accounts payable, South Florida small business",
+            "keywords": "Take the Helm, Helm, AI spreadsheet data, cash flow forecasting, QuickBooks, Xero, Sage, scenario planning, KPI dashboard, drag-and-drop forecasting, Veem payments, accounts payable, South Florida small business",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -48,7 +48,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Take the Helm", "Helm", "automated spreadsheet data", "cash flow forecasting", "scenario planning", "QuickBooks", "Xero", "Sage"],
+        keywords: ["Take the Helm", "Helm", "AI spreadsheet data", "cash flow forecasting", "scenario planning", "QuickBooks", "Xero", "Sage"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

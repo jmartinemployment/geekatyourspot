@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Leadfeeder";
-const PAGE_TITLE = "Leadfeeder for Lead Enrichment and Predictive Scoring";
+const PAGE_TITLE = "Leadfeeder for AI Lead Enrichment and Predictive Scoring";
 const DESCRIPTION =
-    "Leadfeeder offers Lead Enrichment and Predictive Scoring to help Miami-area small businesses identify and prioritize high-intent website leads instantly.";
+    "Leadfeeder offers AI Lead Enrichment and Predictive Scoring to help Miami-area small businesses identify and prioritize high-intent website leads instantly.";
 const CANONICAL = "/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/leadfeeder";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 

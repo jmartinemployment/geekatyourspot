@@ -37,7 +37,7 @@ export default function ImplementingSection() {
         achieve a high level of customization and efficiency in their accounts payable operations.</p>
       <p className="text-base text-white shadow-text pt-3">
         Overall, implementing Bill with Geek @ Your Spot LLC&#39;s guidance ensures that businesses can quickly
-        and effectively transition to automated approval workflows. By focusing on integration, workflow
+        and effectively transition to AI invoice approval workflows. By focusing on integration, workflow
         configuration, and user training, Geek @ Your Spot LLC helps businesses realize the full potential of
         Bill, leading to improved efficiency, reduced errors, and enhanced financial management.</p>
     </>

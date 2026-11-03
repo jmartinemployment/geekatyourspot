@@ -38,7 +38,7 @@ export default function ConfiguringSection() {
         follow-up make it easy to get started and then customize as you learn what works for your audience.</p>
       <p className="text-base text-white shadow-text pt-3">
         Mailchimp integrates with over 300 platforms, including Shopify, WooCommerce, QuickBooks, Salesforce, and
-        Zapier (<a id={`tools-marketing-personalized-email-campaigns-mailchimp-configuring-source-mailchimp-com${idSuffix}`} href="https://mailchimp.com/pricing/marketing/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Mailchimp</a>,
+        Zapier (<a id={`tools-marketing-ai-personalized-email-campaigns-mailchimp-configuring-source-mailchimp-com${idSuffix}`} href="https://mailchimp.com/pricing/marketing/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Mailchimp</a>,
         as of Oct 25, 2026). These integrations let you pull in customer, order, and behavioral data to drive your
         automations. For example, connecting Shopify means Mailchimp can trigger emails based on cart events,
         product views, or completed purchases, and syncs customer details including tags and custom fields. This is
@@ -59,7 +59,7 @@ export default function ConfiguringSection() {
         not in custom code or one-off scripts.</p>
       <p className="text-base text-white shadow-text pt-3">
         Limitations are clear: on the free plan, you’re capped at 250 contacts and one seat, and advanced features
-        like predictive segmentation, A/B testing, and SMS marketing are gated to paid tiers (<a id={`tools-marketing-personalized-email-campaigns-mailchimp-configuring-source-mailchimp-com-2${idSuffix}`} href="https://mailchimp.com/resources/free-marketing-features-overview/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Mailchimp</a>,
+        like predictive segmentation, A/B testing, and SMS marketing are gated to paid tiers (<a id={`tools-marketing-ai-personalized-email-campaigns-mailchimp-configuring-source-mailchimp-com-2${idSuffix}`} href="https://mailchimp.com/resources/free-marketing-features-overview/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Mailchimp</a>,
         as of Oct 25, 2026). If you need more seats, higher send limits, or advanced automation, you’ll need to
         upgrade. But for most small businesses starting out, the configuration work is about connecting your data,
         setting up the right rules, and letting Mailchimp’s built-in logic do the heavy lifting. You can always

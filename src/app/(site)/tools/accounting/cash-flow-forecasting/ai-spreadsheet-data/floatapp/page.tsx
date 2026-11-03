@@ -18,7 +18,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Floatapp";
-const PAGE_TITLE = "Floatapp for Intelligent Spreadsheet Data";
+const PAGE_TITLE = "Floatapp for AI Spreadsheet Data";
 const DESCRIPTION =
     "Floatapp automates cash flow forecasting for South Florida businesses, ensuring accurate, real-time financial insights.";
 const CANONICAL = "/tools/accounting/cash-flow-forecasting/ai-spreadsheet-data/floatapp";
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Floatapp, automated spreadsheet data, cash flow forecasting, Xero integration, bank integrations, data sync, budgets and actuals, Excel budget import, Cash-Only design, forecasting timelines, what-if scenarios, multi-entity consolidation",
+            "keywords": "Floatapp, AI spreadsheet data, cash flow forecasting, Xero integration, bank integrations, data sync, budgets and actuals, Excel budget import, Cash-Only design, forecasting timelines, what-if scenarios, multi-entity consolidation",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "about": {
@@ -70,7 +70,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Floatapp", "automated spreadsheet data", "cash flow forecasting", "Xero integration", "bank integrations", "data sync"],
+        keywords: ["Floatapp", "AI spreadsheet data", "cash flow forecasting", "Xero integration", "bank integrations", "data sync"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
@@ -104,7 +104,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page() {
     const heroSummary =
-        "Transform your cash flow management with Floatapp's automated spreadsheet data, tailored for small businesses in South Florida.";
+        "Transform your cash flow management with Floatapp's AI spreadsheet data, tailored for small businesses in South Florida.";
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />

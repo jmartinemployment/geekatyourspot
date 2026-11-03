@@ -56,8 +56,8 @@ export default function ArchitectureSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bills-architecture-powers-automated-payment-execution">
-                How Bill&#39;s Architecture Powers Automated Payment Execution
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bills-architecture-powers-ai-payment-execution">
+                How Bill&#39;s Architecture Powers AI Payment Execution
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
@@ -69,8 +69,8 @@ export default function ArchitectureSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bills-architecture-powers-automated-payment-execution-lg">
-                How Bill&#39;s Architecture Powers Automated Payment Execution
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bills-architecture-powers-ai-payment-execution-lg">
+                How Bill&#39;s Architecture Powers AI Payment Execution
               </h2>
               {body("-lg")}
             </div>

@@ -9,7 +9,7 @@ export default function OverviewSection() {
         Instagram. By the end of the day, your team is digging through separate inboxes, copy-pasting names,
         and trying to remember which customer asked what. Even when you answer quickly, context gets lost. The
         same prospect might be fielded by three different people, or worse, dropped entirely because the
-        conversation thread is missing. A&nbsp;<Link id={`tools-marketing-cross-platform-chatbot-tidio-overview-cross-platform-chatbot${idSuffix}`} href="/use-cases/business-operations/ai-chatbot" className="text-[#C83803] hover:underline">Cross-Platform Chatbot</Link>&nbsp;is supposed to fix this, but for most small
+        conversation thread is missing. A&nbsp;<Link id={`tools-marketing-ai-chatbot-tidio-overview-ai-chatbot${idSuffix}`} href="/use-cases/business-operations/ai-chatbot" className="text-[#C83803] hover:underline">AI Chatbot</Link>&nbsp;is supposed to fix this, but for most small
         businesses, the reality is a mess of overlapping tools, too many windows, and no way to see the whole
         customer story in one place.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -20,7 +20,7 @@ export default function OverviewSection() {
         hand. The result: slower replies, dropped leads, and missed sales. For a small shop, that means real
         money left on the table and a reputation for being hard to reach.</p>
       <p className="text-base text-white shadow-text pt-3">
-        The right Cross-Platform Chatbot changes the game. Instead of treating each message as a one-off, an
+        The right AI Chatbot changes the game. Instead of treating each message as a one-off, an
         intelligent pipeline keeps every conversation, name, and customer action in sync, across website, SMS,
         Messenger, Instagram, and more. Your team sees the full history in one dashboard, so anyone can pick
         up a thread and respond with context, without having to ask a customer to start over. Round-the-clock
@@ -32,7 +32,7 @@ export default function OverviewSection() {
         fewer errors, faster follow-ups, and a pipeline that actually captures more leads from every channel.
         It is not about adding another tool to the pile, it is about making sure every customer gets a
         consistent, connected experience, and your team runs like one that is three times the size. That is
-        what a real Cross-Platform Chatbot delivers when it is built for local small business, not just for
+        what a real AI Chatbot delivers when it is built for local small business, not just for
         the enterprise giants.</p>
     </>
   );

@@ -59,7 +59,7 @@ export default function ImplementingSection() {
       <p className="text-base text-white shadow-text pt-3">
         In practice, going live with BotPenguin is not a drawn-out IT project. It is a focused, step-by-step
         rollout that uses the platform’s own strengths, prebuilt integrations, templated flows, and a single
-        inbox, to deliver a working cross-platform chatbot in a fraction of the time most teams expect. For a
+        inbox, to deliver a working AI chatbot in a fraction of the time most teams expect. For a
         small business, that means you stop losing leads to missed DMs and scattered chats, and start seeing
         every inquiry in the same pipeline from the first week.</p>
     </>

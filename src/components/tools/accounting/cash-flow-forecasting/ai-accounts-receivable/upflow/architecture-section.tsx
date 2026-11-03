@@ -7,13 +7,13 @@ export default function ArchitectureSection() {
         of&nbsp;ERP&nbsp;and
         accounting tools. This capability is vital for ensuring that businesses can maintain a single source of
         truth for their financial data. By connecting directly to systems like NetSuite, QuickBooks, and Sage
-        Intacct, Upflow ensures that all automated accounts receivable data is current and synchronized across
+        Intacct, Upflow ensures that all AI accounts receivable data is current and synchronized across
         platforms.</p>
       <p className="text-base text-white shadow-text pt-3">
         One of Upflow&#39;s standout features is its native integration with Stripe, allowing for real-time import
         of customers, invoices, and payments. This integration is streamlined, requiring minimal setup and no
         complex coding. Once connected, Upflow automatically updates as new transactions occur, keeping your
-        automated accounts receivable process accurate and up-to-date without manual intervention.</p>
+        AI accounts receivable process accurate and up-to-date without manual intervention.</p>
       <p className="text-base text-white shadow-text pt-3">
         The platform also provides a branded customer portal, which supports various payment methods including ACH,
         credit card, and direct debit. This portal not only facilitates easy payments but also logs every

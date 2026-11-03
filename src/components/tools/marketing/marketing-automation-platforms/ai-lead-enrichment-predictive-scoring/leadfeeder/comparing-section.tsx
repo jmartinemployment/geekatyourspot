@@ -80,8 +80,8 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-leadfeeder-compares-to-other-lead-enrichment-and-predictive-scoring-tools" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How Leadfeeder Compares to Other Lead Enrichment and Predictive Scoring Tools
+              <h2 id="how-leadfeeder-compares-to-other-ai-lead-enrichment-predictive-scoring-tools" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How Leadfeeder Compares to Other AI Lead Enrichment and Predictive Scoring Tools
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
@@ -93,8 +93,8 @@ export default function ComparingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="how-leadfeeder-compares-to-other-lead-enrichment-and-predictive-scoring-tools-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How Leadfeeder Compares to Other Lead Enrichment and Predictive Scoring Tools
+              <h2 id="how-leadfeeder-compares-to-other-ai-lead-enrichment-predictive-scoring-tools-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How Leadfeeder Compares to Other AI Lead Enrichment and Predictive Scoring Tools
               </h2>
               {body("-lg")}
             </div>

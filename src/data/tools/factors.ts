@@ -12,9 +12,9 @@ export const factorsContent: ToolPageContent = {
   "department": "marketing",
   "useCase": "marketing-automation-platforms/ai-lead-enrichment-predictive-scoring",
   "description":
-    "Lead Enrichment and Predictive Scoring from Factors helps small businesses in South Florida capture and qualify their best leads for a stronger sales pipeline.",
+    "AI Lead Enrichment and Predictive Scoring from Factors helps small businesses in South Florida capture and qualify their best leads for a stronger sales pipeline.",
   "heroSummary":
-    "Factors uses AI-driven Lead Enrichment and Predictive Scoring to reveal which website visitors are most likely to buy, optimizing your lead capture pipeline.",
+    "Factors uses AI-driven AI Lead Enrichment and Predictive Scoring to reveal which website visitors are most likely to buy, optimizing your lead capture pipeline.",
   "keywords":
     "Factors, lead enrichment, predictive lead scoring, intent data, lead capture, B2B lead generation, South Florida small business",
   "datePublished": "2026-10-17T11:18:14.1793650Z",
@@ -24,7 +24,7 @@ export const factorsContent: ToolPageContent = {
   "sections": [
     {"title": "Overview", "description": "Picture a small marketing team in West Palm Beach."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "For most small businesses in Miami-Dade, Broward, and Palm Beach, the lead pipeline is a black hole."},
-    {"title": "What Factors Removes from Your Week: Lead Enrichment and Predictive Scoring That Works", "description": "Factors changes the workweek for small business teams by making the invisible visible."},
+    {"title": "What Factors Removes from Your Week: AI Lead Enrichment and Predictive Scoring That Works", "description": "Factors changes the workweek for small business teams by making the invisible visible."},
     {"title": "How Factors Surfaces and Scores Buying Intent: The Actual Steps Inside the Platform", "description": "Factors does not just identify anonymous website visitors and hand over a list."},
     {"title": "What Sits Behind the Scenes: Factors’ Architecture, Data Connections, and Integrations", "description": "Factors is not just a dashboard on top of your website traffic."},
     {"title": "What Shortens Go-Live With Factors and How the Rollout Actually Happens", "description": "Getting Factors live in a small business environment is not about months of custom engineering or a team of outside consultants."},

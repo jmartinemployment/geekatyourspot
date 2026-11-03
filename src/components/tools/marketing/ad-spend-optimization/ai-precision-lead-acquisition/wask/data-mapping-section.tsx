@@ -27,7 +27,7 @@ export default function DataMappingSection() {
         Attribution settings matter as well. Google and Meta each have their own default attribution windows and
         reporting delays. Wask prompts you to align your automation rules with these windows, so you do not pause a
         campaign for underperformance when conversions are simply delayed. For example, Google&rsquo;s enhanced
-        conversions can take up to 72 hours to report, and Meta&rsquo;s CAPI events can lag by a day (<a id={`tools-marketing-precision-lead-acquisition-wask-data-mapping-source-google-ads-automation${idSuffix}`} href="https://www.wask.co/google-ads-automation" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Wask</a>,
+        conversions can take up to 72 hours to report, and Meta&rsquo;s CAPI events can lag by a day (<a id={`tools-marketing-ai-precision-lead-acquisition-wask-data-mapping-source-google-ads-automation${idSuffix}`} href="https://www.wask.co/google-ads-automation" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Wask</a>,
         as of Oct 29, 2026). Wask lets you set a buffer in your rule logic, so you avoid false negatives and keep
         campaigns running that are actually working.</p>
       <p className="text-base text-white shadow-text pt-3">

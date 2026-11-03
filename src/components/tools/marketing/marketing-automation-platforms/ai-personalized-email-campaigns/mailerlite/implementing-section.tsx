@@ -25,7 +25,7 @@ export default function ImplementingSection() {
         it saves hours of manual sorting down the road.</p>
       <p className="text-base text-white shadow-text pt-3">
         Template setup is where most teams see the biggest time savings. MailerLite includes over 100 designer-built
-        templates, all customizable with a drag-and-drop editor (<a id={`tools-marketing-personalized-email-campaigns-mailerlite-implementing-source-mailerlite-com${idSuffix}`} href="https://www.mailerlite.com/blog/how-to-combine-email-segmentation-with-automation-with-examples" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">MailerLite</a>,
+        templates, all customizable with a drag-and-drop editor (<a id={`tools-marketing-ai-personalized-email-campaigns-mailerlite-implementing-source-mailerlite-com${idSuffix}`} href="https://www.mailerlite.com/blog/how-to-combine-email-segmentation-with-automation-with-examples" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">MailerLite</a>,
         as of Oct 25, 2026). Teams can quickly create reusable templates for newsletters, promotions, or onboarding
         sequences, ensuring every email stays on brand and includes a clear call to action. The built-in AI writing
         assistant helps draft subject lines and body copy, which is especially useful for teams without a dedicated

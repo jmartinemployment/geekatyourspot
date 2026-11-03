@@ -4,7 +4,7 @@ export default function DataMappingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        The effectiveness of Frase for Intelligent Content Generation depends on the foundation you lay at
+        The effectiveness of Frase for AI Content Generation depends on the foundation you lay at
         setup. The first real decision is how you structure your topics and content clusters. Frase organizes
         content around clusters, groups of related articles, posts, and emails that support a core subject.
         For a local business, this might mean a main cluster for each service line (roof repair, pest control,

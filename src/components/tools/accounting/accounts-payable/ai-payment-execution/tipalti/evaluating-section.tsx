@@ -4,7 +4,7 @@ export default function EvaluatingSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Choosing the right tool for Automated Payment Execution involves examining how well Tipalti fits your
+        Choosing the right tool for AI Payment Execution involves examining how well Tipalti fits your
         business needs. Tipalti excels in automating accounts payable, offering a significant reduction in
         manual workload. For small businesses, this means fewer errors and faster processing times. The
         platform integrates seamlessly with existing systems like QuickBooks Online, making it a strong

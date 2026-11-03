@@ -3,7 +3,7 @@ export default function TransformsSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Melio offers a solution that revolutionizes Automated Approval Workflows for small businesses,
+        Melio offers a solution that revolutionizes AI Invoice Approval Workflows for small businesses,
         transforming a time-consuming task into a streamlined process. By automating the routing of invoices
         to the appropriate approvers, Melio eliminates the need for manual intervention, reducing errors and
         speeding up the approval process. This automation ensures that every invoice is directed to the right
@@ -50,8 +50,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-melio-transforms-automated-approval-workflows">
-                How Melio Transforms Automated Approval Workflows
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-melio-transforms-ai-invoice-approval-workflows">
+                How Melio Transforms AI Invoice Approval Workflows
               </h2>
             </div>
             <div className="col-span-12">{body()}</div>
@@ -63,8 +63,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-melio-transforms-automated-approval-workflows-lg">
-                How Melio Transforms Automated Approval Workflows
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-melio-transforms-ai-invoice-approval-workflows-lg">
+                How Melio Transforms AI Invoice Approval Workflows
               </h2>
               {body("-lg")}
             </div>

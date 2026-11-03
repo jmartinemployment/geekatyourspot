@@ -6,7 +6,7 @@ export default function OverviewSection() {
     <>
       <p className="text-base text-white shadow-text pt-3">
         Why am I paying for ads without knowing which ones are actually bringing in customers, or if I am just wasting
-        money? Most small businesses in Miami-Dade, Broward and Palm Beach counties struggle with <Link id={`tools-marketing-precision-lead-acquisition-plai-overview-precision-lead-acquisition${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition" className="text-[#C83803] hover:underline">ad
+        money? Most small businesses in Miami-Dade, Broward and Palm Beach counties struggle with <Link id={`tools-marketing-ai-precision-lead-acquisition-plai-overview-ai-precision-lead-acquisition${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition" className="text-[#C83803] hover:underline">ad
         spend optimization</Link> for one reason: they cannot see clearly what is working, why a campaign is
         underperforming, or how to shift budget fast enough to make a difference. Manual reporting across platforms like
         Facebook, Google and TikTok takes hours each week, and even then, the data rarely lines up with real sales. That

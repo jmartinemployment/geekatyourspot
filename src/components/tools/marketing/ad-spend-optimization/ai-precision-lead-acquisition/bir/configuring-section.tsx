@@ -8,7 +8,7 @@ export default function ConfiguringSection() {
         match your ad accounts and business goals. Geek @ Your Spot handles this setup so rules actually fit your
         campaigns, your data, and your risk tolerance, not just a generic template. Bir&rsquo;s automation is built on
         rules that run every 15 minutes, with each rule targeting a specific part of your ad spend: pausing
-        underperformers, scaling up winners, or cutting off budget spikes before they become a problem (<a id={`tools-marketing-precision-lead-acquisition-bir-configuring-source-nothink${idSuffix}`} href="https://bir.ch/case-studies/nothink" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Bir</a>,
+        underperformers, scaling up winners, or cutting off budget spikes before they become a problem (<a id={`tools-marketing-ai-precision-lead-acquisition-bir-configuring-source-nothink${idSuffix}`} href="https://bir.ch/case-studies/nothink" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Bir</a>,
         as of Oct 25, 2026).</p>
       <p className="text-base text-white shadow-text pt-3">
         Configuration in Bir starts with defining which metrics matter for your business and how to act on them. For

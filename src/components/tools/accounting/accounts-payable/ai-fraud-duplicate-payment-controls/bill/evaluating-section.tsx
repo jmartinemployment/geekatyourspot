@@ -4,7 +4,7 @@ export default function EvaluatingSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        When considering Bill for Automated Fraud &amp; Duplicate Payment Controls, small businesses in
+        When considering Bill for AI Fraud &amp; Duplicate Payment Controls, small businesses in
         Miami-Dade, Broward, and West Palm Beach counties should weigh its fit and pricing model against their
         specific needs. Bill offers a robust solution for automating&nbsp;
         accounts payable&nbsp;processes, reducing manual
@@ -28,7 +28,7 @@ export default function EvaluatingSection() {
         beneficial. It&#39;s crucial to evaluate the potential time savings and error reduction each plan
         offers against its cost to determine the best fit.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Adjacent solutions like&nbsp;<Link id={`tools-accounting-fraud-controls-bill-evaluating-stampli${idSuffix}`} href="/tools/accounting/accounts-payable/ai-invoice-approval-workflows/stampli" className="text-[#C83803] hover:underline">Stampli</Link>&nbsp;or&nbsp;<Link id={`tools-accounting-fraud-controls-bill-evaluating-tipalti${idSuffix}`} href="/tools/accounting/accounts-payable/ai-fraud-duplicate-payment-controls/tipalti" className="text-[#C83803] hover:underline">Tipalti</Link>&nbsp;also offer Automated Fraud &amp; Duplicate Payment Controls,
+        Adjacent solutions like&nbsp;<Link id={`tools-accounting-fraud-controls-bill-evaluating-stampli${idSuffix}`} href="/tools/accounting/accounts-payable/ai-invoice-approval-workflows/stampli" className="text-[#C83803] hover:underline">Stampli</Link>&nbsp;or&nbsp;<Link id={`tools-accounting-fraud-controls-bill-evaluating-tipalti${idSuffix}`} href="/tools/accounting/accounts-payable/ai-fraud-duplicate-payment-controls/tipalti" className="text-[#C83803] hover:underline">Tipalti</Link>&nbsp;also offer AI Fraud &amp; Duplicate Payment Controls,
         and businesses should compare these alternatives to Bill. While Bill excels in its integration
         capabilities and user-friendly interface, competitors might offer different strengths such as specific
         industry customizations or pricing models. Evaluating these options side by side will help businesses
@@ -48,8 +48,8 @@ export default function EvaluatingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-bill-for-automated-fraud-duplicate-payment-controls">
-                Evaluating Bill for Automated Fraud &amp; Duplicate Payment Controls
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-bill-for-ai-fraud-duplicate-payment-controls">
+                Evaluating Bill for AI Fraud &amp; Duplicate Payment Controls
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
@@ -61,8 +61,8 @@ export default function EvaluatingSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-bill-for-automated-fraud-duplicate-payment-controls-lg">
-                Evaluating Bill for Automated Fraud &amp; Duplicate Payment Controls
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-bill-for-ai-fraud-duplicate-payment-controls-lg">
+                Evaluating Bill for AI Fraud &amp; Duplicate Payment Controls
               </h2>
               {body("-lg")}
             </div>

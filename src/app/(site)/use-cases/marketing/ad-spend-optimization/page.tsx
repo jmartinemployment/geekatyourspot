@@ -32,7 +32,7 @@ const jsonLd: Graph = {
                 "@type": "WebPage",
                 "@id": "https://geekatyourspot.com/use-cases/marketing/ad-spend-optimization"
             },
-            "keywords": "Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
+            "keywords": "Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, AI data quality assessments",
             "wordCount": 3309,
             "mentions": [
                 { "@type": "Thing", "name": "Meta Advantage+", "url": "https://www.facebook.com/business/ads/meta-advantage-plus" },
@@ -62,7 +62,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: "Ad Spend Optimization",
         description: "Explore Ad Spend Optimization to enhance marketing efficiency with AI, featuring dynamic creative, bidding, and real-time budget tools.",
-        keywords: ["Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments"],
+        keywords: ["Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, AI data quality assessments"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

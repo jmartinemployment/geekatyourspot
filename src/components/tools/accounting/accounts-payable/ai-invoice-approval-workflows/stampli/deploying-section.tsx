@@ -6,7 +6,7 @@ export default function DeployingSection() {
       <p className="text-base text-white shadow-text pt-3">
         Deploying Stampli in your existing business environment is a streamlined process, thanks to its
         pre-built connectors and templated setup. These features significantly shorten the go-live period,
-        allowing businesses to start reaping the benefits of Automated Approval Workflows quickly.
+        allowing businesses to start reaping the benefits of AI Invoice Approval Workflows quickly.
         Stampli&#39;s integration with popular&nbsp;
         ERP&nbsp;systems
         means that your financial data remains consistent and synchronized across platforms.</p>

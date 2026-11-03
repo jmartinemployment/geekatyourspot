@@ -2,7 +2,7 @@ export default function TransformsSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Cashflowfrog transforms Intelligent Resource Planning from a manual chore into a live, automated
+        Cashflowfrog transforms AI Resource Planning from a manual chore into a live, automated
         process. It connects directly to accounting software like QuickBooks, Xero, Sage Intacct, Odoo, Zoho
         Books, and FreshBooks, as well as bank accounts through Plaid or Excel imports. This means the numbers
         in the forecast are always current, no more re-keying data or waiting for end-of-month reports. When a
@@ -24,7 +24,7 @@ export default function TransformsSection() {
         bill hits early, or sales dip for a month. Switching between scenarios is instant, and every scenario
         can be compared side by side.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Automated accounts receivable features rank customers by payment punctuality, showing who pays on time
+        AI Accounts Receivable features rank customers by payment punctuality, showing who pays on time
         and who needs a nudge. This helps the business set smarter credit terms and chase the right invoices
         first, reducing the risk of cash gaps caused by late-paying clients. Alerts flag projected low balances
         before they become a problem, so the team can act early, delaying a payment, drawing on a line of
@@ -38,7 +38,7 @@ export default function TransformsSection() {
         client-ready and branded, so sharing insights with stakeholders is fast and professional, no more
         exporting, formatting, and emailing files back and forth.</p>
       <p className="text-base text-white shadow-text pt-3">
-        For intelligent resource planning, this means decisions happen with up-to-date, trustworthy data. The
+        For AI resource planning, this means decisions happen with up-to-date, trustworthy data. The
         business knows exactly how much cash is available, which customers are slowing down collections, and
         what the impact of a new hire or a delayed payment will be. The forecast is not just a report; it is a
         live tool for making choices every day. Teams can plan for taxes, growth, and gaps without guessing.
@@ -48,7 +48,7 @@ export default function TransformsSection() {
         numbers together, the team spends those hours on sales, service, and strategy. Staff are not tied up
         checking formulas or chasing missing payments, they are working on what matters. The forecast earns
         trust because it is always current, always accurate, and always ready to answer the next question. That
-        is what Intelligent Resource Planning should look like: less manual work, fewer errors, and more
+        is what AI Resource Planning should look like: less manual work, fewer errors, and more
         confident decisions, every week.</p>
       <blockquote cite="https://cashflowfrog.com/" className="mt-3 border-l-4 border-white/60 pl-4 italic text-base text-white shadow-text">
         Connect your accounting software and get a rolling 36-month forecast in minutes.</blockquote>
@@ -62,8 +62,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-cashflowfrog-actually-does-for-intelligent-resource-planning" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                What Cashflowfrog Actually Does for Intelligent Resource Planning
+              <h2 id="what-cashflowfrog-actually-does-for-ai-resource-planning" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                What Cashflowfrog Actually Does for AI Resource Planning
               </h2>
             </div>
             <div className="col-span-12">{body}</div>
@@ -75,8 +75,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="what-cashflowfrog-actually-does-for-intelligent-resource-planning-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                What Cashflowfrog Actually Does for Intelligent Resource Planning
+              <h2 id="what-cashflowfrog-actually-does-for-ai-resource-planning-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                What Cashflowfrog Actually Does for AI Resource Planning
               </h2>
               {body}
             </div>

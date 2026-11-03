@@ -11,7 +11,7 @@ export default function FoundationSection() {
         The first decision is data quality. If the data behind your optimization is incomplete, delayed, or comes from
         disconnected sources, you are building on sand. Cometly, Triplewhale, and LocaliQ solve this by using
         server-side tracking and deduplication, so you are not reacting to fake conversions or missing 30% of your
-        results to browser blockers (<a id={`blog-marketing-precision-lead-acquisition-foundation-source-triplewhale-com${idSuffix}`} href="https://www.triplewhale.com/moby-prompting-guide" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Triplewhale</a>,
+        results to browser blockers (<a id={`blog-marketing-ai-precision-lead-acquisition-foundation-source-triplewhale-com${idSuffix}`} href="https://www.triplewhale.com/moby-prompting-guide" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Triplewhale</a>,
         as of Oct 29, 2026). Without this foundation, no amount of smart rules or AI will keep you from scaling up
         losers or cutting off your real winners. A business that launches with browser pixels or manual spreadsheets
         may look like it is optimizing, but it is just moving money based on fiction.</p>

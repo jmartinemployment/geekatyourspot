@@ -27,7 +27,7 @@ export default function ImplementingSection() {
         Next comes the rule set design. Geek @ Your Spot uses Bir&rsquo;s templated automation rules as a starting point
         but customizes them to your business&rsquo;s real-world performance windows and risk tolerances. For example, if
         your campaigns need to be checked every 15 minutes during peak hours but only hourly overnight, that schedule is
-        built in (<a id={`tools-marketing-precision-lead-acquisition-bir-implementing-source-nothink${idSuffix}`} href="https://bir.ch/case-studies/nothink" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Bir</a>,
+        built in (<a id={`tools-marketing-ai-precision-lead-acquisition-bir-implementing-source-nothink${idSuffix}`} href="https://bir.ch/case-studies/nothink" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Bir</a>,
         as of Oct 25, 2026). Rules for pausing underperforming ads, scaling winners, and protecting budgets from CPC or
         CPM spikes are set up and tested in a sandbox before going live. This phased rollout lets you see the impact of
         automation on a subset of campaigns before extending it to the entire account. For small teams, this means you

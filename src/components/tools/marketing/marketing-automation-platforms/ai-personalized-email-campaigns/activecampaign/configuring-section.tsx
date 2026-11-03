@@ -38,7 +38,7 @@ export default function ConfiguringSection() {
       <p className="text-base text-white shadow-text pt-3">
         The platform’s integrations are set up through configuration, not custom development. ActiveCampaign
         connects natively to Shopify, Salesforce, Facebook Custom Audiences, Typeform, and over 900 other platforms
-        (<a id={`tools-marketing-personalized-email-campaigns-activecampaign-configuring-source-activecampaign-com${idSuffix}`} href="https://www.activecampaign.com/compare/salesforce" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">ActiveCampaign</a>,
+        (<a id={`tools-marketing-ai-personalized-email-campaigns-activecampaign-configuring-source-activecampaign-com${idSuffix}`} href="https://www.activecampaign.com/compare/salesforce" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">ActiveCampaign</a>,
         as of Oct 26, 2026). This means your customer data, order history, and engagement signals flow automatically
         into the system, powering real-time personalization and reporting. Geek @ Your Spot handles the mapping and
         configuration, so your business logic is reflected in every automation without manual data wrangling.</p>

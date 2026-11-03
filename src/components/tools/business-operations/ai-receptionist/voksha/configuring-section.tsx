@@ -59,7 +59,7 @@ export default function ConfiguringSection() {
       <p className="text-base text-white shadow-text pt-3">
         Voksha’s setup is not about building a custom app or wiring up
         an&nbsp;API. It is about configuring the right questions,
-        routing, and escalation rules so your Intelligent Receptionist fits your business, not the other way
+        routing, and escalation rules so your AI Receptionist fits your business, not the other way
         around. Geek @ Your Spot LLC’s role is to get those rules right from the start, so your team stops missing
         leads and starts seeing the real benefit of always-on, AI-powered call handling.</p>
     </>

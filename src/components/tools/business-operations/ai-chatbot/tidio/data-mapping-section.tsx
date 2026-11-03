@@ -3,7 +3,7 @@ export default function DataMappingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Before Tidio can deliver a unified, cross-platform chatbot experience, your team needs to make a few
+        Before Tidio can deliver a unified, AI chatbot experience, your team needs to make a few
         data decisions that shape how leads, conversations, and customer records flow across your business.
         These choices are not just technical details, they affect how well the system captures context, routes
         conversations, and keeps your pipeline clean.</p>
@@ -56,7 +56,7 @@ export default function DataMappingSection() {
         website chat, or which flows convert best by channel.</p>
       <p className="text-base text-white shadow-text pt-3">
         In short, the up-front data decisions you make with Tidio are not just about technical setup, they
-        shape how well your cross-platform chatbot works for your real business needs. The more deliberate you
+        shape how well your AI chatbot works for your real business needs. The more deliberate you
         are about mapping fields, structuring knowledge, and routing conversations, the smoother your launch
         and the cleaner your pipeline. Geek @ Your Spot LLC guides clients through each of these choices, making
         sure the structure fits your business now and scales with you as you grow.</p>

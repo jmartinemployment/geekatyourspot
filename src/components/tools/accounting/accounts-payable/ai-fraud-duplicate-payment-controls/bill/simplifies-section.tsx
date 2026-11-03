@@ -3,7 +3,7 @@ export default function SimplifiesSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        BILL transforms the way small businesses handle Automated Fraud &amp; Duplicate Payment Controls by
+        BILL transforms the way small businesses handle AI Fraud &amp; Duplicate Payment Controls by
         removing inefficiencies and reducing manual workload. Instead of staff spending hours each week manually
         entering data and checking for duplicate invoices, BILL automates these tasks, freeing up time for more
         strategic activities. This automation not only saves time but also significantly reduces the risk of
@@ -50,8 +50,8 @@ export default function SimplifiesSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bill-simplifies-automated-fraud-duplicate-payment-controls">
-                How Bill Simplifies Automated Fraud &amp; Duplicate Payment Controls
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bill-simplifies-ai-fraud-duplicate-payment-controls">
+                How Bill Simplifies AI Fraud &amp; Duplicate Payment Controls
               </h2>
             </div>
             <div className="col-span-12">{body()}</div>
@@ -63,8 +63,8 @@ export default function SimplifiesSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bill-simplifies-automated-fraud-duplicate-payment-controls-lg">
-                How Bill Simplifies Automated Fraud &amp; Duplicate Payment Controls
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-bill-simplifies-ai-fraud-duplicate-payment-controls-lg">
+                How Bill Simplifies AI Fraud &amp; Duplicate Payment Controls
               </h2>
               {body("-lg")}
             </div>

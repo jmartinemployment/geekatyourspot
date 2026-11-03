@@ -4,7 +4,7 @@ export default function TransformsSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Tipalti transforms the landscape of Automated Fraud &amp; Duplicate Payment Controls by removing the
+        Tipalti transforms the landscape of AI Fraud &amp; Duplicate Payment Controls by removing the
         manual burdens that plague small businesses. The platform automates the supplier-to-payment chain,
         ensuring that every step is monitored and controlled. This automation means fewer hours spent on manual
         data entry and more time available for strategic tasks.</p>
@@ -46,7 +46,7 @@ export default function TransformsSection() {
         not only speeds up payment processing but also improves cash flow management, allowing businesses to
         operate more smoothly.</p>
       <p className="text-base text-white shadow-text pt-3">
-        In summary, Tipalti revolutionizes Automated Fraud &amp; Duplicate Payment Controls by providing a
+        In summary, Tipalti revolutionizes AI Fraud &amp; Duplicate Payment Controls by providing a
         comprehensive, automated solution that enhances efficiency and reduces risk. By removing manual tasks
         and providing real-time insights, Tipalti empowers businesses to focus on growth and strategic
         initiatives, rather than getting bogged down in administrative details.</p>
@@ -60,8 +60,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-tipalti-transforms-automated-fraud-duplicate-payment-controls">
-                How Tipalti Transforms Automated Fraud &amp; Duplicate Payment Controls
+              <h2 className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-tipalti-transforms-ai-fraud-duplicate-payment-controls">
+                How Tipalti Transforms AI Fraud &amp; Duplicate Payment Controls
               </h2>
             </div>
             <div className="col-span-12">{body()}</div>
@@ -73,8 +73,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-tipalti-transforms-automated-fraud-duplicate-payment-controls-lg">
-                How Tipalti Transforms Automated Fraud &amp; Duplicate Payment Controls
+              <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-tipalti-transforms-ai-fraud-duplicate-payment-controls-lg">
+                How Tipalti Transforms AI Fraud &amp; Duplicate Payment Controls
               </h2>
               {body("-lg")}
             </div>

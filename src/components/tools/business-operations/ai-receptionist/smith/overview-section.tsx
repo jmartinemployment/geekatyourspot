@@ -18,7 +18,7 @@ export default function OverviewSection() {
         at once, especially across South Florida’s fast-moving service industries where timing and
         responsiveness decide who wins the work.</p>
       <p className="text-base text-white shadow-text pt-3">
-        The risk grows when you rely on pure automation. Many so-called&nbsp;<Link id={`tools-marketing-intelligent-receptionist-smith-overview-intelligent-receptionist${idSuffix}`} href="/use-cases/business-operations/ai-receptionist" className="text-[#C83803] hover:underline">Intelligent Receptionist</Link>&nbsp;systems promise
+        The risk grows when you rely on pure automation. Many so-called&nbsp;<Link id={`tools-marketing-ai-receptionist-smith-overview-ai-receptionist${idSuffix}`} href="/use-cases/business-operations/ai-receptionist" className="text-[#C83803] hover:underline">AI Receptionist</Link>&nbsp;systems promise
         round-the-clock coverage but fall short in real-world situations. They drop the ball when a caller needs
         empathy, judgment, or fast escalation, missing the nuance in a distressed customer’s voice or failing to
         gather the right intake details for a high-value lead. Worse, a rigid automated script can pass along
@@ -26,7 +26,7 @@ export default function OverviewSection() {
         same: vital calls lost, client trust damaged, and staff left to clean up after software that cannot
         handle exceptions.</p>
       <p className="text-base text-white shadow-text pt-3">
-        An Intelligent Receptionist changes the equation for small businesses in Miami-Dade, Broward, and Palm
+        An AI Receptionist changes the equation for small businesses in Miami-Dade, Broward, and Palm
         Beach by combining smart automation with real human backup. Instead of missed calls, every inquiry is
         captured, screened, and routed, whether it comes in by phone, website chat, or voice assistant. Your
         best prospects get a live, responsive experience, and you get accurate records, fewer errors, and time

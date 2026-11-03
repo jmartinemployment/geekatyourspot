@@ -48,7 +48,7 @@ export default function ImplementingSection() {
         pre-built integrations and template library are what make this possible. Instead of building from
         scratch, you launch with proven flows and adapt as your needs change.</p>
       <p className="text-base text-white shadow-text pt-3">
-        For a team that has never used a cross-platform chatbot, the biggest surprise is how quickly the chaos
+        For a team that has never used an AI chatbot, the biggest surprise is how quickly the chaos
         of scattered messages turns into a single, organized pipeline. The Friday afternoon scramble to find
         that one DM or reply to a forgotten comment disappears. Every inquiry, no matter where it lands, gets
         a response, gets tagged, and moves to the next step, without adding staff or burning out the team.

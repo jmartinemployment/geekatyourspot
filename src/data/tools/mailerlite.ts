@@ -12,7 +12,7 @@ export const mailerliteContent: ToolPageContent = {
   "department": "marketing",
   "useCase": "marketing-automation-platforms/ai-personalized-email-campaigns",
   "description":
-    "Personalized Email Campaigns with MailerLite boost open rates and sales for Miami small businesses. Start engaging your customers more effectively today.",
+    "AI Personalized Email Campaigns with MailerLite boost open rates and sales for Miami small businesses. Start engaging your customers more effectively today.",
   "heroSummary":
     "MailerLite streamlines personalized email campaigns for South Florida small businesses, making it easy to deliver relevant messages that boost engagement.",
   "keywords":
@@ -24,7 +24,7 @@ export const mailerliteContent: ToolPageContent = {
   "sections": [
     {"title": "Overview", "description": "Why are our email campaigns missing the mark, even when we send updates every week?"},
     {"title": "What it costs to keep doing this by hand", "description": "Trying to run personalized email campaigns by hand drains small teams and leaves money on the table."},
-    {"title": "How MailerLite removes the manual workload from Personalized Email Campaigns", "description": "MailerLite replaces the repetitive, error-prone work of personalized email marketing with automation that actually feels personal."},
+    {"title": "How MailerLite removes the manual workload from AI Personalized Email Campaigns", "description": "MailerLite replaces the repetitive, error-prone work of personalized email marketing with automation that actually feels personal."},
     {"title": "MailerLite’s automation engine delivers personalized campaigns with minimal manual work", "description": "MailerLite automates the most time-consuming parts of email marketing by letting you set up rules, triggers, and dynamic content that adapt to each subscriber."},
     {"title": "MailerLite’s architecture connects your marketing stack and keeps your data organized", "description": "MailerLite is built as a modular, cloud-based platform that fits into the rest of your marketing and sales tools."},
     {"title": "What a MailerLite go-live looks like for a small business team", "description": "Going live with MailerLite for personalized email campaigns is a structured process that minimizes disruption and shortens time-to-value for small business teams."},

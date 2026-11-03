@@ -21,7 +21,7 @@ export default function OverviewSection() {
         constant scramble to cover shortfalls. That manual overhead costs more than time; it erodes trust in the
         numbers and the team.</p>
       <p className="text-base text-white shadow-text pt-3">
-        <Link id={`tools-accounting-intelligent-resource-planning-cashflowfrog-overview-intelligent-resource-planning${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-resource-planning" className="text-[#C83803] hover:underline">Intelligent Resource Planning</Link>&nbsp;was built to end this cycle. It connects directly to accounting tools and
+        <Link id={`tools-accounting-ai-resource-planning-cashflowfrog-overview-ai-resource-planning${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-resource-planning" className="text-[#C83803] hover:underline">AI Resource Planning</Link>&nbsp;was built to end this cycle. It connects directly to accounting tools and
         banks, pulls in real transaction data, and runs live forecasts without manual entry. That means
         real-time visibility, always current numbers, and no more guessing about whether the business can afford
         next week&#39;s payroll. Instead of spending hours cleaning up the past, teams can plan the future,
@@ -34,7 +34,7 @@ export default function OverviewSection() {
         manual cash flow processes with automated, intelligent solutions that show exactly where the business
         stands, today, not last quarter. Small businesses do not need another complex system to manage. They
         need a tool that fits the way they already work, gives answers in plain English, and scales as they
-        grow. Intelligent Resource Planning is the difference between being blindsided by cash surprises and
+        grow. AI Resource Planning is the difference between being blindsided by cash surprises and
         running a business that is ready for what comes next.</p>
     </>
   );

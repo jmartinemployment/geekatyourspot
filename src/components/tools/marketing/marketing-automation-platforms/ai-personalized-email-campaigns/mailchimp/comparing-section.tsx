@@ -8,8 +8,8 @@ export default function ComparingSection() {
         Mailchimp stands out among <GlossaryLink slug="marketing-automation-platform" className="text-[#0B162A] hover:underline">marketing
         automation platforms</GlossaryLink> for small businesses by combining approachable design, built-in AI, and
         a pricing model that does not punish early growth. Most teams in South Florida comparing options are also
-        looking at tools like Klaviyo, <Link id={`tools-marketing-personalized-email-campaigns-mailchimp-comparing-activecampaign${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/activecampaign" className="text-[#0B162A] hover:underline">ActiveCampaign</Link>,
-        or <Link id={`tools-marketing-personalized-email-campaigns-mailchimp-comparing-mailerlite${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailerlite" className="text-[#0B162A] hover:underline">MailerLite</Link>,
+        looking at tools like Klaviyo, <Link id={`tools-marketing-ai-personalized-email-campaigns-mailchimp-comparing-activecampaign${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/activecampaign" className="text-[#0B162A] hover:underline">ActiveCampaign</Link>,
+        or <Link id={`tools-marketing-ai-personalized-email-campaigns-mailchimp-comparing-mailerlite${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailerlite" className="text-[#0B162A] hover:underline">MailerLite</Link>,
         but Mailchimp’s all-in-one approach and free tier make it a practical starting point for businesses that
         want to move fast without hiring a specialist.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -22,7 +22,7 @@ export default function ComparingSection() {
         Where Mailchimp really pulls ahead for personalized email campaigns is its use of AI and automation. Subject
         line suggestions, send-time optimization, and predictive segmentation are not locked behind expensive tiers.
         Even on the free plan, a user gets basic AI features and can send up to 500 emails per month to 250 contacts
-        (<a id={`tools-marketing-personalized-email-campaigns-mailchimp-comparing-source-mailchimp-com${idSuffix}`} href="https://mailchimp.com/pricing/marketing/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Mailchimp</a>,
+        (<a id={`tools-marketing-ai-personalized-email-campaigns-mailchimp-comparing-source-mailchimp-com${idSuffix}`} href="https://mailchimp.com/pricing/marketing/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Mailchimp</a>,
         as of Oct 25, 2026). This lets a business validate what works before committing to a paid plan. By contrast,
         some competitors require upgrading just to unlock basic automation or segmentation, which can force a
         business to pay before it has proof of value.</p>
@@ -35,7 +35,7 @@ export default function ComparingSection() {
         data.</p>
       <p className="text-base text-white shadow-text pt-3">
         Mailchimp’s integrations are another area where it stands out. The platform connects with over 300 apps,
-        including Shopify, WooCommerce, QuickBooks, Canva, and Zapier (<a id={`tools-marketing-personalized-email-campaigns-mailchimp-comparing-source-mailchimp-com-2${idSuffix}`} href="https://mailchimp.com/pricing/marketing/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Mailchimp</a>,
+        including Shopify, WooCommerce, QuickBooks, Canva, and Zapier (<a id={`tools-marketing-ai-personalized-email-campaigns-mailchimp-comparing-source-mailchimp-com-2${idSuffix}`} href="https://mailchimp.com/pricing/marketing/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Mailchimp</a>,
         as of Oct 25, 2026). This means a team can automate emails based on customer actions in their store, trigger
         follow-ups after purchases, or sync contact data from forms and other sources. Competing tools may offer
         some of these integrations, but Mailchimp’s breadth and the ease of connecting them through guided flows
@@ -53,7 +53,7 @@ export default function ComparingSection() {
         higher price points.</p>
       <p className="text-base text-white shadow-text pt-3">
         There are trade-offs. Mailchimp’s free plan is capped at 250 contacts and 500 sends per month, with one user
-        seat (<a id={`tools-marketing-personalized-email-campaigns-mailchimp-comparing-source-mailchimp-com-3${idSuffix}`} href="https://mailchimp.com/pricing/marketing/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Mailchimp</a>,
+        seat (<a id={`tools-marketing-ai-personalized-email-campaigns-mailchimp-comparing-source-mailchimp-com-3${idSuffix}`} href="https://mailchimp.com/pricing/marketing/" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Mailchimp</a>,
         as of Oct 25, 2026). Some competitors offer higher limits or more generous free tiers, but often with fewer
         features or limited automation. For teams that need unlimited sends or advanced workflows from day one, or
         that work at a much larger scale, Mailchimp’s entry-level plan may feel restrictive. However, for most small

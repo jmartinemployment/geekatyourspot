@@ -11,7 +11,7 @@ export default function ImplementingSection() {
         planning (ERP) system. This integration is seamless thanks to
         Versapay&#39;s&nbsp;API&nbsp;connectors, which ensure that data
         flows smoothly between your systems. This step is crucial as it lays the foundation for automating your
-        automated accounts receivable processes, eliminating manual data entry and reducing errors.</p>
+        AI accounts receivable processes, eliminating manual data entry and reducing errors.</p>
       <p className="text-base text-white shadow-text pt-3">
         Once integration is complete, the next phase involves configuring the system to match your specific business
         needs. This includes setting up automated workflows for invoice processing, payment matching, and
@@ -28,7 +28,7 @@ export default function ImplementingSection() {
         Finally, the go-live phase is supported by comprehensive training and support from Geek @ Your Spot LLC. As a
         local consultancy specializing in&nbsp;AI&nbsp;implementation, they
         ensure that your team is well-prepared to use Versapay effectively. They provide hands-on guidance during
-        the transition, addressing any challenges that arise and ensuring that your automated accounts receivable
+        the transition, addressing any challenges that arise and ensuring that your AI accounts receivable
         processes are running smoothly from the outset.</p>
     </>
   );

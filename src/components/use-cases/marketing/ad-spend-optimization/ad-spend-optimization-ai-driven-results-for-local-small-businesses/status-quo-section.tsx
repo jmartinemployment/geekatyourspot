@@ -36,13 +36,13 @@ export default function StatusQuoSection() {
         running, old creative never gets replaced, and budgets stick to the default. Wask and Plai were both designed
         to give owners a repeatable review workflow and actionable insights, but without that, the cost is paid in
         missed performance and staff burnout. No one wants to be the person who let $500 slip away on a dead campaign,
-        but in the absence of process, it happens all the time (<a id={`use-cases-marketing-precision-lead-acquisition-status-quo-source-cometly-com${idSuffix}`} href="https://www.cometly.com/post/ad-spend-budget-optimization" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Cometly</a>,
+        but in the absence of process, it happens all the time (<a id={`use-cases-marketing-ai-precision-lead-acquisition-status-quo-source-cometly-com${idSuffix}`} href="https://www.cometly.com/post/ad-spend-budget-optimization" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Cometly</a>,
         as of Oct 29, 2026).</p>
       <p className="text-base text-white shadow-text pt-3">
         Risk is highest for small teams that do not have the resources for a full-time analyst or agency. The owner who
         is also the bookkeeper and the salesperson ends up absorbing the stress, the late nights, and the
         second-guessing. Every time a lead slips through the cracks because the CRM did not catch it, or a campaign
-        spends through its cap without review, the business pays in both money and focus. <Link id={`use-cases-marketing-precision-lead-acquisition-status-quo-localiq${idSuffix}`} href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/localiq" className="text-[#C83803] hover:underline">LocaliQ</Link> and <Link id={`use-cases-marketing-precision-lead-acquisition-status-quo-google-performance-max${idSuffix}`} href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/google-performance-max" className="text-[#C83803] hover:underline">Performance
+        spends through its cap without review, the business pays in both money and focus. <Link id={`use-cases-marketing-ai-precision-lead-acquisition-status-quo-localiq${idSuffix}`} href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/localiq" className="text-[#C83803] hover:underline">LocaliQ</Link> and <Link id={`use-cases-marketing-ai-precision-lead-acquisition-status-quo-google-performance-max${idSuffix}`} href="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/google-performance-max" className="text-[#C83803] hover:underline">Performance
         Max</Link> both help reduce this risk by automating tracking, geofencing, and micro-budget pivots, but in the
         status quo, most businesses are exposed.</p>
       <p className="text-base text-white shadow-text pt-3">

@@ -15,7 +15,7 @@ export default function DataMappingSection() {
         behavior, location, or engagement. Groups are manually assigned, either by your team or by automations, and
         are best for interest-based targeting or tracking membership in specific programs. For example, you might
         create a segment for everyone who opened an email in the last 30 days, and a group for customers who
-        attended a specific event (<a id={`tools-marketing-personalized-email-campaigns-mailerlite-data-mapping-source-mailerlite-com${idSuffix}`} href="https://www.mailerlite.com/blog/when-will-mailerlite-have-subscriber-tagging" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">MailerLite</a>,
+        attended a specific event (<a id={`tools-marketing-ai-personalized-email-campaigns-mailerlite-data-mapping-source-mailerlite-com${idSuffix}`} href="https://www.mailerlite.com/blog/when-will-mailerlite-have-subscriber-tagging" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">MailerLite</a>,
         as of Oct 25, 2026). Setting up these structures at the start means you won’t have to rebuild your audience
         lists every time you want to run a new campaign.</p>
       <p className="text-base text-white shadow-text pt-3">

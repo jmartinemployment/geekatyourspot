@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
 import SharedHeroSection from "@/components/shared/shared-hero-section";
-import LedeSection from "@/components/use-cases/marketing/marketing-automation-platforms/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses/lede-section";
-import ChallengesSection from "@/components/use-cases/marketing/marketing-automation-platforms/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses/challenges-section";
-import StatusQuoSection from "@/components/use-cases/marketing/marketing-automation-platforms/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses/status-quo-section";
-import MechanicsSection from "@/components/use-cases/marketing/marketing-automation-platforms/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses/mechanics-section";
-import KeyFactorsSection from "@/components/use-cases/marketing/marketing-automation-platforms/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses/key-factors-section";
-import DecisionsSection from "@/components/use-cases/marketing/marketing-automation-platforms/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses/decisions-section";
-import SequenceSection from "@/components/use-cases/marketing/marketing-automation-platforms/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses/sequence-section";
-import DataIntegrationSection from "@/components/use-cases/marketing/marketing-automation-platforms/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses/data-integration-section";
-import RolesSection from "@/components/use-cases/marketing/marketing-automation-platforms/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses/roles-section";
-import RightFitSection from "@/components/use-cases/marketing/marketing-automation-platforms/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses/right-fit-section";
-import PreparingSection from "@/components/use-cases/marketing/marketing-automation-platforms/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses/preparing-section";
-import PAASection from "@/components/use-cases/marketing/marketing-automation-platforms/intelligent-content-generation-streamlining-content-creation-for-south-florida-businesses/paa-section";
+import LedeSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-content-generation-streamlining-content-creation-for-south-florida-businesses/lede-section";
+import ChallengesSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-content-generation-streamlining-content-creation-for-south-florida-businesses/challenges-section";
+import StatusQuoSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-content-generation-streamlining-content-creation-for-south-florida-businesses/status-quo-section";
+import MechanicsSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-content-generation-streamlining-content-creation-for-south-florida-businesses/mechanics-section";
+import KeyFactorsSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-content-generation-streamlining-content-creation-for-south-florida-businesses/key-factors-section";
+import DecisionsSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-content-generation-streamlining-content-creation-for-south-florida-businesses/decisions-section";
+import SequenceSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-content-generation-streamlining-content-creation-for-south-florida-businesses/sequence-section";
+import DataIntegrationSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-content-generation-streamlining-content-creation-for-south-florida-businesses/data-integration-section";
+import RolesSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-content-generation-streamlining-content-creation-for-south-florida-businesses/roles-section";
+import RightFitSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-content-generation-streamlining-content-creation-for-south-florida-businesses/right-fit-section";
+import PreparingSection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-content-generation-streamlining-content-creation-for-south-florida-businesses/preparing-section";
+import PAASection from "@/components/use-cases/marketing/marketing-automation-platforms/ai-content-generation-streamlining-content-creation-for-south-florida-businesses/paa-section";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
@@ -19,7 +19,7 @@ import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "AI Content Generation";
 const DESCRIPTION =
-    "Intelligent Content Generation helps Miami-Dade, Broward, and West Palm Beach businesses automate content creation, repurposing, scheduling, and approvals.";
+    "AI Content Generation helps Miami-Dade, Broward, and West Palm Beach businesses automate content creation, repurposing, scheduling, and approvals.";
 const CANONICAL = "/use-cases/marketing/marketing-automation-platforms/ai-content-generation";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -35,7 +35,7 @@ const jsonLd: Graph = {
             "datePublished": "2026-10-19T16:52:26.6326271Z",
             "dateModified": "2026-10-19T16:52:26.6326271Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Intelligent Content Generation, AI content workflow, automated content creation, content repurposing, bulk scheduling, approval workflows, personalized email campaigns, South Florida AI services, small business automation, content marketing automation",
+            "keywords": "AI Content Generation, AI content workflow, automated content creation, content repurposing, bulk scheduling, approval workflows, AI personalized email campaigns, South Florida AI services, small business automation, content marketing automation",
             "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/marketing-automation-platforms" },
             "mentions": [
                 { "@type": "Thing", "name": "Anyword", "url": "https://www.anyword.com/" },
@@ -73,7 +73,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: TITLE,
         description: DESCRIPTION,
-        keywords: ["Intelligent Content Generation", "AI content workflow", "automated content creation", "content repurposing", "bulk scheduling", "approval workflows", "personalized email campaigns", "South Florida AI services", "small business automation", "content marketing automation"],
+        keywords: ["AI Content Generation", "AI content workflow", "automated content creation", "content repurposing", "bulk scheduling", "approval workflows", "AI personalized email campaigns", "South Florida AI services", "small business automation", "content marketing automation"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

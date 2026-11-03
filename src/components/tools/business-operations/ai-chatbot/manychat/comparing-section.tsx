@@ -9,7 +9,7 @@ export default function ComparingSection() {
         engagement, or a general-purpose solution that tries to cover every channel but rarely excels at any?
         Manychat stands out because it is designed specifically for turning social engagement into real
         pipeline, not just as a helpdesk bot or a generic chat widget. This section breaks down how Manychat
-        fits among the main approaches and where it is the right answer for a cross-platform chatbot solution.</p>
+        fits among the main approaches and where it is the right answer for an AI chatbot solution.</p>
       <p className="text-base text-white shadow-text pt-3">
         Most alternatives in this space fall into two camps. First, there are chatbots built for website
         support. These tools focus on answering questions on your site, routing tickets, or deflecting support

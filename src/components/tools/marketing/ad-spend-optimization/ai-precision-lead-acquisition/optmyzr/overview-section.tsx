@@ -6,7 +6,7 @@ export default function OverviewSection() {
       <p className="text-base text-white shadow-text pt-3">
         Why am I paying for ads but still have no idea which ones are actually bringing in customers, or if I am
         throwing money away? If you run a small business in South Florida, this is the question that keeps coming up.
-        <Link id={`tools-marketing-precision-lead-acquisition-optmyzr-overview-precision-lead-acquisition${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition" className="text-[#C83803] hover:underline"> Ad
+        <Link id={`tools-marketing-ai-precision-lead-acquisition-optmyzr-overview-ai-precision-lead-acquisition${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition" className="text-[#C83803] hover:underline"> Ad
         Spend Optimization</Link> promises you will see where your budget is going and whether it is working, but the
         reality is more complicated: platforms split up their reporting, it is hard to connect ad clicks to real sales,
         and most teams do not have the technical skills to set up custom rules or scripts that could automate the

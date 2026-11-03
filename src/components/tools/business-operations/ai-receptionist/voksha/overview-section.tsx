@@ -19,7 +19,7 @@ export default function OverviewSection() {
         companies ten times their size. The result: businesses either pay for more than they need, or run thin
         and keep missing opportunities.</p>
       <p className="text-base text-white shadow-text pt-3">
-        An&nbsp;<Link id={`tools-marketing-intelligent-receptionist-voksha-overview-intelligent-receptionist${idSuffix}`} href="/use-cases/business-operations/ai-receptionist" className="text-[#C83803] hover:underline">Intelligent Receptionist</Link>&nbsp;changes this equation. Instead of letting calls go unanswered or paying
+        An&nbsp;<Link id={`tools-marketing-ai-receptionist-voksha-overview-ai-receptionist${idSuffix}`} href="/use-cases/business-operations/ai-receptionist" className="text-[#C83803] hover:underline">AI Receptionist</Link>&nbsp;changes this equation. Instead of letting calls go unanswered or paying
         premium rates for basic tasks, small businesses in Broward, West Palm Beach, and Miami-Dade counties can
         capture every lead, day or night, with a tool that fits their real-world workflow and their budget.
         AI-powered receptionists answer instantly, filter spam, qualify leads, and book appointments, all for a
@@ -27,7 +27,7 @@ export default function OverviewSection() {
         time on calls that do not matter. Staff get their focus back, customers get a response right away, and
         owners see exactly what every call means for their bottom line.</p>
       <p className="text-base text-white shadow-text pt-3">
-        For a small business, the right Intelligent Receptionist is not an upgrade, it is a fix for the core
+        For a small business, the right AI Receptionist is not an upgrade, it is a fix for the core
         problem that keeps them running in place: missed calls, lost leads, and fractured attention. With a
         solution designed for the pace and price point of a local team, the business stops paying enterprise
         rates for coverage it does not use and finally controls the flow of every new opportunity.</p>
