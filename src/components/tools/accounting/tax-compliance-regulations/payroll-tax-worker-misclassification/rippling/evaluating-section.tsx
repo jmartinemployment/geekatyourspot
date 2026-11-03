@@ -1,5 +1,7 @@
+import { RIPPLING_AFFILIATE_URL } from "@/components/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/rippling/affiliate-link";
+
 export default function EvaluatingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
         Assessing Rippling for your small business in South Florida comes down to two questions: will it fit
@@ -32,7 +34,8 @@ export default function EvaluatingSection() {
         handling multi-state tax filings. For small businesses, this makes budgeting straightforward: you know
         what each new hire or contractor will cost, and you don’t get surprised by extra charges for features
         you need to stay compliant. The model is designed to scale with your team, so you only pay for what you
-        use.</p>
+        use. You can see how&nbsp;<a id={`tools-accounting-payroll-tax-worker-misclassification-rippling-evaluating-affiliate${idSuffix}`} href={RIPPLING_AFFILIATE_URL} target="_blank" rel="sponsored noopener noreferrer" className="text-[#0B162A] hover:underline">Rippling</a>&nbsp;describes its own payroll offer before you decide.
+        Geek @ Your Spot LLC earns a commission if you sign up through this link.</p>
       <p className="text-base text-white shadow-text pt-3">
         When comparing Rippling to other payroll and compliance tools, the key difference is in how much manual
         work is removed. Many platforms alert you to compliance risks but require you to fix them in another
@@ -77,7 +80,7 @@ export default function EvaluatingSection() {
                 Evaluating Rippling: Fit for Small Businesses and How the Pricing Model Works
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -89,7 +92,7 @@ export default function EvaluatingSection() {
               <h2 id="evaluating-rippling-fit-for-small-businesses-and-how-the-pricing-model-works-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Evaluating Rippling: Fit for Small Businesses and How the Pricing Model Works
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

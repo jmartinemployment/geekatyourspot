@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
+import { RIPPLING_AFFILIATE_URL } from "@/components/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/rippling/affiliate-link";
 
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
@@ -53,6 +54,9 @@ export default function RightFitSection() {
         risk), Rippling is engineered for you. If not, the time and cost savings may not justify the investment.
         The right fit comes from matching the tool to the real risks and routines of your business, not from
         chasing features you will never use.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        If your workforce matches that profile, take a look at&nbsp;<a id={`tools-accounting-payroll-tax-worker-misclassification-rippling-right-fit-affiliate${idSuffix}`} href={RIPPLING_AFFILIATE_URL} target="_blank" rel="sponsored noopener noreferrer" className="text-[#C83803] hover:underline">Rippling</a>&nbsp;directly.
+        Geek @ Your Spot LLC earns a commission if you sign up through this link.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions
         when&nbsp;<a href="#consultationAppointment2xl" id={`tools-accounting-payroll-tax-worker-misclassification-rippling-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
