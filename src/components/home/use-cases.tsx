@@ -58,7 +58,7 @@ export function UseCasesSection() {
                                     AI accounting systems use machine learning and automation to handle bookkeeping, scan invoices, categorize transactions, and speed up financial reporting. These platforms reduce manual data entry and minimize human error.
                                 </p>
                                 <Link id="home-use-cases-accounting-automated-accounts-payable"
-                                    href="/use-cases/accounting/accounts-payable/ai-ap-automation-software"
+                                    href="/use-cases/accounting/accounts-payable"
                                     className="hover:underline">
                                     <h4 className="text-black text-base hover:text-[#C83803] font-bold">
                                         Accounts Payable
@@ -1203,7 +1203,7 @@ export function UseCasesSection() {
                                     AI accounting systems use machine learning and automation to handle bookkeeping, scan invoices, categorize transactions, and speed up financial reporting. These platforms reduce manual data entry and minimize human error.
                                 </p>
                                 <Link id="home-use-cases-accounting-automated-accounts-payable-lg"
-                                    href="/use-cases/accounting/accounts-payable/ai-ap-automation-software"
+                                    href="/use-cases/accounting/accounts-payable"
                                     className="hover:underline">
                                     <h4 className="text-black text-lg text-shadow hover:text-[#C83803] font-bold">
                                         Accounts Payable

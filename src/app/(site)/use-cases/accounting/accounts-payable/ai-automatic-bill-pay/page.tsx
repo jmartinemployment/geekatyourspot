@@ -31,7 +31,7 @@ const jsonLd: Graph = {
             "dateModified": "2026-10-08T00:00:00.000Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Automated Payment Execution, AI in Accounts Payable, Efficiency in Payment Processing, Cost Reduction, Error Minimization, AI Solutions for Small Business, Payment Automation Tools, AI Implementation, Business Efficiency",
-            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-ap-automation-software" },
+            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable" },
             "mentions": [
                 { "@type": "Thing", "name": "AvidXchange", "url": "https://www.avidxchange.com/" },
                 { "@type": "Thing", "name": "Bill", "url": "https://www.bill.com/" },

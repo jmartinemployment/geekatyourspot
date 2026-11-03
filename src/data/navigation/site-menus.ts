@@ -61,7 +61,7 @@ export const USE_CASES_MENU: readonly MenuDepartment[] = [
         id: "use-cases-accounting-accounts-payable",
         label: "Accounts Payable",
         items: [
-          { href: "/use-cases/accounting/accounts-payable/ai-ap-automation-software", label: "Accounts Payable" },
+          { href: "/use-cases/accounting/accounts-payable", label: "Accounts Payable" },
           { href: "/use-cases/accounting/accounts-payable/automated-data-entry-processing", label: "Intelligent Data Entry & Processing" },
           { href: "/use-cases/accounting/accounts-payable/ai-approval-workflow", label: "Intelligent Approval Workflows" },
           { href: "/use-cases/accounting/accounts-payable/ai-automatic-bill-pay", label: "Intelligent Payment Execution" },

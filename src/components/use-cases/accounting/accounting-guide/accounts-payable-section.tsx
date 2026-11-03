@@ -8,7 +8,7 @@ export default function AccountsPayableSection() {
         <GlossaryLink slug="accounts-payable" className="text-[#0B162A] hover:underline">Accounts
         payable</GlossaryLink> is where most manual work hides, and four of the five failure points live
         there. Modern payables automation splits the work into four stages, and each stage has tools built for
-        it. Our <Link id={`use-cases-accounting-accounts-payable-p-ap${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-ap-automation-software" className="text-[#0B162A] hover:underline">Accounts
+        it. Our <Link id={`use-cases-accounting-accounts-payable-p-ap${idSuffix}`} href="/use-cases/accounting/accounts-payable" className="text-[#0B162A] hover:underline">Accounts
         Payable</Link> guide covers the whole function in depth.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Capture: Ending the Manual Friction Trap

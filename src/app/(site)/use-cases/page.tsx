@@ -85,10 +85,10 @@ const DEPARTMENTS: Department[] = [
     useCases: [
       {
         title: "Accounts Payable",
-        slug: "ai-ap-automation-software",
+        slug: "accounts-payable",
         description:
           "Revolutionize your financial operations with automated accounts payable solutions that enhance efficiency and accuracy.",
-        href: "/use-cases/accounting/accounts-payable/ai-ap-automation-software",
+        href: "/use-cases/accounting/accounts-payable",
       },
       {
         title: "Intelligent Data Entry & Processing",

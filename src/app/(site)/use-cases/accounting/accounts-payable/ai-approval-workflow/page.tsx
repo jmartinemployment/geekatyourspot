@@ -31,7 +31,7 @@ const jsonLd: Graph = {
             "dateModified": "2026-10-07T00:00:00.000Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "automated approval workflows, accounts payable automation, invoice approval, AP workflow, approval routing, audit trail, AI in finance, invoice processing, finance automation, small business accounting",
-            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-ap-automation-software" },
+            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable" },
             "mentions": [
                 { "@type": "Thing", "name": "ApprovalMax", "url": "https://approvalmax.com/" },
                 { "@type": "Thing", "name": "Bill", "url": "https://www.bill.com/" },

@@ -38,7 +38,7 @@ const jsonLd: Graph = {
                 "@id": PAGE_URL
             },
             "keywords": "automated data entry, accounts payable automation, invoice processing, AP data capture, AI in finance, invoice approval workflow, AP accuracy, finance automation, accounts payable software, small business accounting",
-            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-ap-automation-software" },
+            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable" },
             "mentions": [
                 { "@type": "Thing", "name": "Dext", "url": "https://dext.com/" },
                 { "@type": "Thing", "name": "Bill", "url": "https://www.bill.com/" },
