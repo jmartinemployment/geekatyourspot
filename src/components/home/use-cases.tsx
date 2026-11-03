@@ -121,7 +121,7 @@ export function UseCasesSection() {
                                         <p className="text-black text-xs text-shadow-xs">
                                             Take the bottlenecks out of your business without losing control.                                        </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
-                                            Top 5 AI Invoice Approval Workflow Tools:
+                                            Top 5 AI Invoice Approval Workflows Tools:
                                         </h6>
                                         <p className="text-black text-xs text-shadow-xs">
                                             <Link
@@ -655,7 +655,7 @@ export function UseCasesSection() {
                                                 AI Content Generation helps Miami-Dade, Broward, and West Palm Beach businesses automate content creation, repurposing, scheduling, and approvals.
                                             </p>
                                             <h6 className="text-black text-xs font-bold pt-1">
-                                                Top AI SEO Content Generation Tools:
+                                                Top AI Content Generation Tools:
                                             </h6>
                                             <p className="text-xs text-shadow-xs">
                                                 <Link
@@ -751,7 +751,7 @@ export function UseCasesSection() {
                                                 AI tailors subject lines and body copy for different audience segments at the same time.
                                             </p>
                                             <h6 className="text-black text-xs font-bold pt-1">
-                                                Top AI Email Campaign Tools:
+                                                Top AI Personalized Email Campaigns Tools:
                                             </h6>
                                             <p className="text-xs text-shadow-xs">
                                                 <Link
@@ -805,7 +805,7 @@ export function UseCasesSection() {
                                                 Identify high-intent buyers, enrich contact data, and prioritize leads.
                                             </p>
                                             <h6 className="text-black text-xs font-bold pt-1">
-                                                Top AI Lead Scoring Tools:
+                                                Top AI Lead Enrichment & Predictive Scoring Tools:
                                             </h6>
                                             <p className="text-xs text-shadow-xs">
                                                 <Link
@@ -1080,7 +1080,7 @@ export function UseCasesSection() {
                                             Build automated validation scripts that scan decentralized data sources for completeness, accuracy, and formatting errors before the data is exposed to an LLM.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
-                                            Top AI Data Quality Tools:
+                                            Top AI Data Quality Assessments Tools:
                                         </h6>
                                         <p className="text-xs text-shadow-xs">
                                             <Link
@@ -1117,7 +1117,7 @@ export function UseCasesSection() {
                                             Automate data movement and workflow orchestration across your business systems without writing code.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
-                                            Top AI Workflow Tools:
+                                            Top AI Workflows Tools:
                                         </h6>
                                         <p className="text-xs text-shadow-xs">
                                             <Link
@@ -1141,7 +1141,7 @@ export function UseCasesSection() {
                                             Build and manage the customer data layer that powers your AI-driven sales and operations.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
-                                            Top AI CRM Tools:
+                                            Top AI Customer Relationship Management (CRM) Tools:
                                         </h6>
                                         <p className="text-xs text-shadow-xs">
                                             <Link
@@ -1267,7 +1267,7 @@ export function UseCasesSection() {
                                         <p className="text-black text-sm text-shadow-xs">
                                             Take the bottlenecks out of your business without losing control.                                        </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
-                                            Top 5 AI Invoice Approval Workflow Tools:
+                                            Top 5 AI Invoice Approval Workflows Tools:
                                         </h6>
                                         <p className="text-black text-sm text-shadow-xs">
                                             <Link
@@ -1790,7 +1790,7 @@ export function UseCasesSection() {
                                                 AI Content Generation helps Miami-Dade, Broward, and West Palm Beach businesses automate content creation, repurposing, scheduling, and approvals.
                                             </p>
                                             <h6 className="text-black text-sm font-bold pt-1">
-                                                Top AI SEO Content Generation Tools:
+                                                Top AI Content Generation Tools:
                                             </h6>
                                             <p className="text-sm text-shadow-xs">
                                                 <Link
@@ -1886,7 +1886,7 @@ export function UseCasesSection() {
                                                 AI tailors subject lines and body copy for different audience segments at the same time.
                                             </p>
                                             <h6 className="text-black text-sm font-bold pt-1">
-                                                Top AI Email Campaign Tools:
+                                                Top AI Personalized Email Campaigns Tools:
                                             </h6>
                                             <p className="text-sm text-shadow-xs">
                                                 <Link
@@ -1940,7 +1940,7 @@ export function UseCasesSection() {
                                                 Identify high-intent buyers, enrich contact data, and prioritize leads.
                                             </p>
                                             <h6 className="text-black text-sm font-bold pt-1">
-                                                Top AI Lead Scoring Tools:
+                                                Top AI Lead Enrichment & Predictive Scoring Tools:
                                             </h6>
                                             <p className="text-sm text-shadow-xs">
                                                 <Link
@@ -2222,7 +2222,7 @@ export function UseCasesSection() {
                                             Build automated validation scripts that scan decentralized data sources for completeness, accuracy, and formatting errors before the data is exposed to an LLM.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
-                                            Top AI Data Quality Tools:
+                                            Top AI Data Quality Assessments Tools:
                                         </h6>
                                         <p className="text-sm text-shadow-xs">
                                             <Link
@@ -2259,7 +2259,7 @@ export function UseCasesSection() {
                                             Automate data movement and workflow orchestration across your business systems without writing code.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
-                                            Top AI Workflow Tools:
+                                            Top AI Workflows Tools:
                                         </h6>
                                         <p className="text-sm text-shadow-xs">
                                             <Link
@@ -2283,7 +2283,7 @@ export function UseCasesSection() {
                                             Build and manage the customer data layer that powers your AI-driven sales and operations.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
-                                            Top AI CRM Tools:
+                                            Top AI Customer Relationship Management (CRM) Tools:
                                         </h6>
                                         <p className="text-sm text-shadow-xs">
                                             <Link
