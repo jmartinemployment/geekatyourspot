@@ -5,7 +5,7 @@ export default function FoundationSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        A Measured Lead Generation rollout either becomes a reliable growth engine or stalls out based on decisions
+        An AI Precision Lead Acquisition rollout either becomes a reliable growth engine or stalls out based on decisions
         made right at the start. The biggest risk is treating it as a quick tech upgrade rather than a change in how
         your business manages lead data, creative, and spend. The key factors that separate a sustainable system
         from one that fails are data integrity, mapping of roles and channels, and who owns each part of the
@@ -15,11 +15,10 @@ export default function FoundationSection() {
         duplicated, or out of date, no amount of automation will deliver quality leads or target the right buyers.
         Wrench is critical here, not just for scoring and segmenting your contacts, but for cleaning and
         standardizing your data so every sync with ad platforms is accurate. If you skip this step, your campaigns
-        will waste budget on mismatched or invalid contacts, and you will never see the efficiency gains Measured
-        Lead Generation promises.</p>
+        will waste budget on mismatched or invalid contacts, and you will never see the efficiency gains AI Precision Lead Acquisition promises.</p>
       <p className="text-base text-white shadow-text pt-3">
         Mapping roles and assigning platform ownership is next. Who owns creative testing? Who monitors daily budget
-        automation? If you treat your tools, Performance Max, Marpipe, Optmyzr, and <Link id={`blog-marketing-measured-lead-generation-foundation-madgicx${idSuffix}`} href="/tools/marketing/ad-spend-optimization/measured-lead-generation/madgicx" className="text-[#0B162A] hover:underline">Madgicx</Link>,
+        automation? If you treat your tools, Performance Max, Marpipe, Optmyzr, and Madgicx,
         as isolated add-ons with no clear point of responsibility, your automation will stall. Assign one owner for
         each platform: someone who knows what a win looks like and who can step in if something is off. This way,
         when Marpipe generates 200 creative variants or Optmyzr flags a landing page error, you know who is
@@ -40,7 +39,7 @@ export default function FoundationSection() {
       <p className="text-base text-white shadow-text pt-3">
         A lasting implementation is not about more tools or a bigger budget. It is about structured decisions: clean
         data, mapped roles, clear funnel definitions, and defined ownership at every step. When these are set from
-        the beginning, Measured Lead Generation does not just work, it compounds, delivering better leads and more
+        the beginning, AI Precision Lead Acquisition does not just work, it compounds, delivering better leads and more
         efficient spend every month.</p>
     </>
   );
@@ -52,8 +51,8 @@ export default function FoundationSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="the-make-or-break-decisions-for-a-lasting-measured-lead-generation-setup" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                The make-or-break decisions for a lasting Measured Lead Generation setup
+              <h2 id="the-make-or-break-decisions-for-a-lasting-ai-precision-lead-acquisition-setup" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                The make-or-break decisions for a lasting AI Precision Lead Acquisition setup
               </h2>
             </div>
             <div className="col-span-12">{body()}</div>
@@ -65,8 +64,8 @@ export default function FoundationSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="the-make-or-break-decisions-for-a-lasting-measured-lead-generation-setup-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                The make-or-break decisions for a lasting Measured Lead Generation setup
+              <h2 id="the-make-or-break-decisions-for-a-lasting-ai-precision-lead-acquisition-setup-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                The make-or-break decisions for a lasting AI Precision Lead Acquisition setup
               </h2>
               {body("-lg")}
             </div>

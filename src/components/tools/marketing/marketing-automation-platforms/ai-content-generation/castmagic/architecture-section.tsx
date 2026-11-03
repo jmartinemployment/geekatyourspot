@@ -11,8 +11,7 @@ export default function ArchitectureSection() {
         The system’s architecture is built for parallel processing and high-volume throughput. When you
         connect an RSS feed or upload a batch of files, Castmagic spins up background jobs for each asset. The
         platform’s import engine uses queue management to prevent bottlenecks, so even a full podcast
-        back-catalog or a year’s worth of team meetings can move through transcription and intelligent content
-        generation without stalling. This is especially useful for small teams with large archives: you can
+        back-catalog or a year’s worth of team meetings can move through transcription and AI content generation without stalling. This is especially useful for small teams with large archives: you can
         set the process running and come back to find everything transcribed, tagged, and ready to use.</p>
       <p className="text-base text-white shadow-text pt-3">
         Transcription is handled by Castmagic’s AI models, which support over 60 languages with automatic

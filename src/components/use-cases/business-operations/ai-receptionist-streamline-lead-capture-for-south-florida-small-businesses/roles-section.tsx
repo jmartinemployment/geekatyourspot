@@ -35,8 +35,7 @@ export default function RolesSection() {
         from reactive problem-solving, fixing integration issues after the fact, to proactive system management.</p>
       <p className="text-base text-white shadow-text pt-3">
         Change management is not just about saving time. It is about reducing burnout and turnover in roles that
-        have been stretched thin by constant interruptions and after-hours catch-up. The best Intelligent
-        Receptionist deployments do not cut headcount, they let your people focus on high-value work and
+        have been stretched thin by constant interruptions and after-hours catch-up. The best AI Receptionist deployments do not cut headcount, they let your people focus on high-value work and
         customer interactions that actually need a human touch. The Friday afternoon in your office looks
         different: your front desk finishes the week’s tasks on schedule, your owner leaves without a stack of
         callbacks, and your sales team spends the last hour closing opportunities instead of mopping up loose

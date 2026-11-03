@@ -52,8 +52,7 @@ export default function ChallengesSection() {
         little payoff. The result is a cycle of guesswork and missed opportunities to improve your campaigns.</p>
       <p className="text-base text-white shadow-text pt-3">
         All of these problems add up to the same outcome: your emails are ignored, your team is burned out, and your
-        business misses out on sales that should have been easy wins. The manual approach to Personalized Email
-        Campaigns is not just inefficient, it is a barrier to growth. Small businesses need a way to deliver
+        business misses out on sales that should have been easy wins. The manual approach to AI Personalized Email Campaigns is not just inefficient, it is a barrier to growth. Small businesses need a way to deliver
         relevant, timely, and personal messages without hiring a full-time marketer or spending every spare hour on
         email. That is the gap Mailchimp is designed to close.</p>
     </>

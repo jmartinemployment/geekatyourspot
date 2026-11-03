@@ -3,8 +3,7 @@ export default function EvaluatingSection() {
     <>
       <p className="text-base text-white shadow-text pt-3">
         When considering Bill for your business, understanding its fit and pricing model is essential. Bill is
-        particularly suited for small to midsize businesses that need to automate their automated accounts
-        receivable processes without the complexity of larger enterprise solutions. Its features are designed to
+        particularly suited for small to midsize businesses that need to automate their AI accounts receivable processes without the complexity of larger enterprise solutions. Its features are designed to
         streamline invoicing, payment tracking, and customer follow-ups, making it an ideal choice for businesses in
         Miami-Dade, Broward, and West Palm Beach counties.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -16,8 +15,7 @@ export default function EvaluatingSection() {
         When evaluating Bill, it&#39;s important to consider how well it integrates with your existing systems. Bill
         offers seamless integration with major accounting software like QuickBooks and Xero, which can significantly
         reduce the time and effort required for data entry and reconciliation. This integration is a key factor for
-        businesses looking to maintain accurate financial records while automating their automated accounts
-        receivable.</p>
+        businesses looking to maintain accurate financial records while automating their AI accounts receivable.</p>
       <p className="text-base text-white shadow-text pt-3">
         Another critical aspect to consider is the level of support and customization available. While Bill is
         designed to be user-friendly, having access to expert support can make a significant difference in how

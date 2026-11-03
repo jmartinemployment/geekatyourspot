@@ -35,8 +35,7 @@ export default function ComparingSection() {
       <p className="text-base text-white shadow-text pt-3">
         For small businesses in South Florida, where maintaining cash flow is critical, Versapay offers a robust
         solution that addresses both the speed and accuracy of financial transactions. Its comprehensive features
-        and strong integration capabilities make it a valuable tool for businesses aiming to improve their automated
-        accounts receivable operations.</p>
+        and strong integration capabilities make it a valuable tool for businesses aiming to improve their AI accounts receivable operations.</p>
     </>
   );
 

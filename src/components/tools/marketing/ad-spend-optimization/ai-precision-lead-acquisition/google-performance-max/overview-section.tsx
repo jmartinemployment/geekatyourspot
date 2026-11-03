@@ -19,8 +19,7 @@ export default function OverviewSection() {
         your ads to people far outside your local area. When you finally get a good lead, it drops off because there
         is no team on hand to reply instantly or sort the serious buyers from the browsers.</p>
       <p className="text-base text-white shadow-text pt-3">
-        <Link id={`tools-marketing-ai-precision-lead-acquisition-google-performance-max-overview-ai-precision-lead-acquisition${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition" className="text-[#C83803] hover:underline">Precision
-        Lead Acquisition</Link> with the right AI-supported workflow changes the equation. Instead
+        <Link id={`tools-marketing-ai-precision-lead-acquisition-google-performance-max-overview-ai-precision-lead-acquisition${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition" className="text-[#C83803] hover:underline">AI Precision Lead Acquisition</Link> with the right AI-supported workflow changes the equation. Instead
         of burning through budget by guessing which message will land, you get systematic, real-time testing of
         headlines, descriptions and <GlossaryLink slug="call-to-action">calls to action</GlossaryLink>. The system
         automatically narrows your audience to high-intent local buyers, pauses losing ads before they drain your

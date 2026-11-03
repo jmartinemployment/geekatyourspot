@@ -4,10 +4,10 @@ export default function ChallengesSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Most South Florida small businesses first recognize their measured lead generation problem when their cost
+        Most South Florida small businesses first recognize their precision lead acquisition problem when their cost
         per lead jumps, but their sales pipeline does not. This spike is not a warning to spend less, it is a sign
         that manual campaign management has hit its operational ceiling. The more you try to scale your ad spend,
-        moving from $16 a day to $50, the less predictable your results become (<a id={`blog-marketing-measured-lead-generation-challenges-source-wrench-ai${idSuffix}`} href="https://wrench.ai/products/sneak-peek-of-the-wrench.ai-platform" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Wrench</a>,
+        moving from $16 a day to $50, the less predictable your results become (<a id={`blog-marketing-ai-precision-lead-acquisition-challenges-source-wrench-ai${idSuffix}`} href="https://wrench.ai/products/sneak-peek-of-the-wrench.ai-platform" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Wrench</a>,
         as of Oct 24, 2026). You do not just burn money, you burn opportunity.</p>
       <p className="text-base text-white shadow-text pt-3">
         This happens because every manual step in your process multiplies the chance for things to break. When you

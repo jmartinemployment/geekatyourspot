@@ -4,7 +4,7 @@ export default function NumbersSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Measured Lead Generation delivers real gains in <GlossaryLink slug="lead-quality">lead quality</GlossaryLink>,
+        AI Precision Lead Acquisition delivers real gains in <GlossaryLink slug="lead-quality">lead quality</GlossaryLink>,
         ad spend efficiency, and pipeline stability for small businesses in Miami-Dade, Broward, and Palm Beach, but
         not every promise is proven or permanent. The strongest evidence is around cost savings, time reclaimed from
         manual work, and the ability to keep cost-per-lead stable as budgets rise, but there are limits: not every
@@ -46,11 +46,11 @@ export default function NumbersSection() {
         facilitate) and campaign reviews to catch shifts in the market or changes in buyer behavior. Without ongoing
         oversight, even the most finely tuned rules can drift, and the savings of month one can erode by month six.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Finally, the research does not support the idea that Measured Lead Generation is a one-size-fits-all fix.
+        Finally, the research does not support the idea that AI Precision Lead Acquisition is a one-size-fits-all fix.
         The tools deliver the best outcomes when they fit the specifics of your region, your business model, and the
         state of your CRM. For a business still relying on static spreadsheets, the gains from moving to automated
         data sync and segmentation are dramatic. For a team already running a well-maintained CRM and disciplined
-        follow-up, the improvements may be real but incremental. The bottom line: measured lead generation pays off
+        follow-up, the improvements may be real but incremental. The bottom line: precision lead acquisition pays off
         where you have bottlenecks in budget allocation, creative refresh, or audience targeting, but results vary
         with the quality of your inputs and how tightly the tools are integrated with your workflow.</p>
     </>

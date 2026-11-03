@@ -12,8 +12,7 @@ export default function TamingTheBeastSection() {
         delays in invoice processing ripple through the organization, affecting cash flow and vendor
         relationships.</p>
       <p className="text-base text-white shadow-text pt-3">
-        This is where <GlossaryLink slug="accounts-payable">Accounts Payable</GlossaryLink>: Automated Data
-        Entry &amp; Processing comes in. By automating these repetitive tasks, businesses can drastically cut
+        This is where <GlossaryLink slug="accounts-payable">Accounts Payable</GlossaryLink>: AI Data Entry &amp; Processing comes in. By automating these repetitive tasks, businesses can drastically cut
         down on errors, speed up processing times, and free their teams to focus on higher-value work.
         Automated solutions like&nbsp;
         <Link id={`use-cases-accounting-ai-data-entry-processing-taming-dext${idSuffix}`}

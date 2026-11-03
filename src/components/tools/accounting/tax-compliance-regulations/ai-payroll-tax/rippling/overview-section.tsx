@@ -29,8 +29,7 @@ export default function OverviewSection() {
         Automated solutions now exist that handle payroll tax deposits, track overtime, and help correctly
         classify every worker, reducing manual work, cutting the chance of error, and flagging compliance risks
         before they become fines. For small businesses in South Florida, this means fewer surprises at tax time,
-        less time spent on admin, and far less risk of being caught out in an audit. Payroll Tax &amp; Worker
-        Misclassification no longer need to be the problem that keeps owners up at night.</p>
+        less time spent on admin, and far less risk of being caught out in an audit. AI Payroll Tax no longer need to be the problem that keeps owners up at night.</p>
     </>
   );
 

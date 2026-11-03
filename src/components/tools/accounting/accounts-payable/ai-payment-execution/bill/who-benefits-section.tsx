@@ -28,8 +28,7 @@ export default function WhoBenefitsSection() {
         tailored approval workflows or integrating with other business tools. This guidance can be invaluable,
         particularly for businesses new to AI-driven financial solutions.</p>
       <p className="text-base text-white shadow-text pt-3">
-        By taking these steps, businesses can position themselves to fully leverage the benefits of Automated
-        Payment Execution, leading to improved efficiency, reduced errors, and a more strategic use of
+        By taking these steps, businesses can position themselves to fully leverage the benefits of AI Payment Execution, leading to improved efficiency, reduced errors, and a more strategic use of
         resources.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when&nbsp;

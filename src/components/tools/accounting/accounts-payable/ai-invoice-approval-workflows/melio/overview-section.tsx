@@ -24,8 +24,7 @@ export default function OverviewSection() {
         doesn&#39;t require the same attention as a $40,000 infrastructure invoice. The result is a smoother,
         more efficient approval process that frees up time and reduces the chance of human error.</p>
       <p className="text-base text-white shadow-text pt-3">
-        For small businesses in West Palm Beach, Broward, and Miami-Dade counties, adopting automated approval
-        workflows can be a game-changer. It means no more chasing down approvals through Slack or waiting for
+        For small businesses in West Palm Beach, Broward, and Miami-Dade counties, adopting AI invoice approval workflows can be a game-changer. It means no more chasing down approvals through Slack or waiting for
         someone in a different time zone to check their email. Instead, business owners can focus on growth
         and customer satisfaction, knowing their&nbsp;
         <GlossaryLink slug="accounts-payable">accounts payable</GlossaryLink>&nbsp;process is running smoothly

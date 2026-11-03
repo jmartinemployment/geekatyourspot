@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     "tax automation",
     "accounts payable automation",
     "financial automation",
-    "AI accounting",
+    "Accounting",
     "small business accounting",
   ],
   alternates: {

@@ -6,8 +6,7 @@ export default function OverviewSection() {
     <>
       <p className="text-base text-white shadow-text pt-3">
         Why do so many small businesses in South Florida struggle to make their emails stand out, despite their best
-        intentions and all the tools at hand? The real issue is not a lack of effort or creativity, it’s that <Link id={`tools-marketing-ai-personalized-email-campaigns-activecampaign-overview-ai-personalized-email-campaigns${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns" className="text-[#C83803] hover:underline">Personalized
-        Email Campaigns</Link> demand more time and data coordination than most teams can manage. When sales,
+        intentions and all the tools at hand? The real issue is not a lack of effort or creativity, it’s that <Link id={`tools-marketing-ai-personalized-email-campaigns-activecampaign-overview-ai-personalized-email-campaigns${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns" className="text-[#C83803] hover:underline">AI Personalized Email Campaigns</Link> demand more time and data coordination than most teams can manage. When sales,
         customer data and marketing messages live in separate places, leads slip through the cracks. Manual
         personalization is out of reach for a small team already stretched thin, so most emails end up feeling
         generic. The result: prospects ignore the messages, existing customers drift away, and the business misses

@@ -49,8 +49,7 @@ export default function DecisionsSection() {
         audit trails, which are essential for regulatory compliance and fraud prevention.</p>
       <p className="text-base text-white shadow-text pt-3">
         Finally, involve stakeholders early and often. From finance teams to IT, getting buy-in from all
-        departments ensures smoother implementation. Address their concerns and highlight how Automated
-        Payment Execution benefits their work. Demonstrating how these systems reduce workload and errors can
+        departments ensures smoother implementation. Address their concerns and highlight how AI Payment Execution benefits their work. Demonstrating how these systems reduce workload and errors can
         alleviate resistance to change. The earlier you engage your team, the more invested they will be in
         the solution&#39;s success.</p>
     </>

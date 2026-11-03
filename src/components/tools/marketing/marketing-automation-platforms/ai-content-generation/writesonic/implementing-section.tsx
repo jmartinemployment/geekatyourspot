@@ -15,8 +15,7 @@ export default function ImplementingSection() {
         a&nbsp;<GlossaryLink slug="crm">CRM</GlossaryLink>. Writesonic provides direct integrations with
         platforms like WordPress, Sanity, and Webflow, so publishing content is a one-click step rather than a
         manual copy-paste job. If you use Ahrefs or Google Keyword Planner for SEO research, those
-        integrations pull in live keyword and competitor data, which Writesonic uses to inform its intelligent
-        content generation. This is not just technical convenience, it is how you keep your content pipeline
+        integrations pull in live keyword and competitor data, which Writesonic uses to inform its AI content generation. This is not just technical convenience, it is how you keep your content pipeline
         grounded in what is actually ranking and converting in your area.</p>
       <p className="text-base text-white shadow-text pt-3">
         The next phase is setting up your content templates and approval workflows. Writesonic does not force

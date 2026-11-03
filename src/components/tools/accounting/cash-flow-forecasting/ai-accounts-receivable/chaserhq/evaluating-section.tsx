@@ -19,8 +19,7 @@ export default function EvaluatingSection() {
         particularly beneficial for small businesses that rely on steady cash flow to manage day-to-day operations
         and strategic growth.</p>
       <p className="text-base text-white shadow-text pt-3">
-        When assessing Chaserhq, consider the specific challenges your business faces in automated accounts
-        receivable management. If frequent late payments, manual invoice tracking, or inefficient follow-up
+        When assessing Chaserhq, consider the specific challenges your business faces in AI accounts receivable management. If frequent late payments, manual invoice tracking, or inefficient follow-up
         processes are issues, Chaserhq offers targeted solutions to address these pain points. Its automation
         capabilities, real-time integrations, and customizable features make it a powerful tool for transforming
         your financial operations.</p>

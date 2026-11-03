@@ -35,33 +35,33 @@ export default function IntroductionSection() {
         it&#39;s integrating AI tools into existing workflows or developing new strategies from the ground up, our
         consultancy provides the expertise needed to navigate the complexities of AI marketing systems.
       </p>
-      <h3 id={`ai-content-creation-workflow${idSuffix}`} className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-        AI Content Creation Workflow
+      <h3 id={`marketing-automation-platforms${idSuffix}`} className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+        Marketing Automation Platforms (MAP)
       </h3>
       <p className="pt-3 text-base font-normal text-white shadow-text">Content creation is often a resource-intensive part of marketing. AI can simplify this by automating the generation
         of written, visual, and audio content tailored to specific audiences. Geek @ Your Spot LLC helps businesses implement
         AI tools that streamline content development, ensuring consistency and relevancy across all channels.
       </p>
-      <h4 id={`ai-content-creation-and-repurposing-for-small-businesses${idSuffix}`} className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-        AI Content Creation and Repurposing for Small Businesses
+      <h4 id={`ai-content-generation${idSuffix}`} className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+        AI Content Generation
       </h4>
       <p className="pt-3 text-base font-normal text-white shadow-text">Small businesses can struggle to produce a steady stream of fresh content. AI tools can generate new content ideas
         and repurpose existing materials to keep marketing efforts dynamic without overwhelming resources. Geek @ Your Spot LLC
         guides businesses in setting up these tools, allowing them to maintain an engaging online presence with less effort.
       </p>
-      <h3 id={`lead-capture-pipeline${idSuffix}`} className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-        <GlossaryLink slug="lead-generation" className="text-white hover:text-[#C83803] hover:underline">Lead Capture Pipeline</GlossaryLink>
-      </h3>
+      <h4 id={`ai-lead-enrichment-predictive-scoring${idSuffix}`} className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+        AI Lead Enrichment &amp; Predictive Scoring
+      </h4>
       <p className="pt-3 text-base font-normal text-white shadow-text">Capturing leads efficiently is crucial for any business. AI marketing systems enhance lead capture by automating
         data collection and analysis, enabling businesses to identify potential customers more accurately. Geek @ Your Spot LLC
         assists in configuring these systems to ensure seamless integration with existing customer relationship management
         (<GlossaryLink slug="crm">CRM</GlossaryLink>) tools.</p>
-      <h4 id={`automated-lead-nurturing${idSuffix}`} className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">Automated Lead Nurturing</h4>
+      <h4 id={`ai-personalized-email-campaigns${idSuffix}`} className="text-white pt-2 text-[4vw] sm:text-2xl lg:text-2xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">AI Personalized Email Campaigns</h4>
       <p className="pt-3 text-base font-normal text-white shadow-text">Once leads are captured, nurturing them through the sales funnel is key. AI systems automate this process by
         delivering personalized content and follow-ups based on individual customer behaviors and preferences. Geek @ Your Spot LLC helps businesses set up these automated nurturing campaigns, improving conversion rates and customer
         satisfaction.</p>
       <h3 id={`ad-spend-optimization${idSuffix}`} className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">Ad Spend Optimization</h3>
-      <p className="pt-3 text-base font-normal text-white shadow-text">Effective&nbsp;<Link id={`use-cases-marketing-ai-marketing-systems-introduction-ad-spend-optimization${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization" className="text-[#C83803] hover:underline">ad spend</Link>&nbsp;management is critical to maximizing marketing ROI. AI tools optimize ad placement and budget
+      <p className="pt-3 text-base font-normal text-white shadow-text">Effective&nbsp;<Link id={`use-cases-marketing-overview-introduction-ad-spend-optimization${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization" className="text-[#C83803] hover:underline">ad spend</Link>&nbsp;management is critical to maximizing marketing ROI. AI tools optimize ad placement and budget
         allocation by analyzing performance data and predicting future trends. Geek @ Your Spot LLC provides expertise in
         deploying these tools to ensure that advertising dollars are spent wisely, achieving better results with less waste.
       </p>
@@ -78,8 +78,8 @@ export default function IntroductionSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="introduction-to-ai-marketing-systems" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                Introduction to AI Marketing Systems
+              <h2 id="introduction-to-marketing" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                Introduction to Marketing
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center">
@@ -87,7 +87,7 @@ export default function IntroductionSection() {
                 width="211"
                 height="211"
                 src="/images/marketing/use-cases/ai-marketing-systems/ai-marketing-systems-pillar-h2-introduction-to-ai-marketing-systems.avif"
-                alt="Icons show data collection, analysis and automation as the three steps of an AI marketing system, under the title AI Marketing Systems." />
+                alt="Icons show data collection, analysis and automation as the three steps of an AI marketing system, under the title Marketing." />
             </div>
             <div className="col-span-12">
               {body()}
@@ -100,8 +100,8 @@ export default function IntroductionSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="introduction-to-ai-marketing-systems-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                Introduction to AI Marketing Systems
+              <h2 id="introduction-to-marketing-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                Introduction to Marketing
               </h2>
               {body("-lg")}
             </div>
@@ -110,7 +110,7 @@ export default function IntroductionSection() {
                 width="460"
                 height="460"
                 src="/images/marketing/use-cases/ai-marketing-systems/ai-marketing-systems-pillar-h2-introduction-to-ai-marketing-systems.avif"
-                alt="Icons show data collection, analysis and automation as the three steps of an AI marketing system, under the title AI Marketing Systems." />
+                alt="Icons show data collection, analysis and automation as the three steps of an AI marketing system, under the title Marketing." />
             </div>
           </div>
         </div>

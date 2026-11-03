@@ -40,8 +40,7 @@ export default function ArchitectureSection() {
         meet regulatory standards. By automating these processes, Tipalti reduces the risk of fraud and
         enhances the overall integrity of financial operations.</p>
       <p className="text-base text-white shadow-text pt-3">
-        In summary, Tipalti&#39;s architecture is built to handle the complexities of Automated Payment
-        Execution. By integrating with existing systems, supporting global transactions, and automating
+        In summary, Tipalti&#39;s architecture is built to handle the complexities of AI Payment Execution. By integrating with existing systems, supporting global transactions, and automating
         critical processes, Tipalti offers a comprehensive solution for small businesses looking to optimize
         their accounts payable operations.</p>
     </>

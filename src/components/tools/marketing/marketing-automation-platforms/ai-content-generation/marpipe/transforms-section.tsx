@@ -4,7 +4,7 @@ export default function TransformsSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Marpipe takes the manual grind out of measured lead generation by automating every step that used to slow
+        Marpipe takes the manual grind out of AI content generation by automating every step that used to slow
         small businesses down. Instead of building each ad variation by hand, Marpipe generates hundreds of creative
         combinations instantly from just a few uploaded assets. This means your team spends less time on production
         and more time on strategy, no more resizing images for every platform or rewriting copy for each campaign.
@@ -49,7 +49,7 @@ export default function TransformsSection() {
         Marpipe’s automation extends to performance optimization as well. The platform can automatically filter out
         underperforming catalog campaigns, so your budget is always focused on the ads that deliver results. It
         tracks the performance of enriched catalogs, which on average perform about 20% better than raw <GlossaryLink slug="catalog-ads" className="text-[#0B162A] hover:underline">catalog
-        ads</GlossaryLink>, giving you a clear benchmark for improvement (<a id={`tools-marketing-measured-lead-generation-marpipe-transforms-source-marpipe-com${idSuffix}`} href="https://www.marpipe.com/blog/ab-testing-ads-isnt-enough-heres-how-to-test-instead" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Marpipe</a>,
+        ads</GlossaryLink>, giving you a clear benchmark for improvement (<a id={`tools-marketing-marketing-automation-platforms-ai-content-generation-marpipe-transforms-source-marpipe-com${idSuffix}`} href="https://www.marpipe.com/blog/ab-testing-ads-isnt-enough-heres-how-to-test-instead" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Marpipe</a>,
         as of Oct 24, 2026). And because Marpipe works with any ad platform that supports catalog ads, not just
         Meta, you can run coordinated campaigns across TikTok, Snap, Reddit, Pinterest, and more, all from the same
         system.</p>
@@ -71,8 +71,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-marpipe-removes-the-manual-burden-from-measured-lead-generation" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How Marpipe removes the manual burden from Measured Lead Generation
+              <h2 id="how-marpipe-removes-the-manual-burden-from-ai-content-generation" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How Marpipe removes the manual burden from AI Content Generation
               </h2>
             </div>
             <div className="col-span-12">{body()}</div>
@@ -84,8 +84,8 @@ export default function TransformsSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="how-marpipe-removes-the-manual-burden-from-measured-lead-generation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How Marpipe removes the manual burden from Measured Lead Generation
+              <h2 id="how-marpipe-removes-the-manual-burden-from-ai-content-generation-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How Marpipe removes the manual burden from AI Content Generation
               </h2>
               {body("-lg")}
             </div>

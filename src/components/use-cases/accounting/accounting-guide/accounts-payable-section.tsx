@@ -18,8 +18,7 @@ export default function AccountsPayableSection() {
         data from receipts, bills, and invoices and categorizes it before it reaches the ledger. <Link id={`use-cases-accounting-accounts-payable-avid-de${idSuffix}`} href="/tools/accounting/accounts-payable/ai-data-entry-processing/avidxchange" className="text-[#0B162A] hover:underline">AvidXchange</Link> extracts,
         matches, and routes invoice data and connects to your existing accounting system. <Link id={`use-cases-accounting-accounts-payable-bill-de${idSuffix}`} href="/tools/accounting/accounts-payable/ai-data-entry-processing/bill" className="text-[#0B162A] hover:underline">Bill</Link> codes
         invoices with AI and passes them into approval workflows you configure. Each document is stored with
-        the entry it created, so an auditor can see the source behind every expense. Our <Link id={`use-cases-accounting-accounts-payable-p-de${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-data-entry-processing" className="text-[#0B162A] hover:underline">Intelligent
-        Data Entry &amp; Processing</Link> guide compares them in detail.</p>
+        the entry it created, so an auditor can see the source behind every expense. Our <Link id={`use-cases-accounting-accounts-payable-p-de${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-data-entry-processing" className="text-[#0B162A] hover:underline">AI Data Entry &amp; Processing</Link> guide compares them in detail.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Approve: Clearing the Approval Bottleneck
       </h3>
@@ -30,8 +29,7 @@ export default function AccountsPayableSection() {
         part of the record. <Link id={`use-cases-accounting-accounts-payable-bill-ap${idSuffix}`} href="/tools/accounting/accounts-payable/ai-invoice-approval-workflows/bill" className="text-[#0B162A] hover:underline">Bill</Link>, <Link id={`use-cases-accounting-accounts-payable-melio-ap${idSuffix}`} href="/tools/accounting/accounts-payable/ai-invoice-approval-workflows/melio" className="text-[#0B162A] hover:underline">Melio</Link>,
         and <Link id={`use-cases-accounting-accounts-payable-ramp-ap${idSuffix}`} href="/tools/accounting/accounts-payable/ai-invoice-approval-workflows/ramp" className="text-[#0B162A] hover:underline">Ramp</Link> let
         approvers act from a phone, so an owner on a job site in Doral or at a client meeting in Boca Raton no
-        longer holds up the queue. Our <Link id={`use-cases-accounting-accounts-payable-p-appr${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows" className="text-[#0B162A] hover:underline">Intelligent
-        Approval Workflows</Link> guide explains how to set the rules.</p>
+        longer holds up the queue. Our <Link id={`use-cases-accounting-accounts-payable-p-appr${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows" className="text-[#0B162A] hover:underline">AI Invoice Approval Workflows</Link> guide explains how to set the rules.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Pay: Scheduling Payments Without the Scramble
       </h3>
@@ -43,8 +41,7 @@ export default function AccountsPayableSection() {
         businesses with higher invoice volumes, and <Link id={`use-cases-accounting-accounts-payable-tipalti-pay${idSuffix}`} href="/tools/accounting/accounts-payable/ai-payment-execution/tipalti" className="text-[#0B162A] hover:underline">Tipalti</Link> adds
         supplier onboarding and tax form collection, including <strong>W-9</strong> forms, for businesses that
         pay many vendors or contractors. Scheduled payments protect <strong>early payment discounts</strong> and
-        avoid late fees. The <Link id={`use-cases-accounting-accounts-payable-p-pay${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-payment-execution" className="text-[#0B162A] hover:underline">Intelligent
-        Payment Execution</Link> guide covers the details.</p>
+        avoid late fees. The <Link id={`use-cases-accounting-accounts-payable-p-pay${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-payment-execution" className="text-[#0B162A] hover:underline">AI Payment Execution</Link> guide covers the details.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Protect: Catching the Leak and the Fraud
       </h3>
@@ -54,8 +51,7 @@ export default function AccountsPayableSection() {
         supplier details and applies payment controls across your vendor list. <Link id={`use-cases-accounting-accounts-payable-bill-fraud${idSuffix}`} href="/tools/accounting/accounts-payable/ai-fraud-duplicate-payment-controls/bill" className="text-[#0B162A] hover:underline">Bill</Link> checks
         for duplicate invoices as bills come in. Paired with a simple rule that any change to a vendor’s bank
         details requires a phone call to a known number, these tools close the door that email fraud depends
-        on. Read <Link id={`use-cases-accounting-accounts-payable-p-fraud${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls" className="text-[#0B162A] hover:underline">Intelligent
-        Fraud &amp; Duplicate Payment Controls</Link> for the full set of controls.</p>
+        on. Read <Link id={`use-cases-accounting-accounts-payable-p-fraud${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls" className="text-[#0B162A] hover:underline">AI Fraud &amp; Duplicate Payment Controls</Link> for the full set of controls.</p>
     </>
   );
 

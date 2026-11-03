@@ -282,11 +282,11 @@ const LINK_OVERRIDES: Record<string, string | null> = {
   "/tools/accounting/melio":
     "/tools/accounting/accounts-payable/ai-payment-execution/melio",
   // The AI Personalized Email Campaigns pillar and its Mailchimp write-up are hand-coded under the
-  // Content Creation Workflow group; the flat Mailchimp page was deleted on 2026-10-26.
+  // Marketing Automation Platforms (MAP) category; the flat Mailchimp page was deleted on 2026-10-26.
   "/use-cases/marketing/personalized-email-campaigns": "/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns",
   "/tools/marketing/mailchimp": "/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailchimp",
-  // Receptionist and Chatbot moved from Marketing's Lead Capture Pipeline into Business Operations →
-  // AI Front-Office on 2026-10-31; the exports still link to the old Marketing paths.
+  // Receptionist and Chatbot moved from Marketing into Business Operations → Front Desk on
+  // 2026-10-31; the exports still link to the old Marketing paths.
   "/use-cases/marketing/marketing-automation-platforms/ai-receptionist": "/use-cases/business-operations/ai-receptionist",
   "/use-cases/marketing/marketing-automation-platforms/ai-chatbot": "/use-cases/business-operations/ai-chatbot",
   "/tools/marketing/marketing-automation-platforms/intelligent-receptionist/lobbystack": "/tools/business-operations/ai-receptionist/lobbystack",

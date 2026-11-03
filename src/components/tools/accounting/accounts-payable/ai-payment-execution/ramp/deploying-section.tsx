@@ -27,8 +27,7 @@ export default function DeployingSection() {
         Geek @ Your Spot LLC also provides training and support to ensure that the client&#39;s team is fully
         equipped to use Ramp effectively. This includes educating staff on how to navigate the platform, manage
         invoices, and troubleshoot any issues that may arise. The goal is to empower the team to leverage
-        Ramp&#39;s full capabilities, ultimately leading to more efficient and error-free Automated Payment
-        Execution.</p>
+        Ramp&#39;s full capabilities, ultimately leading to more efficient and error-free AI Payment Execution.</p>
       <p className="text-base text-white shadow-text pt-3">
         Finally, ongoing support and monitoring are essential to ensure that Ramp continues to operate
         optimally within the client&#39;s environment. Geek @ Your Spot LLC offers continuous support, helping to

@@ -28,7 +28,7 @@ export default function ComparingSection() {
       <p className="text-base text-white shadow-text pt-3">
         Some buyers look at specialized bidding tools or rules engines to automate budget allocation or pause
         underperformers. These are valuable for campaign management, but they do not solve the creative bottleneck,
-        the real limit for measured lead generation at this spend level. Marpipe automates the creative pipeline
+        the real limit for AI content generation at this spend level. Marpipe automates the creative pipeline
         itself, so you do not need to write custom scripts or hire a data scientist to keep your ads fresh and
         relevant. Instead, the platform’s automation logic handles the heavy lifting: generating variants, pushing
         them live, and pulling back on what does not perform. This lets you focus on strategy and messaging, not on

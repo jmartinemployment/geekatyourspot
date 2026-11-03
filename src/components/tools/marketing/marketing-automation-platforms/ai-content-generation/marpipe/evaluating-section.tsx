@@ -40,7 +40,7 @@ export default function EvaluatingSection() {
         reducing manual labor, speeding up creative refresh, and cutting wasted spend on ineffective variants.
         Marpipe’s own data shows that Enriched Catalogs perform about 20% better than raw catalog ads on average,
         but results are not guaranteed and will depend on your own creative, <GlossaryLink slug="data-quality" className="text-[#0B162A] hover:underline">data
-        quality</GlossaryLink>, and campaign structure (<a id={`tools-marketing-measured-lead-generation-marpipe-evaluating-source-marpipe-com${idSuffix}`} href="https://www.marpipe.com/blog/ab-testing-ads-isnt-enough-heres-how-to-test-instead" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Marpipe</a>,
+        quality</GlossaryLink>, and campaign structure (<a id={`tools-marketing-marketing-automation-platforms-ai-content-generation-marpipe-evaluating-source-marpipe-com${idSuffix}`} href="https://www.marpipe.com/blog/ab-testing-ads-isnt-enough-heres-how-to-test-instead" target="_blank" rel="noopener noreferrer" className="text-[#0B162A] hover:underline">Marpipe</a>,
         as of Oct 24, 2026).</p>
       <p className="text-base text-white shadow-text pt-3">
         When weighing Marpipe, ask whether you need to automate creative testing at scale, whether your team is

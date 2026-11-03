@@ -35,7 +35,7 @@ const jsonLd: Graph = {
             "datePublished": "2026-10-16T16:34:08.2438979Z",
             "dateModified": "2026-10-16T16:34:08.2438979Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "AI Chatbot, Lead Capture Pipeline, AI Chatbot Implementation, Miami small business automation, Smart Chatbots for Marketing, Lead Scoring AI, Voice Assistant integration, BotPenguin, Manychat, My AI Front Desk",
+            "keywords": "AI Chatbot, Front Desk, AI Chatbot Implementation, Miami small business automation, Smart Chatbots for Marketing, Lead Scoring AI, Voice Assistant integration, BotPenguin, Manychat, My AI Front Desk",
             "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/ai-sales-force-automation-software" },
             "mentions": [
                 { "@type": "Thing", "name": "BotPenguin", "url": "https://botpenguin.com/" },
@@ -63,7 +63,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: TITLE,
         description: DESCRIPTION,
-        keywords: ["AI Chatbot", "Lead Capture Pipeline", "AI Chatbot Implementation", "Miami small business automation", "Smart Chatbots for Marketing", "Lead Scoring AI", "Voice Assistant integration", "BotPenguin", "Manychat", "My AI Front Desk"],
+        keywords: ["AI Chatbot", "Front Desk", "AI Chatbot Implementation", "Miami small business automation", "Smart Chatbots for Marketing", "Lead Scoring AI", "Voice Assistant integration", "BotPenguin", "Manychat", "My AI Front Desk"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

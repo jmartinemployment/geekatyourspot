@@ -45,8 +45,7 @@ export default function ArchitectureSection() {
         designed to support scalability. The system can handle increasing volumes of invoices and approvals
         without compromising on speed or accuracy, making it an ideal choice for growing businesses. With its
         AI-driven capabilities and flexible workflow configurations, Bill provides a comprehensive solution
-        for automating accounts payable processes, particularly in the realm of automated approval
-        workflows.</p>
+        for automating accounts payable processes, particularly in the realm of AI invoice approval workflows.</p>
     </>
   );
 

@@ -29,8 +29,7 @@ export default function OverviewSection() {
       <p className="text-base text-white shadow-text pt-3">
         At Geek @ Your Spot LLC, we build repeatable, AI-powered content workflows designed for teams without
         enterprise budgets or headcount to spare. You get practical, affordable solutions that fit right into
-        your existing stack, no guesswork, no wasted hours, just a clear path from idea to impact. Intelligent
-        Content Planning is how small businesses finally get seen.</p>
+        your existing stack, no guesswork, no wasted hours, just a clear path from idea to impact. AI Content Planning is how small businesses finally get seen.</p>
     </>
   );
 

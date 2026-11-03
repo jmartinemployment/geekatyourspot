@@ -7,8 +7,7 @@ export default function MechanicsSection() {
         Every day a business delays in collecting unpaid invoices, it essentially acts as an interest-free bank for
         its clients. This comes with a significant cost that many businesses overlook. Imagine having $50,000 in
         outstanding invoices that are 15 days overdue. This situation not only affects your cash flow but also
-        undermines your ability to make strategic investments in payroll, hiring, or inventory.  Modern automated
-        accounts receivable (AR) solutions offer a structured approach to address this issue, making cash flow
+        undermines your ability to make strategic investments in payroll, hiring, or inventory.  Modern AI accounts receivable (AR) solutions offer a structured approach to address this issue, making cash flow
         predictable and reliable. These solutions revolve around three core components:
         behavioral&nbsp;predictive
         analytics, automated humanized cadences, and centralized communication logs.</p>

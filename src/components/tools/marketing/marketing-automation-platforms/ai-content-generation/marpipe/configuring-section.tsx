@@ -4,7 +4,7 @@ export default function ConfiguringSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Configuring Marpipe for Measured Lead Generation means setting up rules, automation logic, and creative
+        Configuring Marpipe for AI Content Generation means setting up rules, automation logic, and creative
         templates that let the platform do the heavy lifting. Marpipe is built for catalog-driven advertising, so
         what you configure are the elements that determine how creative variants are generated, tested, and
         deployed, no scripting or custom code required. The real work is in mapping your catalog fields, defining

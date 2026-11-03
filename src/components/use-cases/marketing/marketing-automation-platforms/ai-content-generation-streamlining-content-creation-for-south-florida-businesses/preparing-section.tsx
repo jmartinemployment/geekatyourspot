@@ -13,8 +13,7 @@ export default function PreparingSection() {
       <p className="text-base text-white shadow-text pt-3">
         Once your objectives are clear, the process moves to&nbsp;data
         quality. Gather the assets you already have: service descriptions, old blog drafts,
-        customer FAQs, recorded webinars, and even social captions that performed well. Each Intelligent
-        Content Generation rollout that works starts with a structured review of what is usable, what needs
+        customer FAQs, recorded webinars, and even social captions that performed well. Each AI Content Generation rollout that works starts with a structured review of what is usable, what needs
         updating, and what is missing. Tools like Koala and Scalenut are only as effective as the business
         context you provide. If your service descriptions are outdated or your contact data is in ten
         different spreadsheets, put the time into cleaning that up. If you need visuals, collect your best

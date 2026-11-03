@@ -23,8 +23,7 @@ export default function RightChoiceSection() {
       <p className="text-base text-white shadow-text pt-3">
         To ensure a successful implementation, partnering with an experienced consultancy like Geek @ Your Spot LLC can be invaluable. They specialize in configuring Stampli to fit your unique business
         environment, providing training, and ensuring seamless integration with your existing systems. Their
-        expertise can help you maximize the benefits of Stampli and achieve a smoother transition to automated
-        approval workflows.</p>
+        expertise can help you maximize the benefits of Stampli and achieve a smoother transition to AI invoice approval workflows.</p>
       <p className="text-base text-white shadow-text pt-3">
         Ultimately, deciding whether Stampli is right for your business involves weighing the potential
         benefits against your current operational needs and future goals. By carefully assessing these

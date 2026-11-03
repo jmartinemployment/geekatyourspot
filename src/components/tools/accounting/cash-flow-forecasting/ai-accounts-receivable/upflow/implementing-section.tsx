@@ -5,8 +5,7 @@ export default function ImplementingSection() {
         Implementing Upflow in a client&#39;s existing environment is a well-orchestrated process designed to
         minimize disruption and maximize efficiency. The journey to going live with Upflow is significantly
         shortened by its pre-built connectors and templated setup options, which allow for a phased rollout tailored
-        to the business&#39;s specific needs. This means that businesses can start benefiting from automated
-        accounts receivable processes without the lengthy delays often associated with software implementations.</p>
+        to the business&#39;s specific needs. This means that businesses can start benefiting from AI accounts receivable processes without the lengthy delays often associated with software implementations.</p>
       <ol className="list-decimal list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>Initial Consultation: The process begins with an in-depth consultation to understand the specific needs and existing systems of the client. This step is crucial for tailoring the implementation to fit seamlessly into their current operations.</li>
         <li>System Integration: Upflow&#39;s architecture supports integration with a variety of ERP and accounting tools. This flexibility ensures that data flows smoothly between systems, reducing manual entry and the risk of errors.</li>

@@ -61,8 +61,7 @@ export default function ConfiguringSection() {
         up, your team spends less time checking for brand consistency, chasing down approvals, or reformatting
         content for every platform. Instead, you get a steady flow of ready-to-publish assets, all grounded in
         your business’s real context and current data. Geek @ Your Spot LLC’s role is to make sure every rule,
-        asset, and handoff is mapped to your workflow, so Jasper delivers on the promise of intelligent
-        content generation, without creating new headaches or gaps.</p>
+        asset, and handoff is mapped to your workflow, so Jasper delivers on the promise of AI content generation, without creating new headaches or gaps.</p>
     </>
   );
 

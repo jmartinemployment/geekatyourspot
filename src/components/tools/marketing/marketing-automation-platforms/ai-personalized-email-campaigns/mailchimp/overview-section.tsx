@@ -26,8 +26,7 @@ export default function OverviewSection() {
       <p className="text-base text-white shadow-text pt-3">
         This is for small businesses in South Florida who need to save hours each week, make every email count, and
         grow without hiring or burning out. You get results that matter: higher <GlossaryLink slug="open-rate">open
-        rates</GlossaryLink>, more sales, and fewer errors, all while keeping control and oversight. Personalized
-        Email Campaigns are not just for big brands, they are now practical for your twelve-person team or even your
+        rates</GlossaryLink>, more sales, and fewer errors, all while keeping control and oversight. AI Personalized Email Campaigns are not just for big brands, they are now practical for your twelve-person team or even your
         two-person shop, if you use the right approach from the start.</p>
     </>
   );

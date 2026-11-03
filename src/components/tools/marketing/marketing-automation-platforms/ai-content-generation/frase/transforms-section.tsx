@@ -57,8 +57,7 @@ export default function TransformsSection() {
         With Frase, the blank page is gone, the voice is consistent, and the work of repurposing and
         optimizing is handled. The weekly grind of content creation, the research, the drafting, the endless
         revisions and channel rewrites, shrinks to a few focused approvals. Your business looks as active and
-        credible as the largest competitor, but without the overhead or the burnout. That is what Intelligent
-        Content Generation should feel like: your expertise, everywhere your clients look, without the cost
+        credible as the largest competitor, but without the overhead or the burnout. That is what AI Content Generation should feel like: your expertise, everywhere your clients look, without the cost
         and chaos of doing it all by hand.</p>
     </>
   );

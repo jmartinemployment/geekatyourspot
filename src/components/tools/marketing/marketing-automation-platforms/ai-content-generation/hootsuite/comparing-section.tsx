@@ -2,8 +2,7 @@ export default function ComparingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Small businesses in Miami-Dade, Broward, and West Palm Beach weighing Hootsuite for Intelligent
-        Content Generation are not choosing in a vacuum. The alternatives fall into two main camps: manual
+        Small businesses in Miami-Dade, Broward, and West Palm Beach weighing Hootsuite for AI Content Generation are not choosing in a vacuum. The alternatives fall into two main camps: manual
         content creation (whether in-house or with freelancers) and traditional marketing agencies. Each comes
         with its own costs, risks, and operational headaches, and Hootsuite’s role is to change the shape of
         those tradeoffs.</p>

@@ -7,8 +7,7 @@ export default function ImplementingSection() {
         transition to automated&nbsp;
         accounts payable
         &nbsp;processes. Geek @ Your Spot LLC, located in West Palm Beach, Broward, and Miami-Dade counties,
-        specializes in configuring Tipalti to meet the unique needs of each client, focusing on Automated Fraud
-        &amp; Duplicate Payment Controls.</p>
+        specializes in configuring Tipalti to meet the unique needs of each client, focusing on AI Fraud &amp; Duplicate Payment Controls.</p>
       <p className="text-base text-white shadow-text pt-3">
         The implementation process begins with data mapping and structure decisions. Tipalti requires an
         initial setup where existing financial data is organized in a way that aligns with the platform&#39;s
@@ -21,8 +20,7 @@ export default function ImplementingSection() {
         setting up automated workflows that match the client&#39;s operational needs. For instance, invoices
         can be automatically routed to the appropriate approvers based on predefined criteria, such as
         department or invoice amount. This automation reduces the manual workload and speeds up the approval
-        process, which is essential for maintaining efficient Automated Fraud &amp; Duplicate Payment
-        Controls.</p>
+        process, which is essential for maintaining efficient AI Fraud &amp; Duplicate Payment Controls.</p>
       <p className="text-base text-white shadow-text pt-3">
         Integration with existing systems is another critical aspect of deploying Tipalti. The platform is
         designed to sync with various&nbsp;

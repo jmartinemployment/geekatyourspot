@@ -47,8 +47,7 @@ export default function KeyFactorsSection() {
         loops</GlossaryLink>&nbsp;are built in, and the system is tuned over time. The teams that stall run
         one round of content, see mixed results, and either blame the tools or fall back to old habits.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Back in that South Florida office, the businesses that win are the ones who treat Intelligent Content
-        Generation as an active system, not a one-time install. They set clear goals, keep their data house in
+        Back in that South Florida office, the businesses that win are the ones who treat AI Content Generation as an active system, not a one-time install. They set clear goals, keep their data house in
         order, choose tools that fit, and train everyone who touches content. The rest, those who “try AI for
         a month” and move on, end up right back at the blinking cursor, still looking for a shortcut that
         never arrives.</p>

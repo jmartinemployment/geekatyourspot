@@ -3,8 +3,7 @@ export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Bill is particularly well-suited for small to midsize businesses that need to streamline their automated
-        accounts receivable processes without investing in overly complex systems. Its automated features reduce the
+        Bill is particularly well-suited for small to midsize businesses that need to streamline their AI accounts receivable processes without investing in overly complex systems. Its automated features reduce the
         manual workload, allowing business owners to focus on growth rather than administrative tasks. For companies
         like Maria&#39;s graphic design firm in Miami, this means more time spent on creative work and less on
         chasing payments.</p>
@@ -26,8 +25,7 @@ export default function RightFitSection() {
         businesses can maximize the benefits of Bill&#39;s capabilities, ensuring a successful integration and
         improved financial management.</p>
       <p className="text-base text-white shadow-text pt-3">
-        In conclusion, Bill offers a compelling solution for businesses seeking to automate their automated accounts
-        receivable processes. By partnering with Geek @ Your Spot LLC, businesses can ensure that they are making the
+        In conclusion, Bill offers a compelling solution for businesses seeking to automate their AI accounts receivable processes. By partnering with Geek @ Your Spot LLC, businesses can ensure that they are making the
         most of this powerful tool, leading to improved cash flow and reduced administrative burdens.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when&nbsp;

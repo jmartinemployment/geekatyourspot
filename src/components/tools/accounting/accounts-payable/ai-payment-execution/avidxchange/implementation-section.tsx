@@ -12,8 +12,7 @@ export default function ImplementationSection() {
       <p className="text-base text-white shadow-text pt-3">
         One of the key steps in implementing AvidXchange is leveraging its pre-built connectors for popular
         accounting systems like QuickBooks and NetSuite. These connectors facilitate a quick setup, reducing
-        the time to go-live and minimizing disruption to daily operations. By using these connectors, Geek @ Your Spot LLC ensures that your accounting data flows seamlessly into AvidXchange, enabling automated
-        payment execution without the need for extensive manual input.</p>
+        the time to go-live and minimizing disruption to daily operations. By using these connectors, Geek @ Your Spot LLC ensures that your accounting data flows seamlessly into AvidXchange, enabling AI payment execution without the need for extensive manual input.</p>
       <p className="text-base text-white shadow-text pt-3">
         Configuration of approval chains and routing is another crucial aspect of the implementation process.
         AvidXchange allows for the customization of approval workflows, ensuring that invoices and payments

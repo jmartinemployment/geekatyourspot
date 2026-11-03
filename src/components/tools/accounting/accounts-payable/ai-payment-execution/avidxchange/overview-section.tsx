@@ -28,8 +28,7 @@ export default function OverviewSection() {
         efficiency but also strengthens supplier relationships, as payments are made promptly and
         accurately.</p>
       <p className="text-base text-white shadow-text pt-3">
-        For small businesses in West Palm Beach, Broward, and Miami-Dade counties, adopting automated payment
-        execution is a game-changer. It allows business owners like Lisa to shift their focus from tedious
+        For small businesses in West Palm Beach, Broward, and Miami-Dade counties, adopting AI payment execution is a game-changer. It allows business owners like Lisa to shift their focus from tedious
         paperwork to strategic growth opportunities. By leveraging <GlossaryLink slug="ai">AI</GlossaryLink>
         &nbsp;and automation, businesses can streamline their operations, reduce costs, and ultimately, drive
         more sales. As Lisa discovered, the path to a more efficient and profitable business begins with

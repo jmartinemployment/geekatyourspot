@@ -27,8 +27,7 @@ export default function OverviewSection() {
         AI-driven solutions now give these small teams a fighting chance. Automated sales tax tools track
         economic nexus in real time, apply the right tax rates for every address, and file returns on time
         without hours of manual work. Instead of drowning in complexity, owners get a clear dashboard showing
-        exactly where they stand. For small businesses scaling beyond Florida, this is how Multi-State Sales Tax
-        Nexus stops being a growth roadblock and becomes just another part of doing business, handled, accurate,
+        exactly where they stand. For small businesses scaling beyond Florida, this is how AI Multi-State Sales Tax stops being a growth roadblock and becomes just another part of doing business, handled, accurate,
         and out of the way.</p>
     </>
   );

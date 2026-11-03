@@ -31,8 +31,7 @@ export default function ConfiguringSection() {
         For businesses unsure about handling these configurations themselves, Geek @ Your Spot LLC offers expert
         guidance. They help assess your current processes, identify areas for automation, and configure Bill to
         align with your business goals. This tailored approach not only optimizes Bill&#39;s functionality but also
-        ensures that your team is trained to leverage its full potential, making the transition to automated
-        accounts receivable as smooth as possible.</p>
+        ensures that your team is trained to leverage its full potential, making the transition to AI accounts receivable as smooth as possible.</p>
     </>
   );
 

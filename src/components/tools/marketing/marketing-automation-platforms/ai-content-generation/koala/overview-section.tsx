@@ -26,8 +26,7 @@ export default function OverviewSection() {
         edge, it just adds more sameness to the web. The answer is a content system that remembers your brand,
         adapts to your market, and builds trust with every article, post, and campaign.</p>
       <p className="text-base text-white shadow-text pt-3">
-        This page lays out exactly how small businesses in South Florida can use Intelligent Content
-        Generation to break the cycle: automating content creation, repurposing strong assets, scheduling in
+        This page lays out exactly how small businesses in South Florida can use AI Content Generation to break the cycle: automating content creation, repurposing strong assets, scheduling in
         bulk, adding approval workflows, and personalizing every message. You’ll see what works, what doesn’t,
         and how to get real results, more leads, less wasted time, and a brand that stands out, not just shows
         up.</p>

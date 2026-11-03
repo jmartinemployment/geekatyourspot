@@ -8,8 +8,7 @@ export default function OverviewSection() {
         Why are our email campaigns missing the mark, even when we send updates every week? For most small
         businesses, the real problem is that messages go out to everyone in the same batch, so customers skim,
         ignore or <GlossaryLink slug="opt-out">unsubscribe</GlossaryLink> when they do not see anything that speaks
-        to them. <Link id={`tools-marketing-ai-personalized-email-campaigns-mailerlite-overview-ai-personalized-email-campaigns${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns" className="text-[#C83803] hover:underline">Personalized
-        Email Campaigns</Link> sound like the answer, but actually hand-writing every message for each segment is
+        to them. <Link id={`tools-marketing-ai-personalized-email-campaigns-mailerlite-overview-ai-personalized-email-campaigns${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns" className="text-[#C83803] hover:underline">AI Personalized Email Campaigns</Link> sound like the answer, but actually hand-writing every message for each segment is
         impossible with a small team and limited hours. The result is lost sales, weak follow-up and a list that
         slowly stops caring.</p>
       <p className="text-base text-white shadow-text pt-3">

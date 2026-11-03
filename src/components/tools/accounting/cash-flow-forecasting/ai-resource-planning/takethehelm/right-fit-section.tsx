@@ -41,8 +41,7 @@ export default function RightFitSection() {
         generic dashboard or a one-size-fits-all tool. It is a focused solution for small businesses that need
         to see, plan, and control cash flow without adding headcount or complexity. The next step is to get your
         current accounting data in order and talk through your real process with an implementation expert. That
-        is how you turn Take the Helm from another app into the nerve center of your intelligent resource
-        planning.</p>
+        is how you turn Take the Helm from another app into the nerve center of your AI resource planning.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions
         when&nbsp;<a href="#consultationAppointment2xl" id={`tools-accounting-ai-resource-planning-takethehelm-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking

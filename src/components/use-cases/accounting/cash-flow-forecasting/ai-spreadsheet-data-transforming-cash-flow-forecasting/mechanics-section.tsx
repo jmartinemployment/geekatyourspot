@@ -5,8 +5,7 @@ export default function MechanicsSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        For small businesses in Miami-Dade, Broward, and West Palm Beach counties, implementing automated
-        spreadsheet data systems can
+        For small businesses in Miami-Dade, Broward, and West Palm Beach counties, implementing AI spreadsheet data systems can
         transform&nbsp;<GlossaryLink slug="cash-flow-forecasting" className="text-[#0B162A] hover:underline">cash
         flow forecasting</GlossaryLink>&nbsp;from a cumbersome task into a streamlined, efficient process. The
         approach begins with aligning business objectives to ensure the implementation addresses specific pain

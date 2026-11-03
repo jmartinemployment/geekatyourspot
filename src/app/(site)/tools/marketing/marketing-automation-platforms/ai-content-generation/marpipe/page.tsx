@@ -18,9 +18,9 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Marpipe";
-const PAGE_TITLE = "Marpipe for Measured Lead Generation";
+const PAGE_TITLE = "Marpipe for AI Content Generation";
 const DESCRIPTION =
-    "Measured Lead Generation with Marpipe automates ad creation and campaign management, reducing cost spikes and enabling predictable growth. Compare options now.";
+    "AI Content Generation with Marpipe automates ad creation and campaign management, reducing cost spikes and enabling predictable growth. Compare options now.";
 const CANONICAL = "/tools/marketing/marketing-automation-platforms/ai-content-generation/marpipe";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
             "headline": PAGE_TITLE,
             "description": DESCRIPTION,
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Marpipe, measured lead generation, AI lead generation automation, ad spend optimization, cost per lead, South Florida small business",
+            "keywords": "Marpipe, AI content generation, AI lead generation automation, ad spend optimization, cost per lead, South Florida small business",
             "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
             "datePublished": "2026-10-25T11:32:40.1839700Z",
@@ -72,7 +72,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: PAGE_TITLE,
         description: DESCRIPTION,
-        keywords: ["Marpipe", "measured lead generation", "AI lead generation automation", "ad spend optimization", "cost per lead", "South Florida small business"],
+        keywords: ["Marpipe", "AI content generation", "AI lead generation automation", "ad spend optimization", "cost per lead", "South Florida small business"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

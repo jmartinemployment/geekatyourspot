@@ -6,15 +6,14 @@ export default function LedeSection() {
     <>
       <p className="text-base text-white shadow-text pt-3">
         Why does your ad spend keep shooting up without delivering more quality leads, even after you try to scale
-        your campaigns with <Link id={`blog-marketing-measured-lead-generation-lede-measured-lead-generation${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-measured-lead-generation" className="text-[#C83803] hover:underline">Measured
-        Lead Generation</Link>? The answer is simple: <GlossaryLink slug="cost-per-lead">cost-per-lead</GlossaryLink> spikes
+        your campaigns with <Link id={`blog-marketing-ai-precision-lead-acquisition-lede-ai-precision-lead-acquisition${idSuffix}`} href="/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition" className="text-[#C83803] hover:underline">AI Precision Lead Acquisition</Link>? The answer is simple: <GlossaryLink slug="cost-per-lead">cost-per-lead</GlossaryLink> spikes
         and content bottlenecks are built into the way most South Florida small businesses run their lead gen. When
         you move past basic local ads and start aiming for steady monthly sales, algorithms react to higher budgets
         by driving up your costs, not your sales. Your team struggles to keep up with the demand for fresh ad
         creative, so performance drops faster than you can respond.</p>
       <p className="text-base text-white shadow-text pt-3">
         This is not just a budget problem. As your daily spend creeps from $16 to $50, you hit a wall: cost per lead
-        jumps, and your profit margins thin out (<a id={`blog-marketing-measured-lead-generation-lede-source-wrench-ai${idSuffix}`} href="https://wrench.ai/products/sneak-peek-of-the-wrench.ai-platform" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Wrench</a>,
+        jumps, and your profit margins thin out (<a id={`blog-marketing-ai-precision-lead-acquisition-lede-source-wrench-ai${idSuffix}`} href="https://wrench.ai/products/sneak-peek-of-the-wrench.ai-platform" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Wrench</a>,
         as of Oct 24, 2026). Manual content updates cannot keep up with what Facebook and Google demand to avoid <GlossaryLink slug="ad-fatigue">ad
         fatigue</GlossaryLink>. You cannot write or maintain the scripts that would protect you from sudden
         competitor bid spikes or pause campaigns when your <GlossaryLink slug="landing-page">landing page</GlossaryLink> breaks.
@@ -25,7 +24,7 @@ export default function LedeSection() {
         What is at stake? If you do not solve these operational bottlenecks, your business will not just lose money
         on inefficient lead gen. You will lose growth momentum and cede market opportunity to competitors who
         automate creative, data sync, and budget controls. Every week you wait, the compounding effect of wasted
-        budget and missed leads gets worse. Measured Lead Generation is about putting process and technology in
+        budget and missed leads gets worse. AI Precision Lead Acquisition is about putting process and technology in
         place so you can finally scale without burning through your margins.</p>
       <p className="text-base text-white shadow-text pt-3">
         This page is for small businesses in Miami-Dade, Broward, and West Palm Beach counties that are ready to

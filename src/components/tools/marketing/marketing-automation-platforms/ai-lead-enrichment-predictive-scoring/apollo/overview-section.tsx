@@ -31,8 +31,7 @@ export default function OverviewSection() {
       <p className="text-base text-white shadow-text pt-3">
         This approach is designed for small businesses in South Florida that cannot afford to waste resources.
         It answers the core question: How do you stop losing your best opportunities to manual process and
-        data gaps, and start turning anonymous visitors into real pipeline? Lead Enrichment and Predictive
-        Scoring, built into a modern capture pipeline, is the answer.</p>
+        data gaps, and start turning anonymous visitors into real pipeline? AI Lead Enrichment and Predictive Scoring, built into a modern capture pipeline, is the answer.</p>
     </>
   );
 

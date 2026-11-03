@@ -22,7 +22,7 @@ const jsonLd: Graph = {
       "publisher": { "@type": "Organization", "url": SITE_URL, "name": "Geek @ Your Spot LLC" },
       "mainEntityOfPage": { "@type": "WebPage", "@id": `${SITE_URL}/blog/accounting` },
       "keywords":
-        "AI accounting, accounts payable automation, cash flow forecasting, tax compliance, small business AI",
+        "Accounting, accounts payable automation, cash flow forecasting, tax compliance, small business AI",
     },
   ],
 };
@@ -32,7 +32,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     title: PAGE_TITLE,
     description: PAGE_DESCRIPTION,
     keywords: [
-      "AI accounting",
+      "Accounting",
       "accounts payable automation",
       "cash flow forecasting",
       "tax compliance",

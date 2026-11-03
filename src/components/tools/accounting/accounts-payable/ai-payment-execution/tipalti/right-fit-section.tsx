@@ -3,8 +3,7 @@ export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Tipalti is particularly well-suited for small businesses looking to streamline their Automated Payment
-        Execution. If your business deals with multiple currencies and requires robust compliance features,
+        Tipalti is particularly well-suited for small businesses looking to streamline their AI Payment Execution. If your business deals with multiple currencies and requires robust compliance features,
         Tipalti offers a comprehensive solution. Its ability to automate complex processes like tax compliance
         and supplier onboarding makes it a strong choice for businesses aiming to reduce manual workload and
         focus on growth.</p>

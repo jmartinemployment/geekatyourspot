@@ -24,8 +24,7 @@ export default function RightFitSection() {
       <p className="text-base text-white shadow-text pt-3">
         Ultimately, the decision to implement Melio should be based on a thorough analysis of its
         capabilities in relation to your business needs. By focusing on the specific benefits Melio offers,
-        businesses can make an informed decision about whether it&#39;s the right tool for their Automated
-        Payment Execution.</p>
+        businesses can make an informed decision about whether it&#39;s the right tool for their AI Payment Execution.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when&nbsp;
         <a href="#consultationAppointment2xl" id={`tools-accounting-payment-execution-melio-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">

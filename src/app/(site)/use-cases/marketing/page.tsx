@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import SharedHeroSection from "@/components/shared/shared-hero-section";
-import OverviewSection from '@/components/use-cases/marketing/ai-marketing-systems/overview-section'
-import IntroductionSection from '@/components/use-cases/marketing/ai-marketing-systems/introduction-section'
-import BenefitsSection from "@/components/use-cases/marketing/ai-marketing-systems/benefits-section";
-import KeyImplementationStrategiesSection from "@/components/use-cases/marketing/ai-marketing-systems/key-implementation-strategies";
-import MeasuringSuccessRoiSection from "@/components/use-cases/marketing/ai-marketing-systems/measuring-sucess-roi";
-import FAQSection from "@/components/use-cases/marketing/ai-marketing-systems/faq-section";
+import OverviewSection from '@/components/use-cases/marketing/overview/overview-section'
+import IntroductionSection from '@/components/use-cases/marketing/overview/introduction-section'
+import BenefitsSection from "@/components/use-cases/marketing/overview/benefits-section";
+import KeyImplementationStrategiesSection from "@/components/use-cases/marketing/overview/key-implementation-strategies";
+import MeasuringSuccessRoiSection from "@/components/use-cases/marketing/overview/measuring-sucess-roi";
+import FAQSection from "@/components/use-cases/marketing/overview/faq-section";
 import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";

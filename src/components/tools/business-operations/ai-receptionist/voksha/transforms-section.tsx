@@ -61,8 +61,7 @@ export default function TransformsSection() {
       <p className="text-base text-white shadow-text pt-3">
         The result: your business stops leaking revenue from missed calls, stops paying for more than it needs,
         and stops wasting staff time on routine phone work. Voksha does not just automate the phone line, it
-        gives you back the hours, the focus, and the control that manual reception took away. The Intelligent
-        Receptionist becomes an extension of your brand, always on, always accurate, and always ready to capture
+        gives you back the hours, the focus, and the control that manual reception took away. The AI Receptionist becomes an extension of your brand, always on, always accurate, and always ready to capture
         the next opportunity.</p>
     </>
   );

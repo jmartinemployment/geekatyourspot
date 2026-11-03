@@ -6,8 +6,7 @@ export default function ArchitectureSection() {
       <p className="text-base text-white shadow-text pt-3">
         Bill&#39;s architecture is designed to support seamless integration and scalability, making it a robust
         platform for managing accounts receivable. At its core, Bill operates on a cloud-based infrastructure that
-        ensures high availability and reliability. This architecture allows businesses to access their automated
-        accounts receivable data from anywhere, at any time, using any device. The cloud-based nature of Bill also
+        ensures high availability and reliability. This architecture allows businesses to access their AI accounts receivable data from anywhere, at any time, using any device. The cloud-based nature of Bill also
         facilitates regular updates and maintenance without disrupting user operations.</p>
       <p className="text-base text-white shadow-text pt-3">
         Integration capabilities are a standout feature of Bill&#39;s architecture. The platform supports two-way

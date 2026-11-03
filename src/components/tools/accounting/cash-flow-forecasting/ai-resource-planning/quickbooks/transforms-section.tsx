@@ -3,8 +3,7 @@ export default function TransformsSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        QuickBooks tackles the real problems that block small businesses from scaling their Intelligent Resource
-        Planning. Instead of fighting with spreadsheets, disconnected apps, and manual processes, QuickBooks
+        QuickBooks tackles the real problems that block small businesses from scaling their AI Resource Planning. Instead of fighting with spreadsheets, disconnected apps, and manual processes, QuickBooks
         brings everything into one place, giving you live numbers, smart automation, and controls that fit your
         team. What matters is not the feature list, but what it takes off your plate.</p>
       <p className="text-base text-white shadow-text pt-3">

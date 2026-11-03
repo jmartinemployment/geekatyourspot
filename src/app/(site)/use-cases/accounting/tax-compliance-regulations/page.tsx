@@ -32,7 +32,7 @@ const jsonLd: Graph = {
                 "@type": "WebPage",
                 "@id": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations"
             },
-            "keywords": "Automated Tax Compliance, Tax Regulations Automation, AI in Tax Compliance, Financial Operations Automation, Tax Compliance Software, AI Solutions Integration, Regulatory Compliance, Tax Automation Tools, Financial Process Automation, AI Implementation Consultancy",
+            "keywords": "Tax Compliance & Regulations, Tax Regulations Automation, AI in Tax Compliance, Financial Operations Automation, Tax Compliance Software, AI Solutions Integration, Regulatory Compliance, Tax Automation Tools, Financial Process Automation, AI Implementation Consultancy",
             "wordCount": 3337,
             "mentions": [
                 { "@type": "Thing", "name": "Avalara", "url": "https://www.avalara.com/" },
@@ -65,7 +65,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: "Tax Compliance & Regulations",
         description: "Explore the benefits and tools for implementing automated tax compliance to streamline financial operations.",
-        keywords: ["Automated Tax Compliance", "Tax Regulations Automation", "AI in Tax Compliance", "Financial Operations Automation", "Tax Compliance Software", "AI Solutions Integration", "Regulatory Compliance", "Tax Automation Tools", "Financial Process Automation", "AI Implementation Consultancy"],
+        keywords: ["Tax Compliance & Regulations", "Tax Regulations Automation", "AI in Tax Compliance", "Financial Operations Automation", "Tax Compliance Software", "AI Solutions Integration", "Regulatory Compliance", "Tax Automation Tools", "Financial Process Automation", "AI Implementation Consultancy"],
         authors: [{ name: 'Geek @ Your Spot LLC', url: 'https://geekatyourspot.com/' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
@@ -113,7 +113,7 @@ export default async function Page() {
     const title = "Tax Compliance & Regulations";
     const heroSummary = "Simplify your tax processes with automated compliance solutions that integrate seamlessly into your financial operations."
     const heroImage = "/images/accounting/use-cases/tax-compliance-regulations/intelligent-tax-compliance-regulations-hero.avif";
-    const imgAlt = "Intelligent tax compliance and regulations";
+    const imgAlt = "Tax compliance and regulations";
     return (
         <>
             <script

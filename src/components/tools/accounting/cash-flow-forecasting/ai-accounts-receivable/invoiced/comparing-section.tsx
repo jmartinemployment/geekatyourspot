@@ -3,8 +3,7 @@ export default function ComparingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        For small businesses in Miami-Dade, Broward, and West Palm Beach counties, choosing the right automated
-        accounts receivable solution can be challenging. Invoiced stands out by offering a comprehensive platform
+        For small businesses in Miami-Dade, Broward, and West Palm Beach counties, choosing the right AI accounts receivable solution can be challenging. Invoiced stands out by offering a comprehensive platform
         that automates the entire invoice-to-cash process. It integrates seamlessly with popular accounting systems
         like QuickBooks and NetSuite, ensuring real-time data synchronization and reducing manual data entry. This
         capability is crucial for businesses looking to streamline operations and improve cash flow.</p>

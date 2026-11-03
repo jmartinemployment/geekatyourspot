@@ -35,7 +35,7 @@ const jsonLd: Graph = {
             "datePublished": "2026-10-15T19:43:46.5005360Z",
             "dateModified": "2026-10-15T19:43:46.5005360Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "AI Receptionist, Lead Capture Pipeline, South Florida small business, Miami-Dade AI automation, Broward business automation, West Palm Beach lead capture, Smart chatbots for marketing, Lead scoring AI, Voice assistant automation",
+            "keywords": "AI Receptionist, Front Desk, South Florida small business, Miami-Dade AI automation, Broward business automation, West Palm Beach lead capture, Smart chatbots for marketing, Lead scoring AI, Voice assistant automation",
             "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/ai-sales-force-automation-software" },
             "mentions": [
                 { "@type": "Thing", "name": "LobbyStack", "url": "https://lobbystack.com/" },
@@ -61,7 +61,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: TITLE,
         description: DESCRIPTION,
-        keywords: ["AI Receptionist", "Lead Capture Pipeline", "South Florida small business", "Miami-Dade AI automation", "Broward business automation", "West Palm Beach lead capture", "Smart chatbots for marketing", "Lead scoring AI", "Voice assistant automation"],
+        keywords: ["AI Receptionist", "Front Desk", "South Florida small business", "Miami-Dade AI automation", "Broward business automation", "West Palm Beach lead capture", "Smart chatbots for marketing", "Lead scoring AI", "Voice assistant automation"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',

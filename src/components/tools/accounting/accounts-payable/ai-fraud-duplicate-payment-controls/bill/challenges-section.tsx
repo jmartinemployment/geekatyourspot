@@ -3,8 +3,7 @@ export default function ChallengesSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Small businesses often face significant challenges when managing Automated Fraud &amp; Duplicate Payment
-        Controls. These issues stem from a lack of cohesive processes that integrate invoice intake, approval,
+        Small businesses often face significant challenges when managing AI Fraud &amp; Duplicate Payment Controls. These issues stem from a lack of cohesive processes that integrate invoice intake, approval,
         payment, and accounting records. This disconnection can lead to costly errors, such as paying the same
         invoice twice or making payments without proper authorization. For instance, consider a situation where
         both the business owner and the bookkeeper enter the same vendor bill independently. This duplication

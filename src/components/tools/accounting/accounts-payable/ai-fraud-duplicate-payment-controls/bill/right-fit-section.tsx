@@ -5,8 +5,7 @@ export default function RightFitSection() {
       <p className="text-base text-white shadow-text pt-3">
         Bill is particularly well-suited for small to medium-sized businesses in South Florida that are looking
         to streamline their&nbsp;
-        accounts payable&nbsp;processes with Automated
-        Fraud &amp; Duplicate Payment Controls. The platform&#39;s ability to automate tedious tasks like invoice
+        accounts payable&nbsp;processes with AI Fraud &amp; Duplicate Payment Controls. The platform&#39;s ability to automate tedious tasks like invoice
         matching and purchase order reconciliation makes it an attractive option for businesses seeking to
         reduce manual errors and improve efficiency.</p>
       <p className="text-base text-white shadow-text pt-3">

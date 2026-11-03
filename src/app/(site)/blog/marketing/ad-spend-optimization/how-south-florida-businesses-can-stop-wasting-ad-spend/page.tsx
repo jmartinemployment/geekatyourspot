@@ -15,7 +15,7 @@ import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "How South Florida Businesses Can Stop Wasting Ad Spend";
 const DESCRIPTION =
-    "Measured Lead Generation cuts wasted ad spend for Miami-Dade, Broward, and Palm Beach small businesses. Boost lead quality and lower costs fast. See how.";
+    "AI Precision Lead Acquisition cuts wasted ad spend for Miami-Dade, Broward, and Palm Beach small businesses. Boost lead quality and lower costs fast. See how.";
 const CANONICAL = "/blog/marketing/ad-spend-optimization/how-south-florida-businesses-can-stop-wasting-ad-spend";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
@@ -31,7 +31,7 @@ const jsonLd: Graph = {
             "datePublished": "2026-10-25T11:32:40.1839700Z",
             "dateModified": "2026-10-25T11:32:40.1839700Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
-            "keywords": "Measured Lead Generation, Ad Spend Optimization, Predictive Analytics for Advertising, South Florida small business marketing, AI lead generation tools, ROI-driven advertising, lead quality improvement, Miami-Dade marketing, Broward business growth, West Palm Beach lead generation",
+            "keywords": "AI Precision Lead Acquisition, Ad Spend Optimization, Predictive Analytics for Advertising, South Florida small business marketing, AI lead generation tools, ROI-driven advertising, lead quality improvement, Miami-Dade marketing, Broward business growth, West Palm Beach lead generation",
             "wordCount": 4544,
             "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/ad-spend-optimization" },
             "mentions": [
@@ -62,7 +62,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     return {
         title: TITLE,
         description: DESCRIPTION,
-        keywords: ["Measured Lead Generation", "Ad Spend Optimization", "Predictive Analytics for Advertising", "South Florida small business marketing", "AI lead generation tools", "ROI-driven advertising", "lead quality improvement", "Miami-Dade marketing", "Broward business growth", "West Palm Beach lead generation"],
+        keywords: ["AI Precision Lead Acquisition", "Ad Spend Optimization", "Predictive Analytics for Advertising", "South Florida small business marketing", "AI lead generation tools", "ROI-driven advertising", "lead quality improvement", "Miami-Dade marketing", "Broward business growth", "West Palm Beach lead generation"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
@@ -96,7 +96,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page() {
     const heroSummary =
-        "Struggling with wasted ad dollars and low-quality leads? Learn how measured lead generation uses real data to cut costs, boost conversions, and make every marketing dollar count for your local business.";
+        "Struggling with wasted ad dollars and low-quality leads? Learn how precision lead acquisition uses real data to cut costs, boost conversions, and make every marketing dollar count for your local business.";
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />

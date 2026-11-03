@@ -44,8 +44,7 @@ export default function RightFitSection() {
         The right moment to move is when the cost of missed connections, manual updates, and delayed follow-up
         becomes larger than the effort required to get your channels, leads, and team onto one page. When you
         see calls go to voicemail, DMs left unanswered, or the same question handled three times by different
-        people, you know the business has outgrown the patchwork approach. That is when a cross-platform
-        chatbot is not just an upgrade, but a necessity.</p>
+        people, you know the business has outgrown the patchwork approach. That is when an AI chatbot is not just an upgrade, but a necessity.</p>
     </>
   );
 

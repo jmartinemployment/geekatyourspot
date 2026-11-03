@@ -22,8 +22,7 @@ export default function OverviewSection() {
         eliminating the need for manual routing and allowing for real-time tracking, businesses can
         significantly improve their operational efficiency.</p>
       <p className="text-base text-white shadow-text pt-3">
-        For small businesses in West Palm Beach, Broward, and Miami-Dade counties, implementing automated
-        approval workflows can transform the accounts payable process into a seamless operation. With
+        For small businesses in West Palm Beach, Broward, and Miami-Dade counties, implementing AI invoice approval workflows can transform the accounts payable process into a seamless operation. With
         automation, invoices are routed to the correct approvers with all relevant information attached,
         ensuring that nothing falls through the cracks. This not only speeds up the approval process but also
         reduces the administrative burden on staff, allowing them to focus on more strategic tasks that drive

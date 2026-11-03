@@ -46,8 +46,7 @@ export default function EvaluatingSection() {
       <p className="text-base text-white shadow-text pt-3">
         The HVAC team from the opening story found that Nextiva’s pricing meant they could finally afford to
         answer every call, every time, without hiring extra staff or worrying about overtime. They saw fewer
-        missed jobs, tighter schedules, and less stress on their technicians. The real test for any Intelligent
-        Receptionist is whether it lets your best people focus on what only they can do, serving customers,
+        missed jobs, tighter schedules, and less stress on their technicians. The real test for any AI Receptionist is whether it lets your best people focus on what only they can do, serving customers,
         closing sales, running the business, while the routine, repetitive work is handled instantly and
         accurately. Nextiva’s fit for small, local businesses comes down to this: it is a practical, affordable
         way to stop losing money to missed connections and fragmented systems, and it does not ask you to become

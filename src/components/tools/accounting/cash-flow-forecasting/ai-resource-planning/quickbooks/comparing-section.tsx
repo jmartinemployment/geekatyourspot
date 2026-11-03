@@ -3,8 +3,7 @@ export default function ComparingSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        Most small businesses in Miami-Dade, Broward, and West Palm Beach looking at Intelligent Resource
-        Planning are stuck between two extremes: sticking with spreadsheets and basic accounting software, or
+        Most small businesses in Miami-Dade, Broward, and West Palm Beach looking at AI Resource Planning are stuck between two extremes: sticking with spreadsheets and basic accounting software, or
         making a risky leap to a full
         enterprise&nbsp;ERP.
         QuickBooks sits in the middle, designed for teams who have outgrown manual work but are not ready for

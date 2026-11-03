@@ -25,8 +25,7 @@ export default function RightFitSection() {
         and determine how Chaserhq can address specific pain points. With their expertise, businesses can make an
         informed decision about whether to implement Chaserhq or consider alternative solutions.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Ultimately, Chaserhq is a powerful tool for businesses looking to enhance their automated accounts
-        receivable processes through automation and integration. For those in South Florida, partnering with Geek @ Your Spot LLC can ensure a smooth implementation, allowing businesses to focus on growth and customer
+        Ultimately, Chaserhq is a powerful tool for businesses looking to enhance their AI accounts receivable processes through automation and integration. For those in South Florida, partnering with Geek @ Your Spot LLC can ensure a smooth implementation, allowing businesses to focus on growth and customer
         satisfaction.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when&nbsp;

@@ -33,8 +33,7 @@ export default function RightFitSection() {
         need a platform that will write back to your ledger and automate every operational process, you will
         need to look elsewhere or use Cashflowfrog alongside a broader system.</p>
       <p className="text-base text-white shadow-text pt-3">
-        For teams that are still deciding, the next step is to look at what you need from Intelligent Resource
-        Planning. If you are spending hours each week pulling numbers, chasing down late payments, or worrying
+        For teams that are still deciding, the next step is to look at what you need from AI Resource Planning. If you are spending hours each week pulling numbers, chasing down late payments, or worrying
         about missing payroll, Cashflowfrog will save you time and reduce stress. If you have outgrown
         spreadsheets but do not want to take on the overhead of a
         full&nbsp;ERP, this is the sweet spot. The 14-day free trial,

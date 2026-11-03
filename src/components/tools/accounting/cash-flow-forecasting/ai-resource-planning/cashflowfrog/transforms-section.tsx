@@ -16,8 +16,7 @@ export default function TransformsSection() {
         updates daily. The team can drill down from any figure to the exact transaction behind it, making it
         easy to trace the cause of a cash dip or a spike in expenses.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Cashflowfrog does more than just automate data entry. It brings real intelligence to intelligent
-        resource planning. AI-driven projections spot new patterns after every sync, suggesting adjustments
+        Cashflowfrog does more than just automate data entry. It brings real intelligence to AI resource planning. AI-driven projections spot new patterns after every sync, suggesting adjustments
         based on actual business behavior. Rule-based projections let the business tie expenses to income, such
         as setting ad spend as a percentage of revenue, so the forecast adjusts automatically as sales rise or
         fall. Scenario planning is built in. The team can test what happens if a major client pays late, a big

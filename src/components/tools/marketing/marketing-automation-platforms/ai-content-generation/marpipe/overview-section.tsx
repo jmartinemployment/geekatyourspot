@@ -7,11 +7,11 @@ export default function OverviewSection() {
       <p className="text-base text-white shadow-text pt-3">
         Why does trying to scale digital advertising with manual workflows always seem to backfire for small
         businesses spending $16 to $50 a day, and why does <GlossaryLink slug="cost-per-lead">cost-per-lead</GlossaryLink> spike
-        just when you need results (<a id={`tools-marketing-measured-lead-generation-marpipe-overview-source-marpipe-com${idSuffix}`} href="https://www.marpipe.com/blog/ad-testing-the-ultimate-media-budget-hack" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Marpipe</a>,
+        just when you need results (<a id={`tools-marketing-marketing-automation-platforms-ai-content-generation-marpipe-overview-source-marpipe-com${idSuffix}`} href="https://www.marpipe.com/blog/ad-testing-the-ultimate-media-budget-hack" target="_blank" rel="noopener noreferrer" className="text-[#C83803] hover:underline">Marpipe</a>,
         as of Oct 24, 2026)? As soon as a business in West Palm Beach, Broward or Miami-Dade pushes for a steady
         sales pipeline, manual processes for creative production and campaign management hit their limit. The real
         barrier is not lack of effort or budget, but the operational ceiling created by manual ad creation and
-        scattered data. <Link id={`tools-marketing-measured-lead-generation-marpipe-overview-measured-lead-generation${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-generation" className="text-[#C83803] hover:underline">AI Content Generation</Link> exposes this hard fact: beyond basic local reach, manual ad workflows cause costs to
+        scattered data. <Link id={`tools-marketing-marketing-automation-platforms-ai-content-generation-marpipe-overview-ai-content-generation${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-generation" className="text-[#C83803] hover:underline">AI Content Generation</Link> exposes this hard fact: beyond basic local reach, manual ad workflows cause costs to
         rise fast, creative to stall out, and sales predictability to disappear.</p>
       <p className="text-base text-white shadow-text pt-3">
         Every dollar you put into ads is at risk when you cannot keep up with the pace of change. Creative
@@ -29,7 +29,7 @@ export default function OverviewSection() {
         just the results. For a small business in South Florida, these limits mean you cannot build the predictable,
         low-variance pipeline you need to grow.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Measured Lead Generation, as structured by Geek @ Your Spot, is for small teams ready to break out of this
+        AI Content Generation, as structured by Geek @ Your Spot, is for small teams ready to break out of this
         loop. It replaces manual guesswork with consistent, data-driven lead capture, so every dollar spent brings
         in more <GlossaryLink slug="qualified-lead">qualified leads</GlossaryLink> and fewer costly surprises. This
         approach is built for local businesses in West Palm Beach, Broward, and Miami-Dade who want to scale

@@ -32,7 +32,7 @@ export const HAND_CODED_POSTS: readonly HandCodedPost[] = [
     href: "/blog/marketing/ad-spend-optimization/how-south-florida-businesses-can-stop-wasting-ad-spend",
     title: "How South Florida Businesses Can Stop Wasting Ad Spend",
     excerpt:
-      "Measured Lead Generation cuts wasted ad spend for Miami-Dade, Broward, and Palm Beach small businesses. Boost lead quality and lower costs fast. See how.",
+      "AI Precision Lead Acquisition cuts wasted ad spend for Miami-Dade, Broward, and Palm Beach small businesses. Boost lead quality and lower costs fast. See how.",
     department: "marketing",
     date: "2026-10-25T11:32:40.1839700Z",
   },

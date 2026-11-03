@@ -39,8 +39,7 @@ export default function ImplementingSection() {
         Finally, Geek @ Your Spot LLC offers ongoing support and maintenance to address any issues that may arise
         post-implementation. This support ensures that the system continues to operate smoothly and that any
         necessary adjustments can be made to optimize performance. By providing a comprehensive
-        implementation service, Geek @ Your Spot LLC enables businesses to confidently transition to automated
-        approval workflows with Approvalmax, enhancing their operational efficiency and financial
+        implementation service, Geek @ Your Spot LLC enables businesses to confidently transition to AI invoice approval workflows with Approvalmax, enhancing their operational efficiency and financial
         oversight.</p>
     </>
   );

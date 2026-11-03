@@ -24,8 +24,7 @@ export default function DataMappingSection() {
         correctly configured during the mapping phase protects your data from unauthorized access and potential
         breaches.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Finally, ongoing data management is essential for maintaining the integrity of your automated accounts
-        receivable process. Regular audits and updates to the data mapping ensure that your system adapts to any
+        Finally, ongoing data management is essential for maintaining the integrity of your AI accounts receivable process. Regular audits and updates to the data mapping ensure that your system adapts to any
         changes in your business environment. This proactive approach helps in maintaining data accuracy and
         supports the continuous optimization of your financial operations.</p>
     </>

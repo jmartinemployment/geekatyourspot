@@ -80,7 +80,7 @@ export function UseCasesSection() {
                                             Stop burning billable hours on manual data entry.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
-                                            Top 5 Intelligent Data Entry Processing Tools:
+                                            Top 5 AI Data Entry & Processing Tools:
                                         </h6>
                                         <p className="text-black text-xs whitespace-nowrap text-shadow-xs">
                                             <Link
@@ -121,7 +121,7 @@ export function UseCasesSection() {
                                         <p className="text-black text-xs text-shadow-xs">
                                             Take the bottlenecks out of your business without losing control.                                        </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
-                                            Top 5 Intelligent Approval Workflow Tools:
+                                            Top 5 AI Invoice Approval Workflow Tools:
                                         </h6>
                                         <p className="text-black text-xs text-shadow-xs">
                                             <Link
@@ -167,7 +167,7 @@ export function UseCasesSection() {
                                         <p className="text-black text-xs text-shadow-xs">
                                             Control exactly how and when your cash moves, automatically.                                        </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
-                                            Top 5 Intelligent Payment Execution Tools:
+                                            Top 5 AI Payment Execution Tools:
                                         </h6>
                                         <p className="text-xs text-shadow-xs">
                                             <Link
@@ -214,7 +214,7 @@ export function UseCasesSection() {
                                             Stop financial leaks before they walk out the door.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
-                                            Top 5 Intelligent Fraud & Duplicate Payment Controls Tools:
+                                            Top 5 AI Fraud & Duplicate Payment Controls Tools:
                                         </h6>
                                         <p className="text-xs text-shadow-xs">
                                             <Link
@@ -273,7 +273,7 @@ export function UseCasesSection() {
                                         <p className="text-black text-xs  text-shadow-xs">
                                             Get paid faster without ever chasing a client again.                                        </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
-                                            Top 5 Intelligent Accounts Receivable Tools:
+                                            Top 5 AI Accounts Receivable Tools:
                                         </h6>
                                         <p className="text-xs  text-shadow-xs">
                                             <Link
@@ -322,7 +322,7 @@ export function UseCasesSection() {
                                             Turn static rows of cells into a dynamic, living business playbook.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
-                                            Top 5 Intelligent Spreadsheet Replacement Tools:
+                                            Top 5 AI Spreadsheet Data Tools:
                                         </h6>
                                         <p className="text-xs  text-shadow-xs">
                                             <Link
@@ -369,7 +369,7 @@ export function UseCasesSection() {
                                             Get big-enterprise efficiency without the big-enterprise price tag.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
-                                            Top 5 Intelligent Resource Planning Tools:
+                                            Top 5 AI Resource Planning Tools:
                                         </h6>
                                         <p className="text-xs  text-shadow-xs">
                                             <Link
@@ -427,7 +427,7 @@ export function UseCasesSection() {
                                             Stop guessing your way through complex tax codes.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
-                                            Top 5 Intelligent Tax Law Tools:
+                                            Top 5 AI Tax Law Tools:
                                         </h6>
                                         <p className="text-xs  text-shadow-xs">
                                             <Link
@@ -474,7 +474,7 @@ export function UseCasesSection() {
                                             Take the liability and absolute dread out of payroll administration.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
-                                            Top 5 Intelligent Payroll Tax Tools:
+                                            Top 5 AI Payroll Tax Tools:
                                         </h6>
                                         <p className="text-xs  text-shadow-xs">
                                             <Link
@@ -521,7 +521,7 @@ export function UseCasesSection() {
                                             Expand your market without inheriting a compliance nightmare.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
-                                            Top 5 Intelligent Multi-State Sales Tax Tools:
+                                            Top 5 AI Multi-State Sales Tax Tools:
                                         </h6>
                                         <p className="text-xs  text-shadow-xs">
                                             <Link
@@ -604,7 +604,7 @@ export function UseCasesSection() {
                                                 </h5>
                                             </Link>
                                             <p className="text-black text-xs text-shadow-xs">
-                                                Intelligent Content Planning streamlines content creation for small businesses, saving time and reducing errors.
+                                                AI Content Planning streamlines content creation for small businesses, saving time and reducing errors.
                                             </p>
                                             <h6 className="text-black text-xs font-bold pt-1">
                                                 Top AI Content Planning Tools:
@@ -652,7 +652,7 @@ export function UseCasesSection() {
                                                 </h5>
                                             </Link>
                                             <p className="text-black text-xs text-shadow-xs">
-                                                Intelligent Content Generation helps Miami-Dade, Broward, and West Palm Beach businesses automate content creation, repurposing, scheduling, and approvals.
+                                                AI Content Generation helps Miami-Dade, Broward, and West Palm Beach businesses automate content creation, repurposing, scheduling, and approvals.
                                             </p>
                                             <h6 className="text-black text-xs font-bold pt-1">
                                                 Top AI SEO Content Generation Tools:
@@ -857,7 +857,7 @@ export function UseCasesSection() {
                                                 Make every ad dollar count with targeted local advertising for budgets under $500/month. Reach nearby customers, reduce wasted spending, and focus your budget on the ads that perform best.
                                             </p>
                                             <h6 className="text-black text-xs font-bold pt-1">
-                                                Top Precision Lead Acquisition Tools:
+                                                Top AI Precision Lead Acquisition Tools:
                                             </h6>
                                             <p className="text-xs text-shadow-xs">
                                                 <Link
@@ -970,7 +970,7 @@ export function UseCasesSection() {
                                             24/7, cloud native conversational software platform that handles incoming business phone calls with natural human fluency.
                                         </p>
                                         <h6 className="text-black text-xs font-bold pt-1">
-                                            Top Intelligent Receptionist Tools:
+                                            Top AI Receptionist Tools:
                                         </h6>
                                         <p className="text-xs text-shadow-xs">
                                             <Link
@@ -1226,7 +1226,7 @@ export function UseCasesSection() {
                                             Stop burning billable hours on manual data entry.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
-                                            Top 5 Intelligent Data Entry Processing Tools:
+                                            Top 5 AI Data Entry & Processing Tools:
                                         </h6>
                                         <p className="text-black text-sm whitespace-nowrap text-shadow-xs">
                                             <Link
@@ -1267,7 +1267,7 @@ export function UseCasesSection() {
                                         <p className="text-black text-sm text-shadow-xs">
                                             Take the bottlenecks out of your business without losing control.                                        </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
-                                            Top 5 Intelligent Approval Workflow Tools:
+                                            Top 5 AI Invoice Approval Workflow Tools:
                                         </h6>
                                         <p className="text-black text-sm text-shadow-xs">
                                             <Link
@@ -1313,7 +1313,7 @@ export function UseCasesSection() {
                                         <p className="text-black text-sm text-shadow-xs">
                                             Control exactly how and when your cash moves, automatically.                                        </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
-                                            Top 5 Intelligent Payment Execution Tools:
+                                            Top 5 AI Payment Execution Tools:
                                         </h6>
                                         <p className="text-black text-sm text-shadow-xs">
                                             <Link
@@ -1360,7 +1360,7 @@ export function UseCasesSection() {
                                             Stop financial leaks before they walk out the door.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
-                                            Top 5 Intelligent Fraud & Duplicate Payment Controls Tools:
+                                            Top 5 AI Fraud & Duplicate Payment Controls Tools:
                                         </h6>
                                         <p className="text-black text-sm text-shadow-xs">
                                             <Link
@@ -1419,7 +1419,7 @@ export function UseCasesSection() {
                                         <p className="text-black text-sm  text-shadow-xs">
                                             Get paid faster without ever chasing a client again.                                        </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
-                                            Top 5 Intelligent Accounts Receivable Tools:
+                                            Top 5 AI Accounts Receivable Tools:
                                         </h6>
                                         <p className="text-black text-sm  text-shadow-xs">
                                             <Link
@@ -1468,7 +1468,7 @@ export function UseCasesSection() {
                                             Turn static rows of cells into a dynamic, living business playbook.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
-                                            Top 5 Intelligent Spreadsheet Replacement Tools:
+                                            Top 5 AI Spreadsheet Data Tools:
                                         </h6>
                                         <p className="text-black text-sm  text-shadow-xs">
                                             <Link
@@ -1515,7 +1515,7 @@ export function UseCasesSection() {
                                             Get big-enterprise efficiency without the big-enterprise price tag.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
-                                            Top 5 Intelligent Resource Planning Tools:
+                                            Top 5 AI Resource Planning Tools:
                                         </h6>
                                         <p className="text-black text-sm  text-shadow-xs">
                                             <Link
@@ -1574,7 +1574,7 @@ export function UseCasesSection() {
                                             Stop guessing your way through complex tax codes.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
-                                            Top 5 Intelligent Tax Law Tools:
+                                            Top 5 AI Tax Law Tools:
                                         </h6>
                                         <p className="text-black text-sm  text-shadow-xs">
                                             <Link
@@ -1621,7 +1621,7 @@ export function UseCasesSection() {
                                             Take the liability and absolute dread out of payroll administration.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
-                                            Top 5 Intelligent Payroll Tax Tools:
+                                            Top 5 AI Payroll Tax Tools:
                                         </h6>
                                         <p className="text-black text-sm  text-shadow-xs">
                                             <Link
@@ -1668,7 +1668,7 @@ export function UseCasesSection() {
                                             Expand your market without inheriting a compliance nightmare.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
-                                            Top 5 Intelligent Multi-State Sales Tax Tools:
+                                            Top 5 AI Multi-State Sales Tax Tools:
                                         </h6>
                                         <p className="text-black text-sm  text-shadow-xs">
                                             <Link
@@ -1739,7 +1739,7 @@ export function UseCasesSection() {
                                                 </h5>
                                             </Link>
                                             <p className="text-black text-sm text-shadow-xs">
-                                                Intelligent Content Planning streamlines content creation for small businesses, saving time and reducing errors.
+                                                AI Content Planning streamlines content creation for small businesses, saving time and reducing errors.
                                             </p>
                                             <h6 className="text-black text-sm font-bold pt-1">
                                                 Top AI Content Planning Tools:
@@ -1787,7 +1787,7 @@ export function UseCasesSection() {
                                                 </h5>
                                             </Link>
                                             <p className="text-black text-sm text-shadow-xs">
-                                                Intelligent Content Generation helps Miami-Dade, Broward, and West Palm Beach businesses automate content creation, repurposing, scheduling, and approvals.
+                                                AI Content Generation helps Miami-Dade, Broward, and West Palm Beach businesses automate content creation, repurposing, scheduling, and approvals.
                                             </p>
                                             <h6 className="text-black text-sm font-bold pt-1">
                                                 Top AI SEO Content Generation Tools:
@@ -1992,7 +1992,7 @@ export function UseCasesSection() {
                                                 Make every ad dollar count with targeted local advertising for budgets under $500/month. Reach nearby customers, reduce wasted spending, and focus your budget on the ads that perform best.
                                             </p>
                                             <h6 className="text-black text-sm font-bold pt-1">
-                                                Top Precision Lead Acquisition Tools:
+                                                Top AI Precision Lead Acquisition Tools:
                                             </h6>
                                             <p className="text-sm text-shadow-xs">
                                                 <Link
@@ -2112,7 +2112,7 @@ export function UseCasesSection() {
                                             24/7, cloud native conversational software platform that handles incoming business phone calls with natural human fluency.
                                         </p>
                                         <h6 className="text-black text-sm font-bold pt-1">
-                                            Top Intelligent Receptionist Tools:
+                                            Top AI Receptionist Tools:
                                         </h6>
                                         <p className="text-sm text-shadow-xs">
                                             <Link

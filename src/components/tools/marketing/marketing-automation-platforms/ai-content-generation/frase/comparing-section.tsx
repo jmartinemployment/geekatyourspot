@@ -3,8 +3,7 @@ export default function ComparingSection() {
     <>
       <p className="text-base text-white shadow-text pt-3">
         Small businesses in South Florida are often weighing Frase against two main alternatives: hiring a
-        marketing agency or using generic AI writing tools. Each path tackles the need for Intelligent Content
-        Generation differently, but the trade-offs show up fast when you look at the workflow, cost, and how
+        marketing agency or using generic AI writing tools. Each path tackles the need for AI Content Generation differently, but the trade-offs show up fast when you look at the workflow, cost, and how
         much human oversight is still required.</p>
       <p className="text-base text-white shadow-text pt-3">
         Traditional agencies and freelancers remain the default for businesses that want hands-off content

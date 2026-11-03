@@ -14,8 +14,7 @@ export default function EvaluatingSection() {
         not only saves time but also reduces errors, a significant advantage for businesses that rely on
         accurate financial reporting.</p>
       <p className="text-base text-white shadow-text pt-3">
-        For businesses considering alternatives, it&#39;s important to weigh Melio against other Automated
-        Payment Execution tools. Competitors may offer similar features, but Melio&#39;s strength lies in its
+        For businesses considering alternatives, it&#39;s important to weigh Melio against other AI Payment Execution tools. Competitors may offer similar features, but Melio&#39;s strength lies in its
         user-friendly interface and the ability to manage payments efficiently. The ability to handle various
         payment methods, including ACH, card, wire transfers, and checks, provides flexibility that can be
         crucial for businesses with diverse payment needs.</p>

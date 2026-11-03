@@ -25,8 +25,7 @@ export default function OverviewSection() {
         writer’s block or pouring money into agencies, a small team can use AI-powered tools to research,
         draft, and schedule weeks of platform-specific content in minutes. AI systems now handle the heavy
         lifting: they generate new posts, repurpose top-performing content for each channel, and personalize
-        emails for different customer segments, all with minimal human effort. With automated approval
-        workflows and bulk scheduling, the owner keeps control and oversight, but the bottlenecks disappear.
+        emails for different customer segments, all with minimal human effort. With AI invoice approval workflows and bulk scheduling, the owner keeps control and oversight, but the bottlenecks disappear.
         The result is a steady stream of fresh, relevant content that keeps your brand top-of-mind with local
         customers and frees up time to focus on what matters most.</p>
       <p className="text-base text-white shadow-text pt-3">

@@ -30,8 +30,7 @@ export default function ComparingSection() {
         cases, platforms with extensive customization capabilities might be more suitable, although they often come
         with a higher price tag and complexity.</p>
       <p className="text-base text-white shadow-text pt-3">
-        In summary, Bill is an excellent choice for small to midsize businesses looking for a reliable, automated
-        accounts receivable solution that integrates seamlessly with existing systems. Its competitive pricing and
+        In summary, Bill is an excellent choice for small to midsize businesses looking for a reliable, AI accounts receivable solution that integrates seamlessly with existing systems. Its competitive pricing and
         robust feature set make it a strong contender in the market, especially for businesses in South Florida
         seeking to streamline their financial operations.</p>
     </>

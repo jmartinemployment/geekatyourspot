@@ -28,8 +28,7 @@ export default function OverviewSection() {
         team spends time where it matters.</p>
       <p className="text-base text-white shadow-text pt-3">
         For small businesses across South Florida, this means fewer wasted hours, lower acquisition costs, and
-        more closed deals, all without adding another person to the payroll. Lead Enrichment and Predictive
-        Scoring gives you the visibility and control that big companies take for granted, now tuned for your
+        more closed deals, all without adding another person to the payroll. AI Lead Enrichment and Predictive Scoring gives you the visibility and control that big companies take for granted, now tuned for your
         size and your market. The old way, guessing who’s interested and hoping they’ll raise their hand, is
         gone. The new way: know who’s ready to buy, and reach them before anyone else does.</p>
     </>

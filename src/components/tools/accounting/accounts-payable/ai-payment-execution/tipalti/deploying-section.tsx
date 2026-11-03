@@ -37,8 +37,7 @@ export default function DeployingSection() {
         configuring multi-entity management features and ensuring that all new entities are integrated
         seamlessly into your existing setup.</p>
       <p className="text-base text-white shadow-text pt-3">
-        In conclusion, deploying Tipalti with Geek @ Your Spot LLC&#39;s expertise ensures that your Automated
-        Payment Execution is efficient, secure, and tailored to your business needs. By handling the technical
+        In conclusion, deploying Tipalti with Geek @ Your Spot LLC&#39;s expertise ensures that your AI Payment Execution is efficient, secure, and tailored to your business needs. By handling the technical
         complexities and providing ongoing support, Geek @ Your Spot LLC helps small businesses leverage
         Tipalti&#39;s full potential to optimize their financial operations.</p>
     </>

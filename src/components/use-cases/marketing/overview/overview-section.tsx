@@ -10,13 +10,13 @@ export default function OverviewSection() {
         hours but also increase the risk of errors and missed opportunities. The constant juggling act leaves little room
         for strategic thinking or creative innovation, causing frustration and stifling growth.
       </p>
-      <p className="pt-3 text-base font-normal text-white shadow-text">Enter <GlossaryLink slug="marketing-automation">AI Marketing Systems</GlossaryLink>, a game-changer that streamlines these processes and frees up valuable time. By
+      <p className="pt-3 text-base font-normal text-white shadow-text">Enter <GlossaryLink slug="marketing-automation">AI marketing systems</GlossaryLink>, a game-changer that streamlines these processes and frees up valuable time. By
         automating routine tasks, AI helps small businesses focus on what truly matters: building relationships and driving
         sales. With features like accelerated deployment and workflow configuration, AI empowers teams to execute marketing
         campaigns more efficiently and effectively, reducing costs and enhancing customer satisfaction.
       </p>
-      <p className="pt-3 text-base font-normal text-white shadow-text">For a shorter overview, read <Link id={`use-cases-marketing-ai-marketing-systems-overview-blog${idSuffix}`} href="/blog/marketing/how-ai-marketing-systems-transform-small-business-growth" className="text-[#C83803] hover:underline">AI Marketing Systems for Growth</Link> on our blog.</p>
-      <p className="pt-3 text-base font-normal text-white shadow-text">Two parts of an AI marketing system have their own guides: the <Link id={`use-cases-marketing-ai-marketing-systems-overview-lead-capture${idSuffix}`} href="/use-cases/marketing/ai-sales-force-automation-software" className="text-[#C83803] hover:underline">Intelligent Lead Capture Pipeline</Link> and the <Link id={`use-cases-marketing-ai-marketing-systems-overview-content-creation${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms" className="text-[#C83803] hover:underline">Marketing Automation Platforms (MAP)</Link>.</p>
+      <p className="pt-3 text-base font-normal text-white shadow-text">For a shorter overview, read <Link id={`use-cases-marketing-overview-overview-blog${idSuffix}`} href="/blog/marketing/how-ai-marketing-systems-transform-small-business-growth" className="text-[#C83803] hover:underline">AI Marketing Systems for Growth</Link> on our blog.</p>
+      <p className="pt-3 text-base font-normal text-white shadow-text">Two parts of an AI marketing system have their own guides: the <Link id={`use-cases-marketing-overview-overview-lead-capture${idSuffix}`} href="/use-cases/marketing/ai-sales-force-automation-software" className="text-[#C83803] hover:underline">Intelligent Lead Capture Pipeline</Link> and the <Link id={`use-cases-marketing-overview-overview-content-creation${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms" className="text-[#C83803] hover:underline">Marketing Automation Platforms (MAP)</Link>.</p>
     </>
   );
 

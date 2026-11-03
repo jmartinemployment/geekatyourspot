@@ -8,8 +8,7 @@ export default function LedeSection() {
         Why do our email campaigns get ignored no matter how often we send them, and is there a practical way for a
         small business in South Florida to make every email feel tailored without hiring a team? The answer is that
         generic emails miss the mark because they treat every contact the same, and local companies waste hours
-        trying to fix this by hand. <Link id={`blog-marketing-ai-personalized-email-campaigns-lede-ai-personalized-email-campaigns${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns" className="text-[#C83803] hover:underline">Personalized
-        Email Campaigns</Link> use AI-driven tools to send the right message to the right person at the right time,
+        trying to fix this by hand. <Link id={`blog-marketing-ai-personalized-email-campaigns-lede-ai-personalized-email-campaigns${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns" className="text-[#C83803] hover:underline">AI Personalized Email Campaigns</Link> use AI-driven tools to send the right message to the right person at the right time,
         without extra headcount, without manual list work, and with results you can track. Businesses that adopt
         local <GlossaryLink slug="marketing-automation">marketing automation</GlossaryLink> see higher <GlossaryLink slug="open-rate">open
         rates</GlossaryLink>, more replies, and more sales, all while freeing up staff for work that actually grows
@@ -31,8 +30,7 @@ export default function LedeSection() {
       <p className="text-base text-white shadow-text pt-3">
         This page is for owners and managers of Miami-area small businesses who want better results from their email
         marketing without hiring extra staff or getting lost in technical details. If you want your emails to
-        matter, if you want to stop losing sales to generic outreach, this is what local, AI-powered Personalized
-        Email Campaigns can deliver for you.</p>
+        matter, if you want to stop losing sales to generic outreach, this is what local, AI-powered AI Personalized Email Campaigns can deliver for you.</p>
     </>
   );
 
