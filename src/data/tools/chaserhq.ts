@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/chaserhq/`
+ * `src/components/tools/accounting/cash-flow-forecasting/ai-accounts-receivable/chaserhq/`
  * is the content of record; `sections` here carries each section's heading and
  * opening paragraph so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const chaserhqContent: ToolPageContent = {
   "title": "Chaserhq",
   "slug": "chaserhq",
   "department": "accounting",
-  "useCase": "cash-flow-forecasting/automated-accounts-receivable",
+  "useCase": "cash-flow-forecasting/ai-accounts-receivable",
   "description":
     "Chaserhq automates accounts receivable for South Florida businesses, improving cash flow and reducing manual work.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const chaserhqContent: ToolPageContent = {
   "datePublished": "2026-10-10T16:26:22.0000000Z",
   "dateModified": "2026-10-10T16:26:22.0000000Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable-software",
+    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable",
   "sections": [
     { "title": "Overview", "description": "Every month, small business owners in Miami-Dade, Broward, and West Palm Beach counties face the daunting task of managing accounts receivable manually." },
     { "title": "The Cost of Manual Automated Accounts Receivable Processes", "description": "For many small businesses in Miami-Dade, Broward, and West Palm Beach counties, managing accounts receivable manually is a drain on resources. The reliance on outdated methods such as spreadsheets and manual follow-ups can lead to significant inefficiencies." },

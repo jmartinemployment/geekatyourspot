@@ -123,14 +123,14 @@ const DEPARTMENTS: Department[] = [
         slug: "ai-cash-flow-forecasting",
         description:
           "Master cash flow forecasting with innovative strategies and AI-driven insights for better financial management.",
-        href: "/use-cases/accounting/cash-flow-forecasting/ai-cash-flow-forecasting",
+        href: "/use-cases/accounting/cash-flow-forecasting",
       },
       {
         title: "Intelligent Accounts Receivable",
         slug: "ai-accounts-receivable-software",
         description:
           "Intelligent Accounts Receivable helps small businesses streamline cash flow, reduce errors, and save time with AI-driven solutions.",
-        href: "/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable-software",
+        href: "/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable",
       },
       {
         title: "Intelligent Spreadsheet Data",
@@ -144,7 +144,7 @@ const DEPARTMENTS: Department[] = [
         slug: "ai-financial-planning-software",
         description:
           "Intelligent Resource Planning helps small businesses automate cash flow forecasting, accounts receivable, and ERP tasks for better control and fewer errors.",
-        href: "/use-cases/accounting/cash-flow-forecasting/ai-financial-planning-software",
+        href: "/use-cases/accounting/cash-flow-forecasting/ai-resource-planning",
       },
       {
         title: "Tax Compliance & Regulations",

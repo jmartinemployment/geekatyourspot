@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/cashflowfrog/`
+ * `src/components/tools/accounting/cash-flow-forecasting/ai-resource-planning/cashflowfrog/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const cashflowfrogIntelligentResourcePlanningContent: ToolPageContent = {
   "title": "Cashflowfrog",
   "slug": "cashflowfrog",
   "department": "accounting",
-  "useCase": "cash-flow-forecasting/intelligent-resource-planning",
+  "useCase": "cash-flow-forecasting/ai-resource-planning",
   "description":
     "Intelligent Resource Planning with Cashflowfrog gives Miami-Dade, Broward, and West Palm Beach small businesses real-time cash flow forecasting.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const cashflowfrogIntelligentResourcePlanningContent: ToolPageContent = {
   "datePublished": "2026-10-14T13:36:09.9025920Z",
   "dateModified": "2026-10-14T13:36:09.9025920Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-financial-planning-software",
+    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-resource-planning",
   "sections": [
     {"title": "Overview", "description": "Most small businesses in South Florida know the pain of chasing a true cash position."},
     {"title": "What It Costs to Keep Doing Cash Flow Forecasting by Hand", "description": "Manual cash flow forecasting is a drain on small teams in South Florida."},

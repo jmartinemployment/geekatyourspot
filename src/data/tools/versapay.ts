@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/versapay/`
+ * `src/components/tools/accounting/cash-flow-forecasting/ai-accounts-receivable/versapay/`
  * is the content of record; `sections` here carries each section's heading and
  * opening paragraph so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const versapayContent: ToolPageContent = {
   "title": "Versapay",
   "slug": "versapay",
   "department": "accounting",
-  "useCase": "cash-flow-forecasting/automated-accounts-receivable",
+  "useCase": "cash-flow-forecasting/ai-accounts-receivable",
   "description":
     "Automate accounts receivable with Versapay for better cash flow and efficiency in South Florida.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const versapayContent: ToolPageContent = {
   "datePublished": "2026-10-10T16:26:22.0000000Z",
   "dateModified": "2026-10-10T16:26:22.0000000Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable-software",
+    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable",
   "sections": [
     { "title": "Overview", "description": "Small business owners in Miami-Dade, Broward, and West Palm Beach counties are all too familiar with the frustration of manual accounts receivable processes." },
     { "title": "The Costs of Manual Automated Accounts Receivable", "description": "Small businesses in Miami-Dade, Broward, and West Palm Beach counties often find themselves overwhelmed by the fragmented nature of manual accounts receivable processes." },

@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/clockwork/`
+ * `src/components/tools/accounting/cash-flow-forecasting/ai-spreadsheet-data/clockwork/`
  * is the content of record; `sections` here carries each section's heading and
  * opening paragraph so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const clockworkContent: ToolPageContent = {
   "title": "Clockwork",
   "slug": "clockwork",
   "department": "accounting",
-  "useCase": "cash-flow-forecasting/automated-spreadsheet-data",
+  "useCase": "cash-flow-forecasting/ai-spreadsheet-data",
   "description":
     "Automate spreadsheet data with Clockwork for efficient cash flow forecasting in South Florida.",
   "heroSummary":

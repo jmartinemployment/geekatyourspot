@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/takethehelm/`
+ * `src/components/tools/accounting/cash-flow-forecasting/ai-resource-planning/takethehelm/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const takethehelmIntelligentResourcePlanningContent: ToolPageContent = {
   "title": "Take the Helm",
   "slug": "takethehelm",
   "department": "accounting",
-  "useCase": "cash-flow-forecasting/intelligent-resource-planning",
+  "useCase": "cash-flow-forecasting/ai-resource-planning",
   "description":
     "Intelligent Resource Planning with Take the Helm helps small South Florida businesses automate finances, gain cash flow clarity, and end spreadsheet chaos.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const takethehelmIntelligentResourcePlanningContent: ToolPageContent = {
   "datePublished": "2026-10-14T13:36:09.9025920Z",
   "dateModified": "2026-10-14T13:36:09.9025920Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-financial-planning-software",
+    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-resource-planning",
   "sections": [
     {"title": "Overview", "description": "Every week, a small business in Miami-Dade closes its books with a mix of hope and anxiety."},
     {"title": "What It Costs to Keep Doing Resource Planning by Hand", "description": "A small business in South Florida faces the same scene every Friday."},

@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/quickbooks/`
+ * `src/components/tools/accounting/cash-flow-forecasting/ai-resource-planning/quickbooks/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const quickbooksContent: ToolPageContent = {
   "title": "QuickBooks Online Advanced",
   "slug": "quickbooks",
   "department": "accounting",
-  "useCase": "cash-flow-forecasting/intelligent-resource-planning",
+  "useCase": "cash-flow-forecasting/ai-resource-planning",
   "description":
     "Intelligent Resource Planning with QuickBooks streamlines bookkeeping and automates workflows for small businesses in Miami-Dade, Broward, and West Palm Beach.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const quickbooksContent: ToolPageContent = {
   "datePublished": "2026-10-14T13:36:09.9025920Z",
   "dateModified": "2026-10-14T13:36:09.9025920Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-financial-planning-software",
+    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-resource-planning",
   "sections": [
     {"title": "Overview", "description": "A local HVAC service in West Palm Beach hits its first $2 million year but still closes its books one spreadsheet at a time."},
     {"title": "What it costs to keep doing this by hand", "description": "A small business in Miami-Dade hits its stride, only to find its books tangled in a mess of spreadsheets, emails, and outdated software."},

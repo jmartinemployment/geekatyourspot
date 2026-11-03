@@ -254,9 +254,6 @@ const ALLOWED_TAGS = new Set([
  * remove it once the real page ships.
  */
 const LINK_OVERRIDES: Record<string, string | null> = {
-  // Route is nested one level deeper than the export assumes.
-  "/use-cases/accounting/cash-flow-forecasting":
-    "/use-cases/accounting/cash-flow-forecasting/ai-cash-flow-forecasting",
   // Export uses the "intelligent-" prefix; the route does not.
   "/use-cases/accounting/intelligent-tax-compliance-regulations":
     "/use-cases/accounting/tax-compliance-regulations",

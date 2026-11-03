@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/takethehelm/`
+ * `src/components/tools/accounting/cash-flow-forecasting/ai-spreadsheet-data/takethehelm/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const takethehelmContent: ToolPageContent = {
   "title": "Take the Helm",
   "slug": "takethehelm",
   "department": "accounting",
-  "useCase": "cash-flow-forecasting/automated-spreadsheet-data",
+  "useCase": "cash-flow-forecasting/ai-spreadsheet-data",
   "description":
     "Take the Helm automates spreadsheet data for accurate cash flow forecasting in South Florida's small businesses.",
   "heroSummary":

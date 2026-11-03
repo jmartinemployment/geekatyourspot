@@ -12,14 +12,14 @@ export default function CloudLedgerSection() {
         QuickBooks Online Advanced
       </h3>
       <p className="text-base text-white shadow-text pt-3">
-        <Link id={`use-cases-accounting-cloud-ledger-quickbooks${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/quickbooks" className="text-[#0B162A] hover:underline">QuickBooks
+        <Link id={`use-cases-accounting-cloud-ledger-quickbooks${idSuffix}`} href="/tools/accounting/cash-flow-forecasting/ai-resource-planning/quickbooks" className="text-[#0B162A] hover:underline">QuickBooks
         Online Advanced</Link> is the top tier of QuickBooks Online and one of the most widely used ledgers
         among growing small businesses. It supports up to <strong>25 users</strong> with <strong>custom
         roles</strong>, so each person sees only what their job requires. Its <strong>workflow
         automation</strong> sends reminders and routes approvals according to rules you set, and its reporting
         goes deeper than the lower tiers. When a business grows into several entities, Intuit offers <strong>Intuit
         Enterprise Suite</strong> as the next step, so the clean data you build today does not have to move to
-        a different vendor later. Our <Link id={`use-cases-accounting-cloud-ledger-p-irp${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-financial-planning-software" className="text-[#0B162A] hover:underline">Intelligent
+        a different vendor later. Our <Link id={`use-cases-accounting-cloud-ledger-p-irp${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-resource-planning" className="text-[#0B162A] hover:underline">Intelligent
         Resource Planning</Link> guide covers how the ledger fits into planning.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Xero

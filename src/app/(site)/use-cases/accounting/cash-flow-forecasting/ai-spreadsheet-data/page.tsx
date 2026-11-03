@@ -36,7 +36,7 @@ const jsonLd: Graph = {
             "dateModified": "2026-10-11T13:17:30.3879718Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Automated Spreadsheet Data, Cash Flow Forecasting, AI Implementation, Small Business Automation, Spreadsheet Automation, Data Quality, Tech Selection, Pilot Implementation, Local AI Services",
-            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-cash-flow-forecasting" },
+            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting" },
             "mentions": [
                 { "@type": "Thing", "name": "Cashflowfrog", "url": "https://cashflowfrog.com/" },
                 { "@type": "Thing", "name": "Clockwork", "url": "https://www.clockwork.ai/" },

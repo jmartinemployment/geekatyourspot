@@ -14,7 +14,7 @@ export default function ImplementationSection() {
         quality</GlossaryLink>&nbsp;plays a crucial role in the implementation process. Ensuring that your data is
         accurate, complete, and consistent is vital for the system to function correctly. For instance,&nbsp;
         <Link id={`use-cases-accounting-accounts-receivable-implementation-upflow${idSuffix}`}
-          href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/upflow" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/cash-flow-forecasting/ai-accounts-receivable/upflow" className="text-[#0B162A] hover:underline">
           Upflow
         </Link>&#39;s&nbsp;cash flow
         forecasting&nbsp;relies on live receivables data, which means that any errors or
@@ -24,7 +24,7 @@ export default function ImplementationSection() {
         Choosing the right technology is another critical step. The chosen platform should integrate seamlessly with
         existing systems such as QuickBooks or Xero to avoid disruptions.&nbsp;
         <Link id={`use-cases-accounting-accounts-receivable-implementation-bill${idSuffix}`}
-          href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/bill" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/cash-flow-forecasting/ai-accounts-receivable/bill" className="text-[#0B162A] hover:underline">
           Bill
         </Link>, for example, offers integrations that ensure data flows smoothly between accounting systems and the AR
         platform, minimizing manual data entry and errors.</p>

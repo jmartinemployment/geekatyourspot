@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/upflow/`
+ * `src/components/tools/accounting/cash-flow-forecasting/ai-accounts-receivable/upflow/`
  * is the content of record; `sections` here carries each section's heading and
  * opening paragraph so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const upflowContent: ToolPageContent = {
   "title": "Upflow",
   "slug": "upflow",
   "department": "accounting",
-  "useCase": "cash-flow-forecasting/automated-accounts-receivable",
+  "useCase": "cash-flow-forecasting/ai-accounts-receivable",
   "description":
     "Automate accounts receivable with Upflow for better cash flow in Miami-Dade, Broward, and West Palm Beach.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const upflowContent: ToolPageContent = {
   "datePublished": "2026-10-10T16:26:22.0000000Z",
   "dateModified": "2026-10-10T16:26:22.0000000Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable-software",
+    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable",
   "sections": [
     { "title": "Overview", "description": "Imagine a small business owner in Miami-Dade, struggling with an administrative nightmare. Each month, they face a mountain of unpaid invoices, unsure of when the cash will flow in." },
     { "title": "The Challenges of Manual Automated Accounts Receivable", "description": "For many small businesses in Miami-Dade, Broward, and West Palm Beach counties, managing accounts receivable remains a daunting task." },

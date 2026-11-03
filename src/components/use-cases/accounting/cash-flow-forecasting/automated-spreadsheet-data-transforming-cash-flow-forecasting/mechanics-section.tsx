@@ -29,11 +29,11 @@ export default function MechanicsSection() {
         data is accurate, complete, and formatted correctly. This phase might involve cleaning up old records,
         validating data against sources, and setting up structures to prevent future errors. Tools like&nbsp;
         <Link id={`use-cases-accounting-spreadsheet-data-mechanics-dryrun${idSuffix}`}
-          href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/dryrun" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/cash-flow-forecasting/ai-spreadsheet-data/dryrun" className="text-[#0B162A] hover:underline">
           Dryrun
         </Link>&nbsp;and&nbsp;
         <Link id={`use-cases-accounting-spreadsheet-data-mechanics-cashflowfrog${idSuffix}`}
-          href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/cashflowfrog" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/cash-flow-forecasting/ai-spreadsheet-data/cashflowfrog" className="text-[#0B162A] hover:underline">
           Cashflowfrog
         </Link>&nbsp;can assist in
         maintaining&nbsp;<GlossaryLink slug="data-quality" className="text-[#0B162A] hover:underline">data
@@ -47,11 +47,11 @@ export default function MechanicsSection() {
         just about choosing any tool but selecting those that integrate seamlessly with your existing systems. For
         instance,&nbsp;
         <Link id={`use-cases-accounting-spreadsheet-data-mechanics-clockwork${idSuffix}`}
-          href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/clockwork" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/cash-flow-forecasting/ai-spreadsheet-data/clockwork" className="text-[#0B162A] hover:underline">
           Clockwork
-        </Link>&nbsp;pulls data directly from QuickBooks and Xero, enabling businesses to automate their&nbsp;<Link id={`use-cases-accounting-spreadsheet-data-mechanics-cash-flow-forecasting${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-cash-flow-forecasting" className="text-[#0B162A] hover:underline">cash flow forecasting</Link>&nbsp;without manual intervention. Similarly,&nbsp;
+        </Link>&nbsp;pulls data directly from QuickBooks and Xero, enabling businesses to automate their&nbsp;<Link id={`use-cases-accounting-spreadsheet-data-mechanics-cash-flow-forecasting${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting" className="text-[#0B162A] hover:underline">cash flow forecasting</Link>&nbsp;without manual intervention. Similarly,&nbsp;
         <Link id={`use-cases-accounting-spreadsheet-data-mechanics-floatapp${idSuffix}`}
-          href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/floatapp" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/cash-flow-forecasting/ai-spreadsheet-data/floatapp" className="text-[#0B162A] hover:underline">
           Floatapp
         </Link>&nbsp;offers a user-friendly interface that automates the creation of financial forecasts based on live
         data. The architecture should be designed to support these tools, ensuring they work harmoniously with your
@@ -65,7 +65,7 @@ export default function MechanicsSection() {
         full-scale rollout. During this phase, smoke tests can be conducted to simulate real-world scenarios, and
         adjustments can be made based on the outcomes. For example,&nbsp;
         <Link id={`use-cases-accounting-spreadsheet-data-mechanics-takethehelm${idSuffix}`}
-          href="/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/takethehelm" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/cash-flow-forecasting/ai-spreadsheet-data/takethehelm" className="text-[#0B162A] hover:underline">
           Take the Helm
         </Link>’s platform allows businesses to scale content operations predictably, ensuring that the implemented systems
         can handle increased loads without compromising performance. This phase is critical for identifying

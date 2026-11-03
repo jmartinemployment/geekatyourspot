@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/floatapp/`
+ * `src/components/tools/accounting/cash-flow-forecasting/ai-spreadsheet-data/floatapp/`
  * is the content of record; `sections` here carries each section's heading and
  * opening paragraph so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const floatappContent: ToolPageContent = {
   "title": "Floatapp",
   "slug": "floatapp",
   "department": "accounting",
-  "useCase": "cash-flow-forecasting/automated-spreadsheet-data",
+  "useCase": "cash-flow-forecasting/ai-spreadsheet-data",
   "description":
     "Floatapp automates cash flow forecasting for South Florida businesses, ensuring accurate, real-time financial insights.",
   "heroSummary":

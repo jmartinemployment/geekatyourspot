@@ -17,7 +17,7 @@ export default function MechanicsSection() {
         systems analyze each client&#39;s payment behavior over time. This allows the software to predict an
         &quot;Expected Payment Date&quot; for each invoice, providing a more realistic view of cash flow.&nbsp;
         <Link id={`use-cases-accounting-accounts-receivable-mechanics-chaserhq${idSuffix}`}
-          href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/chaserhq" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/cash-flow-forecasting/ai-accounts-receivable/chaserhq" className="text-[#0B162A] hover:underline">
           Chaserhq
         </Link>&nbsp;exemplifies this by separating receivables into categories such as promised, disputed, and at-risk,
         which helps businesses distinguish between reliable cash flow and potential problems.</p>
@@ -26,7 +26,7 @@ export default function MechanicsSection() {
         adjust their tone and frequency based on a client&#39;s payment history. Reliable clients receive gentle
         reminders, while habitual late payers face progressively firmer communications.&nbsp;
         <Link id={`use-cases-accounting-accounts-receivable-mechanics-invoiced${idSuffix}`}
-          href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/invoiced" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/cash-flow-forecasting/ai-accounts-receivable/invoiced" className="text-[#0B162A] hover:underline">
           Invoiced
         </Link>, for instance, offers features that automate these reminders, ensuring that follow-ups are consistent and
         timely without requiring manual intervention.</p>
@@ -35,7 +35,7 @@ export default function MechanicsSection() {
         or payment promises, are logged in one system. This ensures that any invoice dispute is immediately marked
         and removed from the active forecast, preventing over-reliance on disputed cash flow. Systems like&nbsp;
         <Link id={`use-cases-accounting-accounts-receivable-mechanics-versapay${idSuffix}`}
-          href="/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/versapay" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/cash-flow-forecasting/ai-accounts-receivable/versapay" className="text-[#0B162A] hover:underline">
           Versapay
         </Link>&nbsp;integrate these logs with payment portals, allowing clients to resolve disputes quickly and keep the
         cash flow predictions accurate.</p>

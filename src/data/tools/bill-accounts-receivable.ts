@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/bill/`
+ * `src/components/tools/accounting/cash-flow-forecasting/ai-accounts-receivable/bill/`
  * is the content of record; `sections` here carries each section's heading and
  * opening paragraph so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const billAccountsReceivableContent: ToolPageContent = {
   "title": "Bill",
   "slug": "bill",
   "department": "accounting",
-  "useCase": "cash-flow-forecasting/automated-accounts-receivable",
+  "useCase": "cash-flow-forecasting/ai-accounts-receivable",
   "description":
     "Automate accounts receivable to boost cash flow for small businesses in Miami-Dade, Broward, and West Palm Beach.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const billAccountsReceivableContent: ToolPageContent = {
   "datePublished": "2026-10-10T16:26:22.0000000Z",
   "dateModified": "2026-10-10T16:26:22.0000000Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable-software",
+    "https://geekatyourspot.com/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable",
   "sections": [
     { "title": "Overview", "description": "Every month, Maria Sanchez, owner of a small graphic design firm in Miami, finds herself drowning in unpaid invoices. Her clients, many of whom are reliable local businesses, often delay payments, leaving Maria to juggle her cash flow." },
     { "title": "The Challenges of Manual Automated Accounts Receivable", "description": "For small businesses in Miami-Dade, Broward, and West Palm Beach counties, managing accounts receivable can be a time-consuming and error-prone task." },

@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/cash-flow-forecasting/automated-spreadsheet-data/dryrun/`
+ * `src/components/tools/accounting/cash-flow-forecasting/ai-spreadsheet-data/dryrun/`
  * is the content of record; `sections` here carries each section's heading and
  * opening paragraph so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const dryrunContent: ToolPageContent = {
   "title": "Dryrun",
   "slug": "dryrun",
   "department": "accounting",
-  "useCase": "cash-flow-forecasting/automated-spreadsheet-data",
+  "useCase": "cash-flow-forecasting/ai-spreadsheet-data",
   "description":
     "Automate cash flow forecasting with Dryrun for accurate, real-time insights in South Florida.",
   "heroSummary":
