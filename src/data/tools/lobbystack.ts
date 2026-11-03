@@ -10,7 +10,7 @@ export const lobbystackContent: ToolPageContent = {
   "title": "LobbyStack",
   "slug": "lobbystack",
   "department": "business-operations",
-  "useCase": "intelligent-receptionist",
+  "useCase": "ai-receptionist",
   "description":
     "Intelligent Receptionist by LobbyStack helps small businesses in Miami-Dade, Broward and West Palm Beach capture every lead and never miss a call.",
   "heroSummary":

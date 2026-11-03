@@ -10,7 +10,7 @@ export const vokshaContent: ToolPageContent = {
   "title": "Voksha",
   "slug": "voksha",
   "department": "business-operations",
-  "useCase": "intelligent-receptionist",
+  "useCase": "ai-receptionist",
   "description":
     "Intelligent Receptionist Voksha helps small businesses in Miami-Dade, Broward, and West Palm Beach capture every lead and stop losing customers to missed calls.",
   "heroSummary":

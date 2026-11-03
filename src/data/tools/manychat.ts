@@ -10,7 +10,7 @@ export const manychatContent: ToolPageContent = {
   "title": "Manychat",
   "slug": "manychat",
   "department": "business-operations",
-  "useCase": "cross-platform-chatbot",
+  "useCase": "ai-chatbot",
   "description":
     "Cross-Platform Chatbot Manychat helps small businesses unify chats and automate lead capture across Instagram, WhatsApp and Messenger in South Florida.",
   "heroSummary":

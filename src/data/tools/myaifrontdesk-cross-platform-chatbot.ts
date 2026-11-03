@@ -10,7 +10,7 @@ export const myaifrontdeskCrossPlatformChatbotContent: ToolPageContent = {
   "title": "My AI Front Desk",
   "slug": "myaifrontdesk",
   "department": "business-operations",
-  "useCase": "cross-platform-chatbot",
+  "useCase": "ai-chatbot",
   "description":
     "Cross-Platform Chatbot My AI Front Desk unifies chats, texts, and calls for small businesses in Miami-Dade, Broward and West Palm Beach. Capture every lead.",
   "heroSummary":

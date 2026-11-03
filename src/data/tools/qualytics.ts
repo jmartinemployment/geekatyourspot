@@ -4,7 +4,7 @@ export const qualyticsContent: ToolPageContent = {
   "title": "Qualytics",
   "slug": "qualytics",
   "department": "business-operations",
-  "useCase": "data-quality-assessments",
+  "useCase": "ai-data-quality-assessments",
   "description": "Optimize ad spend with Qualytics through automated data quality management for reliable marketing outcomes.",
   "heroSummary": "Optimize ad spend with Qualytics by automating data quality checks for precise and reliable marketing decisions.",
   "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",

@@ -10,7 +10,7 @@ export const myaifrontdeskContent: ToolPageContent = {
   "title": "My AI Front Desk",
   "slug": "myaifrontdesk",
   "department": "business-operations",
-  "useCase": "intelligent-receptionist",
+  "useCase": "ai-receptionist",
   "description":
     "Intelligent Receptionist My AI Front Desk helps small businesses in Miami-Dade, Broward, and Palm Beach capture every lead and book more appointments.",
   "heroSummary":

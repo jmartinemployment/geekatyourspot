@@ -4,7 +4,7 @@ export const monteCarloContent: ToolPageContent = {
   "title": "Monte Carlo",
   "slug": "monte-carlo",
   "department": "business-operations",
-  "useCase": "data-quality-assessments",
+  "useCase": "ai-data-quality-assessments",
   "description": "Automate ad spend optimization with Monte Carlo for accurate, data-driven marketing strategies.",
   "heroSummary": "Monte Carlo enhances ad spend strategies with automated optimization and data accuracy.",
   "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",

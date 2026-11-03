@@ -10,7 +10,7 @@ export const botpenguinContent: ToolPageContent = {
   "title": "BotPenguin",
   "slug": "botpenguin",
   "department": "business-operations",
-  "useCase": "cross-platform-chatbot",
+  "useCase": "ai-chatbot",
   "description":
     "BotPenguin unifies chats from WhatsApp, Instagram, Facebook, SMS, and the web for small businesses in Miami-Dade, Broward, and West Palm Beach.",
   "heroSummary":

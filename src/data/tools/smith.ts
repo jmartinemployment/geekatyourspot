@@ -10,7 +10,7 @@ export const smithContent: ToolPageContent = {
   "title": "Smith.ai",
   "slug": "smith",
   "department": "business-operations",
-  "useCase": "intelligent-receptionist",
+  "useCase": "ai-receptionist",
   "description":
     "Intelligent Receptionist Smith.ai helps South Florida small businesses capture every lead by blending automation with real human support for client intake.",
   "heroSummary":

@@ -10,7 +10,7 @@ export const daptaContent: ToolPageContent = {
   "title": "Dapta",
   "slug": "dapta",
   "department": "business-operations",
-  "useCase": "cross-platform-chatbot",
+  "useCase": "ai-chatbot",
   "description":
     "Cross-Platform Chatbot Dapta keeps Miami-Dade, Broward, and West Palm Beach small businesses connected, capturing every lead from every channel with ease.",
   "heroSummary":

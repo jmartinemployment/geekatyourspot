@@ -4,7 +4,7 @@ export const greatExpectationsContent: ToolPageContent = {
   "title": "Great Expectations",
   "slug": "great-expectations",
   "department": "business-operations",
-  "useCase": "data-quality-assessments",
+  "useCase": "ai-data-quality-assessments",
   "description": "Optimize ad spend with Great Expectations' data validation, ensuring accurate and effective marketing decisions.",
   "heroSummary": "Great Expectations validates data for automated ad spend optimization, enhancing marketing efficiency.",
   "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",

@@ -10,7 +10,7 @@ export const tidioContent: ToolPageContent = {
   "title": "Tidio",
   "slug": "tidio",
   "department": "business-operations",
-  "useCase": "cross-platform-chatbot",
+  "useCase": "ai-chatbot",
   "description":
     "Cross-Platform Chatbot Tidio helps small South Florida businesses unify website, SMS, and social messaging into a single, efficient lead management dashboard.",
   "heroSummary":

@@ -10,7 +10,7 @@ export const nextivaContent: ToolPageContent = {
   "title": "Nextiva",
   "slug": "nextiva",
   "department": "business-operations",
-  "useCase": "intelligent-receptionist",
+  "useCase": "ai-receptionist",
   "description":
     "Intelligent Receptionist from Nextiva unifies calls, texts, and chats for small businesses in Miami-Dade, Broward, and Palm Beach counties.",
   "heroSummary":

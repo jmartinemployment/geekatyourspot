@@ -4,7 +4,7 @@ export const anomaloContent: ToolPageContent = {
   "title": "Anomalo",
   "slug": "anomalo",
   "department": "business-operations",
-  "useCase": "data-quality-assessments",
+  "useCase": "ai-data-quality-assessments",
   "description": "Optimize ad spend with Anomalo's automated data quality assurance, ensuring reliable insights for better ROI.",
   "heroSummary": "Ensure your ad spend is optimized with Anomalo's automated data quality solutions.",
   "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
