@@ -2082,7 +2082,7 @@ export function UseCasesSection() {
                                     id={`${gtmLinkIdFromHref("/use-cases/ai-operations", "AI Operations")}-lg`}
                                     href="/use-cases/ai-operations">
                                     <h3 className="text-black text-3xl hover:text-[#C83803] font-bold shadow-text">
-                                        AI Business Operations
+                                        Business Operations
                                     </h3>
                                 </Link>
                                 <p className="text-black text-sm shadow-text text-shadow-xs">
