@@ -431,32 +431,32 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-xs  text-shadow-xs">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/quaderno", "Quaderno")}
-                                                href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/quaderno"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/ai-tax-law/quaderno", "Quaderno")}
+                                                href="/tools/accounting/tax-compliance-regulations/ai-tax-law/quaderno"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Quaderno
                                             </Link>,{" "}
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud", "TaxCloud")}
-                                                href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/ai-tax-law/taxcloud", "TaxCloud")}
+                                                href="/tools/accounting/tax-compliance-regulations/ai-tax-law/taxcloud"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 TaxCloud
                                             </Link>,{" "}
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar", "TaxJar")}
-                                                href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/ai-tax-law/taxjar", "TaxJar")}
+                                                href="/tools/accounting/tax-compliance-regulations/ai-tax-law/taxjar"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 TaxJar
                                             </Link>,{" "}
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet", "TaxValet")}
-                                                href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/ai-tax-law/thetaxvalet", "TaxValet")}
+                                                href="/tools/accounting/tax-compliance-regulations/ai-tax-law/thetaxvalet"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 TaxValet
                                             </Link>,{" "}
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp", "Zamp")}
-                                                href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/ai-tax-law/zamp", "Zamp")}
+                                                href="/tools/accounting/tax-compliance-regulations/ai-tax-law/zamp"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Zamp
                                             </Link>.
@@ -464,7 +464,7 @@ export function UseCasesSection() {
                                     </li>
                                     <li className="pl-.5">
                                         <Link id="home-use-cases-accounting-payroll-tax-worker-misclassification"
-                                            href="/use-cases/accounting/tax-compliance-regulations/ai-payroll-software"
+                                            href="/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax"
                                             className="hover:text-[#C83803] text-[#000000] hover:underline">
                                             <h5 className="text-black text-sm font-bold shadow-text">
                                                 AI Payroll Tax:
@@ -478,32 +478,32 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-xs  text-shadow-xs">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/adp", "ADP")}
-                                                href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/adp"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/ai-payroll-tax/adp", "ADP")}
+                                                href="/tools/accounting/tax-compliance-regulations/ai-payroll-tax/adp"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 ADP
                                             </Link>,{" "}
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/deel", "Deel")}
-                                                href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/deel"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/ai-payroll-tax/deel", "Deel")}
+                                                href="/tools/accounting/tax-compliance-regulations/ai-payroll-tax/deel"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Deel
                                             </Link>,{" "}
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/gusto", "Gusto")}
-                                                href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/gusto"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/ai-payroll-tax/gusto", "Gusto")}
+                                                href="/tools/accounting/tax-compliance-regulations/ai-payroll-tax/gusto"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Gusto
                                             </Link>,{" "}
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/justworks", "Justworks")}
-                                                href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/justworks"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/ai-payroll-tax/justworks", "Justworks")}
+                                                href="/tools/accounting/tax-compliance-regulations/ai-payroll-tax/justworks"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Justworks
                                             </Link>,{" "}
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/rippling", "Rippling")}
-                                                href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/rippling"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/ai-payroll-tax/rippling", "Rippling")}
+                                                href="/tools/accounting/tax-compliance-regulations/ai-payroll-tax/rippling"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Rippling
                                             </Link>.
@@ -525,32 +525,32 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-xs  text-shadow-xs">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/quaderno", "Quaderno")}
-                                                href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/quaderno"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/quaderno", "Quaderno")}
+                                                href="/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/quaderno"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Quaderno
                                             </Link>,{" "}
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxcloud", "TaxCloud")}
-                                                href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxcloud"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/taxcloud", "TaxCloud")}
+                                                href="/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/taxcloud"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 TaxCloud
                                             </Link>,{" "}
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxjar", "TaxJar")}
-                                                href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxjar"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/taxjar", "TaxJar")}
+                                                href="/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/taxjar"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 TaxJar
                                             </Link>,{" "}
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/thetaxvalet", "TaxValet")}
-                                                href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/thetaxvalet"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/thetaxvalet", "TaxValet")}
+                                                href="/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/thetaxvalet"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 TaxValet
                                             </Link>,{" "}
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/zamp", "Zamp")}
-                                                href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/zamp"
+                                                id={gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/zamp", "Zamp")}
+                                                href="/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/zamp"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Zamp
                                             </Link>.
@@ -1578,32 +1578,32 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-black text-sm  text-shadow-xs">
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/quaderno", "Quaderno")}-lg`}
-                                                href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/quaderno"
+                                                id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/ai-tax-law/quaderno", "Quaderno")}-lg`}
+                                                href="/tools/accounting/tax-compliance-regulations/ai-tax-law/quaderno"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Quaderno
                                             </Link>,{" "}
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud", "TaxCloud")}-lg`}
-                                                href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud"
+                                                id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/ai-tax-law/taxcloud", "TaxCloud")}-lg`}
+                                                href="/tools/accounting/tax-compliance-regulations/ai-tax-law/taxcloud"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 TaxCloud
                                             </Link>,{" "}
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar", "TaxJar")}-lg`}
-                                                href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar"
+                                                id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/ai-tax-law/taxjar", "TaxJar")}-lg`}
+                                                href="/tools/accounting/tax-compliance-regulations/ai-tax-law/taxjar"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 TaxJar
                                             </Link>,{" "}
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet", "TaxValet")}-lg`}
-                                                href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet"
+                                                id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/ai-tax-law/thetaxvalet", "TaxValet")}-lg`}
+                                                href="/tools/accounting/tax-compliance-regulations/ai-tax-law/thetaxvalet"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 TaxValet
                                             </Link>,{" "}
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp", "Zamp")}-lg`}
-                                                href="/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp"
+                                                id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/ai-tax-law/zamp", "Zamp")}-lg`}
+                                                href="/tools/accounting/tax-compliance-regulations/ai-tax-law/zamp"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Zamp
                                             </Link>.
@@ -1611,7 +1611,7 @@ export function UseCasesSection() {
                                     </li>
                                     <li className="pl-.5">
                                         <Link id="home-use-cases-accounting-payroll-tax-worker-misclassification-lg"
-                                            href="/use-cases/accounting/tax-compliance-regulations/ai-payroll-software"
+                                            href="/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax"
                                             className="hover:text-[#C83803] text-[#000000] hover:underline">
                                             <h5 className="text-black text-base font-bold shadow-text">
                                                 AI Payroll Tax:
@@ -1625,32 +1625,32 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-black text-sm  text-shadow-xs">
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/adp", "ADP")}-lg`}
-                                                href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/adp"
+                                                id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/ai-payroll-tax/adp", "ADP")}-lg`}
+                                                href="/tools/accounting/tax-compliance-regulations/ai-payroll-tax/adp"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 ADP
                                             </Link>,{" "}
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/deel", "Deel")}-lg`}
-                                                href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/deel"
+                                                id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/ai-payroll-tax/deel", "Deel")}-lg`}
+                                                href="/tools/accounting/tax-compliance-regulations/ai-payroll-tax/deel"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Deel
                                             </Link>,{" "}
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/gusto", "Gusto")}-lg`}
-                                                href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/gusto"
+                                                id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/ai-payroll-tax/gusto", "Gusto")}-lg`}
+                                                href="/tools/accounting/tax-compliance-regulations/ai-payroll-tax/gusto"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Gusto
                                             </Link>,{" "}
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/justworks", "Justworks")}-lg`}
-                                                href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/justworks"
+                                                id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/ai-payroll-tax/justworks", "Justworks")}-lg`}
+                                                href="/tools/accounting/tax-compliance-regulations/ai-payroll-tax/justworks"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Justworks
                                             </Link>,{" "}
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/rippling", "Rippling")}-lg`}
-                                                href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/rippling"
+                                                id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/ai-payroll-tax/rippling", "Rippling")}-lg`}
+                                                href="/tools/accounting/tax-compliance-regulations/ai-payroll-tax/rippling"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Rippling
                                             </Link>.
@@ -1672,32 +1672,32 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-black text-sm  text-shadow-xs">
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/quaderno", "Quaderno")}-lg`}
-                                                href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/quaderno"
+                                                id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/quaderno", "Quaderno")}-lg`}
+                                                href="/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/quaderno"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Quaderno
                                             </Link>,{" "}
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxcloud", "TaxCloud")}-lg`}
-                                                href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxcloud"
+                                                id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/taxcloud", "TaxCloud")}-lg`}
+                                                href="/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/taxcloud"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 TaxCloud
                                             </Link>,{" "}
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxjar", "TaxJar")}-lg`}
-                                                href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxjar"
+                                                id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/taxjar", "TaxJar")}-lg`}
+                                                href="/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/taxjar"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 TaxJar
                                             </Link>,{" "}
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/thetaxvalet", "TaxValet")}-lg`}
-                                                href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/thetaxvalet"
+                                                id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/thetaxvalet", "TaxValet")}-lg`}
+                                                href="/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/thetaxvalet"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 TaxValet
                                             </Link>,{" "}
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/zamp", "Zamp")}-lg`}
-                                                href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/zamp"
+                                                id={`${gtmLinkIdFromHref("/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/zamp", "Zamp")}-lg`}
+                                                href="/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/zamp"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Zamp
                                             </Link>.

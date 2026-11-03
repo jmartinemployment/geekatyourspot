@@ -23,7 +23,7 @@ export default function TransformsSection() {
         data twice. Invoices, payments, and payroll details flow automatically into your forecasts and
         dashboards. This eliminates double data entry, reduces the risk of human error, and frees up staff to
         focus on analysis and action instead of data wrangling. The platform supports over 200 integrations,
-        including QuickBooks, NetSuite, Sage Intacct,&nbsp;<Link id={`tools-accounting-intelligent-resource-planning-jirav-transforms-adp${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/adp" className="text-[#0B162A] hover:underline">ADP</Link>, Paychex, Salesforce, and HubSpot, so it fits into the
+        including QuickBooks, NetSuite, Sage Intacct,&nbsp;<Link id={`tools-accounting-intelligent-resource-planning-jirav-transforms-adp${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/ai-payroll-tax/adp" className="text-[#0B162A] hover:underline">ADP</Link>, Paychex, Salesforce, and HubSpot, so it fits into the
         systems most small businesses in South Florida already use.</p>
       <p className="text-base text-white shadow-text pt-3">
         Rolling forecasts are another area where Jirav changes the game. Rather than relying on a fixed annual

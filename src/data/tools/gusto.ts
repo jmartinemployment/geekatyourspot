@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/gusto/`
+ * `src/components/tools/accounting/tax-compliance-regulations/ai-payroll-tax/gusto/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const gustoContent: ToolPageContent = {
   "title": "Gusto",
   "slug": "gusto",
   "department": "accounting",
-  "useCase": "tax-compliance-regulations/payroll-tax-worker-misclassification",
+  "useCase": "tax-compliance-regulations/ai-payroll-tax",
   "description":
     "Gusto automates payroll tax compliance and worker classification for South Florida small businesses, minimizing costly errors and penalties.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const gustoContent: ToolPageContent = {
   "datePublished": "2026-10-13T13:30:45.9859490Z",
   "dateModified": "2026-10-13T13:30:45.9859490Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-payroll-software",
+    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax",
   "sections": [
     {"title": "Overview", "description": "On a Monday morning in Miami, the owner of a ten-person HVAC company sits at her desk, buried in a tangle of spreadsheets and half-completed tax forms."},
     {"title": "What it costs to keep doing this by hand", "description": "Every Friday, the owner of that Miami HVAC company is back at her desk, staring down another round of payroll."},

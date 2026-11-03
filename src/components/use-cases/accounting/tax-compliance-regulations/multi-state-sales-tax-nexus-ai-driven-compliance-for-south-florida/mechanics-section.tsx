@@ -67,7 +67,7 @@ export default function MechanicsSection() {
         quality</GlossaryLink>&nbsp;assessment. Compliance is only as accurate as the data you feed in. At this
         stage, every sales channel, Shopify, Amazon, Stripe, PayPal, even offline invoices, gets pulled into one
         clean data stream. This is where tools
-        like&nbsp;<Link id={`use-cases-accounting-multi-state-sales-tax-nexus-mechanics-taxcloud${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxcloud" className="text-[#0B162A] hover:underline">TaxCloud</Link>&nbsp;and&nbsp;<Link id={`use-cases-accounting-multi-state-sales-tax-nexus-mechanics-zamp${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/zamp" className="text-[#0B162A] hover:underline">Zamp</Link>&nbsp;earn
+        like&nbsp;<Link id={`use-cases-accounting-multi-state-sales-tax-nexus-mechanics-taxcloud${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/taxcloud" className="text-[#0B162A] hover:underline">TaxCloud</Link>&nbsp;and&nbsp;<Link id={`use-cases-accounting-multi-state-sales-tax-nexus-mechanics-zamp${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/zamp" className="text-[#0B162A] hover:underline">Zamp</Link>&nbsp;earn
         their keep. TaxCloud, for example, plugs into platforms like Shopify and Amazon, collecting real-time
         data and issuing alerts when you approach economic nexus in any state. Zamp goes further for teams
         without internal tax resources, providing continuous monitoring and human oversight, so nothing gets
@@ -77,14 +77,14 @@ export default function MechanicsSection() {
         The third phase is tech selection and architecture. Here, you decide what actually runs your nexus
         tracking and compliance. The right stack is built for your real-world mix of sales, not for an idealized
         single-channel setup. That means picking tools that handle all the edge cases,
-        like&nbsp;<Link id={`use-cases-accounting-multi-state-sales-tax-nexus-mechanics-quaderno${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/quaderno" className="text-[#0B162A] hover:underline">Quaderno</Link>&#39;s
+        like&nbsp;<Link id={`use-cases-accounting-multi-state-sales-tax-nexus-mechanics-quaderno${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/quaderno" className="text-[#0B162A] hover:underline">Quaderno</Link>&#39;s
         ability to track digital
         and&nbsp;SaaS&nbsp;sales
         thresholds across US and international markets,
-        or&nbsp;<Link id={`use-cases-accounting-multi-state-sales-tax-nexus-mechanics-taxjar${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxjar" className="text-[#0B162A] hover:underline">TaxJar</Link>&#39;s
+        or&nbsp;<Link id={`use-cases-accounting-multi-state-sales-tax-nexus-mechanics-taxjar${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/taxjar" className="text-[#0B162A] hover:underline">TaxJar</Link>&#39;s
         high-speed data ingestion for e-commerce brands who can&#39;t afford to wait for a batch job to finish
         before knowing if they owe tax. For businesses dealing with physical
-        inventory,&nbsp;<Link id={`use-cases-accounting-multi-state-sales-tax-nexus-mechanics-taxvalet${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/thetaxvalet" className="text-[#0B162A] hover:underline">TaxValet</Link>&nbsp;provides
+        inventory,&nbsp;<Link id={`use-cases-accounting-multi-state-sales-tax-nexus-mechanics-taxvalet${idSuffix}`} href="/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/thetaxvalet" className="text-[#0B162A] hover:underline">TaxValet</Link>&nbsp;provides
         tracking for where your stock is stored, so you never get caught by a surprise physical nexus in a state
         you forgot you were in.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">

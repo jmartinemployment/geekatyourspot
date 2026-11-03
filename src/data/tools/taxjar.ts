@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar/`
+ * `src/components/tools/accounting/tax-compliance-regulations/ai-tax-law/taxjar/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const taxjarContent: ToolPageContent = {
   "title": "TaxJar",
   "slug": "taxjar",
   "department": "accounting",
-  "useCase": "tax-compliance-regulations/automating-complex-and-changing-laws",
+  "useCase": "tax-compliance-regulations/ai-tax-law",
   "description":
     "TaxJar automates tax compliance for Miami-Dade, Broward, and West Palm Beach small businesses, simplifying complex laws.",
   "heroSummary":

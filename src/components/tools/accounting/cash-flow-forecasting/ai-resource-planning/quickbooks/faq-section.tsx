@@ -113,7 +113,7 @@ export default function FaqSection() {
               QBO Advanced tracks your financial data, but it does not automatically enforce employment laws or
               classify workers. Small businesses in South Florida often use both contractors and employees,
               which increases the risk of IRS audits for misclassification. To automate compliance and reduce
-              risk, QuickBooks should be integrated with a workforce management and payroll compliance tool like&nbsp;<Link id="tools-accounting-intelligent-resource-planning-quickbooks-faq-gusto" href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/gusto" className="text-[#C83803] hover:underline">Gusto</Link>&nbsp;or&nbsp;<Link id="tools-accounting-intelligent-resource-planning-quickbooks-faq-rippling" href="/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/rippling" className="text-[#C83803] hover:underline">Rippling</Link>. These platforms handle payroll taxes, track changing laws, and automate
+              risk, QuickBooks should be integrated with a workforce management and payroll compliance tool like&nbsp;<Link id="tools-accounting-intelligent-resource-planning-quickbooks-faq-gusto" href="/tools/accounting/tax-compliance-regulations/ai-payroll-tax/gusto" className="text-[#C83803] hover:underline">Gusto</Link>&nbsp;or&nbsp;<Link id="tools-accounting-intelligent-resource-planning-quickbooks-faq-rippling" href="/tools/accounting/tax-compliance-regulations/ai-payroll-tax/rippling" className="text-[#C83803] hover:underline">Rippling</Link>. These platforms handle payroll taxes, track changing laws, and automate
               onboarding to help protect your business from legal issues.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
             <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
@@ -123,7 +123,7 @@ export default function FaqSection() {
               QBO Advanced includes an automated sales tax engine that calculates tax at checkout based on
               location, but it does not manage economic nexus thresholds across states. As your business grows,
               you may cross state sales limits without realizing it, which can lead to tax penalties. To address
-              this, you need to pair QuickBooks with a dedicated tax compliance automation tool like&nbsp;<Link id="tools-accounting-intelligent-resource-planning-quickbooks-faq-taxcloud" href="/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxcloud" className="text-[#C83803] hover:underline">TaxCloud</Link>&nbsp;or
+              this, you need to pair QuickBooks with a dedicated tax compliance automation tool like&nbsp;<Link id="tools-accounting-intelligent-resource-planning-quickbooks-faq-taxcloud" href="/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/taxcloud" className="text-[#C83803] hover:underline">TaxCloud</Link>&nbsp;or
               Anrok. These integrations monitor your sales against state laws, alert you when nexus is
               triggered, and handle filing and remittance for you.</p>
             <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />

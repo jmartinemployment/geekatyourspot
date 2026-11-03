@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/deel/`
+ * `src/components/tools/accounting/tax-compliance-regulations/ai-payroll-tax/deel/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const deelContent: ToolPageContent = {
   "title": "Deel",
   "slug": "deel",
   "department": "accounting",
-  "useCase": "tax-compliance-regulations/payroll-tax-worker-misclassification",
+  "useCase": "tax-compliance-regulations/ai-payroll-tax",
   "description":
     "Deel automates payroll tax compliance and worker classification for South Florida small businesses, reducing audit risk and administrative complexity.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const deelContent: ToolPageContent = {
   "datePublished": "2026-10-13T13:30:45.9859490Z",
   "dateModified": "2026-10-13T13:30:45.9859490Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-payroll-software",
+    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax",
   "sections": [
     {"title": "Overview", "description": "A South Florida general contractor sits in a modest office, sifting through timesheets and invoices for a dozen workers."},
     {"title": "What It Costs to Keep Doing Payroll and Classification by Hand", "description": "Every Friday afternoon, the same South Florida business owner looks at the spreadsheet and feels the weight of risk."},

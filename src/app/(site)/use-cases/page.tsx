@@ -165,7 +165,7 @@ const DEPARTMENTS: Department[] = [
         slug: "ai-payroll-software",
         description:
           "AI solutions for Payroll Tax & Worker Misclassification help small businesses in Miami-Dade, Broward, and West Palm Beach automate compliance and reduce errors.",
-        href: "/use-cases/accounting/tax-compliance-regulations/ai-payroll-software",
+        href: "/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax",
       },
       {
         title: "Intelligent Multi-State Sales Tax",

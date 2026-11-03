@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet/`
+ * `src/components/tools/accounting/tax-compliance-regulations/ai-tax-law/thetaxvalet/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const thetaxvaletContent: ToolPageContent = {
   "title": "TaxValet",
   "slug": "thetaxvalet",
   "department": "accounting",
-  "useCase": "tax-compliance-regulations/automating-complex-and-changing-laws",
+  "useCase": "tax-compliance-regulations/ai-tax-law",
   "description":
     "Streamline tax compliance for Miami-area small businesses with TaxValet's expert-managed services.",
   "heroSummary":

@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxjar/`
+ * `src/components/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/taxjar/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const taxjarMultiStateSalesTaxNexusContent: ToolPageContent = {
   "title": "TaxJar",
   "slug": "taxjar",
   "department": "accounting",
-  "useCase": "tax-compliance-regulations/multi-state-sales-tax-nexus",
+  "useCase": "tax-compliance-regulations/ai-multi-state-sales-tax",
   "description":
     "Multi-State Sales Tax Nexus is simplified for South Florida small businesses with TaxJar, offering automated compliance, tracking, and filing solutions.",
   "heroSummary":

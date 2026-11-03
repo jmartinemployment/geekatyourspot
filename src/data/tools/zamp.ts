@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp/`
+ * `src/components/tools/accounting/tax-compliance-regulations/ai-tax-law/zamp/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const zampContent: ToolPageContent = {
   "title": "Zamp",
   "slug": "zamp",
   "department": "accounting",
-  "useCase": "tax-compliance-regulations/automating-complex-and-changing-laws",
+  "useCase": "tax-compliance-regulations/ai-tax-law",
   "description":
     "Zamp helps Miami-area small businesses manage complex tax laws with automated compliance solutions.",
   "heroSummary":

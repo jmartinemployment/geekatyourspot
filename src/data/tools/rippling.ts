@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/rippling/`
+ * `src/components/tools/accounting/tax-compliance-regulations/ai-payroll-tax/rippling/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const ripplingContent: ToolPageContent = {
   "title": "Rippling",
   "slug": "rippling",
   "department": "accounting",
-  "useCase": "tax-compliance-regulations/payroll-tax-worker-misclassification",
+  "useCase": "tax-compliance-regulations/ai-payroll-tax",
   "description":
     "Rippling helps South Florida small businesses automate payroll tax compliance and worker classification, reducing audit risks and saving time.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const ripplingContent: ToolPageContent = {
   "datePublished": "2026-10-13T13:30:45.9859490Z",
   "dateModified": "2026-10-13T13:30:45.9859490Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-payroll-software",
+    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax",
   "sections": [
     {"title": "Overview", "description": "Picture a small construction firm in Miami-Dade, juggling a dozen jobs across three counties."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "Most small business owners in South Florida do not set out to break the law when handling payroll tax or classifying workers."},

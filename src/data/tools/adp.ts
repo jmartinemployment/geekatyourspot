@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/adp/`
+ * `src/components/tools/accounting/tax-compliance-regulations/ai-payroll-tax/adp/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const adpContent: ToolPageContent = {
   "title": "ADP",
   "slug": "adp",
   "department": "accounting",
-  "useCase": "tax-compliance-regulations/payroll-tax-worker-misclassification",
+  "useCase": "tax-compliance-regulations/ai-payroll-tax",
   "description":
     "Payroll Tax & Worker Misclassification present real risks for small businesses in Miami-Dade, Broward, and West Palm Beach. ADP helps ensure compliance.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const adpContent: ToolPageContent = {
   "datePublished": "2026-10-13T16:53:19.6667410Z",
   "dateModified": "2026-10-13T16:53:19.6667410Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-payroll-software",
+    "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax",
   "sections": [
     {"title": "Overview", "description": "A small HVAC company in Miami-Dade starts its busy season with a full slate of projects and a growing crew."},
     {"title": "What It Costs to Keep Doing Payroll Tax and Worker Classification by Hand", "description": "Payroll tax and worker misclassification are not just paperwork headaches for small businesses in South Florida, they are direct threats to survival."},

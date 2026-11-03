@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud/`
+ * `src/components/tools/accounting/tax-compliance-regulations/ai-tax-law/taxcloud/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const taxcloudContent: ToolPageContent = {
   "title": "TaxCloud",
   "slug": "taxcloud",
   "department": "accounting",
-  "useCase": "tax-compliance-regulations/automating-complex-and-changing-laws",
+  "useCase": "tax-compliance-regulations/ai-tax-law",
   "description":
     "Automate tax compliance for South Florida businesses with TaxCloud, managing complex laws effortlessly.",
   "heroSummary":

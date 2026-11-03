@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/quaderno/`
+ * `src/components/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/quaderno/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const quadernoMultiStateSalesTaxNexusContent: ToolPageContent = {
   "title": "Quaderno",
   "slug": "quaderno",
   "department": "accounting",
-  "useCase": "tax-compliance-regulations/multi-state-sales-tax-nexus",
+  "useCase": "tax-compliance-regulations/ai-multi-state-sales-tax",
   "description":
     "Multi-State Sales Tax Nexus compliance is easy with Quaderno, the tool for small businesses in Miami-Dade, Broward, and West Palm Beach counties.",
   "heroSummary":
