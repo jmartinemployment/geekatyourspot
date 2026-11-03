@@ -260,6 +260,13 @@ const DEPARTMENTS: Department[] = [
       "AI is only as good as the data behind it. AI Operations is the data side of that work: scanning sources for completeness and accuracy, catching errors early, and keeping the inputs clean so the models you rely on stay trustworthy.",
     useCases: [
       {
+        title: "AI Front Desk",
+        slug: "front-desk",
+        description:
+          "AI receptionists and cross-platform chatbots that answer calls and messages, qualify leads, and book appointments in English and Spanish around the clock.",
+        href: "/use-cases/business-operations/front-desk",
+      },
+      {
         title: "Intelligent Receptionist",
         slug: "intelligent-receptionist",
         description:
