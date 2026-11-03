@@ -29,21 +29,18 @@ function sections(): Section[] {
     { heading: "About", hrefs: ["/", "/methodology"] },
     {
       heading: "Use Cases",
-      hrefs: [
-        "/use-cases",
-        ...USE_CASES_MENU.flatMap((department) => [
-          department.href,
-          ...department.items.map((item) => item.href),
-        ]),
-      ],
+      hrefs: ["/use-cases", ...USE_CASES_MENU.departments.map((department) => department.href)],
     },
-    ...USE_CASES_MENU.flatMap((department) =>
+    ...USE_CASES_MENU.departments.flatMap((department) =>
       department.categories.map((category) => ({
         heading: category.label,
-        hrefs: category.items.map((item) => item.href),
+        hrefs: [category.href, ...category.items.map((item) => item.href)],
       })),
     ),
-    { heading: "Tools", hrefs: ["/tools", ...TOOLS_MENU.map((department) => department.href)] },
+    {
+      heading: "Tools",
+      hrefs: ["/tools", ...TOOLS_MENU.departments.map((department) => department.href)],
+    },
     { heading: "Blog", hrefs: ["/blog"] },
   ];
 }

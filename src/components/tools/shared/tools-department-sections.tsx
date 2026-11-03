@@ -37,7 +37,7 @@ export type ToolCategory = { id: string; label: string; cards: ToolCard[] };
  * Entry".
  */
 export function getToolCategories(department: string): ToolCategory[] {
-  const menu = TOOLS_MENU.find((entry) => entry.href === `/tools/${department}`);
+  const menu = TOOLS_MENU.departments.find((entry) => entry.href === `/tools/${department}`);
   if (!menu) return [];
   const byHref = new Map(getToolsByDepartment(department).map((tool) => [toolHref(tool), tool]));
   return menu.categories
