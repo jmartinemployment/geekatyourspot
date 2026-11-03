@@ -16,7 +16,7 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "Article",
-            "headline": "AI AP Automation Software",
+            "headline": "Accounts Payable",
             "description": "Explore how automated accounts payable systems streamline financial processes and enhance operational efficiency.",
             "image": [
                 "https://geekatyourspot.com/images/accounting/use-cases/accounts-payable/automated-accounts-payable-pillar-hero.avif"
@@ -48,7 +48,7 @@ const jsonLd: Graph = {
 export const generateMetadata = async (): Promise<Metadata> => {
     // Add the return statement to fix the TypeScript error
     return {
-        title: "AI AP Automation Software",
+        title: "Accounts Payable",
         description: "Explore how automated accounts payable systems streamline financial processes and enhance operational efficiency.",
         keywords: ["automated accounts payable", "AP automation", "AI in finance", "accounts payable software", "financial operations", "invoice processing", "AP efficiency", "AI-driven finance", "AP tools", "business automation"],
         authors: [{ name: 'Jeff Martin' }],
@@ -59,7 +59,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             canonical: '/use-cases/accounting/accounts-payable',
         },
         openGraph: {
-            title: "AI AP Automation Software",
+            title: "Accounts Payable",
             description: 'Explore how automated accounts payable systems streamline financial processes and enhance operational efficiency.',
             url: 'https://geekatyourspot.com/use-cases/accounting/accounts-payable',
             siteName: 'Geek @ Your Spot LLC',
@@ -69,7 +69,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: "AI AP Automation Software",
+            title: "Accounts Payable",
             description: 'Explore how automated accounts payable systems streamline financial processes and enhance operational efficiency.',
             images: [SHARE_IMAGE],
         },
