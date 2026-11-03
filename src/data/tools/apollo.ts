@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo/`
+ * `src/components/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/apollo/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const apolloContent: ToolPageContent = {
   "title": "Apollo",
   "slug": "apollo",
   "department": "marketing",
-  "useCase": "lead-capture-pipeline/lead-enrichment-and-predictive-scoring",
+  "useCase": "marketing-automation-platforms/ai-lead-enrichment-predictive-scoring",
   "description":
     "Lead Enrichment and Predictive Scoring with Apollo help Miami-Dade, Broward, and West Palm Beach small businesses capture and qualify sales-ready leads.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const apolloContent: ToolPageContent = {
   "datePublished": "2026-10-17T11:18:14.1793650Z",
   "dateModified": "2026-10-17T11:18:14.1793650Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring",
+    "https://geekatyourspot.com/use-cases/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring",
   "sections": [
     {"title": "Overview", "description": "Every week, small business owners in Miami-Dade, Broward and West Palm Beach sit down to review their sales pipeline, only to find the same pattern."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "Manual lead enrichment and predictive scoring is where most small businesses in Miami-Dade, Broward, and West Palm Beach lose their edge."},

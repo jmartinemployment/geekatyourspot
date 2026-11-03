@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/mailerlite/`
+ * `src/components/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailerlite/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const mailerliteContent: ToolPageContent = {
   "title": "MailerLite",
   "slug": "mailerlite",
   "department": "marketing",
-  "useCase": "marketing-automation-platforms/personalized-email-campaigns",
+  "useCase": "marketing-automation-platforms/ai-personalized-email-campaigns",
   "description":
     "Personalized Email Campaigns with MailerLite boost open rates and sales for Miami small businesses. Start engaging your customers more effectively today.",
   "heroSummary":

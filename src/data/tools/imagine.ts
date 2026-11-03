@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/content-creation-workflow/intelligent-content-generation/imagine/`
+ * `src/components/tools/marketing/marketing-automation-platforms/ai-content-generation/imagine/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const imagineContent: ToolPageContent = {
   "title": "ImagineArt",
   "slug": "imagine",
   "department": "marketing",
-  "useCase": "content-creation-workflow/intelligent-content-generation",
+  "useCase": "marketing-automation-platforms/ai-content-generation",
   "description":
     "Intelligent Content Generation with Imagine empowers small businesses in Miami-Dade, Broward, and West Palm Beach to create branded content quickly and easily.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const imagineContent: ToolPageContent = {
   "datePublished": "2026-10-19T17:14:59.8223420Z",
   "dateModified": "2026-10-19T17:14:59.8223420Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-seo-content-generator",
+    "https://geekatyourspot.com/use-cases/marketing/marketing-automation-platforms/ai-content-generation",
   "sections": [
     {"title": "Overview", "description": "A local business owner unlocks the shop early, checks yesterday’s receipts, then glances at the blank social media calendar."},
     {"title": "What It Costs to Keep Doing Content the Old Way", "description": "Every small business in South Florida faces the same uphill battle: to stay visible, they need to keep their digital presence fresh and credible."},

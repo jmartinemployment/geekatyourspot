@@ -22,7 +22,7 @@ const jsonLd: WithContext<TechArticle> = {
         "@type": "Thing",
         "name": "6sense",
         "url": "https://6sense.com/",
-        "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/blog/marketing/lead-capture-pipeline/ai-lead-scoring" }
+        "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/blog/marketing/marketing-automation-platforms/ai-lead-scoring" }
     }
 };
 

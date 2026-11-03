@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/content-creation-workflow/intelligent-content-generation/castmagic/`
+ * `src/components/tools/marketing/marketing-automation-platforms/ai-content-generation/castmagic/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const castmagicContent: ToolPageContent = {
   "title": "Castmagic",
   "slug": "castmagic",
   "department": "marketing",
-  "useCase": "content-creation-workflow/intelligent-content-generation",
+  "useCase": "marketing-automation-platforms/ai-content-generation",
   "description":
     "Intelligent Content Generation with Castmagic helps South Florida small businesses turn recordings into valuable, ready-to-use marketing content efficiently.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const castmagicContent: ToolPageContent = {
   "datePublished": "2026-10-19T17:14:59.8223420Z",
   "dateModified": "2026-10-19T17:14:59.8223420Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-seo-content-generator",
+    "https://geekatyourspot.com/use-cases/marketing/marketing-automation-platforms/ai-content-generation",
   "sections": [
     {"title": "Overview", "description": "A small business owner in Miami-Dade records a customer call to capture fresh insights for next month’s marketing push."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "Most small businesses in South Florida face the same wall: they need consistent, high-quality content to build trust and visibility, but the old way of doing it just does not scale."},

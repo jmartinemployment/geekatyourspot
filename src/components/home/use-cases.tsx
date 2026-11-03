@@ -587,7 +587,7 @@ export function UseCasesSection() {
                                 </p>
                                 <div>
                                     <Link id="ai-content-creation-workflow-email-content-workflow-1"
-                                        href="/use-cases/marketing/ai-content-marketing-platforms" className="p-0 m-0">
+                                        href="/use-cases/marketing/marketing-automation-platforms" className="p-0 m-0">
                                         <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-base shadow-text p-0 m-0">
                                             Marketing Automation Platforms (MAP)</h4>
                                     </Link><p className="text-black text-xs text-shadow-xs">
@@ -596,8 +596,8 @@ export function UseCasesSection() {
                                     <ul className="text-black list-disc text-xs list- pl-3 ">
                                         <li className="pl-.5">
                                             <Link
-                                                id={gtmLinkIdFromHref("/use-cases/marketing/content-creation-workflow/ai-content-planning", "Intelligent Content Planning")}
-                                                href="/use-cases/marketing/content-creation-workflow/ai-content-planning"
+                                                id={gtmLinkIdFromHref("/use-cases/marketing/marketing-automation-platforms/ai-content-planning", "Intelligent Content Planning")}
+                                                href="/use-cases/marketing/marketing-automation-platforms/ai-content-planning"
                                                 className="hover:text-[#C83803] text-[#000000] hover:underline">
                                                 <h5 className="text-black text-sm font-bold shadow-text">
                                                     AI Content Planning:
@@ -611,32 +611,32 @@ export function UseCasesSection() {
                                             </h6>
                                             <p className="text-xs text-shadow-xs">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/hootsuite", "Hootsuite")}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-planning/hootsuite"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-planning/hootsuite", "Hootsuite")}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-planning/hootsuite"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Hootsuite
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/hyperwriteai", "HyperWrite")}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-planning/hyperwriteai"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-planning/hyperwriteai", "HyperWrite")}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-planning/hyperwriteai"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     HyperWrite
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/marketmuse", "MarketMuse")}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-planning/marketmuse"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-planning/marketmuse", "MarketMuse")}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-planning/marketmuse"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     MarketMuse
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/scalenut", "Scalenut")}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-planning/scalenut"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-planning/scalenut", "Scalenut")}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-planning/scalenut"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Scalenut
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/semrush", "Semrush")}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-planning/semrush"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-planning/semrush", "Semrush")}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-planning/semrush"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Semrush
                                                 </Link>.
@@ -644,8 +644,8 @@ export function UseCasesSection() {
                                         </li>
                                         <li className="pl-.5">
                                             <Link
-                                                id={gtmLinkIdFromHref("/use-cases/marketing/content-creation-workflow/ai-seo-content-generator", "Intelligent Content Generation")}
-                                                href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator"
+                                                id={gtmLinkIdFromHref("/use-cases/marketing/marketing-automation-platforms/ai-content-generation", "Intelligent Content Generation")}
+                                                href="/use-cases/marketing/marketing-automation-platforms/ai-content-generation"
                                                 className="hover:text-[#C83803] text-[#000000] hover:underline">
                                                 <h5 className="text-black text-sm font-bold shadow-text">
                                                     AI Content Generation:
@@ -659,80 +659,80 @@ export function UseCasesSection() {
                                             </h6>
                                             <p className="text-xs text-shadow-xs">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/adcreative", "AdCreative")}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/adcreative"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-generation/adcreative", "AdCreative")}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-generation/adcreative"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     AdCreative
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/anyword", "Anyword")}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/anyword"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-generation/anyword", "Anyword")}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-generation/anyword"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Anyword
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/castmagic", "Castmagic")}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/castmagic"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-generation/castmagic", "Castmagic")}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-generation/castmagic"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Castmagic
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/copy", "Copy.ai")}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/copy"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-generation/copy", "Copy.ai")}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-generation/copy"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Copy.ai
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/frase", "Frase")}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/frase"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-generation/frase", "Frase")}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-generation/frase"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Frase
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/hootsuite", "Hootsuite")}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/hootsuite"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-generation/hootsuite", "Hootsuite")}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-generation/hootsuite"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Hootsuite
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/imagine", "ImagineArt")}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/imagine"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-generation/imagine", "ImagineArt")}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-generation/imagine"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     ImagineArt
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper", "Jasper")}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-generation/jasper", "Jasper")}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-generation/jasper"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Jasper
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/koala", "Koala")}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/koala"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-generation/koala", "Koala")}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-generation/koala"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Koala
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/marpipe", "Marpipe")}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/marpipe"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-generation/marpipe", "Marpipe")}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-generation/marpipe"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Marpipe
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/rytr", "Rytr")}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/rytr"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-generation/rytr", "Rytr")}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-generation/rytr"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Rytr
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/scalenut", "Scalenut")}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/scalenut"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-generation/scalenut", "Scalenut")}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-generation/scalenut"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Scalenut
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/writesonic", "Writesonic")}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/writesonic"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-generation/writesonic", "Writesonic")}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-generation/writesonic"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Writesonic
                                                 </Link>.
@@ -755,38 +755,38 @@ export function UseCasesSection() {
                                             </h6>
                                             <p className="text-xs text-shadow-xs">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/activecampaign", "ActiveCampaign")}
-                                                    href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/activecampaign"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/activecampaign", "ActiveCampaign")}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/activecampaign"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     ActiveCampaign
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/brevo", "Brevo")}
-                                                    href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/brevo"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/brevo", "Brevo")}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/brevo"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Brevo
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/getresponse", "GetResponse")}
-                                                    href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/getresponse"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/getresponse", "GetResponse")}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/getresponse"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     GetResponse
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/mailchimp", "Mailchimp")}
-                                                    href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/mailchimp"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailchimp", "Mailchimp")}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailchimp"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Mailchimp
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/mailerlite", "MailerLite")}
-                                                    href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/mailerlite"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailerlite", "MailerLite")}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailerlite"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     MailerLite
                                                 </Link>,{" "}or&nbsp;
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/moosend", "Moosend")}
-                                                    href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/moosend"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/moosend", "Moosend")}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/moosend"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Moosend
                                                 </Link>.
@@ -794,8 +794,8 @@ export function UseCasesSection() {
                                         </li>
                                         <li className="pl-.5">
                                             <Link
-                                                id={gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring", "Lead Enrichment and Predictive Scoring")}
-                                                href="/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring"
+                                                id={gtmLinkIdFromHref("/use-cases/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring", "Lead Enrichment and Predictive Scoring")}
+                                                href="/use-cases/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring"
                                                 className="hover:text-[#C83803] text-[#000000] hover:underline">
                                                 <h5 className="text-black text-sm font-bold shadow-text">
                                                     AI Lead Enrichment &amp; Predictive Scoring:
@@ -809,32 +809,32 @@ export function UseCasesSection() {
                                             </h6>
                                             <p className="text-xs text-shadow-xs">
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo", "Apollo")}
-                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/apollo", "Apollo")}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/apollo"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Apollo
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/factors", "Factors")}
-                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/factors"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/factors", "Factors")}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/factors"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Factors
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/leadfeeder", "Leadfeeder")}
-                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/leadfeeder"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/leadfeeder", "Leadfeeder")}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/leadfeeder"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Leadfeeder
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/lusha", "Lusha")}
-                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/lusha"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/lusha", "Lusha")}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/lusha"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Lusha
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/snitcher", "Snitcher")}
-                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/snitcher"
+                                                    id={gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/snitcher", "Snitcher")}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/snitcher"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Snitcher
                                                 </Link>.
@@ -1722,7 +1722,7 @@ export function UseCasesSection() {
                                 </p>
                                 <div>
                                     <Link id="ai-content-creation-workflow-email-content-workflow-2-lg"
-                                        href="/use-cases/marketing/ai-content-marketing-platforms" className="p-0 m-0">
+                                        href="/use-cases/marketing/marketing-automation-platforms" className="p-0 m-0">
                                         <h4 className="text-[#0B162A] hover:text-[#C83803] hover:underline font-bold text-lg shadow-text p-0 m-0">
                                             Marketing Automation Platforms (MAP)</h4>
                                     </Link><p className="text-black text-sm text-shadow-xs">
@@ -1731,8 +1731,8 @@ export function UseCasesSection() {
                                     <ul className="text-black list-disc text-sm list- pl-3 ">
                                         <li className="pl-.5">
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/use-cases/marketing/content-creation-workflow/ai-content-planning", "Intelligent Content Planning")}-lg`}
-                                                href="/use-cases/marketing/content-creation-workflow/ai-content-planning"
+                                                id={`${gtmLinkIdFromHref("/use-cases/marketing/marketing-automation-platforms/ai-content-planning", "Intelligent Content Planning")}-lg`}
+                                                href="/use-cases/marketing/marketing-automation-platforms/ai-content-planning"
                                                 className="hover:text-[#C83803] text-[#000000] hover:underline">
                                                 <h5 className="text-black text-base font-bold shadow-text">
                                                     AI Content Planning:
@@ -1746,32 +1746,32 @@ export function UseCasesSection() {
                                             </h6>
                                             <p className="text-sm text-shadow-xs">
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/hootsuite", "Hootsuite")}-lg`}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-planning/hootsuite"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-planning/hootsuite", "Hootsuite")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-planning/hootsuite"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Hootsuite
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/hyperwriteai", "HyperWrite")}-lg`}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-planning/hyperwriteai"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-planning/hyperwriteai", "HyperWrite")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-planning/hyperwriteai"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     HyperWrite
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/marketmuse", "MarketMuse")}-lg`}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-planning/marketmuse"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-planning/marketmuse", "MarketMuse")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-planning/marketmuse"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     MarketMuse
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/scalenut", "Scalenut")}-lg`}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-planning/scalenut"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-planning/scalenut", "Scalenut")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-planning/scalenut"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Scalenut
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-planning/semrush", "Semrush")}-lg`}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-planning/semrush"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-planning/semrush", "Semrush")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-planning/semrush"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Semrush
                                                 </Link>.
@@ -1779,8 +1779,8 @@ export function UseCasesSection() {
                                         </li>
                                         <li className="pl-.5">
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/use-cases/marketing/content-creation-workflow/ai-seo-content-generator", "Intelligent Content Generation")}-lg`}
-                                                href="/use-cases/marketing/content-creation-workflow/ai-seo-content-generator"
+                                                id={`${gtmLinkIdFromHref("/use-cases/marketing/marketing-automation-platforms/ai-content-generation", "Intelligent Content Generation")}-lg`}
+                                                href="/use-cases/marketing/marketing-automation-platforms/ai-content-generation"
                                                 className="hover:text-[#C83803] text-[#000000] hover:underline">
                                                 <h5 className="text-black text-base font-bold shadow-text">
                                                     AI Content Generation:
@@ -1794,80 +1794,80 @@ export function UseCasesSection() {
                                             </h6>
                                             <p className="text-sm text-shadow-xs">
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/adcreative", "AdCreative")}-lg`}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/adcreative"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-generation/adcreative", "AdCreative")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-generation/adcreative"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     AdCreative
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/anyword", "Anyword")}-lg`}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/anyword"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-generation/anyword", "Anyword")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-generation/anyword"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Anyword
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/castmagic", "Castmagic")}-lg`}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/castmagic"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-generation/castmagic", "Castmagic")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-generation/castmagic"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Castmagic
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/copy", "Copy.ai")}-lg`}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/copy"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-generation/copy", "Copy.ai")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-generation/copy"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Copy.ai
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/frase", "Frase")}-lg`}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/frase"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-generation/frase", "Frase")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-generation/frase"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Frase
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/hootsuite", "Hootsuite")}-lg`}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/hootsuite"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-generation/hootsuite", "Hootsuite")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-generation/hootsuite"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Hootsuite
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/imagine", "ImagineArt")}-lg`}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/imagine"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-generation/imagine", "ImagineArt")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-generation/imagine"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     ImagineArt
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper", "Jasper")}-lg`}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-generation/jasper", "Jasper")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-generation/jasper"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Jasper
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/koala", "Koala")}-lg`}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/koala"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-generation/koala", "Koala")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-generation/koala"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Koala
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/marpipe", "Marpipe")}-lg`}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/marpipe"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-generation/marpipe", "Marpipe")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-generation/marpipe"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Marpipe
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/rytr", "Rytr")}-lg`}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/rytr"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-generation/rytr", "Rytr")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-generation/rytr"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Rytr
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/scalenut", "Scalenut")}-lg`}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/scalenut"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-generation/scalenut", "Scalenut")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-generation/scalenut"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Scalenut
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/content-creation-workflow/intelligent-content-generation/writesonic", "Writesonic")}-lg`}
-                                                    href="/tools/marketing/content-creation-workflow/intelligent-content-generation/writesonic"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-content-generation/writesonic", "Writesonic")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-content-generation/writesonic"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Writesonic
                                                 </Link>.
@@ -1890,38 +1890,38 @@ export function UseCasesSection() {
                                             </h6>
                                             <p className="text-sm text-shadow-xs">
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/activecampaign", "ActiveCampaign")}-lg`}
-                                                    href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/activecampaign"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/activecampaign", "ActiveCampaign")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/activecampaign"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     ActiveCampaign
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/brevo", "Brevo")}-lg`}
-                                                    href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/brevo"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/brevo", "Brevo")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/brevo"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Brevo
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/getresponse", "GetResponse")}-lg`}
-                                                    href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/getresponse"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/getresponse", "GetResponse")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/getresponse"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     GetResponse
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/mailchimp", "Mailchimp")}-lg`}
-                                                    href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/mailchimp"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailchimp", "Mailchimp")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailchimp"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Mailchimp
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/mailerlite", "MailerLite")}-lg`}
-                                                    href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/mailerlite"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailerlite", "MailerLite")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailerlite"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     MailerLite
                                                 </Link>,{" "}or&nbsp;
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/moosend", "Moosend")}-lg`}
-                                                    href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/moosend"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/moosend", "Moosend")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/moosend"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Moosend
                                                 </Link>.
@@ -1929,8 +1929,8 @@ export function UseCasesSection() {
                                         </li>
                                         <li className="pl-.5">
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring", "Lead Enrichment and Predictive Scoring")}-lg`}
-                                                href="/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring"
+                                                id={`${gtmLinkIdFromHref("/use-cases/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring", "Lead Enrichment and Predictive Scoring")}-lg`}
+                                                href="/use-cases/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring"
                                                 className="hover:text-[#C83803] text-[#000000] hover:underline">
                                                 <h5 className="text-black text-base font-bold shadow-text">
                                                     AI Lead Enrichment &amp; Predictive Scoring:
@@ -1944,32 +1944,32 @@ export function UseCasesSection() {
                                             </h6>
                                             <p className="text-sm text-shadow-xs">
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo", "Apollo")}-lg`}
-                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/apollo", "Apollo")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/apollo"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Apollo
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/factors", "Factors")}-lg`}
-                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/factors"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/factors", "Factors")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/factors"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Factors
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/leadfeeder", "Leadfeeder")}-lg`}
-                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/leadfeeder"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/leadfeeder", "Leadfeeder")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/leadfeeder"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Leadfeeder
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/lusha", "Lusha")}-lg`}
-                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/lusha"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/lusha", "Lusha")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/lusha"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Lusha
                                                 </Link>,{" "}
                                                 <Link
-                                                    id={`${gtmLinkIdFromHref("/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/snitcher", "Snitcher")}-lg`}
-                                                    href="/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/snitcher"
+                                                    id={`${gtmLinkIdFromHref("/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/snitcher", "Snitcher")}-lg`}
+                                                    href="/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/snitcher"
                                                     className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                     Snitcher
                                                 </Link>.

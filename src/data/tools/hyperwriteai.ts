@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/content-creation-workflow/intelligent-content-planning/hyperwriteai/`
+ * `src/components/tools/marketing/marketing-automation-platforms/ai-content-planning/hyperwriteai/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const hyperwriteaiContent: ToolPageContent = {
   "title": "HyperWrite",
   "slug": "hyperwriteai",
   "department": "marketing",
-  "useCase": "content-creation-workflow/intelligent-content-planning",
+  "useCase": "marketing-automation-platforms/ai-content-planning",
   "description":
     "Intelligent Content Planning with HyperWrite gives small South Florida businesses a smarter way to automate and optimize their marketing efforts.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const hyperwriteaiContent: ToolPageContent = {
   "datePublished": "2026-10-18T13:12:10.3589380Z",
   "dateModified": "2026-10-18T13:12:10.3589380Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-content-planning",
+    "https://geekatyourspot.com/use-cases/marketing/marketing-automation-platforms/ai-content-planning",
   "sections": [
     {"title": "Overview", "description": "Every week, small marketing teams across South Florida spend late nights staring at blank screens, trying to force out another blog post or email campaign."},
     {"title": "The Real Cost of Manual Content Planning for Small Teams", "description": "Manual content planning drains small teams in ways that go far beyond the visible workload."},

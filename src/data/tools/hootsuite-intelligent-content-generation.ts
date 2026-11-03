@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/content-creation-workflow/intelligent-content-generation/hootsuite/`
+ * `src/components/tools/marketing/marketing-automation-platforms/ai-content-generation/hootsuite/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const hootsuiteIntelligentContentGenerationContent: ToolPageContent = {
   "title": "Hootsuite",
   "slug": "hootsuite",
   "department": "marketing",
-  "useCase": "content-creation-workflow/intelligent-content-generation",
+  "useCase": "marketing-automation-platforms/ai-content-generation",
   "description":
     "Intelligent Content Generation with Hootsuite helps small businesses in South Florida automate and optimize their digital marketing for better results.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const hootsuiteIntelligentContentGenerationContent: ToolPageContent = {
   "datePublished": "2026-10-19T17:14:59.8223420Z",
   "dateModified": "2026-10-19T17:14:59.8223420Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-seo-content-generator",
+    "https://geekatyourspot.com/use-cases/marketing/marketing-automation-platforms/ai-content-generation",
   "sections": [
     {"title": "Overview", "description": "Most small businesses in Miami-Dade, Broward, and West Palm Beach know exactly what it feels like to stare at a blank screen late at night, struggling to write a simple update for their website or social media."},
     {"title": "What It Costs to Keep Doing Content Creation by Hand", "description": "For small businesses in Miami-Dade, Broward, and West Palm Beach, manual content creation is a time sink that drains resources and stalls growth."},

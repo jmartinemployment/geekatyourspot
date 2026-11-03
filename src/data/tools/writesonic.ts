@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/content-creation-workflow/intelligent-content-generation/writesonic/`
+ * `src/components/tools/marketing/marketing-automation-platforms/ai-content-generation/writesonic/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const writesonicContent: ToolPageContent = {
   "title": "Writesonic",
   "slug": "writesonic",
   "department": "marketing",
-  "useCase": "content-creation-workflow/intelligent-content-generation",
+  "useCase": "marketing-automation-platforms/ai-content-generation",
   "description":
     "Intelligent Content Generation with Writesonic automates local content for South Florida small businesses, saving time and driving digital growth.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const writesonicContent: ToolPageContent = {
   "datePublished": "2026-10-19T17:14:59.8223420Z",
   "dateModified": "2026-10-19T17:14:59.8223420Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-seo-content-generator",
+    "https://geekatyourspot.com/use-cases/marketing/marketing-automation-platforms/ai-content-generation",
   "sections": [
     {"title": "Overview", "description": "A small business owner in Miami-Dade sits down after hours, ready to write a blog post that should have gone live last week."},
     {"title": "What It Costs to Keep Doing Content Creation by Hand", "description": "For small businesses in Miami-Dade, Broward, and West Palm Beach, the price of manual content creation is not just measured in lost time."},

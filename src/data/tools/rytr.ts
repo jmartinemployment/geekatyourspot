@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/content-creation-workflow/intelligent-content-generation/rytr/`
+ * `src/components/tools/marketing/marketing-automation-platforms/ai-content-generation/rytr/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const rytrContent: ToolPageContent = {
   "title": "Rytr",
   "slug": "rytr",
   "department": "marketing",
-  "useCase": "content-creation-workflow/intelligent-content-generation",
+  "useCase": "marketing-automation-platforms/ai-content-generation",
   "description":
     "Intelligent Content Generation with Rytr enables Miami-Dade, Broward, and West Palm Beach small businesses to create marketing content quickly and affordably.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const rytrContent: ToolPageContent = {
   "datePublished": "2026-10-19T17:14:59.8223420Z",
   "dateModified": "2026-10-19T17:14:59.8223420Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-seo-content-generator",
+    "https://geekatyourspot.com/use-cases/marketing/marketing-automation-platforms/ai-content-generation",
   "sections": [
     {"title": "Overview", "description": "Picture a local Miami salon owner, already working twelve-hour days, staring at a blank screen after closing time."},
     {"title": "What It Costs to Keep Doing Content by Hand", "description": "Every week, small business owners in South Florida lose hours to the grind of content creation."},

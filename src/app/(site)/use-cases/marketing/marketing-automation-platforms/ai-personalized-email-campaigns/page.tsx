@@ -36,7 +36,7 @@ const jsonLd: Graph = {
             "dateModified": "2026-10-26T12:35:17.8414750Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "Personalized Email Campaigns, AI marketing automation, small business email automation, Miami-Dade AI consulting, Broward marketing automation, Palm Beach personalized emails, Brevo for small businesses, MailerLite automation, ActiveCampaign personalization, Mailchimp local integration",
-            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/ai-content-marketing-platforms" },
+            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/marketing-automation-platforms" },
             "mentions": [
                 { "@type": "Thing", "name": "GetResponse", "url": "https://www.getresponse.com/" },
                 { "@type": "Thing", "name": "Mailchimp", "url": "https://mailchimp.com/" },

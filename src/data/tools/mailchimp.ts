@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/mailchimp/`
+ * `src/components/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailchimp/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const mailchimpContent: ToolPageContent = {
   "title": "Mailchimp",
   "slug": "mailchimp",
   "department": "marketing",
-  "useCase": "marketing-automation-platforms/personalized-email-campaigns",
+  "useCase": "marketing-automation-platforms/ai-personalized-email-campaigns",
   "description":
     "Personalized Email Campaigns with Mailchimp help South Florida small businesses increase open rates and sales while reducing manual work. Start today.",
   "heroSummary":

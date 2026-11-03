@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/factors/`
+ * `src/components/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/factors/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const factorsContent: ToolPageContent = {
   "title": "Factors",
   "slug": "factors",
   "department": "marketing",
-  "useCase": "lead-capture-pipeline/lead-enrichment-and-predictive-scoring",
+  "useCase": "marketing-automation-platforms/ai-lead-enrichment-predictive-scoring",
   "description":
     "Lead Enrichment and Predictive Scoring from Factors helps small businesses in South Florida capture and qualify their best leads for a stronger sales pipeline.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const factorsContent: ToolPageContent = {
   "datePublished": "2026-10-17T11:18:14.1793650Z",
   "dateModified": "2026-10-17T11:18:14.1793650Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring",
+    "https://geekatyourspot.com/use-cases/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring",
   "sections": [
     {"title": "Overview", "description": "Picture a small marketing team in West Palm Beach."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "For most small businesses in Miami-Dade, Broward, and Palm Beach, the lead pipeline is a black hole."},

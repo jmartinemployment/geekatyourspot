@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/content-creation-workflow/intelligent-content-generation/koala/`
+ * `src/components/tools/marketing/marketing-automation-platforms/ai-content-generation/koala/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const koalaContent: ToolPageContent = {
   "title": "Koala",
   "slug": "koala",
   "department": "marketing",
-  "useCase": "content-creation-workflow/intelligent-content-generation",
+  "useCase": "marketing-automation-platforms/ai-content-generation",
   "description":
     "Intelligent Content Generation with Koala helps South Florida small businesses automate authentic content, boosting local online visibility and engagement.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const koalaContent: ToolPageContent = {
   "datePublished": "2026-10-19T17:14:59.8223420Z",
   "dateModified": "2026-10-19T17:14:59.8223420Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-seo-content-generator",
+    "https://geekatyourspot.com/use-cases/marketing/marketing-automation-platforms/ai-content-generation",
   "sections": [
     {"title": "Overview", "description": "A South Florida office manager stares at a blank screen, trying to draft just one social post before the day’s real work starts."},
     {"title": "What It Costs to Keep Doing Content Creation by Hand", "description": "Every small business in Miami-Dade, Broward, and West Palm Beach knows the routine: you need to show up online or you disappear."},

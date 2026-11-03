@@ -22,7 +22,7 @@ const jsonLd: WithContext<TechArticle> = {
         "@type": "Thing",
         "name": "Zapier",
         "url": "https://zapier.com/",
-        "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/blog/marketing/content-creation-workflow/ai-content-repurposing" }
+        "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/blog/marketing/marketing-automation-platforms/ai-content-repurposing" }
     }
 };
 

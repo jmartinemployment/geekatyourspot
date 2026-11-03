@@ -2,18 +2,18 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools and /tools/marketing. The hand-coded page under
- * `src/app/(site)/tools/marketing/content-creation-workflow/intelligent-content-generation/contentstudio/` is the content of record; `sections` here carries each
+ * `src/app/(site)/tools/marketing/marketing-automation-platforms/ai-content-generation/contentstudio/` is the content of record; `sections` here carries each
  * section's heading and opening sentence so the registry stays readable, not a second copy.
  */
 export const contentstudioContent: ToolPageContent = {
   "title": "ContentStudio",
   "slug": "contentstudio",
   "department": "marketing",
-  "useCase": "content-creation-workflow/intelligent-content-generation",
+  "useCase": "marketing-automation-platforms/ai-content-generation",
   "description": "Transform your content with ContentStudio's AI repurposing, enhancing reach and engagement across platforms.",
   "heroSummary": "Transform your content with ContentStudio's AI repurposing, enhancing reach and engagement across platforms.",
   "keywords": "AI Content Repurposing, content transformation, Jasper AI, Copy.ai, ContentStudio, workflow automation",
-  "relatedArticleId": "https://geekatyourspot.com/blog/marketing/content-creation-workflow/ai-content-repurposing",
+  "relatedArticleId": "https://geekatyourspot.com/blog/marketing/marketing-automation-platforms/ai-content-repurposing",
   "sections": [
     {
       "title": "Overview",

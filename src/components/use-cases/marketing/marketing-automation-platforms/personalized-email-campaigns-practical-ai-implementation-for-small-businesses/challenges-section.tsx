@@ -13,13 +13,13 @@ export default function ChallengesSection() {
       <p className="text-base text-white shadow-text pt-3">
         The first place things go wrong is the generic send. When you blast the same offer or update to your whole
         list, most people ignore it or mark it as spam. This happens because the message is not relevant to their
-        recent activity or interests. <Link id={`use-cases-marketing-personalized-email-campaigns-challenges-brevo${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/brevo" className="text-[#C83803] hover:underline">Brevo</Link> addresses this with behavioral grouping, so emails go out when each
+        recent activity or interests. <Link id={`use-cases-marketing-personalized-email-campaigns-challenges-brevo${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/brevo" className="text-[#C83803] hover:underline">Brevo</Link> addresses this with behavioral grouping, so emails go out when each
         person is most likely to open them and with content keyed to their past engagement. Without this, your open
         rates drop, and customers tune you out. Segmentation by hand, meanwhile, is slow and error-prone, so most
         teams skip it or do it once and never update it.</p>
       <p className="text-base text-white shadow-text pt-3">
         Next comes the missed follow-up. Leads arrive from forms, chats, or sales calls, but they often enter a
-        single catch-all list with no clear next step. <Link id={`use-cases-marketing-personalized-email-campaigns-challenges-getresponse${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/getresponse" className="text-[#C83803] hover:underline">GetResponse</Link> is
+        single catch-all list with no clear next step. <Link id={`use-cases-marketing-personalized-email-campaigns-challenges-getresponse${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/getresponse" className="text-[#C83803] hover:underline">GetResponse</Link> is
         built to fix this exact problem by linking forms and <GlossaryLink slug="landing-page">landing pages</GlossaryLink> straight
         to automated <GlossaryLink slug="lead-nurturing">nurture sequences</GlossaryLink>. When this step is handled
         manually, copying leads to a spreadsheet or sending one-off messages, people slip through the cracks. The
@@ -27,13 +27,13 @@ export default function ChallengesSection() {
         track who is ready to buy versus who needs more information.</p>
       <p className="text-base text-white shadow-text pt-3">
         List growth also brings in another layer of risk: contacts collected from different channels receive
-        inconsistent outreach, or worse, nothing at all. <Link id={`use-cases-marketing-personalized-email-campaigns-challenges-mailerlite${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/mailerlite" className="text-[#C83803] hover:underline">MailerLite</Link> addresses
+        inconsistent outreach, or worse, nothing at all. <Link id={`use-cases-marketing-personalized-email-campaigns-challenges-mailerlite${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailerlite" className="text-[#C83803] hover:underline">MailerLite</Link> addresses
         this by tying every signup form or landing page to a defined workflow, so nobody gets lost between systems
         or teams. Without this, your list becomes a patchwork of old and new contacts, with interests mixed, and
         your branding and calls to action lose their impact.</p>
       <p className="text-base text-white shadow-text pt-3">
         Personalization at scale is almost impossible by hand. Staff are forced to copy and paste, update names, and
-        try to remember who saw what last. <Link id={`use-cases-marketing-personalized-email-campaigns-challenges-moosend${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/moosend" className="text-[#C83803] hover:underline">Moosend</Link> and <Link id={`use-cases-marketing-personalized-email-campaigns-challenges-activecampaign${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/activecampaign" className="text-[#C83803] hover:underline">ActiveCampaign</Link> both
+        try to remember who saw what last. <Link id={`use-cases-marketing-personalized-email-campaigns-challenges-moosend${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/moosend" className="text-[#C83803] hover:underline">Moosend</Link> and <Link id={`use-cases-marketing-personalized-email-campaigns-challenges-activecampaign${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/activecampaign" className="text-[#C83803] hover:underline">ActiveCampaign</Link> both
         automate these steps: Moosend uses <GlossaryLink slug="contact-tagging">tags</GlossaryLink> and segments to
         split contacts by interest or stage, and ActiveCampaign connects engagement data to sales pipelines for
         better targeting. When teams try to do this themselves, repetitive follow-ups get missed, and <GlossaryLink slug="qualified-lead">qualified
@@ -50,7 +50,7 @@ export default function ChallengesSection() {
         to fix this by allowing quick drafting and recycling of content for new campaigns. Manual processes lose
         these learnings and create more room for error and inconsistency.</p>
       <p className="text-base text-white shadow-text pt-3">
-        <Link id={`use-cases-marketing-personalized-email-campaigns-challenges-mailchimp${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/mailchimp" className="text-[#C83803] hover:underline">Mailchimp</Link>,
+        <Link id={`use-cases-marketing-personalized-email-campaigns-challenges-mailchimp${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailchimp" className="text-[#C83803] hover:underline">Mailchimp</Link>,
         designed for small businesses that need to scale from a handful of contacts to thousands, addresses the
         problem of outgrowing entry-level tools. Without automation, businesses face sudden price hikes and have to
         manage more features than they need or can use. Mailchimp’s tiered approach and AI-driven suggestions for

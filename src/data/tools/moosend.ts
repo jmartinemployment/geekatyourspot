@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/moosend/`
+ * `src/components/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/moosend/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const moosendContent: ToolPageContent = {
   "title": "Moosend",
   "slug": "moosend",
   "department": "marketing",
-  "useCase": "marketing-automation-platforms/personalized-email-campaigns",
+  "useCase": "marketing-automation-platforms/ai-personalized-email-campaigns",
   "description":
     "Personalized Email Campaigns with Moosend increase open rates and customer retention for small businesses in South Florida. Start automating your emails now.",
   "heroSummary":

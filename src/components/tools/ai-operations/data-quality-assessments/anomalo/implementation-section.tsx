@@ -36,7 +36,7 @@ export default function ImplementationSection() {
               </ul>
               <p className="text-base text-white shadow-text pt-3">By addressing these considerations, businesses can ensure a successful implementation of Anomalo. This preparation
                 enables companies to maintain high <GlossaryLink slug="data-quality" className="text-[#0B162A] hover:underline">data quality</GlossaryLink>, which is crucial for the effectiveness of automated ad spend
-                optimization tools like Google Ads Smart Bidding and&nbsp;<Link id="tools-marketing-anomalo-implementation-jasper-ai" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#0B162A] hover:underline">Jasper</Link>.</p>
+                optimization tools like Google Ads Smart Bidding and&nbsp;<Link id="tools-marketing-anomalo-implementation-jasper-ai" href="/tools/marketing/marketing-automation-platforms/ai-content-generation/jasper" className="text-[#0B162A] hover:underline">Jasper</Link>.</p>
             </div>
           </div>
         </div >
@@ -71,7 +71,7 @@ export default function ImplementationSection() {
               </ul>
               <p className="text-base text-white shadow-text pt-3">By addressing these considerations, businesses can ensure a successful implementation of Anomalo. This preparation
                 enables companies to maintain high <GlossaryLink slug="data-quality" className="text-[#0B162A] hover:underline">data quality</GlossaryLink>, which is crucial for the effectiveness of automated ad spend
-                optimization tools like Google Ads Smart Bidding and&nbsp;<Link id="tools-marketing-anomalo-implementation-jasper-ai-lg" href="/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper" className="text-[#0B162A] hover:underline">Jasper</Link>.</p>
+                optimization tools like Google Ads Smart Bidding and&nbsp;<Link id="tools-marketing-anomalo-implementation-jasper-ai-lg" href="/tools/marketing/marketing-automation-platforms/ai-content-generation/jasper" className="text-[#0B162A] hover:underline">Jasper</Link>.</p>
             </div>
           </div>
         </div >

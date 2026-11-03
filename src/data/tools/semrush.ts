@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/content-creation-workflow/intelligent-content-planning/semrush/`
+ * `src/components/tools/marketing/marketing-automation-platforms/ai-content-planning/semrush/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const semrushContent: ToolPageContent = {
   "title": "Semrush",
   "slug": "semrush",
   "department": "marketing",
-  "useCase": "content-creation-workflow/intelligent-content-planning",
+  "useCase": "marketing-automation-platforms/ai-content-planning",
   "description":
     "Intelligent Content Planning is simple with Semrush, giving Miami-Dade, Broward, and West Palm Beach small businesses a smarter, data-driven content workflow.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const semrushContent: ToolPageContent = {
   "datePublished": "2026-10-18T13:12:10.3589380Z",
   "dateModified": "2026-10-18T13:12:10.3589380Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-content-planning",
+    "https://geekatyourspot.com/use-cases/marketing/marketing-automation-platforms/ai-content-planning",
   "sections": [
     {"title": "Overview", "description": "Every week, small business owners and their teams in Miami-Dade, Broward, and West Palm Beach counties stare at blank screens, hoping their next blog or social post will finally get traction."},
     {"title": "What It Costs to Keep Doing Content Planning by Hand", "description": "A small business in Miami-Dade, Broward, or West Palm Beach runs into the same wall every week."},

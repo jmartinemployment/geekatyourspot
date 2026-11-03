@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/leadfeeder/`
+ * `src/components/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/leadfeeder/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const leadfeederContent: ToolPageContent = {
   "title": "Leadfeeder",
   "slug": "leadfeeder",
   "department": "marketing",
-  "useCase": "lead-capture-pipeline/lead-enrichment-and-predictive-scoring",
+  "useCase": "marketing-automation-platforms/ai-lead-enrichment-predictive-scoring",
   "description":
     "Leadfeeder offers Lead Enrichment and Predictive Scoring to help Miami-area small businesses identify and prioritize high-intent website leads instantly.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const leadfeederContent: ToolPageContent = {
   "datePublished": "2026-10-17T11:18:14.1793650Z",
   "dateModified": "2026-10-17T11:18:14.1793650Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring",
+    "https://geekatyourspot.com/use-cases/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring",
   "sections": [
     {"title": "Overview", "description": "Every week, a small business owner in Miami-Dade spends hours calling companies that never return a message."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "The hidden cost of manual lead enrichment and predictive scoring is not just the time spent on cold outreach."},

@@ -13,7 +13,7 @@ export type HandCodedPost = Readonly<{
 
 export const HAND_CODED_POSTS: readonly HandCodedPost[] = [
   {
-    href: "/blog/marketing/lead-capture-pipeline/ai-lead-scoring",
+    href: "/blog/marketing/marketing-automation-platforms/ai-lead-scoring",
     title: "AI Lead Scoring",
     excerpt:
       "Explore AI-driven lead scoring to boost sales for small businesses. Learn effective strategies and tools like ActiveCampaign and Pipedrive.",

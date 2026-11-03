@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/content-creation-workflow/intelligent-content-planning/scalenut/`
+ * `src/components/tools/marketing/marketing-automation-platforms/ai-content-planning/scalenut/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const scalenutContent: ToolPageContent = {
   "title": "Scalenut",
   "slug": "scalenut",
   "department": "marketing",
-  "useCase": "content-creation-workflow/intelligent-content-planning",
+  "useCase": "marketing-automation-platforms/ai-content-planning",
   "description":
     "Intelligent Content Planning with Scalenut helps small businesses in Miami-Dade, Broward and West Palm Beach get their content found and cited by AI and search.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const scalenutContent: ToolPageContent = {
   "datePublished": "2026-10-18T13:12:10.3589380Z",
   "dateModified": "2026-10-18T13:12:10.3589380Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-content-planning",
+    "https://geekatyourspot.com/use-cases/marketing/marketing-automation-platforms/ai-content-planning",
   "sections": [
     {"title": "Overview", "description": "A small marketing team in West Palm Beach sits at their desks, staring at a spreadsheet of keywords that never seems to shrink."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "A small marketing team in South Florida faces the same wall every week: too much to plan, too little time, and no way to get ahead."},

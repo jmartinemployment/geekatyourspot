@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/getresponse/`
+ * `src/components/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/getresponse/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const getresponseContent: ToolPageContent = {
   "title": "GetResponse",
   "slug": "getresponse",
   "department": "marketing",
-  "useCase": "marketing-automation-platforms/personalized-email-campaigns",
+  "useCase": "marketing-automation-platforms/ai-personalized-email-campaigns",
   "description":
     "Personalized Email Campaigns with GetResponse boost open rates for small businesses in South Florida. Automate now and win back your time.",
   "heroSummary":

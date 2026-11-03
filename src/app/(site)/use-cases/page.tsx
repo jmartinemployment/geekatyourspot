@@ -190,21 +190,21 @@ const DEPARTMENTS: Department[] = [
         slug: "ai-content-marketing-platforms",
         description:
           "Marketing Automation Platforms tie content planning, content generation, personalized email, and lead scoring to one set of contact records. See how the four jobs fit together.",
-        href: "/use-cases/marketing/ai-content-marketing-platforms",
+        href: "/use-cases/marketing/marketing-automation-platforms",
       },
       {
         title: "Intelligent Content Planning",
         slug: "intelligent-content-planning",
         description:
           "Intelligent Content Planning streamlines content creation for small businesses, saving time and reducing errors. See how local AI implementation works.",
-        href: "/use-cases/marketing/content-creation-workflow/ai-content-planning",
+        href: "/use-cases/marketing/marketing-automation-platforms/ai-content-planning",
       },
       {
         title: "Intelligent Content Generation",
         slug: "ai-seo-content-generator",
         description:
           "Intelligent Content Generation helps Miami-Dade, Broward, and West Palm Beach businesses automate content creation, repurposing, scheduling, and approvals.",
-        href: "/use-cases/marketing/content-creation-workflow/ai-seo-content-generator",
+        href: "/use-cases/marketing/marketing-automation-platforms/ai-content-generation",
       },
       {
         title: "Personalized Email Campaigns",
@@ -239,7 +239,7 @@ const DEPARTMENTS: Department[] = [
         slug: "lead-enrichment-and-predictive-scoring",
         description:
           "Lead Enrichment and Predictive Scoring for South Florida small businesses: capture better leads, reduce manual work, and close more sales with AI.",
-        href: "/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring",
+        href: "/use-cases/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring",
       },
       {
         title: "SEO Blog and Article Generation",

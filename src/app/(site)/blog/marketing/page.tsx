@@ -108,12 +108,12 @@ export default async function Page() {
                 </p>
                 <ul className="list-disc list-outside pl-5 space-y-2 text-base font-normal text-white shadow-text pt-4">
                   <li>
-                    <Link href="/blog/marketing/content-creation-workflow/intelligent-content-planning-how-south-florida-can-save-hours-and-drive-more-sales" className={LINK_CLASS}>
+                    <Link href="/blog/marketing/marketing-automation-platforms/intelligent-content-planning-how-south-florida-can-save-hours-and-drive-more-sales" className={LINK_CLASS}>
                       Content Planning That Saves Hours
                     </Link>
                   </li>
                   <li>
-                    <Link href="/blog/marketing/content-creation-workflow/intelligent-content-generation-for-miami-how-to-save-time-and-scale-without-extra-hires" className={LINK_CLASS}>
+                    <Link href="/blog/marketing/marketing-automation-platforms/intelligent-content-generation-for-miami-how-to-save-time-and-scale-without-extra-hires" className={LINK_CLASS}>
                       Content Generation Without New Hires
                     </Link>
                   </li>
@@ -123,7 +123,7 @@ export default async function Page() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/blog/marketing/content-creation-workflow/ai-content-repurposing" className={LINK_CLASS}>
+                    <Link href="/blog/marketing/marketing-automation-platforms/ai-content-repurposing" className={LINK_CLASS}>
                       AI Content Repurposing
                     </Link>
                   </li>
@@ -143,12 +143,12 @@ export default async function Page() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/blog/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-how-south-florida-can-turn-more-leads-into-sales" className={LINK_CLASS}>
+                    <Link href="/blog/marketing/marketing-automation-platforms/lead-enrichment-and-predictive-scoring-how-south-florida-can-turn-more-leads-into-sales" className={LINK_CLASS}>
                       Lead Enrichment to Close More Sales
                     </Link>
                   </li>
                   <li>
-                    <Link href="/blog/marketing/lead-capture-pipeline/ai-lead-scoring" className={LINK_CLASS}>
+                    <Link href="/blog/marketing/marketing-automation-platforms/ai-lead-scoring" className={LINK_CLASS}>
                       AI Lead Scoring
                     </Link>
                   </li>

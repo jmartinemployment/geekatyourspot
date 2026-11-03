@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/snitcher/`
+ * `src/components/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/snitcher/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const snitcherContent: ToolPageContent = {
   "title": "Snitcher",
   "slug": "snitcher",
   "department": "marketing",
-  "useCase": "lead-capture-pipeline/lead-enrichment-and-predictive-scoring",
+  "useCase": "marketing-automation-platforms/ai-lead-enrichment-predictive-scoring",
   "description":
     "Lead Enrichment and Predictive Scoring with Snitcher helps South Florida small businesses turn website visits into qualified leads and sales opportunities.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const snitcherContent: ToolPageContent = {
   "datePublished": "2026-10-17T11:18:14.1793650Z",
   "dateModified": "2026-10-17T11:18:14.1793650Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring",
+    "https://geekatyourspot.com/use-cases/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring",
   "sections": [
     {"title": "Overview", "description": "Picture this: a local B2B service firm in Miami-Dade watches as dozens of businesses visit their website every day."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "The reality for small teams in South Florida is this: most of your marketing spend and sales effort is wasted on leads that never had a chance."},

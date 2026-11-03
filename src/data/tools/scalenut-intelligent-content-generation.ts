@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/content-creation-workflow/intelligent-content-generation/scalenut/`
+ * `src/components/tools/marketing/marketing-automation-platforms/ai-content-generation/scalenut/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const scalenutIntelligentContentGenerationContent: ToolPageContent = {
   "title": "Scalenut",
   "slug": "scalenut",
   "department": "marketing",
-  "useCase": "content-creation-workflow/intelligent-content-generation",
+  "useCase": "marketing-automation-platforms/ai-content-generation",
   "description":
     "Intelligent Content Generation with Scalenut helps small South Florida businesses create expert content efficiently, boosting online visibility and local trust.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const scalenutIntelligentContentGenerationContent: ToolPageContent = {
   "datePublished": "2026-10-19T17:14:59.8223420Z",
   "dateModified": "2026-10-19T17:14:59.8223420Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-seo-content-generator",
+    "https://geekatyourspot.com/use-cases/marketing/marketing-automation-platforms/ai-content-generation",
   "sections": [
     {"title": "Overview", "description": "A small business owner in Miami-Dade sits down late at night, determined to write a blog post that might finally move the needle for their company."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "Manual content creation is a slow bleed for small businesses in South Florida."},

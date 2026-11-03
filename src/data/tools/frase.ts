@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/content-creation-workflow/intelligent-content-generation/frase/`
+ * `src/components/tools/marketing/marketing-automation-platforms/ai-content-generation/frase/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const fraseContent: ToolPageContent = {
   "title": "Frase",
   "slug": "frase",
   "department": "marketing",
-  "useCase": "content-creation-workflow/intelligent-content-generation",
+  "useCase": "marketing-automation-platforms/ai-content-generation",
   "description":
     "Intelligent Content Generation with Frase helps small businesses in Miami-Dade, Broward, and West Palm Beach automate and streamline their digital marketing.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const fraseContent: ToolPageContent = {
   "datePublished": "2026-10-19T17:14:59.8223420Z",
   "dateModified": "2026-10-19T17:14:59.8223420Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-seo-content-generator",
+    "https://geekatyourspot.com/use-cases/marketing/marketing-automation-platforms/ai-content-generation",
   "sections": [
     {"title": "Overview", "description": "A local business owner opens their laptop, determined to post something, anything, before the day gets away from them."},
     {"title": "What It Costs to Keep Doing Content Creation by Hand", "description": "Manual content creation drains small business teams in ways that go beyond lost hours."},

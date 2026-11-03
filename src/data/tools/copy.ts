@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/content-creation-workflow/intelligent-content-generation/copy/`
+ * `src/components/tools/marketing/marketing-automation-platforms/ai-content-generation/copy/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const copyContent: ToolPageContent = {
   "title": "Copy.ai",
   "slug": "copy",
   "department": "marketing",
-  "useCase": "content-creation-workflow/intelligent-content-generation",
+  "useCase": "marketing-automation-platforms/ai-content-generation",
   "description":
     "Intelligent Content Generation with Copy.ai helps Miami-Dade, Broward and West Palm Beach small businesses automate marketing and stay competitive.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const copyContent: ToolPageContent = {
   "datePublished": "2026-10-19T17:14:59.8223420Z",
   "dateModified": "2026-10-19T17:14:59.8223420Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-seo-content-generator",
+    "https://geekatyourspot.com/use-cases/marketing/marketing-automation-platforms/ai-content-generation",
   "sections": [
     {"title": "Overview", "description": "A small business owner in Miami-Dade stares at a blank document, knowing today’s the day to update the company blog and send out a fresh email campaign."},
     {"title": "What It Costs to Keep Doing Content Creation by Hand", "description": "For a small business in South Florida, trying to run content creation the manual way is like running with weights on."},

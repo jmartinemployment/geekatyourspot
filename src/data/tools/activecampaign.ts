@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/activecampaign/`
+ * `src/components/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/activecampaign/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const activecampaignContent: ToolPageContent = {
   "title": "ActiveCampaign",
   "slug": "activecampaign",
   "department": "marketing",
-  "useCase": "marketing-automation-platforms/personalized-email-campaigns",
+  "useCase": "marketing-automation-platforms/ai-personalized-email-campaigns",
   "description":
     "Personalized Email Campaigns with ActiveCampaign increase response rates and save hours weekly for Miami-area small businesses. Start automating today.",
   "heroSummary":

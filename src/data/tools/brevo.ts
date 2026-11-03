@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/brevo/`
+ * `src/components/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/brevo/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const brevoContent: ToolPageContent = {
   "title": "Brevo",
   "slug": "brevo",
   "department": "marketing",
-  "useCase": "marketing-automation-platforms/personalized-email-campaigns",
+  "useCase": "marketing-automation-platforms/ai-personalized-email-campaigns",
   "description":
     "Personalized Email Campaigns with Brevo help South Florida small businesses boost open rates and sales by automating relevant outreach. Try it today.",
   "heroSummary":

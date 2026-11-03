@@ -38,7 +38,7 @@ export default function MechanicsSection() {
         out-of-market clicks never siphon off your limited funds. At this point, you are not just automating, you
         are actively defending your budget against platform drift and junk traffic.</p>
       <p className="text-base text-white shadow-text pt-3">
-        <Link id={`blog-marketing-budget-ad-copy-message-validation-mechanics-anyword${idSuffix}`} href="/tools/marketing/content-creation-workflow/intelligent-content-generation/anyword" className="text-[#0B162A] hover:underline">Anyword</Link> and <Link id={`blog-marketing-budget-ad-copy-message-validation-mechanics-adcreative${idSuffix}`} href="/tools/marketing/content-creation-workflow/intelligent-content-generation/adcreative" className="text-[#0B162A] hover:underline">AdCreative</Link> come
+        <Link id={`blog-marketing-budget-ad-copy-message-validation-mechanics-anyword${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-content-generation/anyword" className="text-[#0B162A] hover:underline">Anyword</Link> and <Link id={`blog-marketing-budget-ad-copy-message-validation-mechanics-adcreative${idSuffix}`} href="/tools/marketing/marketing-automation-platforms/ai-content-generation/adcreative" className="text-[#0B162A] hover:underline">AdCreative</Link> come
         online as your creative engines. Anyword scores every possible ad headline and body before you spend a
         dollar, filtering out the weak copy that would have burned your budget in live tests. It uses frameworks
         like AIDA and PAS, but the real advantage is its Predictive Performance Score, if a headline tests low, it

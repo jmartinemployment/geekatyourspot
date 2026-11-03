@@ -260,18 +260,18 @@ const LINK_OVERRIDES: Record<string, string | null> = {
   // Intelligent Content Generation replaced the Automated Content Generation pillar on 2026-10-19,
   // and the AI Content Repurposing pillar moved to the blog the same day.
   "/use-cases/marketing/automated-content-generation":
-    "/use-cases/marketing/content-creation-workflow/ai-seo-content-generator",
+    "/use-cases/marketing/marketing-automation-platforms/ai-content-generation",
   "/use-cases/marketing/automated-content-generation-transforming-small-business-marketing":
-    "/use-cases/marketing/content-creation-workflow/ai-seo-content-generator",
-  "/use-cases/marketing/ai-content-repurposing": "/blog/marketing/content-creation-workflow/ai-content-repurposing",
+    "/use-cases/marketing/marketing-automation-platforms/ai-content-generation",
+  "/use-cases/marketing/ai-content-repurposing": "/blog/marketing/marketing-automation-platforms/ai-content-repurposing",
   // These content generation tools have write-ups under the Intelligent Content Generation pillar.
-  "/tools/marketing/jasper-ai": "/tools/marketing/content-creation-workflow/intelligent-content-generation/jasper",
-  "/tools/marketing/copy-ai": "/tools/marketing/content-creation-workflow/intelligent-content-generation/copy",
-  "/tools/marketing/frase": "/tools/marketing/content-creation-workflow/intelligent-content-generation/frase",
-  "/tools/marketing/writesonic": "/tools/marketing/content-creation-workflow/intelligent-content-generation/writesonic",
+  "/tools/marketing/jasper-ai": "/tools/marketing/marketing-automation-platforms/ai-content-generation/jasper",
+  "/tools/marketing/copy-ai": "/tools/marketing/marketing-automation-platforms/ai-content-generation/copy",
+  "/tools/marketing/frase": "/tools/marketing/marketing-automation-platforms/ai-content-generation/frase",
+  "/tools/marketing/writesonic": "/tools/marketing/marketing-automation-platforms/ai-content-generation/writesonic",
   // Apollo's write-up sits under its lead capture pillar.
   "/tools/marketing/Apollo":
-    "/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo",
+    "/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/apollo",
   // These accounts payable tools moved under their pillars. Nothing redirects the old paths,
   // which return 404, so links in the exports are pointed at the new ones here.
   "/tools/accounting/dext": "/tools/accounting/accounts-payable/ai-data-entry-processing/dext",
@@ -284,21 +284,21 @@ const LINK_OVERRIDES: Record<string, string | null> = {
   // The Personalized Email Campaigns pillar and its Mailchimp write-up are hand-coded under the
   // Content Creation Workflow group; the flat Mailchimp page was deleted on 2026-10-26.
   "/use-cases/marketing/personalized-email-campaigns": "/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns",
-  "/tools/marketing/mailchimp": "/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/mailchimp",
+  "/tools/marketing/mailchimp": "/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailchimp",
   // Receptionist and Chatbot moved from Marketing's Lead Capture Pipeline into AI Operations →
   // AI Front-Office on 2026-10-31; the exports still link to the old Marketing paths.
-  "/use-cases/marketing/lead-capture-pipeline/ai-receptionist": "/use-cases/business-operations/ai-receptionist",
-  "/use-cases/marketing/lead-capture-pipeline/ai-chatbot": "/use-cases/business-operations/ai-chatbot",
-  "/tools/marketing/lead-capture-pipeline/intelligent-receptionist/lobbystack": "/tools/ai-operations/intelligent-receptionist/lobbystack",
-  "/tools/marketing/lead-capture-pipeline/intelligent-receptionist/myaifrontdesk": "/tools/ai-operations/intelligent-receptionist/myaifrontdesk",
-  "/tools/marketing/lead-capture-pipeline/intelligent-receptionist/nextiva": "/tools/ai-operations/intelligent-receptionist/nextiva",
-  "/tools/marketing/lead-capture-pipeline/intelligent-receptionist/smith": "/tools/ai-operations/intelligent-receptionist/smith",
-  "/tools/marketing/lead-capture-pipeline/intelligent-receptionist/voksha": "/tools/ai-operations/intelligent-receptionist/voksha",
-  "/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/botpenguin": "/tools/ai-operations/cross-platform-chatbot/botpenguin",
-  "/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta": "/tools/ai-operations/cross-platform-chatbot/dapta",
-  "/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat": "/tools/ai-operations/cross-platform-chatbot/manychat",
-  "/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/myaifrontdesk": "/tools/ai-operations/cross-platform-chatbot/myaifrontdesk",
-  "/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio": "/tools/ai-operations/cross-platform-chatbot/tidio",
+  "/use-cases/marketing/marketing-automation-platforms/ai-receptionist": "/use-cases/business-operations/ai-receptionist",
+  "/use-cases/marketing/marketing-automation-platforms/ai-chatbot": "/use-cases/business-operations/ai-chatbot",
+  "/tools/marketing/marketing-automation-platforms/intelligent-receptionist/lobbystack": "/tools/ai-operations/intelligent-receptionist/lobbystack",
+  "/tools/marketing/marketing-automation-platforms/intelligent-receptionist/myaifrontdesk": "/tools/ai-operations/intelligent-receptionist/myaifrontdesk",
+  "/tools/marketing/marketing-automation-platforms/intelligent-receptionist/nextiva": "/tools/ai-operations/intelligent-receptionist/nextiva",
+  "/tools/marketing/marketing-automation-platforms/intelligent-receptionist/smith": "/tools/ai-operations/intelligent-receptionist/smith",
+  "/tools/marketing/marketing-automation-platforms/intelligent-receptionist/voksha": "/tools/ai-operations/intelligent-receptionist/voksha",
+  "/tools/marketing/marketing-automation-platforms/cross-platform-chatbot/botpenguin": "/tools/ai-operations/cross-platform-chatbot/botpenguin",
+  "/tools/marketing/marketing-automation-platforms/cross-platform-chatbot/dapta": "/tools/ai-operations/cross-platform-chatbot/dapta",
+  "/tools/marketing/marketing-automation-platforms/cross-platform-chatbot/manychat": "/tools/ai-operations/cross-platform-chatbot/manychat",
+  "/tools/marketing/marketing-automation-platforms/cross-platform-chatbot/myaifrontdesk": "/tools/ai-operations/cross-platform-chatbot/myaifrontdesk",
+  "/tools/marketing/marketing-automation-platforms/cross-platform-chatbot/tidio": "/tools/ai-operations/cross-platform-chatbot/tidio",
   // No page for these.
   "/tools/accounting/lightyear": null,
   "/tools/marketing/chatgpt": null,

@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/lusha/`
+ * `src/components/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/lusha/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const lushaContent: ToolPageContent = {
   "title": "Lusha",
   "slug": "lusha",
   "department": "marketing",
-  "useCase": "lead-capture-pipeline/lead-enrichment-and-predictive-scoring",
+  "useCase": "marketing-automation-platforms/ai-lead-enrichment-predictive-scoring",
   "description":
     "Lead Enrichment and Predictive Scoring with Lusha help Miami-area small businesses identify, qualify, and connect with the right prospects fast.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const lushaContent: ToolPageContent = {
   "datePublished": "2026-10-17T11:18:14.1793650Z",
   "dateModified": "2026-10-17T11:18:14.1793650Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/lead-capture-pipeline/ai-lead-enrichment-scoring",
+    "https://geekatyourspot.com/use-cases/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring",
   "sections": [
     {"title": "Overview", "description": "Picture a small sales team in Miami-Dade, working the phones from a cramped office, list of prospects on the desk."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "Every small business in South Florida knows the feeling: you have a list of prospects, but most of your day is spent leaving voicemails, getting blocked by receptionists, or waiting for a reply that never comes."},

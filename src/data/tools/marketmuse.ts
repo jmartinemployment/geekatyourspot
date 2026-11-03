@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/marketing/content-creation-workflow/intelligent-content-planning/marketmuse/`
+ * `src/components/tools/marketing/marketing-automation-platforms/ai-content-planning/marketmuse/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const marketmuseContent: ToolPageContent = {
   "title": "MarketMuse",
   "slug": "marketmuse",
   "department": "marketing",
-  "useCase": "content-creation-workflow/intelligent-content-planning",
+  "useCase": "marketing-automation-platforms/ai-content-planning",
   "description":
     "Intelligent Content Planning with MarketMuse gives small South Florida businesses a data-driven edge for building effective, results-focused content strategies.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const marketmuseContent: ToolPageContent = {
   "datePublished": "2026-10-18T15:09:07.5331810Z",
   "dateModified": "2026-10-18T15:09:07.5331810Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/marketing/content-creation-workflow/ai-content-planning",
+    "https://geekatyourspot.com/use-cases/marketing/marketing-automation-platforms/ai-content-planning",
   "sections": [
     {"title": "Overview", "description": "A small marketing team in Miami-Dade meets on Monday, ready to map out the coming week."},
     {"title": "What it costs to keep doing this by hand", "description": "Every week, small marketing teams in Miami-Dade, Broward, and West Palm Beach repeat the same cycle."},
