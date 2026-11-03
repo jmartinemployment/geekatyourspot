@@ -98,34 +98,45 @@ function MenuColumn({
         {section.label}
       </Link>
       <ul className="m-0 mt-3 list-none space-y-2 p-0">
-        {department.categories.map((category) => (
-          <li key={category.id}>
-            <Link
-              href={category.href}
-              id={gtmLinkId(["nav", "category", category.id], idSuffix(block))}
-              className={`block py-0.5 text-sm font-semibold leading-snug sm:text-base ${LINK_COLOURS}`}
-              onClick={onNavigate}
-            >
-              {category.label}
-            </Link>
-            {category.items.length > 0 && (
-              <ul className="m-0 mt-1 list-none space-y-1 p-0 pl-3">
-                {category.items.map((item) => (
-                  <li key={item.href}>
-                    <Link
-                      href={item.href}
-                      id={itemId(item.href, block)}
-                      className={`block text-xs leading-snug sm:text-sm ${LINK_COLOURS}`}
-                      onClick={onNavigate}
-                    >
-                      {item.label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            )}
-          </li>
-        ))}
+        {department.categories.map((category) => {
+          // A category whose href is its department's page has no page of its own, so it is a heading, not a link.
+          const hasPage = category.href !== department.href;
+          if (!hasPage && category.items.length === 0) return null;
+          return (
+            <li key={category.id}>
+              {hasPage ? (
+                <Link
+                  href={category.href}
+                  id={gtmLinkId(["nav", "category", category.id], idSuffix(block))}
+                  className={`block py-0.5 text-sm font-semibold leading-snug sm:text-base ${LINK_COLOURS}`}
+                  onClick={onNavigate}
+                >
+                  {category.label}
+                </Link>
+              ) : (
+                <span className="block py-0.5 text-sm font-semibold leading-snug text-black sm:text-base">
+                  {category.label}
+                </span>
+              )}
+              {category.items.length > 0 && (
+                <ul className="m-0 mt-1 list-none space-y-1 p-0 pl-3">
+                  {category.items.map((item) => (
+                    <li key={item.href}>
+                      <Link
+                        href={item.href}
+                        id={itemId(item.href, block)}
+                        className={`block text-xs leading-snug sm:text-sm ${LINK_COLOURS}`}
+                        onClick={onNavigate}
+                      >
+                        {item.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </li>
+          );
+        })}
       </ul>
     </div>
   );

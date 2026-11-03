@@ -2,11 +2,12 @@
  * Use Cases, Blog and Tools group their pages by the same categories the home page cards use
  * (Accounts Payable, Cash Flow Forecasting, Tax Compliance & Regulations, Marketing Automation
  * Platforms (MAP), Ad Spend Optimization, Front Desk, Data Infrastructure). The navbar renders all
- * three, and every department, category and item is a link.
+ * three, and every department and item is a link.
  *
  * Every href below is hand-maintained and points at a route that exists in src/app. A category
- * with no page of its own links to its department page. When you add a page, add its link here by
- * hand; npm run check:nav fails the build on a link with no page.
+ * with no page of its own carries its department page's href, and the navbar shows it as a
+ * heading, not a link. When you add a page, add its link here by hand; npm run check:nav fails
+ * the build on a link with no page.
  */
 export interface MenuLink {
   label: string;
