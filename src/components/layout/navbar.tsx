@@ -119,11 +119,15 @@ export default function Navbar(): React.JSX.Element {
       if (event.key === "Escape") setMenuOpen(false);
     };
     document.addEventListener("keydown", closeOnEscape);
-    const previousOverflow = document.body.style.overflow;
+    // The page scrolls on <html>, not <body>, so both are locked while the menu is open.
+    const previousBodyOverflow = document.body.style.overflow;
+    const previousRootOverflow = document.documentElement.style.overflow;
     document.body.style.overflow = "hidden";
+    document.documentElement.style.overflow = "hidden";
     return () => {
       document.removeEventListener("keydown", closeOnEscape);
-      document.body.style.overflow = previousOverflow;
+      document.body.style.overflow = previousBodyOverflow;
+      document.documentElement.style.overflow = previousRootOverflow;
     };
   }, [menuOpen]);
 
