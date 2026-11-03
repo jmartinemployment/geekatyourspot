@@ -14,6 +14,14 @@ const CANONICAL = "/tools/business-operations/ai-receptionist/dapta";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 const SITE_URL = "https://geekatyourspot.com";
 
+const FAQ = [
+    { question: "Does Dapta handle inbound phone calls as well as chat?", answer: "Yes. Dapta covers both voice and text channels from one platform. It answers inbound calls, responds to web chat, handles WhatsApp and Facebook Messenger, and routes every inquiry through the same AI logic and knowledge base." },
+    { question: "How does Dapta qualify leads during a call?", answer: "Dapta uses conversational AI to ask qualification questions naturally, collect contact details, identify service interest and urgency, and score the inquiry before routing it to your team or booking an appointment directly on your calendar." },
+    { question: "Can Dapta respond in Spanish?", answer: "Yes. Dapta supports multilingual conversations including English and Spanish, which is essential for small businesses serving South Florida customers across Miami-Dade, Broward, and Palm Beach counties." },
+    { question: "How does Dapta connect to my existing CRM and calendar?", answer: "Dapta integrates with Google Calendar, Outlook, and popular CRM platforms. When the AI qualifies a lead or books an appointment, the contact record and conversation summary are pushed directly to your CRM without manual data entry." },
+    { question: "What happens when a caller needs a live person?", answer: "Dapta detects escalation signals like urgency, frustration, or requests for a manager and transfers the call or sends your team an immediate notification with a full conversation summary so the handoff is seamless." },
+];
+
 const jsonLd: Graph = {
     "@context": "https://schema.org",
     "@graph": [
@@ -41,48 +49,11 @@ const jsonLd: Graph = {
         },
         {
             "@type": "FAQPage",
-            "mainEntity": [
-                {
-                    "@type": "Question",
-                    "name": "Does Dapta handle inbound phone calls as well as chat?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Yes. Dapta covers both voice and text channels from one platform. It answers inbound calls, responds to web chat, handles WhatsApp and Facebook Messenger, and routes every inquiry through the same AI logic and knowledge base."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "How does Dapta qualify leads during a call?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Dapta uses conversational AI to ask qualification questions naturally, collect contact details, identify service interest and urgency, and score the inquiry before routing it to your team or booking an appointment directly on your calendar."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "Can Dapta respond in Spanish?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Yes. Dapta supports multilingual conversations including English and Spanish, which is essential for small businesses serving South Florida customers across Miami-Dade, Broward, and Palm Beach counties."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "How does Dapta connect to my existing CRM and calendar?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Dapta integrates with Google Calendar, Outlook, and popular CRM platforms. When the AI qualifies a lead or books an appointment, the contact record and conversation summary are pushed directly to your CRM without manual data entry."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "What happens when a caller needs a live person?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Dapta detects escalation signals like urgency, frustration, or requests for a manager and transfers the call or sends your team an immediate notification with a full conversation summary so the handoff is seamless."
-                    }
-                }
-            ]
+            "mainEntity": FAQ.map(({ question, answer }) => ({
+                "@type": "Question",
+                "name": question,
+                "acceptedAnswer": { "@type": "Answer", "text": answer }
+            }))
         }
     ]
 };
@@ -285,6 +256,31 @@ export default async function Page() {
                                 <p className="pt-3 text-base font-normal text-white shadow-text">
                                     We run a pilot phase where the AI handles a defined set of inbound inquiries and your team reviews the results. Qualification accuracy, appointment booking rates, and escalation handling are all verified before the system goes live at full volume. Book a consultation below to talk through whether Dapta fits your current setup.
                                 </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className="bg-[#023059] text-white py-5">
+                    <div className="container">
+                        <div className="grid grid-cols-12 place-items-start gap-x-4 py-10">
+                            <div className="col-span-12">
+                                <h2 id="frequently-asked-questions" className="text-white text-[6vw] sm:text-4xl md:text-5xl lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                                    Frequently Asked Questions
+                                </h2>
+                            </div>
+                            <div className="col-span-12">
+                                {FAQ.map(({ question, answer }) => (
+                                    <div key={question}>
+                                        <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
+                                        <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                                            {question}
+                                        </h3>
+                                        <p className="text-base text-white shadow-text pt-3">
+                                            {answer}
+                                        </p>
+                                    </div>
+                                ))}
                             </div>
                         </div>
                     </div>
