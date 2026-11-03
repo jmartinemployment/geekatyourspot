@@ -61,7 +61,7 @@ export function UseCasesSection() {
                                     href="/use-cases/accounting/accounts-payable/ai-ap-automation-software"
                                     className="hover:underline">
                                     <h4 className="text-black text-base hover:text-[#C83803] font-bold">
-                                        AI Accounts Payable
+                                        Accounts Payable
                                     </h4>
                                     <p className="text-black text-xs text-shadow text-shadow-xs">
                                         You face heavy administrative burdens in accounts payable (AP) due to limited staff, manual data entry errors, slow approval bottlenecks, high risks of payment fraud, and tedious vendor management.
@@ -1206,7 +1206,7 @@ export function UseCasesSection() {
                                     href="/use-cases/accounting/accounts-payable/ai-ap-automation-software"
                                     className="hover:underline">
                                     <h4 className="text-black text-lg text-shadow hover:text-[#C83803] font-bold">
-                                        AI Accounts Payable
+                                        Accounts Payable
                                     </h4>
                                 </Link>
                                 <p className="text-black text-sm text-shadow text-shadow-xs">
