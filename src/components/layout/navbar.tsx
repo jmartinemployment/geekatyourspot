@@ -3,7 +3,11 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import type { IconDefinition } from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLightbulb, faNewspaper, faToolbox } from "@fortawesome/free-solid-svg-icons";
 import { gtmClickId, gtmLinkId, gtmLinkIdFromHref } from "@/lib/gtm/link-id";
+import { DEPARTMENT_ICONS, type DepartmentName } from "@/types/department";
 import {
   BLOG_MENU,
   TOOLS_MENU,
@@ -13,22 +17,55 @@ import {
 } from "@/data/navigation/site-menus";
 
 type MenuSection = Readonly<{
-  key: "use-cases" | "blog" | "tools";
+  key: "blog" | "tools" | "use-cases";
   label: string;
-  href: string;
+  icon: IconDefinition;
   menu: SiteMenuConfiguration;
 }>;
 
+/** The columns of a department's panel, alphabetical. Comparisons goes between Blog and Tools once it has pages. */
 const SECTIONS: readonly MenuSection[] = [
-  { key: "use-cases", label: "Use Cases", href: "/use-cases", menu: USE_CASES_MENU },
-  { key: "blog", label: "Blog", href: "/blog", menu: BLOG_MENU },
-  { key: "tools", label: "Tools", href: "/tools", menu: TOOLS_MENU },
+  { key: "blog", label: "Blog", icon: faNewspaper, menu: BLOG_MENU },
+  { key: "tools", label: "Tools", icon: faToolbox, menu: TOOLS_MENU },
+  { key: "use-cases", label: "Use Cases", icon: faLightbulb, menu: USE_CASES_MENU },
 ];
+
+type DepartmentTab = Readonly<{ id: string; name: string; icon: IconDefinition }>;
+
+/** Sales has no pages yet, so it is not in the menu data. Once it is, the menu entry replaces this one. */
+const PLANNED_DEPARTMENTS: readonly { id: DepartmentName; name: string }[] = [
+  { id: "sales", name: "Sales" },
+];
+
+function departmentIcon(id: string): IconDefinition {
+  if (!(id in DEPARTMENT_ICONS)) {
+    throw new Error(`Navbar: department "${id}" has no icon in DEPARTMENT_ICONS (src/types/department.ts)`);
+  }
+  return DEPARTMENT_ICONS[id as DepartmentName];
+}
+
+function buildTabs(): readonly DepartmentTab[] {
+  const names = new Map<string, string>();
+  for (const section of SECTIONS) {
+    for (const department of section.menu.departments) names.set(department.id, department.name);
+  }
+  for (const department of PLANNED_DEPARTMENTS) names.set(department.id, department.name);
+  return [...names]
+    .map(([id, name]) => ({ id, name, icon: departmentIcon(id) }))
+    .sort((a, b) => a.name.localeCompare(b.name));
+}
+
+const TABS = buildTabs();
 
 const LINK_COLOURS = "text-black no-underline hover:text-[#8C2703]";
 
 /** The two breakpoint blocks render the same links, so the block from lg up suffixes every id. */
 type Block = "mobile" | "desktop";
+
+const COLUMN_CLASS: Record<Block, string> = {
+  mobile: "min-w-0 border-t border-black/10 py-4 first:border-t-0 first:pt-0",
+  desktop: "min-w-0 border-l border-black/10 px-5 first:border-l-0 first:pl-0",
+};
 
 function idSuffix(block: Block): string | undefined {
   return block === "desktop" ? "lg" : undefined;
@@ -38,28 +75,29 @@ function itemId(href: string, block: Block): string {
   return gtmLinkIdFromHref(href, block === "desktop" ? "nav-lg" : "nav");
 }
 
-function MenuDepartmentTree({
+function MenuColumn({
+  section,
   department,
-  sectionKey,
   block,
   onNavigate,
 }: Readonly<{
+  section: MenuSection;
   department: MenuDepartment;
-  sectionKey: MenuSection["key"];
   block: Block;
   onNavigate: () => void;
 }>): React.JSX.Element {
   return (
-    <div className="min-w-0">
+    <div className={COLUMN_CLASS[block]}>
       <Link
         href={department.href}
-        id={gtmLinkId(["nav", "department", sectionKey, department.id], idSuffix(block))}
-        className={`block text-base font-bold leading-tight sm:text-lg ${LINK_COLOURS}`}
+        id={gtmLinkId(["nav", "department", section.key, department.id], idSuffix(block))}
+        className={`flex items-center gap-2 text-base font-bold leading-tight sm:text-lg ${LINK_COLOURS}`}
         onClick={onNavigate}
       >
-        {department.name}
+        <FontAwesomeIcon icon={section.icon} width={16} height={16} className="shrink-0 text-[#C83803]" />
+        {section.label}
       </Link>
-      <ul className="m-0 mt-2 list-none space-y-2 p-0">
+      <ul className="m-0 mt-3 list-none space-y-2 p-0">
         {department.categories.map((category) => (
           <li key={category.id}>
             <Link
@@ -93,25 +131,38 @@ function MenuDepartmentTree({
   );
 }
 
-function MenuSectionHeading({
-  section,
+function DepartmentPanel({
+  tab,
   block,
   onNavigate,
-}: Readonly<{ section: MenuSection; block: Block; onNavigate: () => void }>): React.JSX.Element {
+}: Readonly<{ tab: DepartmentTab; block: Block; onNavigate: () => void }>): React.JSX.Element {
+  const columns = SECTIONS.flatMap((section) => {
+    const department = section.menu.departments.find((candidate) => candidate.id === tab.id);
+    return department ? [{ section, department }] : [];
+  });
+
+  if (columns.length === 0) {
+    return <p className="m-0 text-sm sm:text-base">{tab.name} pages are coming soon.</p>;
+  }
+
   return (
-    <Link
-      href={section.href}
-      id={gtmLinkId(["nav", "section", section.key], idSuffix(block))}
-      className={`block border-b border-black/10 pb-2 text-lg font-bold leading-tight sm:text-xl ${LINK_COLOURS}`}
-      onClick={onNavigate}
-    >
-      {section.label}
-    </Link>
+    <div className={block === "desktop" ? "grid grid-cols-[repeat(auto-fit,minmax(15rem,1fr))]" : undefined}>
+      {columns.map(({ section, department }) => (
+        <MenuColumn
+          key={section.key}
+          section={section}
+          department={department}
+          block={block}
+          onNavigate={onNavigate}
+        />
+      ))}
+    </div>
   );
 }
 
 export default function Navbar(): React.JSX.Element {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [selectedId, setSelectedId] = useState(TABS[0].id);
 
   useEffect(() => {
     if (!menuOpen) return;
@@ -186,55 +237,55 @@ export default function Navbar(): React.JSX.Element {
         hidden={!menuOpen}
         className="absolute inset-x-0 top-16 max-h-[calc(100dvh-4rem)] overflow-x-hidden overflow-y-auto overscroll-contain border-b border-black/10 bg-white shadow-md"
       >
-        <div className="container py-4 sm:py-5">
-          <Link
-            href="/"
-            id={gtmLinkIdFromHref("/", "nav")}
-            className={`block pb-3 text-base font-semibold sm:text-lg ${LINK_COLOURS}`}
-            onClick={closeMenu}
+        <div className="container pb-4 sm:pb-5">
+          <div
+            role="group"
+            aria-label="Departments"
+            className="sticky top-0 z-10 flex flex-wrap items-center gap-x-6 gap-y-2 border-b border-black/10 bg-white py-3 sm:gap-x-8"
           >
-            Home
-          </Link>
+            <Link
+              href="/"
+              id={gtmLinkIdFromHref("/", "nav")}
+              className={`text-base font-semibold sm:text-lg ${LINK_COLOURS}`}
+              onClick={closeMenu}
+            >
+              Home
+            </Link>
+            {TABS.map((tab) => {
+              const selected = tab.id === selectedId;
+              return (
+                <button
+                  key={tab.id}
+                  type="button"
+                  id={gtmClickId(["nav", "department", tab.id])}
+                  aria-pressed={selected}
+                  className={`flex cursor-pointer items-center gap-2 border-0 border-b-2 bg-transparent p-0 pb-0.5 text-base font-semibold sm:text-lg ${
+                    selected
+                      ? "border-[#C83803] text-[#8C2703]"
+                      : "border-transparent text-black hover:text-[#8C2703]"
+                  }`}
+                  onClick={() => setSelectedId(tab.id)}
+                >
+                  <FontAwesomeIcon icon={tab.icon} width={16} height={16} className="shrink-0" />
+                  {tab.name}
+                </button>
+              );
+            })}
+          </div>
 
-          <div className="lg:hidden">
-            {SECTIONS.map((section) => (
-              <section key={section.key} className="mt-4">
-                <MenuSectionHeading section={section} block="mobile" onNavigate={closeMenu} />
-                <div className="mt-3 space-y-4">
-                  {section.menu.departments.map((department) => (
-                    <MenuDepartmentTree
-                      key={department.id}
-                      department={department}
-                      sectionKey={section.key}
-                      block="mobile"
-                      onNavigate={closeMenu}
-                    />
-                  ))}
-                </div>
-              </section>
+          <div className="mt-4 lg:hidden">
+            {TABS.map((tab) => (
+              <div key={tab.id} hidden={tab.id !== selectedId}>
+                <DepartmentPanel tab={tab} block="mobile" onNavigate={closeMenu} />
+              </div>
             ))}
           </div>
 
-          <div className="hidden lg:block">
-            {SECTIONS.map((section) => (
-              <section key={section.key} className="mt-5">
-                <MenuSectionHeading section={section} block="desktop" onNavigate={closeMenu} />
-                <div className="mt-3 grid grid-cols-[repeat(auto-fit,minmax(15rem,1fr))] gap-x-0">
-                  {section.menu.departments.map((department) => (
-                    <div
-                      key={department.id}
-                      className="min-w-0 border-l border-black/10 px-5 first:border-l-0 first:pl-0"
-                    >
-                      <MenuDepartmentTree
-                        department={department}
-                        sectionKey={section.key}
-                        block="desktop"
-                        onNavigate={closeMenu}
-                      />
-                    </div>
-                  ))}
-                </div>
-              </section>
+          <div className="mt-5 hidden lg:block">
+            {TABS.map((tab) => (
+              <div key={tab.id} hidden={tab.id !== selectedId}>
+                <DepartmentPanel tab={tab} block="desktop" onNavigate={closeMenu} />
+              </div>
             ))}
           </div>
         </div>
