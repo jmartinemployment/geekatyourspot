@@ -59,7 +59,7 @@ const TABS = buildTabs();
 
 const LINK_COLOURS = "text-black no-underline hover:text-[#8C2703]";
 
-/** The two breakpoint blocks render the same links, so the block from lg up suffixes every id. */
+/** The two breakpoint blocks render the same links, so the block from md up suffixes every id. */
 type Block = "mobile" | "desktop";
 
 const COLUMN_CLASS: Record<Block, string> = {
@@ -146,7 +146,7 @@ function DepartmentPanel({
   }
 
   return (
-    <div className={block === "desktop" ? "grid grid-cols-[repeat(auto-fit,minmax(15rem,1fr))]" : undefined}>
+    <div className={block === "desktop" ? "grid grid-flow-col auto-cols-fr" : undefined}>
       {columns.map(({ section, department }) => (
         <MenuColumn
           key={section.key}
@@ -243,14 +243,6 @@ export default function Navbar(): React.JSX.Element {
             aria-label="Departments"
             className="sticky top-0 z-10 flex flex-wrap items-center gap-x-6 gap-y-2 border-b border-black/10 bg-white py-3 sm:gap-x-8"
           >
-            <Link
-              href="/"
-              id={gtmLinkIdFromHref("/", "nav")}
-              className={`text-base font-semibold sm:text-lg ${LINK_COLOURS}`}
-              onClick={closeMenu}
-            >
-              Home
-            </Link>
             {TABS.map((tab) => {
               const selected = tab.id === selectedId;
               return (
@@ -273,7 +265,7 @@ export default function Navbar(): React.JSX.Element {
             })}
           </div>
 
-          <div className="mt-4 lg:hidden">
+          <div className="mt-4 md:hidden">
             {TABS.map((tab) => (
               <div key={tab.id} hidden={tab.id !== selectedId}>
                 <DepartmentPanel tab={tab} block="mobile" onNavigate={closeMenu} />
@@ -281,7 +273,7 @@ export default function Navbar(): React.JSX.Element {
             ))}
           </div>
 
-          <div className="mt-5 hidden lg:block">
+          <div className="mt-5 hidden md:block">
             {TABS.map((tab) => (
               <div key={tab.id} hidden={tab.id !== selectedId}>
                 <DepartmentPanel tab={tab} block="desktop" onNavigate={closeMenu} />
