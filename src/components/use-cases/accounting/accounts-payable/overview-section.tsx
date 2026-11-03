@@ -35,8 +35,8 @@ export default function OverviewSection() {
                 alt="A finance professional approves an invoice on a tablet in front of a wall screen showing an automated accounts payable dashboard." />
             </div>
             <div className="col-span-7">
-              <h2 id="transforming-financial-operations-with-automated-accounts-payable" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                Transforming Financial Operations with Automated Accounts Payable
+              <h2 id="transforming-financial-operations-with-accounts-payable" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                Transforming Financial Operations with Accounts Payable
               </h2>
             </div>
             <div className="col-span-12">
@@ -57,8 +57,8 @@ export default function OverviewSection() {
                 alt="A finance professional approves an invoice on a tablet in front of a wall screen showing an automated accounts payable dashboard." />
             </div>
             <div className="col-span-7">
-              <h2 id="transforming-financial-operations-with-automated-accounts-payable-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                Transforming Financial Operations with Automated Accounts Payable
+              <h2 id="transforming-financial-operations-with-accounts-payable-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                Transforming Financial Operations with Accounts Payable
               </h2>
               {body}
             </div>

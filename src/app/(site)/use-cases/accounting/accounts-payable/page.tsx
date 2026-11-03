@@ -98,7 +98,7 @@ export default async function Page() {
     const title = "Accounts Payable";
     const heroSummary = "Revolutionize your financial operations with automated accounts payable solutions that enhance efficiency and accuracy."
     const heroImage = "/images/accounting/use-cases/accounts-payable/struggling-with-accounts-payable-trans.avif";
-    const imgAlt = "Automated accounts payable";
+    const imgAlt = "Accounts payable";
     return (
         <>
             <script

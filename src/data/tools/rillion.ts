@@ -9,7 +9,7 @@ export const rillionContent: ToolPageContent = {
   "keywords": "automated accounts payable, AP automation, AI in finance, accounts payable software, financial operations, invoice processing, AP efficiency, AI-driven finance, AP tools, business automation",
   "datePublished": "2026-07-23T13:31:01.8563846Z",
   "dateModified": "2026-07-23T13:31:01.8563846Z",
-  "relatedArticleId": "https://geekatyourspot.com/use-cases/accounting/automated-accounts-payable",
+  "relatedArticleId": "https://geekatyourspot.com/use-cases/accounting/accounts-payable",
   "jsonLd": {
     "@type": "SoftwareApplication",
     "name": "Rillion",

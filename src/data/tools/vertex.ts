@@ -9,7 +9,7 @@ export const vertexContent: ToolPageContent = {
   "keywords": "Intelligent Tax Compliance, Regulatory Automation, AI Tax Solutions, Compliance Software, Tax Automation Tools, Data Quality, Change Management, Cash Flow Forecasting, AI Implementation, Accounts Payable Automation",
   "datePublished": "2026-07-25T20:43:36.4877875Z",
   "dateModified": "2026-07-25T20:43:36.4877875Z",
-  "relatedArticleId": "https://geekatyourspot.com/use-cases/accounting/intelligent-tax-compliance-regulations",
+  "relatedArticleId": "https://geekatyourspot.com/use-cases/accounting/tax-compliance-regulations",
   "jsonLd": {
     "@type": "SoftwareApplication",
     "name": "Vertex",

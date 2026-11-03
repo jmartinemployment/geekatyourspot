@@ -1,15 +1,26 @@
 # Plan: every name matches Home -> Use Cases (URLs and titles applied, not pushed)
 
-Status 2026-11-03: the URL moves are applied cluster by cluster in 34a16a0b (Accounts Payable),
-847a65e3 (Cash Flow Forecasting), eaea4536 (Tax), 500692a8 (Marketing Automation Platforms),
-f01f63ea (Ad Spend Optimization) and ca211c47 (Business Operations); the home page in bb2b74f3;
-page titles, breadcrumb levels, index cards and link texts in c40cc26e. Still open: names inside
-meta descriptions, keywords and section headings of each use case page and component, the
-`ai-sales-force-automation-software` page (kept for now, listed in `NOT_IN_MENU`), hand-written
-element ids that still embed old slugs (about 800 across roughly 330 files, left alone because
-renaming them changes GTM ids), the "Top 5 Intelligent X Tools" home lines, old names inside blog
-export prose, and `plans/seo-audit-2026-10-20.md` with `plans/geo-seo-audit-2026-10-20.md`, which
-must change together.
+Status 2026-11-03: applied, not pushed. URL moves in 34a16a0b (Accounts Payable), 847a65e3
+(Cash Flow Forecasting), eaea4536 (Tax), 500692a8 (Marketing Automation Platforms), f01f63ea (Ad
+Spend Optimization) and ca211c47 (Business Operations); the home page in bb2b74f3; page titles,
+breadcrumb levels, index cards and link texts in c40cc26e; descriptions, keywords, JSON-LD, section
+headings, link texts, element ids, registry files and pillar component folders in 7ce692f2; the blog
+exports, names split across wrapped lines, the home Top 5 lines, the Marketing overview and the
+Marpipe and ad spend blog pages in efab7ac2. Both audit files carry the rename together.
+
+Left on purpose, each with its reason:
+- `ai-sales-force-automation-software` still reads "Intelligent Lead Capture Pipeline": it belongs
+  to no home heading, so it cannot take a home name. Question 1 below decides keep or delete.
+- Lowercase phrases that are ordinary English rather than names stay as written: "personalized
+  email campaigns", "data quality assessments", "precision lead acquisition", "multi-state sales
+  tax nexus", "payroll tax and worker misclassification", "automated accounts payable". Their
+  Title Case forms are renamed.
+- `LINK_OVERRIDES` keys in `src/lib/content-writer/content.ts` are the old paths the exports still
+  link to; they map to the real routes, so they keep the old names.
+- Image file names under `public/images` (for example `ai-marketing-systems-pillar-hero.avif`) and
+  the writer's image prompts under `content-writer-output` are assets, not names a visitor reads.
+- `src/components/tools/marketing/ai-content-creation-workflow/chatgpt` is unreferenced and has no
+  route; delete it or restore the page, Jeff's call.
 
 One item: a naming rule and every place it reaches. It is a dependency of
 `plans/navbar-rebuild.md` and `plans/blog-marketing-index.md`, which link to the final URLs and

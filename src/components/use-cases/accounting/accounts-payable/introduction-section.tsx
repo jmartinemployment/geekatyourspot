@@ -63,16 +63,16 @@ export default function IntroductionSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="introduction-to-automated-accounts-payable" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                Introduction to Automated Accounts Payable
+              <h2 id="introduction-to-accounts-payable" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                Introduction to Accounts Payable
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center">
               <Image
                 width="211"
                 height="211"
-                src="/images/accounting/use-cases/accounts-payable/automated-accounts-payable-pillar-h2-introduction-to-automated-accounts-payable.avif"
-                alt="Introduction to Automated Accounts Payable" />
+                src="/images/accounting/use-cases/accounts-payable/automated-accounts-payable-pillar-h2-introduction-to-accounts-payable.avif"
+                alt="Introduction to Accounts Payable" />
             </div>
             <div className="col-span-12">
               {body()}
@@ -85,8 +85,8 @@ export default function IntroductionSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-7">
-              <h2 id="introduction-to-automated-accounts-payable-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                Introduction to Automated Accounts Payable
+              <h2 id="introduction-to-accounts-payable-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                Introduction to Accounts Payable
               </h2>
               {body("-lg")}
             </div>
@@ -94,8 +94,8 @@ export default function IntroductionSection() {
               <Image
                 width="460"
                 height="460"
-                src="/images/accounting/use-cases/accounts-payable/automated-accounts-payable-pillar-h2-introduction-to-automated-accounts-payable.avif"
-                alt="Introduction to Automated Accounts Payable" />
+                src="/images/accounting/use-cases/accounts-payable/automated-accounts-payable-pillar-h2-introduction-to-accounts-payable.avif"
+                alt="Introduction to Accounts Payable" />
             </div>
           </div>
         </div>
