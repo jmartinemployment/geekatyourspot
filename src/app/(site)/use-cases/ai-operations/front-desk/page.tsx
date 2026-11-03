@@ -10,7 +10,7 @@ const SITE_URL = "https://geekatyourspot.com";
 const PAGE_TITLE = "AI Front Desk";
 const PAGE_DESCRIPTION =
     "AI Front Desk solutions for South Florida small businesses: AI-powered voice receptionists and cross-platform chatbots that answer calls, capture leads, book appointments, and respond to messages around the clock.";
-const CANONICAL = "/use-cases/ai-operations/ai-front-desk";
+const CANONICAL = "/use-cases/ai-operations/front-desk";
 const PAGE_URL = `${SITE_URL}${CANONICAL}`;
 
 const jsonLd: Graph = {

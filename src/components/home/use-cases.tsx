@@ -947,7 +947,7 @@ export function UseCasesSection() {
                                     AI operations tools automate workflows, manage data pipelines, and keep your business systems running without constant manual oversight.
                                 </p>
                                 <Link id="home-use-cases-ai-operations-ai-front-office"
-                                    href="/use-cases/ai-operations/ai-front-desk"
+                                    href="/use-cases/ai-operations/front-desk"
                                     className="hover:underline">
                                     <h4 className="text-black text-base hover:text-[#C83803] font-bold">
                                         Front Desk
@@ -2089,7 +2089,7 @@ export function UseCasesSection() {
                                     AI business operations tools automate workflows, manage data pipelines, and keep your business systems running without constant manual oversight.
                                 </p>
                                 <Link id="home-use-cases-ai-operations-ai-front-office-lg"
-                                    href="/use-cases/ai-operations/ai-front-desk"
+                                    href="/use-cases/ai-operations/front-desk"
                                     className="hover:underline">
                                     <h4 className="text-black text-lg hover:text-[#C83803] font-bold shadow-text">
                                         Front Desk

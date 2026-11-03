@@ -99,7 +99,7 @@ export const USE_CASES_MENU: readonly MenuDepartment[] = [
         id: "use-cases-ai-operations-ai-front-office",
         label: "AI Front Desk",
         items: [
-          { href: "/use-cases/ai-operations/ai-front-desk", label: "AI Front Desk" },
+          { href: "/use-cases/ai-operations/front-desk", label: "AI Front Desk" },
           { href: "/use-cases/ai-operations/ai-receptionist", label: "AI Receptionist" },
           { href: "/use-cases/ai-operations/ai-chatbot", label: "Cross-Platform Chatbot" },
         ],
