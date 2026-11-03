@@ -31,23 +31,23 @@ export default function HowItWorksSection() {
       <p className="text-base text-white shadow-text pt-3">
         Tools like&nbsp;
         <Link id={`use-cases-accounting-fraud-controls-how-medius${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/medius" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/accounts-payable/ai-fraud-duplicate-payment-controls/medius" className="text-[#0B162A] hover:underline">
           Medius
         </Link>,&nbsp;
         <Link id={`use-cases-accounting-fraud-controls-how-tipalti${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/tipalti" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/accounts-payable/ai-fraud-duplicate-payment-controls/tipalti" className="text-[#0B162A] hover:underline">
           Tipalti
         </Link>,&nbsp;
         <Link id={`use-cases-accounting-fraud-controls-how-stampli${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/accounts-payable/ai-invoice-approval-workflows/stampli" className="text-[#0B162A] hover:underline">
           Stampli
         </Link>,&nbsp;
         <Link id={`use-cases-accounting-fraud-controls-how-bill${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/bill" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/accounts-payable/ai-fraud-duplicate-payment-controls/bill" className="text-[#0B162A] hover:underline">
           Bill
         </Link>, and&nbsp;
         <Link id={`use-cases-accounting-fraud-controls-how-ramp${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/accounts-payable/ai-payment-execution/ramp" className="text-[#0B162A] hover:underline">
           Ramp
         </Link>&nbsp;are pivotal in implementing these controls. Each offers unique functionalities tailored
         to enhance fraud detection and streamline payment processes. For instance, Medius uses AI-driven

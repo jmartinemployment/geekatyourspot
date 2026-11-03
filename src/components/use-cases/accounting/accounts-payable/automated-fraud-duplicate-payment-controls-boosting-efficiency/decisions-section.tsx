@@ -25,15 +25,15 @@ export default function DecisionsSection() {
         Choosing the right technology is another critical decision. Opt for platforms that integrate
         seamlessly with your current infrastructure. Tools like&nbsp;
         <Link id={`use-cases-accounting-fraud-controls-decisions-medius${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/medius" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/accounts-payable/ai-fraud-duplicate-payment-controls/medius" className="text-[#0B162A] hover:underline">
           Medius
         </Link>,&nbsp;
         <Link id={`use-cases-accounting-fraud-controls-decisions-tipalti${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/tipalti" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/accounts-payable/ai-fraud-duplicate-payment-controls/tipalti" className="text-[#0B162A] hover:underline">
           Tipalti
         </Link>, and&nbsp;
         <Link id={`use-cases-accounting-fraud-controls-decisions-stampli${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-approval-workflows/stampli" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/accounts-payable/ai-invoice-approval-workflows/stampli" className="text-[#0B162A] hover:underline">
           Stampli
         </Link>&nbsp;offer robust fraud detection and duplicate payment controls that can be customized to
         fit your specific requirements. These tools provide real-time anomaly detection and automate

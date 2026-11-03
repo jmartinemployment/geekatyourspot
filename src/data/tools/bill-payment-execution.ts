@@ -3,7 +3,7 @@ import { ToolPageContent } from "@/types/tool";
 /**
  * Listing metadata for /tools/accounting. This is Bill's second write-up, for the
  * payment-execution pillar; the data-entry one is `bill.ts`. The hand-coded page
- * under `src/components/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/bill/`
+ * under `src/components/tools/accounting/accounts-payable/ai-payment-execution/bill/`
  * is the content of record; `sections` here carries each section's heading and
  * opening paragraph so the registry stays readable, not a second copy.
  */
@@ -11,7 +11,7 @@ export const billPaymentExecutionContent: ToolPageContent = {
   "title": "Bill",
   "slug": "bill",
   "department": "accounting",
-  "useCase": "accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai",
+  "useCase": "accounts-payable/ai-payment-execution",
   "description":
     "Streamline your payment process with Automated Payment Execution by Bill, reducing errors and saving time.",
   "heroSummary":
@@ -21,7 +21,7 @@ export const billPaymentExecutionContent: ToolPageContent = {
   "datePublished": "2026-10-08T20:12:34.5551770Z",
   "dateModified": "2026-10-08T20:12:34.5551770Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-automatic-bill-pay",
+    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-payment-execution",
   "sections": [
     { "title": "Overview", "description": "Evenings spent on paper invoices and spreadsheets leave room for costly mistakes. Automated Payment Execution schedules and executes payments without constant oversight." },
     { "title": "The Hidden Costs of Manual Automated Payment Execution", "description": "Approved invoices are re-keyed into bank portals, ACH, check-only and international vendors each need separate steps, and the bookkeeper learns about payments late." },

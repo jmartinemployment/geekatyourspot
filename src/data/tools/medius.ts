@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/medius/`
+ * `src/components/tools/accounting/accounts-payable/ai-fraud-duplicate-payment-controls/medius/`
  * is the content of record; `sections` here carries each section's heading and
  * opening paragraph so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const mediusContent: ToolPageContent = {
   "title": "Medius",
   "slug": "medius",
   "department": "accounting",
-  "useCase": "accounts-payable/automated-fraud-duplicate-payment-controls",
+  "useCase": "accounts-payable/ai-fraud-duplicate-payment-controls",
   "description":
     "Medius automates fraud & duplicate payment controls, enhancing financial security with AI-driven solutions.",
   "heroSummary":

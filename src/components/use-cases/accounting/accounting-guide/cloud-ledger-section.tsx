@@ -29,7 +29,7 @@ export default function CloudLedgerSection() {
         connected apps. Every Xero plan includes <strong>unlimited users</strong>, which helps businesses that
         want their bookkeeper, accountant, and managers working in the same system. Its higher plan adds
         support for <strong>multiple currencies</strong>, which matters for South Florida importers and
-        distributors who buy from suppliers in Latin America. Approval tools such as <Link id={`use-cases-accounting-cloud-ledger-approvalmax${idSuffix}`} href="/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax" className="text-[#0B162A] hover:underline">ApprovalMax</Link> connect
+        distributors who buy from suppliers in Latin America. Approval tools such as <Link id={`use-cases-accounting-cloud-ledger-approvalmax${idSuffix}`} href="/tools/accounting/accounts-payable/ai-invoice-approval-workflows/approvalmax" className="text-[#0B162A] hover:underline">ApprovalMax</Link> connect
         directly to Xero.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Sage 50

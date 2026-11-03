@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/tipalti/`
+ * `src/components/tools/accounting/accounts-payable/ai-fraud-duplicate-payment-controls/tipalti/`
  * is the content of record; `sections` here carries each section's heading and
  * opening paragraph so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const tipaltiFraudDuplicatePaymentControlsContent: ToolPageContent = {
   "title": "Tipalti",
   "slug": "tipalti",
   "department": "accounting",
-  "useCase": "accounts-payable/automated-fraud-duplicate-payment-controls",
+  "useCase": "accounts-payable/ai-fraud-duplicate-payment-controls",
   "description":
     "Automate fraud and duplicate payment controls with Tipalti to enhance financial security and efficiency.",
   "heroSummary":

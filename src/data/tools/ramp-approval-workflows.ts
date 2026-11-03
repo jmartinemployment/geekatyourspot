@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/accounts-payable/automated-approval-workflows/ramp/`
+ * `src/components/tools/accounting/accounts-payable/ai-invoice-approval-workflows/ramp/`
  * is the content of record; `sections` here carries each section's heading and
  * opening paragraph so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const rampApprovalWorkflowsContent: ToolPageContent = {
   "title": "Ramp",
   "slug": "ramp",
   "department": "accounting",
-  "useCase": "accounts-payable/automated-approval-workflows",
+  "useCase": "accounts-payable/ai-invoice-approval-workflows",
   "description":
     "Automate invoice approvals with Ramp to save time, reduce errors, and boost efficiency.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const rampApprovalWorkflowsContent: ToolPageContent = {
   "datePublished": "2026-10-07T19:50:20.7491120Z",
   "dateModified": "2026-10-07T19:50:20.7491120Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-approval-workflow",
+    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows",
   "sections": [
     { "title": "Overview", "description": "Processing hundreds of invoices a month by hand turns AP into a full-time job; OCR and machine learning cut each invoice from 15–20 minutes to under 3 and route it to the right approver." },
     { "title": "The Pitfalls of Manual Automated Approval Workflows", "description": "Invoices arrive through scattered channels, every bill follows the same path regardless of risk, the owner becomes the bottleneck, and controls arrive only after a loss or audit." },

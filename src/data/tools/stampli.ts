@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/accounts-payable/automated-approval-workflows/stampli/`
+ * `src/components/tools/accounting/accounts-payable/ai-invoice-approval-workflows/stampli/`
  * is the content of record; `sections` here carries each section's heading and
  * opening paragraph so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const stampliContent: ToolPageContent = {
   "title": "Stampli",
   "slug": "stampli",
   "department": "accounting",
-  "useCase": "accounts-payable/automated-approval-workflows",
+  "useCase": "accounts-payable/ai-invoice-approval-workflows",
   "description":
     "Transform your AP process with Stampli's automated approval workflows for faster, error-free operations.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const stampliContent: ToolPageContent = {
   "datePublished": "2026-10-07T19:50:20.7491120Z",
   "dateModified": "2026-10-07T19:50:20.7491120Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-approval-workflow",
+    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows",
   "sections": [
     { "title": "Overview", "description": "Stacks of paper invoices and approvals handled in separate systems create visibility gaps and delays. Predefined routing sends each document to the right reviewer and leaves an auditable record." },
     { "title": "The Cost of Manual Automated Approval Workflows", "description": "Verbal approvals with no recorded authorization, one approval path for every invoice, the owner as the bottleneck, and issues found only when a payment is already late." },

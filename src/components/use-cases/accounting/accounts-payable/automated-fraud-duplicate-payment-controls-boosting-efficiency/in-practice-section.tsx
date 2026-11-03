@@ -8,17 +8,17 @@ export default function InPracticeSection() {
         The transition to Automated Fraud &amp; Duplicate Payment Controls requires careful planning and
         execution. Start by mapping out the entire&nbsp;
         accounts payable
-        &nbsp;workflow. Identify each step from invoice receipt to&nbsp;<Link id={`use-cases-accounting-fraud-controls-in-practice-payment-execution${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-automatic-bill-pay" className="text-[#0B162A] hover:underline">payment execution</Link>. Understanding this
+        &nbsp;workflow. Identify each step from invoice receipt to&nbsp;<Link id={`use-cases-accounting-fraud-controls-in-practice-payment-execution${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-payment-execution" className="text-[#0B162A] hover:underline">payment execution</Link>. Understanding this
         sequence helps in pinpointing where automation can bring the most benefit. For example, automating
         the invoice matching process can drastically reduce errors and speed up approvals.</p>
       <p className="text-base text-white shadow-text pt-3">
         Integration with existing systems is a critical phase. Tools like&nbsp;
         <Link id={`use-cases-accounting-fraud-controls-practice-bill${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/bill" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/accounts-payable/ai-fraud-duplicate-payment-controls/bill" className="text-[#0B162A] hover:underline">
           Bill
         </Link>&nbsp;and&nbsp;
         <Link id={`use-cases-accounting-fraud-controls-practice-ramp${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/ramp" className="text-[#0B162A] hover:underline">
+          href="/tools/accounting/accounts-payable/ai-payment-execution/ramp" className="text-[#0B162A] hover:underline">
           Ramp
         </Link>&nbsp;are designed to work seamlessly with platforms such as QuickBooks and other&nbsp;
         <GlossaryLink slug="erp" className="text-[#0B162A] hover:underline">ERP</GlossaryLink>&nbsp;systems.

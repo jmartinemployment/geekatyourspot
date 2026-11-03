@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/accounts-payable/automated-approval-workflows/melio/`
+ * `src/components/tools/accounting/accounts-payable/ai-invoice-approval-workflows/melio/`
  * is the content of record; `sections` here carries each section's heading and
  * opening paragraph so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const melioApprovalWorkflowsContent: ToolPageContent = {
   "title": "Melio",
   "slug": "melio",
   "department": "accounting",
-  "useCase": "accounts-payable/automated-approval-workflows",
+  "useCase": "accounts-payable/ai-invoice-approval-workflows",
   "description":
     "Transform your business with Melio's automated approval workflows, streamlining invoice processing and reducing delays.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const melioApprovalWorkflowsContent: ToolPageContent = {
   "datePublished": "2026-10-07T19:50:20.7491120Z",
   "dateModified": "2026-10-07T19:50:20.7491120Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-approval-workflow",
+    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows",
   "sections": [
     { "title": "Overview", "description": "Manually chasing invoice approvals across departments and time zones clogs the workflow and invites errors. Melio routes approvals by rules such as amount thresholds or vendors so a $200 renewal and a $40,000 invoice get the attention each deserves." },
     { "title": "The Costs of Manual Automated Approval Workflows for Small Businesses", "description": "Verbal and email approvals leave no recorded authorization, every invoice waits in the same line, the owner becomes the bottleneck, and problems surface only when a payment is already due." },

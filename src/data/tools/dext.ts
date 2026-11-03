@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/accounts-payable/automated-data-entry-processing/dext/` is the content of
+ * `src/components/tools/accounting/accounts-payable/ai-data-entry-processing/dext/` is the content of
  * record; `sections` here carries each section's heading and opening paragraph
  * so the registry stays readable, not a second copy of the page.
  */
@@ -10,7 +10,7 @@ export const dextContent: ToolPageContent = {
   "title": "Dext",
   "slug": "dext",
   "department": "accounting",
-  "useCase": "accounts-payable/automated-data-entry-processing",
+  "useCase": "accounts-payable/ai-data-entry-processing",
   "description":
     "Dext automates data capture, extraction, and categorization from receipts, bills, and invoices, structuring records with over 99% accuracy.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const dextContent: ToolPageContent = {
   "datePublished": "2026-10-02T00:00:00.0000000Z",
   "dateModified": "2026-10-02T00:00:00.0000000Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/automated-data-entry-processing",
+    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-data-entry-processing",
   "sections": [
     {
       "title": "Overview",

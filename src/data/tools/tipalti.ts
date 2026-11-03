@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti/`
+ * `src/components/tools/accounting/accounts-payable/ai-payment-execution/tipalti/`
  * is the content of record; `sections` here carries each section's heading and
  * opening paragraph so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const tipaltiContent: ToolPageContent = {
   "title": "Tipalti",
   "slug": "tipalti",
   "department": "accounting",
-  "useCase": "accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai",
+  "useCase": "accounts-payable/ai-payment-execution",
   "description":
     "Automate payments with Tipalti to boost efficiency, reduce errors, and drive business growth.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const tipaltiContent: ToolPageContent = {
   "datePublished": "2026-10-08T20:12:34.5551770Z",
   "dateModified": "2026-10-08T20:12:34.5551770Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-automatic-bill-pay",
+    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-payment-execution",
   "sections": [
     { "title": "Overview", "description": "82% of finance leaders say manual finance processes hinder growth. Automated Payment Execution removes the data-entry and approval bottlenecks and handles multi-currency payments." },
     { "title": "The High Cost of Manual Automated Payment Execution", "description": "Supplier banking details, separate domestic and international bank portals, hand-assembled payment files and cross-currency reconciliation all fall on a small finance team." },

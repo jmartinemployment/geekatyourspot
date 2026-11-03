@@ -4,7 +4,7 @@ import { ToolPageContent } from "@/types/tool";
  * Listing metadata for /tools/accounting. This is AvidXchange's second write-up,
  * for the payment-execution pillar; the data-entry one is `avidxchange.ts`. The
  * hand-coded page under
- * `src/components/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange/`
+ * `src/components/tools/accounting/accounts-payable/ai-payment-execution/avidxchange/`
  * is the content of record; `sections` here carries each section's heading and
  * opening paragraph so the registry stays readable, not a second copy.
  */
@@ -12,7 +12,7 @@ export const avidxchangePaymentExecutionContent: ToolPageContent = {
   "title": "AvidXchange",
   "slug": "avidxchange",
   "department": "accounting",
-  "useCase": "accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai",
+  "useCase": "accounts-payable/ai-payment-execution",
   "description":
     "Automate payment execution with AvidXchange for improved efficiency and accuracy in your business.",
   "heroSummary":
@@ -22,7 +22,7 @@ export const avidxchangePaymentExecutionContent: ToolPageContent = {
   "datePublished": "2026-10-08T20:12:34.5551770Z",
   "dateModified": "2026-10-08T20:12:34.5551770Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-automatic-bill-pay",
+    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-payment-execution",
   "sections": [
     { "title": "Overview", "description": "Printing checks, stuffing envelopes and mailing payments every Friday is slow and error-prone. Automated payment execution pays suppliers through their preferred method and gives the week back." },
     { "title": "The Challenges of Manual Automated Payment Execution", "description": "No unified electronic payment process means manual checks, vendor preferences tracked in spreadsheets, scattered remittance data and constant \"Where is my money?\" calls." },

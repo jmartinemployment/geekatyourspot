@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/accounts-payable/automated-approval-workflows/bill/`
+ * `src/components/tools/accounting/accounts-payable/ai-invoice-approval-workflows/bill/`
  * is the content of record; `sections` here carries each section's heading and
  * opening paragraph so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const billApprovalWorkflowsContent: ToolPageContent = {
   "title": "Bill",
   "slug": "bill",
   "department": "accounting",
-  "useCase": "accounts-payable/automated-approval-workflows",
+  "useCase": "accounts-payable/ai-invoice-approval-workflows",
   "description":
     "Streamline invoice approvals with Bill's automated workflows, enhancing efficiency and accuracy for your business.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const billApprovalWorkflowsContent: ToolPageContent = {
   "datePublished": "2026-10-07T19:50:20.7491120Z",
   "dateModified": "2026-10-07T19:50:20.7491120Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-approval-workflow",
+    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows",
   "sections": [
     { "title": "Overview", "description": "A small agency's team loses hours each week sorting payment requests and chasing remote approvers; Bill routes invoices to the right people, cutting manual entry by up to 20% with 99% field accuracy." },
     { "title": "The Cost of Manual Automated Approval Workflows", "description": "Invoices pile up in the owner's inbox with verbal okays and no recorded authorization; Bill's documented workflows, risk-based thresholds, reminders and escalation give every invoice an owner, a stage and a due date." },

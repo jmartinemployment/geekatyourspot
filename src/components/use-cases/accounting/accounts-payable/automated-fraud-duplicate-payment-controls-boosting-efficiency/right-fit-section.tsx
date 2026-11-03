@@ -17,11 +17,11 @@ export default function RightFitSection() {
         verifying invoices or if you&#39;ve experienced financial losses due to fraud, automation could be a
         game-changer. Tools like&nbsp;
         <Link id={`use-cases-accounting-fraud-controls-fit-medius${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/medius" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/ai-fraud-duplicate-payment-controls/medius" className="text-[#C83803] hover:underline">
           Medius
         </Link>&nbsp;and&nbsp;
         <Link id={`use-cases-accounting-fraud-controls-fit-tipalti${idSuffix}`}
-          href="/tools/accounting/accounts-payable/automated-fraud-duplicate-payment-controls/tipalti" className="text-[#C83803] hover:underline">
+          href="/tools/accounting/accounts-payable/ai-fraud-duplicate-payment-controls/tipalti" className="text-[#C83803] hover:underline">
           Tipalti
         </Link>&nbsp;offer robust solutions that integrate seamlessly with existing workflows, providing
         real-time anomaly detection and automated approval processes.</p>

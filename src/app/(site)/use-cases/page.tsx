@@ -95,21 +95,21 @@ const DEPARTMENTS: Department[] = [
         slug: "automated-data-entry-processing",
         description:
           "Automate accounts payable data entry and processing to cut manual errors, speed up invoice approvals, and give finance teams real-time visibility.",
-        href: "/use-cases/accounting/accounts-payable/automated-data-entry-processing",
+        href: "/use-cases/accounting/accounts-payable/ai-data-entry-processing",
       },
       {
         title: "Intelligent Approval Workflows",
         slug: "ai-approval-workflow",
         description:
           "Explore Intelligent Approval Workflows to enhance accounts payable efficiency, cut costs, and improve accuracy for small businesses.",
-        href: "/use-cases/accounting/accounts-payable/ai-approval-workflow",
+        href: "/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows",
       },
       {
         title: "Intelligent Payment Execution",
         slug: "ai-automatic-bill-pay",
         description:
           "Intelligent Payment Execution boosts efficiency in accounts payable, reducing errors and costs for small businesses with AI solutions.",
-        href: "/use-cases/accounting/accounts-payable/ai-automatic-bill-pay",
+        href: "/use-cases/accounting/accounts-payable/ai-payment-execution",
       },
       {
         title: "Intelligent Fraud & Duplicate Payment Controls",

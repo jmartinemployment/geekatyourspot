@@ -277,13 +277,13 @@ const LINK_OVERRIDES: Record<string, string | null> = {
     "/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo",
   // These accounts payable tools moved under their pillars. Nothing redirects the old paths,
   // which return 404, so links in the exports are pointed at the new ones here.
-  "/tools/accounting/dext": "/tools/accounting/accounts-payable/automated-data-entry-processing/dext",
-  "/tools/accounting/bill": "/tools/accounting/accounts-payable/automated-data-entry-processing/bill",
+  "/tools/accounting/dext": "/tools/accounting/accounts-payable/ai-data-entry-processing/dext",
+  "/tools/accounting/bill": "/tools/accounting/accounts-payable/ai-data-entry-processing/bill",
   "/tools/accounting/avidxchange":
-    "/tools/accounting/accounts-payable/automated-data-entry-processing/avidxchange",
-  "/tools/accounting/stampli": "/tools/accounting/accounts-payable/automated-approval-workflows/stampli",
+    "/tools/accounting/accounts-payable/ai-data-entry-processing/avidxchange",
+  "/tools/accounting/stampli": "/tools/accounting/accounts-payable/ai-invoice-approval-workflows/stampli",
   "/tools/accounting/melio":
-    "/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio",
+    "/tools/accounting/accounts-payable/ai-payment-execution/melio",
   // The Personalized Email Campaigns pillar and its Mailchimp write-up are hand-coded under the
   // Content Creation Workflow group; the flat Mailchimp page was deleted on 2026-10-26.
   "/use-cases/marketing/personalized-email-campaigns": "/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns",

@@ -2,7 +2,7 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/accounting. The hand-coded page under
- * `src/components/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio/`
+ * `src/components/tools/accounting/accounts-payable/ai-payment-execution/melio/`
  * is the content of record; `sections` here carries each section's heading and
  * opening paragraph so the registry stays readable, not a second copy.
  */
@@ -10,7 +10,7 @@ export const melioContent: ToolPageContent = {
   "title": "Melio",
   "slug": "melio",
   "department": "accounting",
-  "useCase": "accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai",
+  "useCase": "accounts-payable/ai-payment-execution",
   "description":
     "Automate payment execution with Melio to save time, reduce errors, and improve financial efficiency.",
   "heroSummary":
@@ -20,7 +20,7 @@ export const melioContent: ToolPageContent = {
   "datePublished": "2026-10-08T20:12:34.5551770Z",
   "dateModified": "2026-10-08T20:12:34.5551770Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-automatic-bill-pay",
+    "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-payment-execution",
   "sections": [
     { "title": "Overview", "description": "Monthly hours spent entering payment details and reconciling accounts drain time and invite error. Melio schedules and executes payments and syncs them to the books." },
     { "title": "The Cost of Manual Automated Payment Execution", "description": "Routine vendor payments are recreated every month, paid one at a time, and re-keyed into QuickBooks, with no scheduling ahead of due dates." },
