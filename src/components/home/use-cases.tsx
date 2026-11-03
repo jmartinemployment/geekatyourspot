@@ -950,7 +950,7 @@ export function UseCasesSection() {
                                     href="/use-cases/ai-operations/ai-front-desk"
                                     className="hover:underline">
                                     <h4 className="text-black text-base hover:text-[#C83803] font-bold">
-                                        AI Front Desk
+                                        Front Desk
                                     </h4>
                                 </Link>
                                 <p className="text-black text-xs text-shadow-xs">
@@ -2092,7 +2092,7 @@ export function UseCasesSection() {
                                     href="/use-cases/ai-operations/ai-front-desk"
                                     className="hover:underline">
                                     <h4 className="text-black text-lg hover:text-[#C83803] font-bold shadow-text">
-                                        AI Front Desk
+                                        Front Desk
                                     </h4>
                                 </Link>
                                 <p className="text-black text-sm text-shadow-xs">
