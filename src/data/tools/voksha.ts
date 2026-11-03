@@ -2,14 +2,14 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/ai-operations/intelligent-receptionist/voksha/`
+ * `src/components/tools/business-operations/ai-receptionist/voksha/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
 export const vokshaContent: ToolPageContent = {
   "title": "Voksha",
   "slug": "voksha",
-  "department": "ai-operations",
+  "department": "business-operations",
   "useCase": "intelligent-receptionist",
   "description":
     "Intelligent Receptionist Voksha helps small businesses in Miami-Dade, Broward, and West Palm Beach capture every lead and stop losing customers to missed calls.",

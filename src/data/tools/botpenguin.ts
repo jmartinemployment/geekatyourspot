@@ -2,14 +2,14 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/ai-operations/cross-platform-chatbot/botpenguin/`
+ * `src/components/tools/business-operations/ai-chatbot/botpenguin/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
 export const botpenguinContent: ToolPageContent = {
   "title": "BotPenguin",
   "slug": "botpenguin",
-  "department": "ai-operations",
+  "department": "business-operations",
   "useCase": "cross-platform-chatbot",
   "description":
     "BotPenguin unifies chats from WhatsApp, Instagram, Facebook, SMS, and the web for small businesses in Miami-Dade, Broward, and West Palm Beach.",

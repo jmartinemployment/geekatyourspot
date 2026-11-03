@@ -26,7 +26,7 @@ export default function MechanicsSection() {
         missing key fields, the AI cannot answer questions or book appointments with confidence. This phase
         means pulling your real business data, what you actually offer, not just what is on the website, into a
         clean, validated format. Tools
-        like&nbsp;<Link id={`use-cases-marketing-intelligent-receptionist-mechanics-nextiva${idSuffix}`} href="/tools/ai-operations/intelligent-receptionist/nextiva" className="text-[#0B162A] hover:underline">Nextiva</Link>&nbsp;and&nbsp;<Link id={`use-cases-marketing-intelligent-receptionist-mechanics-my-ai-front-desk${idSuffix}`} href="/tools/ai-operations/intelligent-receptionist/myaifrontdesk" className="text-[#0B162A] hover:underline">My
+        like&nbsp;<Link id={`use-cases-marketing-intelligent-receptionist-mechanics-nextiva${idSuffix}`} href="/tools/business-operations/ai-receptionist/nextiva" className="text-[#0B162A] hover:underline">Nextiva</Link>&nbsp;and&nbsp;<Link id={`use-cases-marketing-intelligent-receptionist-mechanics-my-ai-front-desk${idSuffix}`} href="/tools/business-operations/ai-receptionist/myaifrontdesk" className="text-[#0B162A] hover:underline">My
         AI Front Desk</Link>&nbsp;require this groundwork; they cannot route or book properly if the data is
         scattered or stale.</p>
       <p className="text-base text-white shadow-text pt-3">
@@ -37,18 +37,18 @@ export default function MechanicsSection() {
         calls, texts, and web chats across different numbers or channels: it pulls all those conversations into
         a single dashboard, so nothing falls through the cracks and your staff can finally stop juggling
         disconnected
-        apps.&nbsp;<Link id={`use-cases-marketing-intelligent-receptionist-mechanics-voksha${idSuffix}`} href="/tools/ai-operations/intelligent-receptionist/voksha" className="text-[#0B162A] hover:underline">Voksha</Link>&nbsp;is
+        apps.&nbsp;<Link id={`use-cases-marketing-intelligent-receptionist-mechanics-voksha${idSuffix}`} href="/tools/business-operations/ai-receptionist/voksha" className="text-[#0B162A] hover:underline">Voksha</Link>&nbsp;is
         the go-to when you need predictable, low-cost coverage that does not lock you into long contracts or
         charge by the minute. Its core focus is call answering, appointment setting, and lead logging, making it
         a fit for small teams who do not want enterprise complexity or surprise bills.</p>
       <p className="text-base text-white shadow-text pt-3">
-        <Link id={`use-cases-marketing-intelligent-receptionist-mechanics-smith-ai${idSuffix}`} href="/tools/ai-operations/intelligent-receptionist/smith" className="text-[#0B162A] hover:underline">Smith.ai</Link>&nbsp;is
+        <Link id={`use-cases-marketing-intelligent-receptionist-mechanics-smith-ai${idSuffix}`} href="/tools/business-operations/ai-receptionist/smith" className="text-[#0B162A] hover:underline">Smith.ai</Link>&nbsp;is
         built for those scenarios where missing a call means losing a five-figure client or a high-stakes
         opportunity, think law firms or urgent service providers. It pairs a fast, AI-first front end with a
         network of real human receptionists who step in for complex, sensitive, or high-value calls. This hybrid
         model ensures that when the AI cannot resolve the call, a live expert picks up with all the context, so
         the caller never has to start
-        over.&nbsp;<Link id={`use-cases-marketing-intelligent-receptionist-mechanics-lobbystack${idSuffix}`} href="/tools/ai-operations/intelligent-receptionist/lobbystack" className="text-[#0B162A] hover:underline">LobbyStack</Link>&nbsp;is
+        over.&nbsp;<Link id={`use-cases-marketing-intelligent-receptionist-mechanics-lobbystack${idSuffix}`} href="/tools/business-operations/ai-receptionist/lobbystack" className="text-[#0B162A] hover:underline">LobbyStack</Link>&nbsp;is
         the right choice when you want control over your data, your infrastructure, and your call logic. It is
         open source, so you can self-host, customize every workflow, and avoid vendor lock-in. For regulated
         businesses or those with strict data requirements, this is how you keep full ownership and privacy

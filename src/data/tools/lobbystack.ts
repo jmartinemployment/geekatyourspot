@@ -2,14 +2,14 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/ai-operations/intelligent-receptionist/lobbystack/`
+ * `src/components/tools/business-operations/ai-receptionist/lobbystack/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
 export const lobbystackContent: ToolPageContent = {
   "title": "LobbyStack",
   "slug": "lobbystack",
-  "department": "ai-operations",
+  "department": "business-operations",
   "useCase": "intelligent-receptionist",
   "description":
     "Intelligent Receptionist by LobbyStack helps small businesses in Miami-Dade, Broward and West Palm Beach capture every lead and never miss a call.",

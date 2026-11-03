@@ -32,7 +32,7 @@ export default function RightFitSection() {
         Automation also has limits when your data is messy or your systems are not connected. If you lack clean
         conversion tracking, or if your <GlossaryLink slug="crm">CRM</GlossaryLink> is not feeding good data to your
         advertising tools, automated validation will be working blind. In these cases, the first investment is in
-        getting your data pipeline right, tools like <Link id={`blog-marketing-budget-ad-copy-message-validation-right-fit-qualytics${idSuffix}`} href="/tools/ai-operations/data-quality-assessments/qualytics" className="text-[#C83803] hover:underline">Qualytics</Link> or <Link id={`blog-marketing-budget-ad-copy-message-validation-right-fit-great-expectations${idSuffix}`} href="/tools/ai-operations/data-quality-assessments/great-expectations" className="text-[#C83803] hover:underline">Great
+        getting your data pipeline right, tools like <Link id={`blog-marketing-budget-ad-copy-message-validation-right-fit-qualytics${idSuffix}`} href="/tools/business-operations/ai-data-quality-assessments/qualytics" className="text-[#C83803] hover:underline">Qualytics</Link> or <Link id={`blog-marketing-budget-ad-copy-message-validation-right-fit-great-expectations${idSuffix}`} href="/tools/business-operations/ai-data-quality-assessments/great-expectations" className="text-[#C83803] hover:underline">Great
         Expectations</Link> can help here. Only once your data is accurate and flowing can automation do its job.</p>
       <p className="text-base text-white shadow-text pt-3">
         If you are ready to move forward, the next step is a structured, four-phase rollout. Start with a business

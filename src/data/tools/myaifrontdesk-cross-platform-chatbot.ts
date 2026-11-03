@@ -2,14 +2,14 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/ai-operations/cross-platform-chatbot/myaifrontdesk/`
+ * `src/components/tools/business-operations/ai-chatbot/myaifrontdesk/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
 export const myaifrontdeskCrossPlatformChatbotContent: ToolPageContent = {
   "title": "My AI Front Desk",
   "slug": "myaifrontdesk",
-  "department": "ai-operations",
+  "department": "business-operations",
   "useCase": "cross-platform-chatbot",
   "description":
     "Cross-Platform Chatbot My AI Front Desk unifies chats, texts, and calls for small businesses in Miami-Dade, Broward and West Palm Beach. Capture every lead.",

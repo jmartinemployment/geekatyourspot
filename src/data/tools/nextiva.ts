@@ -2,14 +2,14 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/ai-operations/intelligent-receptionist/nextiva/`
+ * `src/components/tools/business-operations/ai-receptionist/nextiva/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
 export const nextivaContent: ToolPageContent = {
   "title": "Nextiva",
   "slug": "nextiva",
-  "department": "ai-operations",
+  "department": "business-operations",
   "useCase": "intelligent-receptionist",
   "description":
     "Intelligent Receptionist from Nextiva unifies calls, texts, and chats for small businesses in Miami-Dade, Broward, and Palm Beach counties.",

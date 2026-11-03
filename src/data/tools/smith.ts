@@ -2,14 +2,14 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/ai-operations/intelligent-receptionist/smith/`
+ * `src/components/tools/business-operations/ai-receptionist/smith/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
 export const smithContent: ToolPageContent = {
   "title": "Smith.ai",
   "slug": "smith",
-  "department": "ai-operations",
+  "department": "business-operations",
   "useCase": "intelligent-receptionist",
   "description":
     "Intelligent Receptionist Smith.ai helps South Florida small businesses capture every lead by blending automation with real human support for client intake.",

@@ -12,7 +12,7 @@ import {
 export const DEPARTMENT_ICONS = {
   accounting: faCalculator,
   marketing: faFunnelDollar,
-  "ai-operations": faDatabase,
+  "business-operations": faDatabase,
   sales: faTag,
   "customer-service": faBellConcierge,
   "human-resources": faUsersBetweenLines,

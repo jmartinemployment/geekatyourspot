@@ -48,7 +48,7 @@ export default function LedeSection() {
         technology selection, and a pilot implementation designed for South Florida’s real operational
         constraints. This is not about buying another app. It is about building a lead capture workflow that
         never sleeps, never misses a call, and frees your team to focus on work that moves the needle.</p>
-      <p className="text-base text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-marketing-intelligent-receptionist-lede-blog${idSuffix}`} href="/blog/ai-operations/intelligent-receptionist-how-miami-small-businesses-can-stop-losing-leads-after-hours" className="text-[#C83803] hover:underline">Intelligent After-Hours Receptionist</Link> on our blog.</p>
+      <p className="text-base text-white shadow-text pt-3">For a shorter overview, read <Link id={`use-cases-marketing-intelligent-receptionist-lede-blog${idSuffix}`} href="/blog/business-operations/intelligent-receptionist-how-miami-small-businesses-can-stop-losing-leads-after-hours" className="text-[#C83803] hover:underline">Intelligent After-Hours Receptionist</Link> on our blog.</p>
     </>
   );
 

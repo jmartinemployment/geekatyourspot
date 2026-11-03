@@ -251,13 +251,13 @@ const DEPARTMENTS: Department[] = [
     ],
   },
   {
-    name: "ai-operations",
-    title: "AI Operations",
+    name: "business-operations",
+    title: "Business Operations",
     description:
       "Make AI dependable by fixing the data: validate and clean what feeds your models before it reaches an LLM.",
     href: "/use-cases/business-operations",
     summary:
-      "AI is only as good as the data behind it. AI Operations is the data side of that work: scanning sources for completeness and accuracy, catching errors early, and keeping the inputs clean so the models you rely on stay trustworthy.",
+      "AI is only as good as the data behind it. Business Operations is the data side of that work: scanning sources for completeness and accuracy, catching errors early, and keeping the inputs clean so the models you rely on stay trustworthy.",
     useCases: [
       {
         title: "AI Front Desk",
@@ -285,7 +285,7 @@ const DEPARTMENTS: Department[] = [
         slug: "data-quality-assessments",
         description:
           "Build automated validation that scans your data sources for completeness, accuracy, and formatting errors before the data is exposed to an LLM.",
-        href: "/use-cases/business-operations/data-quality-assessments",
+        href: "/use-cases/business-operations/ai-data-quality-assessments",
       },
     ],
   },

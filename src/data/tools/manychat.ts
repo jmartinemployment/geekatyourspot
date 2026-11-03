@@ -2,14 +2,14 @@ import { ToolPageContent } from "@/types/tool";
 
 /**
  * Listing metadata for /tools/marketing. The hand-coded page under
- * `src/components/tools/ai-operations/cross-platform-chatbot/manychat/`
+ * `src/components/tools/business-operations/ai-chatbot/manychat/`
  * is the content of record; `sections` here carries each section's heading and
  * opening sentence so the registry stays readable, not a second copy.
  */
 export const manychatContent: ToolPageContent = {
   "title": "Manychat",
   "slug": "manychat",
-  "department": "ai-operations",
+  "department": "business-operations",
   "useCase": "cross-platform-chatbot",
   "description":
     "Cross-Platform Chatbot Manychat helps small businesses unify chats and automate lead capture across Instagram, WhatsApp and Messenger in South Florida.",

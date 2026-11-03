@@ -974,38 +974,38 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-xs text-shadow-xs">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/dapta", "Dapta")}
-                                                href="/tools/ai-operations/intelligent-receptionist/dapta"
+                                                id={gtmLinkIdFromHref("/tools/business-operations/ai-receptionist/dapta", "Dapta")}
+                                                href="/tools/business-operations/ai-receptionist/dapta"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                 Dapta
                                             </Link>,{" "}
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/lobbystack", "LobbyStack")}
-                                                href="/tools/ai-operations/intelligent-receptionist/lobbystack"
+                                                id={gtmLinkIdFromHref("/tools/business-operations/ai-receptionist/lobbystack", "LobbyStack")}
+                                                href="/tools/business-operations/ai-receptionist/lobbystack"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                 LobbyStack
                                             </Link>,{" "}
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/myaifrontdesk", "My AI Front Desk")}
-                                                href="/tools/ai-operations/intelligent-receptionist/myaifrontdesk"
+                                                id={gtmLinkIdFromHref("/tools/business-operations/ai-receptionist/myaifrontdesk", "My AI Front Desk")}
+                                                href="/tools/business-operations/ai-receptionist/myaifrontdesk"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                 My AI Front Desk
                                             </Link>,{" "}
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/nextiva", "Nextiva")}
-                                                href="/tools/ai-operations/intelligent-receptionist/nextiva"
+                                                id={gtmLinkIdFromHref("/tools/business-operations/ai-receptionist/nextiva", "Nextiva")}
+                                                href="/tools/business-operations/ai-receptionist/nextiva"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                 Nextiva
                                             </Link>,{" "}
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/smith", "Smith.ai")}
-                                                href="/tools/ai-operations/intelligent-receptionist/smith"
+                                                id={gtmLinkIdFromHref("/tools/business-operations/ai-receptionist/smith", "Smith.ai")}
+                                                href="/tools/business-operations/ai-receptionist/smith"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                 Smith.ai
                                             </Link>,{" "}
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/voksha", "Voksha")}
-                                                href="/tools/ai-operations/intelligent-receptionist/voksha"
+                                                id={gtmLinkIdFromHref("/tools/business-operations/ai-receptionist/voksha", "Voksha")}
+                                                href="/tools/business-operations/ai-receptionist/voksha"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                 Voksha
                                             </Link>.
@@ -1028,32 +1028,32 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-xs text-shadow-xs">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/botpenguin", "BotPenguin")}
-                                                href="/tools/ai-operations/cross-platform-chatbot/botpenguin"
+                                                id={gtmLinkIdFromHref("/tools/business-operations/ai-chatbot/botpenguin", "BotPenguin")}
+                                                href="/tools/business-operations/ai-chatbot/botpenguin"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                 BotPenguin
                                             </Link>,{" "}
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/dapta", "Dapta")}
-                                                href="/tools/ai-operations/cross-platform-chatbot/dapta"
+                                                id={gtmLinkIdFromHref("/tools/business-operations/ai-chatbot/dapta", "Dapta")}
+                                                href="/tools/business-operations/ai-chatbot/dapta"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                 Dapta
                                             </Link>,{" "}
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/manychat", "Manychat")}
-                                                href="/tools/ai-operations/cross-platform-chatbot/manychat"
+                                                id={gtmLinkIdFromHref("/tools/business-operations/ai-chatbot/manychat", "Manychat")}
+                                                href="/tools/business-operations/ai-chatbot/manychat"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                 Manychat
                                             </Link>,{" "}
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/myaifrontdesk", "My AI Front Desk")}
-                                                href="/tools/ai-operations/cross-platform-chatbot/myaifrontdesk"
+                                                id={gtmLinkIdFromHref("/tools/business-operations/ai-chatbot/myaifrontdesk", "My AI Front Desk")}
+                                                href="/tools/business-operations/ai-chatbot/myaifrontdesk"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                 My AI Front Desk
                                             </Link>,{" "}
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/tidio", "Tidio")}
-                                                href="/tools/ai-operations/cross-platform-chatbot/tidio"
+                                                id={gtmLinkIdFromHref("/tools/business-operations/ai-chatbot/tidio", "Tidio")}
+                                                href="/tools/business-operations/ai-chatbot/tidio"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                 Tidio
                                             </Link>.
@@ -1069,8 +1069,8 @@ export function UseCasesSection() {
                                 <ul className="list-disc text-xs text-black list- pl-3 ">
                                     <li className="pl-.5">
                                         <Link
-                                            id={gtmLinkIdFromHref("/use-cases/business-operations/data-quality-assessments", "Data Quality Assessments")}
-                                            href="/use-cases/business-operations/data-quality-assessments"
+                                            id={gtmLinkIdFromHref("/use-cases/business-operations/ai-data-quality-assessments", "Data Quality Assessments")}
+                                            href="/use-cases/business-operations/ai-data-quality-assessments"
                                             className="hover:text-[#C83803] text-[#000000] hover:underline">
                                             <h5 className="text-black text-sm font-bold shadow-text">
                                                 Data Quality Assessments:
@@ -1084,26 +1084,26 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-xs text-shadow-xs">
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/monte-carlo", "Monte Carlo")}
-                                                href="/tools/ai-operations/data-quality-assessments/monte-carlo"
+                                                id={gtmLinkIdFromHref("/tools/business-operations/ai-data-quality-assessments/monte-carlo", "Monte Carlo")}
+                                                href="/tools/business-operations/ai-data-quality-assessments/monte-carlo"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Monte Carlo
                                             </Link>,{" "}
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/anomalo", "Anomalo")}
-                                                href="/tools/ai-operations/data-quality-assessments/anomalo"
+                                                id={gtmLinkIdFromHref("/tools/business-operations/ai-data-quality-assessments/anomalo", "Anomalo")}
+                                                href="/tools/business-operations/ai-data-quality-assessments/anomalo"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Anomalo
                                             </Link>,{" "}
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/great-expectations", "Great Expectations")}
-                                                href="/tools/ai-operations/data-quality-assessments/great-expectations"
+                                                id={gtmLinkIdFromHref("/tools/business-operations/ai-data-quality-assessments/great-expectations", "Great Expectations")}
+                                                href="/tools/business-operations/ai-data-quality-assessments/great-expectations"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Great Expectations
                                             </Link>,{" "}or&nbsp;
                                             <Link
-                                                id={gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/qualytics", "Qualytics")}
-                                                href="/tools/ai-operations/data-quality-assessments/qualytics"
+                                                id={gtmLinkIdFromHref("/tools/business-operations/ai-data-quality-assessments/qualytics", "Qualytics")}
+                                                href="/tools/business-operations/ai-data-quality-assessments/qualytics"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Qualytics
                                             </Link>.
@@ -2116,38 +2116,38 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-sm text-shadow-xs">
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/dapta", "Dapta")}-lg`}
-                                                href="/tools/ai-operations/intelligent-receptionist/dapta"
+                                                id={`${gtmLinkIdFromHref("/tools/business-operations/ai-receptionist/dapta", "Dapta")}-lg`}
+                                                href="/tools/business-operations/ai-receptionist/dapta"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                 Dapta
                                             </Link>,{" "}
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/lobbystack", "LobbyStack")}-lg`}
-                                                href="/tools/ai-operations/intelligent-receptionist/lobbystack"
+                                                id={`${gtmLinkIdFromHref("/tools/business-operations/ai-receptionist/lobbystack", "LobbyStack")}-lg`}
+                                                href="/tools/business-operations/ai-receptionist/lobbystack"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                 LobbyStack
                                             </Link>,{" "}
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/myaifrontdesk", "My AI Front Desk")}-lg`}
-                                                href="/tools/ai-operations/intelligent-receptionist/myaifrontdesk"
+                                                id={`${gtmLinkIdFromHref("/tools/business-operations/ai-receptionist/myaifrontdesk", "My AI Front Desk")}-lg`}
+                                                href="/tools/business-operations/ai-receptionist/myaifrontdesk"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                 My AI Front Desk
                                             </Link>,{" "}
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/nextiva", "Nextiva")}-lg`}
-                                                href="/tools/ai-operations/intelligent-receptionist/nextiva"
+                                                id={`${gtmLinkIdFromHref("/tools/business-operations/ai-receptionist/nextiva", "Nextiva")}-lg`}
+                                                href="/tools/business-operations/ai-receptionist/nextiva"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                 Nextiva
                                             </Link>,{" "}
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/smith", "Smith.ai")}-lg`}
-                                                href="/tools/ai-operations/intelligent-receptionist/smith"
+                                                id={`${gtmLinkIdFromHref("/tools/business-operations/ai-receptionist/smith", "Smith.ai")}-lg`}
+                                                href="/tools/business-operations/ai-receptionist/smith"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                 Smith.ai
                                             </Link>,{" "}
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/tools/ai-operations/intelligent-receptionist/voksha", "Voksha")}-lg`}
-                                                href="/tools/ai-operations/intelligent-receptionist/voksha"
+                                                id={`${gtmLinkIdFromHref("/tools/business-operations/ai-receptionist/voksha", "Voksha")}-lg`}
+                                                href="/tools/business-operations/ai-receptionist/voksha"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                 Voksha
                                             </Link>.
@@ -2170,32 +2170,32 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-sm text-shadow-xs">
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/botpenguin", "BotPenguin")}-lg`}
-                                                href="/tools/ai-operations/cross-platform-chatbot/botpenguin"
+                                                id={`${gtmLinkIdFromHref("/tools/business-operations/ai-chatbot/botpenguin", "BotPenguin")}-lg`}
+                                                href="/tools/business-operations/ai-chatbot/botpenguin"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                 BotPenguin
                                             </Link>,{" "}
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/dapta", "Dapta")}-lg`}
-                                                href="/tools/ai-operations/cross-platform-chatbot/dapta"
+                                                id={`${gtmLinkIdFromHref("/tools/business-operations/ai-chatbot/dapta", "Dapta")}-lg`}
+                                                href="/tools/business-operations/ai-chatbot/dapta"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                 Dapta
                                             </Link>,{" "}
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/manychat", "Manychat")}-lg`}
-                                                href="/tools/ai-operations/cross-platform-chatbot/manychat"
+                                                id={`${gtmLinkIdFromHref("/tools/business-operations/ai-chatbot/manychat", "Manychat")}-lg`}
+                                                href="/tools/business-operations/ai-chatbot/manychat"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                 Manychat
                                             </Link>,{" "}
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/myaifrontdesk", "My AI Front Desk")}-lg`}
-                                                href="/tools/ai-operations/cross-platform-chatbot/myaifrontdesk"
+                                                id={`${gtmLinkIdFromHref("/tools/business-operations/ai-chatbot/myaifrontdesk", "My AI Front Desk")}-lg`}
+                                                href="/tools/business-operations/ai-chatbot/myaifrontdesk"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                 My AI Front Desk
                                             </Link>,{" "}
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/tools/ai-operations/cross-platform-chatbot/tidio", "Tidio")}-lg`}
-                                                href="/tools/ai-operations/cross-platform-chatbot/tidio"
+                                                id={`${gtmLinkIdFromHref("/tools/business-operations/ai-chatbot/tidio", "Tidio")}-lg`}
+                                                href="/tools/business-operations/ai-chatbot/tidio"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                 Tidio
                                             </Link>.
@@ -2211,8 +2211,8 @@ export function UseCasesSection() {
                                 <ul className="list-disc text-sm text-black list- pl-3 ">
                                     <li className="pl-.5">
                                         <Link
-                                            id={`${gtmLinkIdFromHref("/use-cases/business-operations/data-quality-assessments", "Data Quality Assessments")}-lg`}
-                                            href="/use-cases/business-operations/data-quality-assessments"
+                                            id={`${gtmLinkIdFromHref("/use-cases/business-operations/ai-data-quality-assessments", "Data Quality Assessments")}-lg`}
+                                            href="/use-cases/business-operations/ai-data-quality-assessments"
                                             className="hover:text-[#C83803] text-[#000000] hover:underline">
                                             <h5 className="text-black text-base font-bold shadow-text">
                                                 Data Quality Assessments:
@@ -2226,26 +2226,26 @@ export function UseCasesSection() {
                                         </h6>
                                         <p className="text-sm text-shadow-xs">
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/monte-carlo", "Monte Carlo")}-lg`}
-                                                href="/tools/ai-operations/data-quality-assessments/monte-carlo"
+                                                id={`${gtmLinkIdFromHref("/tools/business-operations/ai-data-quality-assessments/monte-carlo", "Monte Carlo")}-lg`}
+                                                href="/tools/business-operations/ai-data-quality-assessments/monte-carlo"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Monte Carlo
                                             </Link>,{" "}
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/anomalo", "Anomalo")}-lg`}
-                                                href="/tools/ai-operations/data-quality-assessments/anomalo"
+                                                id={`${gtmLinkIdFromHref("/tools/business-operations/ai-data-quality-assessments/anomalo", "Anomalo")}-lg`}
+                                                href="/tools/business-operations/ai-data-quality-assessments/anomalo"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Anomalo
                                             </Link>,{" "}
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/great-expectations", "Great Expectations")}-lg`}
-                                                href="/tools/ai-operations/data-quality-assessments/great-expectations"
+                                                id={`${gtmLinkIdFromHref("/tools/business-operations/ai-data-quality-assessments/great-expectations", "Great Expectations")}-lg`}
+                                                href="/tools/business-operations/ai-data-quality-assessments/great-expectations"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Great Expectations
                                             </Link>,{" "}or&nbsp;
                                             <Link
-                                                id={`${gtmLinkIdFromHref("/tools/ai-operations/data-quality-assessments/qualytics", "Qualytics")}-lg`}
-                                                href="/tools/ai-operations/data-quality-assessments/qualytics"
+                                                id={`${gtmLinkIdFromHref("/tools/business-operations/ai-data-quality-assessments/qualytics", "Qualytics")}-lg`}
+                                                href="/tools/business-operations/ai-data-quality-assessments/qualytics"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
                                                 Qualytics
                                             </Link>.
