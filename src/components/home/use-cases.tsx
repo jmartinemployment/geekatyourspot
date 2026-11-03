@@ -1190,7 +1190,7 @@ export function UseCasesSection() {
 
                     </div>
                     <div className="col-span-6  min-h-screen">
-                        <Card className="bg-[#CBCBCB] py-5 shadow-xl gap-1">
+                        <Card className="bg-[#CBCBCB] py-5 shadow-xl gap-1 h-full">
                             <CardContent>
                                 <Link
                                     id={`${gtmLinkIdFromHref("/use-cases/accounting")}-lg`}
@@ -1708,7 +1708,7 @@ export function UseCasesSection() {
                         </Card>
                     </div>
                     <div className="col-span-6">
-                        <Card className="bg-[#CBCBCB] py-5 shadow-xl gap-1">
+                        <Card className="bg-[#CBCBCB] py-5 shadow-xl gap-1 h-full">
                             <CardContent>
                                 <Link
                                     id={`${gtmLinkIdFromHref("/use-cases/marketing", "AI Marketing")}-lg`}
@@ -2076,7 +2076,7 @@ export function UseCasesSection() {
                         <p className="text-white font-bold text-3xl leading-[0.95] shadow-text text-shadow-xs">Operations</p>
                     </div>
                     <div className="col-span-6">
-                        <Card className="bg-[#CBCBCB] py-5 shadow-xl gap-1">
+                        <Card className="bg-[#CBCBCB] py-5 shadow-xl gap-1 h-full">
                             <CardContent>
                                 <Link
                                     id={`${gtmLinkIdFromHref("/use-cases/ai-operations", "AI Operations")}-lg`}
