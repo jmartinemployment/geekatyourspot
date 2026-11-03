@@ -8,7 +8,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const SITE_URL = "https://geekatyourspot.com";
-const PAGE_TITLE = "Marketing AI Tools & Platforms";
+const PAGE_TITLE = "Marketing Tools & Platforms";
 const PAGE_DESCRIPTION =
   "Explore the marketing tools Geek @ Your Spot LLC helps South Florida small businesses implement, from email marketing to AI content generation.";
 

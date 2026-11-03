@@ -12,10 +12,10 @@ import { SHARE_IMAGE } from "@/lib/seo/share-image";
 const jsonLd: WithContext<TechArticle> = {
     "@context": "https://schema.org",
     "@type": "TechArticle",
-    "headline": "Optimove for Automated Ad Spend Optimization",
+    "headline": "Optimove for Ad Spend Optimization",
     "description": "Optimize ad spend with AI-driven insights from Optimove for better marketing ROI and efficiency.",
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://geekatyourspot.com/tools/marketing/optimove" },
-    "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
+    "keywords": "Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
     "author": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
     "publisher": { "@type": "Organization", "url": "https://geekatyourspot.com", "name": "Geek @ Your Spot LLC" },
     "about": {
@@ -29,9 +29,9 @@ const jsonLd: WithContext<TechArticle> = {
 export const generateMetadata = async (): Promise<Metadata> => {
     // Add the return statement to fix the TypeScript error
     return {
-        title: "Optimove for Automated Ad Spend Optimization",
+        title: "Optimove for Ad Spend Optimization",
         description: "Optimize ad spend with AI-driven insights from Optimove for better marketing ROI and efficiency.",
-        keywords: ["Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments"],
+        keywords: ["Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
@@ -40,7 +40,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             canonical: '/tools/marketing/optimove',
         },
         openGraph: {
-            title: "Optimove for Automated Ad Spend Optimization",
+            title: "Optimove for Ad Spend Optimization",
             description: "Optimize ad spend with AI-driven insights from Optimove for better marketing ROI and efficiency.",
             url: 'https://geekatyourspot.com/tools/marketing/optimove',
             siteName: 'Geek @ Your Spot LLC',
@@ -50,7 +50,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: "Optimove for Automated Ad Spend Optimization",
+            title: "Optimove for Ad Spend Optimization",
             description: "Optimize ad spend with AI-driven insights from Optimove for better marketing ROI and efficiency.",
             images: [SHARE_IMAGE],
         },
@@ -76,7 +76,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-    const title = "Optimove for Automated Ad Spend Optimization";
+    const title = "Optimove for Ad Spend Optimization";
     const heroSummary = "Optimove leverages AI to optimize ad spend, targeting the right audience and maximizing ROI.";
     return (
         <>

@@ -12,7 +12,7 @@ import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
-const TITLE = "AI Approval Workflow";
+const TITLE = "AI Invoice Approval Workflows";
 const DESCRIPTION =
     "Explore Automated Approval Workflows to enhance accounts payable efficiency, cut costs, and improve accuracy for small businesses.";
 const CANONICAL = "/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows";

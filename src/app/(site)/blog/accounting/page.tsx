@@ -7,7 +7,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const SITE_URL = "https://geekatyourspot.com";
-const PAGE_TITLE = "AI Accounting";
+const PAGE_TITLE = "Accounting";
 const PAGE_DESCRIPTION =
   "How South Florida small businesses use AI to automate the finance back office: accounts payable, cash flow forecasting, and tax compliance. Read the Geek blog on each.";
 

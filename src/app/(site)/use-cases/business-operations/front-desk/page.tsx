@@ -13,7 +13,7 @@ import SetupSection from "@/components/use-cases/business-operations/front-desk/
 import FAQSection from "@/components/use-cases/business-operations/front-desk/faq-section";
 
 const SITE_URL = "https://geekatyourspot.com";
-const PAGE_TITLE = "AI Front Desk";
+const PAGE_TITLE = "Front Desk";
 const PAGE_DESCRIPTION =
     "AI front desk systems for South Florida small businesses: AI receptionists and cross-platform chatbots that answer calls and messages, qualify leads, and book appointments in English and Spanish around the clock.";
 const CANONICAL = "/use-cases/business-operations/front-desk";

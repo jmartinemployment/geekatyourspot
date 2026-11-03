@@ -15,7 +15,7 @@ import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const SITE_URL = "https://geekatyourspot.com";
-const PAGE_TITLE = "AI Tools & Platforms";
+const PAGE_TITLE = "Tools & Platforms";
 const PAGE_DESCRIPTION =
   "Explore the AI tools and platforms Geek @ Your Spot LLC helps South Florida small businesses implement, from accounts payable automation to marketing systems.";
 

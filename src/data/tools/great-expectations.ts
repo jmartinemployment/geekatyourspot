@@ -7,7 +7,7 @@ export const greatExpectationsContent: ToolPageContent = {
   "useCase": "ai-data-quality-assessments",
   "description": "Optimize ad spend with Great Expectations' data validation, ensuring accurate and effective marketing decisions.",
   "heroSummary": "Great Expectations validates data for automated ad spend optimization, enhancing marketing efficiency.",
-  "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
+  "keywords": "Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
   "datePublished": "2026-08-20T18:36:47.1698116Z",
   "dateModified": "2026-08-20T18:36:47.1698116Z",
   "relatedArticleId": "https://geekatyourspot.com/use-cases/business-operations/ai-data-quality-assessments",
@@ -22,7 +22,7 @@ export const greatExpectationsContent: ToolPageContent = {
       "@type": "WebPage",
       "@id": "https://geekatyourspot.com/tools/business-operations/ai-data-quality-assessments/great-expectations"
     },
-    "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
+    "keywords": "Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
     "subjectOf": {
       "@type": "Article",
       "@id": "https://geekatyourspot.com/use-cases/business-operations/ai-data-quality-assessments"

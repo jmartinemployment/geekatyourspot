@@ -91,28 +91,28 @@ const DEPARTMENTS: Department[] = [
         href: "/use-cases/accounting/accounts-payable",
       },
       {
-        title: "Intelligent Data Entry & Processing",
-        slug: "automated-data-entry-processing",
+        title: "AI Data Entry & Processing",
+        slug: "ai-data-entry-processing",
         description:
           "Automate accounts payable data entry and processing to cut manual errors, speed up invoice approvals, and give finance teams real-time visibility.",
         href: "/use-cases/accounting/accounts-payable/ai-data-entry-processing",
       },
       {
-        title: "Intelligent Approval Workflows",
-        slug: "ai-approval-workflow",
+        title: "AI Invoice Approval Workflows",
+        slug: "ai-invoice-approval-workflows",
         description:
           "Explore Intelligent Approval Workflows to enhance accounts payable efficiency, cut costs, and improve accuracy for small businesses.",
         href: "/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows",
       },
       {
-        title: "Intelligent Payment Execution",
-        slug: "ai-automatic-bill-pay",
+        title: "AI Payment Execution",
+        slug: "ai-payment-execution",
         description:
           "Intelligent Payment Execution boosts efficiency in accounts payable, reducing errors and costs for small businesses with AI solutions.",
         href: "/use-cases/accounting/accounts-payable/ai-payment-execution",
       },
       {
-        title: "Intelligent Fraud & Duplicate Payment Controls",
+        title: "AI Fraud & Duplicate Payment Controls",
         slug: "ai-fraud-duplicate-payment-controls",
         description:
           "Implement Intelligent Fraud & Duplicate Payment Controls to enhance efficiency and accuracy in accounts payable for small businesses.",
@@ -120,28 +120,28 @@ const DEPARTMENTS: Department[] = [
       },
       {
         title: "Cash Flow Forecasting",
-        slug: "ai-cash-flow-forecasting",
+        slug: "cash-flow-forecasting",
         description:
           "Master cash flow forecasting with innovative strategies and AI-driven insights for better financial management.",
         href: "/use-cases/accounting/cash-flow-forecasting",
       },
       {
-        title: "Intelligent Accounts Receivable",
-        slug: "ai-accounts-receivable-software",
+        title: "AI Accounts Receivable",
+        slug: "ai-accounts-receivable",
         description:
           "Intelligent Accounts Receivable helps small businesses streamline cash flow, reduce errors, and save time with AI-driven solutions.",
         href: "/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable",
       },
       {
-        title: "Intelligent Spreadsheet Data",
+        title: "AI Spreadsheet Data",
         slug: "ai-spreadsheet-data",
         description:
           "Discover how Intelligent Spreadsheet Data enhances cash flow forecasting, saving time and reducing errors for small businesses.",
         href: "/use-cases/accounting/cash-flow-forecasting/ai-spreadsheet-data",
       },
       {
-        title: "Intelligent Resource Planning",
-        slug: "ai-financial-planning-software",
+        title: "AI Resource Planning",
+        slug: "ai-resource-planning",
         description:
           "Intelligent Resource Planning helps small businesses automate cash flow forecasting, accounts receivable, and ERP tasks for better control and fewer errors.",
         href: "/use-cases/accounting/cash-flow-forecasting/ai-resource-planning",
@@ -154,21 +154,21 @@ const DEPARTMENTS: Department[] = [
         href: "/use-cases/accounting/tax-compliance-regulations",
       },
       {
-        title: "Intelligent Tax Law",
+        title: "AI Tax Law",
         slug: "ai-tax-law",
         description:
           "Navigate complex and changing laws with AI. Simplify tax compliance for small businesses in Miami-Dade, Broward, and West Palm Beach.",
         href: "/use-cases/accounting/tax-compliance-regulations/ai-tax-law",
       },
       {
-        title: "Intelligent Payroll Tax",
-        slug: "ai-payroll-software",
+        title: "AI Payroll Tax",
+        slug: "ai-payroll-tax",
         description:
           "AI solutions for Payroll Tax & Worker Misclassification help small businesses in Miami-Dade, Broward, and West Palm Beach automate compliance and reduce errors.",
         href: "/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax",
       },
       {
-        title: "Intelligent Multi-State Sales Tax",
+        title: "AI Multi-State Sales Tax",
         slug: "ai-multi-state-sales-tax",
         description:
           "AI makes Multi-State Sales Tax Nexus compliance simple for South Florida small businesses. Automate filings, reduce errors, and stay audit-ready.",
@@ -187,41 +187,41 @@ const DEPARTMENTS: Department[] = [
     useCases: [
       {
         title: "Marketing Automation Platforms (MAP)",
-        slug: "ai-content-marketing-platforms",
+        slug: "marketing-automation-platforms",
         description:
           "Marketing Automation Platforms tie content planning, content generation, personalized email, and lead scoring to one set of contact records. See how the four jobs fit together.",
         href: "/use-cases/marketing/marketing-automation-platforms",
       },
       {
-        title: "Intelligent Content Planning",
-        slug: "intelligent-content-planning",
+        title: "AI Content Planning",
+        slug: "ai-content-planning",
         description:
           "Intelligent Content Planning streamlines content creation for small businesses, saving time and reducing errors. See how local AI implementation works.",
         href: "/use-cases/marketing/marketing-automation-platforms/ai-content-planning",
       },
       {
-        title: "Intelligent Content Generation",
-        slug: "ai-seo-content-generator",
+        title: "AI Content Generation",
+        slug: "ai-content-generation",
         description:
           "Intelligent Content Generation helps Miami-Dade, Broward, and West Palm Beach businesses automate content creation, repurposing, scheduling, and approvals.",
         href: "/use-cases/marketing/marketing-automation-platforms/ai-content-generation",
       },
       {
-        title: "Personalized Email Campaigns",
+        title: "AI Personalized Email Campaigns",
         slug: "ai-personalized-email-campaigns",
         description:
           "Personalized Email Campaigns help small businesses increase engagement and sales by automating relevant messages. Cut manual work. Get your free AI assessment.",
         href: "/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns",
       },
       {
-        title: "Automated Ad Spend Optimization",
-        slug: "automated-ad-spend-optimization",
+        title: "Ad Spend Optimization",
+        slug: "ad-spend-optimization",
         description:
-          "Explore Automated Ad Spend Optimization to enhance marketing efficiency with AI, featuring dynamic creative, bidding, and real-time budget tools.",
+          "Explore Ad Spend Optimization to enhance marketing efficiency with AI, featuring dynamic creative, bidding, and real-time budget tools.",
         href: "/use-cases/marketing/ad-spend-optimization",
       },
       {
-        title: "Precision Lead Acquisition",
+        title: "AI Precision Lead Acquisition",
         slug: "ai-precision-lead-acquisition",
         description:
           "Ad Spend Optimization helps Miami-Dade, Broward and Palm Beach small businesses cut wasted ad spend and boost ROI with AI. Get your free AI assessment.",
@@ -235,8 +235,8 @@ const DEPARTMENTS: Department[] = [
         href: "/use-cases/marketing/ai-sales-force-automation-software",
       },
       {
-        title: "Lead Enrichment and Predictive Scoring",
-        slug: "lead-enrichment-and-predictive-scoring",
+        title: "AI Lead Enrichment & Predictive Scoring",
+        slug: "ai-lead-enrichment-predictive-scoring",
         description:
           "Lead Enrichment and Predictive Scoring for South Florida small businesses: capture better leads, reduce manual work, and close more sales with AI.",
         href: "/use-cases/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring",
@@ -260,29 +260,29 @@ const DEPARTMENTS: Department[] = [
       "AI is only as good as the data behind it. Business Operations is the data side of that work: scanning sources for completeness and accuracy, catching errors early, and keeping the inputs clean so the models you rely on stay trustworthy.",
     useCases: [
       {
-        title: "AI Front Desk",
+        title: "Front Desk",
         slug: "front-desk",
         description:
           "AI receptionists and cross-platform chatbots that answer calls and messages, qualify leads, and book appointments in English and Spanish around the clock.",
         href: "/use-cases/business-operations/front-desk",
       },
       {
-        title: "Intelligent Receptionist",
-        slug: "intelligent-receptionist",
+        title: "AI Receptionist",
+        slug: "ai-receptionist",
         description:
           "Intelligent Receptionist solutions for South Florida small businesses: automate lead capture, qualify prospects, and reduce missed opportunities with AI.",
         href: "/use-cases/business-operations/ai-receptionist",
       },
       {
-        title: "Cross-Platform Chatbot",
+        title: "AI Chatbot",
         slug: "ai-chatbot",
         description:
           "Cross-Platform Chatbot solutions help small businesses in Miami-Dade, Broward, and West Palm Beach capture more leads and automate follow-ups efficiently.",
         href: "/use-cases/business-operations/ai-chatbot",
       },
       {
-        title: "Data Quality Assessments",
-        slug: "data-quality-assessments",
+        title: "AI Data Quality Assessments",
+        slug: "ai-data-quality-assessments",
         description:
           "Build automated validation that scans your data sources for completeness, accuracy, and formatting errors before the data is exposed to an LLM.",
         href: "/use-cases/business-operations/ai-data-quality-assessments",

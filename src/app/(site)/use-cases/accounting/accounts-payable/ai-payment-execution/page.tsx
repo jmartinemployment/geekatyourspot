@@ -12,7 +12,7 @@ import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
-const TITLE = "AI Automatic Bill Pay";
+const TITLE = "AI Payment Execution";
 const DESCRIPTION =
     "Automated Payment Execution boosts efficiency in accounts payable, reducing errors and costs for small businesses with AI solutions.";
 const CANONICAL = "/use-cases/accounting/accounts-payable/ai-payment-execution";

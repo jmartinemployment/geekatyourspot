@@ -17,7 +17,7 @@ import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
-const TITLE = "AI SEO Content Generator";
+const TITLE = "AI Content Generation";
 const DESCRIPTION =
     "Intelligent Content Generation helps Miami-Dade, Broward, and West Palm Beach businesses automate content creation, repurposing, scheduling, and approvals.";
 const CANONICAL = "/use-cases/marketing/marketing-automation-platforms/ai-content-generation";

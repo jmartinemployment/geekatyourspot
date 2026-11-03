@@ -16,8 +16,8 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "Article",
-            "headline": "AI Marketing Systems",
-            "description": "Explore AI Marketing Systems that strengthen small business strategy in Miami-Dade, Broward, and Palm Beach and boost efficiency and sales with practical AI.",
+            "headline": "Marketing",
+            "description": "Explore Marketing use cases that strengthen small business strategy in Miami-Dade, Broward, and Palm Beach and boost efficiency and sales with practical AI.",
             "image": [
                 "https://geekatyourspot.com/images/marketing/use-cases/ai-marketing-systems/ai-marketing-systems-pillar-hero.avif"
             ],
@@ -33,7 +33,7 @@ const jsonLd: Graph = {
                 "@type": "WebPage",
                 "@id": "https://geekatyourspot.com/use-cases/marketing"
             },
-            "keywords": "AI Marketing Systems, small business AI, AI implementation, marketing automation, B2B marketing, AI tools, workflow optimization, lead scoring, dynamic creative optimization, automated bidding",
+            "keywords": "Marketing, small business AI, AI implementation, marketing automation, B2B marketing, AI tools, workflow optimization, lead scoring, dynamic creative optimization, automated bidding",
             "wordCount": 3561,
             "mentions": [
                 { "@type": "Thing", "name": "HubSpot", "url": "https://www.hubspot.com/" },
@@ -45,9 +45,9 @@ const jsonLd: Graph = {
 
 export const generateMetadata = async (): Promise<Metadata> => {
     return {
-        title: "AI Marketing Systems",
-        description: "Explore AI Marketing Systems that strengthen small business strategy in Miami-Dade, Broward, and Palm Beach and boost efficiency and sales with practical AI.",
-        keywords: ["AI Marketing Systems, small business AI, AI implementation, marketing automation, B2B marketing, AI tools, workflow optimization, lead scoring, dynamic creative optimization, automated bidding"],
+        title: "Marketing",
+        description: "Explore Marketing use cases that strengthen small business strategy in Miami-Dade, Broward, and Palm Beach and boost efficiency and sales with practical AI.",
+        keywords: ["Marketing, small business AI, AI implementation, marketing automation, B2B marketing, AI tools, workflow optimization, lead scoring, dynamic creative optimization, automated bidding"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
@@ -56,8 +56,8 @@ export const generateMetadata = async (): Promise<Metadata> => {
             canonical: '/use-cases/marketing',
         },
         openGraph: {
-            title: "AI Marketing Systems",
-            description: "Explore AI Marketing Systems that strengthen small business strategy in Miami-Dade, Broward, and Palm Beach and boost efficiency and sales with practical AI.",
+            title: "Marketing",
+            description: "Explore Marketing use cases that strengthen small business strategy in Miami-Dade, Broward, and Palm Beach and boost efficiency and sales with practical AI.",
             url: 'https://geekatyourspot.com/use-cases/marketing',
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
@@ -66,8 +66,8 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: "AI Marketing Systems",
-            description: "Explore AI Marketing Systems that strengthen small business strategy in Miami-Dade, Broward, and Palm Beach and boost efficiency and sales with practical AI.",
+            title: "Marketing",
+            description: "Explore Marketing use cases that strengthen small business strategy in Miami-Dade, Broward, and Palm Beach and boost efficiency and sales with practical AI.",
             images: [SHARE_IMAGE],
         },
         robots: {
@@ -92,7 +92,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-    const title = "AI Marketing Systems";
+    const title = "Marketing";
     const heroSummary = "Elevate your marketing game with AI systems that automate processes and enhance decision-making for better results."
     const heroImage = "/images/marketing/use-cases/ai-marketing-systems/ai-marketing-systems-pillar-hero.avif";
     const imgAlt = "A computer with an AI brain on its screen is surrounded by marketing icons for email, social media, video, analytics and targeting."

@@ -7,7 +7,7 @@ export const monteCarloContent: ToolPageContent = {
   "useCase": "ai-data-quality-assessments",
   "description": "Automate ad spend optimization with Monte Carlo for accurate, data-driven marketing strategies.",
   "heroSummary": "Monte Carlo enhances ad spend strategies with automated optimization and data accuracy.",
-  "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
+  "keywords": "Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
   "datePublished": "2026-08-20T18:35:42.2726567Z",
   "dateModified": "2026-08-20T18:35:42.2726567Z",
   "relatedArticleId": "https://geekatyourspot.com/use-cases/business-operations/ai-data-quality-assessments",
@@ -22,7 +22,7 @@ export const monteCarloContent: ToolPageContent = {
       "@type": "WebPage",
       "@id": "https://geekatyourspot.com/tools/business-operations/ai-data-quality-assessments/monte-carlo"
     },
-    "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
+    "keywords": "Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
     "subjectOf": {
       "@type": "Article",
       "@id": "https://geekatyourspot.com/use-cases/business-operations/ai-data-quality-assessments"

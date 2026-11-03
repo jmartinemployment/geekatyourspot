@@ -13,7 +13,7 @@ import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
-const TITLE = "AI Marketing Automation Platforms";
+const TITLE = "Marketing Automation Platforms (MAP)";
 const DESCRIPTION =
     "Marketing Automation Platforms (MAP) tie content planning, content generation, personalized email, and lead scoring to one set of contact records. See how the four jobs fit together and which tools a South Florida small business should weigh.";
 const CANONICAL = "/use-cases/marketing/marketing-automation-platforms";

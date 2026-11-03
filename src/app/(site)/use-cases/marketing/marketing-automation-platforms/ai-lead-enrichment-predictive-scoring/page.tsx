@@ -17,7 +17,7 @@ import type { Graph } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
-const TITLE = "Lead Enrichment & Predictive Scoring";
+const TITLE = "AI Lead Enrichment & Predictive Scoring";
 const DESCRIPTION =
     "Lead Enrichment and Predictive Scoring for South Florida small businesses: capture better leads, reduce manual work, and close more sales with AI.";
 const CANONICAL = "/use-cases/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring";

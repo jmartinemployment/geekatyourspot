@@ -69,7 +69,7 @@ export default function LedeSection() {
             <div className="col-span-5"></div>
             <div className="col-span-7">
               <h2 id="unlocking-automated-ad-spend-optimization" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                Unlocking Automated Ad Spend Optimization
+                Unlocking Ad Spend Optimization
               </h2>
             </div>
             <div className="col-span-12">
@@ -85,7 +85,7 @@ export default function LedeSection() {
             <div className="col-span-5"></div>
             <div className="col-span-7">
               <h2 id="unlocking-automated-ad-spend-optimization-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                Unlocking Automated Ad Spend Optimization
+                Unlocking Ad Spend Optimization
               </h2>
               {body("-lg")}
             </div>

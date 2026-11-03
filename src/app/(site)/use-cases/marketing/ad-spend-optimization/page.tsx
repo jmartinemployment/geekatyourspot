@@ -18,8 +18,8 @@ const jsonLd: Graph = {
     "@graph": [
         {
             "@type": "Article",
-            "headline": "Automated Ad Spend Optimization",
-            "description": "Explore Automated Ad Spend Optimization to enhance marketing efficiency with AI, featuring dynamic creative, bidding, and real-time budget tools.",
+            "headline": "Ad Spend Optimization",
+            "description": "Explore Ad Spend Optimization to enhance marketing efficiency with AI, featuring dynamic creative, bidding, and real-time budget tools.",
             "author": {
                 "@type": "Organization",
                 "url": "https://geekatyourspot.com",
@@ -32,7 +32,7 @@ const jsonLd: Graph = {
                 "@type": "WebPage",
                 "@id": "https://geekatyourspot.com/use-cases/marketing/ad-spend-optimization"
             },
-            "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
+            "keywords": "Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
             "wordCount": 3309,
             "mentions": [
                 { "@type": "Thing", "name": "Meta Advantage+", "url": "https://www.facebook.com/business/ads/meta-advantage-plus" },
@@ -60,9 +60,9 @@ const jsonLd: Graph = {
 
 export const generateMetadata = async (): Promise<Metadata> => {
     return {
-        title: "Automated Ad Spend Optimization",
-        description: "Explore Automated Ad Spend Optimization to enhance marketing efficiency with AI, featuring dynamic creative, bidding, and real-time budget tools.",
-        keywords: ["Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments"],
+        title: "Ad Spend Optimization",
+        description: "Explore Ad Spend Optimization to enhance marketing efficiency with AI, featuring dynamic creative, bidding, and real-time budget tools.",
+        keywords: ["Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments"],
         authors: [{ name: 'Jeff Martin' }],
         creator: 'Geek @ Your Spot LLC',
         publisher: 'Geek @ Your Spot LLC',
@@ -71,8 +71,8 @@ export const generateMetadata = async (): Promise<Metadata> => {
             canonical: '/use-cases/marketing/ad-spend-optimization',
         },
         openGraph: {
-            title: "Automated Ad Spend Optimization",
-            description: "Explore Automated Ad Spend Optimization to enhance marketing efficiency with AI, featuring dynamic creative, bidding, and real-time budget tools.",
+            title: "Ad Spend Optimization",
+            description: "Explore Ad Spend Optimization to enhance marketing efficiency with AI, featuring dynamic creative, bidding, and real-time budget tools.",
             url: 'https://geekatyourspot.com/use-cases/marketing/ad-spend-optimization',
             siteName: 'Geek @ Your Spot LLC',
             locale: 'en_US',
@@ -81,8 +81,8 @@ export const generateMetadata = async (): Promise<Metadata> => {
         },
         twitter: {
             card: 'summary_large_image',
-            title: "Automated Ad Spend Optimization",
-            description: "Explore Automated Ad Spend Optimization to enhance marketing efficiency with AI, featuring dynamic creative, bidding, and real-time budget tools.",
+            title: "Ad Spend Optimization",
+            description: "Explore Ad Spend Optimization to enhance marketing efficiency with AI, featuring dynamic creative, bidding, and real-time budget tools.",
             images: [SHARE_IMAGE],
         },
         robots: {
@@ -110,7 +110,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 export default async function Page() {
-    const title = "Automated Ad Spend Optimization";
+    const title = "Ad Spend Optimization";
     const heroSummary = "Transform your marketing strategy with cutting-edge AI tools for streamlined ad spend optimization."
     return (
         <>
