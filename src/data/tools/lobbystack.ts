@@ -20,7 +20,7 @@ export const lobbystackContent: ToolPageContent = {
   "datePublished": "2026-10-15T19:43:46.5005360Z",
   "dateModified": "2026-10-15T19:43:46.5005360Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/ai-operations/ai-receptionist",
+    "https://geekatyourspot.com/use-cases/business-operations/ai-receptionist",
   "sections": [
     {"title": "Overview", "description": "It is a Tuesday morning in Miami."},
     {"title": "What it costs to keep doing this by hand", "description": "When small businesses in South Florida rely on a traditional front desk or basic voicemail to handle incoming calls, the real cost goes far beyond a few missed messages."},

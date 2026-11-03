@@ -22,7 +22,7 @@ const jsonLd: WithContext<TechArticle> = {
         "@type": "Thing",
         "name": "Monte Carlo",
         "url": "https://montecarlo.ai/",
-        "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/ai-operations/data-quality-assessments" }
+        "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/business-operations/data-quality-assessments" }
     }
 };
 

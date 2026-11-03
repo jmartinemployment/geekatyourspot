@@ -22,7 +22,7 @@ const jsonLd: WithContext<TechArticle> = {
         "@type": "Thing",
         "name": "Anomalo",
         "url": "https://www.anomalo.com/",
-        "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/ai-operations/data-quality-assessments" }
+        "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/business-operations/data-quality-assessments" }
     }
 };
 

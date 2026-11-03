@@ -39,7 +39,7 @@ const jsonLd: Graph = {
                 "@type": "Thing",
                 "name": TITLE,
                 "url": "https://voksha.com/",
-                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/ai-operations/ai-receptionist" }
+                "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/business-operations/ai-receptionist" }
             }
         },
         {

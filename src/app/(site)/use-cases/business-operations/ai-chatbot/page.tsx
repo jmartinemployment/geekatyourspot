@@ -20,7 +20,7 @@ import { SHARE_IMAGE } from "@/lib/seo/share-image";
 const TITLE = "AI Chatbot";
 const DESCRIPTION =
     "Cross-Platform Chatbot solutions help small businesses in Miami-Dade, Broward, and West Palm Beach capture more leads and automate follow-ups efficiently.";
-const CANONICAL = "/use-cases/ai-operations/ai-chatbot";
+const CANONICAL = "/use-cases/business-operations/ai-chatbot";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: Graph = {

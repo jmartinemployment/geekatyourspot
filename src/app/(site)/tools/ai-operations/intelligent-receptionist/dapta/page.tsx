@@ -29,7 +29,7 @@ const jsonLd: Graph = {
                 "@type": "Thing",
                 "name": TITLE,
                 "url": "https://dapta.ai/",
-                "subjectOf": { "@type": "Article", "url": `${SITE_URL}/use-cases/ai-operations/ai-receptionist` }
+                "subjectOf": { "@type": "Article", "url": `${SITE_URL}/use-cases/business-operations/ai-receptionist` }
             },
             "mentions": [
                 { "@type": "Thing", "name": "LobbyStack", "url": "https://lobbystack.com/" },
@@ -257,7 +257,7 @@ export default async function Page() {
                                     For South Florida businesses where customers reach out in Spanish on WhatsApp, in English via website chat, and by phone in the same hour, Dapta's unified coverage is often the deciding factor. See the full set of{" "}
                                     <Link
                                         id="tools-ai-operations-intelligent-receptionist-dapta-comparing-receptionist-tools"
-                                        href="/use-cases/ai-operations/ai-receptionist"
+                                        href="/use-cases/business-operations/ai-receptionist"
                                         className="text-[#C83803] hover:underline"
                                     >
                                         Intelligent Receptionist tools

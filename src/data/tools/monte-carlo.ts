@@ -10,7 +10,7 @@ export const monteCarloContent: ToolPageContent = {
   "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
   "datePublished": "2026-08-20T18:35:42.2726567Z",
   "dateModified": "2026-08-20T18:35:42.2726567Z",
-  "relatedArticleId": "https://geekatyourspot.com/use-cases/ai-operations/data-quality-assessments",
+  "relatedArticleId": "https://geekatyourspot.com/use-cases/business-operations/data-quality-assessments",
   "jsonLd": {
     "@type": "SoftwareApplication",
     "name": "Monte Carlo",
@@ -25,7 +25,7 @@ export const monteCarloContent: ToolPageContent = {
     "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
     "subjectOf": {
       "@type": "Article",
-      "@id": "https://geekatyourspot.com/use-cases/ai-operations/data-quality-assessments"
+      "@id": "https://geekatyourspot.com/use-cases/business-operations/data-quality-assessments"
     }
   },
   "sections": [

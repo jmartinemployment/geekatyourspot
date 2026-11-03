@@ -20,7 +20,7 @@ export const nextivaContent: ToolPageContent = {
   "datePublished": "2026-10-15T19:43:46.5005360Z",
   "dateModified": "2026-10-15T19:43:46.5005360Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/ai-operations/ai-receptionist",
+    "https://geekatyourspot.com/use-cases/business-operations/ai-receptionist",
   "sections": [
     {"title": "Overview", "description": "A small HVAC business in West Palm Beach juggles three separate phone lines, a website chat, and a handful of text messages every hour."},
     {"title": "What it costs to keep doing this by hand", "description": "Every missed call is a missed sale, a lost appointment, or a customer who never comes back."},

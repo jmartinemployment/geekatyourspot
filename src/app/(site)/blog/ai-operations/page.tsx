@@ -113,10 +113,10 @@ export default async function Page() {
                 </ul>
                 <p className="pt-3 text-base font-normal text-white shadow-text">
                   See the use cases behind them:{" "}
-                  <Link href="/use-cases/ai-operations/ai-receptionist" className="text-[#C83803] font-bold hover:underline">
+                  <Link href="/use-cases/business-operations/ai-receptionist" className="text-[#C83803] font-bold hover:underline">
                     Intelligent Receptionist
                   </Link>{" "}and{" "}
-                  <Link href="/use-cases/ai-operations/ai-chatbot" className="text-[#C83803] font-bold hover:underline">
+                  <Link href="/use-cases/business-operations/ai-chatbot" className="text-[#C83803] font-bold hover:underline">
                     Cross-Platform Chatbot
                   </Link>.
                 </p>
@@ -142,7 +142,7 @@ export default async function Page() {
                 </p>
                 <ul className="list-disc list-outside pl-5 space-y-2 text-base font-normal text-white shadow-text pt-4">
                   <li>
-                    <Link href="/use-cases/ai-operations/data-quality-assessments" className="text-[#C83803] font-bold hover:underline">
+                    <Link href="/use-cases/business-operations/data-quality-assessments" className="text-[#C83803] font-bold hover:underline">
                       Data Quality Assessments: the use case
                     </Link>
                   </li>

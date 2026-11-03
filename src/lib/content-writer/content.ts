@@ -290,8 +290,8 @@ const LINK_OVERRIDES: Record<string, string | null> = {
   "/tools/marketing/mailchimp": "/tools/marketing/marketing-automation-platforms/personalized-email-campaigns/mailchimp",
   // Receptionist and Chatbot moved from Marketing's Lead Capture Pipeline into AI Operations →
   // AI Front-Office on 2026-10-31; the exports still link to the old Marketing paths.
-  "/use-cases/marketing/lead-capture-pipeline/ai-receptionist": "/use-cases/ai-operations/ai-receptionist",
-  "/use-cases/marketing/lead-capture-pipeline/ai-chatbot": "/use-cases/ai-operations/ai-chatbot",
+  "/use-cases/marketing/lead-capture-pipeline/ai-receptionist": "/use-cases/business-operations/ai-receptionist",
+  "/use-cases/marketing/lead-capture-pipeline/ai-chatbot": "/use-cases/business-operations/ai-chatbot",
   "/tools/marketing/lead-capture-pipeline/intelligent-receptionist/lobbystack": "/tools/ai-operations/intelligent-receptionist/lobbystack",
   "/tools/marketing/lead-capture-pipeline/intelligent-receptionist/myaifrontdesk": "/tools/ai-operations/intelligent-receptionist/myaifrontdesk",
   "/tools/marketing/lead-capture-pipeline/intelligent-receptionist/nextiva": "/tools/ai-operations/intelligent-receptionist/nextiva",

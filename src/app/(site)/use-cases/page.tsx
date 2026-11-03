@@ -255,7 +255,7 @@ const DEPARTMENTS: Department[] = [
     title: "AI Operations",
     description:
       "Make AI dependable by fixing the data: validate and clean what feeds your models before it reaches an LLM.",
-    href: "/use-cases/ai-operations",
+    href: "/use-cases/business-operations",
     summary:
       "AI is only as good as the data behind it. AI Operations is the data side of that work: scanning sources for completeness and accuracy, catching errors early, and keeping the inputs clean so the models you rely on stay trustworthy.",
     useCases: [
@@ -264,21 +264,21 @@ const DEPARTMENTS: Department[] = [
         slug: "intelligent-receptionist",
         description:
           "Intelligent Receptionist solutions for South Florida small businesses: automate lead capture, qualify prospects, and reduce missed opportunities with AI.",
-        href: "/use-cases/ai-operations/ai-receptionist",
+        href: "/use-cases/business-operations/ai-receptionist",
       },
       {
         title: "Cross-Platform Chatbot",
         slug: "ai-chatbot",
         description:
           "Cross-Platform Chatbot solutions help small businesses in Miami-Dade, Broward, and West Palm Beach capture more leads and automate follow-ups efficiently.",
-        href: "/use-cases/ai-operations/ai-chatbot",
+        href: "/use-cases/business-operations/ai-chatbot",
       },
       {
         title: "Data Quality Assessments",
         slug: "data-quality-assessments",
         description:
           "Build automated validation that scans your data sources for completeness, accuracy, and formatting errors before the data is exposed to an LLM.",
-        href: "/use-cases/ai-operations/data-quality-assessments",
+        href: "/use-cases/business-operations/data-quality-assessments",
       },
     ],
   },

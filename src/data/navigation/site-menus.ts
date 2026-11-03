@@ -92,23 +92,23 @@ export const USE_CASES_MENU: readonly MenuDepartment[] = [
     items: [],
   },
   {
-    href: "/use-cases/ai-operations",
+    href: "/use-cases/business-operations",
     label: "AI Operations",
     categories: [
       {
         id: "use-cases-ai-operations-ai-front-office",
         label: "AI Front Desk",
         items: [
-          { href: "/use-cases/ai-operations/front-desk", label: "AI Front Desk" },
-          { href: "/use-cases/ai-operations/ai-receptionist", label: "AI Receptionist" },
-          { href: "/use-cases/ai-operations/ai-chatbot", label: "Cross-Platform Chatbot" },
+          { href: "/use-cases/business-operations/front-desk", label: "AI Front Desk" },
+          { href: "/use-cases/business-operations/ai-receptionist", label: "AI Receptionist" },
+          { href: "/use-cases/business-operations/ai-chatbot", label: "Cross-Platform Chatbot" },
         ],
       },
       {
         id: "use-cases-ai-operations-data",
         label: "Data",
         items: [
-          { href: "/use-cases/ai-operations/data-quality-assessments", label: "Data Quality Assessments" },
+          { href: "/use-cases/business-operations/data-quality-assessments", label: "Data Quality Assessments" },
         ],
       },
     ],

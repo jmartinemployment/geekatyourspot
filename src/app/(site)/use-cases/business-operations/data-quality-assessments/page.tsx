@@ -10,7 +10,7 @@ const SITE_URL = "https://geekatyourspot.com";
 const PAGE_TITLE = "AI Data Quality Assessments";
 const PAGE_DESCRIPTION =
   "Automated validation that scans your data sources for completeness, accuracy, and formatting errors before the data is exposed to an AI model — so your decisions stay grounded in information you can trust.";
-const CANONICAL = "/use-cases/ai-operations/data-quality-assessments";
+const CANONICAL = "/use-cases/business-operations/data-quality-assessments";
 const PAGE_URL = `${SITE_URL}${CANONICAL}`;
 
 const jsonLd: Graph = {

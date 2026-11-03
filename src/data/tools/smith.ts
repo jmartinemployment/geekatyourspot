@@ -20,7 +20,7 @@ export const smithContent: ToolPageContent = {
   "datePublished": "2026-10-15T19:43:46.5005360Z",
   "dateModified": "2026-10-15T19:43:46.5005360Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/ai-operations/ai-receptionist",
+    "https://geekatyourspot.com/use-cases/business-operations/ai-receptionist",
   "sections": [
     {"title": "Overview", "description": "A plumber in West Palm Beach spends his morning juggling a full calendar, voicemails blinking on his phone, and a steady stream of new service requests coming in from the website."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "Every small business in South Florida knows the pain of missed connections."},

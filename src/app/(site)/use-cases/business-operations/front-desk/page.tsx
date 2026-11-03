@@ -10,7 +10,7 @@ const SITE_URL = "https://geekatyourspot.com";
 const PAGE_TITLE = "AI Front Desk";
 const PAGE_DESCRIPTION =
     "AI Front Desk solutions for South Florida small businesses: AI-powered voice receptionists and cross-platform chatbots that answer calls, capture leads, book appointments, and respond to messages around the clock.";
-const CANONICAL = "/use-cases/ai-operations/front-desk";
+const CANONICAL = "/use-cases/business-operations/front-desk";
 const PAGE_URL = `${SITE_URL}${CANONICAL}`;
 
 const jsonLd: Graph = {
@@ -174,7 +174,7 @@ export default async function Page() {
                                     Geek @ Your Spot LLC sets up AI front desk systems for small businesses across Miami-Dade, Broward, and Palm Beach counties. The work covers two use cases: an{" "}
                                     <Link
                                         id="use-cases-ai-operations-ai-front-desk-intro-receptionist"
-                                        href="/use-cases/ai-operations/ai-receptionist"
+                                        href="/use-cases/business-operations/ai-receptionist"
                                         className="text-[#C83803] hover:underline"
                                     >
                                         AI Receptionist
@@ -182,7 +182,7 @@ export default async function Page() {
                                     for inbound phone calls and an{" "}
                                     <Link
                                         id="use-cases-ai-operations-ai-front-desk-intro-chatbot"
-                                        href="/use-cases/ai-operations/ai-chatbot"
+                                        href="/use-cases/business-operations/ai-chatbot"
                                         className="text-[#C83803] hover:underline"
                                     >
                                         AI Chatbot
@@ -211,7 +211,7 @@ export default async function Page() {
                                     An{" "}
                                     <Link
                                         id="use-cases-ai-operations-ai-front-desk-phone-receptionist"
-                                        href="/use-cases/ai-operations/ai-receptionist"
+                                        href="/use-cases/business-operations/ai-receptionist"
                                         className="text-[#C83803] hover:underline"
                                     >
                                         AI Receptionist
@@ -334,7 +334,7 @@ export default async function Page() {
                                     An{" "}
                                     <Link
                                         id="use-cases-ai-operations-ai-front-desk-messaging-chatbot"
-                                        href="/use-cases/ai-operations/ai-chatbot"
+                                        href="/use-cases/business-operations/ai-chatbot"
                                         className="text-[#C83803] hover:underline"
                                     >
                                         AI Chatbot

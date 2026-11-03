@@ -926,8 +926,8 @@ export function UseCasesSection() {
                             <CardHeader className="bg-[#8C4E2A] py-2">
                                 <CardTitle>
                                     <Link
-                                        id={gtmLinkIdFromHref("/use-cases/ai-operations", "AI Operations")}
-                                        href="/use-cases/ai-operations">
+                                        id={gtmLinkIdFromHref("/use-cases/business-operations", "AI Operations")}
+                                        href="/use-cases/business-operations">
                                         <h3 className="text-white text-3xl hover:text-[#C83803] font-bold shadow-text inline">
                                             AI Operations
                                         </h3>
@@ -947,7 +947,7 @@ export function UseCasesSection() {
                                     AI operations tools automate workflows, manage data pipelines, and keep your business systems running without constant manual oversight.
                                 </p>
                                 <Link id="home-use-cases-ai-operations-ai-front-office"
-                                    href="/use-cases/ai-operations/front-desk"
+                                    href="/use-cases/business-operations/front-desk"
                                     className="hover:underline">
                                     <h4 className="text-black text-base hover:text-[#C83803] font-bold">
                                         Front Desk
@@ -959,8 +959,8 @@ export function UseCasesSection() {
                                 <ul className="list-disc text-xs text-black list- pl-3 ">
                                     <li className="pl-.5">
                                         <Link
-                                            id={gtmLinkIdFromHref("/use-cases/ai-operations/ai-receptionist", "Intelligent Receptionist")}
-                                            href="/use-cases/ai-operations/ai-receptionist"
+                                            id={gtmLinkIdFromHref("/use-cases/business-operations/ai-receptionist", "Intelligent Receptionist")}
+                                            href="/use-cases/business-operations/ai-receptionist"
                                             className="hover:text-[#C83803] text-[#000000] hover:underline">
                                             <h5 className="text-black text-sm font-bold shadow-text">
                                                 AI Receptionist:
@@ -1013,8 +1013,8 @@ export function UseCasesSection() {
                                     </li>
                                     <li className="pl-.5">
                                         <Link
-                                            id={gtmLinkIdFromHref("/use-cases/ai-operations/ai-chatbot", "Cross-Platform Chatbot")}
-                                            href="/use-cases/ai-operations/ai-chatbot"
+                                            id={gtmLinkIdFromHref("/use-cases/business-operations/ai-chatbot", "Cross-Platform Chatbot")}
+                                            href="/use-cases/business-operations/ai-chatbot"
                                             className="hover:text-[#C83803] text-[#000000] hover:underline">
                                             <h5 className="text-black text-sm font-bold shadow-text">
                                                 Cross-Platform Chatbot:
@@ -1069,8 +1069,8 @@ export function UseCasesSection() {
                                 <ul className="list-disc text-xs text-black list- pl-3 ">
                                     <li className="pl-.5">
                                         <Link
-                                            id={gtmLinkIdFromHref("/use-cases/ai-operations/data-quality-assessments", "Data Quality Assessments")}
-                                            href="/use-cases/ai-operations/data-quality-assessments"
+                                            id={gtmLinkIdFromHref("/use-cases/business-operations/data-quality-assessments", "Data Quality Assessments")}
+                                            href="/use-cases/business-operations/data-quality-assessments"
                                             className="hover:text-[#C83803] text-[#000000] hover:underline">
                                             <h5 className="text-black text-sm font-bold shadow-text">
                                                 Data Quality Assessments:
@@ -2079,8 +2079,8 @@ export function UseCasesSection() {
                         <Card className="bg-[#CBCBCB] py-5 shadow-xl gap-1 h-full">
                             <CardContent>
                                 <Link
-                                    id={`${gtmLinkIdFromHref("/use-cases/ai-operations", "AI Operations")}-lg`}
-                                    href="/use-cases/ai-operations">
+                                    id={`${gtmLinkIdFromHref("/use-cases/business-operations", "AI Operations")}-lg`}
+                                    href="/use-cases/business-operations">
                                     <h3 className="text-black text-3xl hover:text-[#C83803] font-bold shadow-text">
                                         Business Operations
                                     </h3>
@@ -2089,7 +2089,7 @@ export function UseCasesSection() {
                                     AI business operations tools automate workflows, manage data pipelines, and keep your business systems running without constant manual oversight.
                                 </p>
                                 <Link id="home-use-cases-ai-operations-ai-front-office-lg"
-                                    href="/use-cases/ai-operations/front-desk"
+                                    href="/use-cases/business-operations/front-desk"
                                     className="hover:underline">
                                     <h4 className="text-black text-lg hover:text-[#C83803] font-bold shadow-text">
                                         Front Desk
@@ -2101,8 +2101,8 @@ export function UseCasesSection() {
                                 <ul className="list-disc text-sm text-black list- pl-3 ">
                                     <li className="pl-.5">
                                         <Link
-                                            id={`${gtmLinkIdFromHref("/use-cases/ai-operations/ai-receptionist", "Intelligent Receptionist")}-lg`}
-                                            href="/use-cases/ai-operations/ai-receptionist"
+                                            id={`${gtmLinkIdFromHref("/use-cases/business-operations/ai-receptionist", "Intelligent Receptionist")}-lg`}
+                                            href="/use-cases/business-operations/ai-receptionist"
                                             className="hover:text-[#C83803] text-[#000000] hover:underline">
                                             <h5 className="text-black text-base font-bold shadow-text">
                                                 AI Receptionist:
@@ -2155,8 +2155,8 @@ export function UseCasesSection() {
                                     </li>
                                     <li className="pl-.5">
                                         <Link
-                                            id={`${gtmLinkIdFromHref("/use-cases/ai-operations/ai-chatbot", "Cross-Platform Chatbot")}-lg`}
-                                            href="/use-cases/ai-operations/ai-chatbot"
+                                            id={`${gtmLinkIdFromHref("/use-cases/business-operations/ai-chatbot", "Cross-Platform Chatbot")}-lg`}
+                                            href="/use-cases/business-operations/ai-chatbot"
                                             className="hover:text-[#C83803] text-[#000000] hover:underline">
                                             <h5 className="text-black text-base font-bold shadow-text">
                                                 Cross-Platform Chatbot:
@@ -2211,8 +2211,8 @@ export function UseCasesSection() {
                                 <ul className="list-disc text-sm text-black list- pl-3 ">
                                     <li className="pl-.5">
                                         <Link
-                                            id={`${gtmLinkIdFromHref("/use-cases/ai-operations/data-quality-assessments", "Data Quality Assessments")}-lg`}
-                                            href="/use-cases/ai-operations/data-quality-assessments"
+                                            id={`${gtmLinkIdFromHref("/use-cases/business-operations/data-quality-assessments", "Data Quality Assessments")}-lg`}
+                                            href="/use-cases/business-operations/data-quality-assessments"
                                             className="hover:text-[#C83803] text-[#000000] hover:underline">
                                             <h5 className="text-black text-base font-bold shadow-text">
                                                 Data Quality Assessments:

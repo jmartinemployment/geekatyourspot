@@ -20,7 +20,7 @@ export const vokshaContent: ToolPageContent = {
   "datePublished": "2026-10-15T19:43:46.5005360Z",
   "dateModified": "2026-10-15T19:43:46.5005360Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/ai-operations/ai-receptionist",
+    "https://geekatyourspot.com/use-cases/business-operations/ai-receptionist",
   "sections": [
     {"title": "Overview", "description": "Every week, a small business in Miami-Dade loses a lead to voicemail."},
     {"title": "What It Costs to Keep Doing Reception the Old Way", "description": "The real cost of sticking with manual or legacy receptionist systems hits small businesses in Miami-Dade, Broward, and West Palm Beach hardest."},

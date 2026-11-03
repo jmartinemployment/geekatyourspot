@@ -20,7 +20,7 @@ import { SHARE_IMAGE } from "@/lib/seo/share-image";
 const TITLE = "AI Receptionist";
 const DESCRIPTION =
     "Intelligent Receptionist solutions for South Florida small businesses: automate lead capture, qualify prospects, and reduce missed opportunities with AI.";
-const CANONICAL = "/use-cases/ai-operations/ai-receptionist";
+const CANONICAL = "/use-cases/business-operations/ai-receptionist";
 const PAGE_URL = `https://geekatyourspot.com${CANONICAL}`;
 
 const jsonLd: Graph = {

@@ -19,21 +19,21 @@ const USE_CASES = [
     slug: "ai-receptionist",
     description:
       "Intelligent Receptionist solutions for South Florida small businesses: automate lead capture, qualify prospects, and reduce missed opportunities with AI.",
-    href: "/use-cases/ai-operations/ai-receptionist",
+    href: "/use-cases/business-operations/ai-receptionist",
   },
   {
     title: "Cross-Platform Chatbot",
     slug: "ai-chatbot",
     description:
       "Cross-Platform Chatbot solutions help small businesses in Miami-Dade, Broward, and West Palm Beach capture more leads and automate follow-ups efficiently.",
-    href: "/use-cases/ai-operations/ai-chatbot",
+    href: "/use-cases/business-operations/ai-chatbot",
   },
   {
     title: "Data Quality Assessments",
     slug: "data-quality-assessments",
     description:
       "Build automated validation that scans your data sources for completeness, accuracy, and formatting errors before the data is exposed to an LLM.",
-    href: "/use-cases/ai-operations/data-quality-assessments",
+    href: "/use-cases/business-operations/data-quality-assessments",
   },
 ];
 
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     "small business AI",
   ],
   alternates: {
-    canonical: "/use-cases/ai-operations",
+    canonical: "/use-cases/business-operations",
   },
   robots: {
     index: true,
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     type: "website",
     title: `${PAGE_TITLE} | Geek @ Your Spot LLC`,
     description: PAGE_DESCRIPTION,
-    url: `${SITE_URL}/use-cases/ai-operations`,
+    url: `${SITE_URL}/use-cases/business-operations`,
     siteName: "Geek @ Your Spot LLC",
     locale: "en_US",
     images: [SHARE_IMAGE],
@@ -78,7 +78,7 @@ export default function AiOperationsUseCasesPage() {
     "@type": "CollectionPage",
     name: PAGE_TITLE,
     description: PAGE_DESCRIPTION,
-    url: `${SITE_URL}/use-cases/ai-operations`,
+    url: `${SITE_URL}/use-cases/business-operations`,
     mainEntity: {
       "@type": "ItemList",
       itemListElement: USE_CASES.map((useCase, index) => ({

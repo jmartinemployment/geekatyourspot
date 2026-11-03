@@ -20,7 +20,7 @@ export const daptaContent: ToolPageContent = {
   "datePublished": "2026-10-16T16:41:16.8687790Z",
   "dateModified": "2026-10-16T16:41:16.8687790Z",
   "relatedArticleId":
-    "https://geekatyourspot.com/use-cases/ai-operations/ai-chatbot",
+    "https://geekatyourspot.com/use-cases/business-operations/ai-chatbot",
   "sections": [
     {"title": "Overview", "description": "A local plumbing service in Miami-Dade answers calls all day, but most web chat requests land in a forgotten inbox."},
     {"title": "What It Costs to Keep Doing This by Hand", "description": "Every small business in Miami-Dade, Broward, and West Palm Beach feels the drag of fragmented communication."},

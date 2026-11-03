@@ -10,7 +10,7 @@ export const greatExpectationsContent: ToolPageContent = {
   "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
   "datePublished": "2026-08-20T18:36:47.1698116Z",
   "dateModified": "2026-08-20T18:36:47.1698116Z",
-  "relatedArticleId": "https://geekatyourspot.com/use-cases/ai-operations/data-quality-assessments",
+  "relatedArticleId": "https://geekatyourspot.com/use-cases/business-operations/data-quality-assessments",
   "jsonLd": {
     "@type": "SoftwareApplication",
     "name": "Great Expectations",
@@ -25,7 +25,7 @@ export const greatExpectationsContent: ToolPageContent = {
     "keywords": "Automated Ad Spend Optimization, AI marketing tools, dynamic creative optimization, automated bidding, real-time budget reallocation, data quality assessments",
     "subjectOf": {
       "@type": "Article",
-      "@id": "https://geekatyourspot.com/use-cases/ai-operations/data-quality-assessments"
+      "@id": "https://geekatyourspot.com/use-cases/business-operations/data-quality-assessments"
     }
   },
   "sections": [
