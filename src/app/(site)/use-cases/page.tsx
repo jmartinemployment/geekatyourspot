@@ -228,13 +228,6 @@ const DEPARTMENTS: Department[] = [
         href: "/use-cases/marketing/ad-spend-optimization/ai-precision-lead-acquisition",
       },
       {
-        title: "Intelligent Lead Capture Pipeline",
-        slug: "ai-sales-force-automation-software",
-        description:
-          "Build smarter lead capture strategies with AI-powered tools that improve qualification and conversion rates.",
-        href: "/use-cases/marketing/ai-sales-force-automation-software",
-      },
-      {
         title: "AI Lead Enrichment & Predictive Scoring",
         slug: "ai-lead-enrichment-predictive-scoring",
         description:

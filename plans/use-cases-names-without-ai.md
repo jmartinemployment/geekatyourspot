@@ -9,8 +9,9 @@ exports, names split across wrapped lines, the home Top 5 lines, the Marketing o
 Marpipe and ad spend blog pages in efab7ac2. Both audit files carry the rename together.
 
 Left on purpose, each with its reason:
-- `ai-sales-force-automation-software` still reads "Intelligent Lead Capture Pipeline": it belongs
-  to no home heading, so it cannot take a home name. Question 1 below decides keep or delete.
+- `ai-sales-force-automation-software` is deleted (2026-11-03, at Jeff's word): it belonged to no home
+  heading, so it could not take a home name. Its page, its components, its `/use-cases` index card, the
+  links to it and its `NOT_IN_MENU` entry are gone; no redirect.
 - Lowercase phrases that are ordinary English rather than names stay as written: "personalized
   email campaigns", "data quality assessments", "precision lead acquisition", "multi-state sales
   tax nexus", "payroll tax and worker misclassification", "automated accounts payable". Their
@@ -162,8 +163,7 @@ and the Tools and Blog menus drop the Lead Capture Pipeline category, and Lead E
 Scoring moves into Marketing Automation Platforms (MAP) (section 3, the tools and the posts in
 section 4). The page `/use-cases/marketing/ai-sales-force-automation-software` ("AI Sales Force
 Automation Software", labelled "Intelligent Lead Capture Pipeline" in the menu) belongs to no home
-heading. It stays reachable from the `/use-cases` index card (line 232) and from the marketing
-overview section; it leaves the navbar. Question 1 below.
+heading. Deleted 2026-11-03 at Jeff's word, with the index card and every link to it.
 
 ## 6. Ids (stale ids are not kept)
 
@@ -204,9 +204,7 @@ Rollback: revert the cluster's commit.
 
 ## 9. Questions for Jeff
 
-1. The Lead Capture Pipeline pillar page (`ai-sales-force-automation-software`, "AI Sales Force
-   Automation Software") belongs to no home heading. Keep it, linked from the `/use-cases` index only,
-   or delete it? Deleting follows "remove means delete".
+1. Answered: the Lead Capture Pipeline pillar page (`ai-sales-force-automation-software`) is deleted.
 2. Four blog posts sit in the Lead Capture Pipeline category of the Blog menu: Lead Capture Pipelines
    for B2B Sales, Lead Enrichment to Close More Sales, AI Lead Scoring, and Smart Chatbots That Engage
    Customers. With the category gone they list under Marketing Automation Platforms (MAP) unless you

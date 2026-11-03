@@ -27,14 +27,9 @@ const INDEX_PAGES: readonly string[] = ["/use-cases", "/tools"];
 
 /**
  * Pages that are deliberately in no menu, each with the page that links to it. A page not on this
- * list and not in a menu is reported, so a new page cannot be left out by accident.
+ * list and not in a menu is reported, so a new page cannot be left out by accident. None today.
  */
-const NOT_IN_MENU: ReadonlyMap<string, string> = new Map([
-  [
-    "/use-cases/marketing/ai-sales-force-automation-software",
-    "belongs to no home heading; linked from the /use-cases index card",
-  ],
-]);
+const NOT_IN_MENU: ReadonlyMap<string, string> = new Map<string, string>();
 
 const MENUS: ReadonlyArray<readonly [string, SiteMenuConfiguration]> = [
   ["USE_CASES_MENU", USE_CASES_MENU],

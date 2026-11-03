@@ -36,7 +36,7 @@ const jsonLd: Graph = {
             "dateModified": "2026-10-16T16:34:08.2438979Z",
             "mainEntityOfPage": { "@type": "WebPage", "@id": PAGE_URL },
             "keywords": "AI Chatbot, Front Desk, AI Chatbot Implementation, Miami small business automation, Smart Chatbots for Marketing, Lead Scoring AI, Voice Assistant integration, BotPenguin, Manychat, My AI Front Desk",
-            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/ai-sales-force-automation-software" },
+            "isPartOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/business-operations/front-desk" },
             "mentions": [
                 { "@type": "Thing", "name": "BotPenguin", "url": "https://botpenguin.com/" },
                 { "@type": "Thing", "name": "Dapta", "url": "https://dapta.ai/" },

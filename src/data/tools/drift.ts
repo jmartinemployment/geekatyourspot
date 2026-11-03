@@ -9,7 +9,6 @@ export const driftContent: ToolPageContent = {
   "keywords": "Intelligent Lead Capture Pipeline, AI lead generation, automated sales pipeline, B2B sales tools, lead capture solutions",
   "datePublished": "2026-07-26T14:53:22.2607360Z",
   "dateModified": "2026-07-26T14:53:22.2607360Z",
-  "relatedArticleId": "https://geekatyourspot.com/use-cases/marketing/ai-sales-force-automation-software",
   "jsonLd": {
     "@type": "SoftwareApplication",
     "name": "Drift",
@@ -17,11 +16,7 @@ export const driftContent: ToolPageContent = {
     "operatingSystem": "Web",
     "description": "Drift's intelligent lead capture pipeline enhances engagement and conversions with chatbots.",
     "@context": "https://schema.org",
-    "keywords": "Intelligent Lead Capture Pipeline, AI lead generation, automated sales pipeline, B2B sales tools, lead capture solutions",
-    "subjectOf": {
-      "@type": "Article",
-      "@id": "https://geekatyourspot.com/use-cases/marketing/ai-sales-force-automation-software"
-    }
+    "keywords": "Intelligent Lead Capture Pipeline, AI lead generation, automated sales pipeline, B2B sales tools, lead capture solutions"
   },
   "sections": [
     {
