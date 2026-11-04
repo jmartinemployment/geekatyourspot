@@ -275,7 +275,7 @@ export default function Navbar(): React.JSX.Element {
             ))}
           </div>
 
-          <div className="mt-5 hidden md:block">
+          <div className="mx-auto mt-5 hidden w-fit max-w-full md:block">
             {TABS.map((tab) => (
               <div key={tab.id} hidden={tab.id !== selectedId}>
                 <DepartmentPanel tab={tab} block="desktop" onNavigate={closeMenu} />
