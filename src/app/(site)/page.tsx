@@ -77,8 +77,8 @@ const jsonLd = {
       "primaryImageOfPage": {
         "@type": "ImageObject",
         "inLanguage": "en-US",
-        "url": "https://geekatyourspot.com/images/home-hero.webp",
-        "contentUrl": "https://geekatyourspot.com/images/home-hero.webp",
+        "url": "https://geekatyourspot.com/images/home-hero.avif",
+        "contentUrl": "https://geekatyourspot.com/images/home-hero.avif",
         "width": 1024,
         "height": 1024,
         "caption": "A Geek @ Your Spot LLC robot action figure in its package, holding a laptop with a rising chart, beside icons for chat, automation, reporting and a small business storefront."

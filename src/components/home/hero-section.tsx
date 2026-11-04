@@ -56,7 +56,7 @@ export default function HeroSection() {
                   preloads that responsive variant because this is the desktop hero's LCP image; the
                   column only shows at lg and up, so the sizes hint falls back to 1px below it. */}
               <Image
-                src="/images/home-hero.webp"
+                src="/images/home-hero.avif"
                 width={1024}
                 height={1024}
                 sizes="(min-width: 1024px) 42vw, 1px"
