@@ -1,6 +1,13 @@
 import Link from "next/link";
+import Image from "next/image";
+
 
 export default function OverviewSection() {
+
+  const imageSrc = "/images/hero/tools/rippling/overview/rippling-overview.avif";
+  const imageAlt = "Rippling automates payroll tax calculations and worker classification, reducing compliance risks for South Florida small businesses";
+  const imageWidth = 800;
+  const imageHeight = 400;
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -51,7 +58,19 @@ export default function OverviewSection() {
       <section className="min-h-screen bg-[#023059] text-white py-5 hidden lg:block">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center min-h-screen">
+                            
+                              <Image
+                                src={imageSrc}
+                                alt={imageAlt}
+                                width={imageWidth}
+                                height={imageHeight}
+                                className="w-full h-auto"
+                                priority
+                                sizes="(min-width: 1024px) 42vw, 1px"
+                              />
+                            
+            </div>
             <div className="col-span-7">
               <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview
