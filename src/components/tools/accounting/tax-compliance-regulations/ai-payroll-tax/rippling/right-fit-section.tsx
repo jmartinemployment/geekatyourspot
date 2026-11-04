@@ -53,7 +53,9 @@ export default function RightFitSection() {
         are involved. If your business matches the profile (mixed workforce, multi-location, high compliance
         risk), Rippling is engineered for you. If not, the time and cost savings may not justify the investment.
         The right fit comes from matching the tool to the real risks and routines of your business, not from
-        chasing features you will never use. You can see how&nbsp;<a id={`tools-accounting-ai-payroll-tax-rippling-right-fit-affiliate${idSuffix}`} href={RIPPLING_AFFILIATE_URL} target="_blank" rel="sponsored noopener noreferrer" className="text-[#C83803] hover:underline">Rippling</a>&nbsp;handles that before you commit.
+        chasing features you will never use.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        You can see how&nbsp;<a id={`tools-accounting-ai-payroll-tax-rippling-right-fit-affiliate${idSuffix}`} href={RIPPLING_AFFILIATE_URL} target="_blank" rel="sponsored noopener noreferrer" className="text-[#C83803] hover:underline">Rippling</a>&nbsp;handles that before you commit.
         Geek @ Your Spot LLC earns a commission if you sign up through this link.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions
