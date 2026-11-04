@@ -117,7 +117,7 @@ export default async function Page() {
                 title={PAGE_TITLE}
                 summary={heroSummary}
                 heroImage={{
-                    src: "/images/hero/tools/rippling/100%25Error-Free-Guarentee.webp",
+                    src: "/images/hero/tools/rippling/100-Error-Free-Guarentee.webp",
                     alt: "Rippling automates payroll processing in 90 seconds",
                     width: 1200,
                     height: 600
