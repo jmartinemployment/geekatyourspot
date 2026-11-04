@@ -89,7 +89,7 @@ export default function ChallengesSection() {
               </h2>
               {body}
             </div>
-            <div className="col-span-5 flex items-center justify-center">
+            <div className="col-span-5 flex items-center justify-center min-h-screen">
               <Image
                 src={imageSrc}
                 alt={imageAlt}
