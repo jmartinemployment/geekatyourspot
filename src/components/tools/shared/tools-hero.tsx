@@ -65,10 +65,11 @@ export default async function ToolsHeroSection({title, summary, icon = faScrewdr
                 <Image
                   src={heroImage.src}
                   alt={heroImage.alt}
-                  width={heroImage.width || 1200}
-                  height={heroImage.height || 600}
-                  className="w-full h-auto max-w-full"
+                  width={heroImage.width || 800}
+                  height={heroImage.height || 400}
+                  className="w-full h-auto"
                   priority
+                  unoptimized
                 />
               ) : (
                 <FontAwesomeIcon
