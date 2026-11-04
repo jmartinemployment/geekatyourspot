@@ -18,7 +18,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Rippling";
-const PAGE_TITLE = "Run Payroll in 90 Seconds";
+const PAGE_TITLE = "Payroll on Autopilot";
 const DESCRIPTION =
     "Rippling helps South Florida small businesses automate payroll tax compliance and worker classification, reducing audit risks and saving time.";
 const CANONICAL = "/tools/accounting/tax-compliance-regulations/ai-payroll-tax/rippling";
