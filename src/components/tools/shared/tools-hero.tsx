@@ -2,18 +2,21 @@ import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faScrewdriverWrench } from "@fortawesome/free-solid-svg-icons";
 import type { IconDefinition } from "@fortawesome/fontawesome-svg-core";
-import { SCHEDULER_HERO_LINK_ID } from "@/components/shared/scheduler/scheduler-id";
 import { BreadcrumbTrail } from "@/components/shared/breadcrumb-trail";
-interface HeroSectionProps {
+
+interface ToolsHeroSectionProps {
   title: string;
   summary: string;
-  /** The desktop hero icon; the tools index uses the screwdriver and wrench. */
-  icon?: IconDefinition;
-  /** Optional hero image; replaces icon if provided */
   heroImage?: { src: string; alt: string; width?: number; height?: number };
+  icon?: IconDefinition;
 }
 
-export default async function ToolsHeroSection({title, summary, icon = faScrewdriverWrench, heroImage}: Readonly<HeroSectionProps>) {
+export default async function ToolsHeroSection({
+  title,
+  summary,
+  heroImage,
+  icon = faScrewdriverWrench,
+}: Readonly<ToolsHeroSectionProps>) {
   return (
     <>
       <header className="min-h-screen bg-[#0B162A] lg:hidden">
@@ -27,14 +30,6 @@ export default async function ToolsHeroSection({title, summary, icon = faScrewdr
               <p className="pt-3 text-xl text-white shadow-text">
                 {summary}
               </p>
-              <div className="pt-6">
-                <a href="#consultationAppointment2xl"
-                id={SCHEDULER_HERO_LINK_ID}
-                className="btn btn-primary"
-              >
-                Get Your Free AI Assessment
-              </a>
-              </div>
             </div>
           </div>
         </div>
@@ -46,22 +41,14 @@ export default async function ToolsHeroSection({title, summary, icon = faScrewdr
             <BreadcrumbTrail current={title} />
             <div className="col-span-7">
               <h1 className="font-black font-(--font-sora) leading-[0.95] text-white shadow-text lg:text-[4.0rem]">
-                { title }
+                {title}
               </h1>
               <p className="pt-3 text-2xl text-white shadow-text">
-                { summary}
+                {summary}
               </p>
-              <div className="pt-6">
-                <a href="#consultationAppointment2xl"
-                id={`${SCHEDULER_HERO_LINK_ID}-lg`}
-                className="btn btn-primary"
-              >
-                Get Your Free AI Assessment
-              </a>
-              </div>
             </div>
-            <div className="col-span-5 flex items-center justify-center min-h-screen flex-col">
-              {heroImage ? (
+            {heroImage ? (
+              <div className="col-span-5 flex items-center justify-center min-h-screen">
                 <Image
                   src={heroImage.src}
                   alt={heroImage.alt}
@@ -69,16 +56,18 @@ export default async function ToolsHeroSection({title, summary, icon = faScrewdr
                   height={heroImage.height || 400}
                   className="w-full h-auto"
                   priority
-                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  sizes="(min-width: 1024px) 42vw, 1px"
                 />
-              ) : (
+              </div>
+            ) : (
+              <div className="col-span-5 flex items-center justify-center min-h-screen">
                 <FontAwesomeIcon
                   icon={icon}
                   className="text-[#C83803]"
                   style={{ width: "16rem", height: "16rem" }}
                 />
-              )}
-            </div>
+              </div>
+            )}
           </div>
         </div>
       </header>
