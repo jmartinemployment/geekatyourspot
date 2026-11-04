@@ -69,7 +69,7 @@ export default async function ToolsHeroSection({title, summary, icon = faScrewdr
                   height={heroImage.height || 400}
                   className="w-full h-auto"
                   priority
-                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  unoptimized
                 />
               ) : (
                 <FontAwesomeIcon
