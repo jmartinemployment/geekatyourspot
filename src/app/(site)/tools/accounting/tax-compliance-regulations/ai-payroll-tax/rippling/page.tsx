@@ -113,16 +113,7 @@ export default async function Page() {
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
-            <ToolsHeroSection
-                title={PAGE_TITLE}
-                summary={heroSummary}
-                heroImage={{
-                    src: "/images/hero/tools/rippling/100-Error-Free-Guarentee.webp",
-                    alt: "Rippling automates payroll processing in 90 seconds",
-                    width: 1200,
-                    height: 600
-                }}
-            />
+            <ToolsHeroSection title={PAGE_TITLE} summary={heroSummary} />
             <OverviewSection />
             <ChallengesSection />
             <TransformsSection />
