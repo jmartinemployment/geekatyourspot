@@ -176,6 +176,12 @@ export default function FaqSection() {
               for contractors at no extra cost. Employees and contractors can download their forms directly from
               Rippling, and all past forms are stored in the system for easy access. This cuts out manual
               paperwork and helps your small team stay organized and compliant.</p>
+            <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
+            <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              Do you earn a commission from Rippling?
+            </h3>
+            <p className="text-base text-white shadow-text pt-3">
+              Yes. Geek @ Your Spot LLC is an authorized Rippling partner. If you sign up through the affiliate links on this page, I earn a milestone commission at zero additional cost to you. This disclosure appears next to each link so you know exactly what you're clicking. The commission does not change your price or terms with Rippling—you get the same platform and pricing as anyone else. My goal is to help you build a compliant, efficient payroll process. Whether you choose Rippling or another tool, the recommendations on this page are based on what solves your actual business problems, not on earning a commission.</p>
           </div>
         </div>
       </div>
