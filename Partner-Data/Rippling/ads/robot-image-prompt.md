@@ -42,6 +42,7 @@ Hero section image for Rippling payroll page. Communicates automation, speed, an
 - Design at 1200×600px (can be cropped for hero)
 - Works at various widths (responsive)
 - Optimize for web (SVG or PNG)
+- **TRANSPARENT BACKGROUND REQUIRED** — hero section has its own background color
 
 **Text Overlay:**
 Primary overlay: "PAYROLL ON AUTOPILOT" in a starburst design
@@ -98,4 +99,4 @@ Place in hero section of Rippling tool page:
 
 ## Quick Prompt for AI Image Generators
 
-> Create a modern, minimalist vector illustration of an automation robot or interconnected nodes symbol, centered with flowing icons (calculator, document, checkmark, clock) around it in a circle. Use a professional corporate SaaS aesthetic with navy (#0B162A) and orange (#C83803) as primary colors, white and light gray for backgrounds. No characters or faces. Modern, clean, efficient feel. Add a prominent orange starburst (12-16 radiating rays) in the top-right or top-center with "PAYROLL ON AUTOPILOT" in bold white all-caps centered inside it. Optional: include "90 Seconds" smaller text below the starburst. 1200×600px canvas, transparent or white background.
+> Create a modern, minimalist vector illustration of an automation robot or interconnected nodes symbol, centered with flowing icons (calculator, document, checkmark, clock) around it in a circle. Use a professional corporate SaaS aesthetic with navy (#0B162A) and orange (#C83803) as primary colors, white and light gray for backgrounds. No characters or faces. Modern, clean, efficient feel. Add a prominent orange starburst (12-16 radiating rays) in the top-right or top-center with "PAYROLL ON AUTOPILOT" in bold white all-caps centered inside it. Optional: include "90 Seconds" smaller text below the starburst. 1200×600px canvas, **TRANSPARENT BACKGROUND REQUIRED**.
