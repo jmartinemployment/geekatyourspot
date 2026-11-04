@@ -32,11 +32,6 @@ const SECTIONS: readonly MenuSection[] = [
 
 type DepartmentTab = Readonly<{ id: string; name: string; icon: IconDefinition }>;
 
-/** Sales has no pages yet, so it is not in the menu data. Once it is, the menu entry replaces this one. */
-const PLANNED_DEPARTMENTS: readonly { id: DepartmentName; name: string }[] = [
-  { id: "sales", name: "Sales" },
-];
-
 function departmentIcon(id: string): IconDefinition {
   if (!(id in DEPARTMENT_ICONS)) {
     throw new Error(`Navbar: department "${id}" has no icon in DEPARTMENT_ICONS (src/types/department.ts)`);
@@ -49,7 +44,6 @@ function buildTabs(): readonly DepartmentTab[] {
   for (const section of SECTIONS) {
     for (const department of section.menu.departments) names.set(department.id, department.name);
   }
-  for (const department of PLANNED_DEPARTMENTS) names.set(department.id, department.name);
   return [...names]
     .map(([id, name]) => ({ id, name, icon: departmentIcon(id) }))
     .sort((a, b) => a.name.localeCompare(b.name));
@@ -252,7 +246,7 @@ export default function Navbar(): React.JSX.Element {
           <div
             role="group"
             aria-label="Departments"
-            className="sticky top-0 z-10 flex flex-wrap items-center gap-x-6 gap-y-2 border-b border-black/10 bg-white py-3 sm:gap-x-8"
+            className="sticky top-0 z-10 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 border-b border-black/10 bg-white py-3 sm:gap-x-8"
           >
             {TABS.map((tab) => {
               const selected = tab.id === selectedId;
