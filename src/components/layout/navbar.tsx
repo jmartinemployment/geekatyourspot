@@ -243,33 +243,31 @@ export default function Navbar(): React.JSX.Element {
           <div
             role="group"
             aria-label="Departments"
-            className="sticky top-0 z-10 flex justify-center border-b border-black/10 bg-white py-3"
+            className="sticky top-0 z-10 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 border-b border-black/10 bg-white py-3 sm:gap-x-8"
           >
-            <div className="flex flex-col items-start gap-y-2 md:flex-row md:flex-wrap md:items-center md:gap-x-8">
-              {TABS.map((tab) => {
-                const selected = tab.id === selectedId;
-                return (
-                  <button
-                    key={tab.id}
-                    type="button"
-                    id={gtmClickId(["nav", "department", tab.id])}
-                    aria-pressed={selected}
-                    className={`flex cursor-pointer items-center gap-2 border-0 border-b-2 bg-transparent p-0 pb-0.5 text-base font-semibold sm:text-lg ${
-                      selected
-                        ? "border-[#C83803] text-[#8C2703]"
-                        : "border-transparent text-black hover:text-[#8C2703]"
-                    }`}
-                    onClick={() => setSelectedId(tab.id)}
-                  >
-                    <FontAwesomeIcon icon={tab.icon} width={16} height={16} className="shrink-0" />
-                    {tab.name}
-                  </button>
-                );
-              })}
-            </div>
+            {TABS.map((tab) => {
+              const selected = tab.id === selectedId;
+              return (
+                <button
+                  key={tab.id}
+                  type="button"
+                  id={gtmClickId(["nav", "department", tab.id])}
+                  aria-pressed={selected}
+                  className={`flex cursor-pointer items-center gap-2 border-0 border-b-2 bg-transparent p-0 pb-0.5 text-base font-semibold sm:text-lg ${
+                    selected
+                      ? "border-[#C83803] text-[#8C2703]"
+                      : "border-transparent text-black hover:text-[#8C2703]"
+                  }`}
+                  onClick={() => setSelectedId(tab.id)}
+                >
+                  <FontAwesomeIcon icon={tab.icon} width={16} height={16} className="shrink-0" />
+                  {tab.name}
+                </button>
+              );
+            })}
           </div>
 
-          <div className="mt-4 md:hidden">
+          <div className="mx-auto mt-4 w-fit max-w-full md:hidden">
             {TABS.map((tab) => (
               <div key={tab.id} hidden={tab.id !== selectedId}>
                 <DepartmentPanel tab={tab} block="mobile" onNavigate={closeMenu} />
