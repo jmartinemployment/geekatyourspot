@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export default function ChallengesSection() {
-  const imageSrc = "/images/tools/rippling/ChallengesSection";
+  const imageSrc = "/images/tools/rippling/ChallengesSection/ChallengesSection.avif";
   const imageAlt = "Rippling reduces the challenges you face with payroll tax calculations and worker classification, reducing compliance risks for South Florida small businesses";
   const imageWidth = 800;
   const imageHeight = 400;
