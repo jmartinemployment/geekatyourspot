@@ -63,10 +63,10 @@ export function UseCasesSection() {
                                     <h4 className="text-black text-base hover:text-[#C83803] font-bold">
                                         Accounts Payable
                                     </h4>
-                                    <p className="text-black text-xs text-shadow text-shadow-xs">
-                                        You face heavy administrative burdens in accounts payable (AP) due to limited staff, manual data entry errors, slow approval bottlenecks, high risks of payment fraud, and tedious vendor management.
-                                    </p>
                                 </Link>
+                                <p className="text-black text-xs text-shadow text-shadow-xs">
+                                    You face heavy administrative burdens in accounts payable (AP) due to limited staff, manual data entry errors, slow approval bottlenecks, high risks of payment fraud, and tedious vendor management.
+                                </p>
                                 <ul className="list-disc text-xs text-black list- pl-3 ">
                                     <li className="pl-.5">
                                         <Link id="home-use-cases-accounting-ai-data-entry-processing"
