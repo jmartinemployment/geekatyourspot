@@ -250,7 +250,7 @@ export default function Navbar(): React.JSX.Element {
           <div
             role="group"
             aria-label="Departments"
-            className="sticky top-0 z-10 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 border-b border-black/10 bg-white py-3 sm:gap-x-8"
+            className="sticky top-0 z-10 flex flex-wrap items-center justify-start gap-x-6 md:justify-center gap-y-2 border-b border-black/10 bg-white py-3 sm:gap-x-8"
           >
             {TABS.map((tab) => {
               const selected = tab.id === selectedId;
