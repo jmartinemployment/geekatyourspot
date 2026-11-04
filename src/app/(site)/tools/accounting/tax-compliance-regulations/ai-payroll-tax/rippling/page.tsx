@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import ToolsHeroSection from "@/components/tools/shared/tools-hero";
+
+export const dynamic = 'force-static';
 import OverviewSection from "@/components/tools/accounting/tax-compliance-regulations/ai-payroll-tax/rippling/overview-section";
 import ChallengesSection from "@/components/tools/accounting/tax-compliance-regulations/ai-payroll-tax/rippling/challenges-section";
 import TransformsSection from "@/components/tools/accounting/tax-compliance-regulations/ai-payroll-tax/rippling/transforms-section";
