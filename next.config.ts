@@ -19,7 +19,7 @@ const nextConfig: NextConfig = {
       "default-src 'self'",
       "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://tagmanager.google.com https://googleads.g.doubleclick.net https://www.googleadservices.com https://www.google.com https://vercel.live",
       "style-src 'self' 'unsafe-inline' https://tagmanager.google.com https://fonts.googleapis.com https://vercel.live",
-      "img-src 'self' data: blob: https://*.google-analytics.com https://analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://www.google.com https://www.googleadservices.com https://pagead2.googlesyndication.com https://ssl.gstatic.com https://www.gstatic.com https://vercel.live https://vercel.com",
+       "img-src 'self' data: blob: https://*.google-analytics.com https://analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://www.google.com https://www.googleadservices.com https://pagead2.googlesyndication.com https://ssl.gstatic.com https://www.gstatic.com https://vercel.live https://vercel.com",
       "font-src 'self' data: https://fonts.gstatic.com https://vercel.live https://assets.vercel.com",
       "connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://ad.doubleclick.net https://www.google.com https://www.googleadservices.com https://pagead2.googlesyndication.com https://vercel.live wss://ws-us3.pusher.com",
       "frame-src https://www.googletagmanager.com https://td.doubleclick.net https://bid.g.doubleclick.net https://vercel.live",
