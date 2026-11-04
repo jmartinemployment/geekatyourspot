@@ -204,7 +204,7 @@ export function BookingWidget({
         classNames={{
           months: "relative flex w-fit max-w-full flex-col gap-2",
           month: "flex w-fit max-w-full flex-col gap-2",
-          table: "w-fit max-w-full border-collapse",
+          month_grid: "w-full border-collapse space-y-1",
           caption_label:
             "select-none text-base font-semibold text-foreground lg:text-lg",
           weekday:
