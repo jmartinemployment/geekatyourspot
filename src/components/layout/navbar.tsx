@@ -3,7 +3,11 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { config, type IconDefinition } from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLightbulb, faNewspaper, faScrewdriverWrench } from "@fortawesome/free-solid-svg-icons";
 import { gtmClickId, gtmLinkId, gtmLinkIdFromHref } from "@/lib/gtm/link-id";
+import { DEPARTMENT_ICONS, type DepartmentName } from "@/types/department";
 import {
   BLOG_MENU,
   TOOLS_MENU,
@@ -12,20 +16,33 @@ import {
   type SiteMenuConfiguration,
 } from "@/data/navigation/site-menus";
 
+// Font Awesome adds its own stylesheet to the page by default, and that stylesheet resizes every icon
+// on the site, including the 256px department icons on the home page. Off, each icon keeps the width
+// and height it is given, so every FontAwesomeIcon here sets its size.
+config.autoAddCss = false;
+
 type MenuSection = Readonly<{
   key: "blog" | "tools" | "use-cases";
   label: string;
+  icon: IconDefinition;
   menu: SiteMenuConfiguration;
 }>;
 
 /** The columns of a department's panel, alphabetical. Comparisons goes between Blog and Tools once it has pages. */
 const SECTIONS: readonly MenuSection[] = [
-  { key: "blog", label: "Blog", menu: BLOG_MENU },
-  { key: "tools", label: "Tools", menu: TOOLS_MENU },
-  { key: "use-cases", label: "Use Cases", menu: USE_CASES_MENU },
+  { key: "blog", label: "Blog", icon: faNewspaper, menu: BLOG_MENU },
+  { key: "tools", label: "Tools", icon: faScrewdriverWrench, menu: TOOLS_MENU },
+  { key: "use-cases", label: "Use Cases", icon: faLightbulb, menu: USE_CASES_MENU },
 ];
 
-type DepartmentTab = Readonly<{ id: string; name: string }>;
+type DepartmentTab = Readonly<{ id: string; name: string; icon: IconDefinition }>;
+
+function departmentIcon(id: string): IconDefinition {
+  if (!(id in DEPARTMENT_ICONS)) {
+    throw new Error(`Navbar: department "${id}" has no icon in DEPARTMENT_ICONS (src/types/department.ts)`);
+  }
+  return DEPARTMENT_ICONS[id as DepartmentName];
+}
 
 function buildTabs(): readonly DepartmentTab[] {
   const names = new Map<string, string>();
@@ -33,7 +50,7 @@ function buildTabs(): readonly DepartmentTab[] {
     for (const department of section.menu.departments) names.set(department.id, department.name);
   }
   return [...names]
-    .map(([id, name]) => ({ id, name }))
+    .map(([id, name]) => ({ id, name, icon: departmentIcon(id) }))
     .sort((a, b) => a.name.localeCompare(b.name));
 }
 
@@ -73,9 +90,10 @@ function MenuColumn({
       <Link
         href={department.href}
         id={gtmLinkId(["nav", "department", section.key, department.id], idSuffix(block))}
-        className={`block text-base font-bold leading-tight sm:text-lg ${LINK_COLOURS}`}
+        className={`flex items-center gap-2 text-base font-bold leading-tight sm:text-lg ${LINK_COLOURS}`}
         onClick={onNavigate}
       >
+        <FontAwesomeIcon icon={section.icon} width={16} height={16} className="shrink-0 text-[#C83803]" />
         {section.label}
       </Link>
       <ul className="m-0 mt-3 list-none space-y-2 p-0">
@@ -242,13 +260,14 @@ export default function Navbar(): React.JSX.Element {
                   type="button"
                   id={gtmClickId(["nav", "department", tab.id])}
                   aria-pressed={selected}
-                  className={`cursor-pointer border-0 border-b-2 bg-transparent p-0 pb-0.5 text-base font-semibold sm:text-lg ${
+                  className={`flex cursor-pointer items-center gap-2 border-0 border-b-2 bg-transparent p-0 pb-0.5 text-base font-semibold sm:text-lg ${
                     selected
                       ? "border-[#C83803] text-[#8C2703]"
                       : "border-transparent text-black hover:text-[#8C2703]"
                   }`}
                   onClick={() => setSelectedId(tab.id)}
                 >
+                  <FontAwesomeIcon icon={tab.icon} width={16} height={16} className="shrink-0" />
                   {tab.name}
                 </button>
               );
