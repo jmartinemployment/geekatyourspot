@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faScrewdriverWrench } from "@fortawesome/free-solid-svg-icons";
 import type { IconDefinition } from "@fortawesome/fontawesome-svg-core";
@@ -8,9 +9,11 @@ interface HeroSectionProps {
   summary: string;
   /** The desktop hero icon; the tools index uses the screwdriver and wrench. */
   icon?: IconDefinition;
+  /** Optional hero image; replaces icon if provided */
+  heroImage?: { src: string; alt: string; width?: number; height?: number };
 }
 
-export default async function ToolsHeroSection({title, summary, icon = faScrewdriverWrench}: Readonly<HeroSectionProps>) {
+export default async function ToolsHeroSection({title, summary, icon = faScrewdriverWrench, heroImage}: Readonly<HeroSectionProps>) {
   return (
     <>
       <header className="min-h-screen bg-[#0B162A] lg:hidden">
@@ -58,11 +61,22 @@ export default async function ToolsHeroSection({title, summary, icon = faScrewdr
               </div>
             </div>
             <div className="col-span-5 flex items-center justify-center min-h-screen flex-col">
-              <FontAwesomeIcon
-                icon={icon}
-                className="text-[#C83803]"
-                style={{ width: "16rem", height: "16rem" }}
-              />
+              {heroImage ? (
+                <Image
+                  src={heroImage.src}
+                  alt={heroImage.alt}
+                  width={heroImage.width || 1200}
+                  height={heroImage.height || 600}
+                  className="w-full h-auto max-w-full"
+                  priority
+                />
+              ) : (
+                <FontAwesomeIcon
+                  icon={icon}
+                  className="text-[#C83803]"
+                  style={{ width: "16rem", height: "16rem" }}
+                />
+              )}
             </div>
           </div>
         </div>
