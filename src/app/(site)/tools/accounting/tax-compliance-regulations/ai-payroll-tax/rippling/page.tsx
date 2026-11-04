@@ -117,7 +117,7 @@ export default async function Page() {
                 title={PAGE_TITLE}
                 summary={heroSummary}
                 heroImage={{
-                    src: "/Users/jeffmartin/development/geekatyourspot/public/images/hero/tools/100-error-free.avif",
+                    src: "/public/images/hero/tools/100-error-free.avif",
                     alt: "Rippling automates payroll processing in 90 seconds",
                     width: 800,
                     height: 400
