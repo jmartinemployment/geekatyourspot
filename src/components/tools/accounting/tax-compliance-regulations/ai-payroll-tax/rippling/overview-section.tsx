@@ -59,17 +59,15 @@ export default function OverviewSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center min-h-screen">
-                            
-                              <Image
-                                src={imageSrc}
-                                alt={imageAlt}
-                                width={imageWidth}
-                                height={imageHeight}
-                                className="w-full h-auto"
-                                priority
-                                sizes="(min-width: 1024px) 42vw, 1px"
-                              />
-                            
+              <Image
+                src={imageSrc}
+                alt={imageAlt}
+                width={imageWidth}
+                height={imageHeight}
+                className="w-full h-auto"
+                priority
+                sizes="(min-width: 1024px) 42vw, 1px"
+              />   
             </div>
             <div className="col-span-7">
               <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">

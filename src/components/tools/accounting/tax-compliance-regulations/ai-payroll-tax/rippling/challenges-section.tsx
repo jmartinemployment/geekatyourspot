@@ -1,4 +1,11 @@
+import Image from "next/image";
+
 export default function ChallengesSection() {
+  const imageSrc = "/images/tools/rippling/ChallengesSection";
+  const imageAlt = "Rippling reduces the challenges you face with payroll tax calculations and worker classification, reducing compliance risks for South Florida small businesses";
+  const imageWidth = 800;
+  const imageHeight = 400;
+
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -82,7 +89,17 @@ export default function ChallengesSection() {
               </h2>
               {body}
             </div>
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <Image
+                src={imageSrc}
+                alt={imageAlt}
+                width={imageWidth}
+                height={imageHeight}
+                className="w-full h-auto"
+                priority
+                sizes="(min-width: 1024px) 42vw, 1px"
+              /> 
+            </div>
           </div>
         </div>
       </section>
