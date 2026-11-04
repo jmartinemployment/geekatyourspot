@@ -117,8 +117,8 @@ export default async function Page() {
                 title={PAGE_TITLE}
                 summary={heroSummary}
                 heroImage={{
-                    src: "/images/hero/tools/rippling/hero/100-error-free.avif/images/hero/tools/100-error-free.avif",
-                    alt: "Payroll on autopilot",
+                    src: "/images/tools/rippling/hero/100-error-free.avif",
+                    alt: "Rippling 100% Error-Free Guarantee",
                     width: 800,
                     height: 400
                 }}

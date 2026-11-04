@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function OverviewSection() {
 
-  const imageSrc = "/images/hero/tools/rippling/overview/rippling-overview.avif";
+  const imageSrc = "/images/tools/rippling/overview/rippling-overview.avif";
   const imageAlt = "Rippling automates payroll tax calculations and worker classification, reducing compliance risks for South Florida small businesses";
   const imageWidth = 800;
   const imageHeight = 400;
