@@ -2,6 +2,7 @@ import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faScrewdriverWrench } from "@fortawesome/free-solid-svg-icons";
 import type { IconDefinition } from "@fortawesome/fontawesome-svg-core";
+import { SCHEDULER_HERO_LINK_ID } from "@/components/shared/scheduler/scheduler-id";
 import { BreadcrumbTrail } from "@/components/shared/breadcrumb-trail";
 
 interface ToolsHeroSectionProps {
@@ -30,6 +31,15 @@ export default async function ToolsHeroSection({
               <p className="pt-3 text-xl text-white shadow-text">
                 {summary}
               </p>
+              <div className="pt-6">
+                <a
+                  href="#consultationAppointment2xl"
+                  id={SCHEDULER_HERO_LINK_ID}
+                  className="btn btn-primary"
+                >
+                  Get Your Free AI Assessment
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -46,6 +56,15 @@ export default async function ToolsHeroSection({
               <p className="pt-3 text-2xl text-white shadow-text">
                 {summary}
               </p>
+              <div className="pt-6">
+                <a
+                  href="#consultationAppointment2xl"
+                  id={`${SCHEDULER_HERO_LINK_ID}-lg`}
+                  className="btn btn-primary"
+                >
+                  Get Your Free AI Assessment
+                </a>
+              </div>
             </div>
             {heroImage ? (
               <div className="col-span-5 flex items-center justify-center min-h-screen">
