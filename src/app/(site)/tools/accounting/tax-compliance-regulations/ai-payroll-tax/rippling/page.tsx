@@ -18,7 +18,7 @@ import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
 const TITLE = "Rippling";
-const PAGE_TITLE = "Rippling for AI Payroll Tax";
+const PAGE_TITLE = "Run Payroll in 90 Seconds";
 const DESCRIPTION =
     "Rippling helps South Florida small businesses automate payroll tax compliance and worker classification, reducing audit risks and saving time.";
 const CANONICAL = "/tools/accounting/tax-compliance-regulations/ai-payroll-tax/rippling";
@@ -125,6 +125,11 @@ export default async function Page() {
             <ComparingSection />
             <RightFitSection />
             <FaqSection />
+            <div className="container mx-auto px-4 py-12 border-t border-black/10">
+              <p className="text-sm text-gray-600 leading-relaxed">
+                <strong>Disclosure:</strong> I am an independent IT consultant and authorized Rippling partner. If you choose to secure a platform subscription through the referral links on this site, I may earn a milestone commission at zero additional cost to you.
+              </p>
+            </div>
             <SchedulerShell />
         </>
     );
