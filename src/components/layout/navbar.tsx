@@ -95,7 +95,6 @@ function MenuColumn({
         {department.categories.map((category) => {
           // A category whose href is its department's page has no page of its own, so it is a heading, not a link.
           const hasPage = category.href !== department.href;
-          if (!hasPage && category.items.length === 0) return null;
           return (
             <li key={category.id}>
               {hasPage ? (
