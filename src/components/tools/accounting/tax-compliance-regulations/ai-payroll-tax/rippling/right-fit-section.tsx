@@ -1,8 +1,38 @@
 import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 import { RIPPLING_AFFILIATE_URL } from "@/components/tools/accounting/tax-compliance-regulations/ai-payroll-tax/rippling/affiliate-link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCalendarDays,
+  faGlobe,
+  faHeadset,
+  faMap,
+  faPeopleGroup,
+  faPiggyBank,
+  faShieldHalved,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function RightFitSection() {
+  const groups = [
+    {
+      heading: "Right fit",
+      items: [
+        { icon: faPeopleGroup, color: "text-[#C83803]", label: "Mix of W-2 and 1099 workers" },
+        { icon: faMap, color: "text-white", label: "Multiple counties or states" },
+        { icon: faCalendarDays, color: "text-[#BF5934]", label: "Seasonal or shifting workforce" },
+        { icon: faShieldHalved, color: "text-[#C83803]", label: "No dedicated HR or legal team" },
+      ],
+    },
+    {
+      heading: "Look elsewhere",
+      items: [
+        { icon: faPiggyBank, color: "text-white", label: "Lowest-cost, bare-bones payroll" },
+        { icon: faHeadset, color: "text-[#BF5934]", label: "Human review of every decision" },
+        { icon: faGlobe, color: "text-[#C83803]", label: "Outside the US or bespoke pay" },
+      ],
+    },
+  ];
+
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -96,7 +126,31 @@ export default function RightFitSection() {
       <section className="min-h-screen bg-[#023059] text-white py-5 hidden lg:block">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <div className="flex w-full flex-col gap-10 text-center">
+                {groups.map((group) => (
+                  <div key={group.heading}>
+                    <h3 className="border-b-4 border-white pb-2 text-xl font-black font-[var(--font-sora)] uppercase tracking-widest text-white shadow-text">
+                      {group.heading}
+                    </h3>
+                    <ul className="flex flex-col items-center gap-8 pt-8">
+                      {group.items.map((item) => (
+                        <li key={item.label} className="flex flex-col items-center">
+                          <FontAwesomeIcon
+                            icon={item.icon}
+                            className={item.color}
+                            style={{ width: "5.5rem", height: "5.5rem" }}
+                          />
+                          <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                            {item.label}
+                          </p>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </div>
             <div className="col-span-7">
               <h2 id="when-rippling-is-the-right-fit-and-when-to-look-elsewhere-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 When Rippling Is the Right Fit and When to Look Elsewhere
