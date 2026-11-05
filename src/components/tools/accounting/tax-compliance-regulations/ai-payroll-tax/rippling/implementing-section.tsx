@@ -1,11 +1,14 @@
 import { GlossaryLink } from "@/components/glossary/glossary-link";
-import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBullseye, faMagnifyingGlassChart, faMicrochip, faRocket } from "@fortawesome/free-solid-svg-icons";
 
 export default function ImplementingSection() {
-  const imageSrc = "/images/tools/rippling/ImplementingSection/implementing-section.avif";
-  const imageAlt = "The four implementation steps are to define goals and metrics, assess and cleanse data, select simple tools, and pilot and measure ROI.";
-  const imageWidth = 800;
-  const imageHeight = 400;
+  const steps = [
+    { icon: faBullseye, color: "text-[#C83803]", label: "1. Define Business Objectives" },
+    { icon: faMagnifyingGlassChart, color: "text-white", label: "2. Data Quality Assessment" },
+    { icon: faMicrochip, color: "text-[#BF5934]", label: "3. Choose the Right AI Technologies" },
+    { icon: faRocket, color: "text-[#C83803]", label: "4. Implementation Strategy" },
+  ];
 
   const body = (
     <>
@@ -102,15 +105,26 @@ export default function ImplementingSection() {
               {body}
             </div>
             <div className="col-span-5 flex items-center justify-center">
-              <Image
-                src={imageSrc}
-                alt={imageAlt}
-                width={imageWidth}
-                height={imageHeight}
-                className="w-full h-auto"
-                priority
-                sizes="(min-width: 1024px) 42vw, 1px"
-              /> 
+              <ol className="flex flex-col items-center text-center">
+                {steps.map((step, index) => (
+                  <li key={step.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={step.icon}
+                      className={step.color}
+                      style={{ width: "7rem", height: "7rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white text-shadow-sm">
+                      {step.label}
+                    </p>
+                    {index < steps.length - 1 && (
+                      <span
+                        aria-hidden="true"
+                        className="relative my-6 block h-10 w-0.75 bg-white after:content-[''] after:absolute after:left-1/2 after:-bottom-3 after:-translate-x-1/2 after:border-x-[8.5px] after:border-x-transparent after:border-t-12 after:border-t-white"
+                      />
+                    )}
+                  </li>
+                ))}
+              </ol>
             </div>
           </div>
         </div>
