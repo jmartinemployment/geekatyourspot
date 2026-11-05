@@ -1,6 +1,22 @@
 import { RIPPLING_AFFILIATE_URL } from "@/components/tools/accounting/tax-compliance-regulations/ai-payroll-tax/rippling/affiliate-link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBell,
+  faClock,
+  faMapLocationDot,
+  faPuzzlePiece,
+  faUserPlus,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function EvaluatingSection() {
+  const factors = [
+    { icon: faUserPlus, color: "text-white", label: "Classifying and onboarding workers" },
+    { icon: faMapLocationDot, color: "text-[#0B162A]", label: "More than one county or state" },
+    { icon: faClock, color: "text-white", label: "Time spent on payroll tax and fixes" },
+    { icon: faBell, color: "text-[#0B162A]", label: "Real-time compliance alerts" },
+    { icon: faPuzzlePiece, color: "text-white", label: "Accounting and HR integration" },
+  ];
+
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -87,7 +103,22 @@ export default function EvaluatingSection() {
       <section className="min-h-screen bg-[#8C4E2A] text-white py-5 hidden lg:block">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {factors.map((factor) => (
+                  <li key={factor.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={factor.icon}
+                      className={factor.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {factor.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
             <div className="col-span-7">
               <h2 id="evaluating-rippling-fit-for-small-businesses-and-how-the-pricing-model-works-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Evaluating Rippling: Fit for Small Businesses and How the Pricing Model Works
