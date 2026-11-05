@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function ImplementingSection() {
   const imageSrc = "/images/tools/rippling/ImplementingSection/implementing-section.avif";
-  const imageAlt = "Rippling&apos;s architecture designed to unify HR, payroll, IT, and finance data";
+  const imageAlt = "The four implementation steps are to define goals and metrics, assess and cleanse data, select simple tools, and pilot and measure ROI.";
   const imageWidth = 800;
   const imageHeight = 400;
 
