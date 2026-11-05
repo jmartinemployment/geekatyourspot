@@ -71,7 +71,7 @@ export default function IntroductionSection() {
               <Image
                 width="211"
                 height="211"
-                src="/images/accounting/use-cases/accounts-payable/automated-accounts-payable-pillar-h2-introduction-to-accounts-payable.avif"
+                src="/images/accounting/use-cases/accounts-payable/automated-accounts-payable-pillar-h2-introduction-to-automated-accounts-payable.avif"
                 alt="Introduction to Accounts Payable" />
             </div>
             <div className="col-span-12">
@@ -94,7 +94,7 @@ export default function IntroductionSection() {
               <Image
                 width="460"
                 height="460"
-                src="/images/accounting/use-cases/accounts-payable/automated-accounts-payable-pillar-h2-introduction-to-accounts-payable.avif"
+                src="/images/accounting/use-cases/accounts-payable/automated-accounts-payable-pillar-h2-introduction-to-automated-accounts-payable.avif"
                 alt="Introduction to Accounts Payable" />
             </div>
           </div>
