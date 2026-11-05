@@ -46,3 +46,11 @@ mcp.json
 # content pipeline scratch output (not app source)
 content-writer-research/
 .scannerwork/
+
+# video files (too large for git; GitHub rejects files over 100 MB)
+*.mp4
+*.mov
+*.m4v
+*.webm
+*.avi
+*.mkv
