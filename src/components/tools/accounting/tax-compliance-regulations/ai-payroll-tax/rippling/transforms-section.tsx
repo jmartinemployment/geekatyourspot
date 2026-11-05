@@ -106,7 +106,7 @@ export default function TransformsSection() {
       <section className="min-h-screen bg-[#025E73] text-white py-5 hidden lg:block">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
-            <div className="col-span-5 flex items-center justify-center min-h-screen">
+            <div className="col-span-5 flex items-center justify-center">
               <Image
                 src={imageSrc}
                 alt={imageAlt}
