@@ -1,6 +1,24 @@
 import { GlossaryLink } from "@/components/glossary/glossary-link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faArrowsRotate,
+  faFileContract,
+  faFileInvoiceDollar,
+  faShieldHalved,
+  faSitemap,
+  faUserCheck,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function ConfiguringSection() {
+  const topics = [
+    { icon: faUserCheck, color: "text-white", label: "Worker classification logic" },
+    { icon: faFileInvoiceDollar, color: "text-[#0B162A]", label: "Payroll tax automation" },
+    { icon: faShieldHalved, color: "text-white", label: "Compliance 360 Management" },
+    { icon: faFileContract, color: "text-[#0B162A]", label: "Contractor management" },
+    { icon: faArrowsRotate, color: "text-white", label: "Pre-built integrations" },
+    { icon: faSitemap, color: "text-[#0B162A]", label: "Policies and exceptions" },
+  ];
+
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -98,7 +116,22 @@ export default function ConfiguringSection() {
               </h2>
               {body}
             </div>
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {topics.map((topic) => (
+                  <li key={topic.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={topic.icon}
+                      className={topic.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {topic.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </section>
