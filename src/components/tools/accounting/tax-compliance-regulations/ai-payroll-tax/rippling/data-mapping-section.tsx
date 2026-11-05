@@ -1,4 +1,23 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBriefcase,
+  faCalendarDay,
+  faDollarSign,
+  faLocationDot,
+  faScaleBalanced,
+  faUserTie,
+} from "@fortawesome/free-solid-svg-icons";
+
 export default function DataMappingSection() {
+  const fields = [
+    { icon: faLocationDot, color: "text-[#C83803]", label: "Location" },
+    { icon: faUserTie, color: "text-white", label: "Role" },
+    { icon: faBriefcase, color: "text-[#BF5934]", label: "Employment type" },
+    { icon: faCalendarDay, color: "text-[#C83803]", label: "Start date" },
+    { icon: faDollarSign, color: "text-white", label: "Pay rate" },
+    { icon: faScaleBalanced, color: "text-[#BF5934]", label: "Tax jurisdiction" },
+  ];
+
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -88,7 +107,22 @@ export default function DataMappingSection() {
       <section className="min-h-screen bg-[#024059] text-white py-5 hidden lg:block">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {fields.map((field) => (
+                  <li key={field.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={field.icon}
+                      className={field.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {field.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
             <div className="col-span-7">
               <h2 id="the-data-structure-and-mapping-work-that-sets-up-rippling-for-south-florida-ai-payroll-tax-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Data Structure and Mapping Work That Sets Up Rippling for South Florida AI Payroll Tax
