@@ -4,6 +4,7 @@ import {
   faCalendarDay,
   faDollarSign,
   faLocationDot,
+  faPlug,
   faScaleBalanced,
   faUserTie,
 } from "@fortawesome/free-solid-svg-icons";
@@ -16,6 +17,7 @@ export default function DataMappingSection() {
     { icon: faCalendarDay, color: "text-[#C83803]", label: "Start date" },
     { icon: faDollarSign, color: "text-white", label: "Pay rate" },
     { icon: faScaleBalanced, color: "text-[#BF5934]", label: "Tax jurisdiction" },
+    { icon: faPlug, color: "text-[#C83803]", label: "Integration with accounting and HR tools" },
   ];
 
   const body = (
