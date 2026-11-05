@@ -23,13 +23,13 @@ export async function setBookingConfirmationCookie(
   })
 }
 
-export async function consumeBookingConfirmationCookie(): Promise<BookingConfirmationPayload | null> {
+// Next only lets a Server Function or Route Handler delete a cookie, never a page while it
+// renders, so the confirmation page reads the cookie and its 120 second lifetime ends it.
+export async function readBookingConfirmationCookie(): Promise<BookingConfirmationPayload | null> {
   const cookieStore = await cookies()
   const raw = cookieStore.get(BOOKING_CONFIRMATION_COOKIE)?.value
 
   if (!raw) return null
-
-  cookieStore.delete(BOOKING_CONFIRMATION_COOKIE)
 
   try {
     const parsed = JSON.parse(raw) as BookingConfirmationPayload
