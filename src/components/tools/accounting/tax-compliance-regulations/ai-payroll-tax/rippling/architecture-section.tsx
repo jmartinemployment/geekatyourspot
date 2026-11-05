@@ -1,10 +1,24 @@
-import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faArrowsLeftRight,
+  faArrowTrendUp,
+  faClipboardList,
+  faClockRotateLeft,
+  faDatabase,
+  faGears,
+  faShieldHalved,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function ArchitectureSection() {
-  const imageSrc = "/images/tools/rippling/architecture-section/architecture-section.avif";
-  const imageAlt = "Rippling&apos;s architecture designed to unify HR, payroll, IT, and finance data";
-  const imageWidth = 800;
-  const imageHeight = 400;
+  const points = [
+    { icon: faDatabase, color: "text-white", label: "One central database" },
+    { icon: faArrowsLeftRight, color: "text-[#0B162A]", label: "Two-way accounting integrations" },
+    { icon: faClockRotateLeft, color: "text-white", label: "Complete worker history" },
+    { icon: faClipboardList, color: "text-[#0B162A]", label: "Audit logs for every action" },
+    { icon: faShieldHalved, color: "text-white", label: "Compliance 360 module" },
+    { icon: faGears, color: "text-[#0B162A]", label: "Custom automation rules" },
+    { icon: faArrowTrendUp, color: "text-white", label: "Scales as you grow" },
+  ];
 
   const body = (
     <>
@@ -84,15 +98,20 @@ export default function ArchitectureSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center">
-              <Image
-                src={imageSrc}
-                alt={imageAlt}
-                width={imageWidth}
-                height={imageHeight}
-                className="w-full h-auto"
-                priority
-                sizes="(min-width: 1024px) 42vw, 1px"
-              /> 
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {points.map((point) => (
+                  <li key={point.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={point.icon}
+                      className={point.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white text-shadow-sm">
+                      {point.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
             </div>
             <div className="col-span-7">
               <h2 id="what-powers-rippling-architecture-integrations-and-data-control-behind-the-scenes-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] text-shadow-sm">
