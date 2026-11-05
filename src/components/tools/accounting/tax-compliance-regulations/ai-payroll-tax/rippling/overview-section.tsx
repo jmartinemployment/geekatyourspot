@@ -1,13 +1,26 @@
 import Link from "next/link";
-import Image from "next/image";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBookOpen,
+  faBuildingColumns,
+  faFileLines,
+  faHelmetSafety,
+  faMagnifyingGlassDollar,
+  faRobot,
+  faTriangleExclamation,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function OverviewSection() {
+  const points = [
+    { icon: faHelmetSafety, color: "text-[#C83803]", label: "Mixed W-2 and 1099 crews" },
+    { icon: faFileLines, color: "text-white", label: "Paperwork that lags behind" },
+    { icon: faMagnifyingGlassDollar, color: "text-[#BF5934]", label: "Nobody double-checks the taxes" },
+    { icon: faBuildingColumns, color: "text-[#C83803]", label: "A state auditor comes knocking" },
+    { icon: faBookOpen, color: "text-white", label: "Rules that keep shifting" },
+    { icon: faTriangleExclamation, color: "text-[#BF5934]", label: "Fear of a penalty or lawsuit" },
+    { icon: faRobot, color: "text-[#C83803]", label: "Automation that handles it" },
+  ];
 
-  const imageSrc = "/images/tools/rippling/overview/rippling-overview.avif";
-  const imageAlt = "Rippling automates payroll tax calculations and worker classification, reducing compliance risks for South Florida small businesses";
-  const imageWidth = 800;
-  const imageHeight = 400;
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -47,8 +60,8 @@ export default function OverviewSection() {
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="overview" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                Overview
+              <h2 id="why-payroll-tax-keeps-south-florida-owners-up-at-night" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                Why Payroll Tax Keeps South Florida Owners Up at Night
               </h2>
             </div>
             <div className="col-span-12">{body()}</div>
@@ -59,19 +72,24 @@ export default function OverviewSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center min-h-screen">
-              <Image
-                src={imageSrc}
-                alt={imageAlt}
-                width={imageWidth}
-                height={imageHeight}
-                className="w-full h-auto"
-                priority
-                sizes="(min-width: 1024px) 42vw, 1px"
-              />   
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {points.map((point) => (
+                  <li key={point.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={point.icon}
+                      className={point.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {point.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
             </div>
             <div className="col-span-7">
-              <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                Overview
+              <h2 id="why-payroll-tax-keeps-south-florida-owners-up-at-night-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                Why Payroll Tax Keeps South Florida Owners Up at Night
               </h2>
               {body("-lg")}
             </div>

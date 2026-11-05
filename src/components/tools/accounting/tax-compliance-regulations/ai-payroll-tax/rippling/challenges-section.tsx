@@ -1,10 +1,24 @@
-import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCalendarXmark,
+  faFaceFrown,
+  faFileCircleXmark,
+  faHourglassHalf,
+  faPersonCircleQuestion,
+  faRoute,
+  faSackXmark,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function ChallengesSection() {
-  const imageSrc = "/images/tools/rippling/ChallengesSection/ChallengesSection.avif";
-  const imageAlt = "Rippling reduces the challenges you face with payroll tax calculations and worker classification, reducing compliance risks for South Florida small businesses";
-  const imageWidth = 800;
-  const imageHeight = 400;
+  const costs = [
+    { icon: faPersonCircleQuestion, color: "text-[#C83803]", label: "Misclassified workers" },
+    { icon: faCalendarXmark, color: "text-white", label: "Missed tax deadlines" },
+    { icon: faRoute, color: "text-[#BF5934]", label: "Multi-state filing gaps" },
+    { icon: faSackXmark, color: "text-[#C83803]", label: "Back taxes and penalties" },
+    { icon: faFileCircleXmark, color: "text-white", label: "Contracts that fail audits" },
+    { icon: faHourglassHalf, color: "text-[#BF5934]", label: "Hours lost to paperwork" },
+    { icon: faFaceFrown, color: "text-[#C83803]", label: "Stress that stalls growth" },
+  ];
 
   const body = (
     <>
@@ -90,15 +104,20 @@ export default function ChallengesSection() {
               {body}
             </div>
             <div className="col-span-5 flex items-center justify-center min-h-screen">
-              <Image
-                src={imageSrc}
-                alt={imageAlt}
-                width={imageWidth}
-                height={imageHeight}
-                className="w-full h-auto"
-                priority
-                sizes="(min-width: 1024px) 42vw, 1px"
-              /> 
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {costs.map((cost) => (
+                  <li key={cost.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={cost.icon}
+                      className={cost.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {cost.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
