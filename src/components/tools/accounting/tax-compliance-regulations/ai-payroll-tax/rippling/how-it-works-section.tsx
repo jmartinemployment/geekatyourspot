@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function HowItWorksSection() {
   const imageSrc = "/images/tools/rippling/HowItWorks/rippling-global-compliance-playbook.avif";
   const imageAlt = "Rippling&apos;s global compliance playbook";
@@ -62,7 +64,17 @@ export default function HowItWorksSection() {
               </h2>
               {body}
             </div>
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <Image
+                src={imageSrc}
+                alt={imageAlt}
+                width={imageWidth}
+                height={imageHeight}
+                className="w-full h-auto"
+                priority
+                sizes="(min-width: 1024px) 42vw, 1px"
+              /> 
+            </div>
           </div>
         </div>
       </section>
