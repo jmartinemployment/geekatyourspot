@@ -1,10 +1,25 @@
-import Image from "next/image"; 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCalculator,
+  faClipboardCheck,
+  faFileInvoice,
+  faFileSignature,
+  faHandPointer,
+  faHeartPulse,
+  faLink,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function TransformsSection() {
-  const imageSrc = "/images/tools/rippling/TransformsSection/TransformsSection.avif";
-  const imageAlt = "Rippling transforms how you handle payroll tax calculations and worker classification, reducing the challenges you face and compliance risks for South Florida small businesses";
-  const imageWidth = 800;
-  const imageHeight = 400;
+  const removals = [
+    { icon: faClipboardCheck, color: "text-white", label: "Classification at onboarding" },
+    { icon: faFileSignature, color: "text-[#0B162A]", label: "Contracts by status and location" },
+    { icon: faCalculator, color: "text-white", label: "Payroll tax filing and payment" },
+    { icon: faHeartPulse, color: "text-[#0B162A]", label: "Real-time compliance monitoring" },
+    { icon: faFileInvoice, color: "text-white", label: "Contractor invoices and payments" },
+    { icon: faHandPointer, color: "text-[#0B162A]", label: "One-click fixes" },
+    { icon: faLink, color: "text-white", label: "Accounting integration" },
+  ];
+
   const body = (
     <>
       <p className="text-base text-white text-shadow-xs pt-3">
@@ -107,15 +122,20 @@ export default function TransformsSection() {
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center">
-              <Image
-                src={imageSrc}
-                alt={imageAlt}
-                width={imageWidth}
-                height={imageHeight}
-                className="w-full h-auto"
-                priority
-                sizes="(min-width: 1024px) 42vw, 1px"
-              />
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {removals.map((removal) => (
+                  <li key={removal.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={removal.icon}
+                      className={removal.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white text-shadow-xs">
+                      {removal.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
             </div>
             <div className="col-span-7">
               <h2 id="how-rippling-removes-ai-payroll-tax-from-your-week-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] text-shadow-xs">
