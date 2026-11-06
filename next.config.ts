@@ -14,6 +14,24 @@ const nextConfig: NextConfig = {
     return [
       { source: "/wp-sitemap.xml", destination: "/sitemap.xml", permanent: true },
       { source: "/:file(wp-sitemap-.*\\.xml)", destination: "/sitemap.xml", permanent: true },
+      // Old WordPress pages that Search Console still reports as 404 (2026-11-06) and that have a
+      // close match here. The other old addresses have no equivalent page, so they stay 404.
+      { source: "/cookie-policy", destination: "/privacy-policy", permanent: true },
+      {
+        source: "/blog/search-engine-marketing-for-south-florida-dominating-google-in-broward-and-palm-beach-county",
+        destination: "/blog/marketing/ad-spend-optimization/how-south-florida-businesses-can-stop-wasting-ad-spend",
+        permanent: true,
+      },
+      {
+        source: "/blog/search-engine-marketing-stop-paying-for-clicks-you-could-get-free",
+        destination: "/use-cases/marketing/ai-seo-tools",
+        permanent: true,
+      },
+      {
+        source: "/blog/email-marketing-own-your-audience-instead-of-renting-it-from-social-media",
+        destination: "/use-cases/marketing/marketing-automation-platforms/ai-personalized-email-campaigns",
+        permanent: true,
+      },
     ];
   },
 
