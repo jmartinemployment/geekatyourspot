@@ -7,6 +7,16 @@ const nextConfig: NextConfig = {
   // Host canonicalization lives in Vercel (Settings > Domains), not here. Having both caused a
   // redirect loop: this file sent apex -> www while the dashboard sent www -> apex.
 
+  // The site was WordPress before 2026 and Google still lists WordPress's own sitemap files as
+  // referrers (Search Console, 2026-11-06). WordPress served /wp-sitemap.xml and one
+  // /wp-sitemap-<type>-<name>-<n>.xml per content type, so they all point at the one sitemap.
+  async redirects() {
+    return [
+      { source: "/wp-sitemap.xml", destination: "/sitemap.xml", permanent: true },
+      { source: "/:file(wp-sitemap-.*\\.xml)", destination: "/sitemap.xml", permanent: true },
+    ];
+  },
+
   // Keep the site out of search results until launch. This header beats the per-page `robots`
   // metadata exports, so there is no page to forget. Set ALLOW_INDEXING=true in Vercel to launch.
   async headers() {
