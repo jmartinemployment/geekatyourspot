@@ -1,0 +1,149 @@
+{
+  "activeLayerID" : "9793D650-6418-41EB-9076-E6877D510A50",
+  "colorSpace" : "sRGB",
+  "documentID" : "4E19C0B7-BCF3-4FE2-91DF-2CFF592236D1",
+  "format" : "com.compositor.project",
+  "height" : 1350,
+  "layers" : [
+    {
+      "blendMode" : "Normal",
+      "id" : "1B3B7A31-946B-4EE5-BD86-C556C31D44FF",
+      "imageFile" : "1B3B7A31-946B-4EE5-BD86-C556C31D44FF.png",
+      "isGroup" : false,
+      "isVisible" : true,
+      "name" : "Rectangle 1",
+      "opacity" : 1,
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          0,
+          -4
+        ],
+        "rotation" : 0,
+        "sampling" : "High quality",
+        "size" : [
+          1081,
+          1354
+        ]
+      }
+    },
+    {
+      "blendMode" : "Normal",
+      "id" : "5D133A74-E0F4-4C26-BBF7-D9F002AC2F59",
+      "imageFile" : "5D133A74-E0F4-4C26-BBF7-D9F002AC2F59.png",
+      "isGroup" : false,
+      "isVisible" : true,
+      "name" : "100-error-free",
+      "opacity" : 1,
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          140,
+          165
+        ],
+        "rotation" : 0,
+        "sampling" : "High quality",
+        "size" : [
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "blendMode" : "Normal",
+      "id" : "B9BFFE24-43E4-48FA-8CC3-FBCDF878050C",
+      "imageFile" : "B9BFFE24-43E4-48FA-8CC3-FBCDF878050C.png",
+      "isGroup" : false,
+      "isVisible" : true,
+      "name" : "Layer 1",
+      "opacity" : 1,
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          435.5,
+          1217
+        ],
+        "rotation" : 0,
+        "sampling" : "High quality",
+        "size" : [
+          609,
+          87
+        ]
+      }
+    },
+    {
+      "blendMode" : "Normal",
+      "id" : "5F247242-9FB2-4C3E-B715-6DF4D290E9E6",
+      "imageFile" : "5F247242-9FB2-4C3E-B715-6DF4D290E9E6.png",
+      "isGroup" : false,
+      "isVisible" : true,
+      "name" : "Rippling automates payroll tax calculati",
+      "opacity" : 1,
+      "text" : {
+        "alignment" : "Left",
+        "blue" : 1,
+        "content" : "Rippling automates payroll tax calculations \nand worker classification, reducing\ncompliance risks for South Florida\nsmall businesses.",
+        "fontName" : "PingFangMO-Semibold",
+        "fontSize" : 32,
+        "green" : 1,
+        "leading" : 0,
+        "red" : 1,
+        "tracking" : 0
+      },
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          28,
+          956
+        ],
+        "rotation" : 0,
+        "sampling" : "High quality",
+        "size" : [
+          712,
+          178
+        ]
+      }
+    },
+    {
+      "blendMode" : "Normal",
+      "id" : "9793D650-6418-41EB-9076-E6877D510A50",
+      "imageFile" : "9793D650-6418-41EB-9076-E6877D510A50.png",
+      "isGroup" : false,
+      "isVisible" : true,
+      "name" : "Payroll on Autopilot",
+      "opacity" : 1,
+      "text" : {
+        "alignment" : "Left",
+        "blue" : 1,
+        "content" : "Payroll on\nAutopilot",
+        "fontName" : "Arial-Black",
+        "fontSize" : 126,
+        "green" : 1,
+        "leading" : 120,
+        "red" : 1,
+        "tracking" : 0
+      },
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          28,
+          74
+        ],
+        "rotation" : 0,
+        "sampling" : "High quality",
+        "size" : [
+          723,
+          264
+        ]
+      }
+    }
+  ],
+  "resolution" : 72,
+  "version" : 21,
+  "width" : 1080
+}
