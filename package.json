@@ -9,6 +9,7 @@
     "lint": "eslint",
     "urls": "node --no-warnings --experimental-strip-types scripts/list-content-urls.ts",
     "figures": "node --no-warnings --experimental-strip-types scripts/list-figures.ts",
+    "indexnow": "node --no-warnings --experimental-strip-types scripts/indexnow-submit.ts",
     "check:faq": "node --no-warnings --experimental-strip-types scripts/check-faq-schema.ts",
     "check:nav": "node --no-warnings --experimental-strip-types scripts/check-nav.ts"
   },

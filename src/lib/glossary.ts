@@ -43,24 +43,29 @@ export function definitionText(term: GlossaryTerm): string {
 
 /**
  * The visible definition cut to fit a meta description: as many whole sentences as fit in max
- * characters, or, when the first sentence alone is longer, that sentence cut at a word boundary
- * with an ellipsis. Search engines then quote the same definition the page shows.
+ * characters, provided they come to at least min. When they come to less, because the next
+ * sentence would not fit, the definition is cut at a word boundary with an ellipsis instead, so
+ * the description is not left short. Search engines then quote the same definition the page shows.
  */
-export function definitionSummary(term: GlossaryTerm, max = 160): string {
+export function definitionSummary(term: GlossaryTerm, max = 160, min = 150): string {
   const text = definitionText(term);
   if (text.length <= max) return text;
 
-  const sentences = text.match(/[^.!?]+[.!?]+(?=\s|$)/g) ?? [];
+  // A full stop only ends a sentence when whitespace follows it, so "GPT-3.5" stays in one piece.
+  const sentences = text.match(/.+?[.!?]+(?=\s|$)/g) ?? [];
   let summary = "";
   for (const sentence of sentences) {
     const next = `${summary} ${sentence.trim()}`.trim();
     if (next.length > max) break;
     summary = next;
   }
-  if (summary) return summary;
+  if (summary.length >= min) return summary;
 
+  // The ellipsis takes one of the max characters. A space right after the cut means the last word
+  // in it is whole, so it stays; only a word the cut lands inside is dropped.
   const cut = text.slice(0, max - 1);
-  const lastSpace = cut.lastIndexOf(" ");
+  const endsOnWord = text[max - 1] === " ";
+  const lastSpace = endsOnWord ? cut.length : cut.lastIndexOf(" ");
   return `${(lastSpace > 0 ? cut.slice(0, lastSpace) : cut).replace(/[,;:.]$/, "")}…`;
 }
 
