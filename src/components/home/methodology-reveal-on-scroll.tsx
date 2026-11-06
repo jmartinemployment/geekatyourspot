@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "motion/react";
+import { useEffect, useRef, useState } from "react";
 
 interface MethogologyRevealOnScrollProps {
   readonly children: React.ReactNode;
@@ -8,28 +8,52 @@ interface MethogologyRevealOnScrollProps {
   readonly direction?: "up" | "down" | "left" | "right";
   readonly className?: string;
 }
+
+// Where each direction starts. The element slides from here to its place, and the browser
+// interpolates `translate: none` as no offset, so it ends with no transform at all.
+const START_OFFSET = {
+  up: "0px 40px",
+  down: "0px -40px",
+  left: "40px 0px",
+  right: "-40px 0px",
+} as const;
+
 export function MethogologyRevealOnScroll({
   children,
   delay = 0,
   direction = "up",
   className,
 }: MethogologyRevealOnScrollProps) {
-  const variants = {
-    up: { initial: { y: 40 }, animate: { y: 0 } },
-    down: { initial: { y: -40 }, animate: { y: 0 } },
-    left: { initial: { x: 40 }, animate: { x: 0 } },
-    right: { initial: { x: -40 }, animate: { x: 0 } },
-  };
+  const ref = useRef<HTMLDivElement>(null);
+  const [revealed, setRevealed] = useState(false);
+
+  // Reveal once, when the element is 100px inside the viewport, then stop watching.
+  useEffect(() => {
+    const element = ref.current;
+    if (!element) return;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((entry) => entry.isIntersecting)) {
+          setRevealed(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: "-100px" },
+    );
+    observer.observe(element);
+    return () => observer.disconnect();
+  }, []);
 
   return (
-    <motion.div
-      initial={variants[direction].initial}
-      whileInView={variants[direction].animate}
-      viewport={{ once: true, margin: "-100px" }}
-      transition={{ duration: 0.5, ease: "easeOut", delay }}
+    <div
+      ref={ref}
       className={className}
+      style={{
+        translate: revealed ? "none" : START_OFFSET[direction],
+        transition: `translate 0.5s ease-out ${delay}s`,
+      }}
     >
       {children}
-    </motion.div>
+    </div>
   );
 }

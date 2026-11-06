@@ -160,6 +160,18 @@ html, body {
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+/* The home page marquee rows. Each track holds its items twice, so sliding it by half its width
+   loops without a visible jump. InfiniteMarquee sets the duration. */
+@keyframes marquee-left {
+  from { transform: translateX(0%); }
+  to { transform: translateX(-50%); }
+}
+
+@keyframes marquee-right {
+  from { transform: translateX(-50%); }
+  to { transform: translateX(0%); }
+}
+
 @layer base {
     h2, h3, h4, h5 {
     display: block;

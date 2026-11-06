@@ -1,6 +1,3 @@
-"use client";
-import { motion }  from 'motion/react';
-
 interface InfiniteMarqueeProps {
   readonly items: string[];
   readonly direction?: "left" | "right";
@@ -18,16 +15,11 @@ export function InfiniteMarquee({
       <div className="absolute left-0 top-0 bottom-0 w-24 z-10" />
       <div className="absolute right-0 top-0 bottom-0 w-24 z-10" />
 
-      <motion.div
+      <div
         className="flex gap-6"
-        style={{ width: 'max-content' }}
-        animate={{ x: direction === 'left' ? '-50%' : '0%' }}
-        initial={{ x: direction === 'left' ? '0%' : '-50%' }}
-        transition={{
-          duration: speed,
-          ease: 'linear',
-          repeat: Infinity,
-          repeatType: 'loop',
+        style={{
+          width: 'max-content',
+          animation: `${direction === 'left' ? 'marquee-left' : 'marquee-right'} ${speed}s linear infinite`,
         }}
       >
         {[...items, ...items].map((item, i) => (
@@ -38,7 +30,7 @@ export function InfiniteMarquee({
             {item}
           </div>
         ))}
-      </motion.div>
+      </div>
     </div>
   );
 }
