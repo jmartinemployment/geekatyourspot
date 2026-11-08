@@ -42,7 +42,8 @@ Deliverables, written into `GeekBackend/docs/` (no code, no schema):
   webhook support x token lifetime/refresh, with **BLOCKED** where unsupported or unapproved.
 - Then stop and show Jeff the matrix.
 
-Findings so far (official docs fetched 2026-11-08; Phase 0 must re-confirm each and close the gaps):
+Findings so far (official docs fetched 2026-11-08, all LinkedIn pages read at the `li-lms-2026-10`
+doc version, none from the 202511 era; Phase 0 must re-confirm each and close the gaps):
 
 | Action | Meta Page (Graph v27.0) | LinkedIn org | LinkedIn member |
 |---|---|---|---|
@@ -82,13 +83,23 @@ Where each piece lives (all paths under `GeekBackend/`, reuse these, do not inve
   precedent: `GeekRepository/Migrations/Sql/0043_geek_social_schema.sql` plus a `SocialDbContext`
   with no EF migrations. **Deviation:** the brief says migrations go through `dotnet ef`; the three
   newest schemas use SQL files via `SqlMigrationRunner`. Decide at the Phase 2 gate after reading the
-  runner. Reads via Dapper (`Repositories/Blog/BlogRepository.cs`), writes via EF. GeekAPI reaches the
+  runner. Reads via Dapper (`Repositories/Blog/BlogRepository.cs`), writes via EF. **Schema-parity
+  test, required with either mechanism:** an integration test (`TEST_DATABASE_URL`, applied with
+  `SqlMigrationTestHelper`) that applies the scripts to an empty database and then queries every
+  `SocialDbContext` set, so a column the SQL lacks (or the model misspells) fails the build instead of
+  failing in production. A context with no EF migrations has no model snapshot to compare, so the
+  test runs the model against the real schema. GeekAPI reaches the
   data only through `HttpSocial*Repository` (`GeekAPI/HttpClients/HttpVisitorRepository.cs` pattern) to
   new `repo/social/*` controllers (`GeekRepository/Controllers/Gtm`, `Visitors` pattern).
 - **Token encryption:** copy `GeekRepository/Infrastructure/GtmCredentialProtector.cs` (AES-256-GCM,
   returns null on failure so callers fail closed; AGENTS.md says copy, never reuse) as
   `SocialCredentialProtector` with its own key env var. Never log tokens, comment bodies or personal data.
-- **Ingestion (Phase 3):** public, signature-verified GeekAPI endpoints for each platform
+  Decrypted tokens travel only inside a sealed `SocialToken` type whose `ToString` and JSON
+  serialization are redacted, and a test exercises the exception and ProblemDetails path with one
+  to prove no token reaches a response or a log line.
+- **Ingestion (Phase 3):** public, signature-verified GeekAPI endpoints for each platform (the handshake GETs answer from
+  in-memory configuration only, with no repo call: LinkedIn allows 3 seconds, re-validates every
+  2 hours, and blocks the endpoint after 3 failures)
   (`api/social/webhooks/meta`, `.../linkedin`): handshake, verify against the raw body, persist the
   event with `ON CONFLICT DO NOTHING`, wake the worker, return 200. Worker follows
   `GeekAPI/Services/GeekCrawler/GeekCrawlerWake.cs` + `GeekCrawlerWorker.cs` (`Channel<Guid>` wake and
@@ -107,12 +118,16 @@ Where each piece lives (all paths under `GeekBackend/`, reuse these, do not inve
   later sends. A crash between the platform call and the DB write leaves a `sending` row that startup
   recovery marks failed with "outcome unknown, verify on platform" and never resends.
   Brand voice config is a new file (none exists); seed it from Jeff's copy rules (no em dashes, full
-  sentences, "small businesses" never SMBs, no AI-in-HR pitches, never the home address, phone or email).
+  sentences, "small businesses" never SMBs, no AI-in-HR pitches, never the home address, phone or email). The rules go into the system prompt
+  and are also enforced in code: a `ReplyDraftValidator` rejects a draft that contains an em dash,
+  "SMB", the address, phone or email, or a link that was not approved. A rejected draft is
+  operator-visible and is never silently rewritten.
 - **API and UI (Phase 5):** GeekAPI controllers under `api/social/*` with the `geeksocial.manage`
   policy. GeekOAuth: add `SeedGeekSocialClient` to `GeekOAuth/src/GeekOAuth.Server/Infrastructure/OidcPublicClientSeeds.cs`
   (copy `SeedGeekReportsClient`), the scope to `ScopeSeeder.cs` (existing scopes are never edited, so
   get the name right), and the new host to the CSP list in `Middleware/SecurityHeadersMiddleware.cs:111-133`.
-  Frontend: a new Next.js repo on Vercel (every internal app is its own repo and Vercel project; none
+  Frontend (host decided at the Phase 5 gate: a new repo, or pages inside `GeekContentWorkflow`,
+  which already has an approval queue and Bearer server actions): a new Next.js repo on Vercel (every internal app is its own repo and Vercel project; none
   is on Railway), copying `content-creator-v2` auth (`src/lib/auth/cookies.ts`, `src/proxy.ts`, the
   `src/app/api/cw/[...path]/route.ts` same-origin Bearer proxy). Inbox page copies
   `GeekContentWorkflow/src/app/app/reconciliation/page.tsx`; the edit step is new (nearest form:
