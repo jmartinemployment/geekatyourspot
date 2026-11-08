@@ -102,11 +102,15 @@ const jsonLd = {
 /** The H1's lead words and the place the business serves; with the template it runs 54 characters. */
 const HOME_TITLE = "AI Integration in South Florida";
 
+/** The search result snippet and the link previews; 146 characters. */
+const HOME_DESCRIPTION =
+  "We help small businesses try AI without betting the business on it. Pilot-first AI for South Florida, proven before you switch. Free consultation.";
+
 export const generateMetadata = async (): Promise<Metadata> => {
   return {
     metadataBase: new URL('https://geekatyourspot.com'),
     title: HOME_TITLE,
-    description: 'Ready to put AI to work? Geek @ Your Spot LLC implementing practical AI tools for South Florida small businesses to scale, reduce errors, and cut manual work.',
+    description: HOME_DESCRIPTION,
     keywords: [
       'AI consulting',
       'AI for small business',
@@ -138,7 +142,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     },
     openGraph: {
       title: `${HOME_TITLE} | Geek @ Your Spot LLC`,
-      description: 'Ready to put AI to work? Geek @ Your Spot LLC implementing practical AI tools for South Florida small businesses to scale, reduce errors, and cut manual work.',
+      description: HOME_DESCRIPTION,
       url: 'https://geekatyourspot.com',
       siteName: 'Geek @ Your Spot LLC',
       images: [SHARE_IMAGE],
@@ -148,7 +152,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     twitter: {
       card: 'summary_large_image',
       title: `${HOME_TITLE} | Geek @ Your Spot LLC`,
-      description: 'Ready to put AI to work? Geek @ Your Spot LLC implementing practical AI tools for South Florida small businesses.',
+      description: HOME_DESCRIPTION,
       images: [SHARE_IMAGE],
     },
     robots: {
