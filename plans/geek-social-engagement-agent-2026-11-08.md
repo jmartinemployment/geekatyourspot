@@ -126,8 +126,7 @@ Where each piece lives (all paths under `GeekBackend/`, reuse these, do not inve
   policy. GeekOAuth: add `SeedGeekSocialClient` to `GeekOAuth/src/GeekOAuth.Server/Infrastructure/OidcPublicClientSeeds.cs`
   (copy `SeedGeekReportsClient`), the scope to `ScopeSeeder.cs` (existing scopes are never edited, so
   get the name right), and the new host to the CSP list in `Middleware/SecurityHeadersMiddleware.cs:111-133`.
-  Frontend (host decided at the Phase 5 gate: a new repo, or pages inside `GeekContentWorkflow`,
-  which already has an approval queue and Bearer server actions): a new Next.js repo on Vercel (every internal app is its own repo and Vercel project; none
+  Frontend: a new Next.js repo on Vercel (every internal app is its own repo and Vercel project; none
   is on Railway), copying `content-creator-v2` auth (`src/lib/auth/cookies.ts`, `src/proxy.ts`, the
   `src/app/api/cw/[...path]/route.ts` same-origin Bearer proxy). Inbox page copies
   `GeekContentWorkflow/src/app/app/reconciliation/page.tsx`; the edit step is new (nearest form:
