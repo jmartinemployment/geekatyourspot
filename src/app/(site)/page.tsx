@@ -102,9 +102,9 @@ const jsonLd = {
 /** The H1's lead words and the place the business serves; with the template it runs 54 characters. */
 const HOME_TITLE = "AI Integration in South Florida";
 
-/** The search result snippet and the link previews; 145 characters. */
+/** The search result snippet and the link previews; 152 characters. */
 const HOME_DESCRIPTION =
-  "I help small businesses try AI without betting the business on it. Pilot-first AI for South Florida, proven before you switch. Free consultation.";
+  "I help small businesses try AI without betting the business on it. Pilot-first AI for South Florida, proven before you switch. Get a free AI assessment.";
 
 export const generateMetadata = async (): Promise<Metadata> => {
   return {
