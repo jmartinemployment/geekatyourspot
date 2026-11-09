@@ -67,6 +67,9 @@ export const SITE_GRAPH = {
         GBP_MAP_URL,
         "https://www.facebook.com/geekatyourspot",
         "https://www.linkedin.com/company/geekatyourspot",
+        // The business's own Instagram account, created 2026-11-09 by the owner. It lists no address
+        // or phone, so the check below is for directory profiles only.
+        "https://www.instagram.com/geekatyourspot",
         // The BBB profile (file opened 2026-10-21). Checked 2026-10-23: it carries this node's name,
         // address and phone. A profile goes in this list only after its page returns 200 with the
         // same name, address and phone as the site.
