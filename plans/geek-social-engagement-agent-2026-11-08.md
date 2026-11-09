@@ -168,10 +168,11 @@ no fallback model or canned reply stands in; an operator action re-runs the step
 
 ## Phases 1 to 6 (outline; each gated, none started by the first approval)
 
-**Phase 2b (built 2026-11-09, awaiting Jeff's gate): the changes the agent split needs.** Phase 1 and
-Phase 2 were built. Splitting Triage from the Drafter changed them in four small ways, done and gated
-together. Because `0043_geek_social_schema.sql` has never been pushed or applied anywhere, the new
-columns went into it directly and there is no `0044`. Item 4's open question is decided: a refused
+**Phase 2b (built, pushed and applied in production 2026-11-09): the changes the agent split needs.**
+Phase 1 and Phase 2 were built. Splitting Triage from the Drafter changed them in four small ways, done
+and gated together. `0043_geek_social_schema.sql` had not been pushed or applied anywhere when 2b was
+built, so the new columns went into it directly and there is no `0044`; it was applied in production
+the same day with them. Item 4's open question is decided: a refused
 draft is created `rejected`, with the rules it broke in `reply_drafts.review_refusal` (a `text[]` the
 database checks against the Reviewer's rule list), so the draft states gained nothing.
 1. `IReplyDrafter` currently returns a category as well as the draft. The category moves to the new
@@ -225,6 +226,21 @@ Where each piece lives (all paths under `GeekBackend/`, reuse these, do not inve
   one-shot orphan recovery at startup). **Deviation:** AGENTS.md forbids timer polling, so the brief's
   polling fallback becomes gap recovery only: on startup, after resubscribing, and from an operator
   "resync" action, using LinkedIn's documented pull API and Meta's `GET /{post-id}/comments`.
+  **Phase 3 status (2026-11-09, in progress, committed in GeekBackend and not yet pushed):** built and
+  tested: the Facebook Page half of the Listener (handshake from memory, `X-Hub-Signature-256` against
+  the raw body, feed comments and reactions stored once each, `POST api/social/webhooks/meta` answered
+  200 only after every event is stored, the one public path the API key check lets through), the
+  orchestrator's intake (takes a stored event in, purges expired text, wakes every untriaged comment
+  after a restart, and keeps a status record Phase 5 will show), and the token provider (the only
+  decrypter; renews inside a 7-day window; marks `reconnect_required` when the platform refuses).
+  Still to build: the Meta Connector (authorization, token exchange, `debug_token`, the `feed`
+  subscription) and the endpoints that start and finish a connection, which wait on two answers from
+  Jeff (the Login for Business configuration's token type, and how the connect link is started before
+  the inbox exists). LinkedIn waits on its app; Instagram waits on I1 and on reading its webhook
+  fields (I3). Meta settings are env vars on GeekAPI: `GEEK_SOCIAL_META_APP_ID`,
+  `GEEK_SOCIAL_META_APP_SECRET`, `GEEK_SOCIAL_META_VERIFY_TOKEN` (a string Jeff makes up and types
+  into both places) and `GEEK_SOCIAL_META_LOGIN_CONFIG_ID`; a missing one fails the request that needs
+  it (`not_configured`), it never defaults.
 - **Triage, Drafter, Reviewer and the reply path (Phase 4a), then Sender and Post Writer (Phase 4b):**
   Phase 4a ends with a `pending` draft in the store and nothing sent. Phase 4b adds the Sender, the
   send step of the orchestrator and the Post Writer, and ends at the first real send.
