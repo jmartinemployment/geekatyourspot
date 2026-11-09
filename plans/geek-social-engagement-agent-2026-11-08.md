@@ -1,9 +1,11 @@
-# GeekSocial engagement agent (Facebook Pages + LinkedIn)
+# GeekSocial engagement agents and orchestrator (Facebook, Instagram, LinkedIn)
 
 ## Context
 
-Jeff wants a service that publishes article and link posts to a Facebook Page and LinkedIn, watches
-comments and reactions, drafts replies with Claude, and sends replies and reactions after approval.
+Jeff wants a service that publishes article and link posts to a Facebook Page, Instagram and
+LinkedIn, watches comments and reactions, drafts replies with Claude, and sends replies and
+reactions after approval. It is built as separate components, each an agent with one responsibility,
+coordinated by an orchestrator (see "Agents and the orchestrator" below).
 His brief is gated: Phase 0 (verify the platform APIs, write `docs/PLATFORM-CAPABILITIES.md`, stop and
 show the matrix) comes before any code, and every later phase stops at a gate for his review.
 
@@ -23,6 +25,9 @@ architecture now; each still ends at its own gate.
   "audience `geeksocial`" is replaced by the scope.
 - **Existing setup:** Facebook test Page (admin) and LinkedIn company Page (admin). Not yet: Meta
   developer app, LinkedIn developer app, Community Management API access.
+- **Structure: separate agents, one responsibility each, plus an orchestrator (Jeff, 2026-11-09).**
+  The earlier outline had one agent. It is now the components under "Agents and the orchestrator".
+  The orchestrator is plain code, not a Claude call.
 
 ## Long-lead items Jeff must start now (before or during Phase 0)
 
@@ -66,7 +71,109 @@ is required to read commenter text; token invalidation triggers; whether a Page 
 non-LIKE reactions; the LinkedIn `*_social` vs `*_social_feed` scope names; LinkedIn data-retention
 rules (sets the purge window); Development-tier limits against the planned call volume.
 
+## Agents and the orchestrator
+
+Each agent has one responsibility, a typed contract in `GeekApplication/`, and a list of things it
+must never do. The orchestrator is the only component that knows the order of the steps. No agent
+calls another agent: each takes an input and returns a `Result<T>`, and the orchestrator carries the
+result to the next one.
+
+| Component | Its one responsibility | Claude |
+|---|---|---|
+| Connector | Credentials: authorization, token storage and renewal, webhook subscriptions, marking an account `reconnect_required` | no |
+| Listener | Turning what the platforms send (and what a resync reads) into one stored `EngagementEvent` per event | no |
+| Triage | Deciding what a comment is: category, whether it needs a reply, whether a person must write it | yes |
+| Drafter | Writing the reply text for a comment Triage said needs one | yes |
+| Post Writer | Writing the post copy for an article or link, per platform | yes |
+| Reviewer | Checking any outbound text against the voice and safety rules, and refusing what breaks them | no |
+| Sender | Being the only component that changes anything on a platform: publish, reply, react. One attempt, one audit row | no |
+| Orchestrator | The order of the steps, the state of each draft, and the guardrails around a send | no |
+
+**Per component** (all under `GeekAPI/Services/Social/`, one folder each):
+
+- **Connector** (`Connector/`; contract `ISocialAccountConnector`, plus a new `ISocialTokenProvider`).
+  Takes an authorization callback, or a request for a token. Returns the stored account, or a
+  `SocialToken` that is not expired. It renews a token when one within its renewal window is asked
+  for, and marks the account `reconnect_required` when renewal fails. It is the only component that
+  encrypts or decrypts a token (`SocialCredentialProtector`). It never reads engagement and never
+  sends. No timer renews tokens (AGENTS.md forbids polling).
+- **Listener** (`Listener/`; contract `ISocialEngagementReader`). Takes a webhook delivery or a
+  resync page. Returns events stored once (`ON CONFLICT DO NOTHING`) and wakes the orchestrator with
+  the event id. The handshake answers from in-memory configuration only. It never interprets a
+  comment, never calls Claude and never calls a platform write endpoint.
+- **Triage** (`Triage/`; new contract `IEngagementTriage`). Takes one stored event and its post
+  context. Returns `{ NeedsReply, Category, NeedsHumanReason }` through a forced `tool_use` schema.
+  It never writes reply text, never touches the store and never calls a platform. It runs only for a
+  platform with an operator clearance recorded for sending comment text to Claude, and fails closed
+  without one.
+- **Drafter** (`Drafting/`; contract `IReplyDrafter`). Takes the event, its category and the brand
+  voice. Returns the draft text and nothing else. It does not decide the category or whether to
+  reply, and it is not called when Triage set `NeedsHumanReason`. It never sends.
+- **Post Writer** (`Publishing/`; new contract `IPostWriter`). Takes an article's URL, title and
+  summary and the target accounts. Returns post copy per platform as a suggestion for the person's
+  form. It never posts. Instagram posts need an image, so the request carries one; the Post Writer
+  never makes an image.
+- **Reviewer** (`Review/`; new contract `IOutboundTextReviewer`, replacing the planned
+  `ReplyDraftValidator`). Takes any outbound text (a draft, an edit a person made, post copy) and
+  returns pass or the list of rules it breaks: em dash, "SMB", the address, phone or email, a link
+  that was not approved, length. It never rewrites. A refusal is shown to the operator.
+- **Sender** (`Sending/`; the existing `ISocialPublisher` and `ISocialEngagementWriter`, one
+  implementation per platform, keyed DI). Takes an account, a token and one request. Returns the id
+  the platform confirmed, or a failure code. One attempt, never retried; a timeout after the request
+  left is `outcome_unknown`. It writes the `action_audit` row for the call. It never decides
+  whether to send and never edits text.
+- **Orchestrator** (`Orchestration/`; a `BackgroundService` woken through a `Channel<Guid>`, after
+  `GeekCrawlerWake.cs` and `GeekCrawlerWorker.cs`). It never calls Claude and never calls a
+  platform. It reaches agents only through their contracts and holds state only in `ISocialStore`.
+
+**The reply path, in the orchestrator's order:**
+
+1. Woken with an event id (from the Listener), or at startup for every event with no triage outcome.
+2. Only `comment_created` goes to Triage; the other event kinds are stored and not triaged.
+3. Triage returns a category and whether a reply is needed. The outcome is stored on the event.
+4. If a reply is needed and Triage did not say a person must write it, the Drafter writes it.
+5. The Reviewer checks the text. A refusal is recorded and shown; the draft is not created as `pending`.
+6. The draft is created `pending`. A person approves, edits (the Reviewer checks the edit) or rejects.
+   Auto-send applies only to a category the account opts into, never complaint or sensitive, and only
+   after step 5 passed.
+7. Before a send the orchestrator checks that the account is connected and sends are not disabled,
+   applies the per-platform rate limit and the per-thread cool-down, then moves the draft
+   `approved` to `sending` by compare-and-set. It asks the Connector for the token and hands it to
+   the Sender.
+8. The Sender's result moves the draft to `sent` (with the platform comment id) or `failed` (with a
+   code). A failure opens a cool-down; it is derived from recent audit rows so a restart does not
+   forget it.
+9. At startup it marks every draft still `sending` as `failed` with `outcome_unknown` and never
+   resends it (`FailInterruptedSendsAsync`).
+
+**The post path:** the operator starts a post, the Post Writer returns copy per platform into the
+form, the person edits it, the Reviewer checks what they submit, and the Sender publishes. Nothing is
+stored until it is published (`social_posts`), so a person always sees the copy first.
+
+**What makes "one responsibility" enforced rather than asserted** (tests in `GeekBackend.Tests`, in
+the style of `PostgresIsOAuthOnlyTests`):
+- Only the Sender takes `ISocialPublisher` or `ISocialEngagementWriter` in a constructor.
+- Only Triage, the Drafter and the Post Writer take the Anthropic client.
+- The orchestrator takes neither of the above, and no agent takes another agent.
+- A comment's text reaches only Triage and the Drafter.
+
+**Failures:** an agent that cannot complete returns a failed `Result` with a `SocialFailureCodes`
+value. The orchestrator stores it where the operator sees it. Nothing is retried automatically and
+no fallback model or canned reply stands in; an operator action re-runs the step.
+
 ## Phases 1 to 6 (outline; each gated, none started by the first approval)
+
+**Phase 2b (new, before Phase 3): the changes the agent split needs.** Phase 1 and Phase 2 are built.
+Splitting Triage from the Drafter changes them in four small ways, done and gated together:
+1. `IReplyDrafter` currently returns a category as well as the draft. The category moves to the new
+   `IEngagementTriage`; `ReplyDraftRequest` carries it in, and `ReplyDraftSuggestion` drops it.
+2. The new contracts `IEngagementTriage`, `IPostWriter`, `IOutboundTextReviewer` and
+   `ISocialTokenProvider`, with their models.
+3. Phase 2 store: a triage outcome on `engagement_events` (none yet, reply needed, no reply needed,
+   blocked for lack of clearance, failed with a code), and a way to list events with none, so the
+   orchestrator can recover at startup.
+4. Phase 2 store: a record of why the Reviewer refused a draft. The draft statuses have no state for
+   it today, so the way to record it is decided by reading what the store permits.
 
 Where each piece lives (all paths under `GeekBackend/`, reuse these, do not invent new patterns):
 - **Contracts (Phase 1):** interfaces and models in `GeekApplication/` returning `Result<T>`
@@ -97,7 +204,10 @@ Where each piece lives (all paths under `GeekBackend/`, reuse these, do not inve
   Decrypted tokens travel only inside a sealed `SocialToken` type whose `ToString` and JSON
   serialization are redacted, and a test exercises the exception and ProblemDetails path with one
   to prove no token reaches a response or a log line.
-- **Ingestion (Phase 3):** public, signature-verified GeekAPI endpoints for each platform (the handshake GETs answer from
+- **Connector, Listener and the orchestrator's intake (Phase 3):** the Connector first (an account
+  has to be connected before anything can be proven), then the Listener, then the orchestrator
+  shell that takes a wake, loads the event and recovers untriaged events at startup. Nothing
+  reaches Triage yet. The Listener is public, signature-verified GeekAPI endpoints for each platform (the handshake GETs answer from
   in-memory configuration only, with no repo call: LinkedIn allows 3 seconds, re-validates every
   2 hours, and blocks the endpoint after 3 failures)
   (`api/social/webhooks/meta`, `.../linkedin`): handshake, verify against the raw body, persist the
@@ -106,24 +216,29 @@ Where each piece lives (all paths under `GeekBackend/`, reuse these, do not inve
   one-shot orphan recovery at startup). **Deviation:** AGENTS.md forbids timer polling, so the brief's
   polling fallback becomes gap recovery only: on startup, after resubscribing, and from an operator
   "resync" action, using LinkedIn's documented pull API and Meta's `GET /{post-id}/comments`.
-- **Agent (Phase 4):** `ClaudeReplyDrafter` in `GeekAPI/Services/Social/`, modeled on
-  `GeekAPI/Services/Workflow/Providers/AnthropicProvider.cs` (raw `HttpClient`, forced `tool_use`
-  schema returning category, draft and a needs-human reason; reuse `LlmConcurrencyGate` and the
-  `LlmProviders__Anthropic__*` config; no default model). Categories question / praise / complaint /
-  spam / sensitive. Approval required by default; per-account auto-send only for categories Jeff
-  opts into; complaint and sensitive never auto. Guardrails: per-platform rate limits, per-thread
-  cooldown, unique partial index so a comment is never answered twice, max length, no links unless
-  approved, per-account kill switch. **AGENTS.md has no automatic write retries:** a send is one
-  attempt; a 429 or error marks the draft `failed`, writes an audit row, and opens a cool-down for
-  later sends. A crash between the platform call and the DB write leaves a `sending` row that startup
+- **Triage, Drafter, Reviewer and the reply path (Phase 4a), then Sender and Post Writer (Phase 4b):**
+  Phase 4a ends with a `pending` draft in the store and nothing sent. Phase 4b adds the Sender, the
+  send step of the orchestrator and the Post Writer, and ends at the first real send.
+  Triage, the Drafter and the Post Writer are each a Claude client in `GeekAPI/Services/Social/`,
+  modeled on `GeekAPI/Services/Workflow/Providers/AnthropicProvider.cs` (raw `HttpClient`, forced
+  `tool_use` schema; reuse `LlmConcurrencyGate` and the `LlmProviders__Anthropic__*` config; no
+  default model). Categories question / praise / complaint / spam / sensitive. Approval required by
+  default; per-account auto-send only for categories Jeff opts into; complaint and sensitive never
+  auto. The orchestrator's guardrails: per-platform rate limits, per-thread cooldown, the unique
+  partial index so a comment is never answered twice, the per-account kill switch.
+  **AGENTS.md has no automatic write retries:** a send is one attempt; a 429 or error marks the
+  draft `failed`, the Sender writes an audit row, and the orchestrator opens a cool-down for later
+  sends. A crash between the platform call and the DB write leaves a `sending` row that startup
   recovery marks failed with "outcome unknown, verify on platform" and never resends.
   Brand voice config is a new file (none exists); seed it from Jeff's copy rules (no em dashes, full
-  sentences, "small businesses" never SMBs, no AI-in-HR pitches, never the home address, phone or email). The rules go into the system prompt
-  and are also enforced in code: a `ReplyDraftValidator` rejects a draft that contains an em dash,
-  "SMB", the address, phone or email, or a link that was not approved. A rejected draft is
-  operator-visible and is never silently rewritten.
+  sentences, "small businesses" never SMBs, no AI-in-HR pitches, never the home address, phone or
+  email). The rules go into the Drafter's and the Post Writer's system prompts and are also enforced
+  in code by the Reviewer, which refuses text that contains an em dash, "SMB", the address, phone or
+  email, or a link that was not approved. A refused draft is operator-visible and is never silently
+  rewritten.
 - **API and UI (Phase 5):** GeekAPI controllers under `api/social/*` with the `geeksocial.manage`
-  policy. GeekOAuth: add `SeedGeekSocialClient` to `GeekOAuth/src/GeekOAuth.Server/Infrastructure/OidcPublicClientSeeds.cs`
+  policy. Approve, reject, edit, publish and resync call the orchestrator, never an agent or the
+  store directly. GeekOAuth: add `SeedGeekSocialClient` to `GeekOAuth/src/GeekOAuth.Server/Infrastructure/OidcPublicClientSeeds.cs`
   (copy `SeedGeekReportsClient`), the scope to `ScopeSeeder.cs` (existing scopes are never edited, so
   get the name right), and the new host to the CSP list in `Middleware/SecurityHeadersMiddleware.cs:111-133`.
   Frontend: a new Next.js repo on Vercel (every internal app is its own repo and Vercel project; none
@@ -137,7 +252,9 @@ Where each piece lives (all paths under `GeekBackend/`, reuse these, do not inve
   for one post, one reply and one reaction per platform; a webhook replayed twice yields exactly one
   `engagement_events` row; an expired or revoked token gives an explicit failure plus an audit row.
   Integration tests use real sandbox accounts and run only with `TEST_DATABASE_URL`
-  (`GeekBackend.IntegrationTests`); unit-test fakes stay in `GeekBackend.Tests`.
+  (`GeekBackend.IntegrationTests`); unit-test fakes stay in `GeekBackend.Tests`. Each agent is tested
+  alone against fakes of its neighbours, and the orchestrator against fake agents, so a failure points
+  at one component.
 
 ## Deviations from the brief, for Jeff's veto
 
@@ -147,6 +264,22 @@ Where each piece lives (all paths under `GeekBackend/`, reuse these, do not inve
 3. Gap recovery instead of a polling fallback; no automatic write retries.
 4. Migration mechanism decided at the Phase 2 gate (SQL convention vs `dotnet ef`).
 5. LinkedIn member reading is BLOCKED, so `LinkedInMember` ships publish-only.
+6. Separate agents and a plain-code orchestrator instead of one agent (Jeff, 2026-11-09). This adds
+   Phase 2b, splits Phase 4 into 4a and 4b, and changes `IReplyDrafter` (Phase 1) and the store
+   (Phase 2) as listed under "Phases 1 to 6".
+
+## Open decisions for Jeff (defaults stated; none blocks Phase 2b)
+
+- **Post copy:** the person always sees and edits the Post Writer's copy before anything publishes.
+- **Reactions:** a person chooses them in the inbox; Triage does not pick reactions.
+- **Retention purge and restart recovery:** the orchestrator calls both at startup and after each
+  event it processes, with no daily job (AGENTS.md forbids polling). A daily job, as the visitors
+  store has, is the alternative.
+- **Content Creator overlap:** GeekSocial keeps its own posts and drafts separate from Content
+  Creator's existing social post and schedule tables.
+- **Comment text to Claude:** LinkedIn (L5) and Meta (M4, I6) clearances are still open, and Triage
+  and the Drafter stay blocked per platform until each is recorded. Which Instagram setup the
+  connect flow uses (I1) is also open.
 
 ## Working rules for the build
 
