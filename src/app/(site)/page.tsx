@@ -69,7 +69,7 @@ const jsonLd = {
       "@type": "WebPage",
       "url": "https://geekatyourspot.com",
       "name": "AI Consulting for South Florida Business",
-      "description": "Ready to put AI to work? Geek @ Your Spot LLC implementing practical AI tools for South Florida small businesses to scale, reduce errors, and cut manual work.",
+      "description": "I help small businesses try AI without betting the business on it. Pilot-first AI for South Florida, proven before you switch. Get a free AI assessment.",
       "isPartOf": {
         "@type": "WebSite",
         "url": "https://geekatyourspot.com"
