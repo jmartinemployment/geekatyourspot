@@ -130,10 +130,15 @@ result to the next one.
 
 1. Woken with an event id (from the Listener), or at startup for every event with no triage outcome.
 2. Only `comment_created` goes to Triage; the other event kinds are stored and not triaged.
-3. Triage returns a category and whether a reply is needed. The outcome is stored on the event.
+3. Triage returns a category and whether a reply is needed. When no reply is needed, or Triage could
+   not run, the outcome is stored on the event now.
 4. If a reply is needed and Triage did not say a person must write it, the Drafter writes it.
-5. The Reviewer checks the text. A refusal is recorded and shown; the draft is not created as `pending`.
-6. The draft is created `pending`. A person approves, edits (the Reviewer checks the edit) or rejects.
+5. The Reviewer checks the text. A refusal is stored as a `rejected` draft carrying the rules it
+   broke, so the operator sees what was refused and nothing can send it.
+6. Otherwise the draft is created `pending`, and only then is `reply_needed` stored on the event. A
+   crash in between leaves the event untriaged, recovery runs it again, and the one-answer index
+   turns a second draft for a comment that already has a live one into a conflict the orchestrator
+   reads as "already drafted". A person approves, edits (the Reviewer checks the edit) or rejects.
    Auto-send applies only to a category the account opts into, never complaint or sensitive, and only
    after step 5 passed.
 7. Before a send the orchestrator checks that the account is connected and sends are not disabled,
@@ -163,8 +168,12 @@ no fallback model or canned reply stands in; an operator action re-runs the step
 
 ## Phases 1 to 6 (outline; each gated, none started by the first approval)
 
-**Phase 2b (new, before Phase 3): the changes the agent split needs.** Phase 1 and Phase 2 are built.
-Splitting Triage from the Drafter changes them in four small ways, done and gated together:
+**Phase 2b (built 2026-11-09, awaiting Jeff's gate): the changes the agent split needs.** Phase 1 and
+Phase 2 were built. Splitting Triage from the Drafter changed them in four small ways, done and gated
+together. Because `0043_geek_social_schema.sql` has never been pushed or applied anywhere, the new
+columns went into it directly and there is no `0044`. Item 4's open question is decided: a refused
+draft is created `rejected`, with the rules it broke in `reply_drafts.review_refusal` (a `text[]` the
+database checks against the Reviewer's rule list), so the draft states gained nothing.
 1. `IReplyDrafter` currently returns a category as well as the draft. The category moves to the new
    `IEngagementTriage`; `ReplyDraftRequest` carries it in, and `ReplyDraftSuggestion` drops it.
 2. The new contracts `IEngagementTriage`, `IPostWriter`, `IOutboundTextReviewer` and
