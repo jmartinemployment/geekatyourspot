@@ -4,6 +4,7 @@ import AgreementSection from "@/components/terms-and-conditions/agreement-sectio
 import NotAdviceSection from "@/components/terms-and-conditions/not-advice-section";
 import ToolsAndLinksSection from "@/components/terms-and-conditions/tools-and-links-section";
 import ConsultationsSection from "@/components/terms-and-conditions/consultations-section";
+import TextMessagesSection from "@/components/terms-and-conditions/text-messages-section";
 import UsingTheSiteSection from "@/components/terms-and-conditions/using-the-site-section";
 import LiabilitySection from "@/components/terms-and-conditions/liability-section";
 import GoverningLawSection from "@/components/terms-and-conditions/governing-law-section";
@@ -49,6 +50,7 @@ export default async function Page() {
                 <NotAdviceSection />
                 <ToolsAndLinksSection />
                 <ConsultationsSection />
+                <TextMessagesSection />
                 <UsingTheSiteSection />
                 <LiabilitySection />
                 <GoverningLawSection />
