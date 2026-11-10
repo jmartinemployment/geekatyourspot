@@ -5,6 +5,7 @@ import InformationWeCollectSection from "@/components/privacy-policy/information
 import CookiesSection from "@/components/privacy-policy/cookies-section";
 import HowWeUseSection from "@/components/privacy-policy/how-we-use-section";
 import WhoWeShareWithSection from "@/components/privacy-policy/who-we-share-with-section";
+import TextMessagesSection from "@/components/privacy-policy/text-messages-section";
 import RetentionSecuritySection from "@/components/privacy-policy/retention-security-section";
 import YourRightsSection from "@/components/privacy-policy/your-rights-section";
 import ContactSection from "@/components/privacy-policy/contact-section";
@@ -50,6 +51,7 @@ export default async function Page() {
                 <CookiesSection />
                 <HowWeUseSection />
                 <WhoWeShareWithSection />
+                <TextMessagesSection />
                 <RetentionSecuritySection />
                 <YourRightsSection />
                 <ContactSection />
