@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { MELIO_AFFILIATE_URL } from "@/components/tools/accounting/accounts-payable/melio-affiliate-link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -25,6 +26,9 @@ export default function RightFitSection() {
         Ultimately, the decision to implement Melio should be based on a thorough analysis of its
         capabilities in relation to your business needs. By focusing on the specific benefits Melio offers,
         businesses can make an informed decision about whether it&#39;s the right tool for their AI Payment Execution.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        If your business matches that profile, take a look at&nbsp;<a id={`tools-accounting-payment-execution-melio-right-fit-affiliate${idSuffix}`} href={MELIO_AFFILIATE_URL} target="_blank" rel="sponsored noopener noreferrer" className="text-[#C83803] hover:underline">Melio</a>&nbsp;directly.
+        Geek @ Your Spot LLC earns a commission if you sign up through this link.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when&nbsp;
         <a href="#consultationAppointment2xl" id={`tools-accounting-payment-execution-melio-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">

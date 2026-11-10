@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { MELIO_AFFILIATE_URL } from "@/components/tools/accounting/accounts-payable/melio-affiliate-link";
 
 export default function EvaluatingSection() {
   const body = (idSuffix = "") => (
@@ -15,7 +16,8 @@ export default function EvaluatingSection() {
         can adapt to different business scales and needs. This flexibility is particularly beneficial for
         small to medium-sized enterprises that require scalable solutions without a hefty upfront investment.
         By automating tasks and reducing manual intervention, Melio can help lower operational costs over
-        time.</p>
+        time. You can see&nbsp;<a id={`tools-accounting-approval-workflows-melio-evaluating-affiliate${idSuffix}`} href={MELIO_AFFILIATE_URL} target="_blank" rel="sponsored noopener noreferrer" className="text-[#C83803] hover:underline">Melio</a>&nbsp;for yourself before you decide.
+        Geek @ Your Spot LLC earns a commission if you sign up through this link.</p>
       <p className="text-base text-white shadow-text pt-3">
         When considering adjacent approaches, businesses might also evaluate other tools like&nbsp;<Link id={`tools-accounting-approval-workflows-melio-evaluating-approvalmax${idSuffix}`} href="/tools/accounting/accounts-payable/ai-invoice-approval-workflows/approvalmax" className="text-[#C83803] hover:underline">ApprovalMax</Link>,&nbsp;<Link id={`tools-accounting-approval-workflows-melio-evaluating-ramp${idSuffix}`} href="/tools/accounting/accounts-payable/ai-invoice-approval-workflows/ramp" className="text-[#C83803] hover:underline">Ramp</Link>, and&nbsp;<Link id={`tools-accounting-approval-workflows-melio-evaluating-bill${idSuffix}`} href="/tools/accounting/accounts-payable/ai-invoice-approval-workflows/bill" className="text-[#C83803] hover:underline">Bill</Link>. Each of these tools offers unique features that could complement or compete with
         Melio. For instance, ApprovalMax provides multi-level and customizable approval processes, which can

@@ -1,12 +1,15 @@
+import { MELIO_AFFILIATE_URL } from "@/components/tools/accounting/accounts-payable/melio-affiliate-link";
+
 export default function EvaluatingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
         When considering Melio for AI Payment Execution, small businesses must assess its fit for their
         specific needs and financial constraints. Melio stands out with its straightforward pricing model,
         which is ideal for businesses looking to automate without breaking the bank. While specific pricing
         details aren&#39;t available here, Melio&#39;s approach generally involves transparent costs without
-        hidden fees, making it easier for businesses to budget effectively.</p>
+        hidden fees, making it easier for businesses to budget effectively. You can see&nbsp;<a id={`tools-accounting-payment-execution-melio-evaluating-affiliate${idSuffix}`} href={MELIO_AFFILIATE_URL} target="_blank" rel="sponsored noopener noreferrer" className="text-[#C83803] hover:underline">Melio</a>&nbsp;for yourself before you decide.
+        Geek @ Your Spot LLC earns a commission if you sign up through this link.</p>
       <p className="text-base text-white shadow-text pt-3">
         Melio&#39;s integration capabilities are a key factor in its fit for small businesses. It offers
         seamless synchronization with popular accounting software like QuickBooks and Xero, which eliminates
@@ -42,7 +45,7 @@ export default function EvaluatingSection() {
               </h2>
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -53,7 +56,7 @@ export default function EvaluatingSection() {
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="evaluating-melio-fit-and-pricing-considerations-lg">
                 Evaluating Melio: Fit and Pricing Considerations
               </h2>
-              {body}
+              {body("-lg")}
             </div>
             <div className="col-span-5 flex items-center justify-center"></div>
           </div>

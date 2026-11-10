@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { MELIO_AFFILIATE_URL } from "@/components/tools/accounting/accounts-payable/melio-affiliate-link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -32,6 +33,9 @@ export default function RightFitSection() {
         their accounts payable processes, Melio offers a robust solution that can transform how you manage
         approvals and payments. By focusing on automation, integration, and ease of use, Melio provides the
         tools necessary to optimize your financial operations.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        If your business matches that profile, take a look at&nbsp;<a id={`tools-accounting-approval-workflows-melio-right-fit-affiliate${idSuffix}`} href={MELIO_AFFILIATE_URL} target="_blank" rel="sponsored noopener noreferrer" className="text-[#C83803] hover:underline">Melio</a>&nbsp;directly.
+        Geek @ Your Spot LLC earns a commission if you sign up through this link.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions when&nbsp;
         <a href="#consultationAppointment2xl" id={`tools-accounting-approval-workflows-melio-right-fit-consultation${idSuffix}`} className="text-[#C83803] hover:underline">
