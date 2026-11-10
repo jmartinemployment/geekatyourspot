@@ -137,6 +137,12 @@ export default function FaqSection() {
                 <li>Automation tools, like AP/AR workflows or forecasting, run quietly in the background or use simple, single-sign-on interfaces.</li>
                 <li>Rolling out these tools step by step means you get enterprise-grade features with almost no downtime.</li>
             </ul>
+            <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
+            <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              Do you earn a commission from QuickBooks?
+            </h3>
+            <p className="text-base text-white shadow-text pt-3">
+              Yes. If you sign up for QuickBooks through the links on this page, Geek @ Your Spot LLC earns a commission. A sentence saying so sits next to each link, so you know what you are clicking before you click it. The commission does not change what this page says about QuickBooks. Whether you choose QuickBooks or another tool, the recommendations here are based on what solves your actual business problems, not on earning a commission.</p>
           </div>
         </div>
       </div>
