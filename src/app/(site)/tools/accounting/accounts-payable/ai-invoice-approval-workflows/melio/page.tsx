@@ -78,7 +78,16 @@ export default async function Page() {
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
-            <ToolsHeroSection title={PAGE_TITLE} summary={heroSummary} />
+            <ToolsHeroSection
+                title={PAGE_TITLE}
+                summary={heroSummary}
+                heroImage={{
+                    src: "/images/accounting/tools/melio/still-chassing-invoices.avif",
+                    alt: "Friendly robot pointing to a badge asking if you are still chasing invoice approvals by email",
+                    width: 1024,
+                    height: 1024
+                }}
+            />
             <OverviewSection />
             <CostsOfManualSection />
             <TransformsSection />
