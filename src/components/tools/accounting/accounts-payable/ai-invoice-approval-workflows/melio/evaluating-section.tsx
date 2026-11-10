@@ -1,7 +1,23 @@
 import Link from "next/link";
 import { MELIO_AFFILIATE_URL } from "@/components/tools/accounting/accounts-payable/melio-affiliate-link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCodeCompare,
+  faCreditCard,
+  faFlagUsa,
+  faPiggyBank,
+  faRocket,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function EvaluatingSection() {
+  const factors = [
+    { icon: faFlagUsa, color: "text-[#C83803]", label: "Built for US businesses" },
+    { icon: faCreditCard, color: "text-white", label: "ACH, card and wire payments" },
+    { icon: faCodeCompare, color: "text-[#BF5934]", label: "ApprovalMax, Ramp and Bill compared" },
+    { icon: faRocket, color: "text-[#C83803]", label: "Quick setup and integration" },
+    { icon: faPiggyBank, color: "text-white", label: "Cost and time savings" },
+  ];
+
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -63,7 +79,22 @@ export default function EvaluatingSection() {
               </h2>
               {body("-lg")}
             </div>
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {factors.map((factor) => (
+                  <li key={factor.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={factor.icon}
+                      className={factor.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {factor.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </section>

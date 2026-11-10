@@ -1,5 +1,25 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBolt,
+  faBuildingColumns,
+  faChartLine,
+  faGears,
+  faKey,
+  faLink,
+  faShieldHalved,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function ArchitectureSection() {
+  const points = [
+    { icon: faGears, color: "text-white", label: "Approval rules set up once" },
+    { icon: faBolt, color: "text-[#0B162A]", label: "Setup in minutes, not weeks" },
+    { icon: faBuildingColumns, color: "text-white", label: "Bank accounts connected" },
+    { icon: faChartLine, color: "text-[#0B162A]", label: "Real-time cash flow visibility" },
+    { icon: faShieldHalved, color: "text-white", label: "Digital trails and lower fraud risk" },
+    { icon: faKey, color: "text-[#0B162A]", label: "Roles and permissions" },
+    { icon: faLink, color: "text-white", label: "QuickBooks Online sync" },
+  ];
+
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -68,7 +88,22 @@ export default function ArchitectureSection() {
               </h2>
               {body}
             </div>
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {points.map((point) => (
+                  <li key={point.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={point.icon}
+                      className={point.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {point.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </section>

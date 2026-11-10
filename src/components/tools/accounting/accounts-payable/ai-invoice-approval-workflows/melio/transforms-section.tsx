@@ -1,5 +1,23 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faArrowsRotate,
+  faBell,
+  faMobileScreenButton,
+  faSliders,
+  faTurnUp,
+  faUserCheck,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function TransformsSection() {
+  const gains = [
+    { icon: faUserCheck, color: "text-white", label: "Bills routed to the right person" },
+    { icon: faSliders, color: "text-[#0B162A]", label: "Rules by amount, category or entity" },
+    { icon: faArrowsRotate, color: "text-white", label: "Sync with QuickBooks, Xero and NetSuite" },
+    { icon: faMobileScreenButton, color: "text-[#0B162A]", label: "Approve or reject on the go" },
+    { icon: faBell, color: "text-white", label: "Reminders before a due date" },
+    { icon: faTurnUp, color: "text-[#0B162A]", label: "Escalation when approval stalls" },
+  ];
+
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -61,7 +79,22 @@ export default function TransformsSection() {
       <section className="min-h-screen bg-[#025E73] text-white py-5 hidden lg:block">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {gains.map((gain) => (
+                  <li key={gain.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={gain.icon}
+                      className={gain.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {gain.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
             <div className="col-span-7">
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="how-melio-transforms-ai-invoice-approval-workflows-lg">
                 How Melio Transforms AI Invoice Approval Workflows

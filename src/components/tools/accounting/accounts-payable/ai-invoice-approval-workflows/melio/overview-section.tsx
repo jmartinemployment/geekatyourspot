@@ -1,7 +1,25 @@
 import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCircleCheck,
+  faFileInvoiceDollar,
+  faHourglassHalf,
+  faRoute,
+  faScaleBalanced,
+  faTriangleExclamation,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function OverviewSection() {
+  const points = [
+    { icon: faFileInvoiceDollar, color: "text-[#C83803]", label: "Invoices waiting for sign-off" },
+    { icon: faHourglassHalf, color: "text-white", label: "Delays across departments and time zones" },
+    { icon: faTriangleExclamation, color: "text-[#BF5934]", label: "Missed emails and lost documents" },
+    { icon: faRoute, color: "text-[#C83803]", label: "Approvals routed by set rules" },
+    { icon: faScaleBalanced, color: "text-white", label: "Small and large invoices treated differently" },
+    { icon: faCircleCheck, color: "text-[#BF5934]", label: "Payments made accurately and on time" },
+  ];
+
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -51,7 +69,22 @@ export default function OverviewSection() {
       <section className="min-h-screen bg-[#023059] text-white py-5 hidden lg:block">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {points.map((point) => (
+                  <li key={point.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={point.icon}
+                      className={point.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {point.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
             <div className="col-span-7">
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="overview-lg">
                 Overview
