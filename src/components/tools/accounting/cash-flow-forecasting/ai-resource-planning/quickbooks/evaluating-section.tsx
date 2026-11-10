@@ -1,7 +1,25 @@
 
 import { QUICKBOOKS_AFFILIATE_URL } from "@/components/tools/accounting/cash-flow-forecasting/ai-resource-planning/quickbooks/affiliate-link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faArrowTrendUp,
+  faCirclePlus,
+  faCode,
+  faPuzzlePiece,
+  faTag,
+  faUsers,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function EvaluatingSection() {
+  const factors = [
+    { icon: faPuzzlePiece, color: "text-white", label: "Fit with your workflow" },
+    { icon: faUsers, color: "text-[#0B162A]", label: "A user limit to plan around" },
+    { icon: faArrowTrendUp, color: "text-white", label: "Scales as you grow" },
+    { icon: faTag, color: "text-[#0B162A]", label: "Tiered pricing" },
+    { icon: faCirclePlus, color: "text-white", label: "Add-ons that add cost" },
+    { icon: faCode, color: "text-[#0B162A]", label: "No open SDK for custom code" },
+  ];
+
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -102,7 +120,22 @@ export default function EvaluatingSection() {
       <section className="min-h-screen bg-[#8C4E2A] text-white py-5 hidden lg:block">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {factors.map((factor) => (
+                  <li key={factor.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={factor.icon}
+                      className={factor.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {factor.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
             <div className="col-span-7">
               <h2 id="how-to-judge-quickbooks-fit-limits-and-pricing-model-for-small-businesses-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to Judge QuickBooks: Fit, Limits, and Pricing Model for Small Businesses

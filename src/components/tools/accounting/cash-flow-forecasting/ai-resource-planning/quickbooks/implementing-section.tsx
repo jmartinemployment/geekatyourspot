@@ -1,5 +1,23 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBullseye,
+  faDownload,
+  faListCheck,
+  faPlug,
+  faSliders,
+  faStairs,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function ImplementingSection() {
+  const steps = [
+    { icon: faBullseye, color: "text-[#C83803]", label: "Scoping data sources and pain points" },
+    { icon: faDownload, color: "text-white", label: "Lists and transactions pulled in" },
+    { icon: faListCheck, color: "text-[#BF5934]", label: "Templated setup flows" },
+    { icon: faPlug, color: "text-[#C83803]", label: "Pre-built connectors" },
+    { icon: faSliders, color: "text-white", label: "Dashboards and automation rules" },
+    { icon: faStairs, color: "text-[#BF5934]", label: "Phased rollout by module" },
+  ];
+
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -81,7 +99,22 @@ export default function ImplementingSection() {
               </h2>
               {body}
             </div>
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {steps.map((step) => (
+                  <li key={step.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={step.icon}
+                      className={step.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {step.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </section>

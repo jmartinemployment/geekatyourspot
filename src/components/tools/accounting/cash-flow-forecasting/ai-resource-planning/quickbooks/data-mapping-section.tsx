@@ -1,6 +1,26 @@
 import { GlossaryLink } from "@/components/glossary/glossary-link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faAddressBook,
+  faArrowsRotate,
+  faBoxesStacked,
+  faLink,
+  faSitemap,
+  faTags,
+  faUserLock,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function DataMappingSection() {
+  const decisions = [
+    { icon: faSitemap, color: "text-[#C83803]", label: "Chart of accounts structure" },
+    { icon: faTags, color: "text-white", label: "Classes and locations" },
+    { icon: faAddressBook, color: "text-[#BF5934]", label: "Customer and vendor lists" },
+    { icon: faBoxesStacked, color: "text-[#C83803]", label: "Inventory groups and bins" },
+    { icon: faUserLock, color: "text-white", label: "Roles and approval rules" },
+    { icon: faLink, color: "text-[#BF5934]", label: "Excel, bank feeds and payroll" },
+    { icon: faArrowsRotate, color: "text-[#C83803]", label: "Mapping that keeps evolving" },
+  ];
+
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -82,7 +102,22 @@ export default function DataMappingSection() {
       <section className="min-h-screen bg-[#024059] text-white py-5 hidden lg:block">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {decisions.map((decision) => (
+                  <li key={decision.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={decision.icon}
+                      className={decision.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {decision.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
             <div className="col-span-7">
               <h2 id="the-data-structure-and-mapping-decisions-that-shape-a-quickbooks-deployment-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 The Data Structure and Mapping Decisions That Shape a QuickBooks Deployment

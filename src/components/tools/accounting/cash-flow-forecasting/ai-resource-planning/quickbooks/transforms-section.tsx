@@ -1,5 +1,25 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBan,
+  faClockRotateLeft,
+  faFileInvoice,
+  faGauge,
+  faMagnifyingGlassChart,
+  faUserLock,
+  faWarehouse,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function TransformsSection() {
+  const gains = [
+    { icon: faGauge, color: "text-white", label: "Live dashboards and custom views" },
+    { icon: faFileInvoice, color: "text-[#0B162A]", label: "Invoices captured and routed" },
+    { icon: faUserLock, color: "text-white", label: "Permissions set by role" },
+    { icon: faWarehouse, color: "text-[#0B162A]", label: "Inventory tracked across locations" },
+    { icon: faMagnifyingGlassChart, color: "text-white", label: "AI flags anomalies early" },
+    { icon: faClockRotateLeft, color: "text-[#0B162A]", label: "Restore to a previous point" },
+    { icon: faBan, color: "text-white", label: "No disruptive ERP migration" },
+  ];
+
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -83,7 +103,22 @@ export default function TransformsSection() {
       <section className="min-h-screen bg-[#025E73] text-white py-5 hidden lg:block">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {gains.map((gain) => (
+                  <li key={gain.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={gain.icon}
+                      className={gain.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {gain.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
             <div className="col-span-7">
               <h2 id="how-quickbooks-removes-hours-of-manual-work-from-ai-resource-planning-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How QuickBooks removes hours of manual work from AI Resource Planning

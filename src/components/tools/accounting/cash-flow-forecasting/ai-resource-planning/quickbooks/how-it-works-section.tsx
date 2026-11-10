@@ -1,6 +1,26 @@
 import { GlossaryLink } from "@/components/glossary/glossary-link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBoxesStacked,
+  faChartLine,
+  faFileImport,
+  faGauge,
+  faLayerGroup,
+  faRotateLeft,
+  faUserCheck,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function HowItWorksSection() {
+  const steps = [
+    { icon: faFileImport, color: "text-white", label: "Automated data entry" },
+    { icon: faUserCheck, color: "text-[#0B162A]", label: "Role based workflow routing" },
+    { icon: faLayerGroup, color: "text-white", label: "Batch processing" },
+    { icon: faGauge, color: "text-[#0B162A]", label: "Live reporting and dashboards" },
+    { icon: faBoxesStacked, color: "text-white", label: "Inventory and cost tracking" },
+    { icon: faRotateLeft, color: "text-[#0B162A]", label: "Error detection and reversal" },
+    { icon: faChartLine, color: "text-white", label: "Forecasts that update live" },
+  ];
+
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -83,7 +103,22 @@ export default function HowItWorksSection() {
               </h2>
               {body}
             </div>
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {steps.map((step) => (
+                  <li key={step.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={step.icon}
+                      className={step.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {step.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </section>

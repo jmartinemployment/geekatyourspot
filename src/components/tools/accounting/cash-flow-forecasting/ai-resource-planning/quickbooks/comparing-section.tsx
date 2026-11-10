@@ -1,5 +1,23 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBuilding,
+  faLock,
+  faRightLeft,
+  faScaleBalanced,
+  faTable,
+  faTriangleExclamation,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function ComparingSection() {
+  const differences = [
+    { icon: faTable, color: "text-white", label: "Spreadsheets that become a bottleneck" },
+    { icon: faBuilding, color: "text-[#0B162A]", label: "A full ERP with a year of consulting" },
+    { icon: faLock, color: "text-white", label: "Entry level tools cap users and reports" },
+    { icon: faRightLeft, color: "text-[#0B162A]", label: "Live Excel sync and batch processing" },
+    { icon: faScaleBalanced, color: "text-white", label: "The middle path for growing teams" },
+    { icon: faTriangleExclamation, color: "text-[#0B162A]", label: "Limits for multi entity manufacturing" },
+  ];
+
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -86,7 +104,22 @@ export default function ComparingSection() {
               </h2>
               {body}
             </div>
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {differences.map((difference) => (
+                  <li key={difference.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={difference.icon}
+                      className={difference.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {difference.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </section>

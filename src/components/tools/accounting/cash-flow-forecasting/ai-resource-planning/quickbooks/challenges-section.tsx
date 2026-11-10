@@ -1,5 +1,23 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBoxesStacked,
+  faCalendarXmark,
+  faCopy,
+  faFileExport,
+  faKeyboard,
+  faMoon,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function ChallengesSection() {
+  const costs = [
+    { icon: faCopy, color: "text-[#C83803]", label: "Hours lost copying between files" },
+    { icon: faFileExport, color: "text-white", label: "Reports stitched from exports" },
+    { icon: faKeyboard, color: "text-[#BF5934]", label: "Invoices entered one at a time" },
+    { icon: faBoxesStacked, color: "text-[#C83803]", label: "Inventory lost across locations" },
+    { icon: faCalendarXmark, color: "text-white", label: "A month end close that takes weeks" },
+    { icon: faMoon, color: "text-[#BF5934]", label: "Overtime and sleepless nights" },
+  ];
+
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -78,7 +96,22 @@ export default function ChallengesSection() {
               </h2>
               {body}
             </div>
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {costs.map((cost) => (
+                  <li key={cost.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={cost.icon}
+                      className={cost.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {cost.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </section>

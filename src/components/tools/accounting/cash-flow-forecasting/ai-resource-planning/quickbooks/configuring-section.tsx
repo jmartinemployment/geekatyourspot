@@ -1,6 +1,28 @@
 import { GlossaryLink } from "@/components/glossary/glossary-link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBell,
+  faChartPie,
+  faClipboardList,
+  faFileExcel,
+  faLayerGroup,
+  faRoute,
+  faUsersGear,
+  faWarehouse,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function ConfiguringSection() {
+  const topics = [
+    { icon: faUsersGear, color: "text-white", label: "Custom roles and permissions" },
+    { icon: faRoute, color: "text-[#0B162A]", label: "Approval workflows" },
+    { icon: faLayerGroup, color: "text-white", label: "Automated batch processing" },
+    { icon: faChartPie, color: "text-[#0B162A]", label: "Custom reports and dashboards" },
+    { icon: faFileExcel, color: "text-white", label: "Spreadsheet Sync" },
+    { icon: faBell, color: "text-[#0B162A]", label: "Reminders and recurring tasks" },
+    { icon: faWarehouse, color: "text-white", label: "Inventory by location" },
+    { icon: faClipboardList, color: "text-[#0B162A]", label: "Audit trails and change logs" },
+  ];
+
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -98,7 +120,22 @@ export default function ConfiguringSection() {
               </h2>
               {body}
             </div>
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {topics.map((topic) => (
+                  <li key={topic.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={topic.icon}
+                      className={topic.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {topic.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </section>
