@@ -1,4 +1,21 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBook,
+  faCalendarXmark,
+  faCircleExclamation,
+  faCopy,
+  faRepeat,
+} from "@fortawesome/free-solid-svg-icons";
+
 export default function CostOfManualSection() {
+  const costs = [
+    { icon: faRepeat, color: "text-[#C83803]", label: "The same payments recreated monthly" },
+    { icon: faCalendarXmark, color: "text-white", label: "Scrambling to meet due dates" },
+    { icon: faCopy, color: "text-[#BF5934]", label: "Vendor details entered again and again" },
+    { icon: faCircleExclamation, color: "text-[#C83803]", label: "Room for error with every re-entry" },
+    { icon: faBook, color: "text-white", label: "Payment runs connected to your books" },
+  ];
+
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -58,7 +75,22 @@ export default function CostOfManualSection() {
               </h2>
               {body}
             </div>
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {costs.map((cost) => (
+                  <li key={cost.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={cost.icon}
+                      className={cost.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {cost.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </section>

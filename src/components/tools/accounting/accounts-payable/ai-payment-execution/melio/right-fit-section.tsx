@@ -1,6 +1,35 @@
 import Link from "next/link";
 import { MELIO_AFFILIATE_URL } from "@/components/tools/accounting/accounts-payable/melio-affiliate-link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBuilding,
+  faForward,
+  faLayerGroup,
+  faRepeat,
+  faScrewdriverWrench,
+  faUsers,
+} from "@fortawesome/free-solid-svg-icons";
+
 export default function RightFitSection() {
+  const groups = [
+    {
+      heading: "Right fit",
+      items: [
+        { icon: faUsers, color: "text-[#C83803]", label: "Many vendors to pay" },
+        { icon: faLayerGroup, color: "text-white", label: "One central place to pay" },
+        { icon: faRepeat, color: "text-[#BF5934]", label: "Recurring, batch and split bills" },
+        { icon: faForward, color: "text-[#C83803]", label: "Ready to move from manual to automated" },
+      ],
+    },
+    {
+      heading: "Look elsewhere",
+      items: [
+        { icon: faBuilding, color: "text-white", label: "Enterprise payment workflows" },
+        { icon: faScrewdriverWrench, color: "text-[#BF5934]", label: "Extensive customization needs" },
+      ],
+    },
+  ];
+
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -69,7 +98,31 @@ export default function RightFitSection() {
       <section className="min-h-screen bg-[#024059] text-white py-5 hidden lg:block">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <div className="flex w-full flex-col gap-10 text-center">
+                {groups.map((group) => (
+                  <div key={group.heading}>
+                    <h3 className="border-b-4 border-white pb-2 text-xl font-black font-[var(--font-sora)] uppercase tracking-widest text-white shadow-text">
+                      {group.heading}
+                    </h3>
+                    <ul className="flex flex-col items-center gap-8 pt-8">
+                      {group.items.map((item) => (
+                        <li key={item.label} className="flex flex-col items-center">
+                          <FontAwesomeIcon
+                            icon={item.icon}
+                            className={item.color}
+                            style={{ width: "5.5rem", height: "5.5rem" }}
+                          />
+                          <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                            {item.label}
+                          </p>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </div>
             <div className="col-span-7">
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="is-melio-right-for-your-business-lg">
                 Is Melio Right for Your Business?

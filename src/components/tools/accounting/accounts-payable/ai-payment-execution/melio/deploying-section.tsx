@@ -1,4 +1,21 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faDatabase,
+  faGraduationCap,
+  faHeadset,
+  faPlug,
+  faSliders,
+} from "@fortawesome/free-solid-svg-icons";
+
 export default function DeployingSection() {
+  const steps = [
+    { icon: faPlug, color: "text-white", label: "Accounting software connected" },
+    { icon: faDatabase, color: "text-[#0B162A]", label: "Data mapped and structured" },
+    { icon: faSliders, color: "text-white", label: "Payment limits and terms set" },
+    { icon: faGraduationCap, color: "text-[#0B162A]", label: "Training sessions for your team" },
+    { icon: faHeadset, color: "text-white", label: "Ongoing support" },
+  ];
+
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -56,7 +73,22 @@ export default function DeployingSection() {
       <section className="min-h-screen bg-[#BF5934] text-white py-5 hidden lg:block">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 gap-x-4 place-items-center">
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {steps.map((step) => (
+                  <li key={step.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={step.icon}
+                      className={step.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {step.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
             <div className="col-span-7">
               <h2 className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text" id="deploying-melio-in-your-business-environment-lg">
                 Deploying Melio in Your Business Environment
