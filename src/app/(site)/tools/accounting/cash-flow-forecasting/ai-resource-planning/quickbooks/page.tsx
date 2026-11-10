@@ -107,7 +107,16 @@ export default async function Page() {
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
-            <ToolsHeroSection title={PAGE_TITLE} summary={heroSummary} />
+            <ToolsHeroSection
+                title={PAGE_TITLE}
+                summary={heroSummary}
+                heroImage={{
+                    src: "/images/accounting/tools/quickBooks/quickbooks.avif",
+                    alt: "Friendly robot pointing to a badge asking if you are still closing your books in spreadsheets",
+                    width: 1024,
+                    height: 1024
+                }}
+            />
             <OverviewSection />
             <ChallengesSection />
             <TransformsSection />
