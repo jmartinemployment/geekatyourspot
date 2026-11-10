@@ -1,6 +1,8 @@
 
+import { QUICKBOOKS_AFFILIATE_URL } from "@/components/tools/accounting/cash-flow-forecasting/ai-resource-planning/quickbooks/affiliate-link";
+
 export default function EvaluatingSection() {
-  const body = (
+  const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
         Deciding if QuickBooks is right for your small business comes down to three factors: does it fit your
@@ -45,7 +47,8 @@ export default function EvaluatingSection() {
         pricing model is subscription-based, with clear boundaries between tiers, if you need more users or
         features, you move up a tier or add a module. There are no surprise fees for basic automation or
         reporting, but high-volume businesses should check the fine print on transaction limits or overage
-        charges, especially for bill pay features.</p>
+        charges, especially for bill pay features. You can see&nbsp;<a id={`tools-accounting-ai-resource-planning-quickbooks-evaluating-affiliate${idSuffix}`} href={QUICKBOOKS_AFFILIATE_URL} target="_blank" rel="sponsored noopener noreferrer" className="text-[#0B162A] hover:underline">QuickBooks</a>&nbsp;for yourself before you decide.
+        Geek @ Your Spot LLC earns a commission if you sign up through this link.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li>QuickBooks Online Advanced: Up to 25 users, custom roles, workflow automation, and live dashboards. Good fit for most small businesses moving off spreadsheets or entry-level bookkeeping apps.</li>
         <li>QuickBooks Desktop Enterprise: Up to 40 users, deeper inventory, manufacturing, and compliance features. Higher cost and complexity, but a better fit for businesses with advanced operational needs.</li>
@@ -92,7 +95,7 @@ export default function EvaluatingSection() {
                 How to Judge QuickBooks: Fit, Limits, and Pricing Model for Small Businesses
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
@@ -104,7 +107,7 @@ export default function EvaluatingSection() {
               <h2 id="how-to-judge-quickbooks-fit-limits-and-pricing-model-for-small-businesses-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to Judge QuickBooks: Fit, Limits, and Pricing Model for Small Businesses
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>

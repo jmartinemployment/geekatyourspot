@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { QUICKBOOKS_AFFILIATE_URL } from "@/components/tools/accounting/cash-flow-forecasting/ai-resource-planning/quickbooks/affiliate-link";
 export default function RightFitSection() {
   const body = (idSuffix = "") => (
     <>
@@ -48,6 +49,9 @@ export default function RightFitSection() {
         of&nbsp;ERP&nbsp;solutions. But for most, QuickBooks delivers
         the automation, control, and visibility that let you run lean and grow without losing sleep over your
         books.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        If your business matches that profile, take a look at&nbsp;<a id={`tools-accounting-ai-resource-planning-quickbooks-right-fit-affiliate${idSuffix}`} href={QUICKBOOKS_AFFILIATE_URL} target="_blank" rel="sponsored noopener noreferrer" className="text-[#C83803] hover:underline">QuickBooks</a>&nbsp;directly.
+        Geek @ Your Spot LLC earns a commission if you sign up through this link.</p>
       <p className="text-base text-white shadow-text pt-3">
         Answer these questions
         when&nbsp;<a href="#consultationAppointment2xl" id={`tools-accounting-ai-resource-planning-quickbooks-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
