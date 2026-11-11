@@ -261,7 +261,7 @@ Where each piece lives (all paths under `GeekBackend/`, reuse these, do not inve
   in code by the Reviewer, which refuses text that contains an em dash, "SMB", the address, phone or
   email, or a link that was not approved. A refused draft is operator-visible and is never silently
   rewritten.
-  **Phase 4a status (2026-11-11, built and tested, committed in GeekBackend and not yet pushed):** the
+  **Phase 4a status (2026-11-11, built, tested, pushed and live with merge b299bdd):** the
   Reviewer (`02e854e`), then Triage, the drafter and the reply path. Triage and the drafter reach the
   language model through `ISocialModelClient`, with Claude (`ClaudeSocialModelClient`) as the default
   implementation (Jeff, 2026-11-11); it uses the `LlmProviders__Anthropic__*` settings and the global
@@ -277,6 +277,19 @@ Where each piece lives (all paths under `GeekBackend/`, reuse these, do not inve
   the account's 200 newest stored posts, and any other link is refused. Recovery handles undecided
   comments in batches of 500 until none is left, and stops when a pass makes no progress. Not seen in a
   real run: nothing reaches Claude until a platform is cleared (M4, I6, L5).
+  **Phase 4b and Phase 5 status (2026-11-11, built and tested, committed and not pushed: GeekBackend
+  e2c0229, GeekOAuth d6568df, the new screen repo geek-social 6c4e79b):** the Sender (`SocialSender`
+  over `MetaPublisher` and `MetaEngagementWriter`, one attempt and one audit row each; a write Meta did
+  not clearly refuse is `outcome_unknown`), the send step with the house limits (30 replies an hour per
+  account, 15 minutes after a throttled or uncertain send, read from the audit), auto-send, the
+  Connector (`MetaAccountConnector`, Login for Business with a user-token configuration; the six Page
+  permissions are checked), the connect flow (state bound to the user, return address and 15 minutes),
+  resync, the Post Writer, `api/social/*`, the SignalR hub, the `geek-social` client and
+  `geeksocial.manage` scope in GeekOAuth, and the screen (Inbox, Comments, Accounts, Posts, Activity).
+  Two decisions taken by default: the token is fetched before a draft moves to sending, so a token
+  problem holds the draft instead of failing it for good; a comment the Page itself wrote is never
+  triaged. Contract and settings: `GeekBackend/docs/GEEK-SOCIAL-API.md`. LinkedIn and Instagram wait
+  on their apps (L1 to L5, I1 to I6). Not seen in a real run: the Meta app settings are not on GeekAPI.
 - **API and UI (Phase 5):** GeekAPI controllers under `api/social/*` with the `geeksocial.manage`
   policy. Approve, reject, edit, publish and resync call the orchestrator, never an agent or the
   store directly. Live updates go through SignalR and nothing else (Jeff, 2026-11-11): a
