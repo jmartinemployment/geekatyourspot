@@ -279,7 +279,12 @@ Where each piece lives (all paths under `GeekBackend/`, reuse these, do not inve
   real run: nothing reaches Claude until a platform is cleared (M4, I6, L5).
 - **API and UI (Phase 5):** GeekAPI controllers under `api/social/*` with the `geeksocial.manage`
   policy. Approve, reject, edit, publish and resync call the orchestrator, never an agent or the
-  store directly. GeekOAuth: add `SeedGeekSocialClient` to `GeekOAuth/src/GeekOAuth.Server/Infrastructure/OidcPublicClientSeeds.cs`
+  store directly. Live updates go through SignalR and nothing else (Jeff, 2026-11-11): a
+  `SocialRealtimeHub` at `/hubs/social-realtime` on GeekAPI, built like
+  `GeekAPI/Controllers/Workflow/Hubs/WorkflowRealtimeHub.cs` (`[Authorize]`), sends one message when
+  a draft is created or changes state, and one when a comment is held or fails. The message carries ids
+  and states, never comment or draft text; the screen reads the text through `api/social/*`. The inbox
+  listens on the hub and never polls, and no raw WebSocket is written. GeekOAuth: add `SeedGeekSocialClient` to `GeekOAuth/src/GeekOAuth.Server/Infrastructure/OidcPublicClientSeeds.cs`
   (copy `SeedGeekReportsClient`), the scope to `ScopeSeeder.cs` (existing scopes are never edited, so
   get the name right), and the new host to the CSP list in `Middleware/SecurityHeadersMiddleware.cs:111-133`.
   Frontend: a new Next.js repo on Vercel (every internal app is its own repo and Vercel project; none
