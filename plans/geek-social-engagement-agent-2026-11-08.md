@@ -261,6 +261,22 @@ Where each piece lives (all paths under `GeekBackend/`, reuse these, do not inve
   in code by the Reviewer, which refuses text that contains an em dash, "SMB", the address, phone or
   email, or a link that was not approved. A refused draft is operator-visible and is never silently
   rewritten.
+  **Phase 4a status (2026-11-11, built and tested, committed in GeekBackend and not yet pushed):** the
+  Reviewer (`02e854e`), then Triage, the drafter and the reply path. Triage and the drafter reach the
+  language model through `ISocialModelClient`, with Claude (`ClaudeSocialModelClient`) as the default
+  implementation (Jeff, 2026-11-11); it uses the `LlmProviders__Anthropic__*` settings and the global
+  `LlmConcurrencyGate`, has no default model, makes one attempt and logs every failure without the
+  comment or the answer. Every failure in Triage, the drafter and the orchestrator is logged where it
+  happens and stored where the operator sees it (Jeff, 2026-11-11). The clearance is
+  `GEEK_SOCIAL_CLAUDE_CLEARED_PLATFORMS` on GeekAPI, a comma list of platform names: unset clears
+  nothing, so every comment is held `blocked_no_clearance` and no comment text leaves the service; a
+  name that is not a platform stops GeekAPI from starting. Two failure codes were added,
+  `clearance_required` and `model_failed`; GeekRepository checks codes against the shared list, so
+  GeekAPI and GeekRepository must be deployed together. Defaults taken: a sensitive comment that needs
+  a reply always goes to a person; a reply may carry only the link of the post it is under, found among
+  the account's 200 newest stored posts, and any other link is refused. Recovery handles undecided
+  comments in batches of 500 until none is left, and stops when a pass makes no progress. Not seen in a
+  real run: nothing reaches Claude until a platform is cleared (M4, I6, L5).
 - **API and UI (Phase 5):** GeekAPI controllers under `api/social/*` with the `geeksocial.manage`
   policy. Approve, reject, edit, publish and resync call the orchestrator, never an agent or the
   store directly. GeekOAuth: add `SeedGeekSocialClient` to `GeekOAuth/src/GeekOAuth.Server/Infrastructure/OidcPublicClientSeeds.cs`
