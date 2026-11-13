@@ -381,6 +381,7 @@ export const TOOLS_MENU: SiteMenuConfiguration = {
             { href: "/tools/business-operations/ai-chatbot/botpenguin", label: "BotPenguin" },
             { href: "/tools/business-operations/ai-chatbot/dapta", label: "Dapta (AI Chatbot)" },
             { href: "/tools/business-operations/ai-receptionist/dapta", label: "Dapta (AI Receptionist)" },
+            { href: "/tools/business-operations/ai-receptionist/geek-receptionist", label: "Geek-Receptionist" },
             { href: "/tools/business-operations/ai-receptionist/lobbystack", label: "LobbyStack" },
             { href: "/tools/business-operations/ai-chatbot/manychat", label: "Manychat" },
             { href: "/tools/business-operations/ai-chatbot/myaifrontdesk", label: "My AI Front Desk (AI Chatbot)" },
