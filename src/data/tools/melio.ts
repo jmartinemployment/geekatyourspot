@@ -28,6 +28,7 @@ export const melioContent: ToolPageContent = {
     { "title": "Melio's Architecture and Mechanics", "description": "Two-way sync with QuickBooks, Xero and NetSuite, a centralized payments dashboard, ACH, card and wire options, and the Agent Mel AI assistant for routine AP questions." },
     { "title": "Deploying Melio in Your Business Environment", "description": "Pre-built connectors establish the two-way sync; data structure, approval limits by vendor, amount and team member, and training are set up with Geek @ Your Spot LLC." },
     { "title": "Evaluating Melio: Fit and Pricing Considerations", "description": "A straightforward pricing model and QuickBooks and Xero sync suit small to medium-sized businesses; highly complex or heavily customized payment needs may fit elsewhere." },
-    { "title": "Is Melio Right for Your Business?", "description": "Built for small businesses managing multiple vendors that want recurring, batch and split payments from one platform." }
+    { "title": "Is Melio Right for Your Business?", "description": "Built for small businesses managing multiple vendors that want recurring, batch and split payments from one platform." },
+    { "title": "Frequently Asked Questions", "description": "7 questions about Melio, covering its free plan, how vendors are paid, payment timing, accounting sync, security and the Xero acquisition." }
   ]
 };

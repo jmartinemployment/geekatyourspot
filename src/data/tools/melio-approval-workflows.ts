@@ -28,6 +28,7 @@ export const melioApprovalWorkflowsContent: ToolPageContent = {
     { "title": "Melio's Architecture and Workflow Automation", "description": "Customizable rules set once route bills automatically for distributed teams; bank accounts and approval levels are set up in minutes, with real-time cash flow visibility, roles and permissions for audit trails, and QuickBooks Online sync." },
     { "title": "Implementing Melio in Your Business Environment", "description": "Geek @ Your Spot LLC configures multi-level approvals by team member, role, amount and vendor, maps existing data to Melio, connects QuickBooks Online, and trains staff on a platform that scales without added headcount." },
     { "title": "Evaluating Melio for Your Business Needs", "description": "End-to-end AP automation for US businesses with flexible ACH, card and wire payment options, weighed against ApprovalMax, Ramp and Bill; Melio's edge is quick setup and QuickBooks Online integration." },
-    { "title": "Is Melio Right for Your Business?", "description": "Suits small to medium-sized businesses struggling with manual approvals, errors or late payments; a low invoice volume or a simple approval path may not justify the investment." }
+    { "title": "Is Melio Right for Your Business?", "description": "Suits small to medium-sized businesses struggling with manual approvals, errors or late payments; a low invoice volume or a simple approval path may not justify the investment." },
+    { "title": "Frequently Asked Questions", "description": "5 questions about Melio, covering accounting sync, security, its free plan, vendor accounts and the Xero acquisition." }
   ]
 };

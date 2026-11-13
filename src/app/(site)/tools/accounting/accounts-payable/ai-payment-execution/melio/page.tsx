@@ -7,8 +7,10 @@ import ArchitectureSection from "@/components/tools/accounting/accounts-payable/
 import DeployingSection from "@/components/tools/accounting/accounts-payable/ai-payment-execution/melio/deploying-section";
 import EvaluatingSection from "@/components/tools/accounting/accounts-payable/ai-payment-execution/melio/evaluating-section";
 import RightFitSection from "@/components/tools/accounting/accounts-payable/ai-payment-execution/melio/right-fit-section";
+import FaqSection from "@/components/tools/accounting/accounts-payable/ai-payment-execution/melio/faq-section";
+import { MELIO_PAYMENT_EXECUTION_FAQ } from "@/components/tools/accounting/accounts-payable/melio-faq";
 import { SchedulerShell } from "@/components/shared/scheduler/scheduler-shell";
-import type { TechArticle, WithContext } from "schema-dts";
+import type { FAQPage, TechArticle, WithContext } from "schema-dts";
 import { safeJsonLd } from "@/lib/seo/json-ld";
 import { SHARE_IMAGE } from "@/lib/seo/share-image";
 
@@ -34,6 +36,16 @@ const jsonLd: WithContext<TechArticle> = {
         "url": "https://melio.com/",
         "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/accounting/accounts-payable/ai-payment-execution" }
     }
+};
+
+const faqJsonLd: WithContext<FAQPage> = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": MELIO_PAYMENT_EXECUTION_FAQ.map((item) => ({
+        "@type": "Question",
+        "name": item.question,
+        "acceptedAnswer": { "@type": "Answer", "text": item.answer }
+    }))
 };
 
 export const generateMetadata = async (): Promise<Metadata> => {
@@ -78,6 +90,7 @@ export default async function Page() {
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(faqJsonLd) }} />
             <ToolsHeroSection
                 title={PAGE_TITLE}
                 summary={heroSummary}
@@ -95,6 +108,7 @@ export default async function Page() {
             <DeployingSection />
             <EvaluatingSection />
             <RightFitSection />
+            <FaqSection />
             <SchedulerShell />
         </>
     );
