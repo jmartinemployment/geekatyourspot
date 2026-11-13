@@ -94,6 +94,16 @@ export default function FaqSection() {
               Monthly Workforce Insights alert you to expiring visas, misclassification risks, and other
               compliance issues. Real-time notifications and curated insights are delivered directly in the Deel
               platform, helping you respond quickly and confidently to new requirements.</p>
+            <hr className="border-t-1 border-[#C83803] my-6 text-[#C83803] w-full" />
+            <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+              Do you earn a commission from Deel?
+            </h3>
+            <p className="text-base text-white shadow-text pt-3">
+              Yes. If you sign up for Deel through the links on this page, Geek @ Your Spot LLC earns a
+              commission. A sentence saying so sits next to each link, so you know what you are clicking before
+              you click it. The commission does not change what this page says about Deel. Whether you choose
+              Deel or another tool, the recommendations here are based on what solves your actual business
+              problems, not on earning a commission.</p>
           </div>
         </div>
       </div>

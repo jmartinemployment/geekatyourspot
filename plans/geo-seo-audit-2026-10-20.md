@@ -374,6 +374,18 @@ This is verified.
   - The approval pillar has 9 new questions about approval routing.
   - Each pillar builds its FAQPage from the same array its section renders, so the markup and the visible questions cannot drift apart.
   - The approval pillar's opening now defines the term: "An invoice approval workflow is the set of rules that sends each invoice to the right people for sign-off before it is paid."
+- **Rechecked on 2026-11-13, tool pages with a referral link (same note under "Changes made after the audit ran" in `plans/seo-audit-2026-10-20.md`).**
+  - **Scope.** Rippling (`0376e62d`), QuickBooks Online Advanced (`cb67fa9b`), both Melio pages (`8663aca9`) and Deel (`6c16c7fd`) carry the owner's referral links.
+  - **Method.** A source-level comparison of each page's FAQPage questions against its visible FAQ section, by the rule `scripts/check-faq-schema.ts` applies. It was not run on a prerendered build.
+  - **Result.** Deel has 9 questions, Rippling 21 and QuickBooks 15, and none is missing from the visible text. The two Melio pages have no FAQ section and no FAQPage node.
+  - **Fixed.** Rippling and QuickBooks end with "Do you earn a commission from X?". Deel had two referral links and no such question, so "Do you earn a commission from Deel?" is added as its last question, in the FAQPage and in the visible FAQ, in QuickBooks' wording.
+  - **Registry counts.** The FAQ description lines in `src/data/tools/*.ts` leave out the commission question (Rippling 20 of 21, QuickBooks 14 of 15), so Deel's stays at 8 of 9.
+  - **Open.** The Melio pages have referral links and no FAQ, so no commission question. Whether they get a FAQ is the owner's decision.
+  - **Noted, not changed.**
+    - Deel's FAQ asks "What is Deel PEO, and how does it help a small business manage tax compliance?" and answers that it is "a full-service HR solution".
+    - Rippling's commission answer is in the first person ("I earn a milestone commission") and has a dash, where QuickBooks and Deel use the business name and no dash.
+    - Deel's last monitoring answer says "West Palm Beach counties" where the page body says "Palm Beach".
+    - The counts above (82 pages, 852 questions) predate these pages and are not recounted.
 
 ### H11. Internal links point away from the business
 
