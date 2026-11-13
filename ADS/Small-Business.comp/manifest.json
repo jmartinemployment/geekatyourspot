@@ -1,0 +1,258 @@
+{
+  "activeLayerID" : "FD6BCF3E-A5DC-43E5-A2BF-FDCB5ECA9302",
+  "colorSpace" : "sRGB",
+  "documentID" : "4D7ACFFC-4C77-45DD-83E9-A262BB0F6734",
+  "format" : "com.compositor.project",
+  "height" : 1064,
+  "layers" : [
+    {
+      "blendMode" : "Normal",
+      "id" : "FD6BCF3E-A5DC-43E5-A2BF-FDCB5ECA9302",
+      "imageFile" : "FD6BCF3E-A5DC-43E5-A2BF-FDCB5ECA9302.png",
+      "isGroup" : false,
+      "isVisible" : true,
+      "name" : "Rectangle 1",
+      "opacity" : 1,
+      "shape" : {
+        "blue" : 0.16470588235294117,
+        "cornerRadius" : 0,
+        "green" : 0.08627450980392157,
+        "kind" : "Rectangle",
+        "red" : 0.043137254901960784
+      },
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          0,
+          0
+        ],
+        "rotation" : 0,
+        "sampling" : "High quality",
+        "size" : [
+          1103,
+          1064
+        ]
+      }
+    },
+    {
+      "blendMode" : "Normal",
+      "id" : "D5127AE8-869E-45AB-8CEF-11E188625E8A",
+      "imageFile" : "D5127AE8-869E-45AB-8CEF-11E188625E8A.png",
+      "isGroup" : false,
+      "isVisible" : true,
+      "name" : "AI Receptionist",
+      "opacity" : 1,
+      "text" : {
+        "alignment" : "Center",
+        "blue" : 1,
+        "content" : "AI Receptionist",
+        "fontName" : "Arial-BoldMT",
+        "fontSize" : 54,
+        "green" : 1,
+        "leading" : 0,
+        "red" : 1,
+        "tracking" : 0
+      },
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          46.5,
+          973
+        ],
+        "rotation" : 0,
+        "sampling" : "High quality",
+        "size" : [
+          423,
+          91
+        ]
+      }
+    },
+    {
+      "blendMode" : "Normal",
+      "id" : "AFC494DA-F8EC-4F69-B616-AEBA335F0BE4",
+      "imageFile" : "AFC494DA-F8EC-4F69-B616-AEBA335F0BE4.png",
+      "isGroup" : false,
+      "isVisible" : true,
+      "name" : "Layer 2",
+      "opacity" : 1,
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          -24,
+          436
+        ],
+        "rotation" : 0,
+        "sampling" : "High quality",
+        "size" : [
+          1128,
+          515
+        ]
+      }
+    },
+    {
+      "blendMode" : "Normal",
+      "id" : "DB5919E5-01CE-4DD0-AEB0-CB0820371471",
+      "imageFile" : "DB5919E5-01CE-4DD0-AEB0-CB0820371471.png",
+      "isGroup" : false,
+      "isVisible" : true,
+      "name" : "Answer Questions, Book Appointments, Cap",
+      "opacity" : 1,
+      "text" : {
+        "alignment" : "Center",
+        "blue" : 1,
+        "content" : "Answer Questions, Book Appointments, Capture Leads 24\/7",
+        "fontName" : "Arial-BoldMT",
+        "fontSize" : 32,
+        "green" : 1,
+        "leading" : 0,
+        "red" : 1,
+        "tracking" : 0
+      },
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          69,
+          333
+        ],
+        "rotation" : 0,
+        "sampling" : "High quality",
+        "size" : [
+          942,
+          64
+        ]
+      }
+    },
+    {
+      "blendMode" : "Normal",
+      "id" : "71660515-C4A3-4097-8C70-2215657E5899",
+      "imageFile" : "71660515-C4A3-4097-8C70-2215657E5899.png",
+      "isGroup" : false,
+      "isVisible" : true,
+      "name" : "Missed Calls - Missed Business",
+      "opacity" : 1,
+      "text" : {
+        "alignment" : "Left",
+        "blue" : 1,
+        "content" : "Missed Calls. Missed Business.",
+        "fontName" : "Arial-BoldMT",
+        "fontSize" : 64,
+        "green" : 1,
+        "leading" : 0,
+        "red" : 1,
+        "tracking" : 0
+      },
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          44.5,
+          262
+        ],
+        "rotation" : 0,
+        "sampling" : "High quality",
+        "size" : [
+          991,
+          103
+        ]
+      }
+    },
+    {
+      "blendMode" : "Normal",
+      "id" : "89CCE367-F5AB-4E00-B50B-C93E5BFE62B2",
+      "imageFile" : "89CCE367-F5AB-4E00-B50B-C93E5BFE62B2.png",
+      "isGroup" : false,
+      "isVisible" : true,
+      "name" : "Small Business",
+      "opacity" : 1,
+      "text" : {
+        "alignment" : "Left",
+        "blue" : 0.011764705882352941,
+        "content" : "Small Business",
+        "fontName" : "Arial-BoldMT",
+        "fontSize" : 72,
+        "green" : 0.2196078431372549,
+        "leading" : 0,
+        "red" : 0.7843137254901961,
+        "tracking" : 0
+      },
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          270,
+          176
+        ],
+        "rotation" : 0,
+        "sampling" : "High quality",
+        "size" : [
+          564,
+          113
+        ]
+      }
+    },
+    {
+      "blendMode" : "Normal",
+      "id" : "A24D189C-2D7A-4D2A-B8EA-4C7CD31E15C3",
+      "imageFile" : "A24D189C-2D7A-4D2A-B8EA-4C7CD31E15C3.png",
+      "isGroup" : false,
+      "isVisible" : true,
+      "name" : "AI for South Florida",
+      "opacity" : 1,
+      "text" : {
+        "alignment" : "Left",
+        "blue" : 1,
+        "content" : "AI for South Florida",
+        "fontName" : "Arial-BoldMT",
+        "fontSize" : 72,
+        "green" : 1,
+        "leading" : 0,
+        "red" : 1,
+        "tracking" : 0
+      },
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          188,
+          119
+        ],
+        "rotation" : 0,
+        "sampling" : "High quality",
+        "size" : [
+          704,
+          113
+        ]
+      }
+    },
+    {
+      "blendMode" : "Normal",
+      "id" : "DF0D89F4-A6AB-4C78-BE1A-8511F005FC4E",
+      "imageFile" : "DF0D89F4-A6AB-4C78-BE1A-8511F005FC4E.png",
+      "isGroup" : false,
+      "isVisible" : true,
+      "name" : "GeekAtYourSpotWhite",
+      "opacity" : 1,
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          425,
+          24
+        ],
+        "rotation" : 0,
+        "sampling" : "High quality",
+        "size" : [
+          230,
+          95
+        ]
+      }
+    }
+  ],
+  "resolution" : 72,
+  "version" : 21,
+  "width" : 1080
+}
