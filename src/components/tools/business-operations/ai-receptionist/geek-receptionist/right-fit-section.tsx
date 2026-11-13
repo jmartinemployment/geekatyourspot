@@ -39,9 +39,23 @@ export default function RightFitSection() {
         wants every missed caller to get a reply and wants a record of who called, without changing the phone
         number customers already know.</p>
       <p className="text-base text-white shadow-text pt-3">
+        It fits best where a missed call is a lost job: plumbers, electricians, roofers, cleaners and other
+        trades who work with their hands, and practices and offices where the person who answers is also the
+        person with a customer in front of them. If a caller will hang up and dial the next business, a quick
+        text in your name is worth having.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        It also fits an owner who wants to keep things simple. You do not publish a new number, learn a new
+        phone system or train staff. Your carrier forwards the calls you do not answer, and the alerts and
+        replies arrive on the cell phone you already carry.</p>
+      <p className="text-base text-white shadow-text pt-3">
         It is not the right fit if you need a live person on every call, if most of your callers are outside
-        the United States and Canada, or if you need AI answering today. Tools that answer calls with AI now are
-        covered on this site, including&nbsp;<Link id={`tools-business-operations-ai-receptionist-geek-receptionist-right-fit-lobbystack${idSuffix}`} href="/tools/business-operations/ai-receptionist/lobbystack" className="text-[#C83803] hover:underline">LobbyStack</Link>,&nbsp;<Link id={`tools-business-operations-ai-receptionist-geek-receptionist-right-fit-voksha${idSuffix}`} href="/tools/business-operations/ai-receptionist/voksha" className="text-[#C83803] hover:underline">Voksha</Link>&nbsp;and&nbsp;<Link id={`tools-business-operations-ai-receptionist-geek-receptionist-right-fit-myaifrontdesk${idSuffix}`} href="/tools/business-operations/ai-receptionist/myaifrontdesk" className="text-[#C83803] hover:underline">My AI Front Desk</Link>.</p>
+        the United States and Canada, or if you need AI answering today. Texting is limited to numbers in the
+        United States and Canada, and the service does not answer or record calls itself. Tools that answer
+        calls with AI now are covered on this site, including&nbsp;<Link id={`tools-business-operations-ai-receptionist-geek-receptionist-right-fit-lobbystack${idSuffix}`} href="/tools/business-operations/ai-receptionist/lobbystack" className="text-[#C83803] hover:underline">LobbyStack</Link>,&nbsp;<Link id={`tools-business-operations-ai-receptionist-geek-receptionist-right-fit-voksha${idSuffix}`} href="/tools/business-operations/ai-receptionist/voksha" className="text-[#C83803] hover:underline">Voksha</Link>&nbsp;and&nbsp;<Link id={`tools-business-operations-ai-receptionist-geek-receptionist-right-fit-myaifrontdesk${idSuffix}`} href="/tools/business-operations/ai-receptionist/myaifrontdesk" className="text-[#C83803] hover:underline">My AI Front Desk</Link>.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        If you are close, the free consultation is the place to settle it. We look at how your calls arrive
+        today, which carrier you use, and who should receive the alerts, and we tell you plainly whether
+        Geek-Receptionist fits or whether a different tool would serve you better.</p>
       <p className="text-base text-white shadow-text pt-3">
         The next step is to be clear about how your calls arrive today.
         Answer these questions
@@ -60,7 +74,7 @@ export default function RightFitSection() {
 
   return (
     <>
-      <section className="min-h-screen bg-[#024059] text-white py-5 lg:hidden">
+      <section className="min-h-screen bg-[#023059] text-white py-5 lg:hidden">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center"></div>
@@ -73,7 +87,7 @@ export default function RightFitSection() {
           </div>
         </div>
       </section>
-      <section className="min-h-screen bg-[#024059] text-white py-5 hidden lg:block">
+      <section className="min-h-screen bg-[#023059] text-white py-5 hidden lg:block">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
             <div className="col-span-5 flex items-center justify-center">

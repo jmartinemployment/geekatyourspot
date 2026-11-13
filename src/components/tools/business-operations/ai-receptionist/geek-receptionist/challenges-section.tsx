@@ -8,7 +8,7 @@ import {
   faVoicemail,
 } from "@fortawesome/free-solid-svg-icons";
 
-export default function MissedCallsSection() {
+export default function ChallengesSection() {
   const points = [
     { icon: faClock, color: "text-[#C83803]", label: "Nobody is free to answer" },
     { icon: faVoicemail, color: "text-white", label: "Voicemail goes unchecked" },
@@ -29,14 +29,27 @@ export default function MissedCallsSection() {
         who called, when, or what they wanted. A phone number in a missed call log is not a lead. It is a guess,
         and someone has to spend time turning it into a conversation.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Voicemail and rigid phone menus do not fix this. They cannot tell an urgent caller from a routine one,
-        and they put the work of following up back on you, usually at the end of a long day. For a small
-        business where the people who would answer are the same people doing the work, the phone is always
-        competing with the job in front of them.</p>
+        Voicemail does not fix this. Many callers never leave a message, and the ones who do wait until you find
+        the time to listen, which is often the end of a long day. By then the problem is either solved by
+        someone else or no longer urgent.</p>
       <p className="text-base text-white shadow-text pt-3">
-        A quick text in your business’s name changes what the caller does next. The caller knows the call was
-        seen, has a way to reply with the details, and does not have to start over with someone else. That is
-        the gap Geek-Receptionist closes.</p>
+        Rigid phone menus do not fix it either. They cannot tell an urgent caller from a routine one, and they
+        put the work of following up back on you. A caller who presses three buttons and still reaches no one
+        is more likely to hang up than to wait.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        There is also the record. A number on a missed call log does not say what the caller wanted, whether
+        they have called before, or whether anyone replied. Without that history, the same caller can be missed
+        twice and nobody notices.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        For a small business, the people who would answer are the same people doing the work, so the phone is
+        always competing with the job in front of them. A full time front desk may not make sense for a handful
+        of missed calls a week, and the missed calls still cost real jobs.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        A quick text in your business’s name changes what the caller does next. They know the call was seen,
+        they have a way to reply with the details, and they do not have to start over with someone else.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        That is the gap Geek-Receptionist closes. Today it does not answer the call for you. It makes sure that
+        no missed call goes quiet.</p>
     </>
   );
 

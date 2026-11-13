@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
 import ToolsHeroSection from "@/components/tools/shared/tools-hero";
 import OverviewSection from "@/components/tools/business-operations/ai-receptionist/geek-receptionist/overview-section";
-import MissedCallsSection from "@/components/tools/business-operations/ai-receptionist/geek-receptionist/missed-calls-section";
+import ChallengesSection from "@/components/tools/business-operations/ai-receptionist/geek-receptionist/challenges-section";
+import TransformsSection from "@/components/tools/business-operations/ai-receptionist/geek-receptionist/transforms-section";
 import HowItWorksSection from "@/components/tools/business-operations/ai-receptionist/geek-receptionist/how-it-works-section";
 import ArchitectureSection from "@/components/tools/business-operations/ai-receptionist/geek-receptionist/architecture-section";
-import SetupSection from "@/components/tools/business-operations/ai-receptionist/geek-receptionist/setup-section";
-import PlansSection from "@/components/tools/business-operations/ai-receptionist/geek-receptionist/plans-section";
+import ImplementingSection from "@/components/tools/business-operations/ai-receptionist/geek-receptionist/implementing-section";
+import DataMappingSection from "@/components/tools/business-operations/ai-receptionist/geek-receptionist/data-mapping-section";
+import ConfiguringSection from "@/components/tools/business-operations/ai-receptionist/geek-receptionist/configuring-section";
+import EvaluatingSection from "@/components/tools/business-operations/ai-receptionist/geek-receptionist/evaluating-section";
+import ComparingSection from "@/components/tools/business-operations/ai-receptionist/geek-receptionist/comparing-section";
 import RightFitSection from "@/components/tools/business-operations/ai-receptionist/geek-receptionist/right-fit-section";
 import FaqSection from "@/components/tools/business-operations/ai-receptionist/geek-receptionist/faq-section";
 import { GEEK_RECEPTIONIST_FAQ } from "@/components/tools/business-operations/ai-receptionist/geek-receptionist/faq";
@@ -102,11 +106,15 @@ export default async function Page() {
                 }}
             />
             <OverviewSection />
-            <MissedCallsSection />
+            <ChallengesSection />
+            <TransformsSection />
             <HowItWorksSection />
             <ArchitectureSection />
-            <SetupSection />
-            <PlansSection />
+            <ImplementingSection />
+            <DataMappingSection />
+            <ConfiguringSection />
+            <EvaluatingSection />
+            <ComparingSection />
             <RightFitSection />
             <FaqSection />
             <SchedulerShell />

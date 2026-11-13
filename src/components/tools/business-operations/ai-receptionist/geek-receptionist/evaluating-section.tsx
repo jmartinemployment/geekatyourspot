@@ -8,14 +8,14 @@ import {
   faTag,
 } from "@fortawesome/free-solid-svg-icons";
 
-export default function PlansSection() {
+export default function EvaluatingSection() {
   const points = [
-    { icon: faTag, color: "text-[#C83803]", label: "No setup fee" },
-    { icon: faCalendarDays, color: "text-white", label: "Billed monthly through PayPal" },
-    { icon: faBan, color: "text-[#BF5934]", label: "Cancel anytime" },
-    { icon: faGaugeHigh, color: "text-[#C83803]", label: "AI-answered minutes by plan" },
+    { icon: faTag, color: "text-white", label: "No setup fee" },
+    { icon: faCalendarDays, color: "text-[#0B162A]", label: "Billed monthly through PayPal" },
+    { icon: faBan, color: "text-white", label: "Cancel anytime" },
+    { icon: faGaugeHigh, color: "text-[#0B162A]", label: "AI-answered minutes by plan" },
     { icon: faArrowTrendUp, color: "text-white", label: "Over your minutes, the plan that fits" },
-    { icon: faShieldHalved, color: "text-[#BF5934]", label: "A spending cap if you prefer" },
+    { icon: faShieldHalved, color: "text-[#0B162A]", label: "A spending cap if you prefer" },
   ];
 
   const plans = [
@@ -28,9 +28,17 @@ export default function PlansSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
+        The first question to ask about any receptionist is how many calls you actually miss. Count them for a
+        normal week, note the hours when they happen, and think about what a single new customer is worth to
+        your business. A handful of missed calls a week can cost more than any monthly plan.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        The second question is what you want to happen next. If a text, an alert and a voicemail are enough to
+        win the job back, the missed call handling described on this page is built for that and runs today. If
+        you want a voice to answer and talk with the caller, that is the AI voice step.</p>
+      <p className="text-base text-white shadow-text pt-3">
         AI voice answering is the next step for Geek-Receptionist, and these plans are for it. They open soon,
-        and this page will say so when they are live. The missed call handling described above runs today.
-        These are the planned plans and prices.</p>
+        and this page will say so when they are live. The prices below are the planned plans and prices, and
+        they are marked as coming soon until then.</p>
       <table className="mt-6 w-full border-collapse text-left text-white shadow-text">
         <thead>
           <tr>
@@ -50,7 +58,11 @@ export default function PlansSection() {
         </tbody>
       </table>
       <p className="text-base text-white shadow-text pt-3">
-        There is no setup fee. Billing is monthly through PayPal, and you can cancel anytime.</p>
+        Each plan is measured in AI-answered minutes per month. The way to pick one is to estimate how many
+        calls you would send to the AI and how long a typical call lasts.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        There is no setup fee. Billing is monthly through PayPal, and you can cancel anytime. You are not
+        signing up for a long contract to find out whether it fits.</p>
       <p className="text-base text-white shadow-text pt-3">
         If you go over your minutes, that month is billed at the price of the plan that covers your usage, and
         you go back to your own plan the next month. Above 2,000 minutes, the price is the Premium price plus
@@ -63,28 +75,22 @@ export default function PlansSection() {
 
   return (
     <>
-      <section className="min-h-screen bg-[#023059] text-white py-5 lg:hidden">
+      <section className="min-h-screen bg-[#8C4E2A] text-white py-5 lg:hidden">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
+            <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
-              <h2 id="plans-and-pricing" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                Plans and Pricing
+              <h2 id="how-to-judge-geek-receptionist-fit-and-the-planned-ai-voice-plans-and-pricing" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How to Judge Geek-Receptionist Fit, and the Planned AI Voice Plans and Pricing
               </h2>
             </div>
-            <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-12">{body}</div>
           </div>
         </div>
       </section>
-      <section className="min-h-screen bg-[#023059] text-white py-5 hidden lg:block">
+      <section className="min-h-screen bg-[#8C4E2A] text-white py-5 hidden lg:block">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
-            <div className="col-span-7">
-              <h2 id="plans-and-pricing-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                Plans and Pricing
-              </h2>
-              {body}
-            </div>
             <div className="col-span-5 flex items-center justify-center">
               <ul className="flex flex-col items-center gap-8 text-center">
                 {points.map((point) => (
@@ -100,6 +106,12 @@ export default function PlansSection() {
                   </li>
                 ))}
               </ul>
+            </div>
+            <div className="col-span-7">
+              <h2 id="how-to-judge-geek-receptionist-fit-and-the-planned-ai-voice-plans-and-pricing-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How to Judge Geek-Receptionist Fit, and the Planned AI Voice Plans and Pricing
+              </h2>
+              {body}
             </div>
           </div>
         </div>

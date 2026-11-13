@@ -25,18 +25,32 @@ export default function OverviewSection() {
         It is a Tuesday afternoon in Broward County. A plumber is under a customer’s sink, the office line
         rings, and nobody is free to pick up. The caller waits through the voicemail greeting, hangs up, and
         dials the next plumber on the list. By the time the owner checks messages that evening, the job has gone
-        to someone else. For small businesses across Miami-Dade, Broward and Palm Beach, an unanswered phone is
-        an everyday problem.</p>
+        to someone else.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Geek-Receptionist is the phone service from Geek @ Your Spot LLC that deals with exactly that moment.
-        When a call goes unanswered, the caller hears a short greeting and gets one text message in your
-        business’s name. You get an alert on your cell phone, the caller can leave a voicemail, and if the
-        caller texts back, the reply is forwarded straight to you. Every call and text is also logged in
-        Geek-CRM, so you can see who called and when.</p>
+        That moment repeats across small businesses in Miami-Dade, Broward and Palm Beach. The people who would
+        answer the phone are the people doing the work, so the phone rings while they are on a ladder, behind a
+        counter, or with another customer. Nobody did anything wrong. There was simply no one free.</p>
       <p className="text-base text-white shadow-text pt-3">
-        AI voice answering is the next step. The plans and prices further down this page are for it, and they
-        are marked as coming soon until it is live. What runs today is the missed call handling described on
-        this page, and it works with the business number you already have.</p>
+        Geek-Receptionist, from Geek @ Your Spot LLC, handles that moment. When a call goes unanswered, the
+        caller hears a short greeting and gets one text message in your business’s name. You get an alert on
+        your cell phone, the caller can leave a voicemail, and if the caller texts back, the reply is forwarded
+        straight to you.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        Here is the whole picture in one line. A call goes unanswered, one text goes to the caller, you get an
+        alert, the caller can leave a voicemail, replies come to your cell phone, and the call is logged in
+        Geek-CRM so you can see who called and when. That is what runs today.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        It is built to work with the number your customers already know. You do not publish a new number,
+        replace your phone system, or ask customers to download anything. Your carrier forwards the calls you do
+        not answer, and Geek-Receptionist takes it from there.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        Texting is handled carefully. The text goes only to someone who just called you, it is one fixed message
+        in your business’s name, and the same caller is not texted again inside a set window. It is a reply to
+        a call, not a marketing list.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        AI voice answering is the next step. It is designed so that the AI says in its first sentence that it is
+        an AI, and so that calls are not recorded by default. The plans and prices further down this page are
+        for it, and they are marked as coming soon until it is live.</p>
       <p className="text-base text-white shadow-text pt-3">
         If you are comparing options, the&nbsp;<Link id={`tools-business-operations-ai-receptionist-geek-receptionist-overview-ai-receptionist${idSuffix}`} href="/use-cases/business-operations/ai-receptionist" className="text-[#C83803] hover:underline">AI Receptionist</Link>&nbsp;use case
         explains what a small business should decide before choosing a tool, and the other tools on this site

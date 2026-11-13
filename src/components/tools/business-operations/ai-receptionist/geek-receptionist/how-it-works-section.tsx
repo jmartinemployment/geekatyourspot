@@ -25,11 +25,16 @@ export default function HowItWorksSection() {
         cell phone through Geek-Receptionist, depending on how it is set up. If you answer, the call connects
         and nothing else happens. No text is sent and no alert goes out.</p>
       <p className="text-base text-white shadow-text pt-3">
+        How long the phone rings is your choice. The default is 18 seconds, and it can be set anywhere from 5 to
+        60. Keep it shorter than the time your carrier takes to send a call to voicemail, so the call reaches
+        Geek-Receptionist first.</p>
+      <p className="text-base text-white shadow-text pt-3">
         If you do not answer, the caller hears a short greeting. It tells them that your business is texting
         them about their call, that message and data rates may apply, and that they can reply STOP to opt out.
-        They can also leave a voicemail after the tone. A caller who was not texted, for example because they
-        called again inside the repeat window, hears only an invitation to leave a message, so the greeting
-        never promises a text that was not sent.</p>
+        They can also leave a voicemail after the tone.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        A caller who was not texted, for example because they called again inside the repeat window, hears only
+        an invitation to leave a message. The greeting never promises a text that was not sent.</p>
       <p className="text-base text-white shadow-text pt-3">
         At the same moment, the caller gets one text message in your business’s name, and you get an alert on
         your cell phone that a call was missed and the text went out. When the caller leaves a voicemail, you
@@ -38,30 +43,40 @@ export default function HowItWorksSection() {
         Callers often reply to the text. Those replies are forwarded to your cell phone, so you can answer in
         your own words. Attachments are deleted and never forwarded, so only words reach you.</p>
       <p className="text-base text-white shadow-text pt-3">
-        You can also turn on call screening. When a call rings your cell phone, you hear your business name and
-        press any key to accept. Without screening, your cell phone’s own voicemail can pick up, which makes the
-        call look answered, and the caller would never get the text.</p>
+        You can also turn on call screening. When a call rings your cell phone, you hear “Call for” and your
+        business name, then press any key to accept. Without screening, your cell phone’s own voicemail can pick
+        up, which makes the call look answered, and the caller would never get the text.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        If your carrier already forwards your unanswered calls to Geek-Receptionist, there is no ringing step at
+        all. Every call that arrives is already a missed call, so the greeting, the text and the alert start
+        immediately.</p>
     </>
   );
 
   return (
     <>
-      <section className="min-h-screen bg-[#025E73] text-white py-5 lg:hidden">
+      <section className="min-h-screen bg-[#8C4E2A] text-white py-5 lg:hidden">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
-            <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-7">
               <h2 id="how-geek-receptionist-handles-a-missed-call" className="text-white text-[6vw] sm:text-4xl md:text-5xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Geek-Receptionist Handles a Missed Call
               </h2>
             </div>
+            <div className="col-span-5 flex items-center justify-center"></div>
             <div className="col-span-12">{body}</div>
           </div>
         </div>
       </section>
-      <section className="min-h-screen bg-[#025E73] text-white py-5 hidden lg:block">
+      <section className="min-h-screen bg-[#8C4E2A] text-white py-5 hidden lg:block">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
+            <div className="col-span-7">
+              <h2 id="how-geek-receptionist-handles-a-missed-call-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
+                How Geek-Receptionist Handles a Missed Call
+              </h2>
+              {body}
+            </div>
             <div className="col-span-5 flex items-center justify-center">
               <ul className="flex flex-col items-center gap-8 text-center">
                 {points.map((point) => (
@@ -77,12 +92,6 @@ export default function HowItWorksSection() {
                   </li>
                 ))}
               </ul>
-            </div>
-            <div className="col-span-7">
-              <h2 id="how-geek-receptionist-handles-a-missed-call-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
-                How Geek-Receptionist Handles a Missed Call
-              </h2>
-              {body}
             </div>
           </div>
         </div>
