@@ -1,6 +1,25 @@
 import Link from "next/link";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGlobe,
+  faMoneyCheckDollar,
+  faPlug,
+  faShieldHalved,
+  faTableCells,
+  faUserCheck,
+} from "@fortawesome/free-solid-svg-icons";
+
 export default function ComparingSection() {
+  const points = [
+    { icon: faMoneyCheckDollar, color: "text-white", label: "Payroll providers leave the risk with you" },
+    { icon: faTableCells, color: "text-[#0B162A]", label: "Spreadsheets leave you exposed" },
+    { icon: faShieldHalved, color: "text-white", label: "Contractor of Record assumes the risk" },
+    { icon: faUserCheck, color: "text-[#0B162A]", label: "Classification checks built in" },
+    { icon: faPlug, color: "text-white", label: "Direct accounting integrations" },
+    { icon: faGlobe, color: "text-[#0B162A]", label: "Rules monitored in every jurisdiction" },
+  ];
+
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -90,7 +109,22 @@ export default function ComparingSection() {
               </h2>
               {body("-lg")}
             </div>
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {points.map((point) => (
+                  <li key={point.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={point.icon}
+                      className={point.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {point.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </section>

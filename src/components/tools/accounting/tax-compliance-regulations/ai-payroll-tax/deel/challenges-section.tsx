@@ -1,4 +1,23 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faClock,
+  faFileInvoiceDollar,
+  faFolderOpen,
+  faGavel,
+  faMoneyBillTransfer,
+  faUserXmark,
+} from "@fortawesome/free-solid-svg-icons";
+
 export default function ChallengesSection() {
+  const points = [
+    { icon: faFileInvoiceDollar, color: "text-[#C83803]", label: "Late payroll tax deposits" },
+    { icon: faUserXmark, color: "text-white", label: "One misclassified worker" },
+    { icon: faGavel, color: "text-[#BF5934]", label: "Fines, back taxes and lawsuits" },
+    { icon: faFolderOpen, color: "text-[#C83803]", label: "W-9s chased by hand" },
+    { icon: faMoneyBillTransfer, color: "text-white", label: "Manual transfers to contractors" },
+    { icon: faClock, color: "text-[#BF5934]", label: "Hours lost to changing rules" },
+  ];
+
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -67,7 +86,22 @@ export default function ChallengesSection() {
               </h2>
               {body}
             </div>
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {points.map((point) => (
+                  <li key={point.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={point.icon}
+                      className={point.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {point.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </section>

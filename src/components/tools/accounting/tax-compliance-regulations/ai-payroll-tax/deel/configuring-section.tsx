@@ -1,5 +1,24 @@
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faArrowsRotate,
+  faBell,
+  faCalendarDays,
+  faCloudArrowUp,
+  faPlug,
+  faSliders,
+} from "@fortawesome/free-solid-svg-icons";
+
 export default function ConfiguringSection() {
+  const points = [
+    { icon: faSliders, color: "text-white", label: "Classification criteria set" },
+    { icon: faBell, color: "text-[#0B162A]", label: "Compliance alerts configured" },
+    { icon: faCalendarDays, color: "text-white", label: "Payroll runs on schedule" },
+    { icon: faCloudArrowUp, color: "text-[#0B162A]", label: "Workers upload their own forms" },
+    { icon: faPlug, color: "text-white", label: "Accounting and time tracking synced" },
+    { icon: faArrowsRotate, color: "text-[#0B162A]", label: "Rules adapt as laws change" },
+  ];
+
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -103,7 +122,22 @@ export default function ConfiguringSection() {
               </h2>
               {body}
             </div>
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {points.map((point) => (
+                  <li key={point.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={point.icon}
+                      className={point.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {point.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </section>

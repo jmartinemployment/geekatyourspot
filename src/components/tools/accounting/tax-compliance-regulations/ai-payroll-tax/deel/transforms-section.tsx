@@ -1,5 +1,24 @@
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBell,
+  faFileSignature,
+  faMoneyBillTransfer,
+  faPlug,
+  faShieldHalved,
+  faUserCheck,
+} from "@fortawesome/free-solid-svg-icons";
+
 export default function TransformsSection() {
+  const points = [
+    { icon: faFileSignature, color: "text-white", label: "Tax forms filed and stored" },
+    { icon: faUserCheck, color: "text-[#0B162A]", label: "AI classifier reviews each worker" },
+    { icon: faShieldHalved, color: "text-white", label: "Contractor of Record takes the liability" },
+    { icon: faBell, color: "text-[#0B162A]", label: "Compliance Hub alerts on rule changes" },
+    { icon: faMoneyBillTransfer, color: "text-white", label: "One workflow for every payment" },
+    { icon: faPlug, color: "text-[#0B162A]", label: "Synced to your general ledger" },
+  ];
+
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -79,7 +98,22 @@ export default function TransformsSection() {
       <section className="min-h-screen bg-[#025E73] text-white py-5 hidden lg:block">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {points.map((point) => (
+                  <li key={point.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={point.icon}
+                      className={point.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {point.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
             <div className="col-span-7">
               <h2 id="how-deel-removes-the-weekly-pain-from-ai-payroll-tax-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How Deel Removes the Weekly Pain from AI Payroll Tax

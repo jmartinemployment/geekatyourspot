@@ -1,0 +1,30 @@
+Three real options near you, cheapest first.
+
+1. FIU Small Business Legal Clinic — effectively free. The FIU College of Law Small Business Legal Clinic provides free assistance to small businesses and nonprofits, services are free except a one-time $25 administrative fee, and it serves Florida residents only. You apply by emailing the director, John Little, at johnlittle@fiuclinic.org, briefly describing the help you need. The clinic reserves the right to decline any request. Worth a shot, but they may pass on a revenue-generating product, and law students move on a semester clock. 
+fiuclinic
+fiuclinic
+
+2. Palm Beach County Bar referral — $50. You get a 30-minute consultation with an attorney in your area of need for a $50 fee, which applies in all areas of law except bankruptcy, labor, medical malpractice, personal injury, social security disability and workers’ comp. You fill out a form on their site and they email you the attorney’s contact details in about an hour. Phone is 561-687-3266, with a separate Boca and Delray line at 561-451-3256. 
+Call us Today (561) 687-2800
+ +2
+
+The statewide Florida Bar service is cheaper at no more than $25 for 30 minutes, but it only handles areas without a local service — Palm Beach has its own, so you get the $50 one. 
+floridabar
+floridabar
+
+3. Dade Legal Aid’s Venture Law Project — free legal services for early-stage entrepreneurs and small businesses in South Florida, matched with volunteer attorneys, but applications are screened for income eligibility. Probably not a fit, listed for completeness. 
+dadelegalaid
+
+Now the part that matters more than the price.
+
+Don’t buy one review. Your packet isn’t a standard contract — a typical business contract review runs about $540, and that buys you a generalist reading your indemnity clauses. It will not get you an answer on the Florida wiretap question or the FCC port-out rules. 
+ailawyer
+
+Split it:
+
+The contract itself → cheap generalist. Flat fee, $500–800 territory.
+Three questions only → one specialist hour. The consent gate, the regulated-provider classification, and the emergency exposure. That’s where a felony statute and an unwaivable federal rule live.
+
+And don’t hand a $50 consult 45 pages. Send the two-page overview and the numbered question list at the end of the compliance analysis. Ask what they’d charge to answer just those. The answer tells you whether they’re the right lawyer before you’ve spent anything.
+
+Sources: FIU Small Business Legal Clinic · Palm Beach County Bar LRS · Florida Bar LRS · Dade Legal Aid Venture Law Project

@@ -1,6 +1,25 @@
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faAddressCard,
+  faCode,
+  faDatabase,
+  faListCheck,
+  faLock,
+  faPlug,
+} from "@fortawesome/free-solid-svg-icons";
+
 export default function ArchitectureSection() {
+  const points = [
+    { icon: faAddressCard, color: "text-white", label: "One profile for every worker" },
+    { icon: faPlug, color: "text-[#0B162A]", label: "QuickBooks, Xero and NetSuite sync" },
+    { icon: faCode, color: "text-white", label: "Open API and marketplace" },
+    { icon: faDatabase, color: "text-[#0B162A]", label: "Global rules database" },
+    { icon: faLock, color: "text-white", label: "Role-based access, SOC 1 and 2" },
+    { icon: faListCheck, color: "text-[#0B162A]", label: "Audit trail on every action" },
+  ];
+
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -79,7 +98,22 @@ export default function ArchitectureSection() {
       <section className="min-h-screen bg-[#BF5934] text-white py-5 hidden lg:block">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {points.map((point) => (
+                  <li key={point.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={point.icon}
+                      className={point.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {point.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
             <div className="col-span-7">
               <h2 id="what-powers-deel-integrations-data-flow-and-security-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Powers Deel: Integrations, Data Flow, and Security

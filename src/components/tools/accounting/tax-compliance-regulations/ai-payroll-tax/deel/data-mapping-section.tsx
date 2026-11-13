@@ -1,4 +1,23 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBookOpen,
+  faFileLines,
+  faMapLocationDot,
+  faTags,
+  faUserCheck,
+  faUserLock,
+} from "@fortawesome/free-solid-svg-icons";
+
 export default function DataMappingSection() {
+  const points = [
+    { icon: faUserCheck, color: "text-[#C83803]", label: "Each worker typed W-2 or 1099" },
+    { icon: faTags, color: "text-white", label: "Pay codes and deductions mapped" },
+    { icon: faBookOpen, color: "text-[#BF5934]", label: "General ledger accounts assigned" },
+    { icon: faFileLines, color: "text-[#C83803]", label: "W-9 and W-4 documents linked" },
+    { icon: faMapLocationDot, color: "text-white", label: "State by state tax rules" },
+    { icon: faUserLock, color: "text-[#BF5934]", label: "Approvals and access set" },
+  ];
+
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -66,7 +85,22 @@ export default function DataMappingSection() {
       <section className="min-h-screen bg-[#024059] text-white py-5 hidden lg:block">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {points.map((point) => (
+                  <li key={point.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={point.icon}
+                      className={point.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {point.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
             <div className="col-span-7">
               <h2 id="getting-data-structure-and-mapping-right-from-day-one-in-deel-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Getting Data Structure and Mapping Right from Day One in Deel

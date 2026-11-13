@@ -1,6 +1,26 @@
 
+import { DEEL_AFFILIATE_URL } from "@/components/tools/accounting/tax-compliance-regulations/ai-payroll-tax/deel/affiliate-link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBullseye,
+  faCoins,
+  faHandshake,
+  faPlug,
+  faSliders,
+  faTag,
+} from "@fortawesome/free-solid-svg-icons";
+
 export default function EvaluatingSection() {
-  const body = (
+  const points = [
+    { icon: faBullseye, color: "text-white", label: "Fit to your risk profile" },
+    { icon: faSliders, color: "text-[#0B162A]", label: "Rules flex as your team changes" },
+    { icon: faTag, color: "text-white", label: "Flat-rate pricing, no usage fees" },
+    { icon: faCoins, color: "text-[#0B162A]", label: "Deposit equals one month of pay" },
+    { icon: faPlug, color: "text-white", label: "Native accounting integrations" },
+    { icon: faHandshake, color: "text-[#0B162A]", label: "Configured for your business" },
+  ];
+
+  const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
         Deel is not a one-size-fits-all platform. The right way to judge if Deel fits your business is to look
@@ -33,7 +53,8 @@ export default function EvaluatingSection() {
         and compliance. This deposit structure is not an extra fee. It is the price of having Deel take on the
         risk that would otherwise fall on your business. For businesses used to getting hit with surprise costs
         for late filings or audit defense, Deel’s pricing model is a way to budget compliance costs upfront, not
-        after the fact.</p>
+        after the fact. You can see&nbsp;<a id={`tools-accounting-ai-payroll-tax-deel-evaluating-affiliate${idSuffix}`} href={DEEL_AFFILIATE_URL} target="_blank" rel="sponsored noopener noreferrer" className="text-[#0B162A] hover:underline">Deel</a>&nbsp;for yourself before you decide.
+        Geek @ Your Spot LLC earns a commission if you sign up through this link.</p>
       <p className="text-base text-white shadow-text pt-3">
         A buyer should also consider how Deel integrates with the rest of their technology stack. If your
         accounting runs on QuickBooks, Xero, or NetSuite, Deel’s native integrations mean payments, deductions,
@@ -77,19 +98,34 @@ export default function EvaluatingSection() {
                 How to Judge Deel: Fit, Flexibility, and Real-World Pricing
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
       <section className="min-h-screen bg-[#8C4E2A] text-white py-5 hidden lg:block">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {points.map((point) => (
+                  <li key={point.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={point.icon}
+                      className={point.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {point.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
             <div className="col-span-7">
               <h2 id="how-to-judge-deel-fit-flexibility-and-real-world-pricing-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 How to Judge Deel: Fit, Flexibility, and Real-World Pricing
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>
