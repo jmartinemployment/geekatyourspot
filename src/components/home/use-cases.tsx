@@ -980,6 +980,12 @@ export function UseCasesSection() {
                                                 Dapta
                                             </Link>,{" "}
                                             <Link
+                                                id={gtmLinkIdFromHref("/tools/business-operations/ai-receptionist/geek-receptionist", "Geek-Receptionist")}
+                                                href="/tools/business-operations/ai-receptionist/geek-receptionist"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                Geek-Receptionist
+                                            </Link>,{" "}
+                                            <Link
                                                 id={gtmLinkIdFromHref("/tools/business-operations/ai-receptionist/lobbystack", "LobbyStack")}
                                                 href="/tools/business-operations/ai-receptionist/lobbystack"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline">
@@ -2120,6 +2126,12 @@ export function UseCasesSection() {
                                                 href="/tools/business-operations/ai-receptionist/dapta"
                                                 className="hover:text-[#0B162A] text-[#C83803] hover:underline">
                                                 Dapta
+                                            </Link>,{" "}
+                                            <Link
+                                                id={`${gtmLinkIdFromHref("/tools/business-operations/ai-receptionist/geek-receptionist", "Geek-Receptionist")}-lg`}
+                                                href="/tools/business-operations/ai-receptionist/geek-receptionist"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline">
+                                                Geek-Receptionist
                                             </Link>,{" "}
                                             <Link
                                                 id={`${gtmLinkIdFromHref("/tools/business-operations/ai-receptionist/lobbystack", "LobbyStack")}-lg`}
