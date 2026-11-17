@@ -197,7 +197,7 @@ export default function Navbar(): React.JSX.Element {
 
   return (
     <>
-      <header className="sticky top-0 z-[60] h-16 border-b border-black/10 bg-white shadow-sm">
+      <header className="z-[60] h-16 border-b border-black/10 bg-white shadow-sm">
         <div className="container h-full">
           <div className="flex h-full w-full items-center">
             <Link href="/" id={gtmLinkIdFromHref("/", "logo")} className="flex items-center">
