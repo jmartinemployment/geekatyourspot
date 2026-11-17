@@ -2,8 +2,9 @@
  * The FAQ for the Geek-Receptionist page. The visible FAQ in faq-section.tsx and the FAQPage markup
  * in page.tsx both read this list, so the questions on the page and in the markup cannot drift apart.
  * The facts come from the owner's plan and price notes of 2026-11-13 and from
- * GeekBackend/docs/RECEPTIONIST.md. Missed-call text-back is built and runs today; AI voice answering
- * is not built yet, and the answers say so.
+ * GeekBackend/docs/Geek-Receptionist.md.
+ * Public FAQ copy reflects current live capabilities (missed-call text-back and voicemail capture).
+ * Update both this comment and the visible FAQ answers together when v1 multi-tenant AI voice answering launches.
  */
 export type FaqItem = { question: string; answer: string };
 
