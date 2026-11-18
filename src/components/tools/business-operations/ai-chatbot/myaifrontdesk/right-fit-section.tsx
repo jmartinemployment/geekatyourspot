@@ -58,19 +58,9 @@ export default function RightFitSection() {
         when&nbsp;<a href="#consultationAppointment2xl" id={`tools-marketing-ai-chatbot-myaifrontdesk-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
-        <li>How many new inquiries do you receive in a typical week, and where do they come from?</li>
-        <li>Where do most serious prospects first contact you today: website, Google, phone, text, Instagram, Facebook, WhatsApp, email, or walk-in?</li>
-        <li>How many inquiries do you receive in a typical week, and when do they arrive?</li>
-        <li>Out of every 10 people who reach out to your business, how many are actually qualified buyers versus &#39;tire-kickers&#39; who waste your billable time?</li>
-        <li>What would make you consider an inquiry “qualified” rather than just curious?</li>
-        <li>Do you currently use a&nbsp;CRM, spreadsheet, paper intake form, or nothing at all?</li>
-        <li>What systems must the chatbot connect with?&nbsp;CRM, website forms, calendar, email/SMS, help desk, or accounting software?</li>
-        <li>What should happen after the bot captures an inquiry? Send a booking link, create a&nbsp;CRM&nbsp;lead, notify a staff member, or start a follow-up sequence?</li>
-        <li>What information may the bot answer from, and who will keep it current?</li>
-        <li>What tone fits your brand: bilingual, formal, casual, urgent, or high-touch?</li>
-        <li>What made you start looking for a solution now?</li>
-        <li>What would a successful first 30 days look like?</li>
-        <li>What is your budget and preferred way to pay?</li>
+        <li>How many inquiries, customer service requests and routine questions do you get a week?</li>
+        <li>Would you want to be able to answer routine questions? How do you route callers, inquiries and customer service requests today?</li>
+        <li>Do you use any software tools to track routine questions, inquiries or customer service requests?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
         Our post <Link id={`tools-marketing-marketing-automation-platforms-ai-chatbot-myaifrontdesk-xlink-blog${idSuffix}`} href="/blog/business-operations/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline" className="text-[#C83803] hover:underline">AI Chatbot Lead Capture</Link> reports the figure My AI Front Desk’s own published cases put on the problem this page describes: up to 80 hours a month recovered from manual follow-up and after-hours voicemail once every call, text, web chat and email is logged to one timeline. It also names the setup decision that decides whether that holds in your business: if contacts arrive from spreadsheets and email threads with fields that do not match, the new pipeline fills with duplicates and gaps. Pooling and cleaning that data, and deciding what counts as a lead and which fields are required, is the second phase of the assessment in our <Link id={`tools-marketing-marketing-automation-platforms-ai-chatbot-myaifrontdesk-xlink-pillar${idSuffix}`} href="/use-cases/business-operations/ai-chatbot" className="text-[#C83803] hover:underline">AI Chatbot</Link> guide.</p>

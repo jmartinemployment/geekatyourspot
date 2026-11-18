@@ -65,45 +65,9 @@ export default function RightFitSection() {
         Answer these questions when <a href="#consultationAppointment2xl" id={`tools-marketing-marketing-automation-platforms-ai-content-generation-marpipe-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
-        <li>When you find an ad campaign that is actually working, what exactly happens to your cost-per-lead when you
-          try to increase the <GlossaryLink slug="daily-budget">daily budget</GlossaryLink>?</li>
-        <li>How do you currently defend your search rankings when a local competitor suddenly spikes their bids over the
-          weekend, and who turns off your ads if your website crashes?</li>
-        <li>How many completely different graphic variations and ad headlines are you testing every week, and how long
-          does it take your team to format them for stories, feeds, and banners?</li>
-        <li>When you look at your ad dashboards, can you pinpoint the exact second users drop off from your videos, or
-          tell your designer which headline angle made money vs. just getting clicks?</li>
-        <li>Where are your lead lists and past customer data stored right now, and how often are those lists actively
-          synced to your Facebook or Google ad accounts?</li>
-        <li>Are you spending the exact same bid to display an ad to a complete stranger as you are to someone who has
-          visited your pricing page three times?</li>
-        <li>Is the $500–$1,500/month your advertising budget, or must it also cover software and management? What
-          separate amount can you allocate to tracking?</li>
-        <li>What frustrates you most: too few inquiries, poor-quality inquiries, not knowing which ads work, or not
-          knowing which leads become customers?</li>
-        <li>Where are you advertising now, Google, Meta, Microsoft, or elsewhere? How much do you spend on each?</li>
-        <li>How do prospects contact you, phone calls, website forms, chat, booking pages, or <GlossaryLink slug="lead-form-ads">platform
-          lead forms</GlossaryLink>? Roughly what percentage comes through each?</li>
-        <li>Can you show me which campaign produced your last five qualified inquiries? Can you identify which of those
-          became customers?</li>
-        <li>How many calls and form submissions do you receive monthly? How many are unique prospects rather than repeat
-          calls, spam, or existing customers?</li>
-        <li>What makes an inquiry worth pursuing, service requested, location, budget, urgency, or another factor? What
-          makes it a bad fit?</li>
-        <li>What happens after an inquiry: appointment, estimate, proposal, sale? Where do you record those stages?</li>
-        <li>What is a typical new customer worth in gross profit? Approximately how many qualified inquiries become
-          customers?</li>
-        <li>Who answers calls and follows up on forms? How quickly? What happens after hours or when someone misses a
-          call?</li>
-        <li>Which website platform, forms, phone service, CRM, and scheduling software do you use? What tracking is
-          already installed?</li>
-        <li>Who controls the website, advertising accounts, analytics, and CRM? Can they authorize changes and provide
-          access?</li>
-        <li>Who will mark leads as qualified, booked, won, or lost, and how often can they update those records?</li>
-        <li>Do you need call recordings or transcripts? Are there consent, sensitive-data, <GlossaryLink slug="customer-retention">retention</GlossaryLink>,
-          or access requirements we must review?</li>
-        <li>After the first 90 days, what would make this worthwhile: reliable attribution, fewer unqualified leads,
-          more booked appointments, or lower cost per qualified lead?</li>
+        <li>What do you need written: blog posts, ads, social posts or marketing emails?</li>
+        <li>Who writes it now?</li>
+        <li>About how many pieces a month do you publish now, and what is your goal?</li>
       </ul>
     </>
   );

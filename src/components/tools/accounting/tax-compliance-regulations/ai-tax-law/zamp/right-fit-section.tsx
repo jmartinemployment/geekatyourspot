@@ -31,12 +31,9 @@ export default function RightFitSection() {
         when&nbsp;<a href="#consultationAppointment2xl" id={`tools-accounting-complex-changing-laws-zamp-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
-        <li>How does the software handle different sales tax rates between Miami-Dade, Broward, and Palm Beach?</li>
-        <li>Can it manage municipal-specific taxes, like the Miami Beach resort tax?</li>
-        <li>How does the system track remote workers across different South Florida zip codes?</li>
-        <li>How quickly does the system update when Florida changes its corporate or sales tax rates?</li>
-        <li>Does the automation adapt to localized Florida Sales Tax Holidays?</li>
-        <li>How does the software shield us from audit risk if compliance laws change mid-year?</li>
+        <li>Where do you sell: globally, the USA, or Florida? Which counties or cities do you sell in?</li>
+        <li>Do you sell anything that might be taxed differently, such as software or services?</li>
+        <li>Who handles your sales tax filing today?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
         Handing the compliance lifecycle to Zamp’s team is one of the early decisions our <Link id={`tools-accounting-tax-compliance-regulations-ai-tax-law-zamp-xlink-pillar${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-tax-law" className="text-[#C83803] hover:underline">AI Tax Law</Link> guide treats as setting the course for everything after it, alongside the scope of automation, integration with QuickBooks or Shopify, and objectives such as lower compliance cost or less audit risk that decide whether a full-service model is warranted. The guide’s rollout sequence shows where a managed service earns its place, in continuous monitoring after go-live and the regular reviews that keep registrations current as laws change, and its booking questions, from county rate differences to the Miami Beach resort tax, are the ones a growing team without a tax department stops being able to answer alone.</p>

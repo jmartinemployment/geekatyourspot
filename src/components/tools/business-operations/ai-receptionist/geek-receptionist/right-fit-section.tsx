@@ -62,12 +62,9 @@ export default function RightFitSection() {
         when&nbsp;<a href="#consultationAppointment2xl" id={`tools-business-operations-ai-receptionist-geek-receptionist-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
-        <li>How many calls does your business miss in a typical week, and when do they happen?</li>
-        <li>Who answers the phone now, and who should get the alert when a call is missed?</li>
-        <li>Do you want to keep your current business number?</li>
-        <li>Which carrier handles your business line?</li>
-        <li>Do your customers usually call, text, or both?</li>
-        <li>What would you like a caller to hear and read when you miss them?</li>
+        <li>About how many calls a week do you miss?</li>
+        <li>What do callers mostly want: booking, prices or hours?</li>
+        <li>Which calendar do you book in?</li>
       </ul>
     </>
   );

@@ -38,12 +38,9 @@ export default function RightFitSection() {
         when&nbsp;<a href="#consultationAppointment2xl" id={`tools-accounting-complex-changing-laws-quaderno-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
-        <li>How does the software handle different sales tax rates between Miami-Dade, Broward, and Palm Beach?</li>
-        <li>Can it manage municipal-specific taxes, like the Miami Beach resort tax?</li>
-        <li>How does the system track remote workers across different South Florida zip codes?</li>
-        <li>How quickly does the system update when Florida changes its corporate or sales tax rates?</li>
-        <li>Does the automation adapt to localized Florida Sales Tax Holidays?</li>
-        <li>How does the software shield us from audit risk if compliance laws change mid-year?</li>
+        <li>Where do you sell: globally, the USA, or Florida? Which counties or cities do you sell in?</li>
+        <li>Do you sell anything that might be taxed differently, such as software or services?</li>
+        <li>Who handles your sales tax filing today?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
         Whether Quaderno’s multi-jurisdiction automation is worth it depends on an assessment of your actual footprint, and our <Link id={`tools-accounting-tax-compliance-regulations-ai-tax-law-quaderno-xlink-pillar${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-tax-law" className="text-[#C83803] hover:underline">AI Tax Law</Link> guide lays that out: a review of your transaction volume, the number of jurisdictions you sell into and the complexity of your filings, then a decision on how much of the process to automate before any tool is configured. The guide is also where Quaderno is placed in the stack, as the partner for international VAT and GST and compliant invoices in multiple languages and currencies, while TaxCloud handles domestic checkout calculations. If your sales stop at the Florida county line, the guide’s own test says a system like this is premature.</p>

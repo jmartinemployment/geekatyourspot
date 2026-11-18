@@ -64,12 +64,9 @@ export default function RightFitSection() {
         when&nbsp;<a href="#consultationAppointment2xl" id={`tools-marketing-ai-content-planning-hootsuite-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
-        <li>Walk me through your current process from the moment someone says &#39;we need a piece of content on X&#39; to the moment it goes live. Where does the process typically stall?</li>
-        <li>Who is actually doing the writing and optimization? Is it an in-house generalist, a dedicated copywriter, or a rotating group of freelance contractors?</li>
-        <li>When local customers look for your services online, are you fighting head-to-head against massive corporate players with huge budgets, or are you mostly competing with other local independent businesses?</li>
-        <li>How critical is immediate search visibility (SEO and AI Search summaries) to your quarterly revenue goals versus staying top-of-mind on social media channels?</li>
-        <li>Are you creating content strictly for a traditional company blog, or are you looking to turn these insights into short-form videos, email newsletters, and localized social media campaigns?</li>
-        <li>How much does your target audience&#39;s behavior shift by neighborhood or culture? For example, do you need to alter your topic strategy between a corporate Brickell audience and a luxury Palm Beach demographic?</li>
+        <li>Where should people find you: Google search, local, social media or all?</li>
+        <li>Who decides what to write about?</li>
+        <li>Are your competitors mostly local or national?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
         Our post <Link id={`tools-marketing-marketing-automation-platforms-ai-content-planning-hootsuite-xlink-blog${idSuffix}`} href="/blog/marketing/marketing-automation-platforms/intelligent-content-planning-how-south-florida-can-save-hours-and-drive-more-sales" className="text-[#C83803] hover:underline">Content Planning That Saves Hours</Link> sets out what Hootsuite’s own platform evidence supports, that AI scheduling and campaign ideation cut the hours lost to blank-page planning and that trend listening fills a social calendar in minutes, and it is just as clear that the value only shows up once someone owns review, approval and posting, because ad hoc approvals are where momentum dies. It also names the case where manual still wins, a three-person team posting once a week. The four-phase method in our <Link id={`tools-marketing-marketing-automation-platforms-ai-content-planning-hootsuite-xlink-pillar${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-planning" className="text-[#C83803] hover:underline">AI Content Planning</Link> guide decides whether automating social scheduling is the first pilot or a later one.</p>

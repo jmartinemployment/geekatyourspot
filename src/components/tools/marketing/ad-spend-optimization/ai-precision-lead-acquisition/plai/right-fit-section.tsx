@@ -58,15 +58,9 @@ export default function RightFitSection() {
         Answer these questions when <a id={`tools-marketing-ai-precision-lead-acquisition-plai-right-fit-booking-your-free-consultation${idSuffix}`} href="#consultationAppointment2xl" className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
-        <li>What do you sell, and what action should an ad produce, a phone call, appointment, quote request, store visit, or online purchase?</li>
-        <li>What is the biggest problem today: not knowing what works, spending too much for results, getting poor-quality leads, or not having time to manage campaigns?</li>
-        <li>Can you trace a lead from the original ad through to a booked job or completed sale?</li>
-        <li>Are phone calls, website forms, bookings, and purchases tracked separately?</li>
-        <li>Who changes your bids and budgets today, how often, and based on what information?</li>
-        <li>Over the last three months, how many inquiries, qualified leads, customers, and sales dollars came from paid advertising?</li>
-        <li>Where do you record whether an inquiry became qualified, booked, won, or lost?</li>
-        <li>Do your ad platforms and sales records disagree? Can you show an example?</li>
-        <li>Should software only recommend changes, make changes after approval, or operate automatically within limits?</li>
+        <li>What should an ad get someone to do: call, book or buy?</li>
+        <li>Where do you advertise now: Google, Facebook or another?</li>
+        <li>Can you tell which ads bring in customers?</li>
       </ul>
     </>
   );

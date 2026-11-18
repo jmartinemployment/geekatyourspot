@@ -47,18 +47,9 @@ export default function RightFitSection() {
         when&nbsp;<a href="#consultationAppointment2xl" id={`tools-accounting-ai-resource-planning-takethehelm-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
-        <li>How many hours a week are you or your main bookkeeper spending manually pulling data from banking portals just to build a baseline cash flow forecast?</li>
-        <li>When a vendor drops a surprise bill or an invoice discrepancy occurs, how many different emails, text messages, or physical folders do you have to search through to audit what actually happened?</li>
-        <li>Are you running your bookkeeping on a cash or accrual basis, and how long does it take you to officially &#39;close the books&#39; at the end of the month?</li>
-        <li>Once a client signs a contract or makes a purchase, what manual steps are required to get that data into your billing system so an invoice actually goes out?</li>
-        <li>How often do your sales or service reps pitch to, or work with, a client without knowing they have an outstanding past-due balance?</li>
-        <li>How do you currently track your true profit margins or lifetime value (LTV) across your different clients or service lines?</li>
-        <li>How do you connect your marketing campaign expenses directly back to your actual ledger profit margins, rather than just looking at clicks or leads?</li>
-        <li>Are your customer acquisition costs and lead pipelines stored in a tool that can talk natively to your accounting system?</li>
-        <li>When a customer calls with a billing question or an account dispute, how long does it take your support staff to look up their complete transaction history?</li>
-        <li>What happens when a client&#39;s core contact information changes? Do you have to update it manually in your operations tools and your invoicing software separately?</li>
-        <li>What are the absolute non-negotiable applications or legacy tools that this new system must connect with seamlessly on day one?</li>
-        <li>Who on your current team has the bandwidth to own the data migration and training phase, without letting daily operations slip?</li>
+        <li>How do you track cash flow today?</li>
+        <li>Do you use an accounting system? If so, which accounting system do you use?</li>
+        <li>How far ahead would you like to see?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
         Take the Helm’s claim is a visual runway, and our post <Link id={`tools-accounting-cash-flow-forecasting-ai-resource-planning-takethehelm-xlink-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/intelligent-resource-planning-for-small-businesses-how-to-fix-cash-flow-headaches-in-south-florida" className="text-[#C83803] hover:underline">AI Resource Planning for Cash Flow</Link> shows how it is meant to work for a small team: every inflow and outflow on one drag-and-drop timeline, historical payment data predicting when a receipt will actually clear, and the end of Friday afternoons spent guessing whether payroll will go through. The post is also direct that the tool only works when it is connected to real accounting and bank data rather than a copied spreadsheet. The data quality assessment and the parallel pilot in our <Link id={`tools-accounting-cash-flow-forecasting-ai-resource-planning-takethehelm-xlink-pillar${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-resource-planning" className="text-[#C83803] hover:underline">AI Resource Planning</Link> guide make that connection to QuickBooks Online, Xero or Sage before anyone relies on the runway.</p>

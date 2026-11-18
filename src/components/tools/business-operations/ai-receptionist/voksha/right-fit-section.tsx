@@ -57,20 +57,9 @@ export default function RightFitSection() {
         when&nbsp;<a href="#consultationAppointment2xl" id={`tools-marketing-ai-receptionist-voksha-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
-        <li>How many phone calls do you currently miss or send to voicemail each week, both during business hours and after hours?</li>
-        <li>When a prospect hangs up without leaving a voicemail, what is your current process for recapturing that lead?</li>
-        <li>Do you experience sudden spikes in call volume (e.g., seasonal demands, ad campaigns) that temporarily overwhelm your current staff?</li>
-        <li>What is the exact sequence of events that needs to happen when a new client calls to book an appointment or request a service?</li>
-        <li>Which calendar or scheduling platform do you use, and do you require the AI to write appointments directly to it?</li>
-        <li>What percentage of your inbound calls are just repetitive questions regarding your location, operating hours, pricing tier, or basic services?</li>
-        <li>What Customer Relationship Management (CRM), billing, or field service management software does your business rely on daily?</li>
-        <li>Are you looking to unify your voice calls with other communication channels, like SMS text messaging and website live chat, into one master dashboard?</li>
-        <li>Does your business require automated text-backs during a call to send digital intake forms, payment links, or address locations?</li>
-        <li>What is your target market&#39;s tolerance for interacting with automated voices? Do you cater to an elite or older demographic that demands a human touch?</li>
-        <li>Are there strict industry compliance guardrails (like HIPAA for medical offices or trust account rules for lawyers) governing how client information is gathered?</li>
-        <li>What specific criteria or emergency situations should trigger the AI to instantly transfer a live caller to your personal cell phone or an on-call team member?</li>
-        <li>Do you prefer a predictable, fixed monthly software bill, or are you comfortable with a variable pay-per-minute or pay-per-call model as your business grows?</li>
-        <li>How critical is total data ownership to your business? Do you prefer a turnkey cloud subscription, or do you want a proprietary system that your business fully owns and controls?</li>
+        <li>About how many calls a week do you miss?</li>
+        <li>What do callers mostly want: booking, prices or hours?</li>
+        <li>Which calendar do you book in?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
         Our post <Link id={`tools-marketing-marketing-automation-platforms-ai-receptionist-voksha-xlink-blog${idSuffix}`} href="/blog/business-operations/intelligent-receptionist-how-miami-small-businesses-can-stop-losing-leads-after-hours" className="text-[#C83803] hover:underline">Intelligent After-Hours Receptionist</Link> lays Voksha’s published pricing next to the live-answering services it replaces: a $14 starter plan for 15 calls, a $99 Premium tier for 150, and $1 per call beyond that with no after-hours premium, against human-staffed services that start at $99 to $350 a month and then bill by the minute. It also quotes Voksha’s own research on what a missed call is worth, about $12.15 each or $26,000 a year at six a day, and says plainly that those are estimates. Whether your call volume and job value make the per-call model pay is the arithmetic the four-phase assessment in our <Link id={`tools-marketing-marketing-automation-platforms-ai-receptionist-voksha-xlink-pillar${idSuffix}`} href="/use-cases/business-operations/ai-receptionist" className="text-[#C83803] hover:underline">AI Receptionist</Link> guide runs before any pilot.</p>

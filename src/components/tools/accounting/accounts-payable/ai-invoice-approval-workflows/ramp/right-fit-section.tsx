@@ -34,19 +34,9 @@ export default function RightFitSection() {
           booking your free consultation
         </a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
-        <li>How many vendor invoices do you process in a typical month?</li>
-        <li>Where do invoices currently arrive: email, paper mail, vendor portals, text messages, employee forwarding, or multiple locations?</li>
-        <li>Is there one central AP inbox, or do invoices go to different people and departments?</li>
-        <li>Who enters invoice details into QuickBooks, Xero, or your accounting system?</li>
-        <li>“Invoice capture vs. AP automation: what does your business actually need?”</li>
-        <li>“Can invoice software read every line, or just the total?”</li>
-        <li>“Who checks an invoice when AI gets it wrong?”</li>
-        <li>“Does your invoice tool create a reviewable bill or post directly to accounting?”</li>
-        <li>“What does automated invoice processing really cost once line-item credits are included?”</li>
-        <li>How many people touch an invoice before it is ready to pay?</li>
-        <li>Can you walk me through the last invoice you paid, from the moment it arrived to the moment payment was approved?</li>
-        <li>What happens when an invoice arrives without a purchase order, job number, department, or proper coding?</li>
-        <li>Which types of invoices are most common: recurring bills, subcontractor invoices, inventory, utilities, rent, credit-card expenses, or project-related expenses?</li>
+        <li>About how many vendor invoices do you get a month?</li>
+        <li>Where do invoices enter your workflow: email, mail, vendor portal, or a combination?</li>
+        <li>Which accounting system do you use?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
         Ramp’s OCR and machine learning speak to a team buried in hundreds of invoices a month, and our post <Link id={`tools-accounting-accounts-payable-ai-invoice-approval-workflows-ramp-xlink-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-approval-workflows-transform-accounts-payable" className="text-[#C83803] hover:underline">Accounts Payable Approval Automation</Link> explains the other half of that problem. Without a tracked workflow the team learns an invoice is stuck only when a vendor calls, and the owner who insists on reviewing everything becomes the bottleneck the moment they travel. The post places Ramp at the tracking and compliance stage, where real-time status and an audit trail replace that guesswork. The four-phase assessment in our <Link id={`tools-accounting-accounts-payable-ai-invoice-approval-workflows-ramp-xlink-pillar${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-invoice-approval-workflows" className="text-[#C83803] hover:underline">AI Invoice Approval Workflows</Link> guide confirms whether your volume justifies the investment before anything is configured.</p>

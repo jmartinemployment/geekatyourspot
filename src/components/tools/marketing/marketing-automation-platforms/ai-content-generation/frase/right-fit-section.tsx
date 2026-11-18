@@ -61,20 +61,9 @@ export default function RightFitSection() {
         when&nbsp;<a href="#consultationAppointment2xl" id={`tools-marketing-ai-content-generation-frase-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
-        <li>Walk me through your current process from a raw marketing idea to a published asset, who writes it, who reviews it, and how many different systems or documents do they switch between?</li>
-        <li>When you create a primary content piece (like a long-form article or case study), what is your process for transforming it into emails, LinkedIn updates, or Meta ads? Is that handled manually or skipped entirely due to time constraints?</li>
-        <li>Are your marketing assets heavily dependent on data from other departments, such as active accounting inventory,&nbsp;CRM&nbsp;pipelines, or technical spec sheets?</li>
-        <li>How are you currently measuring the success of your copy? Are you optimizing primarily for organic search rankings (SEO traffic) or are you actively spending money on paid local ads where every click costs you?</li>
-        <li>Have you ever run an ad campaign where the traffic was high but conversions were low? How did you figure out if the weak link was your targeting or the written copy itself?</li>
-        <li>When your team writes headlines or call-to-actions, are they relying on creative intuition, or do you have a framework to test what phrases resonate best with your specific demographic?</li>
-        <li>How do you currently ensure that external freelancers or junior staff don&#39;t accidentally publish content containing incorrect business facts, outdated pricing, or off-brand messaging?</li>
-        <li>Do you have a documented brand voice guide, style guide, or a repository of highly successful past campaigns that you want your AI system to explicitly replicate?</li>
-        <li>Do you operate in a regulated industry or niche where your content must pass strict legal, compliance, or quality reviews before going live?</li>
-        <li>Who on your current team will be the primary users interacting with this software daily? What is their comfort level with learning new digital platforms or formatting web code?</li>
-        <li>How many hours per week is your team currently losing to repetitive administrative formatting, scheduling across multiple social channels, or copy-pasting text variants?</li>
-        <li>Are you looking for a system that plugs directly into your existing text editors and website builders (like WordPress or Shopify), or do you want a self-contained workspace that also handles distribution and tracking?</li>
-        <li>If we could safely double your weekly marketing output while cutting the turnaround time in half, what would that shift mean for your sales pipeline this quarter?</li>
-        <li>What are you currently spending on external copywriters, content agencies, or specialized software tools that this implementation could potentially consolidate or replace?</li>
+        <li>What do you need written: blog posts, ads, social posts or marketing emails?</li>
+        <li>Who writes it now?</li>
+        <li>About how many pieces a month do you publish now, and what is your goal?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
         Our post <Link id={`tools-marketing-marketing-automation-platforms-ai-content-generation-frase-xlink-blog${idSuffix}`} href="/blog/marketing/marketing-automation-platforms/intelligent-content-generation-for-miami-how-to-save-time-and-scale-without-extra-hires" className="text-[#C83803] hover:underline">Content Generation Without New Hires</Link> explains where Frase fits in the sequence, building each article from a concrete brief around a real customer question so no half-finished drafts or stitched-together AI responses go live, then repurposing the approved piece into social and email drafts. It also names what Frase depends on, a clean, current knowledge base, since stale FAQs and service lists produce generic articles you end up rewriting. The structured review of what you already have in our <Link id={`tools-marketing-marketing-automation-platforms-ai-content-generation-frase-xlink-pillar${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-content-generation" className="text-[#C83803] hover:underline">AI Content Generation</Link> guide is the step that gives Frase usable source material before the first brief is written.</p>

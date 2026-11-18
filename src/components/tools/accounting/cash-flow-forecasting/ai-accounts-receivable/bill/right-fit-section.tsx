@@ -33,13 +33,9 @@ export default function RightFitSection() {
           booking your free consultation
         </a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
-        <li>How does automated AR improve the accuracy of a cash flow forecast?</li>
-        <li>What is a &quot;Payment Predictor&quot; or &quot;Customer Risk Score&quot;?</li>
-        <li>Can automated forecasting account for unbilled revenue or recurring disputes?</li>
-        <li>What data does an automated AR system need to build a cash flow forecast?</li>
-        <li>How does automated invoice matching impact cash visibility?</li>
-        <li>How do automated AR tools handle &quot;What-If&quot; scenario planning?</li>
-        <li>How does forecasting integration optimize collection strategies?</li>
+        <li>About how many invoices do you send a month?</li>
+        <li>How do customers usually pay you?</li>
+        <li>What is the hardest part of collecting?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
         Before you commit to Bill’s two-way sync, our post <Link id={`tools-accounting-cash-flow-forecasting-ai-accounts-receivable-bill-xlink-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/how-automated-accounts-receivable-can-transform-your-cash-flow" className="text-[#C83803] hover:underline">Automated Receivables and Cash Flow</Link> shows what the money is actually doing in a manual process: an open balance of $100,000 treated as cash in hand, a $200 invoice chased as hard as a $20,000 one, and a forecast built on best-case payment dates. It then sets the condition for any of these platforms to pay off, Bill included, which is accurate and current data feeding the integration. The four-step assessment in our <Link id={`tools-accounting-cash-flow-forecasting-ai-accounts-receivable-bill-xlink-pillar${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable" className="text-[#C83803] hover:underline">AI Accounts Receivable</Link> guide is how we check that your QuickBooks or Xero records meet that condition before the sync goes live.</p>

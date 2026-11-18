@@ -92,16 +92,9 @@ export default function RightFitSection() {
         when&nbsp;<a href="#consultationAppointment2xl" id={`tools-accounting-ai-payroll-tax-rippling-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
-        <li>How do you currently determine whether a new team member should be onboarded as a W-2 employee or a 1099 independent contractor?</li>
-        <li>Do you have 1099 contractors who use your company equipment, have set schedules, or perform the exact same core services as your W-2 staff?</li>
-        <li>How are you managing, collecting, and verifying Form W-9s and tracking annual thresholds for your independent contractors?</li>
-        <li>Are you currently employing any remote workers, out-of-state contractors, or staff who split time between different states?</li>
-        <li>How much time does your team spend calculating, withholding, and filing quarterly federal (941) and Florida Reemployment taxes (RT-6)?</li>
-        <li>Have you ever had to pay an IRS or state penalty due to a delayed payroll tax deposit or a clerical filing error?</li>
-        <li>When you onboard a new worker, how does their payroll and tax documentation sync up with your core accounting or&nbsp;<GlossaryLink slug="erp">ERP</GlossaryLink>&nbsp;system?</li>
-        <li>How does your current system track and adjust for changing local, state, and federal labor laws or payroll tax caps?</li>
-        <li>If the state or the IRS audited your contractor workforce tomorrow, how long would it take you to produce signed agreements, W-9s, and clear payment trails for every single worker?</li>
-        <li>What is your current monthly or annual budget for payroll processing and&nbsp;<GlossaryLink slug="tax-compliance">tax compliance</GlossaryLink>&nbsp;legal advice?</li>
+        <li>How many employees and how many contractors do you have?</li>
+        <li>Does anyone work outside Florida, or globally?</li>
+        <li>Which payroll service do you use, if any?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
         Rippling’s claim is that classification errors surface where you can fix them, and our post <Link id={`tools-accounting-tax-compliance-regulations-ai-payroll-tax-rippling-xlink-blog${idSuffix}`} href="/blog/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification-what-miami-must-know-before-choosing-compliance-solutions" className="text-[#C83803] hover:underline">Misclassified Workers &amp; Payroll Tax</Link> describes the mechanism: built-in classification quizzes, the Compliance 360 module watching every onboarding and payment approval in real time, and a one-click correction workspace so a Friday afternoon contractor invoice that blurs the employee line is caught before it posts. The post also states that Rippling publishes no figure for penalties avoided per cycle, so the benefit is prevention at the process level. Our <Link id={`tools-accounting-tax-compliance-regulations-ai-payroll-tax-rippling-xlink-pillar${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-payroll-tax" className="text-[#C83803] hover:underline">AI Payroll Tax</Link> guide covers the pilot that proves those alerts fire on your own multi-county team before the rollout goes wider.</p>

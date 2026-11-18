@@ -51,18 +51,9 @@ export default function RightFitSection() {
         Answer these questions when <a href="#consultationAppointment2xl" id={`tools-marketing-ai-precision-lead-acquisition-google-performance-max-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
-        <li>What is your comfortable monthly ad spend right now, and what are you currently paying a human or agency to
-          manage it?</li>
-        <li>If we double your current volume of inbound leads next month, does your business have the internal staff to
-          pick up the phone within 5 minutes, or will they sit in an inbox?</li>
-        <li>Does your business draw customers from a tight 5-to-10 mile radius around a physical storefront, or are you
-          chasing high-ticket contracts across all of Miami-Dade, Broward, and Palm Beach or nationally?</li>
-        <li>How often do you refresh your ad graphics and text, and how do you currently figure out which image actually
-          made money versus just getting empty clicks?</li>
-        <li>When a new client pays you, can you track that specific invoice back to the exact Facebook ad or Google
-          keyword they clicked three weeks ago, or is that a complete black box?</li>
-        <li>Where is your customer data stored right now? Is it scattered across Gmail and paper folders, or do you have
-          a CRM like Hubspot or Salesforce that updates automatically?</li>
+        <li>What should an ad get someone to do: call, book or buy?</li>
+        <li>Where do you advertise now: Google, Facebook or another?</li>
+        <li>Can you tell which ads bring in customers?</li>
       </ul>
     </>
   );

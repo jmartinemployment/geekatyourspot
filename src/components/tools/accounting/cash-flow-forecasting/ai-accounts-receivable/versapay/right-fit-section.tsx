@@ -29,13 +29,9 @@ export default function RightFitSection() {
           booking your free consultation
         </a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
-        <li>How does automated AR improve the accuracy of a cash flow forecast?</li>
-        <li>What is a &quot;Payment Predictor&quot; or &quot;Customer Risk Score&quot;?</li>
-        <li>Can automated forecasting account for unbilled revenue or recurring disputes?</li>
-        <li>What data does an automated AR system need to build a cash flow forecast?</li>
-        <li>How does automated invoice matching impact cash visibility?</li>
-        <li>How do automated AR tools handle &quot;What-If&quot; scenario planning?</li>
-        <li>How does forecasting integration optimize collection strategies?</li>
+        <li>About how many invoices do you send a month?</li>
+        <li>How do customers usually pay you?</li>
+        <li>What is the hardest part of collecting?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
         Versapay’s case is cash application and a single record of every dispute, payment promise and negotiation note, and our post <Link id={`tools-accounting-cash-flow-forecasting-ai-accounts-receivable-versapay-xlink-blog${idSuffix}`} href="/blog/accounting/cash-flow-forecasting/how-automated-accounts-receivable-can-transform-your-cash-flow" className="text-[#C83803] hover:underline">Automated Receivables and Cash Flow</Link> shows where those two things pay off: a communication log that keeps disputed invoices from going stale, and dashboards that let whoever owns receivables monitor collections in real time. The post also sets the limit, since Versapay’s automation still depends on integration with your accounting system and on a person resolving the exceptions it surfaces. The four-step assessment in our <Link id={`tools-accounting-cash-flow-forecasting-ai-accounts-receivable-versapay-xlink-pillar${idSuffix}`} href="/use-cases/accounting/cash-flow-forecasting/ai-accounts-receivable" className="text-[#C83803] hover:underline">AI Accounts Receivable</Link> guide weighs whether your transaction volume and ERP dependence justify that setup before anything is configured.</p>

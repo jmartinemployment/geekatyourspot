@@ -61,13 +61,9 @@ export default function RightFitSection() {
         when&nbsp;<a href="#consultationAppointment2xl" id={`tools-marketing-ai-lead-enrichment-predictive-scoring-snitcher-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
-        <li>What percentage of your new clients come from inbound marketing (people finding you) versus outbound sales (your team cold calling or emailing)?</li>
-        <li>When a business visits your website, reads your service or pricing page, and leaves without filling out a form, how do you track or follow up with them right now?</li>
-        <li>How much time do your sales reps spend every day manually searching Google, LinkedIn, or local directories just to find the email addresses and direct phone numbers of decision-makers?</li>
-        <li>When you pull or buy a list of local businesses to target in Miami-Dade, Broward, or Palm Beach, what percentage of those emails bounce or phone numbers turn out to be dead ends?</li>
-        <li>How do your sales reps currently decide which lead to call first on Monday morning? Is it based on a mathematical score, the newest lead, or just gut feeling?</li>
-        <li>Do you treat a prospect who downloaded a free checklist the exact same way as a prospect who spent 5 minutes reviewing your partner accounting software pricing page?</li>
-        <li>What&nbsp;CRM&nbsp;or tracking system does your sales team live in every day? (e.g., free HubSpot, Zoho, ActiveCampaign, Salesforce, or just a massive Google Sheet?)</li>
+        <li>Do most new clients find you, or do you prospect out to them?</li>
+        <li>How do you find decision-makers&#39; contact details now?</li>
+        <li>Do you use a CRM? If so, which one do you use?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
         Our post <Link id={`tools-marketing-marketing-automation-platforms-ai-lead-enrichment-predictive-scoring-snitcher-xlink-blog${idSuffix}`} href="/blog/marketing/marketing-automation-platforms/lead-enrichment-and-predictive-scoring-how-south-florida-can-turn-more-leads-into-sales" className="text-[#C83803] hover:underline">Lead Enrichment to Close More Sales</Link> describes what Snitcher does at the top of the funnel and the discipline it demands: visitor IPs mapped to verified business profiles, an intent score built from which pages a company reads and how often, and alerts that only help once you segment them to your target accounts instead of a generic list. It is equally plain that identifying a company is not closing it, and that a rep still has to call that day. Whether your traffic comes mostly from corporate networks, where Snitcher identifies best, is checked in the data quality phase of the four-phase assessment in our <Link id={`tools-marketing-marketing-automation-platforms-ai-lead-enrichment-predictive-scoring-snitcher-xlink-pillar${idSuffix}`} href="/use-cases/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring" className="text-[#C83803] hover:underline">AI Lead Enrichment &amp; Predictive Scoring</Link> guide before anything is connected.</p>

@@ -35,16 +35,9 @@ export default function RightFitSection() {
           booking your free consultation
         </a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
-        <li>Walk me through what happens from the moment a vendor bill arrives until the vendor is paid.</li>
-        <li>Where do bills arrive today: email, paper mail, vendor portals, text messages, employee inboxes, or all of the above?</li>
-        <li>Who enters bills into QuickBooks, Xero, or your accounting system?</li>
-        <li>Who decides whether a bill is valid and ready to pay?</li>
-        <li>Who can actually release money from the bank account?</li>
-        <li>How many vendor bills or payments do you process in a typical month?</li>
-        <li>How are most vendors paid today: check, ACH, bank transfer, card, wire, or a mix?</li>
-        <li>How often do you run payments: daily, weekly, twice monthly, or only when someone says a bill is urgent?</li>
-        <li>What is the most frustrating part of paying vendors today?</li>
-        <li>If you took a week off, who would know which bills are legitimate, approved, and due?</li>
+        <li>How do you pay vendors today: check, ACH, card or a mix?</li>
+        <li>How many payments a month, roughly?</li>
+        <li>Who approves a payment before it goes out?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
         Our post <Link id={`tools-accounting-accounts-payable-ai-payment-execution-tipalti-xlink-blog${idSuffix}`} href="/blog/accounting/accounts-payable/how-automated-payment-execution-transforms-your-bottom-line" className="text-[#C83803] hover:underline">AI Payment Execution Benefits</Link> is where Tipalti’s international case is made in numbers: payments in over 120 currencies, automated tax form validation, and ACH, wire and virtual card payments so each supplier is paid the way it requires. The post also ties every outcome to data quality and ongoing management, so that currency breadth pays off only on clean vendor records. Our <Link id={`tools-accounting-accounts-payable-ai-payment-execution-tipalti-xlink-pillar${idSuffix}`} href="/use-cases/accounting/accounts-payable/ai-payment-execution" className="text-[#C83803] hover:underline">AI Payment Execution</Link> guide supplies the assessment, from objectives through integration to compliance, that decides whether Tipalti’s scope is warranted for a business of your size.</p>

@@ -67,20 +67,9 @@ export default function RightFitSection() {
         when&nbsp;<a href="#consultationAppointment2xl" id={`tools-marketing-ai-receptionist-myaifrontdesk-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
-        <li>How many phone calls do you currently miss or send to voicemail each week, both during business hours and after hours?</li>
-        <li>When a prospect hangs up without leaving a voicemail, what is your current process for recapturing that lead?</li>
-        <li>Do you experience sudden spikes in call volume (e.g., seasonal demands, ad campaigns) that temporarily overwhelm your current staff?</li>
-        <li>What is the exact sequence of events that needs to happen when a new client calls to book an appointment or request a service?</li>
-        <li>Which calendar or scheduling platform do you use, and do you require the AI to write appointments directly to it?</li>
-        <li>What percentage of your inbound calls are just repetitive questions regarding your location, operating hours, pricing tier, or basic services?</li>
-        <li>What Customer Relationship Management (CRM), billing, or field service management software does your business rely on daily?</li>
-        <li>Are you looking to unify your voice calls with other communication channels, like SMS text messaging and website live chat, into one master dashboard?</li>
-        <li>Does your business require automated text-backs during a call to send digital intake forms, payment links, or address locations?</li>
-        <li>What is your target market&#39;s tolerance for interacting with automated voices? Do you cater to an elite or older demographic that demands a human touch?</li>
-        <li>Are there strict industry compliance guardrails (like HIPAA for medical offices or trust account rules for lawyers) governing how client information is gathered?</li>
-        <li>What specific criteria or emergency situations should trigger the AI to instantly transfer a live caller to your personal cell phone or an on-call team member?</li>
-        <li>Do you prefer a predictable, fixed monthly software bill, or are you comfortable with a variable pay-per-minute or pay-per-call model as your business grows?</li>
-        <li>How critical is total data ownership to your business? Do you prefer a turnkey cloud subscription, or do you want a proprietary system that your business fully owns and controls?</li>
+        <li>About how many calls a week do you miss?</li>
+        <li>What do callers mostly want: booking, prices or hours?</li>
+        <li>Which calendar do you book in?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
         Our post <Link id={`tools-marketing-marketing-automation-platforms-ai-receptionist-myaifrontdesk-xlink-blog${idSuffix}`} href="/blog/business-operations/intelligent-receptionist-how-miami-small-businesses-can-stop-losing-leads-after-hours" className="text-[#C83803] hover:underline">Intelligent After-Hours Receptionist</Link> reports what My AI Front Desk’s own cases show for operators like you: Provest Realty, a field-heavy business, saw its after-hours voicemail overflow and the Monday backlog that came with it nearly vanish, and United Porté used the system to handle more than 1,600 calls a month without losing late-night leads from other time zones. The post also draws the line the vendors do not: no case proves that every automated call becomes a booked job, and the lift in your business depends on your average job value and booking rate. The four-phase assessment in our <Link id={`tools-marketing-marketing-automation-platforms-ai-receptionist-myaifrontdesk-xlink-pillar${idSuffix}`} href="/use-cases/business-operations/ai-receptionist" className="text-[#C83803] hover:underline">AI Receptionist</Link> guide is how you measure that against your own missed calls before the first pilot week.</p>

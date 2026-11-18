@@ -60,27 +60,9 @@ export default function RightFitSection() {
         Answer these questions when <a href="#consultationAppointment2xl" id={`tools-marketing-ai-personalized-email-campaigns-moosend-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
-        <li>What is the main result you want: more appointments, more completed purchases, repeat business, or
-          reactivating past customers?</li>
-        <li>Who would receive these emails, new inquiries, subscribers, existing customers, inactive customers, or
-          people who have never contacted you?</li>
-        <li>Where are you losing opportunities today, after an inquiry, after a quote, before checkout, or after the
-          first purchase?</li>
-        <li>What do you want someone to do after reading the email?</li>
-        <li>What follow-up do you send now, and where does it stop?</li>
-        <li>How many contacts do you have, and where did they come from?</li>
-        <li>How are subscription permissions, <GlossaryLink slug="opt-out">unsubscribes</GlossaryLink>, and
-          do-not-contact records documented?</li>
-        <li>Besides names and email addresses, what do you know about each contact?</li>
-        <li>Is that information stored in one system or spread across spreadsheets, inboxes, and other applications?</li>
-        <li>Do different customers need different offers or messages? Give me two examples.</li>
-        <li>Which customer details should never be sent to an AI service or included in an email?</li>
-        <li>What should start an <GlossaryLink slug="email-sequence">email sequence</GlossaryLink>, a form submission,
-          appointment, quote request, purchase, or period of inactivity?</li>
-        <li>Should everyone receive the same sequence, or should it change based on their interests and actions?</li>
-        <li>What should stop the emails, a reply, booking, purchase, unsubscribe, or staff intervention?</li>
-        <li>What email, CRM, website, booking, and online-store systems do you already use?</li>
-        <li>Do you need only email, or also landing pages, forms, SMS, or other channels?</li>
+        <li>About how many contacts are on your list?</li>
+        <li>What should the emails get people to do: call, book or buy?</li>
+        <li>Which email tool do you use now?</li>
       </ul>
     </>
   );

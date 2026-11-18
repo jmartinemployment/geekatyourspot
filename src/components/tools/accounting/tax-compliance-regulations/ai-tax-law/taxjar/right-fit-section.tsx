@@ -37,12 +37,9 @@ export default function RightFitSection() {
         when&nbsp;<a href="#consultationAppointment2xl" id={`tools-accounting-complex-changing-laws-taxjar-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
-        <li>How does the software handle different sales tax rates between Miami-Dade, Broward, and Palm Beach?</li>
-        <li>Can it manage municipal-specific taxes, like the Miami Beach resort tax?</li>
-        <li>How does the system track remote workers across different South Florida zip codes?</li>
-        <li>How quickly does the system update when Florida changes its corporate or sales tax rates?</li>
-        <li>Does the automation adapt to localized Florida Sales Tax Holidays?</li>
-        <li>How does the software shield us from audit risk if compliance laws change mid-year?</li>
+        <li>Where do you sell: globally, the USA, or Florida? Which counties or cities do you sell in?</li>
+        <li>Do you sell anything that might be taxed differently, such as software or services?</li>
+        <li>Who handles your sales tax filing today?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
         Our <Link id={`tools-accounting-tax-compliance-regulations-ai-tax-law-taxjar-xlink-pillar${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-tax-law" className="text-[#C83803] hover:underline">AI Tax Law</Link> guide covers the decision that sits ahead of TaxJar’s automated filing and remittance: how much of the compliance process to hand to the system, since full automation cuts manual errors and late fees but demands a robust initial setup and ongoing management. It walks the assessment from transaction volume and jurisdiction count through tool configuration, QuickBooks or Shopify integration, a controlled pilot, and the team training and scheduled reviews that keep the setup current as Florida rates and Sales Tax Holidays change. For a business still defining its sales channels, the guide says to wait, and TaxJar is no exception.</p>

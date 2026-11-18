@@ -46,16 +46,9 @@ export default function RightFitSection() {
         when&nbsp;<a href="#consultationAppointment2xl" id={`tools-accounting-ai-multi-state-sales-tax-zamp-right-fit-booking-your-free-consultation${idSuffix}`} className="text-[#C83803] hover:underline">booking
         your free consultation</a>.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
-        <li>In which states outside of Florida do you currently ship physical products, provide digital services, or have remote contractors/employees?</li>
-        <li>Are you monitoring your sales volumes and transaction counts per state in real-time, or do you review them retroactively at the end of the year?</li>
-        <li>What platforms are you using to sell online (e.g., Shopify, WooCommerce, Amazon), and how do those sales figures consolidate into your core accounting system?</li>
-        <li>How do you currently distinguish between sales made through marketplace facilitators (like Amazon, which handle tax for you) versus direct-to-consumer sales on your own site where you hold the tax liability?</li>
-        <li>When an out-of-state customer places an order, how does your system determine the exact local, county, and state sales tax rate at that specific rooftop address?</li>
-        <li>How do you handle product taxability rules across different states, for instance, knowing that clothing, software-as-a-service (SaaS), or digital goods are taxable in one state but exempt in another?</li>
-        <li>Once you realize you have nexus in a new state, what is your current process for registering with their Department of Revenue and filing those returns on time?</li>
-        <li>How are you collecting, validating, and storing tax exemption certificates for your B2B or wholesale clients out of state?</li>
-        <li>If a state auditor from Texas or New York knocked on your door tomorrow, how long would it take your team to generate an accurate, granular report of every transaction and tax dollar collected in that state over the last three years?</li>
-        <li>What is your current financial exposure if it turns out you have crossed economic nexus lines in three or four states over the past 12 months and failed to collect tax?</li>
+        <li>Do you sell to customers outside Florida?</li>
+        <li>Where do you sell: your own website, online marketplaces (which ones), or in person?</li>
+        <li>Are you registered to collect sales tax in any other state?</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
         Our post <Link id={`tools-accounting-tax-compliance-regulations-ai-multi-state-sales-tax-zamp-xlink-blog${idSuffix}`} href="/blog/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-what-south-florida-need-to-know-and-fix-before-expanding" className="text-[#C83803] hover:underline">Sales Tax Nexus Before You Expand</Link> weighs what separates Zamp’s managed model from software-only tools: onboarding specialists who review your product catalog and sales data before alerts start, a team that intercepts and resolves state notices, and registrations and mappings that are updated as states change their rules. It also states the boundary the evidence does not cross, since no service catches every edge case and none removes the need for clean multi-channel data. The free diagnostic and six-step rollout in our <Link id={`tools-accounting-tax-compliance-regulations-ai-multi-state-sales-tax-zamp-xlink-pillar${idSuffix}`} href="/use-cases/accounting/tax-compliance-regulations/ai-multi-state-sales-tax" className="text-[#C83803] hover:underline">AI Multi-State Sales Tax</Link> guide show where Zamp’s team steps in, from the go-live audit through regulatory letters.</p>
