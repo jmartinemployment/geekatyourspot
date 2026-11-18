@@ -7,7 +7,9 @@ export default function InformationWeCollectSection() {
       <p className="text-base text-white shadow-text pt-3">
         When you book a consultation, the scheduler asks for your first name, last name, email address, and
         phone number, along with the date and time you choose. If you call us, email us, or write to us, we
-        receive whatever you choose to include in that message.</p>
+        receive whatever you choose to include in that message. Calls to our business line at (561)
+        865-6990 may be answered by an AI receptionist. When it answers, it says that it is an AI and that
+        the call may be recorded.</p>
       <p className="text-base text-white shadow-text pt-3">
         The site never asks for payment card numbers, bank account numbers, Social Security numbers, or access
         to your accounting software. If a client engagement later requires access to financial systems, that

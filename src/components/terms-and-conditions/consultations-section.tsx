@@ -9,8 +9,8 @@ export default function ConsultationsSection() {
         shown and kept in Eastern Time.</p>
       <p className="text-base text-white shadow-text pt-3">
         Please give accurate contact details when you book, and do not book times you do not plan to keep. If
-        you need to change or cancel an appointment, call us at <a id={`terms-and-conditions-consultations-tel${idSuffix}`} href="tel:+15615263512" className="text-[#0B162A] hover:underline">(561)
-        526-3512</a>. We may cancel appointments that appear to be false or abusive.</p>
+        you need to change or cancel an appointment, call us at <a id={`terms-and-conditions-consultations-tel${idSuffix}`} href="tel:+15618656990" className="text-[#0B162A] hover:underline">(561)
+        865-6990</a>. We may cancel appointments that appear to be false or abusive.</p>
       <h3 className="text-white pt-2 text-[5vw] sm:text-3xl lg:text-3xl leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
         Paid Engagements
       </h3>

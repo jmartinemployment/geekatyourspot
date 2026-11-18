@@ -2,11 +2,12 @@ export default function WhoWeShareWithSection() {
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        We share personal information only with the companies that help us run the site and the booking
-        process, and only so that they can do that work for us.</p>
+        We share personal information only with the companies that help us run the site, the booking
+        process, and our phone line, and only so that they can do that work for us.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
         <li><strong>Google</strong> provides Google Calendar, where your appointment is saved with your name and email address. Google also provides Google Analytics, which processes the visit data described above.</li>
         <li><strong>Resend</strong> delivers the confirmation email we send when you book.</li>
+        <li><strong>Twilio</strong> carries calls to our business line and delivers our text messages.</li>
         <li><strong>Vercel</strong> hosts the site and handles the requests your browser makes to it.</li>
         <li><strong>Railway</strong> runs the servers that receive the visit record and prepare our daily report.</li>
         <li><strong>Supabase</strong> hosts the database where the visit record is stored.</li>

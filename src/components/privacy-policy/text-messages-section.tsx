@@ -2,20 +2,22 @@ export default function TextMessagesSection() {
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
-        When you call our business line at <a id={`privacy-policy-sms-tel${idSuffix}`} href="tel:+15615263512" className="text-[#0B162A] hover:underline">(561)
-        526-3512</a> and we cannot answer, our missed-call service may send one text message from (561)
-        865-6990 to the number you called from, about that call. If you reply, your reply is passed to us so
-        we can get back to you. We use your phone number and your messages only to respond to your call.</p>
+        When you book an appointment by calling our business line at <a id={`privacy-policy-sms-tel${idSuffix}`} href="tel:+15618656990" className="text-[#0B162A] hover:underline">(561)
+        865-6990</a>, our AI receptionist asks whether you would like a text message confirming it. If you
+        agree, we send one text from that number, to the number you called from, asking you to reply YES.
+        We send the confirmation only after you reply YES. We use your phone number and your reply only to
+        confirm your appointment.</p>
       <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
-        <li><strong>Message frequency varies</strong> and depends on the calls you make to us. We send no marketing texts.</li>
+        <li><strong>Message frequency varies.</strong> We send one request and one confirmation for each appointment you ask us to confirm by text. We send no marketing texts.</li>
         <li><strong>Message and data rates may apply.</strong></li>
         <li>Reply <strong>STOP</strong> to opt out at any time, or <strong>HELP</strong> for help.</li>
         <li><strong>Twilio</strong> delivers our text messages and calls on our behalf.</li>
       </ul>
       <p className="text-base text-white shadow-text pt-3">
         <strong>No mobile information will be shared with third parties or affiliates for marketing or
-        promotional purposes.</strong> Text messaging originator opt-in data and consent will not be shared
-        with any third parties. We never buy, rent, or import phone numbers.</p>
+        promotional purposes.</strong> We do not sell or share your SMS opt-in data or personal information
+        with third parties for marketing purposes. Text messaging originator opt-in data and consent will
+        not be shared with any third parties. We never buy, rent, or import phone numbers.</p>
     </>
   );
 

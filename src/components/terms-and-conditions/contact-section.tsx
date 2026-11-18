@@ -6,8 +6,8 @@ export default function ContactSection() {
         change the effective date in the first section. The version posted when you use the site is the
         version that applies to that use.</p>
       <p className="text-base text-white shadow-text pt-3">
-        If you have a question about these terms, call us at <a id={`terms-and-conditions-contact-tel${idSuffix}`} href="tel:+15615263512" className="text-[#0B162A] hover:underline">(561)
-        526-3512</a> or write to us at the address below.</p>
+        If you have a question about these terms, call us at <a id={`terms-and-conditions-contact-tel${idSuffix}`} href="tel:+15618656990" className="text-[#0B162A] hover:underline">(561)
+        865-6990</a> or write to us at the address below.</p>
       <p className="text-base text-white shadow-text pt-3">
         <strong>Geek @ Your Spot LLC</strong><br />2025 NW 18th Street<br />Delray Beach, FL 33445</p>
     </>
