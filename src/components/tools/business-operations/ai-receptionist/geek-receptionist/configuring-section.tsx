@@ -45,6 +45,11 @@ export default function ConfiguringSection() {
         own wording, with your business name filled in for you. The wording has to stay in step with what the
         carriers approved for your business, so it is changed together with that approval, not on a whim.</p>
       <p className="text-base text-white shadow-text pt-3">
+        When AI voice answering opens, one more setting covers your call content. It is off until you turn it
+        on. You connect your own Amazon S3 or Google Cloud Storage bucket in the dashboard and place a test call
+        to confirm the files appear. A change applies to calls after it, because content from earlier calls was
+        not kept.</p>
+      <p className="text-base text-white shadow-text pt-3">
         Your business name appears in the text, in the greeting, in the screening prompt and in the alerts you
         receive. Your cell phone number is where the screening call rings and where every alert and forwarded
         reply is sent.</p>

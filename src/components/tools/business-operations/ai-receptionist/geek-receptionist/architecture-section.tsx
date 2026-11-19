@@ -47,6 +47,18 @@ export default function ArchitectureSection() {
         clear a message is being recorded. Florida requires everyone on a call to agree to recording, so there
         is no silent recording of any kind.</p>
       <p className="text-base text-white shadow-text pt-3">
+        AI voice answering is built the same way. For every call in
+        your account, Geek-Receptionist processes a call as it happens and keeps nothing of its content once it
+        ends. The voice service that answers the call records it and deletes its copy about 10 minutes after
+        the call is processed. Recordings, transcripts, messages, summaries and detailed call logs are not retained, and
+        structured outputs are not retained by default. What stays is the operating record: your call history,
+        cost, latency, billing and usage.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        Call content goes where you send it. You connect your own Amazon S3 or Google Cloud Storage bucket,
+        and each call’s audio, transcript and logs are written to your bucket, found by the call’s ID. Geek @
+        Your Spot LLC runs no storage for call content, so a business that connects none gets no recording of
+        any call.</p>
+      <p className="text-base text-white shadow-text pt-3">
         Replies are handled with the same care. When a caller texts back, the words are forwarded to your cell
         phone. Any picture or file attached to the reply is deleted and never forwarded, so the service only
         ever moves words.</p>

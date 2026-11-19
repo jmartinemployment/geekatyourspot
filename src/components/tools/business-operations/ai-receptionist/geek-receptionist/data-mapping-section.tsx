@@ -44,6 +44,12 @@ export default function DataMappingSection() {
         The voicemail is logged too. You get a text with a link to the recording, and the same event is written
         to the lead, so the recording and the call it belongs to stay together.</p>
       <p className="text-base text-white shadow-text pt-3">
+        An AI-answered call is recorded differently, because Geek-Receptionist keeps none of its content. Your call
+        history keeps the call itself, with its ID, when it started and ended, how long it ran and how it
+        ended, along with the minutes counted against your plan. The words of the call are not kept by us, and the voice service that answers the call deletes its copy about 10 minutes after the call is processed. If you
+        have connected your own storage, they are written to your bucket under the same call ID, so the history
+        points you to the file and your bucket holds the content.</p>
+      <p className="text-base text-white shadow-text pt-3">
         Records go to the Geek-CRM account that belongs to the business. By default that is the Geek @ Your
         Spot LLC account, and it can be set to a different one.</p>
       <p className="text-base text-white shadow-text pt-3">

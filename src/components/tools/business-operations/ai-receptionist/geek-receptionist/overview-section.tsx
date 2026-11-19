@@ -52,6 +52,13 @@ export default function OverviewSection() {
         an AI, and so that calls are not recorded by default. The plans and prices further down this page are
         for it, and they are marked as coming soon until it is live.</p>
       <p className="text-base text-white shadow-text pt-3">
+        It is also designed to keep none of a call&rsquo;s content. After an AI-answered call ends, Geek-Receptionist keeps
+        no recording, transcript, message, summary or detailed call log. The voice service that answers the call
+        records it and deletes its copy about 10 minutes after the call is processed. It keeps only your call history and
+        usage, so you can still see what happened and what you used. If you want recordings or transcripts, you
+        connect your own Amazon S3 or Google Cloud Storage in the dashboard, and the content of each call is
+        written there for you to read. Without storage of your own, call content is kept nowhere.</p>
+      <p className="text-base text-white shadow-text pt-3">
         If you are comparing options, the&nbsp;<Link id={`tools-business-operations-ai-receptionist-geek-receptionist-overview-ai-receptionist${idSuffix}`} href="/use-cases/business-operations/ai-receptionist" className="text-[#C83803] hover:underline">AI Receptionist</Link>&nbsp;use case
         explains what a small business should decide before choosing a tool, and the other tools on this site
         cover products that answer calls with AI today.</p>

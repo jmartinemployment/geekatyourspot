@@ -5,6 +5,8 @@
  * GeekBackend/docs/Geek-Receptionist.md.
  * Public FAQ copy reflects current live capabilities (missed-call text-back and voicemail capture).
  * Update both this comment and the visible FAQ answers together when v1 multi-tenant AI voice answering launches.
+ * The four zero data retention answers come from GeekBackend/docs/Geek-Receptionist-zero-data-retention.md,
+ * which follows Vapi's zero data retention documentation. They describe AI voice answering, which is not built yet.
  */
 export type FaqItem = { question: string; answer: string };
 
@@ -48,6 +50,26 @@ export const GEEK_RECEPTIONIST_FAQ: FaqItem[] = [
     question: "Where are my calls and texts recorded?",
     answer:
       "Every missed call, text, reply, opt out and voicemail is written to Geek-CRM. The caller's number finds or creates a lead, and each event is logged against that lead, so a message that Twilio retries is never recorded twice.",
+  },
+  {
+    question: "What does Geek-Receptionist keep after an AI-answered call ends?",
+    answer:
+      "When AI voice answering opens, Geek-Receptionist keeps none of a call's content, for every call in your account. It processes each call as it happens. After the call ends, it keeps your call history, cost, latency, billing and usage, so you can still see what happened and what you used. It keeps no recordings, transcripts, messages, summaries or detailed call logs, and structured outputs are not kept by default. The voice service that answers the call does record it, and deletes its copy about 10 minutes after the call is processed.",
+  },
+  {
+    question: "Where do my recordings and transcripts go?",
+    answer:
+      "They go to your own storage, and only if you set it up. When AI voice answering opens, you can connect your own Amazon S3 or Google Cloud Storage bucket in the dashboard. This is off until you connect one. Geek @ Your Spot LLC does not store call content for you, so a business that connects no storage gets no recording or transcript of any call, from anyone.",
+  },
+  {
+    question: "How do I find a recording or transcript in my storage?",
+    answer:
+      "Look in your own bucket and search for the call's ID in the file name. The audio recording, the transcript and messages, and the detailed call log are each written there as files. Your call history in Geek-Receptionist lists every call, so the history tells you which call to look for and your bucket holds the content.",
+  },
+  {
+    question: "What if a recording is not in my storage?",
+    answer:
+      "Check that your storage was connected and recording was turned on before the call, because a transcript file does not prove audio was recorded. Check the bucket, the region and the folder path, and allow time for the call to finish processing. The call appears in your call history either way. Content that never reached your storage cannot be recovered, because Geek-Receptionist did not keep it, and storage you connect now applies only to later calls. After you connect storage, place a test call and confirm its files appear.",
   },
   {
     question: "Can it answer calls with AI today?",
