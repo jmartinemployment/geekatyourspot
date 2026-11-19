@@ -1,6 +1,4 @@
-"use client";
-
-import { useEffect, useRef, useState } from "react";
+import type { CSSProperties } from "react";
 
 interface MethogologyRevealOnScrollProps {
   readonly children: React.ReactNode;
@@ -9,49 +7,25 @@ interface MethogologyRevealOnScrollProps {
   readonly className?: string;
 }
 
-// Where each direction starts. The element slides from here to its place, and the browser
-// interpolates `translate: none` as no offset, so it ends with no transform at all.
-const START_OFFSET = {
-  up: "0px 40px",
-  down: "0px -40px",
-  left: "40px 0px",
-  right: "-40px 0px",
-} as const;
-
+// Server component. The reveal is pure CSS: `.reveal-on-scroll` in globals.css binds a slide-in
+// keyframe to the element's own position in the viewport with `animation-timeline: view()`, so no
+// JavaScript, state, ref or IntersectionObserver is needed and this file stays server-rendered.
+// A browser without scroll-driven animations, or a visitor who prefers reduced motion, simply gets
+// the element in its final place with no animation.
+//
+// `direction` picks the slide origin (a data attribute the CSS reads); `delay` staggers a group by
+// shifting where in the scroll range the slide starts, passed through as a CSS custom property.
 export function MethogologyRevealOnScroll({
   children,
   delay = 0,
   direction = "up",
   className,
 }: MethogologyRevealOnScrollProps) {
-  const ref = useRef<HTMLDivElement>(null);
-  const [revealed, setRevealed] = useState(false);
-
-  // Reveal once, when the element is 100px inside the viewport, then stop watching.
-  useEffect(() => {
-    const element = ref.current;
-    if (!element) return;
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (entries.some((entry) => entry.isIntersecting)) {
-          setRevealed(true);
-          observer.disconnect();
-        }
-      },
-      { rootMargin: "-100px" },
-    );
-    observer.observe(element);
-    return () => observer.disconnect();
-  }, []);
-
   return (
     <div
-      ref={ref}
-      className={className}
-      style={{
-        translate: revealed ? "none" : START_OFFSET[direction],
-        transition: `translate 0.5s ease-out ${delay}s`,
-      }}
+      className={className ? `reveal-on-scroll ${className}` : "reveal-on-scroll"}
+      data-reveal-direction={direction}
+      style={{ "--reveal-delay": `${delay}s` } as CSSProperties}
     >
       {children}
     </div>

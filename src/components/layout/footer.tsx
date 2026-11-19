@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import Link from "next/link";
 import { gtmLinkId, gtmLinkIdFromHref } from "@/lib/gtm/link-id";
