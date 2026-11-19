@@ -1,15 +1,17 @@
-A finished square social-ad graphic with a 1:1 aspect ratio, 1080 by 1080 pixels, on a solid deep navy background (#0B162A) that fills the entire frame edge to edge, with no transparency, no gradient and no vignette. All text is bold sans-serif and perfectly legible, every word spelled exactly as written, and no text wraps to an unexpected line. The layout from top to bottom:
+A finished square social-media ad with a 1:1 aspect ratio, 1080 by 1080 pixels, on a solid deep navy background (#0B162A) that fills the entire frame edge to edge, with no transparency, no gradient and no vignette. All text is a bold rounded sans-serif, crisp and perfectly legible, every word spelled exactly as written, and no line wraps unexpectedly. Layout from top to bottom:
 
-At the top center, reproduce the Geek @ Your Spot logo: a stylized orange (#C83803) at sign, then the word Geek, with a short burnt orange (#C83803) horizontal underline beneath it, and the words your spot centered directly below in a lighter weight. The whole logo is white lettering except the at sign and the underline, which are burnt orange (#C83803). It reads exactly: Geek your spot.
+1. At the top center, the Geek @ Your Spot logo: a stylized orange (#C83803) at sign, then the word Geek in white with a short burnt orange (#C83803) horizontal underline beneath it, and the words your spot in white in a lighter weight directly below. It reads exactly: Geek your spot.
 
-Below the logo, a two-line headline centered: the first line reads AI for South Florida in bold white. The second line reads Small Business in bold burnt orange (#C83803), the same large size as the first line.
+2. Below the logo, a two-line headline centered: the first line reads AI for South Florida in heavy white. The second line reads Small Business in heavy burnt orange (#C83803), the same large size as the first line.
 
-Below the headline, a bold white hook line centered, slightly smaller: Work Smarter. Grow Faster.
+3. Below the headline, a bold white hook line centered, a little smaller: Work Smarter. Grow Faster.
 
-Below the hook, a single centered white subline in a lighter weight, smaller again: Custom Software, AI Automation, Websites & SEO.
+4. Below the hook, one centered white subline in a lighter weight, smaller again: Custom Software, AI Automation, Websites & SEO.
 
-In the lower half, two elements sit side by side. On the lower left is a bold comic-style starburst badge with sharp spiky points, filled with a single flat solid burnt orange (#C83803), with no outline, no white border, no stroke and no decorative lines, fully inside the frame with a clear margin on its left and bottom and no point cut off. Inside the starburst, in bold navy blue (#0B162A) sans-serif capital letters, centered on exactly three lines that each stay on one line and never wrap, is exactly this text and nothing else: the first line reads PUT AI, the second line reads TO WORK, the third line reads FOR YOUR BUSINESS.
+In the lower half of the ad, two elements sit side by side.
+
+On the lower left is a bold comic-style starburst badge with sharp spiky points, filled with a single flat solid burnt orange (#C83803), with no outline, no white border, no inner border, no stroke and no decorative lines of any kind. The entire starburst, including every one of its points, is fully inside the image with a clear empty margin on its left and bottom, and no part of it is cut off or touches an edge. Inside the starburst, in bold navy blue (#0B162A) sans-serif capital letters sized so that each line fits on a single line with clear space on both sides and never wraps, centered on exactly three lines, is exactly this text and nothing else. The first line reads PUT AI and stays on one line. The second line reads TO WORK and stays on one line. The third line reads FOR YOUR BUSINESS and stays on one line. There are exactly three lines of text, never two or four.
 
 On the lower right stands the robot character from the attached image, out of any packaging, rendered as a glossy 3D figure while keeping its exact design: rounded white helmet with a dark visor, two large glowing blue eyes and a small smile, a thin antenna topped with a red ring, a round gray ear disc, white chest plate, dark navy jointed arms and legs with gray joints, and white boots. The robot holds an open silver laptop and points across the image toward the starburst. Polished product-photography lighting on the robot only.
 
-No other text, letters, logos, prices or brand names anywhere in the image beyond what is listed above. Do not include the lab bench, test tubes or flasks from the attached image.
+No other text, letters, logos, prices or brand names anywhere in the image beyond what is listed above. No ground shadow, no floor, no ellipse and no reflection under the robot's feet. Do not include the lab bench, test tubes or flasks from the attached image.
