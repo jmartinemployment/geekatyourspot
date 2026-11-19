@@ -129,7 +129,7 @@ export default async function TermPage({
         <header className="min-h-screen lg:hidden">
           <div className="container min-h-screen">
             <div className="grid min-h-screen grid-cols-1 grid-rows-[auto_1fr] place-items-center">
-              <BreadcrumbTrail current={term.title} withJsonLd />
+              <BreadcrumbTrail path={`/glossary/${term.slug}`} current={term.title} withJsonLd />
               <div className="col-span-full">
                 <TermDetail term={term} />
               </div>
@@ -140,7 +140,7 @@ export default async function TermPage({
         <header className="hidden min-h-screen lg:block">
           <div className="container min-h-screen">
             <div className="grid min-h-screen grid-cols-12 grid-rows-[auto_1fr] place-items-center gap-x-4">
-              <BreadcrumbTrail current={term.title} />
+              <BreadcrumbTrail path={`/glossary/${term.slug}`} current={term.title} />
               <div className="col-span-7">
                 <TermDetail term={term} />
               </div>

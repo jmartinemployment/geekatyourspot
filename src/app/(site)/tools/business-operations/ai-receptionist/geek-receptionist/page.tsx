@@ -95,7 +95,7 @@ export default async function Page() {
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
-            <ToolsHeroSection
+            <ToolsHeroSection path="/tools/business-operations/ai-receptionist/geek-receptionist"
                 title={PAGE_TITLE}
                 summary={heroSummary}
                 heroImage={{

@@ -44,7 +44,7 @@ export default async function Page() {
         "We collect only what we need to book your consultation and improve this site. This policy explains what that is, who helps us handle it, and how you stay in control of it.";
     return (
         <>
-            <SharedHeroSection title={TITLE} summary={heroSummary} image="" imgAlt="" />
+            <SharedHeroSection path="/privacy-policy" title={TITLE} summary={heroSummary} image="" imgAlt="" />
             <article>
                 <WhoWeAreSection />
                 <InformationWeCollectSection />

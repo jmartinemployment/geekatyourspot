@@ -80,7 +80,7 @@ export default function MarketingToolsPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
-      <ToolsHeroSection title={PAGE_TITLE} summary={PAGE_SUMMARY} icon={faFunnelDollar} />
+      <ToolsHeroSection path="/tools/marketing" title={PAGE_TITLE} summary={PAGE_SUMMARY} icon={faFunnelDollar} />
       <ToolsDepartmentSections categories={categories} />
       <SchedulerShell />
     </div>

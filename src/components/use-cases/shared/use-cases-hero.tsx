@@ -5,6 +5,8 @@ import { SCHEDULER_HERO_LINK_ID } from "@/components/shared/scheduler/scheduler-
 import { BreadcrumbTrail } from "@/components/shared/breadcrumb-trail";
 
 interface UseCasesHeroSectionProps {
+  /** The page's own URL path, forwarded to the server-rendered breadcrumb. */
+  path: string;
   title: string;
   summary: string;
   /** Department whose icon fills the right column. */
@@ -18,13 +20,13 @@ interface UseCasesHeroSectionProps {
  * (`src/components/tools/shared/tools-hero.tsx`) with the department's icon
  * in place of the wrench, so the index pages open the way every pillar does.
  */
-export default async function UseCasesHeroSection({ title, summary, department, icon }: Readonly<UseCasesHeroSectionProps>) {
+export default async function UseCasesHeroSection({ path, title, summary, department, icon }: Readonly<UseCasesHeroSectionProps>) {
   return (
     <>
       <header className="min-h-screen bg-[#0B162A] lg:hidden">
         <div className="container min-h-screen">
           <div className="grid min-h-screen grid-cols-1 grid-rows-[auto_1fr] place-items-center">
-            <BreadcrumbTrail current={title} withJsonLd />
+            <BreadcrumbTrail path={path} current={title} withJsonLd />
             <div className="col-span-full">
               <h1 className="font-black font-(--font-sora) text-[9vw] leading-[0.95] text-white shadow-text sm:text-6xl md:text-7xl">
                 {title}
@@ -48,7 +50,7 @@ export default async function UseCasesHeroSection({ title, summary, department, 
       <header className="hidden min-h-screen bg-[#0B162A] lg:block">
         <div className="container min-h-screen">
           <div className="grid min-h-screen grid-cols-12 grid-rows-[auto_1fr] place-items-center gap-x-4">
-            <BreadcrumbTrail current={title} />
+            <BreadcrumbTrail path={path} current={title} />
             <div className="col-span-7">
               <h1 className="font-black font-(--font-sora) leading-[0.95] text-white shadow-text lg:text-[4.0rem]">
                 {title}

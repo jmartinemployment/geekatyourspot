@@ -84,7 +84,7 @@ export default async function Page() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
             />
-            <ToolsHeroSection
+            <ToolsHeroSection path="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adobe-mix-modeler"
                 title={title}
                 summary={heroSummary} />
             <OverviewToolSection />

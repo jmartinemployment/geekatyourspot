@@ -100,7 +100,7 @@ export default async function Page() {
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
-            <SharedHeroSection title={TITLE} summary={heroSummary} image="" imgAlt="" />
+            <SharedHeroSection path="/blog/marketing/ad-spend-optimization/how-south-florida-businesses-can-stop-wasting-ad-spend" title={TITLE} summary={heroSummary} image="" imgAlt="" />
             <article>
                 <LedeSection />
                 <ChallengesSection />

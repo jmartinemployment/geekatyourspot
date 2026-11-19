@@ -115,7 +115,7 @@ export default async function Page() {
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
-            <ToolsHeroSection title={PAGE_TITLE} summary={heroSummary} />
+            <ToolsHeroSection path="/tools/marketing/ad-spend-optimization/ai-precision-lead-acquisition/adzooma" title={PAGE_TITLE} summary={heroSummary} />
             <OverviewSection />
             <ChallengesSection />
             <TransformsSection />

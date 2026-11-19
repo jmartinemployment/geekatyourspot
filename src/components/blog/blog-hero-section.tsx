@@ -6,6 +6,8 @@ import { SCHEDULER_HERO_LINK_ID } from "@/components/shared/scheduler/scheduler-
 import { BreadcrumbTrail } from "@/components/shared/breadcrumb-trail";
 
 type BlogHeroSectionProps = Readonly<{
+  /** The page's own URL path, forwarded to the server-rendered breadcrumb. */
+  path: string;
   title: string;
   summary: string;
   /** Department and publication date, when the page has them. */
@@ -25,6 +27,7 @@ function iconFor(department: string | undefined) {
 }
 
 export function BlogHeroSection({
+  path,
   title,
   summary,
   meta,
@@ -37,7 +40,7 @@ export function BlogHeroSection({
     <header className="min-h-screen bg-[#0B162A]">
       <div className="container min-h-screen">
         <div className="grid min-h-screen grid-cols-12 grid-rows-[auto_1fr] place-items-center gap-x-4">
-          <BreadcrumbTrail current={title} withJsonLd />
+          <BreadcrumbTrail path={path} current={title} withJsonLd />
           <div className="col-span-12 lg:col-span-7">
 
             {meta && (

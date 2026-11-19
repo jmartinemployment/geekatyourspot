@@ -91,7 +91,7 @@ export default async function Page() {
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(faqJsonLd) }} />
-            <ToolsHeroSection
+            <ToolsHeroSection path="/tools/accounting/accounts-payable/ai-invoice-approval-workflows/melio"
                 title={PAGE_TITLE}
                 summary={heroSummary}
                 heroImage={{

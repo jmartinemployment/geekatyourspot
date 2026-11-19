@@ -337,7 +337,7 @@ export default function UseCasesPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
-      <UseCasesHeroSection
+      <UseCasesHeroSection path="/use-cases"
         department="accounting"
         icon={faLightbulb}
         title="AI for Business"

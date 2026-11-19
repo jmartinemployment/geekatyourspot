@@ -142,7 +142,7 @@ export default async function GlossaryPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
-      <GlossaryHeroSection
+      <GlossaryHeroSection path="/glossary"
         title="Glossary"
         summary="The AI, automation, marketing, and accounting terms that come up when a small business starts putting AI to work, defined in plain language."
       />

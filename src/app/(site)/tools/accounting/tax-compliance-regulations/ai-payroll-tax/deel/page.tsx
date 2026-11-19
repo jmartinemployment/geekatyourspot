@@ -101,7 +101,7 @@ export default async function Page() {
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
-            <ToolsHeroSection
+            <ToolsHeroSection path="/tools/accounting/tax-compliance-regulations/ai-payroll-tax/deel"
                 title={PAGE_TITLE}
                 summary={heroSummary}
                 heroImage={{

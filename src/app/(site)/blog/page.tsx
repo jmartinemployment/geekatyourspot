@@ -152,7 +152,7 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
 
   return (
     <div className={cn("text-white", FIRST_SECTION_BACKGROUND)}>
-      <BlogHeroSection title={PAGE_TITLE} summary={PAGE_SUMMARY} icon={faNewspaper} />
+      <BlogHeroSection path="/blog" title={PAGE_TITLE} summary={PAGE_SUMMARY} icon={faNewspaper} />
 
       <section className="container py-16 lg:py-24">
         <div className="flex items-baseline gap-x-4">

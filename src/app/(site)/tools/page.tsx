@@ -128,7 +128,7 @@ export default function ToolsPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
-      <ToolsHeroSection
+      <ToolsHeroSection path="/tools"
         title="AI Tools &amp; Platforms"
         summary="These are the platforms we help South Florida small businesses implement. Each one is set up, integrated, and automated so you see value faster and skip the failed pilots."
       />

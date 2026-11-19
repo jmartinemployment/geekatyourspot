@@ -98,7 +98,7 @@ export default async function Page() {
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
-            <SharedHeroSection title={TITLE} summary={heroSummary} image="" imgAlt="" />
+            <SharedHeroSection path="/blog/marketing/marketing-automation-platforms/what-miami-businesses-miss-without-local-ai-automation" title={TITLE} summary={heroSummary} image="" imgAlt="" />
             <article>
                 <LedeSection />
                 <ChallengesSection />

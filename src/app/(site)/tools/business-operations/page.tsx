@@ -80,7 +80,7 @@ export default function BusinessOperationsToolsPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
-      <ToolsHeroSection title={PAGE_TITLE} summary={PAGE_SUMMARY} icon={faDatabase} />
+      <ToolsHeroSection path="/tools/business-operations" title={PAGE_TITLE} summary={PAGE_SUMMARY} icon={faDatabase} />
       <ToolsDepartmentSections categories={categories} />
       <SchedulerShell />
     </div>

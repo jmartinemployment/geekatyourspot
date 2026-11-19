@@ -83,7 +83,7 @@ export default async function Page() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
             />
-            <ToolsHeroSection
+            <ToolsHeroSection path="/tools/marketing/marketing-automation-platforms/ai-content-generation/contentstudio"
                 title={title}
                 summary={heroSummary} />
             <OverviewToolSection />

@@ -77,6 +77,7 @@ export default async function BlogArticlePage({ params }: BlogArticleProps) {
       )}
 
       <BlogHeroSection
+        path={`/blog/${department}/${slug.join("/")}`}
         title={post.headline}
         summary={post.heroSummary}
         meta={meta}

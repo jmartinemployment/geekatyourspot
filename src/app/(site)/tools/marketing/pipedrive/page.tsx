@@ -84,7 +84,7 @@ export default async function Page() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
             />
-            <ToolsHeroSection title={title} summary={summary} />
+            <ToolsHeroSection path="/tools/marketing/pipedrive" title={title} summary={summary} />
             <OverviewSection />
             <KeyCapabilitiesSection />
             <ImplementationSection />

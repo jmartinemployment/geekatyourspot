@@ -107,7 +107,7 @@ export default async function Page() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
             />
-            <SharedHeroSection
+            <SharedHeroSection path="/use-cases/marketing/ai-seo-tools"
                 title={title}
                 summary={heroSummary}
                 image={heroImage}

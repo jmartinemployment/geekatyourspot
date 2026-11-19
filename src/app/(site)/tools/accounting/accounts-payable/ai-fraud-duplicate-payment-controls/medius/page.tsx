@@ -97,7 +97,7 @@ export default async function Page() {
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
-            <ToolsHeroSection title={PAGE_TITLE} summary={heroSummary} />
+            <ToolsHeroSection path="/tools/accounting/accounts-payable/ai-fraud-duplicate-payment-controls/medius" title={PAGE_TITLE} summary={heroSummary} />
             <OverviewSection />
             <CostOfManualSection />
             <TransformsSection />

@@ -97,7 +97,7 @@ export default async function Page() {
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
-            <SharedHeroSection title={TITLE} summary={heroSummary} image="" imgAlt="" />
+            <SharedHeroSection path="/use-cases/accounting/tax-compliance-regulations/ai-tax-law" title={TITLE} summary={heroSummary} image="" imgAlt="" />
             <article>
                 <LedeSection />
                 <ChallengesSection />

@@ -44,7 +44,7 @@ export default async function Page() {
         "These terms explain how you may use this site, what our guides can and cannot do for you, and how consultations and paid work are handled.";
     return (
         <>
-            <SharedHeroSection title={TITLE} summary={heroSummary} image="" imgAlt="" />
+            <SharedHeroSection path="/terms-and-conditions" title={TITLE} summary={heroSummary} image="" imgAlt="" />
             <article>
                 <AgreementSection />
                 <NotAdviceSection />

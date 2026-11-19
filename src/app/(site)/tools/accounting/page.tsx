@@ -80,7 +80,7 @@ export default function AccountingToolsPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
-      <ToolsHeroSection title={PAGE_TITLE} summary={PAGE_SUMMARY} icon={faCalculator} />
+      <ToolsHeroSection path="/tools/accounting" title={PAGE_TITLE} summary={PAGE_SUMMARY} icon={faCalculator} />
       <ToolsDepartmentSections categories={categories} />
       <SchedulerShell />
     </div>

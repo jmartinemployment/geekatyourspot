@@ -142,7 +142,7 @@ export default async function Page() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
             />
-            <SharedHeroSection title={PAGE_TITLE} summary={heroSummary} image="" imgAlt="" />
+            <SharedHeroSection path="/use-cases/business-operations/front-desk" title={PAGE_TITLE} summary={heroSummary} image="" imgAlt="" />
             <article>
                 <LedeSection />
                 <ReceptionistSection />

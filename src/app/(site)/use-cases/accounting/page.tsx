@@ -129,7 +129,7 @@ export default function AccountingUseCasesPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
-      <UseCasesHeroSection
+      <UseCasesHeroSection path="/use-cases/accounting"
         department="accounting"
         title="Accounting"
         summary="This guide shows South Florida small businesses where manual accounting fails, which tools close each gap, and how we put those tools in place without losing control of the books."

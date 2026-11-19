@@ -16,19 +16,21 @@ import { BreadcrumbTrail } from "@/components/shared/breadcrumb-trail";
 //   name: DepartmentName;
 // }
 interface HeroSectionProps {
+  /** The page's own URL path, forwarded to the server-rendered breadcrumb. */
+  path: string;
   title: string;
   image: string;
   summary: string;
   imgAlt: string;
 }
-export default async function HeroSection({title, image, summary, imgAlt }:HeroSectionProps) {
+export default async function HeroSection({path, title, image, summary, imgAlt }:HeroSectionProps) {
     
   return (
     <>
       <header className="min-h-screen bg-[#0B162A] lg:hidden">
         <div className="container min-h-screen">
           <div className="grid min-h-screen grid-cols-1 grid-rows-[auto_1fr] place-items-center">
-            <BreadcrumbTrail current={title} withJsonLd />
+            <BreadcrumbTrail path={path} current={title} withJsonLd />
             <div className="col-span-full">
               <h1 className="font-black font-(--font-sora) text-[9vw] leading-[0.95] text-white shadow-text sm:text-6xl md:text-7xl">
                 {title}
@@ -52,7 +54,7 @@ export default async function HeroSection({title, image, summary, imgAlt }:HeroS
       <header className="hidden min-h-screen bg-[#0B162A] lg:block">
         <div className="container min-h-screen">
           <div className="grid min-h-screen grid-cols-12 grid-rows-[auto_1fr] place-items-center gap-x-4">
-            <BreadcrumbTrail current={title} />
+            <BreadcrumbTrail path={path} current={title} />
             <div className="col-span-7">
               <h1 className="font-black font-(--font-sora) leading-[0.95] text-white shadow-text lg:text-[4.0rem]">
                 { title }

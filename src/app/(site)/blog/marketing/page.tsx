@@ -86,7 +86,7 @@ export default async function Page() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
-      <SharedHeroSection title={PAGE_TITLE} summary={heroSummary} image="" imgAlt="" />
+      <SharedHeroSection path="/blog/marketing" title={PAGE_TITLE} summary={heroSummary} image="" imgAlt="" />
       <article>
         <section className="min-h-screen bg-[#023059] text-white py-5">
           <div className="container">

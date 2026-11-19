@@ -83,7 +83,7 @@ export default async function Page() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
             />
-            <ToolsHeroSection title={title} summary={summary} />
+            <ToolsHeroSection path="/tools/marketing/6sense" title={title} summary={summary} />
             <OverviewSection />
             <KeyCapabilitiesSection />
             <ImplementationSection />

@@ -3,6 +3,7 @@ import { SCHEDULER_HERO_LINK_ID } from "@/components/shared/scheduler/scheduler-
 import { BreadcrumbTrail } from "@/components/shared/breadcrumb-trail";
 
 export default function HeroSection() {
+  const path = "/blog/marketing/marketing-automation-platforms/ai-lead-scoring";
   const title = "AI Lead Scoring";
   const summary = <>Stop chasing every lead. Use <GlossaryLink slug="lead-scoring">AI-driven lead scoring</GlossaryLink> to unify fragmented data, rank every prospect by real buying intent, and focus your small business team on leads most likely to convert.</>;
 
@@ -11,7 +12,7 @@ export default function HeroSection() {
       <header className="min-h-screen bg-[#0B162A] lg:hidden">
         <div className="container min-h-screen">
           <div className="grid min-h-screen grid-cols-1 grid-rows-[auto_1fr] place-items-center">
-            <BreadcrumbTrail current={title} withJsonLd />
+            <BreadcrumbTrail path={path} current={title} withJsonLd />
             <div className="col-span-full">
               <h1 className="font-black font-(--font-sora) text-[9vw] leading-[0.95] text-white shadow-text sm:text-6xl md:text-7xl">
                 {title}
@@ -35,7 +36,7 @@ export default function HeroSection() {
       <header className="hidden min-h-screen bg-[#0B162A] lg:block">
         <div className="container min-h-screen">
           <div className="grid min-h-screen grid-cols-12 grid-rows-[auto_1fr] place-items-center gap-x-4">
-            <BreadcrumbTrail current={title} />
+            <BreadcrumbTrail path={path} current={title} />
             <div className="col-span-7">
               <h1 className="font-black font-(--font-sora) leading-[0.95] text-white shadow-text lg:text-[4.0rem]">
                 {title}

@@ -106,7 +106,7 @@ export default async function Page() {
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
-            <ToolsHeroSection title={PAGE_TITLE} summary={heroSummary} />
+            <ToolsHeroSection path="/tools/business-operations/ai-receptionist/dapta" title={PAGE_TITLE} summary={heroSummary} />
             <article>
 
                 <section className="min-h-screen bg-[#023059] text-white py-5">
