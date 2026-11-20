@@ -1,0 +1,302 @@
+{
+  "activeLayerID" : "369FEAF0-B79A-43E4-9888-CB179DF8DBE5",
+  "colorSpace" : "sRGB",
+  "documentID" : "4D7ACFFC-4C77-45DD-83E9-A262BB0F6734",
+  "format" : "com.compositor.project",
+  "height" : 1064,
+  "layers" : [
+    {
+      "blendMode" : "Normal",
+      "id" : "FD6BCF3E-A5DC-43E5-A2BF-FDCB5ECA9302",
+      "imageFile" : "FD6BCF3E-A5DC-43E5-A2BF-FDCB5ECA9302.png",
+      "isGroup" : false,
+      "isVisible" : true,
+      "name" : "Rectangle 1",
+      "opacity" : 1,
+      "shape" : {
+        "blue" : 0.16470588235294117,
+        "cornerRadius" : 0,
+        "green" : 0.08627450980392157,
+        "kind" : "Rectangle",
+        "red" : 0.043137254901960784
+      },
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          0,
+          0
+        ],
+        "rotation" : 0,
+        "sampling" : "High quality",
+        "size" : [
+          1103,
+          1064
+        ]
+      }
+    },
+    {
+      "blendMode" : "Normal",
+      "id" : "71660515-C4A3-4097-8C70-2215657E5899",
+      "imageFile" : "71660515-C4A3-4097-8C70-2215657E5899.png",
+      "isGroup" : false,
+      "isVisible" : true,
+      "name" : "Missed Calls - Missed Business",
+      "opacity" : 1,
+      "text" : {
+        "alignment" : "Left",
+        "blue" : 1,
+        "content" : "Work Smarter. Grow Faster.",
+        "fontName" : "Arial-BoldMT",
+        "fontSize" : 64,
+        "green" : 1,
+        "leading" : 0,
+        "red" : 1,
+        "tracking" : 0
+      },
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          101.5,
+          272
+        ],
+        "rotation" : 0,
+        "sampling" : "High quality",
+        "size" : [
+          877,
+          103
+        ]
+      }
+    },
+    {
+      "blendMode" : "Normal",
+      "id" : "0D2AA6AD-7E8E-4BB9-A1DC-84A4A26DC445",
+      "imageFile" : "0D2AA6AD-7E8E-4BB9-A1DC-84A4A26DC445.png",
+      "isGroup" : false,
+      "isVisible" : true,
+      "name" : "Layer 2",
+      "opacity" : 1,
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          -23,
+          119
+        ],
+        "rotation" : 0,
+        "sampling" : "High quality",
+        "size" : [
+          1080,
+          1064
+        ]
+      }
+    },
+    {
+      "blendMode" : "Normal",
+      "id" : "5AB9DEA2-2C93-4C38-ABEE-1958502D726B",
+      "isGroup" : false,
+      "isVisible" : true,
+      "name" : "TextLayer",
+      "opacity" : 1,
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          0,
+          0
+        ],
+        "rotation" : 0,
+        "sampling" : "High quality",
+        "size" : [
+          1080,
+          1064
+        ]
+      }
+    },
+    {
+      "blendMode" : "Normal",
+      "id" : "A708B4D2-D400-4480-8568-0E36A4F85859",
+      "imageFile" : "A708B4D2-D400-4480-8568-0E36A4F85859.png",
+      "isGroup" : false,
+      "isVisible" : true,
+      "name" : "PUT AI",
+      "opacity" : 1,
+      "text" : {
+        "alignment" : "Center",
+        "blue" : 0.16470588235294117,
+        "content" : "PUT AI\nTO WORK\nFOR YOUR\nBUSINESS",
+        "fontName" : "Arial-Black",
+        "fontSize" : 54,
+        "green" : 0.08627450980392157,
+        "leading" : 0,
+        "red" : 0.043137254901960784,
+        "tracking" : 0
+      },
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          218,
+          496
+        ],
+        "rotation" : 0,
+        "sampling" : "High quality",
+        "size" : [
+          345,
+          284
+        ]
+      }
+    },
+    {
+      "blendMode" : "Normal",
+      "id" : "D74DBF65-F117-4566-9643-E2FF39428B67",
+      "isGroup" : false,
+      "isVisible" : true,
+      "name" : "Layer 1",
+      "opacity" : 1,
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          0,
+          0
+        ],
+        "rotation" : 0,
+        "sampling" : "High quality",
+        "size" : [
+          1080,
+          1064
+        ]
+      }
+    },
+    {
+      "blendMode" : "Normal",
+      "id" : "369FEAF0-B79A-43E4-9888-CB179DF8DBE5",
+      "imageFile" : "369FEAF0-B79A-43E4-9888-CB179DF8DBE5.png",
+      "isGroup" : false,
+      "isVisible" : true,
+      "name" : "https:\/\/geekatyourspot.com",
+      "opacity" : 1,
+      "text" : {
+        "alignment" : "Center",
+        "blue" : 0.011764705882352941,
+        "content" : "https:\/\/geekatyourspot.com",
+        "fontName" : "Arial-Black",
+        "fontSize" : 36,
+        "green" : 0.2196078431372549,
+        "leading" : 0,
+        "red" : 0.7843137254901961,
+        "tracking" : 0
+      },
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          257,
+          996
+        ],
+        "rotation" : 0,
+        "sampling" : "High quality",
+        "size" : [
+          566,
+          68
+        ]
+      }
+    },
+    {
+      "blendMode" : "Normal",
+      "id" : "89CCE367-F5AB-4E00-B50B-C93E5BFE62B2",
+      "imageFile" : "89CCE367-F5AB-4E00-B50B-C93E5BFE62B2.png",
+      "isGroup" : false,
+      "isVisible" : true,
+      "name" : "Small Business",
+      "opacity" : 1,
+      "text" : {
+        "alignment" : "Left",
+        "blue" : 0.011764705882352941,
+        "content" : "Small Business",
+        "fontName" : "Arial-BoldMT",
+        "fontSize" : 72,
+        "green" : 0.2196078431372549,
+        "leading" : 0,
+        "red" : 0.7843137254901961,
+        "tracking" : 0
+      },
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          270,
+          187
+        ],
+        "rotation" : 0,
+        "sampling" : "High quality",
+        "size" : [
+          564,
+          113
+        ]
+      }
+    },
+    {
+      "blendMode" : "Normal",
+      "id" : "A24D189C-2D7A-4D2A-B8EA-4C7CD31E15C3",
+      "imageFile" : "A24D189C-2D7A-4D2A-B8EA-4C7CD31E15C3.png",
+      "isGroup" : false,
+      "isVisible" : true,
+      "name" : "AI for South Florida",
+      "opacity" : 1,
+      "text" : {
+        "alignment" : "Left",
+        "blue" : 1,
+        "content" : "AI for South Florida",
+        "fontName" : "Arial-BoldMT",
+        "fontSize" : 72,
+        "green" : 1,
+        "leading" : 0,
+        "red" : 1,
+        "tracking" : 0
+      },
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          188,
+          119
+        ],
+        "rotation" : 0,
+        "sampling" : "High quality",
+        "size" : [
+          704,
+          113
+        ]
+      }
+    },
+    {
+      "blendMode" : "Normal",
+      "id" : "DF0D89F4-A6AB-4C78-BE1A-8511F005FC4E",
+      "imageFile" : "DF0D89F4-A6AB-4C78-BE1A-8511F005FC4E.png",
+      "isGroup" : false,
+      "isVisible" : true,
+      "name" : "GeekAtYourSpotWhite",
+      "opacity" : 1,
+      "transform" : {
+        "flipX" : false,
+        "flipY" : false,
+        "origin" : [
+          425,
+          24
+        ],
+        "rotation" : 0,
+        "sampling" : "High quality",
+        "size" : [
+          230,
+          95
+        ]
+      }
+    }
+  ],
+  "resolution" : 72,
+  "version" : 22,
+  "width" : 1080
+}
