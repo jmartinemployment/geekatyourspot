@@ -29,8 +29,6 @@ export default function ChallengesSection() {
       <p className="text-base text-white shadow-text pt-3">
         For a plumber or an air conditioning company, the stakes of one lead are high. A system replacement or a major repair is a significant purchase, so a single extra estimate booked because someone answered in a minute can be worth more than a month of software. The same lead, answered the next morning, often goes to the company that picked up.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Texting adds a legal layer. Sending marketing texts without recorded consent can create claims under federal rules and under Florida’s own telephone solicitation law. Texting from a personal phone leaves no record of who agreed to what. Have an attorney review your consent wording before you send marketing messages, whichever system you use.</p>
-      <p className="text-base text-white shadow-text pt-3">
         The last cost is staff turnover. When a team member leaves, the conversations they had with customers leave on their phone. A shared system keeps the history with the customer, so the next person can pick up exactly where the last one stopped.</p>
     </>
   );

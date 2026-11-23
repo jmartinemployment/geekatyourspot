@@ -27,7 +27,7 @@ export default function DataMappingSection() {
       <p className="text-base text-white shadow-text pt-3">
         Lead source deserves its own field on every contact. Without it you cannot tell whether the next dollar belongs in Google, Facebook or referrals. Capture it from forms and links when the lead arrives, because reconstructing it later is guesswork. Then record what happened to each lead: whether it was a real prospect, whether it booked and whether the business won the work. Those three answers show the owner what the marketing is producing and tell you whether to change the website, the follow-up or the advertising.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Consent needs a field too, along with the date and the way it was given, such as a form checkbox or a reply to a text. Record opt-outs so that no workflow can message someone who asked to stop. Your attorney should review the wording of the consent you collect.</p>
+        Consent needs a field too, along with the date and the way it was given, such as a form checkbox or a reply to a text. Record opt-outs so that no workflow can message someone who asked to stop.</p>
       <p className="text-base text-white shadow-text pt-3">
         Decide how many pipelines you need. One pipeline per service line works when the sales steps differ, but one shared pipeline is simpler when they do not. Also decide how new leads are assigned, by service, by area or by round robin, so every lead has a named owner from the first minute.</p>
     </>

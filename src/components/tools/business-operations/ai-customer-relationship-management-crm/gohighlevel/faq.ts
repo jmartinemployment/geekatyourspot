@@ -33,7 +33,7 @@ export const GOHIGHLEVEL_FAQ: FaqItem[] = [
   {
     question: "Do I need to register to text my customers?",
     answer:
-      "Business texting in the United States generally requires registering your business and your messaging use with the carriers, and that registration can take several days. You also need recorded consent before you send marketing texts. Have an attorney review your consent wording, because Florida has its own telephone solicitation rules in addition to federal ones.",
+      "Business texting in the United States generally requires registering your business and your messaging use with the carriers, and that registration can take several days. You also need recorded consent before you send marketing texts.",
   },
   {
     question: "How long does setup take?",
