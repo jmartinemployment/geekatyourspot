@@ -1140,9 +1140,14 @@ export function UseCasesSection() {
                                         </p>
                                     </li>
                                     <li className="pl-.5">
-                                        <h5 className="text-black text-sm font-bold shadow-text">
-                                            AI Customer Relationship Management (CRM):
-                                        </h5>
+                                        <Link
+                                            id={gtmLinkIdFromHref("/use-cases/business-operations/ai-customer-relationship-management-crm", "AI Customer Relationship Management (CRM)")}
+                                            href="/use-cases/business-operations/ai-customer-relationship-management-crm"
+                                            className="hover:text-[#C83803] text-[#000000] hover:underline">
+                                            <h5 className="text-black text-sm font-bold shadow-text">
+                                                AI Customer Relationship Management (CRM):
+                                            </h5>
+                                        </Link>
                                         <p className="text-black text-xs text-shadow-xs">
                                             Build and manage the customer data layer that powers your AI-driven sales and operations.
                                         </p>
@@ -1157,7 +1162,12 @@ export function UseCasesSection() {
                                                 Pipedrive
                                             </Link>,{" "}
                                             Bigin,{" "}
-                                            HighLevel,{" "}
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/business-operations/ai-customer-relationship-management-crm/gohighlevel", "GoHighLevel")}
+                                                href="/tools/business-operations/ai-customer-relationship-management-crm/gohighlevel"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                GoHighLevel
+                                            </Link>,{" "}
                                             HubSpot,{" "}
                                             Keap,{" "}
                                             Monday,{" "}
@@ -2288,9 +2298,14 @@ export function UseCasesSection() {
                                         </p>
                                     </li>
                                     <li className="pl-.5">
-                                        <h5 className="text-black text-base font-bold shadow-text">
-                                            AI Customer Relationship Management (CRM):
-                                        </h5>
+                                        <Link
+                                            id={gtmLinkIdFromHref("/use-cases/business-operations/ai-customer-relationship-management-crm", "AI Customer Relationship Management (CRM)")}
+                                            href="/use-cases/business-operations/ai-customer-relationship-management-crm"
+                                            className="hover:text-[#C83803] text-[#000000] hover:underline">
+                                            <h5 className="text-black text-base font-bold shadow-text">
+                                                AI Customer Relationship Management (CRM):
+                                            </h5>
+                                        </Link>
                                         <p className="text-black text-sm text-shadow-xs">
                                             Build and manage the customer data layer that powers your AI-driven sales and operations.
                                         </p>
@@ -2305,7 +2320,12 @@ export function UseCasesSection() {
                                                 Pipedrive
                                             </Link>,{" "}
                                             Bigin,{" "}
-                                            HighLevel,{" "}
+                                            <Link
+                                                id={gtmLinkIdFromHref("/tools/business-operations/ai-customer-relationship-management-crm/gohighlevel", "GoHighLevel")}
+                                                href="/tools/business-operations/ai-customer-relationship-management-crm/gohighlevel"
+                                                className="hover:text-[#0B162A] text-[#C83803] hover:underline" >
+                                                GoHighLevel
+                                            </Link>,{" "}
                                             HubSpot,{" "}
                                             Keap,{" "}
                                             Monday,{" "}

@@ -29,6 +29,7 @@ import { dryrunContent } from "@/data/tools/dryrun";
 import { factorsContent } from "@/data/tools/factors";
 import { fathomhqContent } from "@/data/tools/fathomhq";
 import { floatappContent } from "@/data/tools/floatapp";
+import { gohighlevelContent } from "@/data/tools/gohighlevel";
 import { greatExpectationsContent } from "@/data/tools/great-expectations";
 import { takethehelmContent } from "@/data/tools/takethehelm";
 import { takethehelmAiResourcePlanningContent } from "@/data/tools/takethehelm-ai-resource-planning";
@@ -165,6 +166,7 @@ const toolsMap: Record<string, ToolPageContent> = {
   "kyriba": kyribaContent,
   "leadfeeder": leadfeederContent,
   "geek-receptionist": geekReceptionistContent,
+  "gohighlevel": gohighlevelContent,
   "lobbystack": lobbystackContent,
   "lusha": lushaContent,
   "marpipe": marpipeContent,

@@ -42,6 +42,7 @@ export const BREADCRUMB_LEVELS: ReadonlyMap<string, string> = new Map([
   ["/tools/accounting/tax-compliance-regulations/ai-payroll-tax", "AI Payroll Tax"],
   ["/tools/business-operations", "Business Operations"],
   ["/tools/business-operations/ai-chatbot", "AI Chatbot"],
+  ["/tools/business-operations/ai-customer-relationship-management-crm", "AI Customer Relationship Management (CRM)"],
   ["/tools/business-operations/ai-data-quality-assessments", "AI Data Quality Assessments"],
   ["/tools/business-operations/ai-receptionist", "AI Receptionist"],
   ["/tools/marketing", "Marketing"],

@@ -274,6 +274,13 @@ const DEPARTMENTS: Department[] = [
         href: "/use-cases/business-operations/ai-chatbot",
       },
       {
+        title: "AI Customer Relationship Management (CRM)",
+        slug: "ai-customer-relationship-management-crm",
+        description:
+          "Keep every customer, conversation and appointment in one record, so new leads get a fast reply and follow-up never depends on memory.",
+        href: "/use-cases/business-operations/ai-customer-relationship-management-crm",
+      },
+      {
         title: "AI Data Quality Assessments",
         slug: "ai-data-quality-assessments",
         description:

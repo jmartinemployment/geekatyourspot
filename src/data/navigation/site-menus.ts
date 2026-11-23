@@ -120,6 +120,7 @@ export const USE_CASES_MENU: SiteMenuConfiguration = {
           label: "Data Infrastructure",
           href: "/use-cases/business-operations",
           items: [
+            { href: "/use-cases/business-operations/ai-customer-relationship-management-crm", label: "AI Customer Relationship Management (CRM)" },
             { href: "/use-cases/business-operations/ai-data-quality-assessments", label: "AI Data Quality Assessments" },
           ],
         },
@@ -398,6 +399,7 @@ export const TOOLS_MENU: SiteMenuConfiguration = {
           href: "/tools/business-operations",
           items: [
             { href: "/tools/business-operations/ai-data-quality-assessments/anomalo", label: "Anomalo" },
+            { href: "/tools/business-operations/ai-customer-relationship-management-crm/gohighlevel", label: "GoHighLevel" },
             { href: "/tools/business-operations/ai-data-quality-assessments/great-expectations", label: "Great Expectations" },
             { href: "/tools/business-operations/ai-data-quality-assessments/monte-carlo", label: "Monte Carlo" },
             { href: "/tools/business-operations/ai-data-quality-assessments/qualytics", label: "Qualytics" },
