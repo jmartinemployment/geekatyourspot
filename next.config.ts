@@ -1,5 +1,21 @@
 import type { NextConfig } from "next";
 
+// Addresses Search Console reported as Not found (404) on 2026-11-23. None has a replacement page,
+// so each answers 410 Gone, the status for a page removed on purpose. The four accounting tool
+// pages never existed here and the rest were removed or renamed away. /api/gone is the responder.
+const GONE_PATHS = [
+  "/tools/marketing/leadsquared",
+  "/tools/accounting/agicap",
+  "/tools/accounting/freshbooks",
+  "/tools/accounting/notion",
+  "/tools/accounting/airtable",
+  "/use-cases/marketing/ai-marketing-systems/es-ES",
+  "/use-cases/marketing/ai-marketing-systems/en-US",
+  "/blog/technology-consulting-in-south-florida-expert-guidance-for-smarter-technology-decisions",
+  "/blog/cloud-migration-infrastructure-reduce-it-costs-by-60-without-buying-another-server",
+  "/orderstack-floor-plan",
+];
+
 const nextConfig: NextConfig = {
   images: {
     formats: ['image/avif', 'image/webp'],
@@ -10,12 +26,18 @@ const nextConfig: NextConfig = {
   // The site was WordPress before 2026 and Google still lists WordPress's own sitemap files as
   // referrers (Search Console, 2026-11-06). WordPress served /wp-sitemap.xml and one
   // /wp-sitemap-<type>-<name>-<n>.xml per content type, so they all point at the one sitemap.
+  async rewrites() {
+    return {
+      beforeFiles: GONE_PATHS.map((source) => ({ source, destination: "/api/gone" })),
+    };
+  },
+
   async redirects() {
     return [
       { source: "/wp-sitemap.xml", destination: "/sitemap.xml", permanent: true },
       { source: "/:file(wp-sitemap-.*\\.xml)", destination: "/sitemap.xml", permanent: true },
       // Old WordPress pages that Search Console still reports as 404 (2026-11-06) and that have a
-      // close match here. The other old addresses have no equivalent page, so they stay 404.
+      // close match here. The old addresses with no equivalent page answer 410 Gone, see GONE_PATHS.
       { source: "/cookie-policy", destination: "/privacy-policy", permanent: true },
       {
         source: "/blog/search-engine-marketing-for-south-florida-dominating-google-in-broward-and-palm-beach-county",
