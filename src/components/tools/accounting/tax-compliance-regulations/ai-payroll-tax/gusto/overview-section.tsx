@@ -1,6 +1,25 @@
 import Link from "next/link";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBell,
+  faFileCircleCheck,
+  faMapLocationDot,
+  faScaleBalanced,
+  faTableCells,
+  faTriangleExclamation,
+} from "@fortawesome/free-solid-svg-icons";
+
 export default function OverviewSection() {
+  const points = [
+    { icon: faTableCells, color: "text-[#C83803]", label: "Workers tracked in spreadsheets" },
+    { icon: faScaleBalanced, color: "text-white", label: "Employee or contractor, unclear" },
+    { icon: faTriangleExclamation, color: "text-[#BF5934]", label: "Penalty and audit exposure" },
+    { icon: faMapLocationDot, color: "text-[#C83803]", label: "Work across county lines" },
+    { icon: faFileCircleCheck, color: "text-white", label: "Filings handled on time" },
+    { icon: faBell, color: "text-[#BF5934]", label: "Real-time rule updates" },
+  ];
+
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -53,7 +72,22 @@ export default function OverviewSection() {
       <section className="min-h-screen bg-[#023059] text-white py-5 hidden lg:block">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {points.map((point) => (
+                  <li key={point.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={point.icon}
+                      className={point.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {point.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
             <div className="col-span-7">
               <h2 id="overview-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Overview

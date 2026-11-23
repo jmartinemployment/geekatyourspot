@@ -1,7 +1,26 @@
 import Link from "next/link";
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFileCircleCheck,
+  faFileSignature,
+  faLayerGroup,
+  faMapLocationDot,
+  faScaleBalanced,
+  faUsers,
+} from "@fortawesome/free-solid-svg-icons";
+
 export default function ComparingSection() {
+  const points = [
+    { icon: faFileCircleCheck, color: "text-white", label: "Taxes filed for you" },
+    { icon: faMapLocationDot, color: "text-[#0B162A]", label: "Multi-state filings at no extra cost" },
+    { icon: faUsers, color: "text-white", label: "W-2 and 1099 on separate paths" },
+    { icon: faLayerGroup, color: "text-[#0B162A]", label: "Unlimited job types and pay rates" },
+    { icon: faFileSignature, color: "text-white", label: "Year-end forms filed and delivered" },
+    { icon: faScaleBalanced, color: "text-[#0B162A]", label: "Weighed against ADP and Deel" },
+  ];
+
   const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -86,7 +105,22 @@ export default function ComparingSection() {
               </h2>
               {body("-lg")}
             </div>
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {points.map((point) => (
+                  <li key={point.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={point.icon}
+                      className={point.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {point.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </section>

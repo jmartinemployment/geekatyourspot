@@ -1,4 +1,23 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faArrowsRotate,
+  faCalculator,
+  faCircleExclamation,
+  faFileSignature,
+  faFolderOpen,
+  faUserCheck,
+} from "@fortawesome/free-solid-svg-icons";
+
 export default function TransformsSection() {
+  const points = [
+    { icon: faUserCheck, color: "text-white", label: "Worker types kept separate" },
+    { icon: faCalculator, color: "text-[#0B162A]", label: "Taxes calculated automatically" },
+    { icon: faFileSignature, color: "text-white", label: "W-2s and 1099s filed electronically" },
+    { icon: faCircleExclamation, color: "text-[#0B162A]", label: "Errors flagged before filing" },
+    { icon: faArrowsRotate, color: "text-white", label: "Latest tax tables every run" },
+    { icon: faFolderOpen, color: "text-[#0B162A]", label: "Audit-ready records" },
+  ];
+
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -77,7 +96,22 @@ export default function TransformsSection() {
       <section className="min-h-screen bg-[#025E73] text-white py-5 hidden lg:block">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {points.map((point) => (
+                  <li key={point.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={point.icon}
+                      className={point.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {point.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
             <div className="col-span-7">
               <h2 id="what-gusto-actually-does-for-ai-payroll-tax-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 What Gusto actually does for AI Payroll Tax

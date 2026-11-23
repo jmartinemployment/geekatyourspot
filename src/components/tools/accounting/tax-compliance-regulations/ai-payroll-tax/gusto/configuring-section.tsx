@@ -1,6 +1,25 @@
 import { GlossaryLink } from "@/components/glossary/glossary-link";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faArrowsRotate,
+  faCalculator,
+  faCircleExclamation,
+  faFileSignature,
+  faMapLocationDot,
+  faSliders,
+} from "@fortawesome/free-solid-svg-icons";
+
 export default function ConfiguringSection() {
+  const points = [
+    { icon: faSliders, color: "text-white", label: "Worker type assigned" },
+    { icon: faCalculator, color: "text-[#0B162A]", label: "Tax tables applied" },
+    { icon: faFileSignature, color: "text-white", label: "Forms issued and filed" },
+    { icon: faMapLocationDot, color: "text-[#0B162A]", label: "Multi-state rates tracked" },
+    { icon: faCircleExclamation, color: "text-white", label: "Errors flagged before the pay run" },
+    { icon: faArrowsRotate, color: "text-[#0B162A]", label: "Updates when laws change" },
+  ];
+
   const body = (
     <>
       <p className="text-base text-white shadow-text pt-3">
@@ -87,7 +106,22 @@ export default function ConfiguringSection() {
               </h2>
               {body}
             </div>
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {points.map((point) => (
+                  <li key={point.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={point.icon}
+                      className={point.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {point.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </section>

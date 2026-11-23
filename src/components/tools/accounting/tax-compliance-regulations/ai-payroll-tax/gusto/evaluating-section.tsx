@@ -1,6 +1,25 @@
+import { GUSTO_AFFILIATE_URL } from "@/components/tools/accounting/tax-compliance-regulations/ai-payroll-tax/gusto/affiliate-link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faInfinity,
+  faMapLocationDot,
+  faPlug,
+  faSliders,
+  faTag,
+  faUsers,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function EvaluatingSection() {
-  const body = (
+  const points = [
+    { icon: faUsers, color: "text-white", label: "Employees and contractors paid" },
+    { icon: faMapLocationDot, color: "text-[#0B162A]", label: "Workers in more than one state" },
+    { icon: faTag, color: "text-white", label: "Pay only for people you pay" },
+    { icon: faInfinity, color: "text-[#0B162A]", label: "Unlimited payroll runs" },
+    { icon: faPlug, color: "text-white", label: "QuickBooks and Xero sync" },
+    { icon: faSliders, color: "text-[#0B162A]", label: "Flexible pay rates and job codes" },
+  ];
+
+  const body = (idSuffix = "") => (
     <>
       <p className="text-base text-white shadow-text pt-3">
         When you are weighing Gusto for payroll tax and worker misclassification risk, the right fit comes down
@@ -22,7 +41,8 @@ export default function EvaluatingSection() {
         Gusto’s pricing model is built to match the way small teams scale up and down. Instead of a flat monthly
         fee for the whole company, you pay for the people you pay each month. If you have a seasonal workforce,
         or contractors who only work some months, you only pay for them when you run payroll for them. This
-        keeps costs predictable and avoids paying for inactive workers during slow periods.</p>
+        keeps costs predictable and avoids paying for inactive workers during slow periods. You can see&nbsp;<a id={`tools-accounting-ai-payroll-tax-gusto-evaluating-affiliate${idSuffix}`} href={GUSTO_AFFILIATE_URL} target="_blank" rel="sponsored noopener noreferrer" className="text-[#0B162A] hover:underline">Gusto</a>&nbsp;for yourself before you decide.
+        Geek @ Your Spot LLC earns a commission if you sign up through this link.</p>
       <p className="text-base text-white shadow-text pt-3">
         The platform’s automation is included in the base price. Tax calculations, filings, and form generation
         are not billed as add-ons. This is a key point of contrast with some competitors, who charge extra for
@@ -68,19 +88,34 @@ export default function EvaluatingSection() {
                 Judging Gusto: Fit, Flexibility, and How Its Pricing Works for Small Teams
               </h2>
             </div>
-            <div className="col-span-12">{body}</div>
+            <div className="col-span-12">{body()}</div>
           </div>
         </div>
       </section>
       <section className="min-h-screen bg-[#8C4E2A] text-white py-5 hidden lg:block">
         <div className="container">
           <div className="grid min-h-screen grid-cols-12 place-items-center gap-x-4">
-            <div className="col-span-5 flex items-center justify-center"></div>
+            <div className="col-span-5 flex items-center justify-center">
+              <ul className="flex flex-col items-center gap-8 text-center">
+                {points.map((point) => (
+                  <li key={point.label} className="flex flex-col items-center">
+                    <FontAwesomeIcon
+                      icon={point.icon}
+                      className={point.color}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
+                    />
+                    <p className="pt-3 text-lg font-bold uppercase tracking-wide text-white shadow-text">
+                      {point.label}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
             <div className="col-span-7">
               <h2 id="judging-gusto-fit-flexibility-and-how-its-pricing-works-for-small-teams-lg" className="text-white lg:text-[3.5rem] leading-[0.95] font-black font-[var(--font-sora)] shadow-text">
                 Judging Gusto: Fit, Flexibility, and How Its Pricing Works for Small Teams
               </h2>
-              {body}
+              {body("-lg")}
             </div>
           </div>
         </div>
