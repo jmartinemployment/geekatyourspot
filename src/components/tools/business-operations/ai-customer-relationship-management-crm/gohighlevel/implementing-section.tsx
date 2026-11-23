@@ -25,9 +25,19 @@ export default function ImplementingSection() {
       <p className="text-base text-white shadow-text pt-3">
         The second step is your existing contacts. Export them from your current tools, put each person on one row, format phone numbers consistently and remove duplicates before you import. Importing a messy list into a new system only moves the mess.</p>
       <p className="text-base text-white shadow-text pt-3">
+        A snapshot can shorten the build, and it is easiest to understand as a packed moving box. In HighLevel, a snapshot is a pre-built setup that you install in an account and then customize. Instead of starting with an empty account, you open the box and find the pieces already arranged for a type of business, such as a plumbing company or an air conditioning company.</p>
+      <ul className="list-disc list-outside pl-3 space-y-2 text-base font-normal text-white shadow-text pt-3">
+        <li>Website templates, with a page built around one clear request, such as an estimate request button.</li>
+        <li>Follow-up campaigns, with the texts and emails that go out after a lead arrives, after a booking and after the job.</li>
+        <li>Workflows, the rules that decide who is notified, when a reminder goes out and when a sequence stops.</li>
+        <li>AI bot settings, the outline of what the assistant says and when it hands a conversation to a person.</li>
+      </ul>
+      <p className="text-base text-white shadow-text pt-3">
+        A snapshot is a starting point and not a finished system. Your services, service area, hours, prices you are willing to share, phone number and wording are all yours to supply, and the settings that look right in a template often need changing once your own leads arrive. Starting from a snapshot where one fits your trade, or building your setup once and saving it as a snapshot to reuse, saves the repeated work of building every piece from zero. We still test each piece with your own phone before a customer sees it.</p>
+      <p className="text-base text-white shadow-text pt-3">
         Next comes the pipeline. Name the stages after how your business really sells, such as New Lead, Contacted, Quote Sent, Booked and Won, and give each stage an owner. A pipeline with ten stages that nobody uses is worse than one with five that everyone does.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Then build three starter workflows: the instant reply to a new lead, appointment reminders, and a review request after the job. Test each one with your own phone and email before any customer sees it. Many problems, such as a message sent twice or a reminder at the wrong hour, show up in the first test.</p>
+        Then build three starter workflows: the instant reply to a new lead, appointment reminders, and a review request after the job. Connect the website’s form to the contact records and the follow-up, then test each connection by playing the customer yourself. Submit a real request from your own phone and email before any customer sees it. Many problems, such as a message sent twice or a reminder at the wrong hour, show up in the first test.</p>
       <p className="text-base text-white shadow-text pt-3">
         Finally, go live with one lead source first, usually your website form, and watch it for a week. Once the replies and bookings look right, add the next source, such as missed calls or Facebook messages. Switching everything on at once makes it hard to see what is working.</p>
     </>

@@ -4,6 +4,8 @@ export default function LedeSection() {
       <p className="text-base text-white shadow-text pt-3">
         An AI customer relationship management system, or AI CRM, keeps every customer, conversation and appointment in one record and uses rules and AI to handle the routine parts of follow-up. It answers a new lead within a minute, books the appointment, sends the reminder and asks for the review, while a person steps in whenever a conversation needs one.</p>
       <p className="text-base text-white shadow-text pt-3">
+        Picture an air conditioning company in Palm Beach County. A homeowner searches for a replacement estimate, lands on a page with one clear request button, asks a question and sends the form. A reply goes out within a minute, an assistant answers routine questions from approved information, the office sees the homeowner’s details, and an appointment is booked. The follow-up stops as soon as the appointment exists. Plumbers, roofers and other trades work the same way.</p>
+      <p className="text-base text-white shadow-text pt-3">
         For small businesses in South Florida, this matters because leads arrive from forms, calls, texts and social messages at all hours, and customers often contact several companies at once. A business that replies first and stays organized tends to win the job. A CRM makes that reply happen even when the owner is on a job site.</p>
       <p className="text-base text-white shadow-text pt-3">
         Geek @ Your Spot LLC sets up and configures AI CRM platforms for small businesses in Miami-Dade, Broward and Palm Beach counties, so the pipeline, the texting rules and the automations match how your business actually sells.</p>

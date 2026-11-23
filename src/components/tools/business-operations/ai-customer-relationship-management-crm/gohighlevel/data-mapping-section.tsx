@@ -25,7 +25,7 @@ export default function DataMappingSection() {
       <p className="text-base text-white shadow-text pt-3">
         The second is the difference between tags, custom fields and pipeline stages. Use stages for progress in a sale, fields for facts about the person or job, such as service type, address or quote amount, and tags for status that applies across the account, such as past customer or do not text. Mixing these up produces reports nobody can read.</p>
       <p className="text-base text-white shadow-text pt-3">
-        Lead source deserves its own field on every contact. Without it you cannot tell whether the next dollar belongs in Google, Facebook or referrals. Capture it from forms and links when the lead arrives, because reconstructing it later is guesswork.</p>
+        Lead source deserves its own field on every contact. Without it you cannot tell whether the next dollar belongs in Google, Facebook or referrals. Capture it from forms and links when the lead arrives, because reconstructing it later is guesswork. Then record what happened to each lead: whether it was a real prospect, whether it booked and whether the business won the work. Those three answers show the owner what the marketing is producing and tell you whether to change the website, the follow-up or the advertising.</p>
       <p className="text-base text-white shadow-text pt-3">
         Consent needs a field too, along with the date and the way it was given, such as a form checkbox or a reply to a text. Record opt-outs so that no workflow can message someone who asked to stop. Your attorney should review the wording of the consent you collect.</p>
       <p className="text-base text-white shadow-text pt-3">

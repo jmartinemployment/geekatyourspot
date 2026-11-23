@@ -2,9 +2,11 @@ export default function SetupSection() {
   const body = () => (
     <>
       <p className="text-base text-white shadow-text pt-3">
+        Before building anything, we check demand. For an air conditioning company that means looking at what homeowners actually search for, because replacement estimates, repairs and do-it-yourself instructions are different needs worth different amounts to the business. We also ask what a new job is worth after costs, how often an inquiry becomes a sale and whether you can handle more work.</p>
+      <p className="text-base text-white shadow-text pt-3">
         Setting up a CRM starts with how you actually sell. We map where your leads come from, who replies, how long a typical sale takes and where leads go cold, then choose the platform that fits and build the pipeline around those steps.</p>
       <p className="text-base text-white shadow-text pt-3">
-        We then register your texting, authenticate your email, import and clean your existing contacts, and build the first workflows: the instant reply to a new lead, appointment reminders and a review request. Each is tested before any customer sees it, and we go live with one lead source first.</p>
+        We then register your texting, authenticate your email, import and clean your existing contacts, and build the first workflows: the instant reply to a new lead, appointment reminders and a review request. Each is tested before any customer sees it, including questions the assistant should not answer and the rule that stops invitations once someone has booked. We go live with one lead source first.</p>
       <p className="text-base text-white shadow-text pt-3">
         Once the CRM is live, it runs on its own. You see every conversation in one place, and the system tells you when something needs a person. Book a consultation below to talk through where your leads come from today and where they slip away.</p>
     </>

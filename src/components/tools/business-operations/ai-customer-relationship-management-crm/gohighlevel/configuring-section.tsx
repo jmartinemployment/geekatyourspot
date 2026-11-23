@@ -25,7 +25,11 @@ export default function ConfiguringSection() {
       <p className="text-base text-white shadow-text pt-3">
         Texting rules are the first thing to get right. Set quiet hours so messages do not go out late at night, use merge fields so each text names the customer and your business, and make sure a reply of STOP removes the person from every sequence. These settings protect your customers and your phone number’s reputation.</p>
       <p className="text-base text-white shadow-text pt-3">
-        If you use the AI bot, you control what it knows and what it does. You give it your services, hours, service area and any answers you are happy to share, and you tell it when to hand off to a person, for example for pricing disputes, complaints or anything it cannot answer. Test it with realistic questions, including awkward ones, before it talks to a real customer.</p>
+        If you use the AI bot, you control what it knows and what it does. You give it only approved information: your services, hours, service areas and the common answers you are happy to share. You decide whether it checks your calendar and books a time, or lets the visitor request a time that your office confirms. You also tell it when to hand off to a person, for example for pricing disputes, complaints or anything it cannot answer.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        Then test what it should not answer. Ask it about an exact code requirement for an installation, a firm price for a job it has not seen, or whether a repair is safe. A good answer is a polite hand-off to your office, not a guess. Run these tests with awkward questions before the bot talks to a real customer.</p>
+      <p className="text-base text-white shadow-text pt-3">
+        Follow-up needs two rules. Send follow-up messages only to customers who agreed to receive them, and stop the invitations to book as soon as the customer schedules an appointment. Nobody likes being messaged over and over after they have already taken action.</p>
       <p className="text-base text-white shadow-text pt-3">
         Set user roles so staff see what they need and nothing more, and decide who is notified when a new lead arrives or when a conversation needs a person. The workflow history then lets you check, for any contact, which messages were sent and why, which makes troubleshooting a matter of reading a list.</p>
       <p className="text-base text-white shadow-text pt-3">

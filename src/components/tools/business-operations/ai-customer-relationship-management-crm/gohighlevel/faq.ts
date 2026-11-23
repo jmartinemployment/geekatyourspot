@@ -41,6 +41,16 @@ export const GOHIGHLEVEL_FAQ: FaqItem[] = [
       "A basic setup with a pipeline, an instant reply to new leads, appointment reminders and a review request can be built in a few weeks, and the texting registration often sets the pace. Adding more lead sources, AI and reporting takes longer, which is why we go live with one source first.",
   },
   {
+    question: "What is a snapshot in GoHighLevel?",
+    answer:
+      "A snapshot is a pre-built setup that you install in an account and then customize. It can include website templates, follow-up campaigns, workflows and AI bot settings for a type of business, such as plumbing or air conditioning. It saves time, but your services, service area, hours and wording still have to be written for your business.",
+  },
+  {
+    question: "Can GoHighLevel build my website?",
+    answer:
+      "HighLevel includes a website and funnel builder, plus an AI website builder that drafts a page from a short description of the business, the location and the action you want visitors to take. The draft needs a human edit for a specific headline, short copy and one clear button, such as a request for an estimate.",
+  },
+  {
     question: "Can I move my existing contacts into GoHighLevel?",
     answer:
       "Yes. Contacts can be imported from a spreadsheet file, so the work is cleaning the list first: one person per row, consistent phone numbers, no duplicates and a source for each contact.",

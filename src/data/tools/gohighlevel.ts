@@ -33,6 +33,6 @@ export const gohighlevelContent: ToolPageContent = {
     { "title": "Judging GoHighLevel: Fit, Flexibility, and How Its Pricing Works for Small Teams", "description": "The right way to judge GoHighLevel is to ask how much of your business runs on conversations." },
     { "title": "How GoHighLevel Compares to Other CRM Platforms", "description": "Small businesses in South Florida have many CRM options." },
     { "title": "Who Should Choose GoHighLevel and Who Should Not", "description": "GoHighLevel is built for small businesses that win work through conversations and appointments, and that lose it when a reply comes too late." },
-    { "title": "Frequently Asked Questions", "description": "11 questions about GoHighLevel, covering pricing, texting, AI, setup and moving your contacts." }
+    { "title": "Frequently Asked Questions", "description": "13 questions about GoHighLevel, covering pricing, texting, AI, setup and moving your contacts." }
   ]
 };
