@@ -14,6 +14,13 @@ const GONE_PATHS = [
   "/blog/technology-consulting-in-south-florida-expert-guidance-for-smarter-technology-decisions",
   "/blog/cloud-migration-infrastructure-reduce-it-costs-by-60-without-buying-another-server",
   "/orderstack-floor-plan",
+  // Search Console listed these as excluded (2026-11-24); no equivalent page exists.
+  "/tools/accounting/rows",
+  "/tools/accounting/kissflow",
+  "/tools/marketing/salesforce-einstein",
+  "/use-cases/accounting/ai-accounting-systems",
+  "/blog/category/technology-consulting",
+  "/blog/business-intelligence-solutions-for-south-florida-small-businesses-from-data-to-decisions",
   // Search Console listed these as excluded (2026-11-24); they answered 404 and have no equivalent page.
   "/blog/marketing/are-smart-chatbots-the-secret-weapon-for-marketing-success",
   "/blog/marketing/how-ai-powered-lead-scoring-can-boost-your-sales-funnel",
@@ -109,6 +116,7 @@ const MOVED_PAGES: ReadonlyArray<readonly [string, string]> = [
   ["/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency-for-smbs", "/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls"],
   ["/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting", "/use-cases/accounting/cash-flow-forecasting"],
   ["/use-cases/marketing/automated-ad-spend-optimization", "/use-cases/marketing/ad-spend-optimization"],
+  ["/tools/marketing/apollo", "/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/apollo"],
 ];
 
 const nextConfig: NextConfig = {
