@@ -96,7 +96,16 @@ export default async function Page() {
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
-            <ToolsHeroSection path="/tools/business-operations/ai-customer-relationship-management-crm/gohighlevel" title={PAGE_TITLE} summary={heroSummary} />
+            <ToolsHeroSection path="/tools/business-operations/ai-customer-relationship-management-crm/gohighlevel"
+                title={PAGE_TITLE}
+                summary={heroSummary}
+                heroImage={{
+                    src: "/images/business-operations/tools/gohighlevel-still-losing-leads.avif",
+                    alt: "Friendly robot pointing to a badge asking if you are still losing leads in your inbox",
+                    width: 1024,
+                    height: 1024
+                }}
+            />
             <OverviewSection />
             <ChallengesSection />
             <TransformsSection />
