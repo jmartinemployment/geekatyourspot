@@ -54,3 +54,7 @@ content-writer-research/
 *.webm
 *.avi
 *.mkv
+
+# Partner agreements, terms and contract drafts stay on the owner machine, never in the repository.
+/Partner-Data/
+/Contract-Drafts/
