@@ -16,6 +16,64 @@ const GONE_PATHS = [
   "/orderstack-floor-plan",
 ];
 
+// Pages that moved when the tools, blog posts and glossary were reorganised. Search Console listed
+// each old address as excluded (2026-11-24) and the live site answered 404. Each goes to the page
+// on the same subject, 301 so Google moves the ranking with it. Where a tool now sits under several
+// use cases, the old category picks the new one: multi-state-sales-tax-nexus -> ai-multi-state-sales-tax,
+// the complex and changing laws categories -> ai-tax-law, intelligent-resource-planning ->
+// ai-resource-planning, automated-payment-execution -> ai-payment-execution, cross-platform-chatbot
+// -> ai-chatbot. Old addresses with no equivalent page are not here.
+const MOVED_PAGES: ReadonlyArray<readonly [string, string]> = [
+  ["/blog/marketing/lead-capture-pipeline/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline", "/blog/business-operations/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline"],
+  ["/blog/marketing/lead-capture-pipeline/intelligent-receptionist-how-miami-small-businesses-can-stop-losing-leads-after-hours", "/blog/business-operations/intelligent-receptionist-how-miami-small-businesses-can-stop-losing-leads-after-hours"],
+  ["/tools/accounting/accounts-payable/automated-approval-workflows/approvalmax", "/tools/accounting/accounts-payable/ai-invoice-approval-workflows/approvalmax"],
+  ["/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/avidxchange", "/tools/accounting/accounts-payable/ai-payment-execution/avidxchange"],
+  ["/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/melio", "/tools/accounting/accounts-payable/ai-payment-execution/melio"],
+  ["/tools/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai/tipalti", "/tools/accounting/accounts-payable/ai-payment-execution/tipalti"],
+  ["/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/bill", "/tools/accounting/cash-flow-forecasting/ai-accounts-receivable/bill"],
+  ["/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/chaserhq", "/tools/accounting/cash-flow-forecasting/ai-accounts-receivable/chaserhq"],
+  ["/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/invoiced", "/tools/accounting/cash-flow-forecasting/ai-accounts-receivable/invoiced"],
+  ["/tools/accounting/cash-flow-forecasting/automated-accounts-receivable/versapay", "/tools/accounting/cash-flow-forecasting/ai-accounts-receivable/versapay"],
+  ["/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/cashflowfrog", "/tools/accounting/cash-flow-forecasting/ai-resource-planning/cashflowfrog"],
+  ["/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/fathomhq", "/tools/accounting/cash-flow-forecasting/ai-resource-planning/fathomhq"],
+  ["/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/jirav", "/tools/accounting/cash-flow-forecasting/ai-resource-planning/jirav"],
+  ["/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/quickbooks", "/tools/accounting/cash-flow-forecasting/ai-resource-planning/quickbooks"],
+  ["/tools/accounting/cash-flow-forecasting/intelligent-resource-planning/takethehelm", "/tools/accounting/cash-flow-forecasting/ai-resource-planning/takethehelm"],
+  ["/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/quaderno", "/tools/accounting/tax-compliance-regulations/ai-tax-law/quaderno"],
+  ["/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxcloud", "/tools/accounting/tax-compliance-regulations/ai-tax-law/taxcloud"],
+  ["/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/taxjar", "/tools/accounting/tax-compliance-regulations/ai-tax-law/taxjar"],
+  ["/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/thetaxvalet", "/tools/accounting/tax-compliance-regulations/ai-tax-law/thetaxvalet"],
+  ["/tools/accounting/tax-compliance-regulations/automating-complex-and-changing-laws/zamp", "/tools/accounting/tax-compliance-regulations/ai-tax-law/zamp"],
+  ["/tools/accounting/tax-compliance-regulations/complex-and-changing-laws/taxjar", "/tools/accounting/tax-compliance-regulations/ai-tax-law/taxjar"],
+  ["/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/quaderno", "/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/quaderno"],
+  ["/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxcloud", "/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/taxcloud"],
+  ["/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/taxjar", "/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/taxjar"],
+  ["/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/thetaxvalet", "/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/thetaxvalet"],
+  ["/tools/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus/zamp", "/tools/accounting/tax-compliance-regulations/ai-multi-state-sales-tax/zamp"],
+  ["/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/adp", "/tools/accounting/tax-compliance-regulations/ai-payroll-tax/adp"],
+  ["/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/deel", "/tools/accounting/tax-compliance-regulations/ai-payroll-tax/deel"],
+  ["/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/justworks", "/tools/accounting/tax-compliance-regulations/ai-payroll-tax/justworks"],
+  ["/tools/accounting/tax-compliance-regulations/payroll-tax-worker-misclassification/rippling", "/tools/accounting/tax-compliance-regulations/ai-payroll-tax/rippling"],
+  ["/tools/marketing/anomalo", "/tools/business-operations/ai-data-quality-assessments/anomalo"],
+  ["/tools/marketing/content-creation-workflow/intelligent-content-planning/hootsuite", "/tools/marketing/marketing-automation-platforms/ai-content-planning/hootsuite"],
+  ["/tools/marketing/content-creation-workflow/intelligent-content-planning/marketmuse", "/tools/marketing/marketing-automation-platforms/ai-content-planning/marketmuse"],
+  ["/tools/marketing/frase", "/tools/marketing/marketing-automation-platforms/ai-content-generation/frase"],
+  ["/tools/marketing/great-expectations", "/tools/business-operations/ai-data-quality-assessments/great-expectations"],
+  ["/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/botpenguin", "/tools/business-operations/ai-chatbot/botpenguin"],
+  ["/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/dapta", "/tools/business-operations/ai-chatbot/dapta"],
+  ["/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/manychat", "/tools/business-operations/ai-chatbot/manychat"],
+  ["/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/myaifrontdesk", "/tools/business-operations/ai-chatbot/myaifrontdesk"],
+  ["/tools/marketing/lead-capture-pipeline/cross-platform-chatbot/tidio", "/tools/business-operations/ai-chatbot/tidio"],
+  ["/tools/marketing/lead-capture-pipeline/intelligent-receptionist/voksha", "/tools/business-operations/ai-receptionist/voksha"],
+  ["/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/apollo", "/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/apollo"],
+  ["/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/factors", "/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/factors"],
+  ["/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/leadfeeder", "/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/leadfeeder"],
+  ["/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/lusha", "/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/lusha"],
+  ["/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/snitcher", "/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/snitcher"],
+  ["/tools/marketing/mailchimp", "/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailchimp"],
+  ["/tools/marketing/qualytics", "/tools/business-operations/ai-data-quality-assessments/qualytics"],
+];
+
 const nextConfig: NextConfig = {
   images: {
     formats: ['image/avif', 'image/webp'],
@@ -39,6 +97,7 @@ const nextConfig: NextConfig = {
       // Old WordPress pages that Search Console still reports as 404 (2026-11-06) and that have a
       // close match here. The old addresses with no equivalent page answer 410 Gone, see GONE_PATHS.
       { source: "/cookie-policy", destination: "/privacy-policy", permanent: true },
+      ...MOVED_PAGES.map(([source, destination]) => ({ source, destination, permanent: true })),
       {
         source: "/blog/search-engine-marketing-for-south-florida-dominating-google-in-broward-and-palm-beach-county",
         destination: "/blog/marketing/ad-spend-optimization/how-south-florida-businesses-can-stop-wasting-ad-spend",
