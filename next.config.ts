@@ -14,6 +14,36 @@ const GONE_PATHS = [
   "/blog/technology-consulting-in-south-florida-expert-guidance-for-smarter-technology-decisions",
   "/blog/cloud-migration-infrastructure-reduce-it-costs-by-60-without-buying-another-server",
   "/orderstack-floor-plan",
+  // Search Console listed these as excluded (2026-11-24); they answered 404 and have no equivalent page.
+  "/blog/marketing/are-smart-chatbots-the-secret-weapon-for-marketing-success",
+  "/blog/marketing/how-ai-powered-lead-scoring-can-boost-your-sales-funnel",
+  "/blog/marketing/how-personalized-email-campaigns-drive-real-results",
+  "/blog/marketing/how-smart-chatbots-revolutionize-b2b-marketing",
+  "/blog/marketing/unlocking-the-power-of-ai-for-content-repurposing",
+  "/tools/marketing/airia",
+  "/tools/marketing/chatgpt",
+  "/tools/marketing/claude",
+  "/tools/marketing/keyword-insights",
+  "/tools/marketing/madgicx",
+  "/tools/marketing/makecom",
+  "/tools/marketing/surfer-seo",
+  "/use-cases/accounting/accounts-payable/automated-approval-workflows-transforming-accounts-payable",
+  "/use-cases/accounting/accounts-payable/automated-payment-execution-streamlining-accounts-payable-with-ai",
+  "/use-cases/accounting/cash-flow-forecasting/automated-accounts-receivable-boost-cash-flow-with-ai",
+  "/use-cases/accounting/cash-flow-forecasting/automated-spreadsheet-data-transforming-cash-flow-forecasting-for-smbs",
+  "/use-cases/accounting/cash-flow-forecasting/intelligent-resource-planning-ai-driven-cash-flow-forecasting-for-small-business",
+  "/use-cases/accounting/tax-compliance-regulations/ai-solutions-for-complex-and-changing-tax-laws",
+  "/use-cases/accounting/tax-compliance-regulations/automating-complex-and-changing-laws",
+  "/use-cases/accounting/tax-compliance-regulations/multi-state-sales-tax-nexus-ai-driven-compliance-for-south-florida-smbs",
+  "/use-cases/marketing/ai-content-creation-workflow",
+  "/use-cases/marketing/ai-content-repurposing",
+  "/use-cases/marketing/ai-driven-lead-scoring-for-small-businesses",
+  "/use-cases/marketing/intelligent-lead-capture-pipeline",
+  "/use-cases/marketing/lead-capture-pipeline/cross-platform-chatbot-for-lead-capture-local-smb-implementation-guide",
+  "/use-cases/marketing/lead-capture-pipeline/intelligent-receptionist-streamline-lead-capture-for-south-florida-small-businesses",
+  "/use-cases/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-smarter-lead-capture-for-south-florida-smbs",
+  "/use-cases/marketing/seo-blog-and-article-generation",
+  "/use-cases/marketing/smart-chatbots-for-marketing",
 ];
 
 // Pages that moved when the tools, blog posts and glossary were reorganised. Search Console listed
@@ -22,7 +52,7 @@ const GONE_PATHS = [
 // use cases, the old category picks the new one: multi-state-sales-tax-nexus -> ai-multi-state-sales-tax,
 // the complex and changing laws categories -> ai-tax-law, intelligent-resource-planning ->
 // ai-resource-planning, automated-payment-execution -> ai-payment-execution, cross-platform-chatbot
-// -> ai-chatbot. Old addresses with no equivalent page are not here.
+// -> ai-chatbot. Old addresses with no equivalent page answer 410 instead, see GONE_PATHS.
 const MOVED_PAGES: ReadonlyArray<readonly [string, string]> = [
   ["/blog/marketing/lead-capture-pipeline/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline", "/blog/business-operations/cross-platform-chatbot-the-missing-link-in-your-south-florida-lead-capture-pipeline"],
   ["/blog/marketing/lead-capture-pipeline/intelligent-receptionist-how-miami-small-businesses-can-stop-losing-leads-after-hours", "/blog/business-operations/intelligent-receptionist-how-miami-small-businesses-can-stop-losing-leads-after-hours"],
@@ -72,6 +102,13 @@ const MOVED_PAGES: ReadonlyArray<readonly [string, string]> = [
   ["/tools/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring/snitcher", "/tools/marketing/marketing-automation-platforms/ai-lead-enrichment-predictive-scoring/snitcher"],
   ["/tools/marketing/mailchimp", "/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/mailchimp"],
   ["/tools/marketing/qualytics", "/tools/business-operations/ai-data-quality-assessments/qualytics"],
+  ["/blog/marketing/lead-capture-pipeline/lead-enrichment-and-predictive-scoring-how-south-florida-smbs-can-turn-more-leads-into-sales", "/blog/marketing/marketing-automation-platforms/lead-enrichment-and-predictive-scoring-how-south-florida-can-turn-more-leads-into-sales"],
+  ["/tools/marketing/active-campaign", "/tools/marketing/marketing-automation-platforms/ai-personalized-email-campaigns/activecampaign"],
+  ["/tools/marketing/copyai", "/tools/marketing/marketing-automation-platforms/ai-content-generation/copy"],
+  ["/tools/marketing/jasper-ai", "/tools/marketing/marketing-automation-platforms/ai-content-generation/jasper"],
+  ["/use-cases/accounting/accounts-payable/automated-fraud-duplicate-payment-controls-boosting-efficiency-for-smbs", "/use-cases/accounting/accounts-payable/ai-fraud-duplicate-payment-controls"],
+  ["/use-cases/accounting/cash-flow-forecasting/automated-cash-flow-forecasting", "/use-cases/accounting/cash-flow-forecasting"],
+  ["/use-cases/marketing/automated-ad-spend-optimization", "/use-cases/marketing/ad-spend-optimization"],
 ];
 
 const nextConfig: NextConfig = {
