@@ -26,9 +26,6 @@ export default function TransformsSection() {
         include. Writers know exactly what to cover, how to structure the article, and which gaps to fill to
         outperform competitors. This removes the need for endless back-and-forth between editors and writers,
         reduces revisions, and ensures that every piece supports the broader strategy.</p>
-      <blockquote cite="https://www.marketmuse.com/" className="mt-3 border-l-4 border-white/60 pl-4 italic text-base text-white shadow-text">
-        Our AI-powered software tells you what content to write (and how much) to leverage your experience and
-        rank higher where competitors are weak.</blockquote>
       <p className="text-base text-white shadow-text pt-3">
         The system also flags thin, low-quality, or outdated pages that could be dragging down search
         performance. Instead of waiting for a ranking drop or a manual audit, the team gets alerts on which

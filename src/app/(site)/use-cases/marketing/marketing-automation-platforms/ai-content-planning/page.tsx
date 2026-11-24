@@ -42,7 +42,7 @@ const jsonLd: Graph = {
                 { "@type": "Thing", "name": "HyperWrite", "url": "https://www.hyperwriteai.com/" },
                 { "@type": "Thing", "name": "Scalenut", "url": "https://www.scalenut.com/" },
                 { "@type": "Thing", "name": "Semrush", "url": "https://www.semrush.com/" },
-                { "@type": "Thing", "name": "MarketMuse", "url": "https://www.marketmuse.com/" }
+                { "@type": "Thing", "name": "MarketMuse", "url": "https://www.siteimprove.com/marketmuse/" }
             ]
         },
         {

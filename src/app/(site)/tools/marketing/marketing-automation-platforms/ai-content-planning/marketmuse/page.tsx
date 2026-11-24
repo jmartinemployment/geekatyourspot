@@ -38,7 +38,7 @@ const jsonLd: Graph = {
             "about": {
                 "@type": "Thing",
                 "name": TITLE,
-                "url": "https://www.marketmuse.com/",
+                "url": "https://www.siteimprove.com/marketmuse/",
                 "subjectOf": { "@type": "Article", "url": "https://geekatyourspot.com/use-cases/marketing/marketing-automation-platforms/ai-content-planning" }
             }
         },
