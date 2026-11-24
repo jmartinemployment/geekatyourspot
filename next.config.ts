@@ -5,6 +5,8 @@ import type { NextConfig } from "next";
 // pages never existed here and the rest were removed or renamed away. /api/gone is the responder.
 const GONE_PATHS = [
   "/tools/marketing/leadsquared",
+  // Geek-Receptionist tool page removed on purpose (owner, 2026-11-24).
+  "/tools/business-operations/ai-receptionist/geek-receptionist",
   "/tools/accounting/agicap",
   "/tools/accounting/freshbooks",
   "/tools/accounting/notion",

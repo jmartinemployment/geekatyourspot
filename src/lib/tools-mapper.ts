@@ -47,7 +47,6 @@ import { justworksContent } from "@/data/tools/justworks";
 import { jiravContent } from "@/data/tools/jirav";
 import { kyribaContent } from "@/data/tools/kyriba";
 import { leadfeederContent } from "@/data/tools/leadfeeder";
-import { geekReceptionistContent } from "@/data/tools/geek-receptionist";
 import { lobbystackContent } from "@/data/tools/lobbystack";
 import { lushaContent } from "@/data/tools/lusha";
 import { marpipeContent } from "@/data/tools/marpipe";
@@ -165,7 +164,6 @@ const toolsMap: Record<string, ToolPageContent> = {
   "jirav": jiravContent,
   "kyriba": kyribaContent,
   "leadfeeder": leadfeederContent,
-  "geek-receptionist": geekReceptionistContent,
   "gohighlevel": gohighlevelContent,
   "lobbystack": lobbystackContent,
   "lusha": lushaContent,
