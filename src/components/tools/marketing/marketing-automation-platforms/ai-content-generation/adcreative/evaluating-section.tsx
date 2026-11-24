@@ -37,7 +37,8 @@ export default function EvaluatingSection() {
         agency retainer. There are also quarterly and yearly plans with published discounts for longer commitments,
         and a 7-day free trial so you can test the platform before committing. There are no hidden fees for basic
         use, everything needed for high-volume creative generation, brand control, and ad platform integration is
-        included in the core subscription.</p>
+        included in the core subscription. Before you start the trial, read the renewal and refund terms, put the
+        trial end date in your calendar, and cancel before it passes if you decide not to continue.</p>
       <p className="text-base text-white shadow-text pt-3">
         When weighing AdCreative against other options, consider what you get for the price. Traditional creative
         production, whether hiring in-house, working with agencies, or buying stock assets, quickly exceeds $249 a
